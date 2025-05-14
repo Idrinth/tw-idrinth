@@ -1,0 +1,17 @@
+pooled_resource_factor	resource_cost	amount	context	ui_resource_transaction_pooled_resource
+#resource_cost_pooled_resource_junctions_tables;1;db/resource_cost_pooled_resource_junctions_tables/idrinth				
+idrinth_asuryan_characters	idrinth_asuryan_large	-300	absolute	default
+idrinth_asuryan_characters	idrinth_asuryan_medium	-200	absolute	default
+idrinth_asuryan_characters	idrinth_asuryan_small	-100	absolute	default
+idrinth_kurnous_characters	idrinth_kurnous_small	-100	absolute	default
+idrinth_kurnous_characters	idrinth_kurnous_medium	-200	absolute	default
+idrinth_kurnous_characters	idrinth_kurnous_large	-300	absolute	default
+idrinth_khaine_characters	idrinth_khaine_large	-300	absolute	default
+idrinth_khaine_characters	idrinth_khaine_medium	-200	absolute	default
+idrinth_khaine_characters	idrinth_khaine_small	-100	absolute	default
+idrinth_asuryan_building	idrinth_asuryan_chapel	-300	absolute	default
+idrinth_kurnous_building	idrinth_kurnous_chapel	-300	absolute	default
+idrinth_khaine_building	idrinth_khaine_chapel	-300	absolute	default
+idrinth_asuryan_building	idrinth_asuryan_chapel_2	-750	absolute	default
+idrinth_kurnous_building	idrinth_kurnous_chapel_2	-750	absolute	default
+idrinth_khaine_building	idrinth_khaine_chapel_2	-750	absolute	default

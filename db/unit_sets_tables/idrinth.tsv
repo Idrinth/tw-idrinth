@@ -1,0 +1,7 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/idrinth				
+idrinth_hev_high_elf_vampires_idrinth	false	-1	-1	
+idrinth_hev_high_elf_vampires_all_elves	false	-1	-1	
+idrinth_hev_high_elf_vampires_all_beasts	false	-1	-1	
+idrinth_hev_high_elf_vampires_all_animated	false	-1	-1	
+idrinth_hev_high_elf_vampires_priests	false	-1	-1	

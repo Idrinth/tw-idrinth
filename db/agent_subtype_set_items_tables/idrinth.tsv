@@ -1,0 +1,5 @@
+agent_subtype	set	remove
+#agent_subtype_set_items_tables;0;db/agent_subtype_set_items_tables/idrinth		
+idrinth_hev_high_elf_vampires_idrinth	hef_casters	false
+idrinth_hev_high_elf_vampires_idrinth	all_agents	false
+idrinth_hev_high_elf_vampires_idrinth	def_casters	false

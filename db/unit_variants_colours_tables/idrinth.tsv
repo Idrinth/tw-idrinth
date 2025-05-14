@@ -1,0 +1,8 @@
+key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_colour_hex	tertiary_colour_hex
+#unit_variants_colours_tables;3;db/unit_variants_colours_tables/idrinth							
+996124086		officer	idrinth_hev_high_elf_vampires_idrinth		000000	000000	000000
+996124087		soldier	idrinth_hev_high_elf_vampires_chapel_khaine		550000	000000	000000
+996124088		soldier	idrinth_hev_high_elf_vampires_chapel_kurnous		005500	AAAA00	000000
+996124089		soldier	idrinth_hev_high_elf_vampires_chapel_asuryan		FFFFFF	00007F	000000
+996124090		soldier	idrinth_hev_high_elf_vampires_chapel_mixed		000000	005500	000000
+996124091		mount	idrinth_hev_high_elf_vampires_chapel_stone_wolves		303030	000000	747474

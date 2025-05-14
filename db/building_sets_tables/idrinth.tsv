@@ -1,0 +1,6 @@
+key	icon	sort_order	show_in_ui	audio_switch	colour_hex
+#building_sets_tables;5;db/building_sets_tables/idrinth					
+idrinth_hev_high_elf_vampires_chapel	idrinth_hev_high_elf_vampires_chapel	1	true		FFFFFF
+idrinth_hev_high_elf_vampires_chapel_beast	idrinth_hev_high_elf_vampires_chapel_beasts	2	true		00AA7F
+idrinth_hev_high_elf_vampires_chapel_diplomacy	idrinth_hev_high_elf_vampires_chapel_diplomacy	3	true		AAFFFF
+idrinth_hev_high_elf_vampires_chapel_altar	idrinth_hev_high_elf_vampires_chapel_altar	4	true		FF557F

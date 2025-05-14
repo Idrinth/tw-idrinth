@@ -1,0 +1,8 @@
+key	unit	trade_value	icon_filepath	strategic_value	in_encyclopedia	show_on_city_infobar
+#resources_tables;5;db/resources_tables/idrinth						
+res_elven_pelts	bundle	50	ui\campaign ui\effect_bundles\resource_furs.png	500	false	true
+res_elven_wine	chests	50	ui\campaign ui\effect_bundles\resource_wine.png	500	false	true
+res_elven_herbs	sacks	50	ui\campaign ui\effect_bundles\resource_medicine.png	500	false	true
+res_elven_juwelry	chests	50	ui\campaign ui\effect_bundles\resource_trinkets.png	500	false	true
+res_elven_weapons	bundle	50	ui\campaign ui\effect_bundles\ammo.png	500	false	true
+res_elven_treatises	bundle	50	ui\campaign ui\effect_bundles\technology.png	500	false	true

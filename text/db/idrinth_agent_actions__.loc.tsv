@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/db/idrinth_agent_actions__.loc		
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	[[col:yellow]]Increases experience gain by %n% for units serving in the parent army.[[/col]]	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	[[col:yellow]]Kills the target [[img:icon_hero]][[/img]]Hero.[[/col]]	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	[[col:yellow]]Inflicts damage upon all units in the target army.[[/col]]	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp	[[col:yellow]]Increases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province by %n.[[/col]]	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp	{{tr:agent_action_name_spread_corruption}}	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	{{tr:agent_action_name_training}}	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	{{tr:agent_action_name_assassinate}}	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	{{tr:agent_action_name_assault_units}}	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_passive_stimulate_growth	{{tr:agent_action_name_stimulate_growth}}	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_passive_stimulate_growth	Decreases [[img:icon_growth]][[/img]]growth	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_passive_spread_public_order	[[col:yellow]]Increases the amount of [[img:icon_public_order]][[/img]]Public order in the local province by %n.[[/col]]	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_passive_spread_public_order	Increases [[img:icon_public_order]][[/img]]Public order	false

@@ -1,0 +1,5 @@
+agent_subtype	initiative
+#ui_initiative_to_agent_subtypes_tables;0;db/ui_initiative_to_agent_subtypes_tables/idrinth	
+idrinth_hev_high_elf_vampires_idrinth	idrinth_khaine
+idrinth_hev_high_elf_vampires_idrinth	idrinth_kurnous
+idrinth_hev_high_elf_vampires_idrinth	idrinth_asuryan

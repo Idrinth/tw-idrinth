@@ -1,0 +1,5 @@
+item	set	initially_locked
+#initiative_set_items_tables;1;db/initiative_set_items_tables/idrinth		
+idrinth_asuryan	idrinth_godly_favour	false
+idrinth_kurnous	idrinth_godly_favour	false
+idrinth_khaine	idrinth_godly_favour	false

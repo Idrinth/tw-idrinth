@@ -1,0 +1,47 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/idrinth					
+idrinth_effect_agent_action_enable_assist_army_training	experience.png	8	experience.png	campaign	true
+idrinth_effect_agent_action_enable_hinder_army_assault_units		1		campaign	true
+idrinth_effect_agent_action_enable_passive_spread_corruption_vmp		2		campaign	true
+idrinth_effect_agent_action_enable_hinder_agent_assassinate		3		campaign	true
+idrinth_effect_agent_action_enable_passive_stimulate_growth		4		campaign	true
+idrinth_pooled_resource_khaine	khaine.png	5	khaine.png	campaign	true
+idrinth_pooled_resource_kurnous	kurnous.png	6	kurnous.png	campaign	true
+idrinth_pooled_resource_asuryan	asuryan.png	7	asuryan.png	campaign	true
+idrinth_effect_character_stat_ammunition	ammo_character.png	210	ammo_character.png	both	true
+idrinth_effect_character_stat_ward_save	resistance_ward_save.png	580	resistance_ward_save.png	both	true
+idrinth_effect_character_stat_ap_damage	armour_piercing_character.png	170	armour_piercing_character.png	both	true
+idrinth_effect_upkeep_idrinth		777		campaign	false
+idrinth_initiative_khaine	khaine.png	666	khaine.png	campaign	true
+idrinth_initiative_kurnous	kurnous.png	666	kurnous.png	campaign	true
+idrinth_initiative_asuryan	asuryan.png	66	asuryan.png	campaign	true
+idrinth_pooled_resource_khaine_good	khaine.png	5	khaine.png	campaign	true
+idrinth_pooled_resource_kurnous_good	kurnous.png	6	kurnous.png	campaign	true
+idrinth_pooled_resource_asuryan_good	asuryan.png	7	asuryan.png	campaign	true
+idrinth_pooled_resource_khaine_bad	khaine.png	5	khaine.png	campaign	true
+idrinth_pooled_resource_kurnous_bad	kurnous.png	6	kurnous.png	campaign	true
+idrinth_pooled_resource_asuryan_bad	asuryan.png	7	asuryan.png	campaign	true
+idrinth_chapel_khaine_charge	khaine.png	5	khaine.png	campaign	true
+idrinth_chapel_kurnous_range	kurnous.png	6	kurnous.png	campaign	true
+idrinth_chapel_asuryan_ward_save	asuryan.png	7	asuryan.png	campaign	true
+idrinth_effect_agent_action_enable_passive_spread_public_order		4		campaign	true
+idrinth_loremaster_lore_of_vampires		12		both	false
+idrinth_loremaster_lore_of_shadows		123		both	false
+idrinth_loremaster_lore_of_death		123		both	false
+idrinth_priests_wh_main_effect_force_stat_weapon_strength		4		both	true
+idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction		4		both	false
+idrinth_priests_wh_main_effect_force_stat_speed		4		both	true
+idrinth_priests_wh_main_effect_force_stat_range		4		both	true
+idrinth_priests_wh_main_effect_force_stat_melee_defence		4		both	true
+idrinth_priests_wh_main_effect_force_stat_melee_attack_pct		4		both	true
+idrinth_priests_wh_main_effect_force_stat_fire_resistance		4		both	true
+idrinth_priests_wh_main_effect_force_stat_charge_bonus_pct		4		both	true
+idrinth_priests_wh_main_effect_force_all_campaign_replenishment_rate		4		both	true
+idrinth_priests_wh_main_effect_character_stat_physical_resistance		4		both	true
+idrinth_priests_wh_main_effect_character_stat_missile_resistance		4		both	true
+idrinth_priests_wh_main_effect_character_stat_missile_damage		4		both	true
+idrinth_priests_wh_main_effect_attribute_enable_causes_fear		4		both	true
+idrinth_priests_wh_main_effect_ability_enable_the_hunger		4		both	true
+idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek		4		both	true
+idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead		4		both	true
+idrinth_successful_action_motivation	wound_time.png	345		campaign	true

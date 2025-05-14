@@ -1,0 +1,3 @@
+character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
+#battle_set_piece_armies_characters_tables;8;db/battle_set_piece_armies_characters_tables/idrinth												
+idrinth_hev_high_elf_vampires_idrinth	1	99999999999990	wh_main_lore_vampires	100	99999999999991	idrinth_hev_high_elf_vampires_idrinth	champion	idrinth_hev_high_elf_vampires_idrinth	ui/portraits/portholes/no_culture/hef_noble_campaign_03_0.png	999999999	idrinth_hev_high_elf_vampires_idrinth	true

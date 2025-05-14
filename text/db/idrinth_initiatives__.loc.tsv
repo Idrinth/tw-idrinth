@@ -1,0 +1,26 @@
+key	text	tooltip
+#Loc;1;text/db/idrinth_initiatives__.loc		
+initiatives_localised_description_idrinth_khaine	Dedicate your next 3 rounds to Khaine.	false
+initiatives_localised_name_idrinth_khaine	Devotion to Khaine	false
+initiatives_localised_description_idrinth_kurnous	Dedicate your next 3 rounds to Kurnous.	false
+initiatives_localised_name_idrinth_kurnous	Devotion to Kurnous	false
+initiatives_localised_description_idrinth_asuryan	Dedicate your next 3 rounds to Asuryan.	false
+initiatives_localised_name_idrinth_asuryan	Devotion to Asuryan	false
+initiatives_localised_description_idrinth_khaine_small	Spends 100 Khaine Favour.	false
+initiatives_localised_name_idrinth_khaine_small	Small Prayer to Khaine	false
+initiatives_localised_description_idrinth_kurnous_small	Spends 100 Kurnous Favour.	false
+initiatives_localised_name_idrinth_kurnous_small	Small Prayer to Kurnous	false
+initiatives_localised_description_idrinth_asuryan_small	Spends 100 Asuryan Favour.	false
+initiatives_localised_name_idrinth_asuryan_small	Small Prayer to Asuryan	false
+initiatives_localised_description_idrinth_khaine_medium	Spends 200 Khaine Favour.	false
+initiatives_localised_name_idrinth_khaine_medium	Medium Prayer to Khaine	false
+initiatives_localised_description_idrinth_kurnous_medium	Spends 200 Kurnous Favour.	false
+initiatives_localised_name_idrinth_kurnous_medium	Medium Prayer to Kurnous	false
+initiatives_localised_description_idrinth_asuryan_medium	Spends 200 Asuryan Favour.	false
+initiatives_localised_name_idrinth_asuryan_medium	Medium Prayer to Asuryan	false
+initiatives_localised_description_idrinth_khaine_large	Spends 300 Khaine Favour.	false
+initiatives_localised_name_idrinth_khaine_large	Large Prayer to Khaine	false
+initiatives_localised_description_idrinth_kurnous_large	Spends 300 Kurnous Favour.	false
+initiatives_localised_name_idrinth_kurnou_large	Large Prayer to Kurnous	false
+initiatives_localised_description_idrinth_asuryan_large	Spends 300 Asuryan Favour.	false
+initiatives_localised_name_idrinth_asuryan_large	Large Prayer to Asuryan	false

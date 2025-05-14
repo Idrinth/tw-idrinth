@@ -1,0 +1,6 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled	is_foreign_slot_chain
+#building_chains_tables;10;db/building_chains_tables/idrinth										
+idrinth_hev_high_elf_vampires_chapel			money	false	idrinth_slot_set_chapel		1		true	false
+idrinth_hev_high_elf_vampires_beasts			money	false	idrinth_slot_set_chapel		2		true	false
+idrinth_hev_high_elf_vampires_diplomacy			money	false	idrinth_slot_set_chapel		3		true	false
+idrinth_hev_high_elf_vampires_altar			money	false	idrinth_slot_set_chapel		4		true	false

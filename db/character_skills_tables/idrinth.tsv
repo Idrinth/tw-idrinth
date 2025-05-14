@@ -1,0 +1,56 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/idrinth									
+idrinth_campaign_actions_dummy	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
+idrinth_wh2_main_skill_all_hero_assist_army_training	campaign_experience.png		{{tr:agent_action_name_training}}	0	false	false	false	0.0000	0
+idrinth_wh2_main_skill_all_hero_hinder_agent_assassinate	campaign_subterfuge.png		{{tr:agent_action_name_assassinate}}	0	false	false	false	0.0000	0
+idrinth_wh2_main_skill_all_hero_hinder_army_assault_units	campaign_disaster.png		{{tr:agent_action_name_assault_units}}	0	false	false	false	0.0000	0
+idrinth_wh2_main_skill_all_hero_reduce_action_cost	campaign_military_spending.png		Specialist	0	false	false	false	0.0000	0
+idrinth_wh2_main_skill_hef_combat_valour_of_ages	character_damage.png		Valour of Ages	0	false	false	false	0.0000	0
+idrinth_wh2_main_skill_hef_generic_speed_of_asuryan	character_speed.png		Speed of Asuryan	3	false	false	false	0.0000	0
+idrinth_wh2_main_skill_hef_generic_warding_of_hoeth	character_ward_save.png		Ward of Hoeth	7	false	false	false	0.0000	0
+idrinth_wh2_main_skill_hef_generic_warding_of_loec	character_ward_save.png		Ward of Loec	7	false	false	false	0.0000	0
+idrinth_wh3_dlc24_skill_all_all_self_colossal_strike	wh3_dlc24_character_abilities_colossal_strike.png		{{tr:unit_abilities_onscreen_name_wh3_dlc24_character_abilities_colossal_strike}}	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_all_self_blade_master	character_attack.png		Blade Master	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_all_self_hard_to_hit	character_defence.png		Hard to Hit	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_dignitary_self_conviction	character_morale.png		Conviction	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_dignitary_self_fervour	character_damage.png		Fervour	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_dignitary_self_inviolable_2	character_armour.png		Inviolable	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_dignitary_self_tenacity_2	character_health.png		Tenacity	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_magic_all_06_evasion	wh_main_character_passive_evasion.png		Evasion	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_magic_all_07_earthing	character_magic.png		Earthing	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_magic_all_08_power_drain	character_magic.png		Magical Reserves	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_magic_all_11_arcane_conduit	wh_main_character_abilities_arcane_conduit.png		Arcane Conduit	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_vmp_dignitary_self_immortal_will	wh_main_hero_abilities_immortal_will.png		Immortal Will	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_vmp_magic_vampires_01_invocation_of_nehek	wh_main_spell_vampires_invocation_of_nehek.png		Invocation of Nehek	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_vmp_magic_vampires_02_vanhels_danse_macabre	wh_main_spell_vampires_vanhels_danse_macabre.png		Vanhel's Danse Macabre	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_vmp_magic_vampires_04_gaze_of_nagash	wh_main_spell_vampires_gaze_of_nagash.png		Gaze of Nagash	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_vmp_magic_vampires_09_curse_of_years	wh_main_spell_vampires_curse_of_years.png		Curse of Years	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_vmp_magic_vampires_10_wind_of_death	wh_main_spell_vampires_wind_of_death.png		Wind of Death	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_magic_death_04_soulblight	wh_main_spell_death_soulblight.png		Soulblight	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_magic_death_05_doom_and_darkness	wh_main_spell_death_doom_and_darkness.png		Doom & Darkness	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_magic_death_09_the_fate_of_bjuna	wh_main_spell_death_the_fate_of_bjuna.png		The Fate of Bjuna	0	false	false	false	0.0000	0
+idrinth_wh_main_skill_all_magic_death_01_spirit_leech	wh_main_spell_death_spirit_leech.png		Spirit Leech	0	false	false	false	0.0000	0
+idrinth_wh_dlc05_skill_magic_shadow_enfeebling_foe	wh_dlc05_spell_shadow_the_enfeebling_foe.png		The Enfeebling Foe	0	false	false	false	0.0000	0
+idrinth_wh_dlc05_skill_magic_shadow_mystifying_miasma	wh_dlc05_spell_shadow_melkoths_mystifying_miasma.png		Melkoth's Mystifying Miasma	0	false	false	false	0.0000	0
+idrinth_wh_dlc05_skill_magic_shadow_pit_of_shades	wh_dlc05_spell_shadow_pit_of_shades.png		Pit of Shades	0	false	false	false	0.0000	0
+idrinth_wh_dlc05_skill_magic_shadow_the_withering	wh_dlc05_spell_shadow_the_withering.png		The Withering	0	false	false	false	0.0000	0
+idrinth_skill_magic_weapon_master	trait_personality.png		Master of Blade, Bow and Magic	0	true	false	false	1.0000	0
+idrinth_wh_dlc05_skill_wef_army_buff_ranged_ammunition	battle_ammo.png		Nature's Quiver 	0	false	false	false	0.0000	0
+idrinth_wh_dlc05_skill_wef_army_buff_ranged_extra_reload	character_ranged_damage.png		Rain of Spines	9	false	false	false	0.0000	0
+idrinth_wh_dlc05_skill_wef_army_buff_ranged_missile_damage	battle_ranged_damage.png		Bolts of the Forest	0	false	false	false	0.0000	0
+idrinth_wh_dlc05_skill_wef_general_personal_buff_ranged_ability_high_tier_killer_1	wh_dlc05_hero_abilities_arrow_of_kurnous.png		Arrow of Kurnous	0	false	false	false	0.0000	0
+idrinth_diplomat_high_elves	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_wood_elves	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_dark_elves	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_vampire_coast	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_vampire_counts	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_bretonnia	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_norsca	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_kislev	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_cathay	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_empire	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_lizardmen	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_diplomat_dwarves	character_diplomacy.png		Diplomat of the Everqueen	15	false	false	false	0.0000	0
+idrinth_loremaster_lore_of_vampires	character_magic.png		Loremaster, Lore of Vampires	8	false	false	false	0.0000	0
+idrinth_loremaster_lore_of_shadows	character_magic.png		Loremaster, Lore of Vampires	8	false	false	false	0.0000	0
+idrinth_loremaster_lore_of_death	character_magic.png		Loremaster, Lore of Vampires	8	false	false	false	0.0000	0

@@ -1,0 +1,3 @@
+key	index	fallback_ui_culture	ui_background_image	audio_state	ui_group_by_culture	audio_rtpc	audio_corruption_state
+#cultures_tables;11;db/cultures_tables/idrinth							
+idrinth_hev_high_elf_vampires	12492916439		UI/skins/default/panorama_idrinth_hev_high_elf_vampires.png	High_Elves	false		

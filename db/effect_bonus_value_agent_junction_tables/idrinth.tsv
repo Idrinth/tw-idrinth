@@ -1,0 +1,5 @@
+effect	bonus_value_id	agent
+#effect_bonus_value_agent_junction_tables;0;db/effect_bonus_value_agent_junction_tables/idrinth		
+idrinth_successful_action_motivation	critical_success_mod	champion
+idrinth_successful_action_motivation	success_mod	champion
+idrinth_successful_action_motivation	action_cost_mod	champion

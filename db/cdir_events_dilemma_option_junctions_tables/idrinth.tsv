@@ -1,0 +1,4 @@
+id	dilemma_key	option_key	value	target
+#cdir_events_dilemma_option_junctions_tables;1;db/cdir_events_dilemma_option_junctions_tables/idrinth				
+9999999999	idrinth_unlock_choice	GEN_TARGET_NONE		default
+10000000000	idrinth_unlock_choice	VAR_CHANCE	0	default

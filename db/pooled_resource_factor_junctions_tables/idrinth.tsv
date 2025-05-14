@@ -1,0 +1,23 @@
+unique_id	factor	resource	minimum	maximum	specific_faction_set
+#pooled_resource_factor_junctions_tables;2;db/pooled_resource_factor_junctions_tables/idrinth					
+idrinth_asuryan_characters	characters	idrinth_asuryan	0	1000	
+idrinth_khaine_characters	characters	idrinth_khaine	0	1000	
+idrinth_kurnous_characters	characters	idrinth_kurnous	0	1000	
+idrinth_asuryan_other	other	idrinth_asuryan	-1000	1000	
+idrinth_khaine_other	other	idrinth_khaine	-1000	1000	
+idrinth_kurnous_other	other	idrinth_kurnous	-1000	1000	
+idrinth_asuryan_battles	battles	idrinth_asuryan	0	1000	
+idrinth_khaine_battles	battles	idrinth_khaine	0	1000	
+idrinth_kurnous_battles	battles	idrinth_kurnous	0	1000	
+idrinth_asuryan_missions	missions	idrinth_asuryan	-1000	1000	
+idrinth_khaine_missions	missions	idrinth_khaine	-1000	1000	
+idrinth_kurnous_missions	missions	idrinth_kurnous	-1000	1000	
+idrinth_asuryan_good	traits_good	idrinth_asuryan	0	1000	
+idrinth_khaine_good	traits_good	idrinth_khaine	0	1000	
+idrinth_kurnous_good	traits_good	idrinth_kurnous	0	1000	
+idrinth_asuryan_bad	traits_bad	idrinth_asuryan	-1000	0	
+idrinth_khaine_bad	traits_bad	idrinth_khaine	-1000	0	
+idrinth_kurnous_bad	traits_bad	idrinth_kurnous	-1000	0	
+idrinth_asuryan_building	building_construction	idrinth_asuryan	-1000	1000	
+idrinth_khaine_building	building_construction	idrinth_khaine	-1000	1000	
+idrinth_kurnous_building	building_construction	idrinth_kurnous	-1000	1000	

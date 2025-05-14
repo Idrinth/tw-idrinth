@@ -1,0 +1,16 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/idrinth										
+idrinth_hev_high_elf_vampires	true	idrinth_hev_high_elf_vampires_idrinth	true	true	ui/portraits/portholes/no_culture/idrinth_hev_high_elf_vampires_idrinth.png	idrinth_hev_high_elf_vampires_idrinth	idrinth_hev_high_elf_vampires_idrinth	false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_mixed	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_asuryan	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_asuryan_leader	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_kurnous	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_kurnous_leader	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_khaine	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_khaine_leader	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_cave_bats	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_hawks	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_wolves	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_great_eagle	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_shrine	true	true				false		false
+idrinth_hev_high_elf_vampires	false	idrinth_hev_high_elf_vampires_chapel_stone_wolves	true	true				false		false

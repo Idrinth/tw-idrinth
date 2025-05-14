@@ -1,0 +1,18 @@
+id	treasury_cost	expenditure_type	income_type	expenditure_type_when_regular	income_type_when_regular
+#resource_costs_tables;0;db/resource_costs_tables/idrinth					
+idrinth_asuryan_small	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_asuryan_medium	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_asuryan_large	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_kurnous_small	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_kurnous_medium	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_kurnous_large	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_khaine_small	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_khaine_medium	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_khaine_large	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_switch_devotion	500	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_asuryan_chapel	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_kurnous_chapel	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_khaine_chapel	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_asuryan_chapel_2	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_kurnous_chapel_2	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
+idrinth_khaine_chapel_2	0	PAYLOAD	OTHER	ARMY_UPKEEP	BACKGROUND_INCOME
