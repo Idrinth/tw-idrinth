@@ -281,6 +281,7 @@ Idrinth._expandedCultures = {
 Idrinth._unlockLevelAdjustment = nil;
 Idrinth._expandedCulturesActive = nil;
 Idrinth._unlockLevelAdjustmentDilemma = "idrinth_levelMinimum_choice";
+Idrinth._enableChapelsDilemma = "idrinth_chapels_choice";
 Idrinth._unlockMissionStarted = {};
 Idrinth._unlockMissionStartedLoaded = false;
 Idrinth._enableChapels = nil;
@@ -401,6 +402,22 @@ core:add_listener(
     true
 );
 core:add_listener(
+    "idrinth_chapelMode_DilemmaChoiceMadeEvent",
+    "DilemmaChoiceMadeEvent",
+    function(context)
+        local idrinth = Idrinth.get();
+        if idrinth then
+            return false;
+        end;
+        return context:dilemma() == Idrinth._enableChapelsDilemma;
+    end,
+    function(context)
+        out("IDRINTH DEBUG: ===== CHAPEL CHOICE CHECK =====");
+        Idrinth._enableChapels = (context:choice() == 1);
+    end,
+    true
+);
+core:add_listener(
     "idrinth_unlock_FactionTurnStart",
     "FactionTurnStart",
     function(context)
@@ -505,6 +522,22 @@ core:add_listener(
     function(context)
         out("IDRINTH DEBUG: ===== START LEVEL DILEMMA =====");
         cm:trigger_dilemma(context:faction():name(), Idrinth._unlockLevelAdjustmentDilemma);
+    end,
+    false
+);
+core:add_listener(
+    "idrinth_modeChapels_FactionTurnStart",
+    "FactionTurnStart",
+    function(context)
+        local idrinth = Idrinth.get();
+        if idrinth then
+            return false;
+        end;
+        return context:faction():is_human() and nil == Idrinth._enableChapels and not Idrinth._unlockInstantly;
+    end,
+    function(context)
+        out("IDRINTH DEBUG: ===== CHAPEL DILEMMA =====");
+        cm:trigger_dilemma(context:faction():name(), Idrinth._enableChapelsDilemma);
     end,
     false
 );
@@ -736,7 +769,7 @@ core:add_listener(
         else
             buildingSpawnChance = buildingSpawnChance * 1.5;
         end;
-        if buildingSpawnChance > cm:random_number(500) and idrinth:region() and not idrinth:is_wounded() and idrinth:has_region() then
+        if (Idrinth._unlockInstantly or Idrinth._enableChapels) and buildingSpawnChance > cm:random_number(500) and idrinth:region() and not idrinth:is_wounded() and idrinth:has_region() then
             local foreignSlotManager = idrinth:region():foreign_slot_manager_for_faction(faction_key);
             if foreignSlotManager and not foreignSlotManager:is_null_interface() then
                 local found = false;
@@ -1382,6 +1415,9 @@ cm:add_saving_game_callback(
         for name, element in pairs(Idrinth._godFavourDilemmas) do
             cm:save_named_value("idrinth.godFavour." .. name, element.cooldown, context);
         end;
+        if Idrinth._enableChapels then
+            cm:save_named_value("idrinth.enableChapels", 1, context)
+        end;
 	end
 );
 cm:add_loading_game_callback(
@@ -1394,6 +1430,7 @@ cm:add_loading_game_callback(
             Idrinth._dilemmaCooldown = cm:load_named_value("idrinth.dilemmaCooldown", Idrinth._dilemmaCooldown, context);
             Idrinth._expandedCulturesActive = (cm:load_named_value("idrinth.expandedCultures", 0, context) == 1);
             Idrinth._unlockLevelAdjustment = cm:load_named_value("idrinth.unlockLevelAdjustment", 0, context);
+            Idrinth._enableChapels = (cm:load_named_value("idrinth.enableChapels", 0, context) == 1);
             for name, element in pairs(Idrinth.dilemmas) do
                 element.triggered = (cm:load_named_value("idrinth.dilemmas." .. name, 0, context) == 1);
             end;
