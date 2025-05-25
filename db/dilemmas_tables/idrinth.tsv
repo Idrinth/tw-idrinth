@@ -1,20 +1,21 @@
 key	generate	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override	override_icon	is_large_dilemma
 #dilemmas_tables;3;db/dilemmas_tables/idrinth										
-idrinth_unlock_choice	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_high_elves	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_wood_elves	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_kislev	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_empire	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_vampire_counts	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_dwarves	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_weapon	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_armour	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_talisman	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_mode_choice	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_unlock_high_elves	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_unlock_wood_elves	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_unlock_kislev	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_unlock_empire	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_unlock_vampire_counts	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_dilemma_god_favour	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
-idrinth_levelMinimum_choice	false	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_unlock_choice	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_high_elves	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_wood_elves	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_kislev	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_empire	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_vampire_counts	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_dwarves	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_weapon	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_armour	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_talisman	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_mode_choice	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_unlock_high_elves	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_unlock_wood_elves	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_unlock_kislev	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_unlock_empire	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_unlock_vampire_counts	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_dilemma_god_favour	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_levelMinimum_choice	false		Idrinth Thalui	army_morale_up	false	Event				false
+idrinth_chapels_choice	false		Idrinth Thalui	army_morale_up	false	Event				false

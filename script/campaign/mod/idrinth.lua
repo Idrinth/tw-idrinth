@@ -285,6 +285,11 @@ Idrinth._enableChapelsDilemma = "idrinth_chapels_choice";
 Idrinth._unlockMissionStarted = {};
 Idrinth._unlockMissionStartedLoaded = false;
 Idrinth._enableChapels = nil;
+Idrinth.currentVersion = {
+    main = 0,
+    feature = 13,
+    bug = 0,
+};
 Idrinth._unlockInstantly = (common.filesystem_lookup("/script/", "enable_idrinth_instant") ~= "");
 Idrinth.get = function()
     for pos0, culture in pairs(Idrinth._cultures) do
@@ -312,6 +317,19 @@ Idrinth.get = function()
         end;
     end;
     return nil, nil, nil;
+end;
+Idrinth.isCurrentVersionNewerThan = function(main, feature, bug)
+    if main < Idrinth.currentVersion.main then
+        return true;
+    elseif main > Idrinth.currentVersion.main then
+        return false;
+    end;
+    if feature < Idrinth.currentVersion.feature then
+        return true;
+    elseif feature > Idrinth.currentVersion.feature then
+        return false;
+    end;
+    return bug < Idrinth.currentVersion.bug;
 end;
 
 core:add_listener(
@@ -1416,8 +1434,13 @@ cm:add_saving_game_callback(
             cm:save_named_value("idrinth.godFavour." .. name, element.cooldown, context);
         end;
         if Idrinth._enableChapels then
-            cm:save_named_value("idrinth.enableChapels", 1, context)
+            cm:save_named_value("idrinth.enableChapels", 1, context);
+        elseif Idrinth._enableChapels == false then
+            cm:save_named_value("idrinth.enableChapels", 0, context);
         end;
+        cm:save_named_value("idrinth.version.main", Idrinth.currentVersion.main, context);
+        cm:save_named_value("idrinth.version.feature", Idrinth.currentVersion.feature, context);
+        cm:save_named_value("idrinth.version.bug", Idrinth.currentVersion.bug, context);
 	end
 );
 cm:add_loading_game_callback(
@@ -1436,6 +1459,14 @@ cm:add_loading_game_callback(
             end;
             for name, element in pairs(Idrinth._godFavourDilemmas) do
                 element.cooldown = cm:load_named_value("idrinth.godFavour." .. name, 0, context);
+            end;
+            version = {
+                main =  cm:load_named_value("idrinth.version.main", 0, context),
+                feature =  cm:load_named_value("idrinth.version.feature", 0, context),
+                bug =  cm:load_named_value("idrinth.version.bug", 0, context),
+            };
+            if Idrinth.isCurrentVersionNewerThan(version.main, version.feature, version.bug) then
+                Idrinth._enableChapels = true;
             end;
 		end;
 	end
