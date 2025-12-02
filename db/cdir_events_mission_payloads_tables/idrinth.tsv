@@ -14,3 +14,15 @@ id	mission_key	payload_key	status_key	value	target_key
 9999999911	idrinth_unlock_wh_main_emp_empire	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_khaine];FACTOR[idrinth_khaine_missions];AMOUNT[20];CONTEXT[absolute]	default
 9999999912	idrinth_unlock_wh_main_emp_empire	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_asuryan];FACTOR[idrinth_asuryan_missions];AMOUNT[20];CONTEXT[absolute]	default
 9999999913	idrinth_unlock_wh_main_emp_empire	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_kurnous];FACTOR[idrinth_kurnous_missions];AMOUNT[20];CONTEXT[absolute]	default
+9999999914	idrinth_unlock_wh2_main_def_dark_elves	TREASURY	SUCCESS	AMOUNT[1000]	default
+9999999915	idrinth_unlock_mixer_nag_nagash	TREASURY	SUCCESS	AMOUNT[1000]	default
+9999999916	idrinth_unlock_wh2_dlc11_cst_vampire_coast	TREASURY	SUCCESS	AMOUNT[1000]	default
+9999999917	idrinth_unlock_wh_main_brt_bretonnia	TREASURY	SUCCESS	AMOUNT[1000]	default
+9999999918	idrinth_unlock_wh3_main_cth_cathay	TREASURY	SUCCESS	AMOUNT[1000]	default
+9999999919	idrinth_unlock_wh2_main_def_dark_elves	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_khaine];FACTOR[idrinth_khaine_missions];AMOUNT[50];CONTEXT[absolute]	default
+9999999920	idrinth_unlock_mixer_nag_nagash	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_khaine];FACTOR[idrinth_khaine_missions];AMOUNT[50];CONTEXT[absolute]	default
+9999999921	idrinth_unlock_wh2_dlc11_cst_vampire_coast	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_khaine];FACTOR[idrinth_khaine_missions];AMOUNT[50];CONTEXT[absolute]	default
+9999999922	idrinth_unlock_wh_main_brt_bretonnia	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_asuryan];FACTOR[idrinth_asuryan_missions];AMOUNT[50];CONTEXT[absolute]	default
+9999999923	idrinth_unlock_wh3_main_cth_cathay	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_khaine];FACTOR[idrinth_khaine_missions];AMOUNT[20];CONTEXT[absolute]	default
+9999999924	idrinth_unlock_wh3_main_cth_cathay	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_asuryan];FACTOR[idrinth_asuryan_missions];AMOUNT[20];CONTEXT[absolute]	default
+9999999925	idrinth_unlock_wh3_main_cth_cathay	FACTION_POOLED_RESOURCE_TRANSACTION	SUCCESS	RESOURCE[idrinth_kurnous];FACTOR[idrinth_kurnous_missions];AMOUNT[20];CONTEXT[absolute]	default

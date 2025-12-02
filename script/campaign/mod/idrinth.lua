@@ -3,6 +3,106 @@ Idrinth.activeRounds = 0;
 Idrinth.battlesFought = 0;
 Idrinth.charactersAssassinated = 0;
 Idrinth._dilemmaCooldown = 0;
+Idrinth._dilemmaCooldownMode = "medium";
+Idrinth._godBlessedItemRequirements = "normal";
+Idrinth.place_of_interest = {
+    drakenhof = {
+        key = "idrinth_story_dilemma_drakenhof",
+        triggered = false,
+        region = "wh3_main_combi_region_castle_drakenhof"
+    },
+    temple_of_khaine = {
+        key = "idrinth_story_dilemma_temple_of_khaine",
+        triggered = false,
+        region = "wh3_main_combi_region_temple_of_khaine"
+    },
+    shrine_of_khaine = {
+        key = "idrinth_story_dilemma_shrine_of_khaine",
+        triggered = false,
+        region = "wh3_main_combi_region_shrine_of_khaine"
+    },
+    temple_of_asuryan = {
+        key = "idrinth_story_dilemma_temple_of_asuryan",
+        triggered = false,
+        region = "wh3_main_combi_region_shrine_of_asuryan"
+    },
+    temple_of_kurnous = {
+        key = "idrinth_story_dilemma_temple_of_kurnous",
+        triggered = false,
+        region = "wh3_main_combi_region_shrine_of_kurnous"
+    },
+    shrine_of_loec = {
+        key = "idrinth_story_dilemma_shrine_of_loec",
+        triggered = false,
+        region = "wh3_main_combi_region_shrine_of_loec"
+    },
+    hel_fenn = {
+        key = "idrinth_story_dilemma_hel_fenn",
+        triggered = false,
+        region = "wh3_main_combi_region_waldenhof"
+    },
+    black_pyramid = {
+        key = "idrinth_story_dilemma_black_pyramid",
+        triggered = false,
+        region = "wh3_main_combi_region_black_pyramid_of_nagash"
+    },
+    vauls_anvil_ulthuan = {
+        key = "idrinth_story_dilemma_vauls_anvil_ulthuan",
+        triggered = false,
+        region = "wh3_main_combi_region_vauls_anvil_ulthuan"
+    },
+    vauls_anvil_naggaroth = {
+        key = "idrinth_story_dilemma_vauls_anvil_naggaroth",
+        triggered = false,
+        region = "wh3_main_combi_region_vauls_anvil_naggaroth"
+    },
+    vauls_anvil_loren = {
+        key = "idrinth_story_dilemma_vauls_anvil_loren",
+        triggered = false,
+        region = "wh3_main_combi_region_vauls_anvil_loren"
+    },
+    tower_of_hoeth = {
+        key = "idrinth_story_dilemma_tower_of_hoeth",
+        triggered = false,
+        region = "wh3_main_combi_region_white_tower_of_hoeth"
+    },
+    blood_keep = {
+        key = "idrinth_story_dilemma_blood_keep",
+        triggered = false,
+        region = ""
+    },
+    oak_of_ages = {
+        key = "idrinth_story_dilemma_oak_of_ages",
+        triggered = false,
+        region = "wh3_main_combi_region_the_oak_of_ages"
+    },
+    the_galleons_graveyard = {
+        key = "idrinth_story_dilemma_the_galleons_graveyard",
+        triggered = false,
+        region = "wh3_main_combi_region_the_galleons_graveyard"
+    },
+    sartosa = {
+        key = "idrinth_story_dilemma_sartosa",
+        triggered = false,
+        region = "wh3_main_combi_region_sartosa"
+    },
+    lahmia = {
+        key = "idrinth_story_dilemma_lahmia",
+        triggered = false,
+        region = "wh3_main_combi_region_lahmia"
+    },
+    ghrond = {
+        key = "idrinth_story_dilemma_ghrond",
+        triggered = false,
+        region = "wh3_main_combi_region_ghrond"
+    }
+};
+Idrinth._levelAdjustment = {
+    null = 0,
+    one = 1,
+    three = 3,
+    six = 6
+};
 Idrinth.dilemmas = {
     high_elves = {
         min_rounds = 15,
@@ -99,36 +199,29 @@ Idrinth.dilemmas = {
             wh3_main_ksl_kislev = 0.2,
             wh_main_vmp_vampire_counts = 0.1,
         }
-    },
+    }
+};
+Idrinth._item_dilemmas = {
     weapon = {
-        min_rounds = 0,
         min_battles_fought = 0,
-        min_assassinations = 10,
+        min_assassinations = 9,
         min_level = 0,
         key = "idrinth_dilemma_weapon",
         triggered = false,
-        chance = 0.25,
-        chances = {}
     },
     armour = {
-        min_rounds = 0,
         min_battles_fought = 15,
         min_assassinations = 0,
         min_level = 0,
         key = "idrinth_dilemma_armour",
         triggered = false,
-        chance = 0.25,
-        chances = {}
     },
     talisman = {
-        min_rounds = 0,
         min_battles_fought = 0,
         min_assassinations = 0,
         min_level = 15,
         key = "idrinth_dilemma_talisman",
         triggered = false,
-        chance = 0.25,
-        chances = {}
     }
 };
 Idrinth._godFavourDilemmas = {
@@ -232,11 +325,11 @@ Idrinth._unlockMissions = {
     ["wh_dlc05_wef_wood_elves"] = "idrinth_unlock_wh_dlc05_wef_wood_elves",
     ["wh3_main_ksl_kislev"] = "idrinth_unlock_wh3_main_ksl_kislev",
 
-    ["mixer_nag_nagash"] = "idrinth_unlock_wh_main_vmp_vampire_counts",
-    ["wh2_main_def_dark_elves"] = "idrinth_unlock_wh_main_vmp_vampire_counts",
-    ["wh2_dlc11_cst_vampire_coast"] = "idrinth_unlock_wh_main_vmp_vampire_counts",
-    ["wh_main_brt_bretonnia"] = "idrinth_unlock_wh_main_vmp_vampire_counts",
-    ["wh3_main_cth_cathay"] = "idrinth_unlock_wh_main_vmp_vampire_counts",
+    ["mixer_nag_nagash"] = "idrinth_unlock_mixer_nag_nagash",
+    ["wh2_main_def_dark_elves"] = "idrinth_unlock_wh2_main_def_dark_elves",
+    ["wh2_dlc11_cst_vampire_coast"] = "idrinth_unlock_wh2_dlc11_cst_vampire_coast",
+    ["wh_main_brt_bretonnia"] = "idrinth_unlock_wh_main_brt_bretonnia",
+    ["wh3_main_cth_cathay"] = "idrinth_unlock_wh3_main_cth_cathay",
 };
 Idrinth._unlockAIRank = {
     ["wh2_main_hef_high_elves"] = 21,
@@ -245,7 +338,7 @@ Idrinth._unlockAIRank = {
     ["wh_dlc05_wef_wood_elves"] = 20,
     ["wh3_main_ksl_kislev"] = 22,
 
-    ["mixer_nag_nagash"] = 28,
+    ["mixer_nag_nagash"] = 29,
     ["wh2_main_def_dark_elves"] = 24,
     ["wh2_dlc11_cst_vampire_coast"] = 27,
     ["wh_main_brt_bretonnia"] = 25,
@@ -258,6 +351,12 @@ Idrinth._unlockDilemmas = {
     ["wh_main_emp_empire"] = "idrinth_dilemma_unlock_empire",
     ["wh_dlc05_wef_wood_elves"] = "idrinth_dilemma_unlock_wood_elves",
     ["wh3_main_ksl_kislev"] = "idrinth_dilemma_unlock_kislev",
+
+    ["mixer_nag_nagash"] = "idrinth_dilemma_unlock_nagash",
+    ["wh2_main_def_dark_elves"] = "idrinth_dilemma_unlock_dark_elves",
+    ["wh2_dlc11_cst_vampire_coast"] = "idrinth_dilemma_unlock_vampire_coast",
+    ["wh_main_brt_bretonnia"] = "idrinth_dilemma_unlock_bretonnia",
+    ["wh3_main_cth_cathay"] = "idrinth_dilemma_unlock_cathay",
 };
 Idrinth._faction = nil;
 Idrinth._idrinth = nil;
@@ -282,14 +381,17 @@ Idrinth._unlockLevelAdjustment = nil;
 Idrinth._expandedCulturesActive = nil;
 Idrinth._unlockLevelAdjustmentDilemma = "idrinth_levelMinimum_choice";
 Idrinth._enableChapelsDilemma = "idrinth_chapels_choice";
+Idrinth._enableStoryMissionsDilemma = "idrinth_story_choice";
 Idrinth._unlockMissionStarted = {};
 Idrinth._unlockMissionStartedLoaded = false;
 Idrinth._enableChapels = nil;
+Idrinth._enableStoryEvents = nil;
 Idrinth.currentVersion = {
     main = 0,
-    feature = 13,
-    bug = 0,
+    feature = 14,
+    bug = 4,
 };
+Idrinth._hasModConfig = false;
 Idrinth._unlockInstantly = (common.filesystem_lookup("/script/", "enable_idrinth_instant") ~= "");
 Idrinth.get = function()
     for pos0, culture in pairs(Idrinth._cultures) do
@@ -364,7 +466,7 @@ core:add_listener(
                 if faction:is_human() and Idrinth._unlockMissionStarted[faction:name()] and not faction == context:faction() then
                     cm:cancel_custom_mission(faction, Idrinth._unlockMissions[culture]);
                     Idrinth._unlockMissionStarted[faction:name()] = false;
-                elseif faction:is_human() and Idrinth._unlockDilemmas[culture] and faction == context:faction() then
+                elseif faction:is_human() and faction == context:faction() then
                     cm:trigger_dilemma(
                         faction:name(),
                         Idrinth._unlockDilemmas[culture]
@@ -377,7 +479,7 @@ core:add_listener(
                 if faction:is_human() and Idrinth._unlockMissionStarted[faction:name()] and not faction == context:faction() then
                     cm:cancel_custom_mission(faction, Idrinth._unlockMissions[culture]);
                     Idrinth._unlockMissionStarted[faction:name()] = false;
-                elseif faction:is_human() and Idrinth._unlockDilemmas[culture] and faction == context:faction() then
+                elseif faction:is_human() and faction == context:faction() then
                     cm:trigger_dilemma(
                         faction:name(),
                         Idrinth._unlockDilemmas[culture]
@@ -432,6 +534,22 @@ core:add_listener(
     function(context)
         out("IDRINTH DEBUG: ===== CHAPEL CHOICE CHECK =====");
         Idrinth._enableChapels = (context:choice() == 1);
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_storyEventMode_DilemmaChoiceMadeEvent",
+    "DilemmaChoiceMadeEvent",
+    function(context)
+        local idrinth = Idrinth.get();
+        if idrinth then
+            return false;
+        end;
+        return context:dilemma() == Idrinth._enableStoryMissionsDilemma;
+    end,
+    function(context)
+        out("IDRINTH DEBUG: ===== CHAPEL CHOICE CHECK =====");
+        Idrinth._enableStoryEvents = (context:choice() == 1);
     end,
     true
 );
@@ -515,6 +633,9 @@ core:add_listener(
     "idrinth_mode_FactionTurnStart",
     "FactionTurnStart",
     function(context)
+        if Idrinth._hasModConfig then
+            return false;
+        end;
         local idrinth = Idrinth.get();
         if idrinth then
             return false;
@@ -528,9 +649,27 @@ core:add_listener(
     false
 );
 core:add_listener(
+    "idrinth_storyEventMode_FactionTurnStart",
+    "FactionTurnStart",
+    function(context)
+        if Idrinth._hasModConfig then
+            return false;
+        end;
+        return context:faction():is_human();
+    end,
+    function(context)
+        out("IDRINTH DEBUG: ===== START MODE DILEMMA =====");
+        cm:trigger_dilemma(context:faction():name(), Idrinth._enableStoryMissionsDilemma);
+    end,
+    false
+);
+core:add_listener(
     "idrinth_modeLevel_FactionTurnStart",
     "FactionTurnStart",
     function(context)
+        if Idrinth._hasModConfig then
+            return false;
+        end;
         local idrinth = Idrinth.get();
         if idrinth then
             return false;
@@ -547,6 +686,9 @@ core:add_listener(
     "idrinth_modeChapels_FactionTurnStart",
     "FactionTurnStart",
     function(context)
+        if Idrinth._hasModConfig then
+            return false;
+        end;
         local idrinth = Idrinth.get();
         if idrinth then
             return false;
@@ -777,6 +919,10 @@ core:add_listener(
         local faction_key = context:faction():name();
         local idrinth, faction = Idrinth.get();
         out("    Faction: " .. faction_key);
+        if idrinth:is_wounded() then
+            out("IDRINTH DEBUG: ===== IDRINTH WOUNDED =====");
+            return;
+        end;
         
         out("IDRINTH DEBUG: ===== START BUILDING SPAWN CHECKS =====");
         local buildingSpawnChance = idrinth:rank();
@@ -787,7 +933,7 @@ core:add_listener(
         else
             buildingSpawnChance = buildingSpawnChance * 1.5;
         end;
-        if (Idrinth._unlockInstantly or Idrinth._enableChapels) and buildingSpawnChance > cm:random_number(500) and idrinth:region() and not idrinth:is_wounded() and idrinth:has_region() then
+        if Idrinth._enableChapels and buildingSpawnChance > cm:random_number(500) and idrinth:region() and idrinth:has_region() then
             local foreignSlotManager = idrinth:region():foreign_slot_manager_for_faction(faction_key);
             if foreignSlotManager and not foreignSlotManager:is_null_interface() then
                 local found = false;
@@ -863,6 +1009,43 @@ core:add_listener(
         if eventTriggered == true then
             cm:trigger_dilemma(faction_key, "idrinth_dilemma_god_favour");
         end;
+        out("IDRINTH DEBUG: ===== START GOD ITEM DILEMMA CHECKS =====");
+        local level = idrinth:rank();
+        out("IDRINTH DEBUG: Battles: " .. tostring(Idrinth.battlesFought) .. 
+            ", Assassinations: " .. tostring(Idrinth.charactersAssassinated) .. 
+            ", Level: " .. tostring(level));
+        for item, data in pairs(Idrinth._item_dilemmas) do
+            local factor = 1;
+            if Idrinth._godBlessedItemRequirements == "low" then
+                factor = 2/3;
+            elseif Idrinth._godBlessedItemRequirements == "high" then
+                factor = 4/3;
+            end;
+            out("IDRINTH DEBUG: Checking " .. item .. " dilemma - " ..
+                "Triggered: " .. tostring(data.triggered) .. 
+                ", Min Rounds: " .. tostring(data.min_rounds) .. 
+                ", Min Battles: " .. tostring(data.min_battles_fought) .. 
+                ", Min Assassinations: " .. tostring(data.min_assassinations) .. 
+                ", Min Level: " .. tostring(data.min_level) .. 
+                ", Factor: " .. tostring(factor));
+            if not data.triggered and Idrinth.battlesFought >= data.min_battles_fought * factor and Idrinth.charactersAssassinated >= data.min_assassinations * factor and level >= data.min_level * factor then
+                if (cm:random_number(100) <= 25) then
+                    data.triggered = true;
+                    cm:trigger_dilemma(faction_key, data.key);
+                end;
+            end;
+        end;
+        out("    Story Events");
+        if Idrinth._enableStoryEvents and idrinth:region() and idrinth:has_region() then
+            out("        Current Region: "..idrinth:region():name())
+            for region, data in pairs(Idrinth.place_of_interest) do
+                if data.region == idrinth:region():name() and not data.triggered then
+                    cm:trigger_dilemma(faction_key, data.key);
+                    Idrinth.place_of_interest[region].triggered = true;
+                    return;
+                end;            
+            end;
+        end;
         out("    Check Dilemma Cooldown");
         if Idrinth._dilemmaCooldown > 0 then
             Idrinth._dilemmaCooldown = Idrinth._dilemmaCooldown - 1;
@@ -877,7 +1060,7 @@ core:add_listener(
             battlesFought = math.floor(battlesFought / 10);
             increment = increment + 1;
         end;
-        out("   BattlesFourghtBonus" .. digit_bonus);
+        out("   BattlesFoughtBonus" .. digit_bonus);
         local activeRounds = Idrinth.activeRounds;
         increment = 1;
         while activeRounds > 0 do
@@ -894,7 +1077,6 @@ core:add_listener(
             increment = increment + 1;
         end;
         out("   AssasinationsBonus" .. digit_bonus);
-        local level = idrinth:rank();
         local dilemmasTriggered = 0;
         for factionName, data in pairs(Idrinth.dilemmas) do
             if data.triggered then
@@ -927,7 +1109,13 @@ core:add_listener(
                 if chance and (cm:random_number(100) / 100 <= chance + digit_bonus/100 - dilemmasTriggered/100) then
                     data.triggered = true;
                     cm:trigger_dilemma(faction_key, data.key);
-                    Idrinth._dilemmaCooldown = cm:random_number(3) + 2;
+                    if Idrinth._godBlessedItemRequirements == "low" then
+                        Idrinth._dilemmaCooldown = cm:random_number(2) + 1;
+                    elseif Idrinth._godBlessedItemRequirements == "long" then
+                        Idrinth._dilemmaCooldown = cm:random_number(3) + 2;
+                    else
+                        Idrinth._dilemmaCooldown = cm:random_number(4) + 3;
+                    end;
                     return;
                 end;
             end;
@@ -1409,6 +1597,58 @@ core:add_listener(
     end,
     true
 );
+
+core:add_listener(
+    "idrinth_MctInitialized_Handling",
+    "MctInitialized",
+    true,
+    function(context)
+        out("IDRINTH DEBUG FUNCTION: MctInitialized");
+
+        Idrinth._hasModConfig = true;
+
+        local my_mod = context:mct():get_mod_by_key("idrinth")
+
+        Idrinth._expandedCulturesActive = my_mod:get_option_by_key("expanded_spawn"):get_finalized_setting()
+
+        Idrinth._unlockLevelAdjustment = Idrinth._levelAdjustment[my_mod:get_option_by_key("level_adjustment"):get_finalized_setting()]
+
+        Idrinth._dilemmaCooldownMode = my_mod:get_option_by_key("dilemma_cooldown"):get_finalized_setting()
+
+        Idrinth._enableChapels = my_mod:get_option_by_key("chapels"):get_finalized_setting()
+
+        Idrinth._enableStoryEvents = my_mod:get_option_by_key("story_events"):get_finalized_setting()
+
+        Idrinth._godBlessedItemRequirements = my_mod:get_option_by_key("god_item_difficulty"):get_finalized_setting()
+    end,
+    true
+)
+core:add_listener(
+    "idrinth_MctFinalized_Handling",
+    "MctFinalized",
+    true,
+    function(context)
+        out("IDRINTH DEBUG FUNCTION: MctFinalized");
+
+        Idrinth._hasModConfig = true;
+
+        local my_mod = context:mct():get_mod_by_key("idrinth")
+
+        Idrinth._expandedCulturesActive = my_mod:get_option_by_key("expanded_spawn"):get_finalized_setting()
+
+        Idrinth._unlockLevelAdjustment = Idrinth._levelAdjustment[my_mod:get_option_by_key("level_adjustment"):get_finalized_setting()]
+
+        Idrinth._dilemmaCooldownMode = my_mod:get_option_by_key("dilemma_cooldown"):get_finalized_setting()
+
+        Idrinth._enableChapels = my_mod:get_option_by_key("chapels"):get_finalized_setting()
+
+        Idrinth._enableStoryEvents = my_mod:get_option_by_key("story_events"):get_finalized_setting()
+
+        Idrinth._godBlessedItemRequirements = my_mod:get_option_by_key("god_item_difficulty"):get_finalized_setting()
+    end,
+    true
+)
+
 cm:add_saving_game_callback(
 	function(context)
         out("IDRINTH DEBUG FUNCTION: SavingGameCallback");
@@ -1424,6 +1664,8 @@ cm:add_saving_game_callback(
 		for name, element in pairs(Idrinth._unlockMissionStarted) do
             if element then
                 cm:save_named_value("idrinth.unlocks." .. name, 1, context);
+            else
+                cm:save_named_value("idrinth.unlocks." .. name, 0, context);
             end;
 		end;
 		cm:save_named_value("idrinth.dilemmaCooldown", Idrinth._dilemmaCooldown, context);
@@ -1433,6 +1675,11 @@ cm:add_saving_game_callback(
         for name, element in pairs(Idrinth._godFavourDilemmas) do
             cm:save_named_value("idrinth.godFavour." .. name, element.cooldown, context);
         end;
+        for name, element in pairs(Idrinth._item_dilemmas) do
+            if element.triggered then
+                cm:save_named_value("idrinth.item_dilemmas." .. name, 1, context);
+            end;
+        end;
         if Idrinth._enableChapels then
             cm:save_named_value("idrinth.enableChapels", 1, context);
         elseif Idrinth._enableChapels == false then
@@ -1441,6 +1688,11 @@ cm:add_saving_game_callback(
         cm:save_named_value("idrinth.version.main", Idrinth.currentVersion.main, context);
         cm:save_named_value("idrinth.version.feature", Idrinth.currentVersion.feature, context);
         cm:save_named_value("idrinth.version.bug", Idrinth.currentVersion.bug, context);
+        for region, data in pairs(Idrinth.place_of_interest) do
+            if data.triggered then
+                cm:save_named_value("idrinth.poi."..region, 1, context)
+            end;            
+        end;
 	end
 );
 cm:add_loading_game_callback(
@@ -1459,6 +1711,12 @@ cm:add_loading_game_callback(
             end;
             for name, element in pairs(Idrinth._godFavourDilemmas) do
                 element.cooldown = cm:load_named_value("idrinth.godFavour." .. name, 0, context);
+            end;
+            for name, element in pairs(Idrinth._item_dilemmas) do
+                element.triggered = (cm:load_named_value("idrinth.item_dilemmas." .. name, 0, context) == 1);
+            end;
+            for name, element in pairs(Idrinth.place_of_interest) do
+                element.triggered = (cm:load_named_value("idrinth.poi." .. name, 0, context) == 1);
             end;
             version = {
                 main =  cm:load_named_value("idrinth.version.main", 0, context),

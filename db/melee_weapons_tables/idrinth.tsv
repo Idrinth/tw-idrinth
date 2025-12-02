@@ -1,16 +1,20 @@
 key	bonus_v_large	bonus_v_infantry	damage	ap_damage	weapon_length	melee_weapon_type	audio_type	splash_attack_target_size	splash_attack_max_attacks	splash_attack_power_multiplier	building_damage_multiplier	ignition_amount	is_magical	contact_phase	collision_attack_max_targets	collision_attack_max_targets_cooldown	melee_attack_interval	scaling_damage	is_spell
 #melee_weapons_tables;25;db/melee_weapons_tables/idrinth																			
-idrinth_main_hef_greatsword	0	15	200	150	1.0000	sword	sword	medium	1	1.0000	0.7500	0.0000	true		5	10	4.2000		false
-idrinth_hev_high_elf_vampires_chapel_asuryan	23	0	26	9	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	4.2000		false
-idrinth_hev_high_elf_vampires_chapel_kurnous	0	0	26	7	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
-idrinth_hev_high_elf_vampires_chapel_khaine	0	8	26	12	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.8000		false
-idrinth_hev_high_elf_vampires_chapel_mixed	16	0	21	9	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	4.2000		false
-idrinth_hev_high_elf_vampires_chapel_asuryan_leader	46	0	78	27	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	4.2000		false
-idrinth_hev_high_elf_vampires_chapel_kurnous_leader	0	0	78	21	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
-idrinth_hev_high_elf_vampires_chapel_khaine_leader	0	24	78	36	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.8000		false
-idrinth_hev_high_elf_vampires_chapel_shrine	0	15	120	70	3.0000	spear	unarmed	very_large	4	1.0000	0.7500	0.0000	true		1	1	4.0000		false
-idrinth_hev_high_elf_vampires_chapel_cave_bats	0	0	20	6	1.0000	knife	creatures_claws		1	1.0000	0.2500	0.0000	false		0	10	4.3000		false
-idrinth_hev_high_elf_vampires_chapel_hawks	0	0	11	34	2.0000	axe	creatures_claws	medium	4	1.0000	0.5000	0.0000	false		0	10	4.0000		false
-idrinth_hev_high_elf_vampires_chapel_wolves	0	0	29	13	1.0000	axe	creatures_claws	medium	1	1.0000	0.5000	0.0000	false		0	10	4.0000		false
-idrinth_hev_high_elf_vampires_chapel_great_eagle	0	0	234	156	7.0000	axe	creatures_claws	large	4	1.0000	0.7500	0.0000	false		0	3	4.0000		false
-idrinth_hev_high_elf_vampires_chapel_stone_wolves	20	0	40	23	1.0000	axe	creatures_claws	large	1	1.0000	0.5000	0.0000	true		0	10	4.0000		false
+idrinth_main_hef_greatsword	0	18	240	180	1.0000	sword	sword	medium	1	1.0000	0.7500	0.0000	true		5	10	4.2000		false
+idrinth_hev_high_elf_vampires_chapel_asuryan	28	0	31	11	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	4.2000		false
+idrinth_hev_high_elf_vampires_chapel_kurnous	0	0	31	8	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
+idrinth_hev_high_elf_vampires_chapel_khaine	0	10	31	14	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.8000		false
+idrinth_hev_high_elf_vampires_chapel_mixed	19	0	25	11	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	4.2000		false
+idrinth_hev_high_elf_vampires_chapel_asuryan_leader	55	0	94	32	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	4.2000		false
+idrinth_hev_high_elf_vampires_chapel_kurnous_leader	0	0	94	25	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
+idrinth_hev_high_elf_vampires_chapel_khaine_leader	0	29	94	43	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.8000		false
+idrinth_hev_high_elf_vampires_chapel_shrine	0	18	144	84	3.0000	spear	unarmed	very_large	4	1.0000	0.7500	0.0000	true		1	1	4.0000		false
+idrinth_hev_high_elf_vampires_chapel_cave_bats	0	0	24	7	1.0000	knife	creatures_claws		1	1.0000	0.2500	0.0000	false		0	10	4.3000		false
+idrinth_hev_high_elf_vampires_chapel_hawks	0	0	13	41	2.0000	axe	creatures_claws	medium	4	1.0000	0.5000	0.0000	false		0	10	4.0000		false
+idrinth_hev_high_elf_vampires_chapel_wolves	0	0	35	16	1.0000	axe	creatures_claws	medium	1	1.0000	0.5000	0.0000	false		0	10	4.0000		false
+idrinth_hev_high_elf_vampires_chapel_great_eagle	0	0	281	187	7.0000	axe	creatures_claws	large	4	1.0000	0.7500	0.0000	false		0	3	4.0000		false
+idrinth_hev_high_elf_vampires_chapel_stone_wolves	24	0	48	28	1.0000	axe	creatures_claws	large	1	1.0000	0.5000	0.0000	true		0	10	4.0000		false
+idrinth_hev_high_elf_vampires_chapel_outriders	2	0	25	14	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	4.2000		false
+idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire	69	0	118	40	1.0000	spear	spear		1	1.0000	0.5000	0.0000	false		0	10	4.2000		false
+idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire	0	0	118	31	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.3000		false
+idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire	0	36	118	54	1.0000	sword	sword		1	1.0000	0.7500	0.0000	false		0	10	4.8000		false
