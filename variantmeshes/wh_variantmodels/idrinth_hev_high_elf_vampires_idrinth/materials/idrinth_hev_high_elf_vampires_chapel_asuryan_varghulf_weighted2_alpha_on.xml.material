@@ -5,7 +5,7 @@
  <textures>
   <texture>
    <slot version="2">t_xml_base_colour</slot>
-   <source>VariantMeshes/wh_variantmodels/hu8b/vmp/vmp_varghulf/tex/vmp_varghulf_base_colour.dds</source>
+   <source>variantmeshes/wh_variantmodels/idrinth_hev_high_elf_vampires_idrinth/tex/idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf_base_colour.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_blood_map</slot>
