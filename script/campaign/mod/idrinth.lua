@@ -475,36 +475,23 @@ core:add_listener(
         cm:disable_event_feed_events(true, "wh_event_category_character", "", "");
         if context:choice() == 2 then
             out("    Decided for Idrinth general");
-            cm:spawn_character_to_pool(
+            cm:create_force_with_general(
                 context:faction():name(),
+                "",
+                context:faction():faction_leader():region():name(),
+                context:faction():faction_leader():logical_position_x(),
+                context:faction():faction_leader():logical_position_y(),
+                Idrinth._type2,
+                Idrinth._subtype .. Idrinth._type2,
                 "names_name_99999999999990",
                 "names_name_99999999999992",
                 "names_name_99999999999991",
                 "",
-                30,
-                true,
-                "general",
-                Idrinth._subtype .. Idrinth._type2,
-                true,
-                ""
+                false,
+                function()
+                    out("Force generated")
+                end
             );
-            --cm:create_force_with_general(
-            --    context:faction():name(),
-            --    "",
-            --    context:faction():faction_leader():region():name(),
-            --    context:faction():faction_leader():logical_position_x(),
-            --    context:faction():faction_leader():logical_position_y(),
-            --    Idrinth._type2,
-            --    Idrinth._subtype .. Idrinth._type2,
-            --    "names_name_99999999999990",
-            --    "names_name_99999999999992",
-            --    "names_name_99999999999991",
-            --    "",
-            --    false,
-            --    function()
-            --        out("Force generated")
-            --    end
-            --);
         elseif context:choice() == 0 then
             out("    Decided for Idrinth hero");
             cm:spawn_unique_agent_at_character(
