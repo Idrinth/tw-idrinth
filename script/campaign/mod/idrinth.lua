@@ -361,6 +361,7 @@ Idrinth._unlockDilemmas = {
 Idrinth._faction = nil;
 Idrinth._idrinth = nil;
 Idrinth._type = "champion";
+Idrinth._type2 = "general";
 Idrinth._culture = nil;
 Idrinth._subtype = "idrinth_hev_high_elf_vampires_idrinth";
 Idrinth._cultures = {
@@ -396,7 +397,18 @@ Idrinth._unlockInstantly = (common.filesystem_lookup("/script/", "enable_idrinth
 Idrinth.get = function()
     for pos0, culture in pairs(Idrinth._cultures) do
         for pos, faction in pairs(cm:get_factions_by_culture(culture)) do
-            local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type, Idrinth._subtype);
+            local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type, Idrinth._subtype .. Idrinth._type);
+            if idrinth then
+                Idrinth._idrinth = idrinth;
+                Idrinth._faction = faction;
+                Idrinth._culture = culture;
+                return idrinth, faction, culture;
+            end;
+        end;
+    end;
+    for pos0, culture in pairs(Idrinth._cultures) do
+        for pos, faction in pairs(cm:get_factions_by_culture(culture)) do
+            local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type2, Idrinth._subtype .. Idrinth._type2);
             if idrinth then
                 Idrinth._idrinth = idrinth;
                 Idrinth._faction = faction;
@@ -408,7 +420,20 @@ Idrinth.get = function()
     if Idrinth._expandedCulturesActive or Idrinth._unlockInstantly then
         for pos0, culture in pairs(Idrinth._expandedCultures) do
             for pos, faction in pairs(cm:get_factions_by_culture(culture)) do
-                local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type, Idrinth._subtype);
+                local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type, Idrinth._subtype .. Idrinth._type);
+                if idrinth then
+                    Idrinth._idrinth = idrinth;
+                    Idrinth._faction = faction;
+                    Idrinth._culture = culture;
+                    return idrinth, faction, culture;
+                end;
+            end;
+        end;
+    end;
+    if Idrinth._expandedCulturesActive or Idrinth._unlockInstantly then
+        for pos0, culture in pairs(Idrinth._expandedCultures) do
+            for pos, faction in pairs(cm:get_factions_by_culture(culture)) do
+                local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type2, Idrinth._subtype .. Idrinth._type2);
                 if idrinth then
                     Idrinth._idrinth = idrinth;
                     Idrinth._faction = faction;
@@ -446,14 +471,56 @@ core:add_listener(
             out("    Decided against Idrinth");
             return;
         end
-        out("    Decided for Idrinth");
-        cm:spawn_unique_agent_at_character(
-            context:faction():command_queue_index(),
-            Idrinth._subtype,
-            context:faction():faction_leader():command_queue_index(),
-            true
-        );
+        cm:disable_event_feed_events(true, "wh_event_category_agent", "", "");
+        cm:disable_event_feed_events(true, "wh_event_category_character", "", "");
+        if context:choice() == 2 then
+            out("    Decided for Idrinth general");
+            cm:spawn_character_to_pool(
+                context:faction():name(),
+                "names_name_99999999999990",
+                "names_name_99999999999992",
+                "names_name_99999999999991",
+                "",
+                30,
+                true,
+                "general",
+                Idrinth._subtype .. Idrinth._type2,
+                true,
+                ""
+            );
+            --cm:create_force_with_general(
+            --    context:faction():name(),
+            --    "",
+            --    context:faction():faction_leader():region():name(),
+            --    context:faction():faction_leader():logical_position_x(),
+            --    context:faction():faction_leader():logical_position_y(),
+            --    Idrinth._type2,
+            --    Idrinth._subtype .. Idrinth._type2,
+            --    "names_name_99999999999990",
+            --    "names_name_99999999999992",
+            --    "names_name_99999999999991",
+            --    "",
+            --    false,
+            --    function()
+            --        out("Force generated")
+            --    end
+            --);
+        elseif context:choice() == 0 then
+            out("    Decided for Idrinth hero");
+            cm:spawn_unique_agent_at_character(
+                context:faction():command_queue_index(),
+                Idrinth._subtype .. Idrinth._type,
+                context:faction():faction_leader():command_queue_index(),
+                true
+            );
+        end;
+        cm:disable_event_feed_events(false, "wh_event_category_agent", "", "");
+        cm:disable_event_feed_events(false, "wh_event_category_character", "", "");
         idrinth = Idrinth.get();
+        if not idrinth then
+            out("Failed to spawn Idrinth");
+            return;
+        end;
         cm:replenish_action_points(cm:char_lookup_str(idrinth));
         out("IDRINTH DEBUG: ==== CREATING UI ====");
         local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");

@@ -1,3 +1,4 @@
 art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
 #campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/idrinth								
-idrinth_hev_high_elf_vampires_idrinth	champion				false	true	idrinth_hev_high_elf_vampires_idrinth	1.0000
+idrinth_hev_high_elf_vampires_idrinthchampion	champion				false	true	idrinth_hev_high_elf_vampires_idrinthchampion	1.0000
+idrinth_hev_high_elf_vampires_idrinthgeneral	general				false	true	idrinth_hev_high_elf_vampires_idrinthgeneral	1.0000

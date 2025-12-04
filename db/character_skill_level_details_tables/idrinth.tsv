@@ -97,3 +97,24 @@ campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	idrinth_loremaster_lore_of_vampires		x	8
 		1	idrinth_loremaster_lore_of_shadows		x	8
 		1	idrinth_loremaster_lore_of_death		x	8
+		1	idrinth_ranger_knowledge		x	0
+		1	idrinth_blade_dancing		x	0
+		1	idrinth_unusual_training		x	0
+		1	idrinth_running_wild		x	0
+		1	idrinth_veterans		x	0
+		1	idrinth_strong_as_stone		x	0
+		1	idrinth_beasts_of_nature		x	0
+		2	idrinth_ranger_knowledge		x	0
+		2	idrinth_blade_dancing		x	0
+		2	idrinth_unusual_training		x	0
+		2	idrinth_running_wild		x	0
+		2	idrinth_veterans		x	0
+		2	idrinth_strong_as_stone		x	0
+		2	idrinth_beasts_of_nature		x	0
+		3	idrinth_ranger_knowledge		x	0
+		3	idrinth_blade_dancing		x	0
+		3	idrinth_unusual_training		x	0
+		3	idrinth_running_wild		x	0
+		3	idrinth_veterans		x	0
+		3	idrinth_strong_as_stone		x	0
+		3	idrinth_beasts_of_nature		x	0

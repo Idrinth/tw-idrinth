@@ -54,3 +54,10 @@ idrinth_diplomat_dwarves	character_diplomacy.png		Diplomat of the Everqueen	15	f
 idrinth_loremaster_lore_of_vampires	character_magic.png		Loremaster, Lore of Vampires	8	false	false	false	0.0000	0
 idrinth_loremaster_lore_of_shadows	character_magic.png		Loremaster, Lore of Vampires	8	false	false	false	0.0000	0
 idrinth_loremaster_lore_of_death	character_magic.png		Loremaster, Lore of Vampires	8	false	false	false	0.0000	0
+idrinth_ranger_knowledge	character_range.png		Dead Eye	0	false	false	false	0.0000	0
+idrinth_blade_dancing	character_range.png		Dead Eye	0	false	false	false	0.0000	0
+idrinth_unusual_training	character_range.png		Dead Eye	0	false	false	false	0.0000	0
+idrinth_running_wild	character_range.png		Dead Eye	0	false	false	false	0.0000	0
+idrinth_veterans	character_range.png		Dead Eye	0	false	false	false	0.0000	0
+idrinth_strong_as_stone	character_range.png		Dead Eye	0	false	false	false	0.0000	0
+idrinth_beasts_of_nature	character_range.png		Dead Eye	0	false	false	false	0.0000	0

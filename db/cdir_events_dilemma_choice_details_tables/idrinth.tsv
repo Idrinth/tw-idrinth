@@ -2,6 +2,7 @@ choice_key	dilemma_key	associated_audio_trigger
 #cdir_events_dilemma_choice_details_tables;3;db/cdir_events_dilemma_choice_details_tables/idrinth		
 FIRST	idrinth_unlock_choice	
 SECOND	idrinth_unlock_choice	
+THIRD	idrinth_unlock_choice	
 FIRST	idrinth_dilemma_empire	
 SECOND	idrinth_dilemma_empire	
 THIRD	idrinth_dilemma_empire	

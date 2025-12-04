@@ -45,3 +45,10 @@ idrinth_wh_dlc05_skill_wef_general_personal_buff_ranged_ability_high_tier_killer
 idrinth_loremaster_lore_of_vampires	idrinth_wh_main_skill_node_vmp_necromancer_magic1_10	0	0	0	0.0000	0.0000	REQUIRED
 idrinth_loremaster_lore_of_death	idrinth_wh_main_skill_all_magic_death_09_the_fate_of_bjuna	0	0	0	0.0000	0.0000	REQUIRED
 idrinth_loremaster_lore_of_shadows	idrinth_wh_dlc05_skill_magic_shadow_enfeebling_foe	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_ranger_knowledge	idrinth_veterans	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_blade_dancing	idrinth_veterans	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_unusual_training	idrinth_veterans	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_running_wild	idrinth_veterans	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_veterans		0	0	0	0.0000	0.0000	REQUIRED
+idrinth_strong_as_stone		0	0	0	0.0000	0.0000	REQUIRED
+idrinth_beasts_of_nature		0	0	0	0.0000	0.0000	REQUIRED

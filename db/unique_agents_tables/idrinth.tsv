@@ -1,3 +1,3 @@
 agent_subtype	clan_name	forename	other_name	surname	agent_type	spawn_behaviour	spawn_via_ui
 #unique_agents_tables;3;db/unique_agents_tables/idrinth							
-idrinth_hev_high_elf_vampires_idrinth	99999999999992	99999999999990		99999999999991	champion	FACTION_LEADER	false
+idrinth_hev_high_elf_vampires_idrinthchampion	99999999999992	99999999999990		99999999999991	champion	FACTION_LEADER	false

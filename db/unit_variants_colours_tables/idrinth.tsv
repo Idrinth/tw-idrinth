@@ -5,13 +5,13 @@ key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_co
 996124088		soldier	idrinth_hev_high_elf_vampires_chapel_kurnous		005500	AAAA00	000000
 996124089		soldier	idrinth_hev_high_elf_vampires_chapel_asuryan		FFFFFF	000077	000000
 996124090		soldier	idrinth_hev_high_elf_vampires_chapel_mixed		000000	005500	000000
-996124091		mount	idrinth_hev_high_elf_vampires_chapel_stone_wolves		303030	000000	747474
+996124091		soldier	idrinth_hev_high_elf_vampires_chapel_stone_wolves		303030	000000	747474
 996124092		officer	idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire		330000	000000	000000
 996124093		officer	idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire		003300	888800	000000
 996124094		officer	idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire		DDDDDD	000055	000000
 996124095		officer	idrinth_hev_high_elf_vampires_chapel_khaine_leader		550000	000000	000000
 996124096		officer	idrinth_hev_high_elf_vampires_chapel_kurnous_leader		005500	AAAA00	000000
 996124097		officer	idrinth_hev_high_elf_vampires_chapel_asuryan_leader		FFFFFF	000077	000000
-996124098		soldier	idrinth_hev_high_elf_vampires_chapel_khaine_varghulf		550000	000000	000000
-996124099		soldier	idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf		005500	000000	000000
-996124100		soldier	idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf		000055	000000	000000
+996124098		soldier	idrinth_hev_high_elf_vampires_chapel_khaine_varghulf		550000	220000	000000
+996124099		soldier	idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf		005500	002200	000000
+996124100		soldier	idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf		000055	222200	000000

@@ -45,3 +45,18 @@ idrinth_priests_wh_main_effect_ability_enable_the_hunger		4		both	true
 idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek		4		both	true
 idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead		4		both	true
 idrinth_successful_action_motivation	wound_time.png	345		campaign	true
+idrinth_ranger_knowledge_primary		4		both	true
+idrinth_blade_dancing_primary		4		both	true
+idrinth_unusual_training_primary		4		both	true
+idrinth_running_wild_primary		4		both	true
+idrinth_veterans_primary		4		both	true
+idrinth_strong_as_stone_primary		4		both	true
+idrinth_beasts_of_nature_primary		4		both	true
+idrinth_ranger_knowledge_secondary		4		both	true
+idrinth_blade_dancing_secondary		4		both	true
+idrinth_unusual_training_secondary		4		both	true
+idrinth_running_wild_secondary		4		both	true
+idrinth_veterans_secondary		4		both	false
+idrinth_strong_as_stone_secondary		4		both	true
+idrinth_beasts_of_nature_secondary		4		both	true
+idrinth_veterans_tertiary		4		both	true
