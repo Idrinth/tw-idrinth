@@ -1,6 +1,6 @@
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
 #variants_tables;6;db/variants_tables/idrinth							
-idrinth_hev_high_elf_vampires_idrinth		idrinth_hev_high_elf_vampires_idrinth		1.0000	1.2500	0.0000	
+idrinth_hev_high_elf_vampires_idrinthchampion		idrinth_hev_high_elf_vampires_idrinth		1.0000	1.2500	0.0000	
 idrinth_hev_high_elf_vampires_chapel_mixed		idrinth_hev_high_elf_vampires_chapel_guard		1.0000	1.0000	0.0500	
 idrinth_hev_high_elf_vampires_chapel_asuryan		idrinth_hev_high_elf_vampires_chapel_guard		1.0000	1.0000	0.0500	
 idrinth_hev_high_elf_vampires_chapel_kurnous		idrinth_hev_high_elf_vampires_chapel_guard		1.0000	1.0000	0.0500	
@@ -18,3 +18,4 @@ idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire		idrinth_hev_high_elf
 idrinth_hev_high_elf_vampires_chapel_khaine_varghulf		idrinth_hev_high_elf_vampires_chapel_khaine_varghulf		1.0000	1.7500	0.0500	
 idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf		idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf		1.0000	1.7500	0.0500	
 idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf		idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf		1.0000	1.7500	0.0500	
+idrinth_hev_high_elf_vampires_idrinthgeneral		idrinth_hev_high_elf_vampires_idrinth		1.0000	1.5000	0.0000	

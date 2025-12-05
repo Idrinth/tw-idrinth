@@ -1,5 +1,5 @@
-key	effects	duration	expended_cost	required_cost	image_path	upkeep_cost	point_cost	cooldown
-#initiatives_tables;7;db/initiatives_tables/idrinth								
-idrinth_khaine	idrinth_initiative_khaine	-1	idrinth_switch_devotion	idrinth_switch_devotion	UI\skins\default\path_to_glory\boon_background_image_undivided.png		0	3
-idrinth_kurnous	idrinth_initiative_kurnous	-1	idrinth_switch_devotion	idrinth_switch_devotion	UI\skins\default\path_to_glory\boon_background_image_undivided.png		0	3
-idrinth_asuryan	idrinth_initiative_asuryan	-1	idrinth_switch_devotion	idrinth_switch_devotion	UI\skins\default\path_to_glory\boon_background_image_undivided.png		0	3
+key	effects	duration	expended_cost	required_cost	image_path	upkeep_cost	point_cost	cooldown	swap_cost
+#initiatives_tables;8;db/initiatives_tables/idrinth									
+idrinth_khaine	idrinth_initiative_khaine	-1	idrinth_switch_devotion	idrinth_switch_devotion	UI\skins\default\path_to_glory\boon_background_image_undivided.png		0	3	
+idrinth_kurnous	idrinth_initiative_kurnous	-1	idrinth_switch_devotion	idrinth_switch_devotion	UI\skins\default\path_to_glory\boon_background_image_undivided.png		0	3	
+idrinth_asuryan	idrinth_initiative_asuryan	-1	idrinth_switch_devotion	idrinth_switch_devotion	UI\skins\default\path_to_glory\boon_background_image_undivided.png		0	3	
