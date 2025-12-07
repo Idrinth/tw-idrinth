@@ -1,4 +1,4 @@
 ability_group	icon_path	special_edition_mask	sort_order	is_naval	button_name	sound_event	is_composite_group	unique_id	sound_switch	show_lore_icon	colour_hex
 #special_ability_groups_tables;11;db/special_ability_groups_tables/idrinth											
-idrinth_lore_thalui	UI\Battle UI\ability_icons\idrinth_lore_thalui.png	0	2000	false	idrinth_lore_thalui	Play_WH_UI_Ability_Click_Generic_Light	false	9545373688	Thalui	true	6D0F0C
+idrinth_lore_thalui	UI\Battle UI\ability_icons\idrinth_lore_thalui.png	0	0	false	idrinth_lore_thalui	Play_WH_UI_Ability_Click_Generic_Light	false	9545373688	Thalui	true	6D0F0C
 idrinth_lore_thalui_upgraded	UI\Battle UI\ability_icons\idrinth_lore_thalui.png	0	0	false	idrinth_lore_thalui	Play_WH_UI_Ability_Click_Generic_Light	true	91964836888	Thalui	false	6D0F0C

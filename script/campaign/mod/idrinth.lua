@@ -472,35 +472,81 @@ core:add_listener(
         end
         if context:choice() == 2 then
             out("    Decided for Idrinth general");
-            cm:disable_event_feed_events(true, "", "", "");
-            cm:create_force_with_general(
-                context:faction():name(),
-                "",
-                context:faction():faction_leader():region():name(),
-                context:faction():faction_leader():logical_position_x(),
-                context:faction():faction_leader():logical_position_y(),
-                Idrinth._type2,
-                Idrinth._subtype .. Idrinth._type2,
-                "names_name_99999999999990",
-                "names_name_99999999999992",
-                "names_name_99999999999991",
-                "",
-                false,
-                function()
-                    out("Force generated")
-                end
-            );
-            cm:disable_event_feed_events(false, "", "", "");
+            if context:faction():faction_leader():has_region() then
+                local x, y = cm:find_valid_spawn_location_for_character_from_position(
+                    context:faction():name(),
+                    context:faction():faction_leader():logical_position_x(),
+                    context:faction():faction_leader():logical_position_y(),
+                    true
+                );
+                cm:create_force_with_general(
+                    context:faction():name(),
+                    "idrinth_hev_high_elf_vampires_chapel_mixed",
+                    context:faction():faction_leader():region():name(),
+                    x,
+                    y,
+                    Idrinth._type2,
+                    Idrinth._subtype .. Idrinth._type2,
+                    "names_name_99990999999990",
+                    "names_name_99990999999992",
+                    "names_name_99990999999991",
+                    "",
+                    false,
+                    function(cqi)
+                        local character = cm:get_character_by_cqi(cqi);
+                        cm:change_character_custom_name(
+                            character,
+                            "Idrinth",
+                            "Thalui",
+                            "Knight-Scholar",
+                            ""
+                        );
+                        cm:set_character_unique(cm:char_lookup_str(character), true);
+                        cm:set_character_immortality(cm:char_lookup_str(character), true);
+                    end
+                );
+            elseif context:faction():has_home_region() then
+                local x, y = cm:find_valid_spawn_location_for_character_from_position(
+                    context:faction():name(),
+                    context:faction():home_region():settlement():logical_position_x(),
+                    context:faction():home_region():settlement():logical_position_y(),
+                    true
+                );
+                cm:create_force_with_general(
+                    context:faction():name(),
+                    "idrinth_hev_high_elf_vampires_chapel_mixed",
+                    context:faction():home_region():name(),
+                    x,
+                    y,
+                    Idrinth._type2,
+                    Idrinth._subtype .. Idrinth._type2,
+                    "names_name_99990999999990",
+                    "names_name_99990999999992",
+                    "names_name_99990999999991",
+                    "",
+                    false,
+                    function(cqi)
+                        local character = cm:get_character_by_cqi(cqi);
+                        cm:change_character_custom_name(
+                            character,
+                            "Idrinth",
+                            "Thalui",
+                            "Knight-Scholar",
+                            ""
+                        );
+                        cm:set_character_unique(cm:char_lookup_str(character), true);
+                        cm:set_character_immortality(cm:char_lookup_str(character), true);
+                    end
+                );
+            end;
         elseif context:choice() == 0 then
             out("    Decided for Idrinth hero");
-            cm:disable_event_feed_events(true, "wh_event_category_agent", "", "");
             cm:spawn_unique_agent_at_character(
                 context:faction():command_queue_index(),
                 Idrinth._subtype .. Idrinth._type,
                 context:faction():faction_leader():command_queue_index(),
                 true
             );
-            cm:disable_event_feed_events(false, "wh_event_category_agent", "", "");
         end;
         idrinth = Idrinth.get();
         if not idrinth then

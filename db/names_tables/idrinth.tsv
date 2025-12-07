@@ -1,8 +1,8 @@
 id	names_group	type	gender	frequency
 #names_tables;0;db/names_tables/idrinth				
-99999999999990	idrinth_hev_high_elf_vampires_idrinth	forename	m	1
-99999999999991	idrinth_hev_high_elf_vampires_idrinth	family_name	m	1
-99999999999992	idrinth_hev_high_elf_vampires_idrinth	clan_name	m	1
+99990999999990	idrinth_hev_high_elf_vampires_idrinth	forename	m	1
+99990999999991	idrinth_hev_high_elf_vampires_idrinth	family_name	m	1
+99990999999992	idrinth_hev_high_elf_vampires_idrinth	clan_name	m	1
 91003842572	idrinth_hev_high_elf_vampires_idrinth_all_elves	forename	f	1
 91005248167	idrinth_hev_high_elf_vampires_idrinth_all_elves	forename	f	1
 91012272878	idrinth_hev_high_elf_vampires_idrinth_all_elves	forename	f	1
