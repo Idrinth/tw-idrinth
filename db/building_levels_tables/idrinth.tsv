@@ -13,7 +13,7 @@ idrinth_hev_high_elf_vampires_chapel_2_beasts	idrinth_hev_high_elf_vampires_beas
 idrinth_hev_high_elf_vampires_chapel_1_diplomacy	idrinth_hev_high_elf_vampires_diplomacy	0	5	10000	200		false	false			false	idrinth_diplomancy	false	0.0000	0	true	3		true	0	0		100		-1
 idrinth_hev_high_elf_vampires_chapel_2_diplomacy	idrinth_hev_high_elf_vampires_diplomacy	1	7	15000	450		false	false			false	idrinth_diplomancy	false	0.0000	0	true	5		true	0	0		150		-1
 idrinth_hev_high_elf_vampires_chapel_2_altar	idrinth_hev_high_elf_vampires_altar	0	7	15000	450		false	false			false	idrinth_altar	false	0.0000	0	true	5		true	0	0		150		-1
-idrinth_hev_high_elf_vampires_horde_0	idrinth_hev_high_elf_vampires_horde	0	2	5000	0		false	false			false	idrinth_hev_high_elf_vampires_horde	false	0.0000	0	true	0		true	0	0		0		-1
-idrinth_hev_high_elf_vampires_horde_healer_wagon_0	idrinth_hev_high_elf_vampires_horde_healer_wagon	0	3	5000	0		false	false			false	idrinth_hev_high_elf_vampires_horde_healer_wagon	false	0.0000	0	true	0		true	0	0		0		-1
-idrinth_hev_high_elf_vampires_horde_quartermaster_0	idrinth_hev_high_elf_vampires_horde_quartermaster	0	1	5000	0		false	false			false	idrinth_hev_high_elf_vampires_horde_quartermaster	false	0.0000	0	true	0		true	0	0		0		-1
-idrinth_hev_high_elf_vampires_horde_trader_0	idrinth_hev_high_elf_vampires_horde_trader	0	2	5000	0		false	false			false	idrinth_hev_high_elf_vampires_horde_trader	false	0.0000	0	true	0		true	0	0		0		-1
+idrinth_hev_high_elf_vampires_horde_0	idrinth_hev_high_elf_vampires_horde	0	2	5000	0		false	false			false	idrinth_hev_high_elf_vampires_horde	false	0.0000	0	false	0		true	0	0		0		-1
+idrinth_hev_high_elf_vampires_horde_healer_wagon_0	idrinth_hev_high_elf_vampires_horde_healer_wagon	0	3	5000	0		false	false			false	idrinth_hev_high_elf_vampires_horde_healer_wagon	false	0.0000	0	false	0		true	0	0		0		-1
+idrinth_hev_high_elf_vampires_horde_quartermaster_0	idrinth_hev_high_elf_vampires_horde_quartermaster	0	1	5000	0		false	false			false	idrinth_hev_high_elf_vampires_horde_quartermaster	false	0.0000	0	false	0		true	0	0		0		-1
+idrinth_hev_high_elf_vampires_horde_trader_0	idrinth_hev_high_elf_vampires_horde_trader	0	2	5000	0		false	false			false	idrinth_hev_high_elf_vampires_horde_trader	false	0.0000	0	false	0		true	0	0		0		-1
