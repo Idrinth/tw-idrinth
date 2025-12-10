@@ -15,3 +15,9 @@ idrinth_khaine_building	idrinth_khaine_chapel	-300	absolute	default
 idrinth_asuryan_building	idrinth_asuryan_chapel_2	-750	absolute	default
 idrinth_kurnous_building	idrinth_kurnous_chapel_2	-750	absolute	default
 idrinth_khaine_building	idrinth_khaine_chapel_2	-750	absolute	default
+idrinth_asuryan_other	idrinth_asuryan_small_training	-100	absolute	default
+idrinth_asuryan_other	idrinth_asuryan_medium_training	-200	absolute	default
+idrinth_kurnous_other	idrinth_kurnous_small_training	-100	absolute	default
+idrinth_kurnous_other	idrinth_kurnous_medium_training	-200	absolute	default
+idrinth_khaine_other	idrinth_khaine_small_training	-100	absolute	default
+idrinth_khaine_other	idrinth_khaine_medium_training	-200	absolute	default

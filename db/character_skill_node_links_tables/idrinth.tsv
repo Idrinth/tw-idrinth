@@ -49,3 +49,11 @@ idrinth_ranger_knowledge	idrinth_veterans	0	0	0	0.0000	0.0000	REQUIRED
 idrinth_blade_dancing	idrinth_veterans	0	0	0	0.0000	0.0000	REQUIRED
 idrinth_unusual_training	idrinth_veterans	0	0	0	0.0000	0.0000	REQUIRED
 idrinth_running_wild	idrinth_veterans	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_lord_of_free_blades	idrinth_ranger_knowledge	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_lord_of_free_blades	idrinth_blade_dancing	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_lord_of_free_blades	idrinth_unusual_training	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_lord_of_free_blades	idrinth_running_wild	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_hidden_paths	idrinth_ranger_knowledge	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_hidden_paths	idrinth_blade_dancing	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_hidden_paths	idrinth_unusual_training	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_hidden_paths	idrinth_running_wild	0	0	0	0.0000	0.0000	REQUIRED

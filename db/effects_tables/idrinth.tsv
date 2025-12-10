@@ -24,7 +24,7 @@ idrinth_pooled_resource_asuryan_bad	asuryan.png	7	asuryan.png	campaign	true
 idrinth_chapel_khaine_charge	khaine.png	5	khaine.png	campaign	true
 idrinth_chapel_kurnous_range	kurnous.png	6	kurnous.png	campaign	true
 idrinth_chapel_asuryan_ward_save	asuryan.png	7	asuryan.png	campaign	true
-idrinth_effect_agent_action_enable_passive_spread_public_order		4		campaign	true
+idrinth_effect_agent_action_enable_passive_spread_public_order	public_order.png	4	public_order.png	campaign	true
 idrinth_loremaster_lore_of_vampires		12		both	false
 idrinth_loremaster_lore_of_shadows		123		both	false
 idrinth_loremaster_lore_of_death		123		both	false
@@ -76,3 +76,7 @@ idrinth_unit_capacity_chapel_kurnous_varghulf		4		campaign	true
 idrinth_unit_capacity_chapel_shrine		4		campaign	true
 idrinth_unit_capacity_chapel_outriders		4		campaign	true
 idrinth_unit_capacity_chapel_stone_wolves		4		campaign	true
+idrinth_unit_upkeep_mod_conditional		1		campaign	true
+idrinth_chapel_units_upkeep	public_order.png	1	public_order.png	campaign	false
+idrinth_enable_stances		1		campaign	true
+idrinth_chapel_units_recruitment_rank	experience.png	1	experience.png	campaign	true

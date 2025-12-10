@@ -5,9 +5,9 @@
 	precache_condition="">
 	<hierarchy>
 		<root this="1AAC8848-5C68-4AD8-85ADABA435C058C2">
-            <wh2_dlc11_cst_vampire_coast this="11A8785D-0FD4-4953-950A1597E795CBED">
+            <idrinth_chapel this="11A8785D-0FD4-4953-950A1597E795CBED">
                 <slots this="90F48893-2EB4-404E-B59C45CD9795F030"/>
-            </wh2_dlc11_cst_vampire_coast>
+            </idrinth_chapel>
 		</root>
 	</hierarchy>
 	<components>
@@ -100,9 +100,9 @@
 				</columnwidths>
 			</LayoutEngine>
 		</slots>
-		<wh2_dlc11_cst_vampire_coast
+		<idrinth_chapel
 			this="11A8785D-0FD4-4953-950A1597E795CBED"
-			id="wh2_dlc11_cst_vampire_coast"
+			id="idrinth_chapel"
 			offset="-11.00,0.00"
 			allowhorizontalresize="false"
 			allowverticalresize="false"
@@ -151,6 +151,6 @@
 					</imagemetrics>
 				</newstate>
 			</states>
-		</wh2_dlc11_cst_vampire_coast>
+		</idrinth_chapel>
 	</components>
 </layout>

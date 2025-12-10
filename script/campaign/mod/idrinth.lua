@@ -387,9 +387,9 @@ Idrinth._unlockMissionStarted = {};
 Idrinth._enableChapels = nil;
 Idrinth._enableStoryEvents = nil;
 Idrinth.currentVersion = {
-    main = 0,
-    feature = 14,
-    bug = 4,
+    main = 1,
+    feature = 0,
+    bug = 0,
 };
 Idrinth._hasModConfig = false;
 Idrinth._unlockInstantly = (common.filesystem_lookup("/script/", "enable_idrinth_instant") ~= "");
@@ -540,13 +540,22 @@ core:add_listener(
                 );
             end;
         elseif context:choice() == 0 then
-            out("    Decided for Idrinth hero");
-            cm:spawn_unique_agent_at_character(
-                context:faction():command_queue_index(),
-                Idrinth._subtype .. Idrinth._type,
-                context:faction():faction_leader():command_queue_index(),
-                true
-            );
+            out("    Decided for Idrinth hero");            
+            if context:faction():faction_leader():has_region() then
+                cm:spawn_unique_agent_at_character(
+                    context:faction():command_queue_index(),
+                    Idrinth._subtype .. Idrinth._type,
+                    context:faction():faction_leader():command_queue_index(),
+                    true
+                );
+            elseif context:faction():has_home_region() then
+                cm:spawn_unique_agent_at_region(
+                    context:faction():cqi(),
+                    Idrinth._subtype .. Idrinth._type,
+                    context:faction():home_region():cqi(),
+                    true
+                );
+            end;
         end;
         idrinth = Idrinth.get();
         if not idrinth then
@@ -1415,7 +1424,6 @@ core:add_listener(
     end,
     true
 );
-
 core:add_listener(
     "idrinth_BattleCompleted",
     "BattleCompleted",
@@ -1487,7 +1495,11 @@ core:add_listener(
             end;
             for j=1, #characters do
                 attackerCharacters = attackerCharacters + 1;
-                if characters[j] == "idrinth_hev_high_elf_vampires_idrinth" then
+                if characters[j] == "idrinth_hev_high_elf_vampires_idrinthchampion" then
+                    idrinthIsAttacker = true;
+                    idrinthFactionName = faction_name;
+                end;
+                if characters[j] == "idrinth_hev_high_elf_vampires_idrinthgeneral" then
                     idrinthIsAttacker = true;
                     idrinthFactionName = faction_name;
                 end;
@@ -1503,7 +1515,11 @@ core:add_listener(
             end;
             for j=1, #characters do
                 defenderCharacters = defenderCharacters + 1;
-                if characters[j] == "idrinth_hev_high_elf_vampires_idrinth" then
+                if characters[j] == "idrinth_hev_high_elf_vampires_idrinthchampion" then
+                    idrinthIsDefender = true;
+                    idrinthFactionName = faction_name;
+                end;
+                if characters[j] == "idrinth_hev_high_elf_vampires_idrinthgeneral" then
                     idrinthIsDefender = true;
                     idrinthFactionName = faction_name;
                 end;

@@ -65,3 +65,5 @@ effects_description_idrinth_unit_capacity_chapel_kurnous_varghulf	%+n unit limit
 effects_description_idrinth_unit_capacity_chapel_shrine	%+n unit limit for Shrines to Asuryan, Kurnous and Khaine.	false
 effects_description_idrinth_unit_capacity_chapel_stone_wolves	%+n unit limit for Stone Wolves.	false
 effects_description_idrinth_unit_capacity_chapel_outriders	%+n unit limit for Outriders.	false
+effects_description_idrinth_chapel_units_upkeep	%+n% less upkeep for all elven units of the Thaluian Chapels.	false
+effects_description_idrinth_chapel_units_recruitment_rank	%+n recruitment rank for all elven units of the Thaluian Chapels.	false

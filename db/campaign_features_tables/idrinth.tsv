@@ -1,0 +1,7 @@
+feature	group	available
+#campaign_features_tables;0;db/campaign_features_tables/idrinth		
+undead_unit_saving_postbattle	idrinth_hev_high_elf_vampires_idrinth	true
+undead_unit_saving_postbattle	idrinth_hev_high_elf_vampires_idrinth_general	true
+unit_upgrades	idrinth_hev_high_elf_vampires_idrinth	true
+unit_upgrades	idrinth_hev_high_elf_vampires_idrinth_general	true
+unit_upgrades	wh2_main_feature_high_elves	true

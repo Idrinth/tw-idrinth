@@ -3,3 +3,4 @@ key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_par
 idrinth_slayer_elves_khaine	1	false	0	dark_elves	0		false
 idrinth_slayer_elves_kurnous	1	false	0	wood_elf	0		false
 idrinth_slayer_elves_asuryan	1	false	0	high_elves	0		false
+idrinth_killer	1	false	0	high_elves	0		false

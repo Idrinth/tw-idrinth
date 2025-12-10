@@ -10,7 +10,7 @@ idrinth_wh2_main_skill_node_hef_noble_generic_1		idrinth_wh2_main_skill_hef_gene
 idrinth_wh2_main_skill_node_hef_noble_generic_2		idrinth_wh2_main_skill_hef_generic_warding_of_loec		0	3		0	0	true
 idrinth_wh2_main_skill_node_hef_noble_generic_3		idrinth_wh2_main_skill_hef_generic_warding_of_hoeth		0	2		0	0	true
 idrinth_wh2_main_skill_node_vmp_wight_king_campaign_01		idrinth_wh2_main_skill_all_hero_assist_army_training		3	5		0	0	true
-idrinth_wh3_main_agent_action_scaling		wh3_main_skill_agent_action_success_scaling		99	0		0	0	false
+idrinth_wh3_main_agent_action_scaling		idrinth_wh3_main_agent_scaling		99	0		0	0	false
 idrinth_wh_main_skill_node_vmp_dignitary_self_04		idrinth_wh_main_skill_all_dignitary_self_conviction		2	0		0	0	true
 idrinth_wh_main_skill_node_vmp_dignitary_self_06		idrinth_wh_main_skill_vmp_dignitary_self_immortal_will		2	5		0	0	true
 idrinth_wh_main_skill_node_vmp_dignitary_self_07		idrinth_wh_main_skill_all_dignitary_self_tenacity_2		2	9		0	0	true
@@ -63,3 +63,5 @@ idrinth_veterans		idrinth_veterans		3	2		0	0	true
 idrinth_strong_as_stone		idrinth_strong_as_stone		3	0		0	0	true
 idrinth_beasts_of_nature		idrinth_beasts_of_nature		3	1		0	0	true
 idrinth_campaign_actions_dummy_general		idrinth_campaign_actions_dummy_general		99	1		1	0	false
+idrinth_lord_of_free_blades		idrinth_lord_of_free_blades		3	9		0	0	true
+idrinth_hidden_paths		idrinth_hidden_paths		3	10		0	0	true
