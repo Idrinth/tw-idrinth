@@ -25,3 +25,9 @@ idrinth_hev_high_elf_vampires_horde_2	idrinth_hev_high_elf_vampires_horde	2	2	15
 idrinth_hev_high_elf_vampires_horde_healer_wagon_2	idrinth_hev_high_elf_vampires_horde_healer_wagon	2	3	15000	0		false	false			false	idrinth_hev_high_elf_vampires_horde_healer_wagon	false	0.0000	1	false	2		true	0	0		0		-1
 idrinth_hev_high_elf_vampires_horde_quartermaster_2	idrinth_hev_high_elf_vampires_horde_quartermaster	2	1	15000	0		false	false			false	idrinth_hev_high_elf_vampires_horde_quartermaster	false	0.0000	1	false	2		true	0	0		0		-1
 idrinth_hev_high_elf_vampires_horde_trader_2	idrinth_hev_high_elf_vampires_horde_trader	2	2	15000	0		false	false			false	idrinth_hev_high_elf_vampires_horde_trader	false	0.0000	1	false	2		true	0	0		0		-1
+idrinth_hev_high_elf_vampires_artisan_quarters_1	idrinth_hev_high_elf_vampires_artisan_quarters	1	1	10000	250		false	false			false	idrinth_hev_high_elf_vampires_artisan_quarters	false	0.0000	0	true	3		true	0	0		100		-1
+idrinth_hev_high_elf_vampires_artisan_quarters_2	idrinth_hev_high_elf_vampires_artisan_quarters	2	2	15000	450		false	false			false	idrinth_hev_high_elf_vampires_artisan_quarters	false	0.0000	0	true	5		true	0	0		150		-1
+idrinth_hev_high_elf_vampires_tavern_0	idrinth_hev_high_elf_vampires_tavern	0	1	5000	50		false	false			false	idrinth_hev_high_elf_vampires_tavern	false	0.0000	0	true	1		true	0	0		50		-1
+idrinth_hev_high_elf_vampires_tavern_1	idrinth_hev_high_elf_vampires_tavern	1	2	10000	250		false	false			false	idrinth_hev_high_elf_vampires_tavern	false	0.0000	0	true	3		true	0	0		100		-1
+idrinth_hev_high_elf_vampires_tavern_2	idrinth_hev_high_elf_vampires_tavern	2	3	15000	450		false	false			false	idrinth_hev_high_elf_vampires_tavern	false	0.0000	0	true	5		true	0	0		150		-1
+idrinth_hev_high_elf_vampires_library_2	idrinth_hev_high_elf_vampires_library	2	6	15000	450		false	false			false	idrinth_hev_high_elf_vampires_library	false	0.0000	0	true	5		true	0	0		150		-1

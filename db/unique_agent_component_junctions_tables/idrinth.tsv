@@ -1,3 +1,4 @@
 component	unique_agent	value
 #unique_agent_component_junctions_tables;1;db/unique_agent_component_junctions_tables/idrinth		
 INDIVIDUALLY_UNIQUE	idrinth_hev_high_elf_vampires_idrinthchampion	1
+INDIVIDUALLY_UNIQUE	idrinth_hev_high_elf_vampires_idrinthgeneral	1

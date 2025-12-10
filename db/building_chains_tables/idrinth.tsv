@@ -8,3 +8,6 @@ idrinth_hev_high_elf_vampires_horde			money	false	idrinth_slot_set_horde		1		fal
 idrinth_hev_high_elf_vampires_horde_healer_wagon			money	false	idrinth_slot_set_horde		2		true	false
 idrinth_hev_high_elf_vampires_horde_quartermaster			money	false	idrinth_slot_set_horde		3		true	false
 idrinth_hev_high_elf_vampires_horde_trader			money	false	idrinth_slot_set_horde		4		true	false
+idrinth_hev_high_elf_vampires_artisan_quarters			money	false	idrinth_slot_set_chapel		5		true	true
+idrinth_hev_high_elf_vampires_tavern			money	false	idrinth_slot_set_chapel		6		true	true
+idrinth_hev_high_elf_vampires_library			money	false	idrinth_slot_set_chapel		7		true	true
