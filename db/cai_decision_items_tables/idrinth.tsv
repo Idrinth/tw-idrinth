@@ -1,5 +1,5 @@
 key	unbound_decision_item_type	conditionally_spawnable_force	plague	ritual	decision_interface	province_initiative	compass_direction	plague_component	plague_recipe	occupation_decision	teleportation_node_template	FIXME	culture_occupation_decision	compass_action	initiative	initiative_set
 #cai_decision_items_tables;13;db/cai_decision_items_tables/idrinth																
-idrinth_decision_asuryan												false	0		idrinth_asuryan	idrinth_godly_favour
-idrinth_decision_kurnous												false	0		idrinth_kurnous	idrinth_godly_favour
-idrinth_decision_khaine												false	0		idrinth_khaine	idrinth_godly_favour
+idrinth_decision_asuryan												false	0		idrinth_asuryan_pledge	idrinth_godly_favour
+idrinth_decision_kurnous												false	0		idrinth_kurnous_pledge	idrinth_godly_favour
+idrinth_decision_khaine												false	0		idrinth_khaine_pledge	idrinth_godly_favour

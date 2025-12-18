@@ -1,3 +1,4 @@
 key	max_active_set_count	should_save_presets	optional_icon
 #initiative_set_categories_tables;4;db/initiative_set_categories_tables/idrinth			
-IDRINTH_DEVOTION	-1	false	
+idrinth_godly_favour	-1	false	
+idrinth_godly_blessings	-1	false	

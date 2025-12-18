@@ -65,3 +65,5 @@ idrinth_beasts_of_nature		idrinth_beasts_of_nature		3	1		0	0	true
 idrinth_campaign_actions_dummy_general		idrinth_campaign_actions_dummy_general		99	1		1	0	false
 idrinth_lord_of_free_blades		idrinth_lord_of_free_blades		3	9		0	0	true
 idrinth_hidden_paths		idrinth_hidden_paths		3	10		0	0	true
+idrinth_elven_healing		idrinth_elven_healing		3	12		0	0	true
+idrinth_knowledge_sharing		idrinth_knowledge_sharing		3	15		0	0	true

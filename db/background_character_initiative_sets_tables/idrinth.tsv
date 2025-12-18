@@ -1,0 +1,4 @@
+campaign_group	amount_to_select	initiative_set
+#background_character_initiative_sets_tables;0;db/background_character_initiative_sets_tables/idrinth		
+idrinth_hev_high_elf_vampires_possible_cultures	0	idrinth_godly_blessings
+idrinth_hev_high_elf_vampires_idrinth	0	idrinth_godly_favour

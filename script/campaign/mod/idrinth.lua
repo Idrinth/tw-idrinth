@@ -5,6 +5,7 @@ Idrinth.charactersAssassinated = 0;
 Idrinth._dilemmaCooldown = 0;
 Idrinth._dilemmaCooldownMode = "medium";
 Idrinth._godBlessedItemRequirements = "normal";
+Idrinth._characterPanelOpen = false;
 Idrinth.place_of_interest = {
     drakenhof = {
         key = "idrinth_story_dilemma_drakenhof",
@@ -97,6 +98,8 @@ Idrinth.place_of_interest = {
         region = "wh3_main_combi_region_ghrond"
     }
 };
+Idrinth._self = nil;
+Idrinth._lastSelectionAgent = nil;
 Idrinth._levelAdjustment = {
     null = 0,
     one = 1,
@@ -568,6 +571,41 @@ core:add_listener(
         core:get_or_create_component("idrinth_pooled_resource_asuryan", "ui/idrinth/idrinth_pooled_resource_asuryan.twui.xml", parent);
         core:get_or_create_component("idrinth_pooled_resource_kurnous", "ui/idrinth/idrinth_pooled_resource_kurnous.twui.xml", parent);
         core:get_or_create_component("idrinth_pooled_resource_khaine", "ui/idrinth/idrinth_pooled_resource_khaine.twui.xml", parent);
+        campaign_manager:add_pooled_resource_changed_listener_by_faction(
+            "idrinth_PooledResourceListener",
+            context:faction():name(),
+            function(context)
+                if context:amount() == 0 then
+                    return;
+                end;
+                local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
+                if context:resource():key() == "idrinth_asuryan" then
+                    local asuryan = core:get_or_create_component(
+                        "idrinth_pooled_resource_asuryan",
+                        "ui/idrinth/idrinth_pooled_resource_asuryan.twui.xml",
+                        parent
+                    );
+                    UIComponent(asuryan:Find(0)):SetText(context:resource():value());
+                end;
+                if context:resource():key() == "idrinth_kurnous" then
+                    local kurnous = core:get_or_create_component(
+                        "idrinth_pooled_resource_kurnous",
+                        "ui/idrinth/idrinth_pooled_resource_kurnous.twui.xml",
+                        parent
+                    );        
+                    UIComponent(kurnous:Find(0)):SetText(context:resource():value());            
+                end;
+                if context:resource():key() == "idrinth_khaine" then
+                    local khaine = core:get_or_create_component(
+                        "idrinth_pooled_resource_khaine",
+                        "ui/idrinth/idrinth_pooled_resource_khaine.twui.xml",
+                        parent
+                    );
+                    UIComponent(khaine:Find(0)):SetText(context:resource():value());
+                end;
+            end,
+            true
+        );
         out("IDRINTH DEBUG: ==== DISABLING OTHER MISSIONS ====");
         for pos1, culture in pairs(Idrinth._cultures) do
             for pos2, faction in pairs(cm:get_factions_by_culture(culture)) do
@@ -595,6 +633,412 @@ core:add_listener(
                 end;
             end;
         end;
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_enableTypeDisplayInRecruitingPanel_action",
+    "ComponentLClickUp",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        out(context.string);
+        return context.string == "legendary_lords" and Idrinth._characterPanelOpen;
+    end,
+    function(context)
+        local parent = find_uicomponent(core:get_ui_root(), "character_panel", "character_panel_info_holder", "general_selection_panel", "main_holder", "character_list_parent", "character_list", "listview", "list_clip", "list_box");
+        if not parent then
+            out("Couldn't find character recruitment panel.")
+            return;
+        end;
+        if parent:ChildCount() == 0 then
+            return;
+        end;
+        for i = 1, parent:ChildCount() - 1 do
+            local child = parent:Find(i);
+            if child then
+                if UIComponent(child):Visible() then
+                    local subtype = find_uicomponent(UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                    if subtype and not subtype:Visible() then
+                        set_component_visible_with_parent(true, UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                        subtype:SetText("High Elf Vampire");
+                    end;
+                    return;
+                end;
+            end;
+        end;
+        cm:callback(
+            function()
+                local parent = find_uicomponent(core:get_ui_root(), "character_panel", "character_panel_info_holder", "general_selection_panel", "main_holder", "character_list_parent", "character_list", "listview", "list_clip", "list_box");
+                if not parent then
+                    out("Couldn't find character recruitment panel.")
+                    return;
+                end;
+                if parent:ChildCount() == 0 then
+                    return;
+                end;
+                for i = 1, parent:ChildCount() - 1 do
+                    local child = parent:Find(i);
+                    if child then
+                        if UIComponent(child):Visible() then
+                            local subtype = find_uicomponent(UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                            if subtype and not subtype:Visible() then
+                                set_component_visible_with_parent(true, UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                                subtype:SetText("High Elf Vampire");
+                            end;
+                            return;
+                        end;
+                    end;
+                end;
+            end,
+            1
+        )
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_enableTypeDisplayInRecruitingPanel_stop",
+    "PanelClosedCampaign",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        return context.string == "character_panel";
+    end,
+    function(context)
+        out("LEFT CHARACTER PANEL")
+        Idrinth._characterPanelOpen = false;
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_enableTypeDisplayInRecruitingPanel_start",
+    "PanelOpenedCampaign",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        return context.string == "character_panel";
+    end,
+    function(context)
+        out("ENTERED CHARACTER PANEL")
+        Idrinth._characterPanelOpen = true;
+        local parent = find_uicomponent(core:get_ui_root(), "character_panel", "character_panel_info_holder", "general_selection_panel", "main_holder", "character_list_parent", "character_list", "listview", "list_clip", "list_box");
+        if not parent then
+            out("Couldn't find character recruitment panel.")
+            return;
+        end;
+        if parent:ChildCount() == 0 then
+            return;
+        end;
+        for i = 1, parent:ChildCount() - 1 do
+            local child = parent:Find(i);
+            if child then
+                if UIComponent(child):Visible() then
+                    local subtype = find_uicomponent(UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                    if subtype and not subtype:Visible() then
+                        set_component_visible_with_parent(true, UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                        subtype:SetText("High Elf Vampire");
+                    end;
+                    return;
+                end;
+            end;
+        end;
+        cm:callback(
+            function()
+                local parent = find_uicomponent(core:get_ui_root(), "character_panel", "character_panel_info_holder", "general_selection_panel", "main_holder", "character_list_parent", "character_list", "listview", "list_clip", "list_box");
+                if not parent then
+                    out("Couldn't find character recruitment panel.")
+                    return;
+                end;
+                if parent:ChildCount() == 0 then
+                    return;
+                end;
+                for i = 1, parent:ChildCount() - 1 do
+                    local child = parent:Find(i);
+                    if child then
+                        if UIComponent(child):Visible() then
+                            local subtype = find_uicomponent(UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                            if subtype and not subtype:Visible() then
+                                set_component_visible_with_parent(true, UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                                subtype:SetText("High Elf Vampire");
+                            end;
+                            return;
+                        end;
+                    end;
+                end;
+            end,
+            1
+        )
+    end,
+    true
+);
+Idrinth._selectedUnits = nil;
+
+core:add_listener(
+    "idrinth_enableWAAAGHUpgradesPanel_unitHandling",
+    "RefreshUnitSelection",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        return true;
+    end,
+    function(context)
+        -- test
+        out("context:RefreshUnitSelection")
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_enableWAAAGHUpgradesPanel",
+    "ComponentLClickUp",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        return context.string == "idrinth_units_panel_blessings_button";
+    end,
+    function(context)
+        local parent = find_uicomponent(core:get_ui_root(), "units_panel", "main_units_panel");
+        if not parent then
+            return;
+        end;
+        local element = core:get_or_create_component(
+            "idrinth_units_panel_blessings",
+            "ui/idrinth/idrinth_units_panel_blessings.twui.xml",
+            parent
+        );
+        element:SetDockingPoint(8);-- Bottom Center
+        element:SetDockOffset(0, -300);-- 300 up
+        local army = cm:get_campaign_ui_manager():get_mf_selected_cqi()
+        if army then
+            local force = cm:get_military_force_by_cqi(army);
+            if force then
+                --element:SetContextObject(cco(force));
+            end;
+        end;
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_enableWAAAGHUpgrades",
+    "ComponentLClickUp",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        return context.string == "tab_transported_army";
+    end,
+    function(context)
+        if not Idrinth._self then
+            out("IDRINTH DEBUG: opening waaagh view for someone else than Idrinth")
+            return;
+        end;
+        out("IDRINTH DEBUG: opening waaagh view")
+        local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
+        if not parent then
+            return;
+        end;
+        core:get_or_create_component(
+            "idrinth_units_panel_blessings_button",
+            "ui/idrinth/idrinth_units_panel_blessings_button.twui.xml",
+            parent
+        );
+        for i = 1, parent:ChildCount() - 1 do
+            local child = parent:Find(i);
+            if child then
+                UIComponent(child):SetVisible(false);
+            end;
+        end;
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel")
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army")
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button")
+        set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "tabgroup", "tab_horde_buildings")
+        set_component_visible_with_parent(false, core:get_ui_root(), "units_panel", "main_units_panel", "unit_count_frame_holder", "frame")
+        set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "icon_list", "dy_upkeep")
+        find_uicomponent(core:get_ui_root(), "units_panel", "main_units_panel", "header", "button_focus", "dy_txt"):SetText("Knight-Scholar Idrinth Thalui")
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "horde_growth")
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "character_info_parent", "equipment")
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "character_info_parent", "subpanel_effect_bundles")
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "character_info_parent", "rank")
+        cm:callback(
+            function()
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel")
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army")
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button")
+                set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "tabgroup", "tab_horde_buildings")
+                set_component_visible_with_parent(false, core:get_ui_root(), "units_panel", "main_units_panel", "unit_count_frame_holder", "frame")
+                set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "icon_list", "dy_upkeep")
+                find_uicomponent(core:get_ui_root(), "units_panel", "main_units_panel", "header", "button_focus", "dy_txt"):SetText("Knight-Scholar Idrinth Thalui")
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "horde_growth")
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "character_info_parent", "equipment")
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "character_info_parent", "subpanel_effect_bundles")
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "character_info_parent", "rank")
+            end,
+            1
+        );
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_enableArmyUpgrades",
+    "ComponentLClickUp",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        return context.string == "idrinth_units_panel_warband_button";
+    end,
+    function(context)
+    
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_enableArmyUpgrades",
+    "ComponentLClickUp",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        return context.string == "tab_army";
+    end,
+    function(context)
+        if not Idrinth._self then
+            out("IDRINTH DEBUG: opening army view for someone else than Idrinth")
+            return;
+        end;
+        out("IDRINTH DEBUG: opening army view")
+        local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
+        if not parent then
+            return;
+        end;
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel")
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army")
+        core:get_or_create_component(
+            "idrinth_units_panel_warband_button",
+            "ui/idrinth/idrinth_units_panel_warband_button.twui.xml",
+            parent
+        );
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "button_warbands_upgrade")
+        cm:callback(
+            function()
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel")
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army")
+                core:get_or_create_component(
+                    "idrinth_units_panel_warband_button",
+                    "ui/idrinth/idrinth_units_panel_warband_button.twui.xml",
+                    parent
+                );
+                set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "button_warbands_upgrade")
+            end,
+            1
+        );
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_checkIfIdrinthIsSelected",
+    "CharacterSelected",
+    true,
+    function(context) 
+        out("IDRINTH DEBUG: is idrinth?")
+        local isIdrinth = context:character():character_subtype_key() == "idrinth_hev_high_elf_vampires_idrinthchampion" or context:character():character_subtype_key() == "idrinth_hev_high_elf_vampires_idrinthgeneral";
+        if isIdrinth then
+            Idrinth._self = context:character();            
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
+            local subtype = find_uicomponent(core:get_ui_root(), "character_details_panel", "character_context_parent", "character_name", "panel_subtitle", "dy_subtype");
+            if subtype then
+                subtype:SetText("High Elf Vampire");
+            end;
+            cm:callback(
+                function()
+                    if not Idrinth._self then
+                        return;
+                    end;
+                    set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
+                    local subtype = find_uicomponent(core:get_ui_root(), "character_details_panel", "character_context_parent", "character_name", "panel_subtitle", "dy_subtype");
+                    if subtype then
+                        subtype:SetText("High Elf Vampire");
+                    end;
+                end,
+                1
+            );
+        else
+            Idrinth._self = nil;            
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")            
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "stats_effects_holder");
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+        end;
+        local initiative_sets = context:character():character_details():character_initiative_sets();
+        local has_actual_initiative_sets = false;
+        if initiative_sets then
+            for i = 0, initiative_sets:num_items() -1 do
+                local initiative_set = initiative_sets:item_at(i)
+                if initiative_set then
+                    local local_initiatives = initiative_set:all_initiatives();
+                    if local_initiatives then
+                        for j = 0, local_initiatives:num_items() -1 do
+                            local initiative = local_initiatives:item_at(j);
+                            if initiative then
+                                local initiative_key = initiative:record_key();
+                                out(initiative_key);
+                                if (initiative_key == "idrinth_khaine_pledge") or (initiative_key == "idrinth_kurnous_pledge") or (initiative_key == "idrinth_asuryan_pledge") or (initiative_key == "idrinth_khaine_prayer") or (initiative_key == "idrinth_kurnous_prayer") or (initiative_key == "idrinth_asuryan_prayer") then
+                                    --idrinth is the only one who gets his initiatives
+                                else
+                                    has_actual_initiative_sets = true;
+                                end;
+                            end;
+                        end;
+                    end;
+                end;
+            end;
+        end;
+        if not has_actual_initiative_sets then
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+        end;
+        Idrinth._lastSelectionAgent = context:character();
+        cm:callback(
+            function()
+                local initiative_sets = Idrinth._lastSelectionAgent:character_details():character_initiative_sets();
+                local has_actual_initiative_sets = false;
+                if initiative_sets then
+                    for i = 0, initiative_sets:num_items() -1 do
+                        local initiative_set = initiative_sets:item_at(i)
+                        if initiative_set then
+                            local local_initiatives = initiative_set:all_initiatives();
+                            if local_initiatives then
+                                for j = 0, local_initiatives:num_items() -1 do
+                                    local initiative = local_initiatives:item_at(j);
+                                    if initiative then
+                                        local initiative_key = initiative:record_key()
+                                        if (initiative_key == "idrinth_khaine_pledge") or (initiative_key == "idrinth_kurnous_pledge") or (initiative_key == "idrinth_asuryan_pledge") or (initiative_key == "idrinth_khaine_prayer") or (initiative_key == "idrinth_kurnous_prayer") or (initiative_key == "idrinth_asuryan_prayer") then
+                                            --idrinth is the only one who gets his initiatives
+                                        else
+                                            has_actual_initiative_sets = true;
+                                        end;
+                                    end;
+                                end;
+                            end;
+                        end;
+                    end;
+                end;
+                if not has_actual_initiative_sets then
+                    set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+                end;
+            end,
+            1
+        );
     end,
     true
 );
@@ -749,7 +1193,7 @@ core:add_listener(
         if Idrinth._hasModConfig then
             return false;
         end;
-        return context:faction():is_human();
+        return context:faction():is_human() and Idrinth._enableStoryEvents;
     end,
     function(context)
         out("IDRINTH DEBUG: ===== START MODE DILEMMA =====");
@@ -1017,6 +1461,9 @@ core:add_listener(
             out("IDRINTH DEBUG: ===== IDRINTH WOUNDED =====");
             return;
         end;
+        if idrinth:has_military_force() and not idrinth:is_carrying_troops() then
+            cm:spawn_transported_force_at_military_force(idrinth:military_force():command_queue_index(), "idrinth_hev_high_elf_vampires_idrinth_support", 1)
+        end;
         
         out("IDRINTH DEBUG: ===== START BUILDING SPAWN CHECKS =====");
         local buildingSpawnChance = idrinth:rank();
@@ -1271,7 +1718,6 @@ core:add_listener(
                     true
                 );
                 out("Attached ancillary to Idrinth.");
-                return;
             end;
         end;
     end,
@@ -1324,21 +1770,153 @@ core:add_listener(
     "idrinth_CharacterInfoPanelOpened",
     "PanelOpenedCampaign",
     function(context)
+        return context.string == "character_details_panel";
+    end,
+    function(context)
+        out("IDRINTH DEBUG: ===== CREATING CHARACTER DETAIL UI =====");
+        local paths = core:get_or_create_component(
+            "idrinth_character_details_panel_idrinths_paths",
+            "ui/idrinth/idrinth_character_details_panel_idrinths_paths.twui.xml",
+            find_uicomponent(core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels")
+        );
+        UIComponent(paths:Parent()):Adopt(paths:Address(), 3);
+        core:get_or_create_component(
+            "idrinth_character_details_panel_idrinths_paths_button",
+            "ui/idrinth/idrinth_character_details_panel_idrinths_paths_button.twui.xml",
+            find_uicomponent(core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup")
+        );
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths")
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
+        if Idrinth._lastSelectionAgent then
+            if not Idrinth._self then
+                local initiative_sets = Idrinth._lastSelectionAgent:character_details():character_initiative_sets();
+                local has_actual_initiative_sets = false;
+                if initiative_sets then
+                    for i = 0, initiative_sets:num_items() -1 do
+                        local initiative_set = initiative_sets:item_at(i)
+                        if initiative_set then
+                            local local_initiatives = initiative_set:all_initiatives();
+                            if local_initiatives then
+                                for j = 0, local_initiatives:num_items() -1 do
+                                    local initiative = local_initiatives:item_at(j);
+                                    if initiative then
+                                        local initiative_key = initiative:record_key();
+                                        out(initiative_key);
+                                        if (initiative_key == "idrinth_khaine_pledge") or (initiative_key == "idrinth_kurnous_pledge") or (initiative_key == "idrinth_asuryan_pledge") or (initiative_key == "idrinth_khaine_prayer") or (initiative_key == "idrinth_kurnous_prayer") or (initiative_key == "idrinth_asuryan_prayer") then
+                                            --idrinth is the only one who gets his initiatives
+                                        else
+                                            has_actual_initiative_sets = true;
+                                        end;
+                                    end;
+                                end;
+                            end;
+                        end;
+                    end;
+                end;
+                if not has_actual_initiative_sets then
+                    set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+                end;
+                cm:callback(
+                    function()
+                        local initiative_sets = Idrinth._lastSelectionAgent:character_details():character_initiative_sets();
+                        local has_actual_initiative_sets = false;
+                        if initiative_sets then
+                            for i = 0, initiative_sets:num_items() -1 do
+                                local initiative_set = initiative_sets:item_at(i)
+                                if initiative_set then
+                                    local local_initiatives = initiative_set:all_initiatives();
+                                    if local_initiatives then
+                                        for j = 0, local_initiatives:num_items() -1 do
+                                            local initiative = local_initiatives:item_at(j);
+                                            if initiative then
+                                                local initiative_key = initiative:record_key()
+                                                if (initiative_key == "idrinth_khaine_pledge") or (initiative_key == "idrinth_kurnous_pledge") or (initiative_key == "idrinth_asuryan_pledge") or (initiative_key == "idrinth_khaine_prayer") or (initiative_key == "idrinth_kurnous_prayer") or (initiative_key == "idrinth_asuryan_prayer") then
+                                                    --idrinth is the only one who gets his initiatives
+                                                else
+                                                    has_actual_initiative_sets = true;
+                                                end;
+                                            end;
+                                        end;
+                                    end;
+                                end;
+                            end;
+                        end;
+                        if not has_actual_initiative_sets then
+                            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+                        end;
+                    end,
+                    1
+                );
+            end;
+            return;
+        end;
+        set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+        find_uicomponent(core:get_ui_root(), "character_details_panel", "character_context_parent", "character_name", "panel_subtitle", "dy_subtype"):SetText("High Elf Vampire")
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_enableIdrinthsPaths",
+    "ComponentLClickUp",
+    function(context)
         local idrinth = Idrinth.get();
         if not idrinth then
             return false;
         end;
-        return context.string == "character_details_panel";
+        return context.string == "idrinth_character_details_panel_idrinths_paths_button";
     end,
     function(context)
+        set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");      
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "character_details_subpanel");
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "skills_subpanel");
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "sla_eternal_dance_subpanel");
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "quests_subpanel");
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "character_initiatives_holder");
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "fragments_subpanel");
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "vows_subpanel");
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_disableIdrinthsPaths",
+    "ComponentLClickUp",
+    function(context)
         local idrinth = Idrinth.get();
-        out("IDRINTH DEBUG: ===== CREATING CHARACTER DETAIL UI =====");
-        --core:get_or_create_component(
-        --    "idrinth_character_details_panel_idrinths_paths",
-        --    "ui/idrinth/idrinth_character_details_panel_idrinths_paths.twui.xml",
-        --    find_uicomponent(core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels")
-        --);
-        --set_component_visible(false, "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths")
+        if not idrinth then
+            return false;
+        end;
+        return true;
+    end,
+    function(context)
+        if context.string == "idrinth_character_details_panel_idrinths_paths_button" then
+            return;
+        end;
+        if context.string == "details" then
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "stats_effects_holder");
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "character_details_subpanel");
+        elseif context.string == "skills" then
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "stats_effects_holder");
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "skills_subpanel");
+        elseif context.string == "eternal_dance" then
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "sla_eternal_dance_subpanel");
+        elseif context.string == "quests" then
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "quests");
+        elseif context.string == "fragments" then
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "fragments_subpanel");
+        elseif context.string == "vows" then
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "vows_subpanel");
+        elseif context.string == "changeling" then
+            set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+            set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "formless_horror_subpanel");
+        end;
     end,
     true
 );
@@ -1490,8 +2068,13 @@ core:add_listener(
         for i = 1, cm:pending_battle_cache_num_attackers() do
             local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_attacker(i);
             local characters = cm:pending_battle_cache_get_attacker_embedded_character_subtypes(i);
-            if cm:pending_battle_cache_get_attacker_subtype(i) == "general" then
+            local general = cm:get_character_by_cqi(char_cqi);
+            if general then
                 attackerCharacters = attackerCharacters + 1;
+                if general:character_subtype("idrinth_hev_high_elf_vampires_idrinthgeneral") then
+                    idrinthIsAttacker = true;
+                    idrinthFactionName = faction_name;
+                end;
             end;
             for j=1, #characters do
                 attackerCharacters = attackerCharacters + 1;
@@ -1510,8 +2093,13 @@ core:add_listener(
         for i = 1, cm:pending_battle_cache_num_defenders() do
             local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_defender(i);
             local characters = cm:pending_battle_cache_get_defender_embedded_character_subtypes(i);
-            if cm:pending_battle_cache_get_defender_subtype(i) == "general" then
+            local general = cm:get_character_by_cqi(char_cqi);
+            if general then
                 defenderCharacters = defenderCharacters + 1;
+                if general:character_subtype("idrinth_hev_high_elf_vampires_idrinthgeneral") then
+                    idrinthIsDefender = true;
+                    idrinthFactionName = faction_name;
+                end;
             end;
             for j=1, #characters do
                 defenderCharacters = defenderCharacters + 1;
@@ -1530,6 +2118,19 @@ core:add_listener(
             local base = 1;
             if attackerWon then
                 base = 5;
+            else
+                for i = 1, cm:pending_battle_cache_num_defenders() do
+                    local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_defender(i);
+                    local general = cm:get_character_by_cqi(char_cqi);
+                    if general then
+                        cm:force_add_trait(
+                            cm:char_lookup_str(general),
+                            "idrinth_killer",
+                            true,
+                            1
+                        );
+                    end;
+                end;
             end;
             addResource(
                 "asuryan",
@@ -1551,61 +2152,61 @@ core:add_listener(
             );
             if cm:pending_battle_cache_culture_is_defender("wh2_main_hef_high_elves") then
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_asuryan",
-                    false,
+                    true,
                     3
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_kurnous",
-                    false,
+                    true,
                     2
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_khaine",
-                    false,
+                    true,
                     1
                 );
             end;
             if cm:pending_battle_cache_culture_is_defender("wh_dlc05_wef_wood_elves") then
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_asuryan",
-                    false,
+                    true,
                     2
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_kurnous",
-                    false,
+                    true,
                     3
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_khaine",
-                    false,
+                    true,
                     1
                 );
             end;
             if cm:pending_battle_cache_culture_is_defender("wh2_main_def_dark_elves") then
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_asuryan",
-                    false,
+                    true,
                     2
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_kurnous",
-                    false,
+                    true,
                     1
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_khaine",
-                    false,
+                    true,
                     3
                 );
             end;
@@ -1614,6 +2215,19 @@ core:add_listener(
             local base = 1;
             if defenderWon then
                 base = 5;
+            else
+                for i = 1, cm:pending_battle_cache_num_attackers() do
+                    local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_attacker(i);
+                    local general = cm:get_character_by_cqi(char_cqi);
+                    if general then
+                        cm:force_add_trait(
+                            cm:char_lookup_str(general),
+                            "idrinth_killer",
+                            true,
+                            1
+                        );
+                    end;
+                end;
             end;
             addResource(
                 "asuryan",
@@ -1636,61 +2250,61 @@ core:add_listener(
 
             if cm:pending_battle_cache_culture_is_attacker("wh2_main_hef_high_elves") then
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_asuryan",
-                    false,
+                    true,
                     3
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_kurnous",
-                    false,
+                    true,
                     2
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_khaine",
-                    false,
+                    true,
                     1
                 );
             end;
             if cm:pending_battle_cache_culture_is_attacker("wh_dlc05_wef_wood_elves") then
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_asuryan",
-                    false,
+                    true,
                     2
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_kurnous",
-                    false,
+                    true,
                     3
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_khaine",
-                    false,
+                    true,
                     1
                 );
             end;
             if cm:pending_battle_cache_culture_is_attacker("wh2_main_def_dark_elves") then
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_asuryan",
-                    false,
+                    true,
                     2
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_kurnous",
                     false,
                     1
                 );
                 cm:force_add_trait(
-                    "idrinth_hev_high_elf_vampires_idrinth",
+                    cm:char_lookup_str(idrinth),
                     "idrinth_slayer_elves_khaine",
-                    false,
+                    true,
                     3
                 );
             end;
@@ -2086,21 +2700,56 @@ cm:add_first_tick_callback(
         if faction == cm:get_local_faction() then
             local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
             out("IDRINTH DEBUG: ===== CREATING UI =====");
-            core:get_or_create_component(
+            local asuryan = core:get_or_create_component(
                 "idrinth_pooled_resource_asuryan",
                 "ui/idrinth/idrinth_pooled_resource_asuryan.twui.xml",
                 parent
             );
-            core:get_or_create_component(
+            local kurnous = core:get_or_create_component(
                 "idrinth_pooled_resource_kurnous",
                 "ui/idrinth/idrinth_pooled_resource_kurnous.twui.xml",
                 parent
             );
-            core:get_or_create_component(
+            local khaine = core:get_or_create_component(
                 "idrinth_pooled_resource_khaine",
                 "ui/idrinth/idrinth_pooled_resource_khaine.twui.xml",
                 parent
             );
+            campaign_manager:add_pooled_resource_changed_listener_by_faction(
+                "idrinth_PooledResourceListener",
+                faction:name(),
+                function(context)
+                    if context:amount() == 0 then
+                        return;
+                    end;
+                    local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
+                    if context:resource():key() == "idrinth_asuryan" then
+                        local asuryan = core:get_or_create_component(
+                            "idrinth_pooled_resource_asuryan",
+                            "ui/idrinth/idrinth_pooled_resource_asuryan.twui.xml",
+                            parent
+                        );
+                        UIComponent(asuryan:Find(0)):SetText(context:resource():value());
+                    end;
+                    if context:resource():key() == "idrinth_kurnous" then
+                        local kurnous = core:get_or_create_component(
+                            "idrinth_pooled_resource_kurnous",
+                            "ui/idrinth/idrinth_pooled_resource_kurnous.twui.xml",
+                            parent
+                        );        
+                        UIComponent(kurnous:Find(0)):SetText(context:resource():value());            
+                    end;
+                    if context:resource():key() == "idrinth_khaine" then
+                        local khaine = core:get_or_create_component(
+                            "idrinth_pooled_resource_khaine",
+                            "ui/idrinth/idrinth_pooled_resource_khaine.twui.xml",
+                            parent
+                        );
+                        UIComponent(khaine:Find(0)):SetText(context:resource():value());
+                    end;
+                end,
+                true
+            )
         end;
     end
 );

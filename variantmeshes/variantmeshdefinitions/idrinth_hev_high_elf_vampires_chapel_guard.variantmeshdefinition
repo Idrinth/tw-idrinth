@@ -5,189 +5,49 @@
 		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_elven_heads_03.variantmeshdefinition" />
 	</SLOT>
 	<SLOT name="torso">
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_torso_01.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_torso_02.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_torso_03.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_torso_04.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_torso_05.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/torso/def_warriors_torso_02.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/torso/def_warriors_torso_01.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/torso/def_warriors_torso_03.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/torso/def_warriors_torso_04.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/torso/def_warriors_torso_05.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/torso/hef_archers_torso_02.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/torso/hef_archers_torso_01.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/torso/hef_archers_torso_03.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/torso/hef_archers_torso_04.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/torso/hef_archers_torso_05.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_spearmen/torso/hef_gate_guard_torso_01.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_spearmen/torso/hef_gate_guard_torso_02.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_spearmen/torso/hef_gate_guard_torso_03.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_spearmen/torso/hef_gate_guard_torso_04.wsmodel">
-			<META_DATA>audio_armour_type:plate</META_DATA>
-		</VARIANT_MESH>
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_torso_01.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_torso_02.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_torso_03.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_torso_04.variantmeshdefinition" />
 	</SLOT>
 	<SLOT name="legs">
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_01.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_02.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_03.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_04.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_05.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/legs/hef_archers_legs_01.wsmodel"/>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/legs/hef_archers_legs_02.wsmodel"/>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/legs/hef_archers_legs_03.wsmodel"/>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/legs/hef_archers_legs_04.wsmodel"/>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_archers/legs/hef_archers_legs_05.wsmodel"/>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_legs_01.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_legs_02.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_legs_03.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_legs_04.wsmodel" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_legs_01.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_legs_02.variantmeshdefinition" />
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_legs_03.variantmeshdefinition" />
 	</SLOT>
 	<SLOT name="quiver">
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1d\wef\wef_glade_lord\wef_glade_lord_quiver_01.wsmodel" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1d\wef\wef_glade_lord\wef_glade_lord_quiver_01.wsmodel">
 			<META_DATA>equipment</META_DATA>
         </VARIANT_MESH>
 	</SLOT>
     <SLOT attach_point="be_prop_0" name="weapon_1"/>
 	<SLOT attach_point="be_prop_1" name="weapon_2">
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_ranger_sword_1h_01.wsmodel" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_weapon_2_01.variantmeshdefinition">
 			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_ranger_sword_1h_02.wsmodel" >
-			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_ranger_sword_1h_03.wsmodel" >
-			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_swords_1h_01.wsmodel" >
-			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_swords_1h_02.wsmodel" >
-			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_swords_1h_03.wsmodel" >
-			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_swords_1h_05.wsmodel" >
-			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_swords_1h_04.wsmodel" >
-			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_01.wsmodel">
 			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
+        </VARIANT_MESH>
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_weapon_2_02.variantmeshdefinition">
 			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_02.wsmodel">
 			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
+        </VARIANT_MESH>
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_weapon_2_03.variantmeshdefinition">
 			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_03.wsmodel">
 			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
-			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_04.wsmodel">
-			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
-			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_05.wsmodel">
-			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
-			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_lothern_guard_spear_1h_01.wsmodel">
+        </VARIANT_MESH>
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_weapon_2_04.variantmeshdefinition">
 			<META_DATA>equipment</META_DATA>
 			<META_DATA>audio_melee_weapon_type:spear</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_lothern_guard_spear_1h_02.wsmodel">
-			<META_DATA>equipment</META_DATA>
-			<META_DATA>audio_melee_weapon_type:spear</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_lothern_guard_spear_1h_03.wsmodel">
-			<META_DATA>equipment</META_DATA>
-			<META_DATA>audio_melee_weapon_type:spear</META_DATA>
-		</VARIANT_MESH>
+        </VARIANT_MESH>
 	</SLOT>
 	<SLOT name="shield">
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_lothern_guard_shield_01.wsmodel">
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_shield_01.variantmeshdefinition">
 			<META_DATA>equipment</META_DATA>
 			<META_DATA>audio_shield_type:metal</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_lothern_guard_shield_02.wsmodel">
+        </VARIANT_MESH>
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_shield_02.variantmeshdefinition">
 			<META_DATA>equipment</META_DATA>
 			<META_DATA>audio_shield_type:metal</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_lothern_guard_shield_03.wsmodel">
-			<META_DATA>equipment</META_DATA>
-			<META_DATA>audio_shield_type:metal</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_shield_01.wsmodel">
-			<META_DATA>equipment</META_DATA>
-			<META_DATA>audio_shield_type:metal</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_shield_02.wsmodel">
-			<META_DATA>equipment</META_DATA>
-			<META_DATA>audio_shield_type:metal</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_shield_03.wsmodel">
-			<META_DATA>equipment</META_DATA>
-			<META_DATA>audio_shield_type:metal</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_shield_04.wsmodel">
-			<META_DATA>equipment</META_DATA>
-			<META_DATA>audio_shield_type:metal</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_shield_05.wsmodel">
-			<META_DATA>equipment</META_DATA>
-			<META_DATA>audio_shield_type:metal</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_props/def_dark_elf_warrior_shield_06.wsmodel">
-			<META_DATA>equipment</META_DATA>
-			<META_DATA>audio_shield_type:metal</META_DATA>
-		</VARIANT_MESH>
+        </VARIANT_MESH>
 	</SLOT>
 	<SLOT attach_point="be_prop_3" name="weapon_3">
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_waystalkers_bow_rigid_01.wsmodel" >
@@ -209,37 +69,13 @@
 		</VARIANT_MESH>
 	</SLOT>
 	<SLOT attach_point="be_prop_5" name="weapon_5">
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_01.wsmodel">
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_weapon_5_01.variantmeshdefinition">
+			<META_DATA>equipment</META_DATA>
 			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
-			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_02.wsmodel">
-			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
-			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_03.wsmodel">
-			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
-			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_04.wsmodel">
-			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
-			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_props/wef_glade_lord_sword_1h_05.wsmodel">
-			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
-			<META_DATA>equipment</META_DATA>
-		</VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_ranger_sword_1h_01.wsmodel" >
-			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
         </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_ranger_sword_1h_02.wsmodel" >
+		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_guard_weapon_5_02.variantmeshdefinition">
 			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
-        </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/hef/hef_props/hef_ranger_sword_1h_03.wsmodel" >
-			<META_DATA>equipment</META_DATA>
-            <META_DATA>audio_melee_weapon_type:sword</META_DATA>
+			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
         </VARIANT_MESH>
 	</SLOT>
 	<SLOT attach_point="spine_2" name="stump_neck">

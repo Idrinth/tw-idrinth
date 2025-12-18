@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="head">
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_head_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_head_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_head_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_head_04.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_head_05.wsmodel" />
+    </SLOT>
+</VARIANT_MESH>

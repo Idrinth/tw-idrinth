@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+    <SLOT name="legs">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_04.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/def/def_warriors/legs/def_warriors_legs_05.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

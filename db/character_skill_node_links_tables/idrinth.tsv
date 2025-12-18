@@ -57,3 +57,6 @@ idrinth_hidden_paths	idrinth_ranger_knowledge	0	0	0	0.0000	0.0000	REQUIRED
 idrinth_hidden_paths	idrinth_blade_dancing	0	0	0	0.0000	0.0000	REQUIRED
 idrinth_hidden_paths	idrinth_unusual_training	0	0	0	0.0000	0.0000	REQUIRED
 idrinth_hidden_paths	idrinth_running_wild	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_elven_healing	idrinth_lord_of_free_blades	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_elven_healing	idrinth_hidden_paths	0	0	0	0.0000	0.0000	REQUIRED
+idrinth_knowledge_sharing	idrinth_elven_healing	0	0	0	0.0000	0.0000	REQUIRED

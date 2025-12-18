@@ -1,0 +1,8 @@
+<VARIANT_MESH>
+	<SLOT name="legs">
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_legs_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_legs_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_legs_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1d/wef/wef_waystalkers/wef_waystalkers_legs_04.wsmodel" />
+    </SLOT>
+</VARIANT_MESH>

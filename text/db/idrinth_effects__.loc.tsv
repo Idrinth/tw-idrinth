@@ -67,3 +67,6 @@ effects_description_idrinth_unit_capacity_chapel_stone_wolves	%+n unit limit for
 effects_description_idrinth_unit_capacity_chapel_outriders	%+n unit limit for Outriders.	false
 effects_description_idrinth_chapel_units_upkeep	%+n% less upkeep for all elven units of the Thaluian Chapels.	false
 effects_description_idrinth_chapel_units_recruitment_rank	%+n recruitment rank for all elven units of the Thaluian Chapels.	false
+effects_description_idrinth_initiative_khaine_pray	Your prayer to Khaine improved your troops' offensive potential.	false
+effects_description_idrinth_initiative_kurnous_pray	Your prayer to Kurnous improved your troops' hunting potential.	false
+effects_description_idrinth_initiative_asuryan_pray	Your prayer to Asuryan improved your troops' survival potential.	false

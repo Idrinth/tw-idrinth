@@ -174,3 +174,9 @@ campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	idrinth_hidden_paths		x	5
 		2	idrinth_hidden_paths		x	10
 		3	idrinth_hidden_paths		x	15
+		1	idrinth_elven_healing		x	5
+		2	idrinth_elven_healing		x	7
+		3	idrinth_elven_healing		x	9
+		1	idrinth_knowledge_sharing		x	9
+		2	idrinth_knowledge_sharing		x	11
+		3	idrinth_knowledge_sharing		x	13
