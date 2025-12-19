@@ -1,4 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_cultures__.loc		
-cultures_frontend_description_idrinth_hev_high_elf_vampires	The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.	false
-cultures_name_idrinth_hev_high_elf_vampires	Thaluian Chapel	false
+#Loc;1;text/db/idrinth_cultures__.loc
+cultures_frontend_description_idrinth_hev_high_elf_vampires	Das Netzwerk der Thaluischen Kapellen erstreckt sich über viele Länder mit seltenen, doch mächtigen Kapellengebäuden, die wichtige Siedlungen verteidigen und Chaostruppen aufhalten, ehe sie zu einer größeren Bedrohung werden.	false
+cultures_name_idrinth_hev_high_elf_vampires	Thaluische Kapelle	false
+
