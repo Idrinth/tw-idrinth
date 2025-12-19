@@ -1,4 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_agent_culture_details__.loc		
-agent_culture_details_description_text_999999990	High Elves who were turned into vampires.	false
+#Loc;1;text/db/idrinth_agent_culture_details__.loc
+agent_culture_details_description_text_999999990	Hochelfen, so zu Vampiren gewandelt wurden.	false
 agent_culture_details_onscreen_name_999999990	Idrinth Thalui	false
+
