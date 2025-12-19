@@ -2923,7 +2923,11 @@
 				<callback_with_context
 					callback_id="ContextCommandLeftClick"
 					context_object_id="CcoCampaignInitiative"
-					context_function_id="Activate(self.ParentContext.ParentContext.ParentContext.ChildIndex)"/>
+					context_function_id="InitiativeSetContext.ActiveInitiatives.ForEach(Deactivate)"/>
+				<callback_with_context
+					callback_id="ContextCommandLeftClick"
+					context_object_id="CcoCampaignInitiative"
+					context_function_id="Activate"/>
 				<callback_with_context
 					callback_id="ContextVisibilitySetter"
 					context_object_id="CcoCampaignInitiative"

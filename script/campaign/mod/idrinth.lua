@@ -398,30 +398,9 @@ Idrinth._hasModConfig = false;
 Idrinth._unlockInstantly = (common.filesystem_lookup("/script/", "enable_idrinth_instant") ~= "");
 Idrinth.get = function()
     for pos0, culture in pairs(Idrinth._cultures) do
-        for pos, faction in pairs(cm:get_factions_by_culture(culture)) do
-            local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type, Idrinth._subtype .. Idrinth._type);
-            if idrinth then
-                Idrinth._idrinth = idrinth;
-                Idrinth._faction = faction;
-                Idrinth._culture = culture;
-                return idrinth, faction, culture;
-            end;
-        end;
-    end;
-    for pos0, culture in pairs(Idrinth._cultures) do
-        for pos, faction in pairs(cm:get_factions_by_culture(culture)) do
-            local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type2, Idrinth._subtype .. Idrinth._type2);
-            if idrinth then
-                Idrinth._idrinth = idrinth;
-                Idrinth._faction = faction;
-                Idrinth._culture = culture;
-                return idrinth, faction, culture;
-            end;
-        end;
-    end;
-    if Idrinth._expandedCulturesActive or Idrinth._unlockInstantly then
-        for pos0, culture in pairs(Idrinth._expandedCultures) do
-            for pos, faction in pairs(cm:get_factions_by_culture(culture)) do
+        local factions = cm:get_factions_by_culture(culture);
+        if factions then
+            for pos, faction in pairs(factions) do
                 local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type, Idrinth._subtype .. Idrinth._type);
                 if idrinth then
                     Idrinth._idrinth = idrinth;
@@ -432,15 +411,47 @@ Idrinth.get = function()
             end;
         end;
     end;
-    if Idrinth._expandedCulturesActive or Idrinth._unlockInstantly then
-        for pos0, culture in pairs(Idrinth._expandedCultures) do
-            for pos, faction in pairs(cm:get_factions_by_culture(culture)) do
+    for pos0, culture in pairs(Idrinth._cultures) do 
+        local factions = cm:get_factions_by_culture(culture);
+        if factions then
+            for pos, faction in pairs(factions) do
                 local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type2, Idrinth._subtype .. Idrinth._type2);
                 if idrinth then
                     Idrinth._idrinth = idrinth;
                     Idrinth._faction = faction;
                     Idrinth._culture = culture;
                     return idrinth, faction, culture;
+                end;
+            end;
+        end;
+    end;
+    if Idrinth._expandedCulturesActive or Idrinth._unlockInstantly then
+        for pos0, culture in pairs(Idrinth._expandedCultures) do        local factions = cm:get_factions_by_culture(culture);
+            if factions then
+                for pos, faction in pairs(factions) do
+                    local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type, Idrinth._subtype .. Idrinth._type);
+                    if idrinth then
+                        Idrinth._idrinth = idrinth;
+                        Idrinth._faction = faction;
+                        Idrinth._culture = culture;
+                        return idrinth, faction, culture;
+                    end;
+                end;
+            end;
+        end;
+    end;
+    if Idrinth._expandedCulturesActive or Idrinth._unlockInstantly then
+        for pos0, culture in pairs(Idrinth._expandedCultures) do
+            local factions = cm:get_factions_by_culture(culture);
+            if factions then
+                for pos, faction in pairs(factions) do
+                    local idrinth = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth._type2, Idrinth._subtype .. Idrinth._type2);
+                    if idrinth then
+                        Idrinth._idrinth = idrinth;
+                        Idrinth._faction = faction;
+                        Idrinth._culture = culture;
+                        return idrinth, faction, culture;
+                    end;
                 end;
             end;
         end;
@@ -1487,10 +1498,18 @@ core:add_listener(
                     end;
                 end;
                 if not found then
-                    cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel");
+                    if idrinth:region():is_province_capital() then
+                        cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel_capital");
+                    else
+                        cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel");
+                    end;
                 end;
             elseif not foreignSlotManager or foreignSlotManager:is_null_interface() then
-                cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel");
+                if idrinth:region():is_province_capital() then
+                    cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel_capital");
+                else
+                    cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel");
+                end;
             end;
         end;
 
@@ -1944,6 +1963,14 @@ core:add_listener(
                 settlement
             );
             element:SetContextObject(settlement:GetContextObject("CcoCampaignSettlement"));
+            element:SetVisible(false);
+            local buttons = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list");
+            local button = core:get_or_create_component(
+                "idrinth_settlement_panel_button",
+                "ui/idrinth/idrinth_settlement_panel_button.twui.xml",
+                buttons
+            );
+            button:SetContextObject(settlement:GetContextObject("CcoCampaignSettlement"));
         end;
     end,
     true
@@ -2687,6 +2714,8 @@ cm:add_loading_game_callback(
             for name in possible_factions do
                 local stored = cm:load_named_value("idrinth.unlock." .. name, 0, context);
                 if stored == 1 then
+                    Idrinth._unlockMissionStarted[name] = true;
+                elseif stored == "1" then
                     Idrinth._unlockMissionStarted[name] = true;
                 end;
             end;
