@@ -954,10 +954,7 @@
 					<child_m_user_properties>
 						<property
 							name="panel"
-							value="settlement_hostile_slots"/>
-						<property
-							name="panel"
-							value="hostile_views"/>
+							value="idrinth_settlement_hostile_slots"/>
 						<property
 							name="parent"
 							value="^3"/>
@@ -975,21 +972,8 @@
 				</callback_with_context>
 				<callback_with_context
 					callback_id="ContextCommandGiverOnVisibilityChanged"
-					context_object_id="CcoStaticObject"
-					context_function_id="DoIf(StoredContextFromParent(&quot;CcoCampaignSettlement&quot;).IsPlayerOwned == false &amp;&amp; StoredContextFromParent(&quot;CcoCampaignSettlement&quot;).HostileSlotsGroupList.Any(CategoryObject.IsPlayersFaction &amp;&amp; GroupedList.Any(BuildingSlotList.Any(PossibleBuildingChainsList.Any(Key == &quot;idrinth_hev_high_elf_vampires_chapel&quot; || Key == &quot;idrinth_hev_high_elf_vampires_beasts&quot; || Key == &quot;idrinth_hev_high_elf_vampires_diplomacy&quot; || Key == &quot;idrinth_hev_high_elf_vampires_altar&quot; || Key == &quot;idrinth_hev_high_elf_vampires_horde&quot; || Key == &quot;idrinth_hev_high_elf_vampires_tavern&quot; || Key == &quot;idrinth_hev_high_elf_vampires_library&quot;)))), self.SimulateLClick)"/>
+					context_object_id="CcoStaticObject"					context_function_id="DoIf(StoredContextFromParent(&quot;CcoCampaignSettlement&quot;).IsPlayerOwned == false &amp;&amp; StoredContextFromParent(&quot;CcoCampaignSettlement&quot;).HostileSlotsGroupList.Any(CategoryObject.IsPlayersFaction &amp;&amp; GroupedList.Any(BuildingSlotList.Any(PossibleBuildingChainsList.Any(Key == &quot;idrinth_hev_high_elf_vampires_chapel&quot; || Key == &quot;idrinth_hev_high_elf_vampires_beasts&quot; || Key == &quot;idrinth_hev_high_elf_vampires_diplomacy&quot; || Key == &quot;idrinth_hev_high_elf_vampires_altar&quot; || Key == &quot;idrinth_hev_high_elf_vampires_horde&quot; || Key == &quot;idrinth_hev_high_elf_vampires_tavern&quot; || Key == &quot;idrinth_hev_high_elf_vampires_library&quot;)))), self.SimulateLClick)"/>
 				<callback_with_context callback_id="CallbackAnimTrigger"/>
-				<callback_with_context
-					callback_id="ContextCommandEvent"
-					context_function_id="self.SimulateLClick">
-					<child_m_user_properties>
-						<property
-							name="event0"
-							value="PanelClosed_dlc25_black_towers"/>
-						<property
-							name="event1"
-							value="PanelClosed_dlc27_nor_trap_scheming"/>
-					</child_m_user_properties>
-				</callback_with_context>
 			</callbacks_with_context>
 			<user_properties>
 				<property

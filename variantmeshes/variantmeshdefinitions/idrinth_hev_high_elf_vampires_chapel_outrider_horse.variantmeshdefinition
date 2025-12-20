@@ -2,6 +2,6 @@
 	<SLOT name="body" >
 		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_outrider_horse_body_01.variantmeshdefinition" />
 		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_outrider_horse_body_02.variantmeshdefinition" />
-		<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_outrider_horse_body_03.variantmeshdefinition" />
+        <!--<VARIANT_MESH_REFERENCE definition="variantmeshes/variantmeshdefinitions/idrinth_hev_high_elf_vampires_chapel_outrider_horse_body_03.variantmeshdefinition" />-->
 	</SLOT>
 </VARIANT_MESH>

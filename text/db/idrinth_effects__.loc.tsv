@@ -34,21 +34,21 @@ effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	Pri
 effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	Priests know the Invokation of Nehek.	false
 effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	Priests are undead.	false
 effects_description_idrinth_successful_action_motivation	Success chance, Cost and Critical Chance are increased by %+n%.	false
-effects_description_idrinth_ranger_knowledge_primary	Elves can shoot %+n% further.	false
-effects_description_idrinth_blade_dancing_primary	Elves dance away from enemy blades, increasing their Melee Defense by %+n.	false
-effects_description_idrinth_unusual_training_primary	Elves increase their Leadership by %+n.	false
-effects_description_idrinth_running_wild_primary	Elves increase their Movement Speed by %+n%.	false
-effects_description_idrinth_veterans_primary	Veteran Elves hit %+n% harder in melee.	false
-effects_description_idrinth_strong_as_stone_primary	Animated units resist %+n% more damage.	false
-effects_description_idrinth_beasts_of_nature_primary	Beasts are more feroucious, increasing their Melee Attack by %+n.	false
-effects_description_idrinth_ranger_knowledge_secondary	Elves increase their reload speed by %+n%.	false
-effects_description_idrinth_blade_dancing_secondary	Elves dance away from enemy blades, increasing their Melee Attack by %+n.	false
-effects_description_idrinth_unusual_training_secondary	Elves learned to wear their armour more effectively, increasing their armour rating by %+n.	false
-effects_description_idrinth_running_wild_secondary	Elves run wild, increasing their charge by %+n.	false
-effects_description_idrinth_veterans_secondary	Veteran Elves tire %+n% more slowly.	false
-effects_description_idrinth_strong_as_stone_secondary	Constructs increase their charge by %+n.	false
-effects_description_idrinth_beasts_of_nature_secondary	Beasts are more motivated, increasing their Movement Speed by %+n%.	false
-effects_description_idrinth_veterans_tertiary	Veteran Elves have faced fear and danger before, increasing their Leadership by %+n.	false
+effects_description_idrinth_ranger_knowledge_primary	Elves of the Thaluian Chapels can shoot %+n% further.	false
+effects_description_idrinth_blade_dancing_primary	Elves of the Thaluian Chapels dance away from enemy blades, increasing their Melee Defense by %+n.	false
+effects_description_idrinth_unusual_training_primary	Elves of the Thaluian Chapels increase their Leadership by %+n.	false
+effects_description_idrinth_running_wild_primary	Elves of the Thaluian Chapels increase their Movement Speed by %+n%.	false
+effects_description_idrinth_veterans_primary	Veteran Elves of the Thaluian Chapels hit %+n% harder in melee.	false
+effects_description_idrinth_strong_as_stone_primary	Animated units of the Thaluian Chapels resist %+n% more damage.	false
+effects_description_idrinth_beasts_of_nature_primary	Beasts of the Thaluian Chapels are more feroucious, increasing their Melee Attack by %+n.	false
+effects_description_idrinth_ranger_knowledge_secondary	Elves of the Thaluian Chapels increase their reload speed by %+n%.	false
+effects_description_idrinth_blade_dancing_secondary	Elves of the Thaluian Chapels dance away from enemy blades, increasing their Melee Attack by %+n.	false
+effects_description_idrinth_unusual_training_secondary	Elves of the Thaluian Chapels learned to wear their armour more effectively, increasing their armour rating by %+n.	false
+effects_description_idrinth_running_wild_secondary	Elves of the Thaluian Chapels run wild, increasing their charge by %+n.	false
+effects_description_idrinth_veterans_secondary	Veteran Elves of the Thaluian Chapels tire %+n% more slowly.	false
+effects_description_idrinth_strong_as_stone_secondary	Constructs of the Thaluian Chapels increase their charge by %+n.	false
+effects_description_idrinth_beasts_of_nature_secondary	Beasts of the Thaluian Chapels are more motivated, increasing their Movement Speed by %+n%.	false
+effects_description_idrinth_veterans_tertiary	Veteran Elves of the Thaluian Chapels have faced fear and danger before, increasing their Leadership by %+n.	false
 effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	%+n unit limit for Mixed Elven Guard.	false
 effects_description_idrinth_unit_capacity_chapel_asuryan_guard	%+n unit limit for Asuryan's Guard.	false
 effects_description_idrinth_unit_capacity_chapel_khaine_guard	%+n unit limit for Khaine's Guard.	false

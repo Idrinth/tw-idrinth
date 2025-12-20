@@ -20,4 +20,5 @@
 			<META_DATA>audio_melee_weapon_type:sword</META_DATA>
 			<META_DATA>equipment</META_DATA>
 		</VARIANT_MESH>
+    </SLOT>
 </VARIANT_MESH>

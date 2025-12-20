@@ -6,6 +6,571 @@ Idrinth._dilemmaCooldown = 0;
 Idrinth._dilemmaCooldownMode = "medium";
 Idrinth._godBlessedItemRequirements = "normal";
 Idrinth._characterPanelOpen = false;
+Idrinth._names = {
+    "Eva",
+    "Plyitus",
+    "Hagrene",
+    "Altharloss",
+    "Millen",
+    "Sheeld",
+    "Venola",
+    "Myleere",
+    "Kavinna",
+    "Fonahir",
+    "Waerna",
+    "Hulaylian",
+    "Felicion",
+    "Deloria",
+    "Rinda",
+    "Alarion",
+    "Nasheer",
+    "Boudicca",
+    "Nightshade",
+    "Caladrielle",
+    "Sandrina",
+    "Enna",
+    "Koval",
+    "Eldarion",
+    "Zubaran",
+    "Lorishion",
+    "Vayeana",
+    "Anarsis",
+    "Fernhavest",
+    "Saji",
+    "Avelorrisas",
+    "Kerthinia",
+    "Hulaylian",
+    "Mantressa",
+    "Damien",
+    "Myriel",
+    "Ramon",
+    "Grimziyal",
+    "Qintarra",
+    "Rethia",
+    "Jildou",
+    "Bequish",
+    "Alondrin",
+    "Busscrone",
+    "Circya",
+    "Ruybiniss",
+    "Ylrishen",
+    "Morgan",
+    "Orilon",
+    "Maewhyn",
+    "Jayadress",
+    "Azirek",
+    "Caladrielle",
+    "Avelorrisas",
+    "Arwenil",
+    "Kelici",
+    "Elysion",
+    "Caydrille",
+    "Aeden",
+    "Bel-Nenya",
+    "Ilona",
+    "Elektra",
+    "Klendrach",
+    "Yr-Kithar",
+    "Maudthekan",
+    "Elise",
+    "Elladan",
+    "Hellespher",
+    "Fhiron",
+    "Relinda",
+    "Lorna",
+    "Lorelai",
+    "Illiarch",
+    "Zoltar",
+    "Elladan",
+    "R'Mal",
+    "Lothiul",
+    "Gynnash",
+    "Velal",
+    "Waerna",
+    "Azalgorm",
+    "Jayadress",
+    "Laya-Quinn",
+    "Tharket",
+    "Ravena",
+    "Kilana",
+    "Senga",
+    "Alizeabeth",
+    "Ophillien",
+    "Fandhir",
+    "Bochra",
+    "Omarin",
+    "Jornadar",
+    "Hextarian",
+    "Baine",
+    "Velitroth",
+    "Felindre",
+    "Darfayan",
+    "Caydrille",
+    "Lothiul",
+    "Trillian",
+    "Nadraxes",
+    "Krogh",
+    "Liandra",
+    "Parthok",
+    "Fortiunis",
+    "Lucius",
+    "Nathalia",
+    "Scorpia",
+    "Sabetha",
+    "Velicion",
+    "Feretulios",
+    "Movar",
+    "Lolillian",
+    "Sheelda",
+    "Larian",
+    "Pokol-Daka",
+    "Laya-Quinn",
+    "Jeshia",
+    "Jadus",
+    "Bel-Harathoi",
+    "Velissan",
+    "Elliranion",
+    "Noegh",
+    "Koren-Bahnir",
+    "Myrielh",
+    "Bel-Sarathai",
+    "Kerthinia",
+    "Astralla",
+    "Menlui-Akar",
+    "Argyle",
+    "Rautha",
+    "Mara",
+    "Vanquissh",
+    "Cython-Yrel",
+    "Hyther",
+    "Espellba",
+    "Astikar",
+    "Driellen",
+    "Larian",
+    "Prenticly",
+    "Westara",
+    "Artheus",
+    "Rethia",
+    "Elreth",
+    "Obarmon",
+    "Mlendei",
+    "Lolillian",
+    "Kjeldilon",
+    "Rhodar",
+    "Sammith",
+    "Chechemon",
+    "Veraunn",
+    "Kerestra",
+    "Feniaor",
+    "Najjirah",
+    "Solkar",
+    "Marinh",
+    "Aurelius",
+    "Wonellinrei",
+    "Exarian",
+    "Bel-Amy",
+    "Fayza",
+    "Trillian",
+    "Rhama",
+    "Omnombah",
+    "Murella",
+    "Lorishion",
+    "Yorian",
+    "Lorienne",
+    "Zilnilon",
+    "Gwendolyn",
+    "Bel-Lecai",
+    "Fydhion",
+    "Elliranion",
+    "Prenticly",
+    "Tamarith",
+    "Eville-Lyn",
+    "Sethera",
+    "Byre'chull",
+    "Selveth",
+    "Exarian",
+    "Zoram",
+    "Yastra",
+    "Feniaor",
+    "Teneska",
+    "Rakal",
+    "Polkesha",
+    "Teneska",
+    "Moransti",
+    "Hellinor",
+    "Mordis",
+    "Yasmijn",
+    "Gendalfa",
+    "Sakonna",
+    "Arden",
+    "Ditharastara",
+    "Ellendeling",
+    "Morlanna",
+    "Tevaril",
+    "Delynna",
+    "Evelyne",
+    "Yavandir",
+    "Thalos",
+    "Arduval",
+    "Amendil",
+    "Ingmir",
+    "Torendil",
+    "Yssellal",
+    "Tralan",
+    "Aesrit",
+    "Urdithane",
+    "Strathot",
+    "Dolwen",
+    "Elror",
+    "Dodan",
+    "Dhulas",
+    "Acca",
+    "Dottaen",
+    "Toltirin",
+    "Tala",
+    "Agnor",
+    "Rana",
+    "Vilgin",
+    "Gilgalion",
+    "Luren",
+    "Dalos",
+    "Harrond",
+    "Tuduthus",
+    "Circo",
+    "Camring",
+    "Kholis",
+    "Duluric",
+    "Amhas",
+    "Alu",
+    "Silontol",
+    "Isrostot",
+    "Narien",
+    "Olanis",
+    "Ingmir",
+    "Singal",
+    "Orliaruth",
+    "Dhanas",
+    "Valahuir",
+    "Mylnel",
+    "Dhehen",
+    "Urdithane",
+    "Foros",
+    "Felnylsal",
+    "Attodaeth",
+    "Belaeg",
+    "Ara",
+    "Othiodi",
+    "Catra",
+    "Zaltothios",
+    "Ikirin",
+    "Varcio",
+    "Straslaeth",
+    "Iscuraa",
+    "Thilvokkas",
+    "Daertoc",
+    "Otrolio",
+    "Iarac",
+    "Dhada",
+    "Dhalsyth",
+    "Sesteshal",
+    "Selafyn",
+    "Finreir",
+    "Anaryll",
+    "Eldril",
+    "Aethis",
+    "Harathrel",
+    "Arandir",
+    "Argalen",
+    "Moranion",
+    "Ferghal",
+    "Antheus",
+    "Inrion",
+    "Hallar",
+    "Cireon",
+    "Erethond",
+    "Eldarain",
+    "Aethenor",
+    "Aramir",
+    "Cerion",
+    "Melanar",
+    "Anurell",
+    "Thaindor",
+    "Illidial",
+    "Elon",
+    "Sulphunet",
+    "Kurl",
+    "Vraneth",
+    "Galroth",
+    "Asperon",
+    "Tuern",
+    "Corvass",
+    "Ruerl",
+    "Hargan",
+    "Aillion",
+    "Gandrell",
+    "Urian",
+    "Maglan",
+    "Dranack",
+    "Delekth",
+    "Yeurl",
+    "Kaleth",
+    "Khalek",
+    "Girathon",
+    "Girathon",
+    "Furion",
+    "Korhedron",
+    "Khalin",
+    "Ribath",
+    "Sihori",
+    "Sareth",
+    "Vashas",
+    "Lorsitel",
+    "Locehon",
+    "Arathar",
+    "Akhaunet",
+    "Velavith",
+    "Sabichal",
+    "Cagherosh",
+    "Mittarah",
+    "Virlorel",
+    "Tarrerrosh",
+    "Thoshelre",
+    "Cirsis",
+    "Cerirreh",
+    "Sokhos",
+    "Maveh",
+    "Feisha",
+    "Fecha",
+    "Lecelne",
+    "Hohha",
+    "Cesirnoh",
+    "Corvishish",
+    "Massighah",
+    "Merosha",
+    "Hacaggil",
+    "Resara",
+    "Neheth",
+    "Ravares",
+    "Volilosh",
+    "Zeloran",
+    "Shakkara",
+    "Shakkara",
+    "Nelosi",
+    "Tholre'kai",
+    "Rervetoh",
+    "Kakaukin",
+    "Sothartah",
+    "Tothauthrak",
+    "Cekhullil",
+    "Danoth",
+    "Nocrusith",
+    "Vukathan",
+    "Vegmorlus",
+    "Wirtha",
+    "Veri'kath",
+    "Khalgughun",
+    "Decun'kar",
+    "Tallirmoth",
+    "Tehechish",
+    "Werrora",
+    "Calnatoth",
+    "Bel-Edhanel",
+    "Enthaal",
+    "Zaathos",
+    "Thanlutlin",
+    "Deralac",
+    "Dydrarus",
+    "Bel-Harthur",
+    "Gondil",
+    "Tharhindrel",
+    "Halithyar",
+    "Bel-Aethlec",
+    "Feyadyin",
+    "Miradrin",
+    "Assagiere",
+    "Illenyadara",
+    "Einnilize",
+    "Haerrieth",
+    "Licumoitta",
+    "Agiella",
+    "Sophiridrin",
+    "Adagia",
+    "Itilnae",
+    "Hemmara",
+    "Haennirmara",
+    "Nashanra",
+    "Litania",
+    "Vanya",
+    "Alyssa",
+    "Nonens",
+    "Nonus",
+    "Moksha",
+    "Maledicta",
+    "Tilly",
+    "Taira",
+    "Armandis",
+    "Azuma",
+    "Bael'Sammon",
+    "Galag",
+    "Weylyn",
+    "Melwin",
+    "Vera",
+    "Amon",
+    "Sabioth",
+    "Rowan",
+    "Gaion",
+    "Maktig",
+    "Noriv",
+    "Mehri",
+    "Eydis",
+    "Cylas",
+    "Gwyndion",
+    "Rodir",
+    "Kychte",
+    "Mychaela",
+    "Azriel",
+    "Maeron",
+    "Shanahan",
+    "Thovar",
+    "Serra",
+    "Leander",
+    "Taodin",
+    "Aphazel",
+    "Aesllanan",
+    "Iolair",
+    "Tallanquine",
+    "Aratt",
+    "Arathalle",
+    "Arathion",
+    "Arhalien",
+    "Astra",
+    "Anwesu",
+    "Banadl",
+    "Eliandr",
+    "Cuolsh",
+    "Bel-Eshain",
+    "Darsis",
+    "Cynaeaf",
+    "Delzus",
+    "Tarnig",
+    "Fiarel",
+    "Fildrigar",
+    "Gemariel",
+    "Herisan",
+    "Eponandilas",
+    "Korhian",
+    "Loth",
+    "Sullandiel",
+    "Siaisullainn",
+    "Larithiriel",
+    "Sikariel",
+    "Yrtle",
+    "Malmir",
+    "Yavathol",
+    "Valnal",
+    "Valahuir",
+    "Valin",
+    "Halin",
+    "Curufor",
+    "Valanduil",
+    "Gloringwe",
+    "Balthinal",
+    "Murdredesa",
+    "Ghyrohus",
+    "Orinon",
+    "Morgula",
+    "Merel",
+    "Olana",
+    "Hultressa",
+    "Ceyl-Thakeya",
+    "Yullin-Wen",
+    "Tressa",
+    "Kiriela",
+    "Kyriela",
+    "Saam",
+    "Sharkia",
+    "Wendrina",
+    "Yenlui-Enyur",
+    "Hordahn",
+    "Mellindirei",
+    "Rovaran",
+    "Velissan",
+    "Elemire",
+    "Ophillien",
+    "Yornh",
+    "Syd",
+    "Laurum",
+    "Olfren",
+    "Sadrina",
+    "Gerzhin",
+    "Ichinya",
+    "Thina",
+    "Yelgren",
+    "Segales",
+    "Tomalak",
+    "Lautaro",
+    "Tefari",
+    "Bel-Eiline",
+    "Yandis",
+    "Yorian",
+    "Ruybiniss",
+    "Molgo",
+    "Galdorian",
+    "Hydrans",
+    "Feretulios",
+    "Arwenil",
+    "Dorian",
+    "Osydin",
+    "Kyrian",
+    "Jolandya",
+    "Leech",
+    "Rinmaud",
+    "Fernhavest",
+    "Alarion",
+    "Couladin",
+    "Aloisa",
+    "Daeves",
+    "Scarissa",
+    "Edelia",
+    "Izual",
+    "Driellen",
+    "Lovok",
+    "Arspeth",
+    "Deshenshar",
+    "Danar",
+    "Zenoria",
+    "Jinquella",
+    "Ilnyshon",
+    "Theron",
+    "Borath",
+    "Ghyrohus",
+    "Keevan",
+    "Zamdilla",
+    "Killian",
+    "Barsathar",
+    "Vespa",
+    "Kuzu",
+    "Jayden",
+    "Karorn",
+    "Mantressa",
+    "Khalin",
+    "Siamak",
+    "Malarnur",
+    "Cyruss",
+    "Deloria",
+    "Tifeon",
+    "Amrifor",
+    "Altharloss",
+    "Luaran",
+    "Scitilla",
+    "Yurichmur",
+    "Galathon",
+    "Pardek",
+    "Seraph",
+    "Uriel",
+    "Elena",
+    "Vigilo"
+};
 Idrinth.place_of_interest = {
     drakenhof = {
         key = "idrinth_story_dilemma_drakenhof",
@@ -900,7 +1465,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableArmyUpgrades",
+    "idrinth_enableArmyWaaghUpgrades",
     "ComponentLClickUp",
     function(context)
         local idrinth = Idrinth.get();
@@ -1204,7 +1769,7 @@ core:add_listener(
         if Idrinth._hasModConfig then
             return false;
         end;
-        return context:faction():is_human() and Idrinth._enableStoryEvents;
+        return context:faction():is_human() and Idrinth._enableStoryEvents == nil;
     end,
     function(context)
         out("IDRINTH DEBUG: ===== START MODE DILEMMA =====");
@@ -1939,6 +2504,74 @@ core:add_listener(
     end,
     true
 );
+Idrinth._lastClicked = "";
+core:add_listener(
+    "idrinth_OpenChapelView",
+    "ComponentLClickUp",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        return context.string == "button_default_view" or context.string == "button_ally_view" or context.string == "button_player_foreign_view" or context.string == "button_player_foreign_trap_view" or context.string == "button_discovered_view" or context.string == "idrinth_settlement_panel_button";
+    end,
+    function(context)
+        Idrinth._lastClicked = context.string;
+        cm:callback(
+            function()
+                if Idrinth._lastClicked == "idrinth_settlement_panel_button" then
+                    local parent = find_uicomponent(core:get_ui_root(), "settlement_panel", "settlement_list");
+                    if not parent then
+                        return;
+                    end;
+                    for i = 0, parent:ChildCount() - 1 do
+                        local buttons = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list");
+                        if UIComponent(buttons:Find("idrinth_settlement_panel_button")):VisibleFromRoot() and UIComponent(buttons:Find("idrinth_settlement_panel_button")):CurrentState() == "selected" then
+                            for j = 0, buttons:ChildCount() - 1 do
+                                if UIComponent(buttons:Find(j)):VisibleFromRoot() then
+                                    UIComponent(buttons:Find(j)):SetState("active");
+                                end;
+                            end;
+                            UIComponent(buttons:Find("idrinth_settlement_panel_button")):SetState("selected");
+                            local settlement = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view");
+                            UIComponent(settlement:Find("default_view")):SetVisible(false);
+                            UIComponent(settlement:Find("hostile_views")):SetVisible(false);
+                            UIComponent(settlement:Find("discovered_views")):SetVisible(false);
+                            UIComponent(settlement:Find("allied_view")):SetVisible(false);
+                            UIComponent(settlement:Find("idrinth_settlement_hostile_slots")):SetVisible(true);
+                        end;
+                    end;
+                elseif Idrinth._lastClicked == "button_default_view" or Idrinth._lastClicked == "button_ally_view" or Idrinth._lastClicked == "button_player_foreign_view" or Idrinth._lastClicked == "button_player_foreign_trap_view" or Idrinth._lastClicked == "button_discovered_view" then
+                    local parent = find_uicomponent(core:get_ui_root(), "settlement_panel", "settlement_list");
+                    if not parent then
+                        return;
+                    end;            
+                    for i = 0, parent:ChildCount() - 1 do
+                        local buttons = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list");
+                        if UIComponent(buttons:Find(Idrinth._lastClicked)):CurrentState() == "selected" and UIComponent(buttons:Find("idrinth_settlement_panel_button")):CurrentState() == "selected" and UIComponent(buttons:Find("idrinth_settlement_panel_button")):VisibleFromRoot() then
+                            UIComponent(buttons:Find("idrinth_settlement_panel_button")):SetState("active");
+                            local settlement = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view");
+                            UIComponent(settlement:Find("idrinth_settlement_hostile_slots")):SetVisible(false);
+                            if context.string == "button_default_view" then
+                                UIComponent(settlement:Find("default_view")):SetVisible(true);
+                            elseif context.string == "button_ally_view" then
+                                UIComponent(settlement:Find("allied_view")):SetVisible(true);
+                            elseif context.string == "button_player_foreign_view" then
+                                UIComponent(settlement:Find("hostile_views")):SetVisible(true);
+                            elseif context.string == "button_player_foreign_trap_view" then
+                                UIComponent(settlement:Find("hostile_views")):SetVisible(true);
+                            elseif context.string == "button_discovered_view" then
+                                UIComponent(settlement:Find("discovered_views")):SetVisible(true);
+                            end;
+                        end;
+                    end;
+                end;
+            end,
+            1
+        );
+    end,
+    true
+);
 core:add_listener(
     "idrinth_SettlementPanelOpened",
     "PanelOpenedCampaign",
@@ -1956,13 +2589,23 @@ core:add_listener(
             return;
         end;
         for i = 1, parent:ChildCount() - 1 do
-            local settlement = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view", "hostile_views", "settlement_hostile_slots");
-            local element = core:get_or_create_component(
-                "idrinth_settlement_hostile_slots",
-                "ui/idrinth/idrinth_settlement_hostile_slots.twui.xml",
-                settlement
-            );
-            element:SetContextObject(settlement:GetContextObject("CcoCampaignSettlement"));
+            local settlementSlots = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view", "hostile_views", "settlement_hostile_slots");
+            local settlement = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view");
+            local element;
+            if i == 1 then
+                element = core:get_or_create_component(
+                    "idrinth_settlement_hostile_slots",
+                    "ui/idrinth/idrinth_settlement_hostile_slots_capital.twui.xml",
+                    settlement
+                );
+            else
+                element = core:get_or_create_component(
+                    "idrinth_settlement_hostile_slots",
+                    "ui/idrinth/idrinth_settlement_hostile_slots.twui.xml",
+                    settlement
+                );
+            end;
+            element:SetContextObject(settlementSlots:GetContextObject("CcoCampaignSettlement"));
             element:SetVisible(false);
             local buttons = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list");
             local button = core:get_or_create_component(
@@ -1970,7 +2613,7 @@ core:add_listener(
                 "ui/idrinth/idrinth_settlement_panel_button.twui.xml",
                 buttons
             );
-            button:SetContextObject(settlement:GetContextObject("CcoCampaignSettlement"));
+            button:SetContextObject(settlementSlots:GetContextObject("CcoCampaignSettlement"));
         end;
     end,
     true
@@ -2389,6 +3032,32 @@ core:add_listener(
         Idrinth._godBlessedItemRequirements = my_mod:get_option_by_key("god_item_difficulty"):get_finalized_setting()
     end,
     true
+);
+core:add_listener(
+    "idrinth_unitCreatedRename",
+    "UnitCreated",
+    function(context)
+        local idrinth = Idrinth.get();
+        if not idrinth then
+            return false;
+        end;
+        return context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_asuryan_leader" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_kurnous_leader" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_khaine_leader" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_great_eagle" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_asuryan" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_kurnous" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_khaine" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_mixed" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_cave_bats" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_hawks" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_wolves";
+    end,
+    function(context)
+        local length = #Idrinth._names;
+        if length == 0 then
+            out("No names in list");
+            return;
+        end;
+        local name = Idrinth._names[cm:random_number(length)];
+        out("Name: " .. name);
+        if context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_asuryan_leader" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_kurnous_leader" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_khaine_leader" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_great_eagle" then
+            cm:change_custom_unit_name(context:unit(), name)
+        else
+            cm:change_custom_unit_name(context:unit(), name .. "'s " .. common.get_localised_string("land_units_onscreen_name_" .. context:unit():unit_key()));
+        end;
+    end,
+    true
 )
 
 cm:add_saving_game_callback(
@@ -2406,8 +3075,6 @@ cm:add_saving_game_callback(
 		for name, element in pairs(Idrinth._unlockMissionStarted) do
             if element then
                 cm:save_named_value("idrinth.unlocks." .. name, 1, context);
-            else
-                cm:save_named_value("idrinth.unlocks." .. name, 0, context);
             end;
 		end;
 		cm:save_named_value("idrinth.dilemmaCooldown", Idrinth._dilemmaCooldown, context);
@@ -2712,7 +3379,7 @@ cm:add_loading_game_callback(
                 "wh_main_vmp_waldenhof",
             };
             for name in possible_factions do
-                local stored = cm:load_named_value("idrinth.unlock." .. name, 0, context);
+                local stored = cm:load_named_value("idrinth.unlocks." .. name, 0, context);
                 if stored == 1 then
                     Idrinth._unlockMissionStarted[name] = true;
                 elseif stored == "1" then

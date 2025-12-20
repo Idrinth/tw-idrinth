@@ -92,7 +92,7 @@
 			<LayoutEngine
 				type="List"
 				spacing="10.00,10.00"
-				itemsperrow="2"
+				itemsperrow="3"
 				sizetocontent="true"
 				secondary_margins="42.00,42.00">
 				<columnwidths>
@@ -103,7 +103,7 @@
 		<idrinth_chapel
 			this="11A8785D-0FD4-4953-950A1597E795CBED"
 			id="idrinth_chapel"
-			offset="-11.00,0.00"
+			offset="10.00,0.00"
 			allowhorizontalresize="false"
 			allowverticalresize="false"
 			visible="false"
@@ -114,18 +114,6 @@
 			uniqueguid="11A8785D-0FD4-4953-950A1597E795CBED"
 			currentstate="73A362B2-0FAE-43D5-9F9B360AADD5362C"
 			defaultstate="73A362B2-0FAE-43D5-9F9B360AADD5362C">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextVisibilitySetter"
-					context_object_id="CcoCampaignSettlement"
-					context_function_id="HostileSlotsGroupList.Any(CategoryObject.IsPlayersFaction &amp;&amp; GroupedList.Any(BuildingSlotList.Any(PossibleBuildingChainsList.Any(Key == &quot;idrinth_hev_high_elf_vampires_chapel&quot; || Key == &quot;idrinth_hev_high_elf_vampires_beasts&quot; || Key == &quot;idrinth_hev_high_elf_vampires_diplomacy&quot; || Key == &quot;idrinth_hev_high_elf_vampires_altar&quot;  || Key == &quot;idrinth_hev_high_elf_vampires_tavern&quot; || Key == &quot;idrinth_hev_high_elf_vampires_library&quot;))))">
-					<child_m_user_properties>
-						<property
-							name="event0"
-							value="CampaignSelectionChanged"/>
-					</child_m_user_properties>
-				</callback_with_context>
-			</callbackwithcontextlist>
 			<componentimages>
 				<component_image
 					this="FFC9D566-EA04-4285-A46BAAA68B7F7005"
