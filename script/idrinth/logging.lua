@@ -23,7 +23,7 @@ local lua_start_time = os.clock();
 local file = io.open("idrinth." .. os.date("%y%m%d%H%M") .. ".log", "a");
 local log = function(thing, logtype)
     out(thing);
-    if not Idrinth._enableLogging then
+    if not enableLogging then
         return;
     end;
     if not file then

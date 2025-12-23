@@ -1,8 +1,5 @@
-require("script/idrinth/init")
+require("script/idrinth/init");
 
-Idrinth = {};
-Idrinth._self = nil;
-Idrinth._lastSelectionAgent = nil;
 core:add_listener(
     "idrinth_enableTypeDisplayInRecruitingPanel_action",
     "ComponentLClickUp",
@@ -128,20 +125,6 @@ core:add_listener(
             end,
             1
         )
-    end,
-    true
-);
-Idrinth._selectedUnits = nil;
-
-core:add_listener(
-    "idrinth_enableWAAAGHUpgradesPanel_unitHandling",
-    "RefreshUnitSelection",
-    function(context)
-        return Idrinth.Access.spawned();
-    end,
-    function(context)
-        -- test
-        IdrinthUtility.log("context:RefreshUnitSelection")
     end,
     true
 );
