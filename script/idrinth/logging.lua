@@ -20,14 +20,14 @@ core:add_listener(
 );
 
 local lua_start_time = os.clock();
-local file = io.open("idrinth." .. os.date("%y%m%d%H%M") .. ".log", "a");
+local file = nil;
 local log = function(thing, logtype)
     out(thing);
     if not enableLogging then
         return;
     end;
     if not file then
-        return;
+        file = io.open("idrinth." .. os.date("%y%m%d%H%M") .. ".log", "a");
     end;
     local str_from_script = tostring(thing) or "";
     local timestamp = "<" .. string.format("%.1f", os.clock() - lua_start_time) .. "s>";

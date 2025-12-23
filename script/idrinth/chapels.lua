@@ -12,7 +12,6 @@ core:add_listener(
     "MctInitialized",
     true,
     function(context)
-        IdrinthUtility.log("IDRINTH DEBUG FUNCTION: MctInitialized");
         enableChapels = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapels"):get_finalized_setting();
     end,
     true
@@ -22,7 +21,6 @@ core:add_listener(
     "MctFinalized",
     true,
     function(context)
-        IdrinthUtility.log("IDRINTH DEBUG FUNCTION: MctFinalized");
         enableChapels = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapels"):get_finalized_setting();
     end,
     true
@@ -111,7 +109,6 @@ core:add_listener(
 );
 cm:add_saving_game_callback(
 	function(context)
-        IdrinthUtility.log("IDRINTH DEBUG FUNCTION: SavingGameCallback");
         if enableChapels then
             cm:save_named_value("idrinth.enableChapels", 1, context);         
         end;
@@ -119,7 +116,6 @@ cm:add_saving_game_callback(
 );
 cm:add_loading_game_callback(
 	function(context)
-        IdrinthUtility.log("IDRINTH DEBUG FUNCTION: LoadingGameCallback");
 		if cm:is_new_game() == false then
             enableChapels = (cm:load_named_value("idrinth.enableChapels", 0, context) == 1);
 		end;

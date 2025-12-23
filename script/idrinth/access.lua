@@ -35,10 +35,10 @@ access.get = function()
     return nil, nil, nil;
 end;
 access.spawned = function()
-    if cqi <> nil then
+    if cqi then
         return true;
     end;
     local character = access.get();
-    return character <> nil;
+    return character or false;
 end;
-return access;;
+return access;

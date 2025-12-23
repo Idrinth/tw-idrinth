@@ -41,7 +41,8 @@ local unlockForAIRank = {
     wh_main_brt_bretonnia = 25,
     wh3_main_cth_cathay = 28,
 };
-local unlockDilemma = "idrinth_unlock_choice",
+local unlockDilemma = "idrinth_unlock_choice";
+local unlockMissionStarted = {};
 
 core:add_listener(
     "idrinth_MctInitialized_Handling",
@@ -127,10 +128,10 @@ core:add_listener(
         return false;
     end,
     function(context)
-        if Idrinth._unlockMissionStarted[context:faction():name()] then
+        if unlockMissionStarted[context:faction():name()] then
             return;
         end;
-        Idrinth._unlockMissionStarted[context:faction():name()] = true;
+        unlockMissionStarted[context:faction():name()] = true;
         cm:trigger_mission(
             context:faction():name(),
             unlockMissions[context:faction():culture()],
@@ -189,9 +190,9 @@ core:add_listener(
         cm:replenish_action_points(cm:char_lookup_str(idrinth));
         for culture in Idrinth.cultures() do
             for _, faction in pairs(cm:get_factions_by_culture(culture)) do
-                if faction:is_human() and Idrinth._unlockMissionStarted[faction:name()] then
+                if faction:is_human() and unlockMissionStarted[faction:name()] then
                     cm:cancel_custom_mission(faction, unlockMission[culture]);
-                    Idrinth._unlockMissionStarted[faction:name()] = false;
+                    unlockMissionStarted[faction:name()] = false;
                 end;
             end;
         end;
@@ -318,9 +319,9 @@ core:add_listener(
         cm:replenish_action_points(cm:char_lookup_str(idrinth));
         for culture in Idrinth.cultures() do
             for _, faction in pairs(cm:get_factions_by_culture(culture)) do
-                if faction:is_human() and Idrinth._unlockMissionStarted[faction:name()] and not faction == context:faction() then
+                if faction:is_human() and unlockMissionStarted[faction:name()] and not faction == context:faction() then
                     cm:cancel_custom_mission(faction, unlockMission[culture]);
-                    Idrinth._unlockMissionStarted[faction:name()] = false;
+                    unlockMissionStarted[faction:name()] = false;
                 elseif faction:is_human() and faction == context:faction() then
                     cm:trigger_dilemma(
                         faction:name(),

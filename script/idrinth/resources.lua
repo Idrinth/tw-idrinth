@@ -17,7 +17,6 @@ local resourceChangedListener = function(context)
 end;
 local createResourceUI = function()
     local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
-    log("IDRINTH DEBUG: ===== CREATING UI =====");
     core:get_or_create_component(
         "idrinth_pooled_resource_asuryan",
         "ui/idrinth/idrinth_pooled_resource_asuryan.twui.xml",
