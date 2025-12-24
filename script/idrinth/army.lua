@@ -51,7 +51,7 @@ local enableArmyUpgrades = function()
     end;
 end;
 core:add_listener(
-    "idrinth_FactionTurnStart",
+    "idrinth_army_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
@@ -69,7 +69,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableWAAAGHUpgrades",
+    "idrinth_army_ComponentLClickUp",
     "ComponentLClickUp",
     function(context)
         return context.string == "tab_transported_army";
@@ -80,7 +80,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableArmyUpgrades",
+    "idrinth_army_ComponentLClickUp_2",
     "ComponentLClickUp",
     function(context)
         return context.string == "tab_army";
@@ -91,7 +91,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_CharacterInfoPanelOpened",
+    "idrinth_army_PanelOpenedCampaign",
     "PanelOpenedCampaign",
     function(context)
         return context.string == "units_panel";

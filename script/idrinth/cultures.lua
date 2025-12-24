@@ -15,7 +15,7 @@ local extendedCultures = {
 };
 
 core:add_listener(
-    "idrinth_MctInitialized_Handling",
+    "idrinth_cultures_MctInitialized",
     "MctInitialized",
     true,
     function(context)
@@ -24,7 +24,7 @@ core:add_listener(
     true
 )
 core:add_listener(
-    "idrinth_MctFinalized_Handling",
+    "idrinth_cultures_MctFinalized",
     "MctFinalized",
     true,
     function(context)
@@ -33,7 +33,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_unlockLevel_DilemmaChoiceMadeEvent",
+    "idrinth_cultures_DilemmaChoiceMadeEvent",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_mode_choice";
@@ -44,7 +44,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_mode_FactionTurnStart",
+    "idrinth_cultures_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         return mayDisplaySettingsDilemma(context, settings.expandedCulturesActive);

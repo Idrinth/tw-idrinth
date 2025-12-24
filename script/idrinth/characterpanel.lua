@@ -55,7 +55,7 @@ local setupIdrinthsPaths = function()
     set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
 end;
 core:add_listener(
-    "idrinth_checkIfIdrinthIsSelected",
+    "idrinth_characterpanel_CharacterSelected",
     "CharacterSelected",
     function()
         return is_panel_open("character_details_panel");
@@ -67,7 +67,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_CharacterInfoPanelOpened",
+    "idrinth_characterpanel_PanelOpenedCampaign",
     "PanelOpenedCampaign",
     function(context)
         return context.string == "character_details_panel";
@@ -79,7 +79,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableIdrinthsPaths",
+    "idrinth_characterpanel_ComponentLClickUp",
     "ComponentLClickUp",
     function(context)
         return is_panel_open("character_details_panel") and context.string == "idrinth_character_details_panel_idrinths_paths_button";
@@ -98,7 +98,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_disableIdrinthsPaths",
+    "idrinth_characterpanel_ComponentLClickUp_2",
     "ComponentLClickUp",
     function()
         return is_panel_open("character_details_panel");

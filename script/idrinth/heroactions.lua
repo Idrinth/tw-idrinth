@@ -1,5 +1,5 @@
 core:add_listener(
-    "idrinth_CharacterCharacterTargetAction",
+    "idrinth_heroactions_CharacterCharacterTargetAction",
     "CharacterCharacterTargetAction",
     function(context)
         local idrinth = Idrinth.Access.get();

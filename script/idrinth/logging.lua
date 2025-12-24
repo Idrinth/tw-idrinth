@@ -1,7 +1,7 @@
 local enableLogging = false;
 
 core:add_listener(
-    "idrinth_MctInitialized_Handling",
+    "idrinth_logging_MctInitialized",
     "MctInitialized",
     true,
     function(context)
@@ -10,7 +10,7 @@ core:add_listener(
     true
 )
 core:add_listener(
-    "idrinth_MctFinalized_Handling",
+    "idrinth_logging_MctFinalized",
     "MctFinalized",
     true,
     function(context)

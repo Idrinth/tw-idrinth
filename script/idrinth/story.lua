@@ -99,7 +99,7 @@ local dilemmas = {
     }
 };
 core:add_listener(
-    "idrinth_FactionTurnStart",
+    "idrinth_story_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
@@ -184,7 +184,7 @@ cm:add_loading_game_callback(
 	end
 );
 core:add_listener(
-    "idrinth_MctInitialized_Handling",
+    "idrinth_story_MctInitialized",
     "MctInitialized",
     true,
     function(context)
@@ -193,7 +193,7 @@ core:add_listener(
     true
 )
 core:add_listener(
-    "idrinth_MctFinalized_Handling",
+    "idrinth_story_MctFinalized",
     "MctFinalized",
     true,
     function(context)

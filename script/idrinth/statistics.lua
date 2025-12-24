@@ -21,7 +21,7 @@ cm:add_loading_game_callback(
 	end
 );
 core:add_listener(
-    "idrinth_CharacterCharacterTargetAction",
+    "idrinth_statistics_CharacterCharacterTargetAction",
     "CharacterCharacterTargetAction",
     function(context)
         local idrinth = Idrinth.Access.get();
@@ -43,7 +43,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_FactionTurnStart",
+    "idrinth_statistics_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();

@@ -35,7 +35,7 @@ local uniqueAncillaries = {
 };
 
 core:add_listener(
-    "idrinth_FactionTurnStart",
+    "idrinth_items_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
@@ -63,7 +63,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_CharacterAncillaryGained",
+    "idrinth_items_CharacterAncillaryGained",
     "CharacterAncillaryGained",
     Idrinth.Access.spawned,
     function(context)
@@ -86,7 +86,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_MctInitialized_Handling",
+    "idrinth_items_MctInitialized",
     "MctInitialized",
     true,
     function(context)
@@ -95,7 +95,7 @@ core:add_listener(
     true
 )
 core:add_listener(
-    "idrinth_MctFinalized_Handling",
+    "idrinth_items_MctFinalized",
     "MctFinalized",
     true,
     function(context)

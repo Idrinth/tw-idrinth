@@ -19,7 +19,7 @@ local addSlayerTraits = function(asuryan, kurnous, khaine, idrinth_lookup)
     );
 end;
 core:add_listener(
-    "idrinth_BattleCompleted",
+    "idrinth_traits_BattleCompleted",
     "BattleCompleted",
     function(context)
         return Idrinth.Access.spawned() and cm:model():pending_battle():has_been_fought();

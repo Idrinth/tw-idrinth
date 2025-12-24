@@ -35,7 +35,7 @@ end;
 local lastClicked = "";
 
 core:add_listener(
-    "idrinth_OpenChapelView",
+    "idrinth_settlementui_ComponentLClickUp",
     "ComponentLClickUp",
     function(context)
         if not Idrinth.Access.spawned() then
@@ -100,21 +100,21 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_SettlementPanelOpened",
+    "idrinth_settlementui_PanelOpenedCampaign",
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
     settlementForeignSlotDisplay,
     true
 );
 core:add_listener(
-    "idrinth_BuildingBrowserPanelOpened",
+    "idrinth_settlementui_PanelOpenedCampaign_2",
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
     settlementForeignSlotDisplay,
     true
 );
 core:add_listener(
-    "idrinth_SettlementSelected",
+    "idrinth_settlementui_CampaignSettlementSelectedAny",
     "CampaignSettlementSelectedAny",
     Idrinth.Access.spawned,
     settlementForeignSlotDisplay,

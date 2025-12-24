@@ -93,16 +93,16 @@ local placesOfInterest = {
 local enablePointsOfInterest = nil;
 
 core:add_listener(
-    "idrinth_MctInitialized_Handling",
+    "idrinth_pointsofinterest_MctInitialized",
     "MctInitialized",
     true,
     function(context)
-        enablePointsOfInterest = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_events"):get_finalized_setting(); 
+        enablePointsOfInterest = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_events"):get_finalized_setting();
     end,
     true
 )
 core:add_listener(
-    "idrinth_MctFinalized_Handling",
+    "idrinth_pointsofinterest_MctFinalized",
     "MctFinalized",
     true,
     function(context)
@@ -111,7 +111,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_storyEventMode_DilemmaChoiceMadeEvent",
+    "idrinth_pointsofinterest_DilemmaChoiceMadeEvent",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_story_choice";
@@ -122,7 +122,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_storyEventMode_FactionTurnStart",
+    "idrinth_pointsofinterest_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         return enablePointsOfInterest == nil and context:faction():is_human();
@@ -133,7 +133,7 @@ core:add_listener(
     false
 );
 core:add_listener(
-    "idrinth_FactionTurnStart",
+    "idrinth_pointsofinterest_FactionTurnStart_2",
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();

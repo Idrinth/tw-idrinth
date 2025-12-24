@@ -8,7 +8,7 @@ local addForeignSlots = function(idrinth, faction)
     cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel");
 end;
 core:add_listener(
-    "idrinth_MctInitialized_Handling",
+    "idrinth_chapels_MctInitialized",
     "MctInitialized",
     true,
     function(context)
@@ -17,7 +17,7 @@ core:add_listener(
     true
 )
 core:add_listener(
-    "idrinth_MctFinalized_Handling",
+    "idrinth_chapels_MctFinalized",
     "MctFinalized",
     true,
     function(context)
@@ -26,7 +26,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_modeChapels_FactionTurnStart",
+    "idrinth_chapels_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         return context:faction():is_human() and nil == enableChapels;
@@ -37,7 +37,7 @@ core:add_listener(
     false
 );
 core:add_listener(
-    "idrinth_chapelMode_DilemmaChoiceMadeEvent",
+    "idrinth_chapels_DilemmaChoiceMadeEvent",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_chapels_choice";
@@ -48,7 +48,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_FactionTurnStart",
+    "idrinth_chapels_FactionTurnStart_2",
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
@@ -87,7 +87,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_RegionFactionChangeEvent",
+    "idrinth_chapels_RegionFactionChangeEvent",
     "RegionFactionChangeEvent",
     Idrinth.Access.spawned,
     function(context)

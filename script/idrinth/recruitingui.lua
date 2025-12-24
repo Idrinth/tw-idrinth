@@ -26,7 +26,7 @@ local fixLordType = function()
     end;
 end;
 core:add_listener(
-    "idrinth_enableTypeDisplayInRecruitingPanel_action",
+    "idrinth_recruitingui_ComponentLClickUp",
     "ComponentLClickUp",
     function(context)
         return Idrinth.Access.spawned() and context.string == "legendary_lords";
@@ -37,7 +37,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableTypeDisplayInRecruitingPanel_start",
+    "idrinth_recruitingui_PanelOpenedCampaign",
     "PanelOpenedCampaign",
     function(context)
         return Idrinth.Access.spawned() and context.string == "character_panel";

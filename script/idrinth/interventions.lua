@@ -83,7 +83,7 @@ local godFavourDilemmas = {
 };
 
 core:add_listener(
-    "idrinth_FactionTurnStart",
+    "idrinth_interventions_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
