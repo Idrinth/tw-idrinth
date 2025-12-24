@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/idrinth_message_event_text__.loc
+message_event_text_idrinth_chapel_lost	Die Kapelle wurde vom neuen Besitzer der Siedlung niedergebrannt. Wo werden wir uns nun versammeln?	false
+message_event_text_idrinth_chapel_founded	Der Platz für eine neue Kapelle wurde von den Göttern geweiht. Wir sollten sie schnell errichten, um ihre Segnungen zu erlangen.	false
