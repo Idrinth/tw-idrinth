@@ -5,8 +5,7 @@ core:add_listener(
         local idrinth = Idrinth.Access.get();
         return idrinth and (context:character() == idrinth);
     end,
-    function(context)    
-        Idrinth.log("IDRINTH DEBUG FUNCTION: CharacterCharacterTargetAction");
+    function(context)
         local ability = context:ability();
         local idrinth = Idrinth.Access.get();
 

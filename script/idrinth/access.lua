@@ -14,7 +14,7 @@ local cqi = nil;
 access = {};
 access.get = function()
     if cqi then
-        idrinth = get_character_by_cqi(cqi);
+        idrinth = cm:get_character_by_cqi(cqi);
         if idrinth then
             return idrinth, idrinth:faction(), idrinth:faction():culture();
         end;
@@ -32,10 +32,11 @@ access.get = function()
             end;
         end;
     end;
+    cqi = nil;
     return nil, nil, nil;
 end;
 access.spawned = function()
-    if cqi then
+    if cqi and cm:get_character_by_cqi(cqi) then
         return true;
     end;
     local character = access.get();

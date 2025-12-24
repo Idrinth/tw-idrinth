@@ -1,6 +1,17 @@
 local enableChapels = nil;
+local chapelMode = "normal";
 
 local addForeignSlots = function(idrinth, faction)
+    cm:show_message_event_located(
+        faction:name(),
+        "message_event_strings_title_idrinth_chapel_founded",
+        "regions_onscreen_"..idrinth:region():name(),
+        "message_event_text_idrinth_chapel_founded",
+        idrinth:region():settlement():logical_position_x(),
+        idrinth:region():settlement():logical_position_y(),
+        false,
+        1313 -- waaagh
+    );
     if idrinth:region():is_province_capital() then
         cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel_capital");
         return;
@@ -13,6 +24,7 @@ core:add_listener(
     true,
     function(context)
         enableChapels = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapels"):get_finalized_setting();
+        chapelMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapel_chance"):get_finalized_setting();
     end,
     true
 )
@@ -22,6 +34,7 @@ core:add_listener(
     true,
     function(context)
         enableChapels = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapels"):get_finalized_setting();
+        chapelMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapel_chance"):get_finalized_setting();
     end,
     true
 );
@@ -64,7 +77,13 @@ core:add_listener(
         else
             buildingSpawnChance = buildingSpawnChance * 1.5;
         end;
-        if buildingSpawnChance > cm:random_number(500) then
+        local max = 550;
+        if chapelMode == "low" then
+            max = 600;
+        elseif chapelMode == "high" then
+            max = 350;
+        end;
+        if buildingSpawnChance > cm:random_number(max) then
             local foreignSlotManager = idrinth:region():foreign_slot_manager_for_faction(context:faction():name());
             if foreignSlotManager and not foreignSlotManager:is_null_interface() then
                 local found = false;
@@ -99,6 +118,16 @@ core:add_listener(
                     local slot = foreignSlotManager:slots():item_at(i);
                     if slot and slot:template_key() == "idrinth_hev_high_elf_vampires_chapel" then
                         cm:remove_faction_foreign_slots_from_region(faction:command_queue_index(), context:region():cqi());
+                        cm:show_message_event_located(
+                            faction:name(),
+                            "message_event_strings_title_idrinth_chapel_lost",
+                            "regions_onscreen_"..context:region():name(),
+                            "message_event_text_idrinth_chapel_lost",
+                            context:region():settlement():logical_position_x(),
+                            context:region():settlement():logical_position_y(),
+                            false,
+                            1313 -- waaagh
+                        );
                         return;
                     end;
                 end;

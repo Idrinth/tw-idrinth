@@ -62,7 +62,7 @@ local placesOfInterest = {
     blood_keep = {
         key = "idrinth_story_dilemma_blood_keep",
         triggered = false,
-        region = ""
+        region = "wh3_main_combi_region_nuln"
     },
     oak_of_ages = {
         key = "idrinth_story_dilemma_oak_of_ages",

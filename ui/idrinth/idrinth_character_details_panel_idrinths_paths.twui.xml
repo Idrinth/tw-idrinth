@@ -53,7 +53,7 @@
 						</vslider>
 					</listview>
 				</holder_boons>
-				<holder_marks this="E9EE5B7B-4F69-4839-9504A4DBA3583040">
+				<!--holder_marks this="E9EE5B7B-4F69-4839-9504A4DBA3583040">
 					<holder_heading_marks this="8E62B4BB-0800-4335-B9CDF82205FC2963">
 						<dy_title this="DC0F2731-8224-4CDD-A0DBBDCA8AD8DDE8">
 							<dy_chs_souls this="8BF041F6-0433-47D1-84B692A4D598A878">
@@ -95,7 +95,7 @@
 							<right this="237895FB-83A5-4B07-A51E8E5328BBBC01"/>
 						</hslider>
 					</mark_list>
-				</holder_marks>
+				</holder_marks-->
 			</character_details_panel_path_to_glory>
 		</root>
 	</hierarchy>

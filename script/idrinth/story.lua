@@ -141,7 +141,7 @@ core:add_listener(
             end;
         end;
         for factionName, data in pairs(dilemmas) do
-            if not data.triggered and Idrinth.Statistics.activeRounds >= data.min_rounds and Idrinth.Statistics.BattlesFought >= data.min_battles_fought and Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations and level >= data.min_level then
+            if not data.triggered and Idrinth.Statistics.ActiveRounds >= data.min_rounds and Idrinth.Statistics.BattlesFought >= data.min_battles_fought and Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations and level >= data.min_level then
                 local chance = data.chances[culture];
                 if not chance then
                     chance = data.chance;

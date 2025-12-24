@@ -47,7 +47,7 @@ core:add_listener(
     "idrinth_cultures_FactionTurnStart",
     "FactionTurnStart",
     function(context)
-        return mayDisplaySettingsDilemma(context, settings.expandedCulturesActive);
+        return context:faction():is_human() and enableExtendedCultures == nil;
     end,
     function(context)
         cm:trigger_dilemma(context:faction():name(), "idrinth_mode_choice");
@@ -59,10 +59,10 @@ local get = function()
         return baseCultures;
     end;
     local cultures = {};
-    for culture in baseCultures do
+    for _, culture in pairs(baseCultures) do
         table.insert(cultures, culture);
     end;
-    for culture in extendedCultures do
+    for _, culture in pairs(extendedCultures) do
         table.insert(cultures, culture);
     end;
     return cultures;

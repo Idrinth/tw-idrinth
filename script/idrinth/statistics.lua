@@ -54,7 +54,7 @@ core:add_listener(
         if idrinth:is_wounded() then
             return;
         end;
-        statistics.ActiveRounds = Idrinth.Statistics.ActiveRounds + 1;
+        statistics.ActiveRounds = statistics.ActiveRounds + 1;
     end,
     true
 );

@@ -61,6 +61,26 @@ if mct then
     god_item_difficulty:set_tooltip_text("Modifies the requirements for receiving the god blessed items.")
     god_item_difficulty:set_is_global(false)
 
+    local chapel_chance = idrinth:add_new_option("chapel_chance", "dropdown")
+    chapel_chance:add_dropdown_values({
+        {
+            key = "low",
+            text = "Low",
+        },
+        {
+            key = "normal",
+            text = "Normal",
+        },
+        {
+            key = "high",
+            text = "High",
+        }
+    })
+    chapel_chance:set_default_value("normal")
+    chapel_chance:set_text("Chapel Spawn Chance")
+    chapel_chance:set_tooltip_text("Modifies the chance of Thaluian Chapels being spawned by Idrinth's presence.")
+    chapel_chance:set_is_global(false)
+
     idrinth:add_new_section("idrinth_features", "Features")
 
     local story_events = idrinth:add_new_option("story_events", "checkbox")

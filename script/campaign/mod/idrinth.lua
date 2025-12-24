@@ -23,3 +23,4 @@ cm:load_global_script("script/idrinth/traits");
 cm:load_global_script("script/idrinth/heroactions");
 cm:load_global_script("script/idrinth/recruitingui");
 cm:load_global_script("script/idrinth/characterpanel");
+cm:load_global_script("script/idrinth/persistance");

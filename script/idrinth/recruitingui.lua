@@ -1,5 +1,5 @@
 local fixLordType = function()
-    if not is_panel_open("character_panel") then
+    if not cm:get_campaign_ui_manager():is_panel_open("character_panel") then
         return;
     end;
     local parent = find_uicomponent(core:get_ui_root(), "character_panel", "character_panel_info_holder", "general_selection_panel", "main_holder", "character_list_parent", "character_list", "listview", "list_clip", "list_box");
@@ -14,13 +14,15 @@ local fixLordType = function()
         if child then
             if UIComponent(child):Visible() then
                 local subtype = find_uicomponent(UIComponent(child), "info_holder", "details_holder", "dy_subtype");
-                local character = subtype:GetContextObject("character");
-                local isIdrinth = character:SubtypeContext().Key() == Idrinth.Constants.BaseType..Idrinth.Constants.HeroType or character:SubtypeContext().Key() == Idrinth.Constants.BaseType..Idrinth.Constants.LordType;
-                if isIdrinth and subtype and not subtype:Visible() then
-                    set_component_visible_with_parent(true, UIComponent(child), "info_holder", "details_holder", "dy_subtype");
-                    subtype:SetText("High Elf Vampire");
+                local character = subtype:GetContextObject("CcoCampaignCharacter");
+                if character and character:AgentSubtypeRecordContext then
+                    local isIdrinth = character:AgentSubtypeRecordContext():Key() == Idrinth.Constants.BaseType..Idrinth.Constants.HeroType or character:AgentSubtypeRecordContext():Key() == Idrinth.Constants.BaseType..Idrinth.Constants.LordType;
+                    if isIdrinth and subtype and not subtype:Visible() then
+                        set_component_visible_with_parent(true, UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                        subtype:SetText("High Elf Vampire");
+                    end;
+                    return;
                 end;
-                return;
             end;
         end;
     end;

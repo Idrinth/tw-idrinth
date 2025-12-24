@@ -4,7 +4,7 @@ local resourceChangedListener = function(context)
     end;
     local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
     local resources = {"khaine", "kurnous", "asuryan"};
-    for resource in resources do
+    for _, resource in pairs(resources) do
         if context:resource():key() == "idrinth_"..resource then
             local element = core:get_or_create_component(
                 "idrinth_pooled_resource_asuryan",
@@ -141,9 +141,9 @@ core:add_listener(
                 );
             end;
         end;
-        addResource("asuryan", faction);
-        addResource("kurnous", faction);
-        addResource("khaine", faction);
+        addResource("asuryan", context:faction());
+        addResource("kurnous", context:faction());
+        addResource("khaine", context:faction());
     end,
     true
 );
@@ -223,7 +223,7 @@ core:add_listener(
                 }
             };
             local amt = amount * results[name][battleResult]/100 * (0.94 + cm:random_number(11)/100);
-            cm:pooled_resource_factor_transaction(faction:pooled_resource_manager(), "idrinth_" .. name .. "_battles", am);
+            cm:pooled_resource_factor_transaction(faction:pooled_resource_manager(), "idrinth_" .. name .. "_battles", amt);
         end;
         local idrinth, idrinthFaction = Idrinth.Access.get();
         local attackerWon = false;

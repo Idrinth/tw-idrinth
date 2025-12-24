@@ -110,7 +110,7 @@ core:add_listener(
         if rankShift == nil then
             rankShift = 0;
         end;
-        for culture in Idrinth.cultures() do
+        for _, culture in pairs(Idrinth.cultures()) do
             for _, faction in pairs(cm:get_factions_by_culture(culture)) do
                 if faction == context:faction() then
                     local general = cm:get_highest_ranked_general_for_faction(context:faction());
@@ -141,17 +141,6 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_unlocks_DilemmaChoiceMadeEvent_2",
-    "DilemmaChoiceMadeEvent",
-    function(context)
-        return context:dilemma() == "idrinth_mode_choice";
-    end,
-    function(context)
-        Idrinth._expandedCulturesActive = (context:choice() == 1);
-    end,
-    false
-);
-core:add_listener(
     "idrinth_unlocks_FactionTurnStart_3",
     "FactionTurnStart",
     function(context)
@@ -162,7 +151,7 @@ core:add_listener(
         if rankShift == nil then
             rankShift = 0;
         end;
-        for culture in Idrinth.cultures() do
+        for _, culture in pairs(Idrinth.cultures()) do
             for _, faction in pairs(cm:get_factions_by_culture(culture)) do
                 if faction == context:faction() then
                     local general = cm:get_highest_ranked_general_for_faction(context:faction());
@@ -188,10 +177,10 @@ core:add_listener(
         );
         idrinth = Idrinth.Access.get();
         cm:replenish_action_points(cm:char_lookup_str(idrinth));
-        for culture in Idrinth.cultures() do
+        for _, culture in pairs(Idrinth.cultures()) do
             for _, faction in pairs(cm:get_factions_by_culture(culture)) do
                 if faction:is_human() and unlockMissionStarted[faction:name()] then
-                    cm:cancel_custom_mission(faction, unlockMission[culture]);
+                    cm:cancel_custom_mission(faction, unlockMissions[culture]);
                     unlockMissionStarted[faction:name()] = false;
                 end;
             end;
@@ -206,7 +195,7 @@ core:add_listener(
         if Idrinth.Access.spawned() then
             return false;
         end;
-        for mission in unlockMission do
+        for _, mission in pairs(unlockMissions) do
             if context:mission():mission_record_key() == mission then
                 return true;
             end;
@@ -238,6 +227,7 @@ core:add_listener(
                 );
                 cm:create_force_with_general(
                     context:faction():name(),
+                    "idrinth_hev_high_elf_vampires_chapel_mixed",
                     context:faction():faction_leader():region():name(),
                     x,
                     y,
@@ -317,10 +307,10 @@ core:add_listener(
             return;
         end;
         cm:replenish_action_points(cm:char_lookup_str(idrinth));
-        for culture in Idrinth.cultures() do
+        for _, culture in pairs(Idrinth.cultures()) do
             for _, faction in pairs(cm:get_factions_by_culture(culture)) do
                 if faction:is_human() and unlockMissionStarted[faction:name()] and not faction == context:faction() then
-                    cm:cancel_custom_mission(faction, unlockMission[culture]);
+                    cm:cancel_custom_mission(faction, unlockMissions[culture]);
                     unlockMissionStarted[faction:name()] = false;
                 elseif faction:is_human() and faction == context:faction() then
                     cm:trigger_dilemma(
