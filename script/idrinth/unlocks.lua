@@ -49,6 +49,7 @@ core:add_listener(
     "MctInitialized",
     true,
     function(context)
+        Idrinth.log("MctInitialized", "unlocks");
         unlockLevelAdjustment = levelAdjustment[context:mct():get_mod_by_key("idrinth"):get_option_by_key("level_adjustment"):get_finalized_setting()];
     end,
     true
@@ -58,6 +59,7 @@ core:add_listener(
     "MctFinalized",
     true,
     function(context)
+        Idrinth.log("MctFinalized", "unlocks");
         unlockLevelAdjustment = levelAdjustment[context:mct():get_mod_by_key("idrinth"):get_option_by_key("level_adjustment"):get_finalized_setting()];
     end,
     true
@@ -69,6 +71,7 @@ core:add_listener(
         return context:dilemma() == "idrinth_levelMinimum_choice";
     end,
     function(context)
+        Idrinth.log("DilemmaChoiceMadeEvent", "unlocks");
         if context:choice() == 1 then
             settings.unlockLevelAdjustment = 0;
             return;
@@ -95,6 +98,7 @@ core:add_listener(
         return unlockLevelAdjustment == nil;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "unlocks");
         cm:trigger_dilemma(context:faction():name(), "idrinth_levelMinimum_choice");
     end,
     false
@@ -128,6 +132,7 @@ core:add_listener(
         return false;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "unlocks");
         if unlockMissionStarted[context:faction():name()] then
             return;
         end;
@@ -169,6 +174,7 @@ core:add_listener(
         return false;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "unlocks");
         cm:spawn_unique_agent_at_character(
             context:faction():command_queue_index(),
             Idrinth.Constants.BaseType..Idrinth.Constants.HeroType,
@@ -203,6 +209,7 @@ core:add_listener(
         return false;
     end,
     function(context)
+        Idrinth.log("MissionSucceeded", "unlocks");
         cm:trigger_dilemma(context:faction():name(), "idrinth_unlock_choice");
     end,
     true
@@ -214,6 +221,7 @@ core:add_listener(
         return context:dilemma() == "idrinth_unlock_choice";
     end,
     function(context)
+        Idrinth.log("DilemmaChoiceMadeEvent", "unlocks");
         if context:choice() == 1 then
             return;
         end

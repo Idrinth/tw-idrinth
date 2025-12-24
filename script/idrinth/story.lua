@@ -106,6 +106,7 @@ core:add_listener(
         return idrinth and not idrinth:is_wounded() and context:faction() == faction;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "story");
         local idrinth, faction = Idrinth.Access.get();
         local level = idrinth:rank();
         if cooldown > 0 then
@@ -188,6 +189,7 @@ core:add_listener(
     "MctInitialized",
     true,
     function(context)
+        Idrinth.log("MctInitialized", "story");
         cooldownMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("dilemma_cooldown"):get_finalized_setting();
     end,
     true
@@ -197,6 +199,7 @@ core:add_listener(
     "MctFinalized",
     true,
     function(context)
+        Idrinth.log("MctFinalized", "story");
         cooldownMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("dilemma_cooldown"):get_finalized_setting();
     end,
     true

@@ -61,7 +61,8 @@ core:add_listener(
         local idrinth, faction = Idrinth.Access.get();
         return idrinth and not idrinth:is_wounded() and idrinth:has_military_force() and not idrinth:is_carrying_troops() and context:faction() == faction;
     end,
-    function(context)    
+    function(context)
+        Idrinth.log("FactionTurnStart", "army");
         local idrinth = Idrinth.Access.get();
         cm:spawn_transported_force_at_military_force(idrinth:military_force():command_queue_index(), "idrinth_hev_high_elf_vampires_idrinth_support", 1);
     end,
@@ -74,6 +75,7 @@ core:add_listener(
         return context.string == "tab_transported_army";
     end,
     function(context)
+        Idrinth.log("ComponentLClickUp", "army");
         Idrinth.Ui.nowAndThen(enableWAAAGHUpgrades);
     end,
     true
@@ -85,6 +87,7 @@ core:add_listener(
         return context.string == "tab_army";
     end,
     function(context)
+        Idrinth.log("ComponentLClickUp", "army");
         Idrinth.Ui.nowAndThen(enableArmyUpgrades)
     end,
     true
@@ -96,6 +99,7 @@ core:add_listener(
         return context.string == "units_panel";
     end,
     function(context)
+        Idrinth.log("PanelOpenedCampaign", "army");
         set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "button_warbands_upgrade");
         set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button");
     end,

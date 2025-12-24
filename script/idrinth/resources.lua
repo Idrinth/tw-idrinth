@@ -54,6 +54,7 @@ core:add_listener(
         return context:dilemma() == Idrinth.Constants.UnlockDilemma;
     end,
     function(context)
+        Idrinth.log("DilemmaChoiceMadeEvent", "resources");
         if context:choice() == 1 then
             return;
         end
@@ -75,6 +76,7 @@ core:add_listener(
         return idrinth and context:faction() == faction;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "resources");
         local addResource = function(name, faction)
             local amount = cm:random_number(35);
             if amount == 0 then
@@ -158,6 +160,7 @@ core:add_listener(
         return context:character() == idrinth;
     end,
     function(context)
+        Idrinth.log("CharacterCharacterTargetAction", "resources");
         local ability = context:ability();
         local idrinth = Idrinth.Access.get();
 
@@ -189,6 +192,7 @@ core:add_listener(
         return Idrinth.Access.spawned() and cm:model():pending_battle():has_been_fought();
     end,
     function(context)
+        Idrinth.log("BattleCompleted", "resources");
         local addResource = function(name, faction, amount, battleResult)
             local results = {
                 asuryan = {

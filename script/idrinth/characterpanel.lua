@@ -67,6 +67,7 @@ core:add_listener(
         return cm:get_campaign_ui_manager():is_panel_open("character_details_panel");
     end,
     function(context)
+        Idrinth.log("CharacterSelected", "characterpanel");
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
     end,
@@ -77,6 +78,7 @@ core:add_listener(
     "CharacterSkillPointAllocated",
     true,
     function(context)
+        Idrinth.log("CharacterSkillPointAllocated", "characterpanel");
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
     end,
@@ -89,6 +91,7 @@ core:add_listener(
         return context.string == "character_details_panel";
     end,
     function(context)
+        Idrinth.log("PanelOpenedCampaign", "characterpanel");
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
     end,
@@ -101,7 +104,8 @@ core:add_listener(
         return cm:get_campaign_ui_manager():is_panel_open("character_details_panel") and context.string == "idrinth_character_details_panel_idrinths_paths_button";
     end,
     function(context)
-        set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");      
+        Idrinth.log("ComponentLClickUp", "characterpanel");
+        set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "character_details_subpanel");
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "skills_subpanel");
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "sla_eternal_dance_subpanel");
@@ -120,6 +124,7 @@ core:add_listener(
         return cm:get_campaign_ui_manager():is_panel_open("character_details_panel");
     end,
     function(context)
+        Idrinth.log("ComponentLClickUp", "characterpanel");
         if context.string == "idrinth_character_details_panel_idrinths_paths_button" then
             return;
         end;

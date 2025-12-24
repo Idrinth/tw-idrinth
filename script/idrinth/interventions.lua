@@ -90,6 +90,7 @@ core:add_listener(
         return idrinth and context:faction() == faction;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "interventions");
         local eventTriggered = false;
         local khaineUsed = 0;
         local kurnousUsed = 0;

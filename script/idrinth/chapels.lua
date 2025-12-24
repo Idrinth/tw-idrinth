@@ -23,6 +23,7 @@ core:add_listener(
     "MctInitialized",
     true,
     function(context)
+        Idrinth.log("MctInitialized", "chapels");
         enableChapels = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapels"):get_finalized_setting();
         chapelMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapel_chance"):get_finalized_setting();
     end,
@@ -33,6 +34,7 @@ core:add_listener(
     "MctFinalized",
     true,
     function(context)
+        Idrinth.log("MctFinalized", "chapels");
         enableChapels = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapels"):get_finalized_setting();
         chapelMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapel_chance"):get_finalized_setting();
     end,
@@ -45,6 +47,7 @@ core:add_listener(
         return context:faction():is_human() and nil == enableChapels;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "chapels");
         cm:trigger_dilemma(context:faction():name(), "idrinth_chapels_choice");
     end,
     false
@@ -56,6 +59,7 @@ core:add_listener(
         return context:dilemma() == "idrinth_chapels_choice";
     end,
     function(context)
+        Idrinth.log("DilemmaChoiceMadeEvent", "chapels");
         enableChapels = (context:choice() == 1);
     end,
     true
@@ -67,7 +71,8 @@ core:add_listener(
         local idrinth, faction = Idrinth.Access.get();
         return enableChapels and idrinth and not idrinth:is_wounded() and idrinth:has_region() and idrinth:region() and context:faction() == faction;
     end,
-    function(context)    
+    function(context)
+        Idrinth.log("FactionTurnStart", "chapels");
         local idrinth, faction = Idrinth.Access.get();
         local buildingSpawnChance = idrinth:rank();
         if idrinth:is_embedded_in_military_force() then
@@ -110,6 +115,7 @@ core:add_listener(
     "RegionFactionChangeEvent",
     Idrinth.Access.spawned,
     function(context)
+        Idrinth.log("RegionFactionChangeEvent", "chapels");
         local idrinth, faction = Idrinth.Access.get();
         local foreignSlotManager = context:region():foreign_slot_manager_for_faction(faction:name());
         if foreignSlotManager and not foreignSlotManager:is_null_interface() then

@@ -46,6 +46,7 @@ core:add_listener(
         return context.string == "button_default_view" or context.string == "button_ally_view" or context.string == "button_player_foreign_view" or context.string == "button_player_foreign_trap_view" or context.string == "button_discovered_view" or context.string == "idrinth_settlement_panel_button";
     end,
     function(context)
+        Idrinth.log("ComponentLClickUp", "settlementui");
         lastClicked = context.string;
         Idrinth.Ui.nowAndThen(
             function()
@@ -105,20 +106,29 @@ core:add_listener(
     "idrinth_settlementui_PanelOpenedCampaign",
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
-    settlementForeignSlotDisplay,
+    function(context)
+        Idrinth.log("PanelOpenedCampaign", "settlementui");
+        settlementForeignSlotDisplay(context);
+    end,
     true
 );
 core:add_listener(
     "idrinth_settlementui_PanelOpenedCampaign_2",
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
-    settlementForeignSlotDisplay,
+    function(context)
+        Idrinth.log("PanelOpenedCampaign", "settlementui");
+        settlementForeignSlotDisplay(context);
+    end,
     true
 );
 core:add_listener(
     "idrinth_settlementui_CampaignSettlementSelectedAny",
     "CampaignSettlementSelectedAny",
     Idrinth.Access.spawned,
-    settlementForeignSlotDisplay,
+    function(context)
+        Idrinth.log("CampaignSettlementSelectedAny", "settlementui");
+        settlementForeignSlotDisplay(context);
+    end,
     true
 );
