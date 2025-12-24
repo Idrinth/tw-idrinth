@@ -21,5 +21,5 @@ cm:load_global_script("script/idrinth/renaming");
 cm:load_global_script("script/idrinth/statistics");
 cm:load_global_script("script/idrinth/traits");
 cm:load_global_script("script/idrinth/heroactions");
-
-cm:load_global_script("script/idrinth/todo");
+cm:load_global_script("script/idrinth/recruitingui");
+cm:load_global_script("script/idrinth/characterpanel");
