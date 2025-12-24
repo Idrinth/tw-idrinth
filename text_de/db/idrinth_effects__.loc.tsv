@@ -34,21 +34,21 @@ effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	Pri
 effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	Priester kennen die Anrufung Neheks.	false
 effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	Priester sind untot.	false
 effects_description_idrinth_successful_action_motivation	Erfolgschance, Kosten und kritische Chance werden um %+n% erhöht.	false
-effects_description_idrinth_ranger_knowledge_primary	Elfen können %+n% weiter schießen.	false
-effects_description_idrinth_blade_dancing_primary	Elfen tanzen feindlichen Klingen aus und erhöhen ihre Nahkampfverteidigung um %+n.	false
-effects_description_idrinth_unusual_training_primary	Elfen erhöhen ihre Führung um %+n.	false
-effects_description_idrinth_running_wild_primary	Elfen erhöhen ihre Bewegungsgeschwindigkeit um %+n%.	false
-effects_description_idrinth_veterans_primary	Elfische Veteranen schlagen im Nahkampf %+n% härter zu.	false
-effects_description_idrinth_strong_as_stone_primary	Belebte Einheiten widerstehen %+n% mehr Schaden.	false
-effects_description_idrinth_beasts_of_nature_primary	Bestien sind wilder und erhöhen ihren Nahkampfangriff um %+n.	false
-effects_description_idrinth_ranger_knowledge_secondary	Elfen erhöhen ihre Nachladegeschwindigkeit um %+n%.	false
-effects_description_idrinth_blade_dancing_secondary	Elfen tanzen feindlichen Klingen aus und erhöhen ihren Nahkampfangriff um %+n.	false
-effects_description_idrinth_unusual_training_secondary	Elfen haben gelernt, ihre Rüstung wirksamer zu tragen, was ihre Rüstungswertung um %+n erhöht.	false
-effects_description_idrinth_running_wild_secondary	Elfen laufen wild und erhöhen ihre Sturmwertung um %+n.	false
-effects_description_idrinth_veterans_secondary	Elfische Veteranen ermüden %+n% langsamer.	false
-effects_description_idrinth_strong_as_stone_secondary	Konstrukte erhöhen ihre Sturmwertung um %+n.	false
-effects_description_idrinth_beasts_of_nature_secondary	Bestien sind motivierter und erhöhen ihre Bewegungsgeschwindigkeit um %+n%.	false
-effects_description_idrinth_veterans_tertiary	Elfische Veteranen haben Furcht und Gefahr schon erlebt und erhöhen ihre Führung um %+n.	false
+effects_description_idrinth_ranger_knowledge_primary	Elfen der Thaluischen Kapellen können %+n% weiter schießen.	false
+effects_description_idrinth_blade_dancing_primary	Elfen der Thaluischen Kapellen tanzen feindlichen Klingen aus und erhöhen ihre Nahkampfverteidigung um %+n.	false
+effects_description_idrinth_unusual_training_primary	Elfen der Thaluischen Kapellen erhöhen ihre Führung um %+n.	false
+effects_description_idrinth_running_wild_primary	Elfen der Thaluischen Kapellen erhöhen ihre Bewegungsgeschwindigkeit um %+n%.	false
+effects_description_idrinth_veterans_primary	Elfische Veteranen der Thaluischen Kapellen schlagen im Nahkampf %+n% härter zu.	false
+effects_description_idrinth_strong_as_stone_primary	Belebte Einheiten der Thaluischen Kapellen widerstehen %+n% mehr Schaden.	false
+effects_description_idrinth_beasts_of_nature_primary	Bestien der Thaluischen Kapellen sind wilder und erhöhen ihren Nahkampfangriff um %+n.	false
+effects_description_idrinth_ranger_knowledge_secondary	Elfen der Thaluischen Kapellen erhöhen ihre Nachladegeschwindigkeit um %+n%.	false
+effects_description_idrinth_blade_dancing_secondary	Elfen der Thaluischen Kapellen tanzen feindlichen Klingen aus und erhöhen ihren Nahkampfangriff um %+n.	false
+effects_description_idrinth_unusual_training_secondary	Elfen der Thaluischen Kapellen haben gelernt, ihre Rüstung wirksamer zu tragen, was ihre Rüstungswertung um %+n erhöht.	false
+effects_description_idrinth_running_wild_secondary	Elfen der Thaluischen Kapellen laufen wild und erhöhen ihre Sturmwertung um %+n.	false
+effects_description_idrinth_veterans_secondary	Elfische Veteranen der Thaluischen Kapellen ermüden %+n% langsamer.	false
+effects_description_idrinth_strong_as_stone_secondary	Konstrukte der Thaluischen Kapellen erhöhen ihre Sturmwertung um %+n.	false
+effects_description_idrinth_beasts_of_nature_secondary	Bestien der Thaluischen Kapellen sind motivierter und erhöhen ihre Bewegungsgeschwindigkeit um %+n%.	false
+effects_description_idrinth_veterans_tertiary	Elfische Veteranen der Thaluischen Kapellen haben Furcht und Gefahr schon erlebt und erhöhen ihre Führung um %+n.	false
 effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	%+n Einheitenlimit für Gemischte Elfengarde.	false
 effects_description_idrinth_unit_capacity_chapel_asuryan_guard	%+n Einheitenlimit für Asuryans Garde.	false
 effects_description_idrinth_unit_capacity_chapel_khaine_guard	%+n Einheitenlimit für Khaines Garde.	false
