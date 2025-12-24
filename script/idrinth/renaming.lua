@@ -1,7 +1,7 @@
 local enableRenaming = true;
 
 core:add_listener(
-    "idrinth_MctInitialized_Handling",
+    "idrinth_renaming_MctInitialized",
     "MctInitialized",
     true,
     function(context)
@@ -10,7 +10,7 @@ core:add_listener(
     true
 )
 core:add_listener(
-    "idrinth_MctFinalized_Handling",
+    "idrinth_renaming_MctFinalized",
     "MctFinalized",
     true,
     function(context)
@@ -19,7 +19,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_unitCreatedRename",
+    "idrinth_renaming_UnitCreated",
     "UnitCreated",
     function(context)
         if not enableRenaming then

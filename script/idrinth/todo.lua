@@ -1,5 +1,5 @@
 core:add_listener(
-    "idrinth_enableTypeDisplayInRecruitingPanel_action",
+    "idrinth_todo_ComponentLClickUp",
     "ComponentLClickUp",
     function(context)
         return Idrinth.Access.spawned() and context.string == "legendary_lords" and Idrinth._characterPanelOpen;
@@ -56,7 +56,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableTypeDisplayInRecruitingPanel_stop",
+    "idrinth_todo_PanelClosedCampaign",
     "PanelClosedCampaign",
     function(context)
         return Idrinth.Access.spawned() and context.string == "character_panel";
@@ -68,7 +68,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableTypeDisplayInRecruitingPanel_start",
+    "idrinth_todo_PanelOpenedCampaign",
     "PanelOpenedCampaign",
     function(context)
         return Idrinth.Access.spawned() and context.string == "character_panel";
@@ -127,7 +127,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableWAAAGHUpgrades",
+    "idrinth_todo_ComponentLClickUp_2",
     "ComponentLClickUp",
     function(context)
         return Idrinth.Access.spawned() and context.string == "tab_transported_army";
@@ -184,7 +184,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableArmyUpgrades",
+    "idrinth_todo_ComponentLClickUp_3",
     "ComponentLClickUp",
     function(context)
         return Idrinth.Access.spawned() and context.string == "tab_army";
@@ -224,7 +224,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_checkIfIdrinthIsSelected",
+    "idrinth_todo_CharacterSelected",
     "CharacterSelected",
     true,
     function(context) 
@@ -320,7 +320,7 @@ core:add_listener(
 );
 
 core:add_listener(
-    "idrinth_CharacterInfoPanelOpened",
+    "idrinth_todo_PanelOpenedCampaign_2",
     "PanelOpenedCampaign",
     function(context)
         return context.string == "character_details_panel";
@@ -410,7 +410,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_enableIdrinthsPaths",
+    "idrinth_todo_ComponentLClickUp_4",
     "ComponentLClickUp",
     function(context)
         return Idrinth.Access.spawned() and context.string == "idrinth_character_details_panel_idrinths_paths_button";
@@ -429,7 +429,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_disableIdrinthsPaths",
+    "idrinth_todo_ComponentLClickUp_5",
     "ComponentLClickUp",
     Idrinth.Access.spawned,
     function(context)

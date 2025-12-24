@@ -45,7 +45,7 @@ local unlockDilemma = "idrinth_unlock_choice";
 local unlockMissionStarted = {};
 
 core:add_listener(
-    "idrinth_MctInitialized_Handling",
+    "idrinth_unlocks_MctInitialized",
     "MctInitialized",
     true,
     function(context)
@@ -54,7 +54,7 @@ core:add_listener(
     true
 )
 core:add_listener(
-    "idrinth_MctFinalized_Handling",
+    "idrinth_unlocks_MctFinalized",
     "MctFinalized",
     true,
     function(context)
@@ -63,7 +63,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_unlockLevel_DilemmaChoiceMadeEvent",
+    "idrinth_unlocks_DilemmaChoiceMadeEvent",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_levelMinimum_choice";
@@ -89,7 +89,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_modeLevel_FactionTurnStart",
+    "idrinth_unlocks_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         return unlockLevelAdjustment == nil;
@@ -100,7 +100,7 @@ core:add_listener(
     false
 );
 core:add_listener(
-    "idrinth_unlock_FactionTurnStart",
+    "idrinth_unlocks_FactionTurnStart_2",
     "FactionTurnStart",
     function(context)
         if Idrinth.Access.spawned() then
@@ -141,7 +141,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_unlock_DilemmaChoiceMadeEvent",
+    "idrinth_unlocks_DilemmaChoiceMadeEvent_2",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_mode_choice";
@@ -152,7 +152,7 @@ core:add_listener(
     false
 );
 core:add_listener(
-    "idrinth_unlockAI_FactionTurnStart",
+    "idrinth_unlocks_FactionTurnStart_3",
     "FactionTurnStart",
     function(context)
         if Idrinth.Access.spawned() then
@@ -200,7 +200,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_unlock_MissionSucceeded",
+    "idrinth_unlocks_MissionSucceeded",
     "MissionSucceeded",
     function(context)
         if Idrinth.Access.spawned() then
@@ -219,7 +219,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_unlock_DilemmaChoiceMadeEvent",
+    "idrinth_unlocks_DilemmaChoiceMadeEvent_3",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_unlock_choice";

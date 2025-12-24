@@ -48,7 +48,7 @@ cm:add_first_tick_callback(
     end
 );
 core:add_listener(
-    "idrinth_unlock_DilemmaChoiceMadeEvent",
+    "idrinth_resources_DilemmaChoiceMadeEvent",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == Idrinth.Constants.UnlockDilemma;
@@ -68,7 +68,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_FactionTurnStart",
+    "idrinth_resources_FactionTurnStart",
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
@@ -148,7 +148,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_CharacterCharacterTargetAction",
+    "idrinth_resources_CharacterCharacterTargetAction",
     "CharacterCharacterTargetAction",
     function(context)
         local idrinth = Idrinth.Access.get();
@@ -183,7 +183,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_BattleCompleted",
+    "idrinth_resources_BattleCompleted",
     "BattleCompleted",
     function(context)
         return Idrinth.Access.spawned() and cm:model():pending_battle():has_been_fought();
