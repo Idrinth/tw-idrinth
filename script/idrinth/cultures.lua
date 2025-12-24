@@ -19,6 +19,7 @@ core:add_listener(
     "MctInitialized",
     true,
     function(context)
+        Idrinth.log("MctInitialized", "cultures");
         enableExtendedCultures = context:mct():get_mod_by_key("idrinth"):get_option_by_key("expanded_spawn"):get_finalized_setting();
     end,
     true
@@ -28,6 +29,7 @@ core:add_listener(
     "MctFinalized",
     true,
     function(context)
+        Idrinth.log("MctFinalized", "cultures");
         enableExtendedCultures = context:mct():get_mod_by_key("idrinth"):get_option_by_key("expanded_spawn"):get_finalized_setting();
     end,
     true
@@ -39,6 +41,7 @@ core:add_listener(
         return context:dilemma() == "idrinth_mode_choice";
     end,
     function(context)
+        Idrinth.log("DilemmaChoiceMadeEvent", "cultures");
         enableExtendedCultures = context:choice() == 1;
     end,
     true
@@ -50,6 +53,7 @@ core:add_listener(
         return context:faction():is_human() and enableExtendedCultures == nil;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "cultures");
         cm:trigger_dilemma(context:faction():name(), "idrinth_mode_choice");
     end,
     false

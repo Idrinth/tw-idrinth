@@ -97,6 +97,7 @@ core:add_listener(
     "MctInitialized",
     true,
     function(context)
+        Idrinth.log("MctInitialized", "pointsofinterest");
         enablePointsOfInterest = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_events"):get_finalized_setting();
     end,
     true
@@ -106,7 +107,8 @@ core:add_listener(
     "MctFinalized",
     true,
     function(context)
-        enablePointsOfInterest = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_events"):get_finalized_setting(); 
+        Idrinth.log("MctFinalized", "pointsofinterest");
+        enablePointsOfInterest = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_events"):get_finalized_setting();
     end,
     true
 );
@@ -117,6 +119,7 @@ core:add_listener(
         return context:dilemma() == "idrinth_story_choice";
     end,
     function(context)
+        Idrinth.log("DilemmaChoiceMadeEvent", "pointsofinterest");
         enablePointsOfInterest = (context:choice() == 1);
     end,
     true
@@ -128,6 +131,7 @@ core:add_listener(
         return enablePointsOfInterest == nil and context:faction():is_human();
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "pointsofinterest");
         cm:trigger_dilemma(context:faction():name(), "idrinth_story_choice");
     end,
     false
@@ -139,7 +143,8 @@ core:add_listener(
         local idrinth, faction = Idrinth.Access.get();
         return enablePointsOfInterest and idrinth and not idrinth:is_wounded() and idrinth:region() and idrinth:has_region() and context:faction() == faction;
     end,
-    function(context)    
+    function(context)
+        Idrinth.log("FactionTurnStart", "pointsofinterest");
         local faction_key = context:faction():name();
         local idrinth = Idrinth.Access.get();
         for region, data in pairs(placesOfInterest) do

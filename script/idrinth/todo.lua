@@ -5,6 +5,7 @@ core:add_listener(
         return Idrinth.Access.spawned() and context.string == "legendary_lords" and Idrinth._characterPanelOpen;
     end,
     function(context)
+        Idrinth.log("ComponentLClickUp", "todo");
         local parent = find_uicomponent(core:get_ui_root(), "character_panel", "character_panel_info_holder", "general_selection_panel", "main_holder", "character_list_parent", "character_list", "listview", "list_clip", "list_box");
         if not parent then
             Idrinth.log("Couldn't find character recruitment panel.")
@@ -62,6 +63,7 @@ core:add_listener(
         return Idrinth.Access.spawned() and context.string == "character_panel";
     end,
     function(context)
+        Idrinth.log("PanelClosedCampaign", "todo");
         Idrinth.log("LEFT CHARACTER PANEL")
         Idrinth._characterPanelOpen = false;
     end,
@@ -74,6 +76,7 @@ core:add_listener(
         return Idrinth.Access.spawned() and context.string == "character_panel";
     end,
     function(context)
+        Idrinth.log("PanelOpenedCampaign", "todo");
         Idrinth.log("ENTERED CHARACTER PANEL")
         Idrinth._characterPanelOpen = true;
         local parent = find_uicomponent(core:get_ui_root(), "character_panel", "character_panel_info_holder", "general_selection_panel", "main_holder", "character_list_parent", "character_list", "listview", "list_clip", "list_box");
@@ -133,6 +136,7 @@ core:add_listener(
         return Idrinth.Access.spawned() and context.string == "tab_transported_army";
     end,
     function(context)
+        Idrinth.log("ComponentLClickUp", "todo");
         if not Idrinth._self then
             Idrinth.log("IDRINTH DEBUG: opening waaagh view for someone else than Idrinth")
             return;
@@ -190,6 +194,7 @@ core:add_listener(
         return Idrinth.Access.spawned() and context.string == "tab_army";
     end,
     function(context)
+        Idrinth.log("ComponentLClickUp", "todo");
         if not Idrinth._self then
             Idrinth.log("IDRINTH DEBUG: opening army view for someone else than Idrinth")
             return;
@@ -227,7 +232,8 @@ core:add_listener(
     "idrinth_todo_CharacterSelected",
     "CharacterSelected",
     true,
-    function(context) 
+    function(context)
+        Idrinth.log("CharacterSelected", "todo");
         Idrinth.log("IDRINTH DEBUG: is idrinth?")
         local isIdrinth = context:character():character_subtype_key() == "idrinth_hev_high_elf_vampires_idrinthchampion" or context:character():character_subtype_key() == "idrinth_hev_high_elf_vampires_idrinthgeneral";
         if isIdrinth then
@@ -326,6 +332,7 @@ core:add_listener(
         return context.string == "character_details_panel";
     end,
     function(context)
+        Idrinth.log("PanelOpenedCampaign", "todo");
         Idrinth.log("IDRINTH DEBUG: ===== CREATING CHARACTER DETAIL UI =====");
         local paths = core:get_or_create_component(
             "idrinth_character_details_panel_idrinths_paths",
@@ -416,7 +423,8 @@ core:add_listener(
         return Idrinth.Access.spawned() and context.string == "idrinth_character_details_panel_idrinths_paths_button";
     end,
     function(context)
-        set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");      
+        Idrinth.log("ComponentLClickUp", "todo");
+        set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "character_details_subpanel");
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "skills_subpanel");
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "sla_eternal_dance_subpanel");
@@ -433,6 +441,7 @@ core:add_listener(
     "ComponentLClickUp",
     Idrinth.Access.spawned,
     function(context)
+        Idrinth.log("ComponentLClickUp", "todo");
         if context.string == "idrinth_character_details_panel_idrinths_paths_button" then
             return;
         end;

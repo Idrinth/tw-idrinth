@@ -25,6 +25,7 @@ core:add_listener(
         return Idrinth.Access.spawned() and cm:model():pending_battle():has_been_fought();
     end,
     function(context)
+        Idrinth.log("BattleCompleted", "traits");
         local idrinth, idrinthFaction = Idrinth.Access.get();
         local attackerWon = false;
         if cm:pending_battle_cache_attacker_victory() then

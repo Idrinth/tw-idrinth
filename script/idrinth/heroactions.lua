@@ -6,6 +6,7 @@ core:add_listener(
         return idrinth and (context:character() == idrinth);
     end,
     function(context)
+        Idrinth.log("CharacterCharacterTargetAction", "heroactions");
         local ability = context:ability();
         local idrinth = Idrinth.Access.get();
 

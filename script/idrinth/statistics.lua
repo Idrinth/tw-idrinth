@@ -27,7 +27,8 @@ core:add_listener(
         local idrinth = Idrinth.Access.get();
         return idrinth and (context:character() == idrinth);
     end,
-    function(context)    
+    function(context)
+        Idrinth.log("CharacterCharacterTargetAction", "statistics");
         local ability = context:ability();
 
         if ability == "hinder_character" or ability == "hinder_agent" then
@@ -50,6 +51,7 @@ core:add_listener(
         return idrinth and context:faction() == faction;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "statistics");
         local idrinth = Idrinth.Access.get();
         if idrinth:is_wounded() then
             return;

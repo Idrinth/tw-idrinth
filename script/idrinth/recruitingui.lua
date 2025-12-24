@@ -34,6 +34,7 @@ core:add_listener(
         return Idrinth.Access.spawned() and context.string == "legendary_lords";
     end,
     function(context)
+        Idrinth.log("ComponentLClickUp", "recruitingui");
         Idrinth.Ui.nowAndThen(fixLordType);
     end,
     true
@@ -45,6 +46,7 @@ core:add_listener(
         return Idrinth.Access.spawned() and context.string == "character_panel";
     end,
     function(context)
+        Idrinth.log("PanelOpenedCampaign", "recruitingui");
         Idrinth.Ui.nowAndThen(fixLordType);
     end,
     true

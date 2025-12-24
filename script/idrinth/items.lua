@@ -42,6 +42,7 @@ core:add_listener(
         return idrinth and not idrinth:is_wounded() and context:faction() == faction;
     end,
     function(context)
+        Idrinth.log("FactionTurnStart", "items");
         local idrinth = Idrinth.Access.get();
         local level = idrinth:rank();
         for item, data in pairs(itemDilemmas) do
@@ -67,6 +68,7 @@ core:add_listener(
     "CharacterAncillaryGained",
     Idrinth.Access.spawned,
     function(context)
+        Idrinth.log("CharacterAncillaryGained", "items");
         local idrinth, faction = Idrinth.Access.get();
         for ancillary in uniqueAncillaries do
             if context:ancillary() == ancillary and not idrinth:has_ancillary(ancillary) then
@@ -90,6 +92,7 @@ core:add_listener(
     "MctInitialized",
     true,
     function(context)
+        Idrinth.log("MctInitialized", "items");
         godBlessedItemRequirements = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_difficulty"):get_finalized_setting()
     end,
     true
@@ -99,6 +102,7 @@ core:add_listener(
     "MctFinalized",
     true,
     function(context)
+        Idrinth.log("MctFinalized", "items");
         godBlessedItemRequirements = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_difficulty"):get_finalized_setting()
     end,
     true
