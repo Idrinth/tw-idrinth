@@ -1,0 +1,5 @@
+trait	antitrait
+#trait_to_antitraits_tables;0;db/trait_to_antitraits_tables/idrinth	
+idrinth_devotion_asuryan_positive	idrinth_devotion_asuryan_negative
+idrinth_devotion_khaine_positive	idrinth_devotion_khaine_negative
+idrinth_devotion_kurnous_positive	idrinth_devotion_kurnous_negative

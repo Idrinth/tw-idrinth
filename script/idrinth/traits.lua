@@ -19,6 +19,70 @@ local addSlayerTraits = function(asuryan, kurnous, khaine, idrinth_lookup)
     );
 end;
 core:add_listener(
+    "idrinth_traits_FactionTurnStart",
+    "FactionTurnStart",
+    function(context)
+        local idrinth, faction = Idrinth.Access.get();
+        return idrinth and context:faction() == faction;
+    end,
+    function()
+        Idrinth.log("FactionTurnStart", "traits");
+        local relevantDevotions = {
+            "idrinth_devotion_asuryan",
+            "idrinth_devotion_khaine",
+            "idrinth_devotion_kurnous",
+        };
+        local idrinth = Idrinth.Access.get();
+        local initiatives = idrinth:character_details():character_initiative_sets();
+        for i = 0, initiatives:num_items() - 1 do
+            local initiativeSet = initiatives:item_at(i);
+            if initiativeSet then
+                local initiative = initiativeSet:active_initiatives();
+                if not initiative:is_empty() then
+                    local activeInitiative = initiative:item_at(0);
+                    for _, devotion in pairs(relevantDevotions) do
+                        if activeInitiative:record_key() == devotion then
+                            cm:force_add_trait(
+                                cm:char_lookup_str(idrinth),
+                                devotion.."_positive",
+                                true,
+                                1
+                            );
+                            for _, otherDevotion in pairs(relevantDevotions) do
+                                if not otherDevotion == devotion then
+                                    if idrinth:trait_points(devotion.."_positive") > 34 then
+                                        cm:force_add_trait(
+                                            cm:char_lookup_str(idrinth),
+                                            devotion.."_negative",
+                                            true,
+                                            4
+                                        );
+                                    elseif idrinth:trait_points(devotion.."_positive") > 14 then
+                                        cm:force_add_trait(
+                                            cm:char_lookup_str(idrinth),
+                                            devotion.."_negative",
+                                            true,
+                                            2
+                                        );
+                                    elseif idrinth:trait_points(devotion.."_positive") > 4 then
+                                        cm:force_add_trait(
+                                            cm:char_lookup_str(idrinth),
+                                            devotion.."_negative",
+                                            true,
+                                            1
+                                        );
+                                    end;
+                                end;
+                            end;
+                        end;
+                    end;
+                end;
+            end;
+        end;
+    end,
+    true
+);
+core:add_listener(
     "idrinth_traits_BattleCompleted",
     "BattleCompleted",
     function(context)
