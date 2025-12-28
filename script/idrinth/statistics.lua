@@ -1,7 +1,8 @@
 local statistics = {
     ActiveRounds = 0,
     BattlesFought = 0,
-    CharactersAssassinated = 0
+    CharactersAssassinated = 0,
+    ChapelsFounded = 0,
 }
 cm:add_saving_game_callback(
 	function(context)

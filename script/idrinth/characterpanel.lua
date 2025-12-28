@@ -128,6 +128,7 @@ core:add_listener(
         if context.string == "idrinth_character_details_panel_idrinths_paths_button" then
             return;
         end;
+        Idrinth.Ui.nowAndThen(setupInitiatives);
         if context.string == "details" then
             set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
             set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "stats_effects_holder");

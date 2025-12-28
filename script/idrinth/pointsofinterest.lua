@@ -128,7 +128,7 @@ core:add_listener(
     "idrinth_pointsofinterest_FactionTurnStart",
     "FactionTurnStart",
     function(context)
-        return enablePointsOfInterest == nil and context:faction():is_human();
+        return Idrinth.mayConfigure() and enablePointsOfInterest == nil and context:faction():is_human();
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "pointsofinterest");
@@ -141,15 +141,14 @@ core:add_listener(
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
-        return enablePointsOfInterest and idrinth and not idrinth:is_wounded() and idrinth:region() and idrinth:has_region() and context:faction() == faction;
+        return enablePointsOfInterest and idrinth and not idrinth:is_wounded() and idrinth:region() and idrinth:has_region() and context:faction() == faction and context:faction():is_human();
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "pointsofinterest");
-        local faction_key = context:faction():name();
         local idrinth = Idrinth.Access.get();
         for region, data in pairs(placesOfInterest) do
             if data.region == idrinth:region():name() and not data.triggered then
-                cm:trigger_dilemma(faction_key, data.key);
+                cm:trigger_dilemma(context:faction():name(), data.key);
                 placesOfInterest[region].triggered = true;
                 return;
             end;            

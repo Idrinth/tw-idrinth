@@ -10,7 +10,7 @@ local addForeignSlots = function(idrinth, faction)
         idrinth:region():settlement():logical_position_x(),
         idrinth:region():settlement():logical_position_y(),
         false,
-        1313 -- waaagh
+        77777
     );
     if idrinth:region():is_province_capital() then
         cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel_capital");
@@ -44,7 +44,7 @@ core:add_listener(
     "idrinth_chapels_FactionTurnStart",
     "FactionTurnStart",
     function(context)
-        return context:faction():is_human() and nil == enableChapels;
+        return Idrinth.mayConfigure() and context:faction():is_human() and nil == enableChapels;
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "chapels");
@@ -132,7 +132,7 @@ core:add_listener(
                             context:region():settlement():logical_position_x(),
                             context:region():settlement():logical_position_y(),
                             false,
-                            1313 -- waaagh
+                            77777
                         );
                         return;
                     end;

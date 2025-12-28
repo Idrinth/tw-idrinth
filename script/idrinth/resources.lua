@@ -3,6 +3,9 @@ local resourceChangedListener = function(context)
         return;
     end;
     local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
+    if parent == core:get_ui_root() then
+        return;
+    end;
     local resources = {"khaine", "kurnous", "asuryan"};
     for _, resource in pairs(resources) do
         if context:resource():key() == "idrinth_"..resource then
@@ -17,6 +20,9 @@ local resourceChangedListener = function(context)
 end;
 local createResourceUI = function()
     local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
+    if parent == core:get_ui_root() then
+        return;
+    end;
     core:get_or_create_component(
         "idrinth_pooled_resource_asuryan",
         "ui/idrinth/idrinth_pooled_resource_asuryan.twui.xml",
@@ -37,7 +43,7 @@ cm:add_first_tick_callback(
     function()
         local idrinth, faction = Idrinth.Access.get();
         if faction == cm:get_local_faction() then
-            createResourceUI();
+            Idrinth.Ui.nowAndThen(createResourceUI);
             cm:add_pooled_resource_changed_listener_by_faction(
                 "idrinth_PooledResourceListener",
                 faction:name(),
@@ -58,7 +64,7 @@ core:add_listener(
         if context:choice() == 1 then
             return;
         end
-        createResourceUI();
+        Idrinth.Ui.nowAndThen(createResourceUI);
         cm:add_pooled_resource_changed_listener_by_faction(
             "idrinth_PooledResourceListener",
             context:faction():name(),

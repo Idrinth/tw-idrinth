@@ -1,5 +1,6 @@
 Idrinth = {};
 
+Idrinth.mayConfigure = cm:load_global_script("script/idrinth/multiplayer");
 Idrinth.Constants = cm:load_global_script("script/idrinth/constants");
 Idrinth.Version = cm:load_global_script("script/idrinth/version");
 Idrinth.Names = cm:load_global_script("script/idrinth/names");
@@ -24,3 +25,4 @@ cm:load_global_script("script/idrinth/heroactions");
 cm:load_global_script("script/idrinth/recruitingui");
 cm:load_global_script("script/idrinth/characterpanel");
 cm:load_global_script("script/idrinth/persistance");
+cm:load_global_script("script/idrinth/items");

@@ -55,21 +55,23 @@ core:add_listener(
                     if not parent then
                         return;
                     end;
-                    for i = 0, parent:ChildCount() - 1 do
+                    for i = 1, parent:ChildCount() do
                         local buttons = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list");
-                        if UIComponent(buttons:Find("idrinth_settlement_panel_button")):VisibleFromRoot() and UIComponent(buttons:Find("idrinth_settlement_panel_button")):CurrentState() == "selected" then
-                            for j = 0, buttons:ChildCount() - 1 do
-                                if UIComponent(buttons:Find(j)):VisibleFromRoot() then
-                                    UIComponent(buttons:Find(j)):SetState("active");
+                        if buttons then
+                            if UIComponent(buttons:Find("idrinth_settlement_panel_button")):VisibleFromRoot() and UIComponent(buttons:Find("idrinth_settlement_panel_button")):CurrentState() == "selected" then
+                                for j = 1, buttons:ChildCount() do
+                                    if UIComponent(buttons:Find(j)):VisibleFromRoot() then
+                                        UIComponent(buttons:Find(j)):SetState("active");
+                                    end;
                                 end;
+                                UIComponent(buttons:Find("idrinth_settlement_panel_button")):SetState("selected");
+                                local settlement = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view");
+                                UIComponent(settlement:Find("default_view")):SetVisible(false);
+                                UIComponent(settlement:Find("hostile_views")):SetVisible(false);
+                                UIComponent(settlement:Find("discovered_views")):SetVisible(false);
+                                UIComponent(settlement:Find("allied_view")):SetVisible(false);
+                                UIComponent(settlement:Find("idrinth_settlement_hostile_slots")):SetVisible(true);
                             end;
-                            UIComponent(buttons:Find("idrinth_settlement_panel_button")):SetState("selected");
-                            local settlement = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view");
-                            UIComponent(settlement:Find("default_view")):SetVisible(false);
-                            UIComponent(settlement:Find("hostile_views")):SetVisible(false);
-                            UIComponent(settlement:Find("discovered_views")):SetVisible(false);
-                            UIComponent(settlement:Find("allied_view")):SetVisible(false);
-                            UIComponent(settlement:Find("idrinth_settlement_hostile_slots")):SetVisible(true);
                         end;
                     end;
                 elseif lastClicked == "button_default_view" or lastClicked == "button_ally_view" or lastClicked == "button_player_foreign_view" or lastClicked == "button_player_foreign_trap_view" or lastClicked == "button_discovered_view" then
@@ -77,22 +79,24 @@ core:add_listener(
                     if not parent then
                         return;
                     end;            
-                    for i = 0, parent:ChildCount() - 1 do
+                    for i = 1, parent:ChildCount() do
                         local buttons = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list");
-                        if UIComponent(buttons:Find(lastClicked)):CurrentState() == "selected" and UIComponent(buttons:Find("idrinth_settlement_panel_button")):CurrentState() == "selected" and UIComponent(buttons:Find("idrinth_settlement_panel_button")):VisibleFromRoot() then
-                            UIComponent(buttons:Find("idrinth_settlement_panel_button")):SetState("active");
-                            local settlement = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view");
-                            UIComponent(settlement:Find("idrinth_settlement_hostile_slots")):SetVisible(false);
-                            if context.string == "button_default_view" then
-                                UIComponent(settlement:Find("default_view")):SetVisible(true);
-                            elseif context.string == "button_ally_view" then
-                                UIComponent(settlement:Find("allied_view")):SetVisible(true);
-                            elseif context.string == "button_player_foreign_view" then
-                                UIComponent(settlement:Find("hostile_views")):SetVisible(true);
-                            elseif context.string == "button_player_foreign_trap_view" then
-                                UIComponent(settlement:Find("hostile_views")):SetVisible(true);
-                            elseif context.string == "button_discovered_view" then
-                                UIComponent(settlement:Find("discovered_views")):SetVisible(true);
+                        if buttons then
+                            if UIComponent(buttons:Find(lastClicked)):CurrentState() == "selected" and UIComponent(buttons:Find("idrinth_settlement_panel_button")):CurrentState() == "selected" and UIComponent(buttons:Find("idrinth_settlement_panel_button")):VisibleFromRoot() then
+                                UIComponent(buttons:Find("idrinth_settlement_panel_button")):SetState("active");
+                                local settlement = find_uicomponent(UIComponent(parent:Find(i)), "settlement_view");
+                                UIComponent(settlement:Find("idrinth_settlement_hostile_slots")):SetVisible(false);
+                                if lastClicked == "button_default_view" then
+                                    UIComponent(settlement:Find("default_view")):SetVisible(true);
+                                elseif lastClicked == "button_ally_view" then
+                                    UIComponent(settlement:Find("allied_view")):SetVisible(true);
+                                elseif lastClicked == "button_player_foreign_view" then
+                                    UIComponent(settlement:Find("hostile_views")):SetVisible(true);
+                                elseif lastClicked == "button_player_foreign_trap_view" then
+                                    UIComponent(settlement:Find("hostile_views")):SetVisible(true);
+                                elseif lastClicked == "button_discovered_view" then
+                                    UIComponent(settlement:Find("discovered_views")):SetVisible(true);
+                                end;
                             end;
                         end;
                     end;

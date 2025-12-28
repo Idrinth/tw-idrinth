@@ -5,13 +5,31 @@ local itemDilemmas = {
         min_level = 0,
         key = "idrinth_dilemma_weapon",
         triggered = false,
+        allowed_types = {
+            "champion"
+        }
     },
+    weapon_lord = {
+        min_battles_fought = 21,
+        min_assassinations = 0,
+        min_level = 21,
+        key = "idrinth_dilemma_weapon",
+        triggered = false,
+        allowed_types = {
+            "general"
+        }
+    },
+
     armour = {
         min_battles_fought = 15,
         min_assassinations = 0,
         min_level = 0,
         key = "idrinth_dilemma_armour",
         triggered = false,
+        allowed_types = {
+            "general",
+            "champion"
+        }
     },
     talisman = {
         min_battles_fought = 0,
@@ -19,6 +37,10 @@ local itemDilemmas = {
         min_level = 15,
         key = "idrinth_dilemma_talisman",
         triggered = false,
+        allowed_types = {
+            "general",
+            "champion"
+        }
     }
 };
 local godBlessedItemRequirements = "normal";
@@ -39,26 +61,31 @@ core:add_listener(
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
-        return idrinth and not idrinth:is_wounded() and context:faction() == faction;
+        return idrinth and not idrinth:is_wounded() and context:faction() == faction and context:faction():is_human();
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "items");
         local idrinth = Idrinth.Access.get();
         local level = idrinth:rank();
-        for item, data in pairs(itemDilemmas) do
-            local factor = 1;
-            if godBlessedItemRequirements == "low" then
-                factor = 2/3;
-            elseif godBlessedItemRequirements == "high" then
-                factor = 4/3;
+        local factor = 1;
+        if godBlessedItemRequirements == "low" then
+            factor = 2/3;
+        elseif godBlessedItemRequirements == "high" then
+            factor = 4/3;
+        end;
+        for _, data in pairs(itemDilemmas) do
+            local allowed = false;
+            for _, allowed_type in pairs(data.allowed_types) do
+                allowed = allowed or (idrinth:character_type_key() == allowed_type);
             end;
-            if not data.triggered and Idrinth.Statistics.BattlesFought >= data.min_battles_fought * factor and Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations * factor and level >= data.min_level * factor then
+            Idrinth.log(data);
+            Idrinth.log(allowed);
+            if allowed and not data.triggered and Idrinth.Statistics.BattlesFought >= data.min_battles_fought * factor and Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations * factor and level >= data.min_level * factor then
                 if (cm:random_number(100) <= 25) then
                     data.triggered = true;
-                    cm:trigger_dilemma(faction_key, data.key);
+                    cm:trigger_dilemma(context:faction():name(), data.key);
                 end;
             end;
-        end;
         end;
     end,
     true
@@ -70,7 +97,7 @@ core:add_listener(
     function(context)
         Idrinth.log("CharacterAncillaryGained", "items");
         local idrinth, faction = Idrinth.Access.get();
-        for ancillary in uniqueAncillaries do
+        for _, ancillary in pairs(uniqueAncillaries) do
             if context:ancillary() == ancillary and not idrinth:has_ancillary(ancillary) then
                 cm:force_remove_ancillary_from_faction(
                     faction,
@@ -109,7 +136,7 @@ core:add_listener(
 );
 cm:add_saving_game_callback(
 	function(context)
-        for name, element in pairs(Idrinth._item_dilemmas) do
+        for name, element in pairs(itemDilemmas) do
             if element.triggered then
                 cm:save_named_value("idrinth.item_dilemmas." .. name, 1, context);
             end;
@@ -119,7 +146,7 @@ cm:add_saving_game_callback(
 cm:add_loading_game_callback(
 	function(context)
 		if cm:is_new_game() == false then
-            for name, element in pairs(Idrinth._item_dilemmas) do
+            for name, element in pairs(itemDilemmas) do
                 element.triggered = (cm:load_named_value("idrinth.item_dilemmas." .. name, 0, context) == 1);
             end;
 		end;

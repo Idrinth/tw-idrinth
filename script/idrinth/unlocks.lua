@@ -95,7 +95,7 @@ core:add_listener(
     "idrinth_unlocks_FactionTurnStart",
     "FactionTurnStart",
     function(context)
-        return unlockLevelAdjustment == nil;
+        return Idrinth.mayConfigure() and context:faction():is_human() and unlockLevelAdjustment == nil;
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "unlocks");
@@ -218,7 +218,7 @@ core:add_listener(
     "idrinth_unlocks_DilemmaChoiceMadeEvent_3",
     "DilemmaChoiceMadeEvent",
     function(context)
-        return context:dilemma() == "idrinth_unlock_choice";
+        return context:dilemma() == "idrinth_unlock_choice" and not Idrinth.Access.spawned();
     end,
     function(context)
         Idrinth.log("DilemmaChoiceMadeEvent", "unlocks");

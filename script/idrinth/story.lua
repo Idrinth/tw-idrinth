@@ -103,11 +103,11 @@ core:add_listener(
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
-        return idrinth and not idrinth:is_wounded() and context:faction() == faction;
+        return idrinth and not idrinth:is_wounded() and context:faction() == faction and context:faction():is_human();
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "story");
-        local idrinth, faction = Idrinth.Access.get();
+        local idrinth, faction, culture = Idrinth.Access.get();
         local level = idrinth:rank();
         if cooldown > 0 then
             cooldown = cilemmaCooldown - 1;
@@ -149,7 +149,7 @@ core:add_listener(
                 end;
                 if chance and (cm:random_number(100) / 100 <= chance + digit_bonus/100 - dilemmasTriggered/100) then
                     data.triggered = true;
-                    cm:trigger_dilemma(faction_key, data.key);
+                    cm:trigger_dilemma(faction:name(), data.key);
                     if Idrinth._dilemmaCooldownMode == "low" then
                         Idrinth._dilemmaCooldown = cm:random_number(2) + 1;
                     elseif Idrinth._dilemmaCooldownMode == "medium" then

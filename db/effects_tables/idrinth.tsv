@@ -77,8 +77,9 @@ idrinth_unit_capacity_chapel_shrine		4		campaign	true
 idrinth_unit_capacity_chapel_outriders		4		campaign	true
 idrinth_unit_capacity_chapel_stone_wolves		4		campaign	true
 idrinth_unit_upkeep_mod_conditional	military_spending.png	1	military_spending.png	campaign	false
+idrinth_chapel_beasts_upkeep	military_spending.png	1	military_spending.png	campaign	false
 idrinth_chapel_units_upkeep	military_spending.png	1	military_spending.png	campaign	false
-idrinth_enable_stances		1		campaign	true
+idrinth_enable_stances		0		campaign	true
 idrinth_chapel_units_recruitment_rank	experience.png	1	experience.png	campaign	true
 idrinth_initiative_khaine_pray	kurnous.png	3	kurnous.png	campaign	true
 idrinth_initiative_kurnous_pray	khaine.png	3	khaine.png	campaign	true

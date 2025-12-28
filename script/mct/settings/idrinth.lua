@@ -128,4 +128,10 @@ if mct then
     logging:set_text("Enable Logging")
     logging:set_tooltip_text("When checked this mod logs to the game root directory into idrinth.log.")
     logging:set_is_global(true)
+    
+    local base_logging = idrinth:add_new_option("base_logging", "checkbox")
+    base_logging:set_default_value(false)
+    base_logging:set_text("Use Base Game Logging")
+    base_logging:set_tooltip_text("When checked this mod logs with the base game logging function instead.")
+    base_logging:set_is_global(true)
 end;
