@@ -78,8 +78,6 @@ core:add_listener(
             for _, allowed_type in pairs(data.allowed_types) do
                 allowed = allowed or (idrinth:character_type_key() == allowed_type);
             end;
-            Idrinth.log(data);
-            Idrinth.log(allowed);
             if allowed and not data.triggered and Idrinth.Statistics.BattlesFought >= data.min_battles_fought * factor and Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations * factor and level >= data.min_level * factor then
                 if (cm:random_number(100) <= 25) then
                     data.triggered = true;

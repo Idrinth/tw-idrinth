@@ -23,33 +23,35 @@ core:add_listener(
     "FactionTurnStart",
     function(context)
         local idrinth, faction = Idrinth.Access.get();
-        return idrinth and context:faction() == faction;
+        return idrinth and not idrinth:is_wounded() and context:faction() == faction;
     end,
     function()
         Idrinth.log("FactionTurnStart", "traits");
         local relevantDevotions = {
-            "idrinth_devotion_asuryan",
-            "idrinth_devotion_khaine",
-            "idrinth_devotion_kurnous",
+            idrinth_devotion_asuryan = "idrinth_asuryan_pledge",
+            idrinth_devotion_khaine = "idrinth_khaine_pledge",
+            idrinth_devotion_kurnous = "idrinth_kurnous_pledge",
         };
         local idrinth = Idrinth.Access.get();
         local initiatives = idrinth:character_details():character_initiative_sets();
+        Idrinth.log(initiatives:num_items(), "traits");
         for i = 0, initiatives:num_items() - 1 do
             local initiativeSet = initiatives:item_at(i);
             if initiativeSet then
                 local initiative = initiativeSet:active_initiatives();
-                if not initiative:is_empty() then
+                if initiative and not initiative:is_empty() then
                     local activeInitiative = initiative:item_at(0);
-                    for _, devotion in pairs(relevantDevotions) do
-                        if activeInitiative:record_key() == devotion then
+                    for devotion, devotionInitiative in pairs(relevantDevotions) do
+                        Idrinth.log(activeInitiative:record_key() .. "=" .. devotionInitiative, "traits");
+                        if activeInitiative:record_key() == devotionInitiative then
                             cm:force_add_trait(
                                 cm:char_lookup_str(idrinth),
                                 devotion.."_positive",
                                 true,
                                 1
                             );
-                            for _, otherDevotion in pairs(relevantDevotions) do
-                                if not otherDevotion == devotion then
+                            for otherDevotion, _ in pairs(relevantDevotions) do
+                                if not (otherDevotion == devotion) then
                                     if idrinth:trait_points(devotion.."_positive") > 34 then
                                         cm:force_add_trait(
                                             cm:char_lookup_str(idrinth),
@@ -76,7 +78,11 @@ core:add_listener(
                             end;
                         end;
                     end;
+                else
+                    Idrinth.log("no active initiative in set", "traits");
                 end;
+            else
+                Idrinth.log("empty initiative set", "traits");
             end;
         end;
     end,
