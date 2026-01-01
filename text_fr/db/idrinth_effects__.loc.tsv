@@ -70,4 +70,8 @@ effects_description_idrinth_chapel_units_recruitment_rank	%+n rang de recrutemen
 effects_description_idrinth_initiative_khaine_pray	Votre prière à Khaine a amélioré le potentiel offensif de vos troupes.	false
 effects_description_idrinth_initiative_kurnous_pray	Votre prière à Kurnous a amélioré le potentiel de chasse de vos troupes.	false
 effects_description_idrinth_initiative_asuryan_pray	Votre prière à Asuryan a amélioré le potentiel de survie de vos troupes.	false
+effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Augmente vos capacités lors des batailles contre les puissances ruineuses.	false
+effects_description_idrinth_chapel_beasts_upkeep	Réduit l'entretien des bêtes des Chapelles Thaluiennes de %+n%.	false
+effects_description_idrinth_enable_thalui_name	Ce personnage a juré une vengeance éternelle contre les puissances ruineuses et a adopté le nom Thalui pour cette raison.	false
+effects_description_idrinth_enable_knight_scholar_name	Ce personnage est à la fois un érudit et un chevalier, reconnu comme tel à travers différentes factions.	false
 
