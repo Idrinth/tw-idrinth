@@ -18,6 +18,57 @@ local addSlayerTraits = function(asuryan, kurnous, khaine, idrinth_lookup)
         khaine
     );
 end;
+local adjustDevotionTraitsBy = function(idrinth, devotion, points)
+    local negative = idrinth:trait_points(devotion.."_negative");
+    local positive = idrinth:trait_points(devotion.."_positive");
+    
+    local total = positive - negative + points;
+
+    cm:force_remove_trait(cm:char_lookup_str(idrinth), devotion.."_positive");
+    cm:force_remove_trait(cm:char_lookup_str(idrinth), devotion.."_negative");
+    
+    local movedPastTier = false;
+    if points > 0 then
+        if total >= 5 and total - points < 5 then
+            movedPastTier = true;
+        elseif total >= 15 and total - points < 15 then
+            movedPastTier = true;
+        elseif total >= 35 and total - points < 35 then
+            movedPastTier = true;
+        end
+    else
+        if total <= -10 and total + points > -10 then
+            movedPastTier = true;
+        elseif total <= -25 and total + points > -25 then
+            movedPastTier = true;
+        end
+    end
+    
+    if total < -25 then
+        total = -25;
+    end;
+    if total > 35 then
+        total = 35;
+    end;
+    
+    if total < 0 then
+        cm:force_add_trait(
+            cm:char_lookup_str(idrinth),
+            devotion.."_negative",
+            movedPastTier,
+            0 - total
+        );
+    elseif total > 0 then
+        cm:force_add_trait(
+            cm:char_lookup_str(idrinth),
+            devotion.."_positive",
+            movedPastTier,
+            total
+        );
+    end;
+    Idrinth.log("Total "..devotion.." is: "..total, "traits");
+    return total;
+end;
 core:add_listener(
     "idrinth_traits_FactionTurnStart",
     "FactionTurnStart",
@@ -44,35 +95,15 @@ core:add_listener(
                     for devotion, devotionInitiative in pairs(relevantDevotions) do
                         Idrinth.log(activeInitiative:record_key() .. "=" .. devotionInitiative, "traits");
                         if activeInitiative:record_key() == devotionInitiative then
-                            cm:force_add_trait(
-                                cm:char_lookup_str(idrinth),
-                                devotion.."_positive",
-                                true,
-                                1
-                            );
+                            local totalValue = adjustDevotionTraitsBy(idrinth, devotion, 1);
                             for otherDevotion, _ in pairs(relevantDevotions) do
                                 if not (otherDevotion == devotion) then
-                                    if idrinth:trait_points(devotion.."_positive") - idrinth:trait_points(devotion.."_negative") > 34 then
-                                        cm:force_add_trait(
-                                            cm:char_lookup_str(idrinth),
-                                            otherDevotion.."_negative",
-                                            true,
-                                            4
-                                        );
-                                    elseif idrinth:trait_points(devotion.."_positive") - idrinth:trait_points(devotion.."_negative") > 14 then
-                                        cm:force_add_trait(
-                                            cm:char_lookup_str(idrinth),
-                                            otherDevotion.."_negative",
-                                            true,
-                                            2
-                                        );
-                                    elseif idrinth:trait_points(devotion.."_positive") - idrinth:trait_points(devotion.."_negative") > 4 then
-                                        cm:force_add_trait(
-                                            cm:char_lookup_str(idrinth),
-                                            otherDevotion.."_negative",
-                                            true,
-                                            1
-                                        );
+                                    if totalValue > 34 then
+                                        adjustDevotionTraitsBy(idrinth, otherDevotion, -4)
+                                    elseif totalValue > 14 then
+                                        adjustDevotionTraitsBy(idrinth, otherDevotion, -2)
+                                    elseif totalValue > 4 then
+                                        adjustDevotionTraitsBy(idrinth, otherDevotion, -1)
                                     end;
                                 end;
                             end;
