@@ -1,5 +1,6 @@
 Idrinth = {};
 
+-- Base methods and data
 Idrinth.mayConfigure = cm:load_global_script("script/idrinth/multiplayer");
 Idrinth.Constants = cm:load_global_script("script/idrinth/constants");
 Idrinth.Version = cm:load_global_script("script/idrinth/version");
@@ -10,6 +11,8 @@ Idrinth.Access = cm:load_global_script("script/idrinth/access");
 Idrinth.cultures = cm:load_global_script("script/idrinth/cultures");
 Idrinth.Statistics = cm:load_global_script("script/idrinth/statistics");
 Idrinth.Ui = cm:load_global_script("script/idrinth/ui");
+
+-- Event Listeners for specific topics
 cm:load_global_script("script/idrinth/settlementui");
 cm:load_global_script("script/idrinth/unlocks");
 cm:load_global_script("script/idrinth/resources");
@@ -24,5 +27,5 @@ cm:load_global_script("script/idrinth/traits");
 cm:load_global_script("script/idrinth/heroactions");
 cm:load_global_script("script/idrinth/recruitingui");
 cm:load_global_script("script/idrinth/characterpanel");
-cm:load_global_script("script/idrinth/persistance");
+cm:load_global_script("script/idrinth/persistence");
 cm:load_global_script("script/idrinth/items");

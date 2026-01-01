@@ -1,137 +1,95 @@
-local mct = get_mct()
+local addDropdown = function(mod, key, values, defaultValue, global)
+    local dropdown = mod:add_new_option(key, "dropdown");
+    local dropdownValues = {};
+    for _, vkey in pairs(values) do
+        table.insert(dropdownValues, {
+            key = vkey,
+            text = "mct_idrinth_"..key.."_options_"..vkey.."_text",
+        });
+    end;
+    dropdown:add_dropdown_values(dropdownValues);
+    dropdown:set_default_value(defaultValue);
+    dropdown:set_is_global(global);
+    return dropdown;
+end;
+local addCheckbox = function(mod, key, defaultValue, global)
+    local checkbox = mod:add_new_option(key, "checkbox");
+    checkbox:set_default_value(defaultValue);
+    checkbox:set_is_global(global);
+    return chackbox;
+end;
+local addSection = function(mod, key, elements, global)
+    mod:add_new_section(key, "mct_idrinth_section_"..key.."_name");
+    for elementKey, config in pairs(elements) do
+        if config.element == "checkbox" then
+            local checkbox = addCheckbox(mod, elementKey, config.default, global);
+        elseif config.element == "dropdown" then
+            local dropdown = addDropdown(mod, elementKey, config.values, config.default, global);
+        end;
+    end;
+end
+
+local mct = get_mct();
 if mct then
-    local idrinth = mct:register_mod("idrinth")
-    idrinth:set_title("Idrinth Thalui - The High Elven Vampire Loremaster")
-    idrinth:set_workshop_id("3449820771")
+    local idrinth = mct:register_mod("idrinth");
+    idrinth:set_workshop_id("3449820771");
     local version = require("script/idrinth/version");
-    idrinth:set_version(version.iteration, version.main .. "." .. version.feature .. "." .. version.bug)
-    idrinth:set_main_image("ui/flags/idrinth_hev_high_elf_vampires/mon_256.png", 256, 256)
-    idrinth:set_description("Once a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.\nWill you guide him toward redemption or embrace the darkness within? His fate rests in your hands.\n\nUnique Recruitment\n\nIdrinth can be recruited by those who might value his dual nature:\n- The Empire (seeking arcane knowledge)\n- Kislev (desperate for powerful allies)\n- High Elves (wishing to reclaim one of their own)\n- Wood Elves (valuing his connection to Kurnous)\n- Vampire Counts (embracing his newfound power)\n\nLooser Lore Mode\n\nIn the looser lore mode some less likely factions are added, that represent desperate alliances:\n- Bretonnia\n- Cathay\n- Dark Elves\n- Legions of Nagash(modded Faction)\n- Vampire Coast\n\nKey Features\n\nDivine Favor System\n\nBalance your allegiance between three powerful Elven deities, each offering unique paths to unify Idrinth's fractured existence:\n- Khaine: Embrace aggression with enhanced melee prowess and damage output\n- Asuryan: Seek balance through improved defenses and magical resistance\n- Kurnous: Channel the hunter's path with ranged superiority and mobility\n\nChapel System(optional)\n\nBased on the divine influences, Idrinth can found chapels that noticably affect garrison size, power and god favour use as well as benefiting the local economy and growth.\n\nNarrative Dilemmas\n\nFace critical choices that shape Idrinth's character and determine his relationship with the divine. Will you embrace your elven roots or surrender to vampiric power? Each decision affects your divine favor and unlocks permanent bonuses.\n\nDivine Artifact Sets\n\nCollect and equip powerful god-aligned artifacts that enhance Idrinth's abilities. Complete a set to earn special bonuses that complement your chosen divine path.\n\nElven Slayer Consequences\n\nA dynamic trait system that tracks your battles against elven factions. The more elves you slay, the more you'll be known, despised, and eventually hated among their kind, with significant diplomatic and divine favor consequences.\n\nArcane Versatility\nMaster spells from multiple magical lores, reflecting Idrinth's scholarly background and vampiric transformation:\n- Lore of Vampires\n- Lore of Death\n- Lore of Shadows\n\nALPHA VERSION NOTICE\nThis mod is in EARLY ALPHA development. You may encounter:\n- Devotion systems currently non-functional\n- Balance adjustments ongoing\n- Prayer system temporarily replaced by random triggering godly interventions\n\nYour feedback is essential for improvement! Please report any issues you encounter.")
-    idrinth:set_author("Björn 'Idrinth' Büttner")
+    idrinth:set_version(version.iteration, version.main .. "." .. version.feature .. "." .. version.bug);
+    idrinth:set_main_image("ui/flags/idrinth_hev_high_elf_vampires/mon_256.png", 256, 256);
     
-    idrinth:add_new_section("idrinth_spawn", "Spawn Options")
-
-    local expanded_spawn = idrinth:add_new_option("expanded_spawn", "checkbox")
-    expanded_spawn:set_default_value(false)
-    expanded_spawn:set_text("Expanded Spawn Cultures")
-    expanded_spawn:set_tooltip_text("Allows Idrinth to spawn for Bretonnia, Cathay, the Legions of Nagash, Dark Elves and Vampire Coast as well.")
-    expanded_spawn:set_is_global(false)
-
-    local level_adjustment = idrinth:add_new_option("level_adjustment", "dropdown")
-    level_adjustment:add_dropdown_values({
-        {
-            key = "null",
-            text = "Early Game",
+    addSection(idrinth, "idrinth_spawn", {
+        expanded_spawn = {
+            element = "checkbox",
+            default = false,
         },
-        {
-            key = "one",
-            text = "Late Early Game",
+        level_adjustment = {
+            element = "dropdown",
+            values = {"null", "one", "three", "six"},
+            default = "null"
         },
-        {
-            key = "three",
-            text = "Early Mid Game",
+        god_item_difficulty = {
+            element = "dropdown",
+            values = {"low", "normal", "high"},
+            default = "normal"
         },
-        {
-            key = "six",
-            text = "Mid Game",
+        chapel_chance = {
+            element = "dropdown",
+            values = {"low", "normal", "high"},
+            default = "normal"
         }
-    })
-    level_adjustment:set_default_value("null")
-    level_adjustment:set_text("Level Requirement")
-    level_adjustment:set_tooltip_text("Modifies the level requirement to get Idrinth's unlock quest.")
-    level_adjustment:set_is_global(false)
-
-    local god_item_difficulty = idrinth:add_new_option("god_item_difficulty", "dropdown")
-    god_item_difficulty:add_dropdown_values({
-        {
-            key = "low",
-            text = "Low Requirements",
+    }, false);
+    
+    addSection(idrinth, "idrinth_features", {
+        story_events = {
+            element = "checkbox",
+            default = true,
         },
-        {
-            key = "normal",
-            text = "Normal Requirements",
+        chapels = {
+            element = "checkbox",
+            default = true,
         },
-        {
-            key = "high",
-            text = "High Requirements",
+        names = {
+            element = "checkbox",
+            default = true,
         }
-    })
-    god_item_difficulty:set_default_value("normal")
-    god_item_difficulty:set_text("God-Blessed Item Difficulty")
-    god_item_difficulty:set_tooltip_text("Modifies the requirements for receiving the god blessed items.")
-    god_item_difficulty:set_is_global(false)
-
-    local chapel_chance = idrinth:add_new_option("chapel_chance", "dropdown")
-    chapel_chance:add_dropdown_values({
-        {
-            key = "low",
-            text = "Low",
+    }, false);
+    
+    addSection(idrinth, "idrinth_other", {
+        logging = {
+            element = "checkbox",
+            default = false,
         },
-        {
-            key = "normal",
-            text = "Normal",
-        },
-        {
-            key = "high",
-            text = "High",
+        base_logging = {
+            element = "checkbox",
+            default = false,
         }
-    })
-    chapel_chance:set_default_value("normal")
-    chapel_chance:set_text("Chapel Spawn Chance")
-    chapel_chance:set_tooltip_text("Modifies the chance of Thaluian Chapels being spawned by Idrinth's presence.")
-    chapel_chance:set_is_global(false)
-
-    idrinth:add_new_section("idrinth_features", "Features")
-
-    local story_events = idrinth:add_new_option("story_events", "checkbox")
-    story_events:set_default_value(true)
-    story_events:set_text("Enable Story Events")
-    story_events:set_tooltip_text("Allows Idrinth to notify the player when reaching specific regions important to him.")
-    story_events:set_is_global(false)
+    }, true);
     
-    local chapels = idrinth:add_new_option("chapels", "checkbox")
-    chapels:set_default_value(true)
-    chapels:set_text("Chapels")
-    chapels:set_tooltip_text("Allows Idrinth to found chapels that strengthen the defences of cities and affect god favor generation.")
-    chapels:set_is_global(false)
-
-    local dilemma_cooldown = idrinth:add_new_option("dilemma_cooldown", "dropdown")
-    dilemma_cooldown:add_dropdown_values({
-        {
-            key = "low",
-            text = "Low (1 + [1-2])",
-        },
-        {
-            key = "medium",
-            text = "Medium (2 + [1-3])",
-        },
-        {
-            key = "long",
-            text = "Long (3 + [1-4])",
+    addSection(idrinth, "idrinth_cooldowns", {
+        dilemma_cooldown = {
+            element = "dropdown",
+            values = {"low", "medium", "long"},
+            default = "medium"
         }
-    })
-    dilemma_cooldown:set_default_value("medium")
-    dilemma_cooldown:set_text("Dilemma Cooldown")
-    dilemma_cooldown:set_tooltip_text("Modifies the cooldown between dilemmas that require decisions.")
-    dilemma_cooldown:set_is_global(false)
-    
-    local names = idrinth:add_new_option("names", "checkbox")
-    names:set_default_value(true)
-    names:set_text("Renaming")
-    names:set_tooltip_text("When checked units gain a custom name on recruitment pulled from a list of elven names.")
-    names:set_is_global(false)
-    
-    idrinth:add_new_section("other", "Additional Options")
-    
-    local logging = idrinth:add_new_option("logging", "checkbox")
-    logging:set_default_value(false)
-    logging:set_text("Enable Logging")
-    logging:set_tooltip_text("When checked this mod logs to the game root directory into idrinth.log.")
-    logging:set_is_global(true)
-    
-    local base_logging = idrinth:add_new_option("base_logging", "checkbox")
-    base_logging:set_default_value(false)
-    base_logging:set_text("Use Base Game Logging")
-    base_logging:set_tooltip_text("When checked this mod logs with the base game logging function instead.")
-    base_logging:set_is_global(true)
+    }, false);
 end;
