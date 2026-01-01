@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text_es/db/idrinth_message_event_text__.loc
+message_event_text_idrinth_chapel_lost	La Capilla ha sido incendiada por el nuevo dueño del asentamiento. ¿Dónde nos reuniremos ahora?	false
+message_event_text_idrinth_chapel_founded	El lugar para una nueva Capilla ha sido consagrado por los dioses. Deberíamos construirla rápidamente para obtener sus bendiciones.	false

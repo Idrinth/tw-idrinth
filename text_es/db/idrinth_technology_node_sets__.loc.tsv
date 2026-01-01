@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text_es/db/idrinth_technology_node_sets__.loc
+technology_node_sets_encyclopaedia_string_idrinth_hev_high_elf_vampires		false
+technology_node_sets_localised_name_idrinth_hev_high_elf_vampires	Capillas Thaluianas	false
+technology_node_sets_tooltip_string_idrinth_hev_high_elf_vampires	Estas tecnologías mejoran las fuerzas de las Capillas Thaluianas y su cultura anfitriona.	false

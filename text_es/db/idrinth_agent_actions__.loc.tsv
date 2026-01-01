@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text_es/db/idrinth_agent_actions__.loc
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	[[col:yellow]]Aumenta la ganancia de experiencia en %n% para las unidades que sirven en el ejército principal.[[/col]]	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	[[col:yellow]]Mata al [[img:icon_hero]][[/img]]Héroe objetivo.[[/col]]	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	[[col:yellow]]Inflige daño a todas las unidades del ejército objetivo.[[/col]]	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp	[[col:yellow]]Aumenta la cantidad de [[img:icon_corruption_vmp]][[/img]]Corrupción Vampírica en la provincia local en %n.[[/col]]	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp	{{tr:agent_action_name_spread_corruption}}	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	{{tr:agent_action_name_training}}	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	{{tr:agent_action_name_assassinate}}	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	{{tr:agent_action_name_assault_units}}	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_passive_stimulate_growth	{{tr:agent_action_name_stimulate_growth}}	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_passive_stimulate_growth	Disminuye [[img:icon_growth]][[/img]]crecimiento	false
+agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_passive_spread_public_order	[[col:yellow]]Aumenta la cantidad de [[img:icon_public_order]][[/img]]Orden Público en la provincia local en %n.[[/col]]	false
+agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_passive_spread_public_order	Aumenta [[img:icon_public_order]][[/img]]Orden Público	false
