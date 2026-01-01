@@ -2,11 +2,12 @@ local enableWAAAGHUpgrades = function()
     if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
         return;
     end;
+    set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_warband_button");
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local idrinth = Idrinth.Access.get();
     if character == idrinth then
         local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
-        if not parent then
+        if not parent or parent == core:get_ui_root() then
             return;
         end;
         core:get_or_create_component(
@@ -14,14 +15,6 @@ local enableWAAAGHUpgrades = function()
             "ui/idrinth/idrinth_units_panel_blessings_button.twui.xml",
             parent
         );
-        for i = 1, parent:ChildCount() - 1 do
-            local child = parent:Find(i);
-            if child then
-                UIComponent(child):SetVisible(false);
-            end;
-        end;
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel");
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
         set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button");
         set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "tabgroup", "tab_horde_buildings");
         set_component_visible_with_parent(false, core:get_ui_root(), "units_panel", "main_units_panel", "unit_count_frame_holder", "frame");
@@ -37,6 +30,8 @@ local enableArmyUpgrades = function()
     if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
         return;
     end;
+    set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button");
+    set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_warband_button");
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local idrinth = Idrinth.Access.get();
     if character == idrinth then
@@ -51,7 +46,7 @@ local enableArmyUpgrades = function()
             "ui/idrinth/idrinth_units_panel_warband_button.twui.xml",
             parent
         );
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "button_warbands_upgrade");
+        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_warband_button");
     end;
 end;
 core:add_listener(
@@ -84,11 +79,33 @@ core:add_listener(
     "idrinth_army_ComponentLClickUp_2",
     "ComponentLClickUp",
     function(context)
+        return context.string == "idrinth_units_panel_warband_button";
+    end,
+    function(context)
+        Idrinth.log("ComponentLClickUp", "army");
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_army_ComponentLClickUp_3",
+    "ComponentLClickUp",
+    function(context)
         return context.string == "tab_army";
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "army");
         Idrinth.Ui.nowAndThen(enableArmyUpgrades)
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_army_ComponentLClickUp_4",
+    "ComponentLClickUp",
+    function(context)
+        return context.string == "idrinth_units_panel_blessings_button";
+    end,
+    function(context)
+        Idrinth.log("ComponentLClickUp", "army");
     end,
     true
 );

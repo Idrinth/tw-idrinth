@@ -52,24 +52,24 @@ core:add_listener(
                             );
                             for otherDevotion, _ in pairs(relevantDevotions) do
                                 if not (otherDevotion == devotion) then
-                                    if idrinth:trait_points(devotion.."_positive") > 34 then
+                                    if idrinth:trait_points(devotion.."_positive") - idrinth:trait_points(devotion.."_negative") > 34 then
                                         cm:force_add_trait(
                                             cm:char_lookup_str(idrinth),
-                                            devotion.."_negative",
+                                            otherDevotion.."_negative",
                                             true,
                                             4
                                         );
-                                    elseif idrinth:trait_points(devotion.."_positive") > 14 then
+                                    elseif idrinth:trait_points(devotion.."_positive") - idrinth:trait_points(devotion.."_negative") > 14 then
                                         cm:force_add_trait(
                                             cm:char_lookup_str(idrinth),
-                                            devotion.."_negative",
+                                            otherDevotion.."_negative",
                                             true,
                                             2
                                         );
-                                    elseif idrinth:trait_points(devotion.."_positive") > 4 then
+                                    elseif idrinth:trait_points(devotion.."_positive") - idrinth:trait_points(devotion.."_negative") > 4 then
                                         cm:force_add_trait(
                                             cm:char_lookup_str(idrinth),
-                                            devotion.."_negative",
+                                            otherDevotion.."_negative",
                                             true,
                                             1
                                         );

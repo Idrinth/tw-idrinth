@@ -5,7 +5,7 @@
 	precache_condition="">
 	<hierarchy>
 		<root this="36599C95-BD72-4AD7-9BAD1F20BCD9CD15">
-			<units_panel_scrap_upgrades this="E7F97669-B12C-45A6-9384C105A90B1991">
+			<idrinth_units_panel_blessings this="E7F97669-B12C-45A6-9384C105A90B1991">
 				<title_docker this="ED7CD289-09CB-4524-9F17C5A6F85A7A28">
 					<smoke_holder this="FBB6B2E6-CD0E-42D5-89E67F8C203E4C4F">
 						<panel_smoke_t this="B35257C7-14B9-440D-9F86119D80CF0084"/>
@@ -92,7 +92,7 @@
 					</button_upgrade_we>
 					<tx_aspects_disclaimer this="393E8AA8-F9E8-48FB-9FF1B9E22CF4E961"/>
 				</scrap_upgrades_list_box>
-			</units_panel_scrap_upgrades>
+			</idrinth_units_panel_blessings>
 		</root>
 	</hierarchy>
 	<components>
@@ -4990,9 +4990,9 @@
 				</newstate>
 			</states>
 		</units_already_upgraded>
-		<units_panel_scrap_upgrades
+		<idrinth_units_panel_blessings
 			this="E7F97669-B12C-45A6-9384C105A90B1991"
-			id="units_panel_scrap_upgrades"
+			id="idrinth_units_panel_blessings"
 			offset="0,0"
 			clipimagestocomponent="true"
 			docking="Bottom Center"
@@ -5005,7 +5005,7 @@
 			<callbackwithcontextlist>
 				<callback_with_context
 					callback_id="ContextCommandEvent"
-					context_function_id="DoIf( Component(&quot;units_panel_scrap_upgrades&quot;, &quot;scrap_upgrades&quot;).IsVisible(), UiMsg(&quot;CloseUnitUpgradePanel&quot;) )">
+					context_function_id="DoIf( Component(&quot;idrinth_units_panel_blessings&quot;, &quot;scrap_upgrades&quot;).IsVisible(), UiMsg(&quot;CloseUnitUpgradePanel&quot;) )">
 					<child_m_user_properties>
 						<property
 							name="event0"
@@ -5155,7 +5155,7 @@
 					<column width="668"/>
 				</columnwidths>
 			</LayoutEngine>
-		</units_panel_scrap_upgrades>
+		</idrinth_units_panel_blessings>
 		<unit_card_parent
 			this="A32EF07B-5F4B-42FC-ABDDD66F7A73AB5C"
 			id="unit_card_parent"

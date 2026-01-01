@@ -1,12 +1,13 @@
 key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter	remove_on_skill_reset
 #character_traits_tables;3;db/character_traits_tables/idrinth							
-idrinth_slayer_elves_khaine	1	false	0	dark_elves	0		false
-idrinth_slayer_elves_kurnous	1	false	0	wood_elf	0		false
-idrinth_slayer_elves_asuryan	1	false	0	high_elves	0		false
-idrinth_killer	1	false	0	high_elves	0		false
-idrinth_devotion_asuryan_positive	0	false	0	high_elves	0		false
-idrinth_devotion_asuryan_negative	0	false	0	high_elves	0		false
-idrinth_devotion_khaine_positive	0	false	0	dark_elves	0		false
-idrinth_devotion_khaine_negative	0	false	0	dark_elves	0		false
-idrinth_devotion_kurnous_positive	0	false	0	wood_elf	0		false
-idrinth_devotion_kurnous_negative	0	false	0	wood_elf	0		false
+idrinth_slayer_elves_khaine	1	false	0	khaine	-1		false
+idrinth_slayer_elves_kurnous	1	false	0	kurnous	-1		false
+idrinth_slayer_elves_asuryan	1	false	0	asuryan	-1		false
+idrinth_killer	1	false	0	thalui	1		false
+idrinth_devotion_asuryan_positive	0	false	0	asuryan	1		false
+idrinth_devotion_asuryan_negative	0	false	0	asuryan	-1		false
+idrinth_devotion_khaine_positive	0	false	0	khaine	1		false
+idrinth_devotion_khaine_negative	0	false	0	khaine	-1		false
+idrinth_devotion_kurnous_positive	0	false	0	kurnous	1		false
+idrinth_devotion_kurnous_negative	0	false	0	kurnous	-1		false
+idrinth_thalui_name	1	false	1	thalui	0		false

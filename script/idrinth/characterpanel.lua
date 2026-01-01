@@ -2,7 +2,11 @@ local setupInitiatives = function()
     if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
         return;
     end;
-    local initiative_sets = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi()):character_details():character_initiative_sets();
+    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
+    if not character then
+        return;
+    end;
+    local initiative_sets = character:character_details():character_initiative_sets();
     local has_actual_initiative_sets = false;
     if initiative_sets then
         for i = 0, initiative_sets:num_items() -1 do
@@ -47,6 +51,12 @@ local setupIdrinthsPaths = function()
     set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths")
     set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
+    if not character then
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")            
+        set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "stats_effects_holder");
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+        return;
+    end;
     local isIdrinth = character:character_subtype_key() == Idrinth.Constants.BaseType..Idrinth.Constants.HeroType or character:character_subtype_key() == Idrinth.Constants.BaseType..Idrinth.Constants.LordType;
     if isIdrinth then   
         set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")

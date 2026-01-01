@@ -12,6 +12,7 @@ local addForeignSlots = function(idrinth, faction)
         false,
         77777
     );
+    cm:apply_effect_bundle_to_region("idrinth_chapel_slots_present", idrinth:region():name(), 0);
     if idrinth:region():is_province_capital() then
         cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel_capital");
         return;
@@ -134,6 +135,7 @@ core:add_listener(
                             false,
                             77777
                         );
+                        cm:remove_effect_bundle_from_region("idrinth_chapel_slots_present", context:region():name());
                         return;
                     end;
                 end;

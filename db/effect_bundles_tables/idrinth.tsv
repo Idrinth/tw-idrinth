@@ -110,3 +110,4 @@ idrinth_asuryan_god_favour_great_eagles			force	1	asuryan.png	false	false	true
 idrinth_kurnous_god_favour_great_eagles			faction	1	kurnous.png	false	false	true
 idrinth_khaine_god_favour_great_eagles			faction	1	khaine.png	false	false	true
 idrinth_hev_high_elf_vampires_anti_chaos			character	1	thalui.png	true	false	true
+idrinth_chapel_slots_present			region	1	thalui.png	false	true	false

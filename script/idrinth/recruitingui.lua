@@ -9,20 +9,22 @@ local fixLordType = function()
     if parent:ChildCount() == 0 then
         return;
     end;
-    for i = 1, parent:ChildCount() - 1 do
+    for i = 1, parent:ChildCount() do
         local child = parent:Find(i);
         if child then
             if UIComponent(child):Visible() then
                 local subtype = find_uicomponent(UIComponent(child), "info_holder", "details_holder", "dy_subtype");
-                local character = subtype:GetContextObjectId("CcoCampaignCharacter");
-                if character then
-                    local subtype_string = common.get_context_value("CcoCampaignCharacter", character, "AgentSubtypeRecordContext.Key")
-                    local isIdrinth = subtype_string == Idrinth.Constants.BaseType..Idrinth.Constants.HeroType or subtype_string == Idrinth.Constants.BaseType..Idrinth.Constants.LordType;
-                    if isIdrinth and subtype and not subtype:Visible() then
-                        set_component_visible_with_parent(true, UIComponent(child), "info_holder", "details_holder", "dy_subtype");
-                        subtype:SetText("High Elf Vampire");
+                if subtype then
+                    local character = subtype:GetContextObjectId("CcoCampaignCharacter");
+                    if character then
+                        local subtype_string = common.get_context_value("CcoCampaignCharacter", character, "AgentSubtypeRecordContext.Key")
+                        local isIdrinth = subtype_string == Idrinth.Constants.BaseType..Idrinth.Constants.HeroType or subtype_string == Idrinth.Constants.BaseType..Idrinth.Constants.LordType;
+                        if isIdrinth and subtype and not subtype:Visible() then
+                            set_component_visible_with_parent(true, UIComponent(child), "info_holder", "details_holder", "dy_subtype");
+                            subtype:SetText("High Elf Vampire");
+                        end;
+                        return;
                     end;
-                    return;
                 end;
             end;
         end;

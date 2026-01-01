@@ -36,12 +36,23 @@ core:add_listener(
         Idrinth.log("UnitCreated", "renaming");
         local length = #Idrinth.Names;
         local name = Idrinth.Names[cm:random_number(length)];
+        local finalName = ""
         if context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_asuryan_leader" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_kurnous_leader" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_khaine_leader" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_great_eagle" then
-            cm:change_custom_unit_name(context:unit(), name)
+            finalName = name;
         elseif string.ends_with(name, "s") then
-            cm:change_custom_unit_name(context:unit(), name .. "' " .. common.get_localised_string("land_units_onscreen_name_" .. context:unit():unit_key()));
+            finalName = name .. "' " .. common.get_localised_string("land_units_onscreen_name_" .. context:unit():unit_key());
         else
-            cm:change_custom_unit_name(context:unit(), name .. "'s " .. common.get_localised_string("land_units_onscreen_name_" .. context:unit():unit_key()));
+            finalName = name .. "'s " .. common.get_localised_string("land_units_onscreen_name_" .. context:unit():unit_key());
+        end;
+        cm:change_custom_unit_name(context:unit(), finalName);
+        if context:unit():has_unit_commander() then
+            cm:change_character_custom_name(
+                context:unit():unit_commander(),
+                finalName,
+                "",
+                "",
+                ""
+            );
         end;
     end,
     true
