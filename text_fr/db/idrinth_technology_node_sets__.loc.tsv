@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_technology_node_sets__.loc		
+#Loc;1;text/db/idrinth_technology_node_sets__.loc
 technology_node_sets_encyclopaedia_string_idrinth_hev_high_elf_vampires		false
-technology_node_sets_localised_name_idrinth_hev_high_elf_vampires	Thaluian Chapels	false
-technology_node_sets_tooltip_string_idrinth_hev_high_elf_vampires	These technologies improve the forces of the Thaluian Chapels and their host culture.	false
+technology_node_sets_localised_name_idrinth_hev_high_elf_vampires	Chappelles Thaluiennes	false
+technology_node_sets_tooltip_string_idrinth_hev_high_elf_vampires	Ces technologies améliorent les forces des Chappelles Thaluiennes et leur culture hôte.	false
