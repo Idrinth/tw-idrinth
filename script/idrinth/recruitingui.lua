@@ -34,7 +34,10 @@ core:add_listener(
     "idrinth_recruitingui_ComponentLClickUp",
     "ComponentLClickUp",
     function(context)
-        return Idrinth.Access.spawned() and context.string == "legendary_lords";
+        if context.string ~= "legendary_lords" then
+            return false;
+        end
+        return Idrinth.Access.spawned();
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "recruitingui");
@@ -46,7 +49,10 @@ core:add_listener(
     "idrinth_recruitingui_PanelOpenedCampaign",
     "PanelOpenedCampaign",
     function(context)
-        return Idrinth.Access.spawned() and context.string == "character_panel";
+        if context.string ~= "character_panel" then
+            return false;
+        end
+        return Idrinth.Access.spawned();
     end,
     function(context)
         Idrinth.log("PanelOpenedCampaign", "recruitingui");

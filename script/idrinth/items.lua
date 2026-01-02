@@ -60,8 +60,11 @@ core:add_listener(
     "idrinth_items_FactionTurnStart",
     "FactionTurnStart",
     function(context)
+        if not context:faction():is_human() then
+            return false;
+        end
         local idrinth = Idrinth.Access.get(context:faction());
-        return idrinth and not idrinth:is_wounded() and context:faction():is_human();
+        return idrinth and not idrinth:is_wounded();
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "items");

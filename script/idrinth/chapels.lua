@@ -69,8 +69,11 @@ core:add_listener(
     "idrinth_chapels_FactionTurnStart_2",
     "FactionTurnStart",
     function(context)
+        if not enableChapels then
+            return false;
+        end
         local idrinth = Idrinth.Access.get(context:faction());
-        return enableChapels and idrinth and not idrinth:is_wounded() and idrinth:has_region() and idrinth:region();
+        return idrinth and not idrinth:is_wounded() and idrinth:has_region() and idrinth:region();
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "chapels");

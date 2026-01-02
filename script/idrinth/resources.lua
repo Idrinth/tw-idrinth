@@ -195,7 +195,10 @@ core:add_listener(
     "idrinth_resources_BattleCompleted",
     "BattleCompleted",
     function(context)
-        return Idrinth.Access.spawned() and cm:model():pending_battle():has_been_fought();
+        if not cm:model():pending_battle():has_been_fought() then
+            return false;
+        end
+        return Idrinth.Access.spawned();
     end,
     function(context)
         Idrinth.log("BattleCompleted", "resources");
