@@ -18,6 +18,108 @@ local resourceChangedListener = function(context)
         end;
     end;
 end;
+local applyRandomResourceBonus = function(name, faction)
+    local amount = cm:random_number(35);
+    if amount == 0 then
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_minus5",
+            faction:name(),
+            1
+        );
+    elseif amount < 3 then
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_minus4",
+            faction:name(),
+            1
+        );
+    elseif amount < 6 then
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_minus3",
+            faction:name(),
+            1
+        );
+    elseif amount < 10 then
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_minus2",
+            faction:name(),
+            1
+        );
+    elseif amount < 15 then
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_minus1",
+            faction:name(),
+            1
+        );
+    elseif amount < 21 then
+        -- 0 change
+    elseif amount < 26 then
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_plus1",
+            faction:name(),
+            1
+        );
+    elseif amount < 30 then
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_plus2",
+            faction:name(),
+            1
+        );
+    elseif amount < 33 then
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_plus3",
+            faction:name(),
+            1
+        );
+    elseif amount < 35 then
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_plus4",
+            faction:name(),
+            1
+        );
+    else
+        cm:apply_effect_bundle(
+            "idrinth_" .. name .. "_god_favour_plus5",
+            faction:name(),
+            1
+        );
+    end;
+end;
+local battleResultModifiers = {
+    asuryan = {
+        heroic_victory = 125,
+        decisive_victory = 150,
+        close_victory = 100,
+        pyrrhic_victory = 50,
+        valiant_defeat = 75,
+        close_defeat = 75,
+        decisive_defeat = 25,
+        crushing_defeat = 0
+    },
+    kurnous = {
+        heroic_victory = 125,
+        decisive_victory = 100,
+        close_victory = 100,
+        pyrrhic_victory = 100,
+        valiant_defeat = 25,
+        close_defeat = 25,
+        decisive_defeat = 25,
+        crushing_defeat = 25
+    },
+    khaine = {
+        heroic_victory = 150,
+        decisive_victory = 125,
+        close_victory = 100,
+        pyrrhic_victory = 75,
+        valiant_defeat = 75,
+        close_defeat = 50,
+        decisive_defeat = 25,
+        crushing_defeat = 0
+    }
+};
+local applyBattleResourceTransaction = function(name, faction, amount, battleResult)
+    local amt = amount * battleResultModifiers[name][battleResult]/100 * (0.94 + cm:random_number(11)/100);
+    cm:pooled_resource_factor_transaction(faction:pooled_resource_manager(), "idrinth_" .. name .. "_battles", amt);
+end;
 local createResourceUI = function()
     local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
     if parent == core:get_ui_root() then
@@ -83,75 +185,9 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "resources");
-        local addResource = function(name, faction)
-            local amount = cm:random_number(35);
-            if amount == 0 then
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_minus5",
-                    faction:name(),
-                    1
-                );
-            elseif amount < 3 then
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_minus4",
-                    faction:name(),
-                    1
-                );
-            elseif amount < 6 then
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_minus3",
-                    faction:name(),
-                    1
-                );
-            elseif amount < 10 then
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_minus2",
-                    faction:name(),
-                    1
-                );
-            elseif amount < 15 then
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_minus1",
-                    faction:name(),
-                    1
-                );
-            elseif amount < 21 then
-                -- 0 change
-            elseif amount < 26 then
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_plus1",
-                    faction:name(),
-                    1
-                );
-            elseif amount < 30 then
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_plus2",
-                    faction:name(),
-                    1
-                );
-            elseif amount < 33 then
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_plus3",
-                    faction:name(),
-                    1
-                );
-            elseif amount < 35 then
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_plus4",
-                    faction:name(),
-                    1
-                );
-            else
-                cm:apply_effect_bundle(
-                    "idrinth_" .. name .. "_god_favour_plus5",
-                    faction:name(),
-                    1
-                );
-            end;
-        end;
-        addResource("asuryan", context:faction());
-        addResource("kurnous", context:faction());
-        addResource("khaine", context:faction());
+        applyRandomResourceBonus("asuryan", context:faction());
+        applyRandomResourceBonus("kurnous", context:faction());
+        applyRandomResourceBonus("khaine", context:faction());
     end,
     true
 );
@@ -202,42 +238,6 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("BattleCompleted", "resources");
-        local addResource = function(name, faction, amount, battleResult)
-            local results = {
-                asuryan = {
-                    heroic_victory = 125,
-                    decisive_victory = 150,
-                    close_victory = 100,
-                    pyrrhic_victory = 50,
-                    valiant_defeat = 75,
-                    close_defeat = 75,
-                    decisive_defeat = 25,
-                    crushing_defeat = 0
-                },
-                kurnous = {
-                    heroic_victory = 125,
-                    decisive_victory = 100,
-                    close_victory = 100,
-                    pyrrhic_victory = 100,
-                    valiant_defeat = 25,
-                    close_defeat = 25,
-                    decisive_defeat = 25,
-                    crushing_defeat = 25
-                },
-                khaine = {
-                    heroic_victory = 150,
-                    decisive_victory = 125,
-                    close_victory = 100,
-                    pyrrhic_victory = 75,
-                    valiant_defeat = 75,
-                    close_defeat = 50,
-                    decisive_defeat = 25,
-                    crushing_defeat = 0
-                }
-            };
-            local amt = amount * results[name][battleResult]/100 * (0.94 + cm:random_number(11)/100);
-            cm:pooled_resource_factor_transaction(faction:pooled_resource_manager(), "idrinth_" .. name .. "_battles", amt);
-        end;
         local idrinth, idrinthFaction = Idrinth.Access.get();
         local attackerWon = false;
         if cm:pending_battle_cache_attacker_victory() then
@@ -296,19 +296,19 @@ core:add_listener(
             if attackerWon then
                 base = 5;
             end;
-            addResource(
+            applyBattleResourceTransaction(
                 "asuryan",
                 idrinthFaction,
                 base + (1 - cm:model():pending_battle():percentage_of_attacker_killed()) * cm:pending_battle_cache_defender_value()/cm:pending_battle_cache_attacker_value(),
                 cm:model():pending_battle():attacker_battle_result()
             );
-            addResource(
+            applyBattleResourceTransaction(
                 "kurnous",
                 idrinthFaction,
                 base + (1 + defenderCharacters)/(1 + attackerCharacters) * 5,
                 cm:model():pending_battle():attacker_battle_result()
             );
-            addResource(
+            applyBattleResourceTransaction(
                 "khaine",
                 idrinthFaction,
                 base + cm:model():pending_battle():attacker_kills() * 0.0175,
@@ -319,19 +319,19 @@ core:add_listener(
             if defenderWon then
                 base = 5;
             end;
-            addResource(
+            applyBattleResourceTransaction(
                 "asuryan",
                 idrinthFaction,
                 base + (1 - cm:model():pending_battle():percentage_of_defender_killed()) * cm:pending_battle_cache_attacker_value()/cm:pending_battle_cache_defender_value(),
                 cm:model():pending_battle():defender_battle_result()
             );
-            addResource(
+            applyBattleResourceTransaction(
                 "kurnous",
                 idrinthFaction,
                 base + (1 + attackerCharacters)/(1 + defenderCharacters) * 5,
                 cm:model():pending_battle():defender_battle_result()
             );
-            addResource(
+            applyBattleResourceTransaction(
                 "khaine",
                 idrinthFaction,
                 base + cm:model():pending_battle():defender_kills() * 0.0075,
