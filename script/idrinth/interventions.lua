@@ -86,8 +86,10 @@ core:add_listener(
     "idrinth_interventions_FactionTurnStart",
     "FactionTurnStart",
     function(context)
-        local idrinth = Idrinth.Access.get(context:faction());
-        return idrinth and context:faction():is_human();
+        if not context:faction():is_human() then
+            return false;
+        end
+        return Idrinth.Access.get(context:faction()) ~= nil;
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "interventions");
