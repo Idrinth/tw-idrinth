@@ -90,6 +90,10 @@ local placesOfInterest = {
         region = "wh3_main_combi_region_ghrond"
     }
 };
+local regionToPoI = {};
+for _, data in pairs(placesOfInterest) do
+    regionToPoI[data.region] = data;
+end
 local enablePointsOfInterest = nil;
 
 core:add_listener(
@@ -152,13 +156,11 @@ core:add_listener(
     function(context)
         Idrinth.log("FactionTurnStart", "pointsofinterest");
         local idrinth = Idrinth.Access.get();
-        for region, data in pairs(placesOfInterest) do
-            if data.region == idrinth:region():name() and not data.triggered then
-                cm:trigger_dilemma(context:faction():name(), data.key);
-                placesOfInterest[region].triggered = true;
-                return;
-            end;            
-        end;
+        local poi = regionToPoI[idrinth:region():name()];
+        if poi and not poi.triggered then
+            cm:trigger_dilemma(context:faction():name(), poi.key);
+            poi.triggered = true;
+        end
     end,
     true
 );
