@@ -16,16 +16,12 @@ access.get = function(requiredFaction)
     if cqi then
         idrinth = cm:get_character_by_cqi(cqi);
         if idrinth then
-            if not Idrinth.Cultures.isAllowed(idrinth:faction():culture()) then
-                cqi = nil;
-            elseif requiredFaction and idrinth:faction() ~= requiredFaction then
+            if requiredFaction and idrinth:faction() ~= requiredFaction then
                 return nil, nil, nil;
-            else
-                return idrinth, idrinth:faction(), idrinth:faction():culture();
             end;
-        else
-            cqi = nil;
+            return idrinth, idrinth:faction(), idrinth:faction():culture();
         end;
+        cqi = nil;
     end;
     if requiredFaction and not Idrinth.Cultures.isAllowed(requiredFaction:culture()) then
         return nil, nil, nil;
