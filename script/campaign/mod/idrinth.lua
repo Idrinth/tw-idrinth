@@ -8,7 +8,7 @@ Idrinth.Names = cm:load_global_script("script/idrinth/names");
 Idrinth.factions = cm:load_global_script("script/idrinth/factions");
 Idrinth.log = cm:load_global_script("script/idrinth/logging");
 Idrinth.Access = cm:load_global_script("script/idrinth/access");
-Idrinth.cultures = cm:load_global_script("script/idrinth/cultures");
+Idrinth.Cultures = cm:load_global_script("script/idrinth/cultures");
 Idrinth.Statistics = cm:load_global_script("script/idrinth/statistics");
 Idrinth.Ui = cm:load_global_script("script/idrinth/ui");
 
