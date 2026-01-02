@@ -21,7 +21,7 @@ access.get = function(requiredFaction)
             end;
             return idrinth, idrinth:faction(), idrinth:faction():culture();
         end;
-        cgi = nil;
+        cqi = nil;
     end;
     for _, culture in pairs(Idrinth.cultures()) do
         local factions = cm:get_factions_by_culture(culture);
