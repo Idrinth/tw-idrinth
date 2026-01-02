@@ -1,5 +1,6 @@
 local enableExtendedCultures = false;
 local cachedCultures = nil;
+local cachedCultureMap = nil;
 local baseCultures = {
     "wh2_main_hef_high_elves",
     "wh3_main_ksl_kislev",
@@ -23,6 +24,7 @@ core:add_listener(
         Idrinth.log("MctInitialized", "cultures");
         enableExtendedCultures = context:mct():get_mod_by_key("idrinth"):get_option_by_key("expanded_spawn"):get_finalized_setting();
         cachedCultures = nil;
+        cachedCultureMap = nil;
     end,
     true
 )
@@ -34,6 +36,7 @@ core:add_listener(
         Idrinth.log("MctFinalized", "cultures");
         enableExtendedCultures = context:mct():get_mod_by_key("idrinth"):get_option_by_key("expanded_spawn"):get_finalized_setting();
         cachedCultures = nil;
+        cachedCultureMap = nil;
     end,
     true
 );
@@ -47,6 +50,7 @@ core:add_listener(
         Idrinth.log("DilemmaChoiceMadeEvent", "cultures");
         enableExtendedCultures = context:choice() == 1;
         cachedCultures = nil;
+        cachedCultureMap = nil;
     end,
     true
 );
@@ -80,4 +84,17 @@ local get = function()
     return cachedCultures;
 end;
 
-return get;
+local isAllowed = function(culture)
+    if not cachedCultureMap then
+        cachedCultureMap = {};
+        for _, c in pairs(get()) do
+            cachedCultureMap[c] = true;
+        end;
+    end;
+    return cachedCultureMap[culture] == true;
+end;
+
+return {
+    get = get,
+    isAllowed = isAllowed,
+};

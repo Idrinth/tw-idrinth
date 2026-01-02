@@ -23,7 +23,10 @@ access.get = function(requiredFaction)
         end;
         cqi = nil;
     end;
-    for _, culture in pairs(Idrinth.cultures()) do
+    if requiredFaction and not Idrinth.Cultures.isAllowed(requiredFaction:culture()) then
+        return nil, nil, nil;
+    end;
+    for _, culture in pairs(Idrinth.Cultures.get()) do
         local factions = cm:get_factions_by_culture(culture);
         if factions then
             for _, faction in pairs(factions) do
