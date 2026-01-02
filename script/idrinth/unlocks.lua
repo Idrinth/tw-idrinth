@@ -103,7 +103,7 @@ local spawnIdrinthArmy = function(faction, region, x, y)
         x,
         y,
         Idrinth.Constants.LordType,
-        Idrinth.Constants.BaseType .. Idrinth.Constants.LordType,
+        Idrinth.Constants.LordSubtype,
         "names_name_"..nameByCulture[faction:culture()]["forename"],
         "names_name_"..nameByCulture[faction:culture()]["clanname"],
         "names_name_"..nameByCulture[faction:culture()]["familyname"],
@@ -145,14 +145,14 @@ local spawnIdrinth = function(agentType, faction)
         if faction:faction_leader():has_region() then
             cm:spawn_unique_agent_at_character(
                 faction:command_queue_index(),
-                Idrinth.Constants.BaseType .. Idrinth.Constants.HeroType,
+                Idrinth.Constants.HeroSubtype,
                 faction:faction_leader():command_queue_index(),
                 true
             );
         elseif faction:has_home_region() then
             cm:spawn_unique_agent_at_region(
                 faction:cqi(),
-                Idrinth.Constants.BaseType .. Idrinth.Constants.HeroType,
+                Idrinth.Constants.HeroSubtype,
                 faction:home_region():cqi(),
                 true
             );

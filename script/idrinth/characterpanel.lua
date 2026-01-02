@@ -57,7 +57,7 @@ local setupIdrinthsPaths = function()
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
         return;
     end;
-    local isIdrinth = character:character_subtype_key() == Idrinth.Constants.BaseType..Idrinth.Constants.HeroType or character:character_subtype_key() == Idrinth.Constants.BaseType..Idrinth.Constants.LordType;
+    local isIdrinth = character:character_subtype_key() == Idrinth.Constants.HeroSubtype or character:character_subtype_key() == Idrinth.Constants.LordSubtype;
     if isIdrinth then   
         set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
         local subtype = find_uicomponent(core:get_ui_root(), "character_details_panel", "character_context_parent", "character_name", "panel_subtitle", "dy_subtype");

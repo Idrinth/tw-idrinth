@@ -18,7 +18,7 @@ local fixLordType = function()
                     local character = subtype:GetContextObjectId("CcoCampaignCharacter");
                     if character then
                         local subtype_string = common.get_context_value("CcoCampaignCharacter", character, "AgentSubtypeRecordContext.Key")
-                        local isIdrinth = subtype_string == Idrinth.Constants.BaseType..Idrinth.Constants.HeroType or subtype_string == Idrinth.Constants.BaseType..Idrinth.Constants.LordType;
+                        local isIdrinth = subtype_string == Idrinth.Constants.HeroSubtype or subtype_string == Idrinth.Constants.LordSubtype;
                         if isIdrinth and subtype and not subtype:Visible() then
                             set_component_visible_with_parent(true, UIComponent(child), "info_holder", "details_holder", "dy_subtype");
                             subtype:SetText("High Elf Vampire");
