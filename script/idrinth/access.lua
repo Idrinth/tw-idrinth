@@ -16,14 +16,18 @@ access.get = function(requiredFaction)
     if cqi then
         idrinth = cm:get_character_by_cqi(cqi);
         if idrinth then
-            if requiredFaction and idrinth:faction() ~= requiredFaction then
+            if not Idrinth.cultures.isAllowed(idrinth:faction():culture()) then
+                cqi = nil;
+            elseif requiredFaction and idrinth:faction() ~= requiredFaction then
                 return nil, nil, nil;
+            else
+                return idrinth, idrinth:faction(), idrinth:faction():culture();
             end;
-            return idrinth, idrinth:faction(), idrinth:faction():culture();
+        else
+            cqi = nil;
         end;
-        cqi = nil;
     end;
-    for _, culture in pairs(Idrinth.cultures()) do
+    for _, culture in pairs(Idrinth.cultures.get()) do
         local factions = cm:get_factions_by_culture(culture);
         if factions then
             for _, faction in pairs(factions) do

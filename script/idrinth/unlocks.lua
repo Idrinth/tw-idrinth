@@ -163,7 +163,7 @@ local spawnIdrinth = function(agentType, faction)
         return;
     end;
     cm:replenish_action_points(cm:char_lookup_str(idrinth));
-    for _, culture in pairs(Idrinth.cultures()) do
+    for _, culture in pairs(Idrinth.cultures.get()) do
         for _, faction in pairs(cm:get_factions_by_culture(culture)) do
             if faction:is_human() and unlockMissionStarted[faction:name()] then
                 cm:cancel_custom_mission(faction:name(), unlockMissions[culture]);
@@ -251,7 +251,7 @@ core:add_listener(
         if rankShift == nil then
             rankShift = 0;
         end;
-        for _, culture in pairs(Idrinth.cultures()) do
+        for _, culture in pairs(Idrinth.cultures.get()) do
             for _, faction in pairs(cm:get_factions_by_culture(culture)) do
                 if faction == context:faction() then
                     local general = cm:get_highest_ranked_general_for_faction(context:faction());
@@ -300,7 +300,7 @@ core:add_listener(
         if rankShift == nil then
             rankShift = 0;
         end;
-        for _, culture in pairs(Idrinth.cultures()) do
+        for _, culture in pairs(Idrinth.cultures.get()) do
             for _, faction in pairs(cm:get_factions_by_culture(culture)) do
                 if faction == context:faction() then
                     local general = cm:get_highest_ranked_general_for_faction(context:faction());
