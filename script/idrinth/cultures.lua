@@ -1,4 +1,5 @@
 local enableExtendedCultures = false;
+local cachedCultures = nil;
 local baseCultures = {
     "wh2_main_hef_high_elves",
     "wh3_main_ksl_kislev",
@@ -21,6 +22,7 @@ core:add_listener(
     function(context)
         Idrinth.log("MctInitialized", "cultures");
         enableExtendedCultures = context:mct():get_mod_by_key("idrinth"):get_option_by_key("expanded_spawn"):get_finalized_setting();
+        cachedCultures = nil;
     end,
     true
 )
@@ -31,6 +33,7 @@ core:add_listener(
     function(context)
         Idrinth.log("MctFinalized", "cultures");
         enableExtendedCultures = context:mct():get_mod_by_key("idrinth"):get_option_by_key("expanded_spawn"):get_finalized_setting();
+        cachedCultures = nil;
     end,
     true
 );
@@ -43,6 +46,7 @@ core:add_listener(
     function(context)
         Idrinth.log("DilemmaChoiceMadeEvent", "cultures");
         enableExtendedCultures = context:choice() == 1;
+        cachedCultures = nil;
     end,
     true
 );
@@ -59,17 +63,21 @@ core:add_listener(
     false
 );
 local get = function()
-    if not enableExtendedCultures then
-        return baseCultures;
+    if cachedCultures then
+        return cachedCultures;
     end;
-    local cultures = {};
+    if not enableExtendedCultures then
+        cachedCultures = baseCultures;
+        return cachedCultures;
+    end;
+    cachedCultures = {};
     for _, culture in pairs(baseCultures) do
-        table.insert(cultures, culture);
+        table.insert(cachedCultures, culture);
     end;
     for _, culture in pairs(extendedCultures) do
-        table.insert(cultures, culture);
+        table.insert(cachedCultures, culture);
     end;
-    return cultures;
+    return cachedCultures;
 end;
 
 return get;
