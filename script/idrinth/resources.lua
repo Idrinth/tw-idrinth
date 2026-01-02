@@ -78,8 +78,8 @@ core:add_listener(
     "idrinth_resources_FactionTurnStart",
     "FactionTurnStart",
     function(context)
-        local idrinth, faction = Idrinth.Access.get();
-        return idrinth and context:faction() == faction;
+        local idrinth = Idrinth.Access.get(context:faction());
+        return idrinth;
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "resources");

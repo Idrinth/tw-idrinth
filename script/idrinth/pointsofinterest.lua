@@ -140,8 +140,8 @@ core:add_listener(
     "idrinth_pointsofinterest_FactionTurnStart_2",
     "FactionTurnStart",
     function(context)
-        local idrinth, faction = Idrinth.Access.get();
-        return enablePointsOfInterest and idrinth and not idrinth:is_wounded() and idrinth:region() and idrinth:has_region() and context:faction() == faction and context:faction():is_human();
+        local idrinth = Idrinth.Access.get(context:faction());
+        return enablePointsOfInterest and idrinth and not idrinth:is_wounded() and idrinth:region() and idrinth:has_region() and context:faction():is_human();
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "pointsofinterest");

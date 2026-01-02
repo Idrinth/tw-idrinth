@@ -73,8 +73,8 @@ core:add_listener(
     "idrinth_traits_FactionTurnStart",
     "FactionTurnStart",
     function(context)
-        local idrinth, faction = Idrinth.Access.get();
-        return idrinth and not idrinth:is_wounded() and context:faction() == faction;
+        local idrinth = Idrinth.Access.get(context:faction());
+        return idrinth and not idrinth:is_wounded();
     end,
     function()
         Idrinth.log("FactionTurnStart", "traits");

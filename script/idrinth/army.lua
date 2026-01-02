@@ -53,8 +53,8 @@ core:add_listener(
     "idrinth_army_FactionTurnStart",
     "FactionTurnStart",
     function(context)
-        local idrinth, faction = Idrinth.Access.get();
-        return idrinth and not idrinth:is_wounded() and idrinth:has_military_force() and not idrinth:is_carrying_troops() and context:faction() == faction;
+        local idrinth = Idrinth.Access.get(context:faction());
+        return idrinth and not idrinth:is_wounded() and idrinth:has_military_force() and not idrinth:is_carrying_troops();
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "army");
