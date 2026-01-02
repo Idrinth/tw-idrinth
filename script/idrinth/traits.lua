@@ -148,17 +148,17 @@ core:add_listener(
             local general = cm:get_character_by_cqi(char_cqi);
             if general then
                 attackerCharacters = attackerCharacters + 1;
-                if general:character_subtype(Idrinth.Constants.BaseType..Idrinth.Constants.LordType) then
+                if general:character_subtype(Idrinth.Constants.LordSubtype) then
                     idrinthIsAttacker = true;
                     idrinthFactionName = faction_name;
                 end;
             end;
             for j=1, #characters do
                 attackerCharacters = attackerCharacters + 1;
-                if characters[j] == Idrinth.Constants.BaseType..Idrinth.Constants.HeroType then
+                if characters[j] == Idrinth.Constants.HeroSubtype then
                     idrinthIsAttacker = true;
                     idrinthFactionName = faction_name;
-                elseif characters[j] == Idrinth.Constants.BaseType..Idrinth.Constants.LordType then
+                elseif characters[j] == Idrinth.Constants.LordSubtype then
                     idrinthIsAttacker = true;
                     idrinthFactionName = faction_name;
                 end;
@@ -172,17 +172,17 @@ core:add_listener(
             local general = cm:get_character_by_cqi(char_cqi);
             if general then
                 defenderCharacters = defenderCharacters + 1;
-                if general:character_subtype(Idrinth.Constants.BaseType..Idrinth.Constants.LordType) then
+                if general:character_subtype(Idrinth.Constants.LordSubtype) then
                     idrinthIsDefender = true;
                     idrinthFactionName = faction_name;
                 end;
             end;
             for j=1, #characters do
                 defenderCharacters = defenderCharacters + 1;
-                if characters[j] == Idrinth.Constants.BaseType..Idrinth.Constants.HeroType then
+                if characters[j] == Idrinth.Constants.HeroSubtype then
                     idrinthIsDefender = true;
                     idrinthFactionName = faction_name;
-                elseif characters[j] == Idrinth.Constants.BaseType..Idrinth.Constants.LordType then
+                elseif characters[j] == Idrinth.Constants.LordSubtype then
                     idrinthIsDefender = true;
                     idrinthFactionName = faction_name;
                 end;
