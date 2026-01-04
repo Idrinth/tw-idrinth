@@ -10,11 +10,6 @@
 					<smoke_holder this="FBB6B2E6-CD0E-42D5-89E67F8C203E4C4F">
 						<panel_smoke_t this="B35257C7-14B9-440D-9F86119D80CF0084"/>
 					</smoke_holder>
-					<tx_scrap_upgrades this="B27D1820-1E0F-406B-9F7D4FE25810AA03"/>
-					<button_holder this="C5262FCF-3EFB-477B-BD7D8B0CA447FE78">
-						<button_info this="2B9DEA4D-28B8-4CE8-8EB26AA337450B7E"/>
-						<button_minimise this="10CBE965-8D33-4B33-B3E6A8AFDFB25564"/>
-					</button_holder>
 				</title_docker>
 				<scrap_upgrades_list_box this="B656AA4D-397D-4AB9-92F3033EA8C4BAA3">
 					<unit_card_parent this="A32EF07B-5F4B-42FC-ABDDD66F7A73AB5C">
@@ -53,14 +48,6 @@
 												<treasury_icon this="A5B9839F-782E-41EA-8CDC159C3EE981FB"/>
 												<treasury_text this="7BD03C5F-FF5A-446B-A46A4C1335EE152C"/>
 											</treasury_cost>
-											<total_scrap_cost this="5CFDEF0D-BEC4-4683-BF786CCBEEEFE692">
-												<scrap_icon this="A91C2A38-1D8B-4BE8-8FC9577468ACDB0E"/>
-												<scrap_text this="775C5EAC-82D4-400D-898F4FDAA1BEE66F"/>
-											</total_scrap_cost>
-											<total_treasury_cost this="F7712600-0E9F-4863-ADFDAA1659635BF3">
-												<treasury_icon this="ECB75264-6D93-4FCD-9480E2800520170B"/>
-												<treasury_text this="F9E37C80-75D4-4459-8FBCC0388968B66B"/>
-											</total_treasury_cost>
 										</scrap_cost_holder>
 									</cost_holder>
 									<units_already_upgraded this="CC912AF0-C99E-4C8F-BD3BF3926FF63F3D"/>
@@ -76,7 +63,6 @@
 						</vslider>
 					</scrap_upgrades_parent>
 					<total_cost_holder this="ED3F911F-3A9F-4D68-882363E0E3578EF3">
-						<tx_total_cost this="FEDE5AE1-CEC6-4CD8-B73506C2F2D52AB4"/>
 						<total_scrap_cost this="46EF947D-D009-472B-B517C6E42392025A">
 							<scrap_icon this="2F2D0AF5-99B3-464D-8379A08FEB41F308"/>
 							<scrap_text this="7DC9F267-A335-4FB3-A3D7B178A006FDA1"/>
@@ -90,7 +76,6 @@
 						<button_flame this="37846224-0751-487F-BAECA94A7F92C986"/>
 						<button_txt this="7D3426C7-32A1-45EF-A67CE9717D76A0ED"/>
 					</button_upgrade_we>
-					<tx_aspects_disclaimer this="393E8AA8-F9E8-48FB-9FF1B9E22CF4E961"/>
 				</scrap_upgrades_list_box>
 			</idrinth_units_panel_blessings>
 		</root>
@@ -356,248 +341,6 @@
 				<element value=""/>
 			</override_images>
 		</button_flame>
-		<button_holder
-			this="C5262FCF-3EFB-477B-BD7D8B0CA447FE78"
-			id="button_holder"
-			offset="756.00,10.00"
-			docking="Top Right"
-			dock_offset="-4.00,10.00"
-			component_anchor_point="1.00,0.00"
-			tooltipslocalised="true"
-			uniqueguid="C5262FCF-3EFB-477B-BD7D8B0CA447FE78"
-			currentstate="32F31CDD-81B8-4C29-834E45AA8BD46B5A"
-			defaultstate="32F31CDD-81B8-4C29-834E45AA8BD46B5A">
-			<states>
-				<default
-					this="32F31CDD-81B8-4C29-834E45AA8BD46B5A"
-					name="default"
-					width="60"
-					height="30"
-					interactive="true"
-					uniqueguid="32F31CDD-81B8-4C29-834E45AA8BD46B5A"/>
-			</states>
-			<LayoutEngine
-				type="HorizontalList"
-				sizetocontent="true"/>
-		</button_holder>
-		<button_info
-			this="2B9DEA4D-28B8-4CE8-8EB26AA337450B7E"
-			id="button_info"
-			template_id="round_extra_small_button"
-			part_of_template="true"
-			uniqueguid_in_template="052608B0-D9E2-46D2-926D0B182C32BBB6"
-			uniqueguid="2B9DEA4D-28B8-4CE8-8EB26AA337450B7E"
-			dimensions="30.00,30.00"
-			sound_category="UI_GBL_TMP_Round_Small_Button">
-			<state_uniqueguids>
-				<state_uniqueguid
-					name="active"
-					uniqueguid="9446CC6E-7288-463D-A46584E1A67A9B4F"/>
-				<state_uniqueguid
-					name="down"
-					uniqueguid="D1CC14E6-B461-4E22-9FA0AC0950490F88"/>
-				<state_uniqueguid
-					name="down_off"
-					uniqueguid="5A637396-1BEF-4412-949BB86204F307F5"/>
-				<state_uniqueguid
-					name="hover"
-					uniqueguid="B418FF27-DD71-4372-B3DA7FA725543850"/>
-				<state_uniqueguid
-					name="inactive"
-					uniqueguid="F2FACEE2-A04B-4FD4-9B1A2CAADAE8A220"/>
-			</state_uniqueguids>
-			<component_image_uniqueguids>
-				<component_image_uniqueguid
-					name="ui/skins/default/icon_question_mark.png"
-					uniqueguid="741E5C7E-CFB8-4391-96A2C9C6ECDB163C"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_pressed.png"
-					uniqueguid="F69A0E29-DA31-4333-AC9D648BDAD5E763"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_hover.png"
-					uniqueguid="4F8F54A6-A153-4CD3-94BE3C9D7EB4404E"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_active.png"
-					uniqueguid="2C346717-AF96-4BEB-B5D22305CC00CAC1"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_inactive.png"
-					uniqueguid="2C896738-69BF-47D6-B34D05305E836938"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_underlay.png"
-					uniqueguid="902B7724-4C4D-4FE5-94267385B4790D2D"/>
-			</component_image_uniqueguids>
-			<callbacks_with_context>
-				<callback_with_context callback_id="Button"/>
-				<callback_with_context callback_id="StatePropagatorCallback">
-					<child_m_user_properties>
-						<property
-							name="use_transitions"
-							value=""/>
-					</child_m_user_properties>
-				</callback_with_context>
-				<callback_with_context callback_id="CallbackAnimTrigger"/>
-			</callbacks_with_context>
-			<user_properties>
-				<property
-					name="disable_override"
-					value="resizable"/>
-				<property
-					name="disable_override0"
-					value="CallbackAnimTrigger"/>
-				<property
-					name="dynamic_image"
-					value="0"/>
-			</user_properties>
-			<localised_texts>
-				<localised_text
-					tooltip_label="ComponentTooltip_364ea0d1"
-					tooltip_text="{{tr:help_pages}}"/>
-				<localised_text
-					state="active"
-					is_text_localised="false"/>
-				<localised_text
-					state="down"
-					is_text_localised="false"/>
-				<localised_text
-					state="down_off"
-					is_text_localised="false"/>
-				<localised_text
-					state="hover"
-					is_text_localised="false"/>
-				<localised_text
-					state="inactive"
-					is_text_localised="false"/>
-			</localised_texts>
-			<override_images>
-				<element value="ui/skins/default/icon_question_mark.png"/>
-				<element value="ui/skins/default/button_round_small_pressed.png"/>
-				<element value="ui/skins/default/button_round_small_hover.png"/>
-				<element value="ui/skins/default/button_round_small_active.png"/>
-				<element value="ui/skins/default/button_round_small_inactive.png"/>
-				<element value="ui/skins/default/button_round_small_underlay.png"/>
-				<element value=""/>
-			</override_images>
-		</button_info>
-		<button_minimise
-			this="10CBE965-8D33-4B33-B3E6A8AFDFB25564"
-			id="button_minimise"
-			template_id="round_extra_small_button"
-			part_of_template="true"
-			uniqueguid_in_template="052608B0-D9E2-46D2-926D0B182C32BBB6"
-			uniqueguid="10CBE965-8D33-4B33-B3E6A8AFDFB25564"
-			dimensions="30.00,30.00"
-			sound_category="UI_GBL_TMP_Round_Small_Button">
-			<state_uniqueguids>
-				<state_uniqueguid
-					name="active"
-					uniqueguid="A646989D-96D0-44D2-AE3EA6E81866998F"/>
-				<state_uniqueguid
-					name="down"
-					uniqueguid="B8D2785A-71C8-432A-AA8BD3FCC2E1942D"/>
-				<state_uniqueguid
-					name="down_off"
-					uniqueguid="C32AADE8-C5FB-4BEF-B841907B3FD0775F"/>
-				<state_uniqueguid
-					name="hover"
-					uniqueguid="FE7FDE9A-6A53-4191-81AEF7C23625D5E5"/>
-				<state_uniqueguid
-					name="inactive"
-					uniqueguid="58E703F3-2B0A-486E-9D72CC0A4E81FAB0"/>
-			</state_uniqueguids>
-			<component_image_uniqueguids>
-				<component_image_uniqueguid
-					name="ui/skins/default/icon_cross_small.png"
-					uniqueguid="65DA407B-A3AA-46F7-A8EB6AD4A2F2851C"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_pressed.png"
-					uniqueguid="6999A3A5-E3CA-4BC7-A3CE09182EAA9A54"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_hover.png"
-					uniqueguid="2BBF6E43-3DD5-4D6C-B331571C488CF440"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_active.png"
-					uniqueguid="0F242C3D-4EC5-401A-AB1CC1D63BEC5EB5"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_inactive.png"
-					uniqueguid="F8C3365C-A392-4FA6-8756742417068222"/>
-				<component_image_uniqueguid
-					name="ui/skins/default/button_round_small_underlay.png"
-					uniqueguid="65C81FAF-AD21-4B21-84AAF0F033BFB966"/>
-			</component_image_uniqueguids>
-			<callbacks_with_context>
-				<callback_with_context callback_id="StatePropagatorCallback">
-					<child_m_user_properties>
-						<property
-							name="use_transitions"
-							value=""/>
-					</child_m_user_properties>
-				</callback_with_context>
-				<callback_with_context callback_id="CallbackAnimTrigger"/>
-				<callback_with_context
-					callback_id="ContextClearer"
-					context_object_id="CcoStaticObject">
-					<child_m_user_properties>
-						<property
-							name="mouse_event0"
-							value="lclick"/>
-						<property
-							name="only_target"
-							value=""/>
-						<property
-							name="parent_id"
-							value="main_units_panel"/>
-						<property
-							name="react_only_to_events"
-							value=""/>
-						<property
-							name="target_id"
-							value="scrap_upgrades"/>
-					</child_m_user_properties>
-				</callback_with_context>
-				<callback_with_context callback_id="Button"/>
-				<callback_with_context
-					callback_id="ContextCommandLeftClick"
-					context_function_id="UiMsg(&quot;CloseUnitUpgradePanel&quot;)"/>
-			</callbacks_with_context>
-			<user_properties>
-				<property
-					name="disable_override"
-					value="resizable"/>
-				<property
-					name="disable_override0"
-					value="CallbackAnimTrigger"/>
-				<property
-					name="dynamic_image"
-					value="0"/>
-			</user_properties>
-			<localised_texts>
-				<localised_text/>
-				<localised_text
-					state="active"
-					is_text_localised="false"/>
-				<localised_text
-					state="down"
-					is_text_localised="false"/>
-				<localised_text
-					state="down_off"
-					is_text_localised="false"/>
-				<localised_text
-					state="hover"
-					is_text_localised="false"/>
-				<localised_text
-					state="inactive"
-					is_text_localised="false"/>
-			</localised_texts>
-			<override_images>
-				<element value="ui/skins/default/icon_cross_small.png"/>
-				<element value="ui/skins/default/button_round_small_pressed.png"/>
-				<element value="ui/skins/default/button_round_small_hover.png"/>
-				<element value="ui/skins/default/button_round_small_active.png"/>
-				<element value="ui/skins/default/button_round_small_inactive.png"/>
-				<element value="ui/skins/default/button_round_small_underlay.png"/>
-				<element value=""/>
-			</override_images>
-		</button_minimise>
 		<button_redirect
 			this="0ECA426A-E8FB-45A6-9771DEDBF2C9D0BF"
 			id="button_redirect"
@@ -724,11 +467,11 @@
 				<localised_text/>
 				<localised_text
 					state="active"
-					text="Upgrade"
+					text="Bless"
 					text_label="StateText_bbe0b623"/>
 				<localised_text
 					state="inactive"
-					text="Upgrade"
+					text="Bless"
 					text_label="StateText_bbe0b623"/>
 			</localised_texts>
 		</button_txt>
@@ -1349,7 +1092,7 @@
 				<callback_with_context
 					callback_id="ContextImageSetter"
 					context_object_id="CcoUnitPurchasableEffectRecord"
-					context_function_id="CcoString(CategoryContext.IconPath).RemoveFilepathExtension + &quot;_upgrades.png&quot;"/>
+					context_function_id="CategoryContext.IconPath"/>
 				<callback_with_context
 					callback_id="ContextVisibilitySetter"
 					context_function_id="true"/>
@@ -2210,52 +1953,6 @@
 			</LayoutEngine>
 		</scrap_cost_holder>
 		<scrap_icon
-			this="A91C2A38-1D8B-4BE8-8FC9577468ACDB0E"
-			id="scrap_icon"
-			allowhorizontalresize="false"
-			allowverticalresize="false"
-			priority="60"
-			tooltipslocalised="true"
-			uniqueguid="A91C2A38-1D8B-4BE8-8FC9577468ACDB0E"
-			currentstate="6CD53B84-87C1-42B1-B09AEB3FA38A69B8"
-			defaultstate="6CD53B84-87C1-42B1-B09AEB3FA38A69B8">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextImageSetter"
-					context_object_id="CcoUnitPurchasableEffectRecord"
-					context_function_id="CostContext.PooledResourceCostsList.FirstContext.Icon"/>
-				<callback_with_context
-					callback_id="ContextTooltipSetter"
-					context_object_id="CcoUnitPurchasableEffectRecord"
-					context_function_id="CostContext.PooledResourceCostsList.FirstContext.Name"/>
-			</callbackwithcontextlist>
-			<componentimages>
-				<component_image
-					this="4937FCFB-FC7C-41B6-83B0447F48DB3191"
-					uniqueguid="4937FCFB-FC7C-41B6-83B0447F48DB3191"
-					imagepath="ui/skins/default/icon_income.png"/>
-			</componentimages>
-			<states>
-				<positive
-					this="6CD53B84-87C1-42B1-B09AEB3FA38A69B8"
-					name="positive"
-					width="26"
-					height="26"
-					interactive="true"
-					disabled="true"
-					uniqueguid="6CD53B84-87C1-42B1-B09AEB3FA38A69B8">
-					<imagemetrics>
-						<image
-							this="834E76E5-9DE6-44D9-8DC8337F18F0FE7D"
-							uniqueguid="834E76E5-9DE6-44D9-8DC8337F18F0FE7D"
-							componentimage="4937FCFB-FC7C-41B6-83B0447F48DB3191"
-							width="26"
-							height="26"/>
-					</imagemetrics>
-				</positive>
-			</states>
-		</scrap_icon>
-		<scrap_icon
 			this="F492EC30-76FD-4D32-BF7CB4A9C62291EF"
 			id="scrap_icon"
 			allowhorizontalresize="false"
@@ -2423,107 +2120,6 @@
 						textxoffset="3.00,0.00"
 						texthbehaviour="Never split"
 						textlabel="StateText_45614a6a"
-						font_m_size="12"
-						font_m_colour="#FFF8D7FF"
-						font_m_leading="3"
-						fontcat_name="body_12"
-						textshadervars="0.00,1.00,2.00,0.00"/>
-				</positive>
-			</states>
-			<animations>
-				<flash_update
-					id="flash_update"
-					propagate="true">
-					<frames>
-						<frame
-							interpolationtime="0"
-							interpolationpropertymask="3"
-							targetmetrics_m_height="37"
-							targetmetrics_m_width="64"/>
-						<frame
-							interpolationtime="200"
-							interpolationpropertymask="3"
-							targetmetrics_m_colour="#FFFF00FF"
-							targetmetrics_m_height="37"
-							targetmetrics_m_width="64"
-							targetmetrics_m_offset="0.00,-4.00"/>
-						<frame
-							interpolationtime="200"
-							interpolationpropertymask="3"
-							targetmetrics_m_colour="#FFF8D7FF"
-							targetmetrics_m_height="37"
-							targetmetrics_m_width="64"
-							targetmetrics_m_offset="0.00,4.00"/>
-					</frames>
-				</flash_update>
-			</animations>
-		</scrap_text>
-		<scrap_text
-			this="775C5EAC-82D4-400D-898F4FDAA1BEE66F"
-			id="scrap_text"
-			offset="26.00,7.00"
-			allowhorizontalresize="false"
-			allowverticalresize="false"
-			dock_offset="0.00,7.00"
-			priority="60"
-			tooltipslocalised="true"
-			uniqueguid="775C5EAC-82D4-400D-898F4FDAA1BEE66F"
-			currentstate="1E245D1C-EC13-4A00-BC6461202E89F4EB"
-			defaultstate="1E245D1C-EC13-4A00-BC6461202E89F4EB">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextTextLabel"
-					context_object_id="CcoUnitPurchasableEffectRecord"
-					context_function_id="CostContext.PooledResourceCostsList.FirstContext.AbsoluteValue * Component(&quot;units&quot;, &quot;main_units_panel&quot;).UpgradingUnitsContextList.Size">
-					<child_m_user_properties>
-						<property
-							name="event0"
-							value="UnitEffectPurchased"/>
-					</child_m_user_properties>
-				</callback_with_context>
-				<callback_with_context
-					callback_id="ContextStateSetterConditional"
-					context_object_id="CcoUnitPurchasableEffectRecord">
-					<child_m_user_properties>
-						<property
-							name="fallback_state"
-							value="insufficient"/>
-						<property
-							name="positive"
-							value="PlayersFaction.PooledResourceContext(&quot;CostContext.PooledResourceCostsList.FirstContext.ResourceKey&quot;).Total &gt;= CostContext.PooledResourceCostsList.FirstContext.AbsoluteValue * Component(&quot;units&quot;, &quot;main_units_panel&quot;).UpgradingUnitsContextList.Size"/>
-					</child_m_user_properties>
-				</callback_with_context>
-			</callbackwithcontextlist>
-			<states>
-				<insufficient
-					this="1E245D1C-EC13-4A00-BC6461202E89F4EB"
-					name="insufficient"
-					width="46"
-					height="16"
-					uniqueguid="1E245D1C-EC13-4A00-BC6461202E89F4EB">
-					<component_text
-						text="5000"
-						textxoffset="3.00,0.00"
-						texthbehaviour="Never split"
-						textlabel="StateText_3f4d6754"
-						font_m_size="12"
-						font_m_colour="#FFF8D7FF"
-						font_m_leading="3"
-						fontcat_name="body_12"
-						font_colour_override_preset_key="alliance_enemy"
-						textshadervars="0.00,1.00,2.00,0.00"/>
-				</insufficient>
-				<positive
-					this="951DF63D-0F60-4468-9502E76A44544C7C"
-					name="positive"
-					width="46"
-					height="16"
-					uniqueguid="951DF63D-0F60-4468-9502E76A44544C7C">
-					<component_text
-						text="5000"
-						textxoffset="3.00,0.00"
-						texthbehaviour="Never split"
-						textlabel="StateText_12591c03"
 						font_m_size="12"
 						font_m_colour="#FFF8D7FF"
 						font_m_leading="3"
@@ -2799,7 +2395,7 @@
 				<component_image
 					this="B15321C3-9635-48CB-BC00BD7D1CAB0139"
 					uniqueguid="B15321C3-9635-48CB-BC00BD7D1CAB0139"
-					imagepath="ui/campaign ui/effect_bundles/army.png"/>
+					imagepath="ui/campaign ui/effect_bundles/thalui.png"/>
 			</componentimages>
 			<states>
 				<active
@@ -3926,7 +3522,7 @@
 			allowhorizontalresize="false"
 			allowverticalresize="false"
 			docking="Bottom Left"
-			dock_offset="70.00,-110.00"
+			dock_offset="70.00,-130.00"
 			component_anchor_point="0.00,1.00"
 			priority="60"
 			tooltipslocalised="true"
@@ -4211,105 +3807,6 @@
 			</animations>
 			<LayoutEngine type="HorizontalList"/>
 		</total_treasury_cost>
-		<total_treasury_cost
-			this="F7712600-0E9F-4863-ADFDAA1659635BF3"
-			id="total_treasury_cost"
-			offset="0.00,78.00"
-			allowhorizontalresize="false"
-			allowverticalresize="false"
-			priority="60"
-			tooltipslocalised="true"
-			uniqueguid="F7712600-0E9F-4863-ADFDAA1659635BF3"
-			currentstate="276BE924-4C2C-42FA-B0878CC6A1C488B0"
-			defaultstate="276BE924-4C2C-42FA-B0878CC6A1C488B0">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextPropagator"
-					context_object_id="CcoUnitPurchasableEffectRecord"
-					context_function_id="CostContext">
-					<child_m_user_properties>
-						<property
-							name="event0"
-							value="RefreshUnitSelection"/>
-					</child_m_user_properties>
-				</callback_with_context>
-				<callback_with_context
-					callback_id="ContextVisibilitySetter"
-					context_object_id="CcoUnitPurchasableEffectRecord"
-					context_function_id="IsContextValid(CostContext) &amp;&amp; CostContext.TreasuryCost != 0 &amp;&amp; Component(&quot;units&quot;, &quot;main_units_panel&quot;).UpgradingUnitsContextList.Size &gt; 1">
-					<child_m_user_properties>
-						<property
-							name="event0"
-							value="RefreshUnitSelection"/>
-					</child_m_user_properties>
-				</callback_with_context>
-			</callbackwithcontextlist>
-			<componentimages>
-				<component_image
-					this="773A60FF-0C40-4479-81B38B49CBFDE33D"
-					uniqueguid="773A60FF-0C40-4479-81B38B49CBFDE33D"
-					imagepath="ui/skins/default/icon_banner_bg.png"/>
-			</componentimages>
-			<states>
-				<positive
-					this="276BE924-4C2C-42FA-B0878CC6A1C488B0"
-					name="positive"
-					width="73"
-					height="26"
-					disabled="true"
-					uniqueguid="276BE924-4C2C-42FA-B0878CC6A1C488B0">
-					<imagemetrics>
-						<image
-							this="C4D16977-B4CA-4D8D-A47CC08EF1F14CF4"
-							uniqueguid="C4D16977-B4CA-4D8D-A47CC08EF1F14CF4"
-							componentimage="773A60FF-0C40-4479-81B38B49CBFDE33D"
-							offset="0.00,-1.00"
-							width="85"
-							height="26"
-							tile="true"
-							margin="0.00,15.00,0.00,0.00"/>
-					</imagemetrics>
-					<component_text
-						textxoffset="28.00,4.00"
-						textyoffset="16.00,0.00"
-						texthbehaviour="Resize"
-						font_m_size="12"
-						font_m_colour="#FFF8D7FF"
-						font_m_leading="3"
-						fontcat_name="body_12"
-						text_shader_name="drop_shadow_t0"
-						textshadervars="0.00,1.00,2.00,0.00"/>
-				</positive>
-			</states>
-			<animations>
-				<flash_update
-					id="flash_update"
-					propagate="true">
-					<frames>
-						<frame
-							interpolationtime="0"
-							interpolationpropertymask="3"
-							targetmetrics_m_height="37"
-							targetmetrics_m_width="64"/>
-						<frame
-							interpolationtime="200"
-							interpolationpropertymask="3"
-							targetmetrics_m_colour="#FFFF00FF"
-							targetmetrics_m_height="37"
-							targetmetrics_m_width="64"
-							targetmetrics_m_offset="0.00,-4.00"/>
-						<frame
-							interpolationtime="200"
-							interpolationpropertymask="3"
-							targetmetrics_m_colour="#FFF8D7FF"
-							targetmetrics_m_height="37"
-							targetmetrics_m_width="64"
-							targetmetrics_m_offset="0.00,4.00"/>
-					</frames>
-				</flash_update>
-			</animations>
-			<LayoutEngine type="HorizontalList"/>
-		</total_treasury_cost>
 		<treasury_cost
 			this="DFB1A59C-A0A5-4E5A-BA029EEF7A76513E"
 			id="treasury_cost"
@@ -4481,42 +3978,6 @@
 				</positive>
 			</states>
 		</treasury_icon>
-		<treasury_icon
-			this="ECB75264-6D93-4FCD-9480E2800520170B"
-			id="treasury_icon"
-			allowhorizontalresize="false"
-			allowverticalresize="false"
-			priority="60"
-			tooltipslocalised="true"
-			uniqueguid="ECB75264-6D93-4FCD-9480E2800520170B"
-			currentstate="70C20934-6B56-4C85-A6779368072DF88F"
-			defaultstate="70C20934-6B56-4C85-A6779368072DF88F">
-			<componentimages>
-				<component_image
-					this="402D63BA-9D61-40B3-88DEC95357A61B55"
-					uniqueguid="402D63BA-9D61-40B3-88DEC95357A61B55"
-					imagepath="ui/skins/default/icon_income.png"/>
-			</componentimages>
-			<states>
-				<positive
-					this="70C20934-6B56-4C85-A6779368072DF88F"
-					name="positive"
-					width="26"
-					height="26"
-					interactive="true"
-					disabled="true"
-					uniqueguid="70C20934-6B56-4C85-A6779368072DF88F">
-					<imagemetrics>
-						<image
-							this="6615911C-2064-40A8-828C0485D50D74EB"
-							uniqueguid="6615911C-2064-40A8-828C0485D50D74EB"
-							componentimage="402D63BA-9D61-40B3-88DEC95357A61B55"
-							width="26"
-							height="26"/>
-					</imagemetrics>
-				</positive>
-			</states>
-		</treasury_icon>
 		<treasury_text
 			this="7BD03C5F-FF5A-446B-A46A4C1335EE152C"
 			id="treasury_text"
@@ -4533,7 +3994,7 @@
 				<callback_with_context
 					callback_id="ContextTextLabel"
 					context_object_id="CcoResourceCostRecord"
-					context_function_id="Floor(Abs(TreasuryCost))"/>
+					context_function_id="Floor(Abs(TreasuryCost) * Component(&quot;units&quot;, &quot;main_units_panel&quot;).UpgradingUnitsContextList.Size)"/>
 				<callback_with_context
 					callback_id="ContextStateSetterConditional"
 					context_object_id="CcoResourceCostRecord">
@@ -4543,7 +4004,7 @@
 							value="insufficient"/>
 						<property
 							name="positive"
-							value="PlayersFaction.TreasuryAmount &gt;= Floor( Abs(TreasuryCost) )"/>
+							value="PlayersFaction.TreasuryAmount &gt;= Floor( Abs(TreasuryCost) * Component(&quot;units&quot;, &quot;main_units_panel&quot;).UpgradingUnitsContextList.Size )"/>
 					</child_m_user_properties>
 				</callback_with_context>
 			</callbackwithcontextlist>
@@ -4627,7 +4088,7 @@
 			<callbackwithcontextlist>
 				<callback_with_context
 					callback_id="ContextTextLabel"
-					context_function_id="( selected_comps_total_inherent_cost = Component(&quot;list_box&quot;, &quot;scrap_upgrades_parent&quot;).ChildList.Filter(CurrentState == &quot;selected&quot;).Transform( (comp) =&gt; comp.StoredContext(&quot;CcoUnitPurchasableEffectRecord&quot;) ).Sum(Abs(CostContext.TreasuryCost)),&#10;num_upgrades = Component(&quot;list_box&quot;, &quot;scrap_upgrades_parent&quot;).ChildList.Count(CurrentState == &quot;selected&quot;),&#10;num_selected_units = Component(&quot;units&quot;, &quot;main_units_panel&quot;).UpgradingUnitsContextList.Size ) =&gt; &#10;{&#10; (selected_comps_total_inherent_cost + num_upgrades) * num_selected_units&#10;}"/>
+					context_function_id="( Component(&quot;list_box&quot;, &quot;scrap_upgrades_parent&quot;).ChildList.Filter(CurrentState == &quot;selected&quot;).Transform( (comp) =&gt; comp.StoredContext(&quot;CcoUnitPurchasableEffectRecord&quot;) ).Sum(Abs(CostContext.TreasuryCost)) + Component(&quot;list_box&quot;, &quot;scrap_upgrades_parent&quot;).ChildList.Count(CurrentState == &quot;selected&quot;) ) * Component(&quot;units&quot;, &quot;main_units_panel&quot;).UpgradingUnitsContextList.Size"/>
 				<callback_with_context callback_id="ContextStateSetterConditional">
 					<child_m_user_properties>
 						<property
@@ -4704,138 +4165,6 @@
 				</flash_update>
 			</animations>
 		</treasury_text>
-		<treasury_text
-			this="F9E37C80-75D4-4459-8FBCC0388968B66B"
-			id="treasury_text"
-			offset="26.00,7.00"
-			allowhorizontalresize="false"
-			allowverticalresize="false"
-			dock_offset="0.00,7.00"
-			priority="60"
-			tooltipslocalised="true"
-			uniqueguid="F9E37C80-75D4-4459-8FBCC0388968B66B"
-			currentstate="69899C0D-B20D-470D-BAEF1C80F1FE73C5"
-			defaultstate="69899C0D-B20D-470D-BAEF1C80F1FE73C5">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextTextLabel"
-					context_object_id="CcoResourceCostRecord"
-					context_function_id="Floor( (Abs(TreasuryCost) ) * Component(&quot;units&quot;, &quot;main_units_panel&quot;).UpgradingUnitsContextList.Size )"/>
-				<callback_with_context
-					callback_id="ContextStateSetterConditional"
-					context_object_id="CcoResourceCostRecord">
-					<child_m_user_properties>
-						<property
-							name="fallback_state"
-							value="insufficient"/>
-						<property
-							name="positive"
-							value="PlayersFaction.TreasuryAmount &gt;= ( Floor( (Abs(TreasuryCost) ) * Component(&quot;units&quot;, &quot;main_units_panel&quot;).UpgradingUnitsContextList.Size) )"/>
-					</child_m_user_properties>
-				</callback_with_context>
-			</callbackwithcontextlist>
-			<states>
-				<insufficient
-					this="69899C0D-B20D-470D-BAEF1C80F1FE73C5"
-					name="insufficient"
-					width="46"
-					height="16"
-					uniqueguid="69899C0D-B20D-470D-BAEF1C80F1FE73C5">
-					<component_text
-						text="5000"
-						textxoffset="3.00,0.00"
-						texthbehaviour="Never split"
-						textlabel="StateText_1589fa47"
-						font_m_size="12"
-						font_m_colour="#FFF8D7FF"
-						font_m_leading="3"
-						fontcat_name="body_12"
-						font_colour_override_preset_key="alliance_enemy"
-						textshadervars="0.00,1.00,2.00,0.00"/>
-				</insufficient>
-				<positive
-					this="CAE930BA-4CBD-43CD-9F165EEC12C432A3"
-					name="positive"
-					width="46"
-					height="16"
-					uniqueguid="CAE930BA-4CBD-43CD-9F165EEC12C432A3">
-					<component_text
-						text="5000"
-						textxoffset="3.00,0.00"
-						texthbehaviour="Never split"
-						textlabel="StateText_7beebc8"
-						font_m_size="12"
-						font_m_colour="#FFF8D7FF"
-						font_m_leading="3"
-						fontcat_name="body_12"
-						textshadervars="0.00,1.00,2.00,0.00"/>
-				</positive>
-			</states>
-			<animations>
-				<flash_update
-					id="flash_update"
-					propagate="true">
-					<frames>
-						<frame
-							interpolationtime="0"
-							interpolationpropertymask="3"
-							targetmetrics_m_height="37"
-							targetmetrics_m_width="64"/>
-						<frame
-							interpolationtime="200"
-							interpolationpropertymask="3"
-							targetmetrics_m_colour="#FFFF00FF"
-							targetmetrics_m_height="37"
-							targetmetrics_m_width="64"
-							targetmetrics_m_offset="0.00,-4.00"/>
-						<frame
-							interpolationtime="200"
-							interpolationpropertymask="3"
-							targetmetrics_m_colour="#FFF8D7FF"
-							targetmetrics_m_height="37"
-							targetmetrics_m_width="64"
-							targetmetrics_m_offset="0.00,4.00"/>
-					</frames>
-				</flash_update>
-			</animations>
-		</treasury_text>
-		<tx_aspects_disclaimer
-			this="393E8AA8-F9E8-48FB-9FF1B9E22CF4E961"
-			id="tx_aspects_disclaimer"
-			offset="18.00,402.00"
-			docking="Top Left"
-			dock_offset="18.00,402.00"
-			priority="50"
-			tooltipslocalised="true"
-			uniqueguid="393E8AA8-F9E8-48FB-9FF1B9E22CF4E961"
-			currentstate="8C93545B-38F0-4632-A1DC9C4518C77D98"
-			defaultstate="8C93545B-38F0-4632-A1DC9C4518C77D98">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextVisibilitySetter"
-					context_function_id="PlayersFaction.CultureContext.Key == &quot;wh_dlc05_wef_wood_elves&quot;"/>
-			</callbackwithcontextlist>
-			<states>
-				<default
-					this="8C93545B-38F0-4632-A1DC9C4518C77D98"
-					name="default"
-					width="260"
-					height="46"
-					disabled="true"
-					uniqueguid="8C93545B-38F0-4632-A1DC9C4518C77D98">
-					<component_text
-						text="{{tr:ui_text_replacements_localised_text_wh3_dlc26_wef_aspects_panel_disclaimer_tx}}"
-						texthalign="Center"
-						textlabel="StateText_b2266b35"
-						font_m_size="12"
-						font_m_colour="#FFF8D7FF"
-						font_m_leading="3"
-						fontcat_name="body_12"
-						text_shader_name="drop_shadow_t0"
-						textshadervars="0.00,1.00,2.00,0.00"/>
-				</default>
-			</states>
-		</tx_aspects_disclaimer>
 		<tx_scrap_upgrades
 			this="B27D1820-1E0F-406B-9F7D4FE25810AA03"
 			id="tx_scrap_upgrades"
@@ -4893,43 +4222,6 @@
 				</default>
 			</states>
 		</tx_scrap_upgrades>
-		<tx_total_cost
-			this="FEDE5AE1-CEC6-4CD8-B73506C2F2D52AB4"
-			id="tx_total_cost"
-			priority="60"
-			tooltipslocalised="true"
-			uniqueguid="FEDE5AE1-CEC6-4CD8-B73506C2F2D52AB4"
-			currentstate="B59379B8-01C5-4FBE-B1B4C2683B208F96"
-			defaultstate="B59379B8-01C5-4FBE-B1B4C2683B208F96">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextTextLabel"
-					context_function_id="Loc(&quot;total&quot;)"/>
-			</callbackwithcontextlist>
-			<states>
-				<default
-					this="B59379B8-01C5-4FBE-B1B4C2683B208F96"
-					name="default"
-					width="64"
-					height="30"
-					disabled="true"
-					uniqueguid="B59379B8-01C5-4FBE-B1B4C2683B208F96">
-					<component_text
-						text="Total:"
-						textvalign="Center"
-						texthalign="Center"
-						textlocalised="true"
-						textlabel="StateText_6acced67"
-						font_m_font_name="brand_header"
-						font_m_size="14"
-						font_m_colour="#FFF8D7FF"
-						font_m_leading="3"
-						fontcat_name="header_14"
-						text_shader_name="drop_shadow_t0"
-						textshadervars="0.00,1.00,2.00,0.00"/>
-				</default>
-			</states>
-		</tx_total_cost>
 		<units_already_upgraded
 			this="CC912AF0-C99E-4C8F-BD3BF3926FF63F3D"
 			id="units_already_upgraded"
@@ -5002,35 +4294,6 @@
 			updatewhennotvisible="true"
 			currentstate="5DEDB73A-D499-4120-941263E818FC1354"
 			defaultstate="5DEDB73A-D499-4120-941263E818FC1354">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextCommandEvent"
-					context_function_id="DoIf( Component(&quot;idrinth_units_panel_blessings&quot;, &quot;scrap_upgrades&quot;).IsVisible(), UiMsg(&quot;CloseUnitUpgradePanel&quot;) )">
-					<child_m_user_properties>
-						<property
-							name="event0"
-							value="PanelClosed_units_panel"/>
-					</child_m_user_properties>
-				</callback_with_context>
-				<callback_with_context
-					callback_id="ContextUISFXTrigger"
-					context_function_id="&quot;UI_CAM_HUD_Greenskins_Scrap_Upgrades_Panel_Open&quot;">
-					<child_m_user_properties>
-						<property
-							name="trigger_on_show"
-							value=""/>
-					</child_m_user_properties>
-				</callback_with_context>
-				<callback_with_context
-					callback_id="ContextUISFXTrigger"
-					context_function_id="&quot;UI_CAM_HUD_Greenskins_Scrap_Upgrades_Panel_Close&quot;">
-					<child_m_user_properties>
-						<property
-							name="trigger_on_hide"
-							value=""/>
-					</child_m_user_properties>
-				</callback_with_context>
-			</callbackwithcontextlist>
 			<componentimages>
 				<component_image
 					this="C4248F65-A037-46D7-A16B0EE3989DA1DC"
@@ -5039,7 +4302,7 @@
 				<component_image
 					this="07742C02-65B3-4877-A5BEA439BD71AB3F"
 					uniqueguid="07742C02-65B3-4877-A5BEA439BD71AB3F"
-					imagepath="ui/skins/default/dlc26_greenskins_scrap_upgrades/scrap_upgrades_background_illustration.png"/>
+					imagepath="ui/flags/idrinth_hev_high_elf_vampires/mon_256.png"/>
 				<component_image
 					this="102F71B0-2AD2-4BD9-9E93EFB0E0DA27A0"
 					uniqueguid="102F71B0-2AD2-4BD9-9E93EFB0E0DA27A0"

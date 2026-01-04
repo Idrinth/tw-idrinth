@@ -74,3 +74,5 @@ effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Increases yo
 effects_description_idrinth_chapel_beasts_upkeep	Decreases upkeep for Thaluian Chapel beasts by %+n%.	false
 effects_description_idrinth_enable_thalui_name	This character has sworn eternal vengeance on the ruinous powers and adopted the name Thalui because of that.	false
 effects_description_idrinth_enable_knight_scholar_name	This character is both a scholar and a knight and recognised as such across different factions.	false
+effects_description_idrinth_chapel_recruitment_speedup	Recruitment duration for chapel units is reduced by %+n rounds.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Prevents enemies from using lightning strike against this force.	false

@@ -97,7 +97,7 @@ core:add_listener(
         local khaineUsed = 0;
         local kurnousUsed = 0;
         local asuryanUsed = 0;
-        for pos, event in pairs(godFavourDilemmas) do
+        for _, event in pairs(godFavourDilemmas) do
             if event.cooldown > 0 then
                 event.cooldown = event.cooldown - 1;
             elseif cm:random_number(100) > 95 and context:faction():pooled_resource_manager():resource("idrinth_khaine"):value() >= event.khaine + khaineUsed and context:faction():pooled_resource_manager():resource("idrinth_kurnous"):value() >= event.kurnous + kurnousUsed and context:faction():pooled_resource_manager():resource("idrinth_asuryan"):value() >= event.asuryan + asuryanUsed then
@@ -118,8 +118,15 @@ core:add_listener(
                 eventTriggered = true;
             end;
         end;
-        if eventTriggered == true then
-            cm:trigger_dilemma(context:faction():name(), "idrinth_dilemma_god_favour");
+        if eventTriggered then
+            cm:show_message_event(
+                context:faction():name(),
+                "message_event_strings_title_idrinth_godly_intervention",
+                "message_event_text_idrinth_godly_intervention_subtitle",
+                "message_event_text_idrinth_godly_intervention",
+                true,
+                77779
+            );
         end;
     end,
     true

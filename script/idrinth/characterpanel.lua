@@ -1,13 +1,9 @@
-local setupInitiatives = function()
-    if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
-        return;
-    end;
-    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
+local containsInitiatives = function(cqi)
+    local character = cm:get_character_by_cqi(cqi);
     if not character then
-        return;
+        return false;
     end;
     local initiative_sets = character:character_details():character_initiative_sets();
-    local has_actual_initiative_sets = false;
     if initiative_sets then
         for i = 0, initiative_sets:num_items() -1 do
             local initiative_set = initiative_sets:item_at(i)
@@ -21,7 +17,7 @@ local setupInitiatives = function()
                             if (initiative_key == "idrinth_khaine_pledge") or (initiative_key == "idrinth_kurnous_pledge") or (initiative_key == "idrinth_asuryan_pledge") or (initiative_key == "idrinth_khaine_prayer") or (initiative_key == "idrinth_kurnous_prayer") or (initiative_key == "idrinth_asuryan_prayer") then
                                 --idrinth is the only one who gets his initiatives
                             else
-                                has_actual_initiative_sets = true;
+                                return true;
                             end;
                         end;
                     end;
@@ -29,9 +25,17 @@ local setupInitiatives = function()
             end;
         end;
     end;
-    if not has_actual_initiative_sets then
-        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+    return false;
+end;
+local setupInitiatives = function()
+    if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
+        return;
     end;
+    local character = find_uicomponent(core:get_ui_root(), "character_details_panel", "character_context_parent"):GetContextObjectId("CcoCampaignCharacter");
+    if character and containsInitiatives(common.get_context_value("CcoCampaignCharacter", character, "CQI")) then
+        return;
+    end;
+    set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
 end;
 local setupIdrinthsPaths = function()
     if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then

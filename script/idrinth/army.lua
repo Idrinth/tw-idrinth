@@ -1,3 +1,31 @@
+local displayWAAAGHUpradePanel = function(blessingsPanel)
+    if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
+        set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
+        return;
+    end;
+    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
+    local idrinth = Idrinth.Access.get();
+    if not (character == idrinth) then
+        set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
+        return;
+    end;
+    local landUnitCard = find_uicomponent(blessingsPanel, "scrap_upgrades_list_box", "unit_card_parent", "land_unit_card");
+    local upgrades = find_uicomponent(blessingsPanel, "scrap_upgrades_list_box", "scrap_upgrades_parent", "list_clip", "list_box");
+    local units = find_uicomponent(core:get_ui_root(), "units_panel", "main_units_panel", "units");
+    local selectedAny = false;
+    for i = 1, units:ChildCount() do
+        local unit = UIComponent(units:Find(i));
+        if unit and unit:GetProperty("IsSelected") then
+            landUnitCard:SetContextObject(unit:GetContextObject("CcoCampaignUnit"));
+            upgrades:SetContextObject(unit:GetContextObject("CcoCampaignUnit"));
+            selectedAny = true;
+        end;
+    end;
+    if not selectedAny then
+        set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
+        return;
+    end;
+end;
 local enableWAAAGHUpgrades = function()
     if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
         return;
@@ -106,6 +134,41 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "army");
+        local blessingsPanel = core:get_or_create_component(
+            "idrinth_units_panel_blessings",
+            "ui/idrinth/idrinth_units_panel_blessings.twui.xml",
+            core:get_ui_root()
+        );
+        if blessingsPanel:Visible() then
+            set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
+            return;
+        end;
+        set_component_visible_with_parent(true, core:get_ui_root(), "idrinth_units_panel_blessings");
+        blessingsPanel:SetDockOffset(0, -275);-- 275 up
+        Idrinth.Ui.nowAndThen(function()
+            displayWAAAGHUpradePanel(blessingsPanel);
+        end);
+    end,
+    true
+);
+core:add_listener(
+    "idrinth_army_ComponentLClickUp_5",
+    "ComponentLClickUp",
+    function(context)
+        return true;
+    end,
+    function(context)
+        Idrinth.log("ComponentLClickUp", "army");
+        local blessingsPanel = find_uicomponent(
+            core:get_ui_root(),
+            "idrinth_units_panel_blessings"
+        );
+        if not blessingsPanel or blessingsPanel == core:get_ui_root() or not blessingsPanel:Visible() then
+            return;
+        end;
+        Idrinth.Ui.nowAndThen(function()
+            displayWAAAGHUpradePanel(blessingsPanel);
+        end);
     end,
     true
 );

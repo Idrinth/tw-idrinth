@@ -71,7 +71,6 @@
 							value="RefreshUnitSelection"/>
 					</child_m_user_properties>
 				</callback_with_context>
-
 			</callbackwithcontextlist>
 			<userproperties>
 				<property

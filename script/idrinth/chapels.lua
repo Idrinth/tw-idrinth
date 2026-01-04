@@ -1,5 +1,7 @@
 local enableChapels = nil;
 local chapelMode = "normal";
+local eventIdCreated = 77777;
+local eventIdDestroyed = 77778;
 
 local addForeignSlots = function(idrinth, faction)
     cm:show_message_event_located(
@@ -9,8 +11,8 @@ local addForeignSlots = function(idrinth, faction)
         "message_event_text_idrinth_chapel_founded",
         idrinth:region():settlement():logical_position_x(),
         idrinth:region():settlement():logical_position_y(),
-        false,
-        77777
+        true,
+        eventIdCreated
     );
     cm:apply_effect_bundle_to_region("idrinth_chapel_slots_present", idrinth:region():name(), 0);
     if idrinth:region():is_province_capital() then
@@ -135,8 +137,8 @@ core:add_listener(
                             "message_event_text_idrinth_chapel_lost",
                             context:region():settlement():logical_position_x(),
                             context:region():settlement():logical_position_y(),
-                            false,
-                            77777
+                            true,
+                            eventIdDestroyed
                         );
                         cm:remove_effect_bundle_from_region("idrinth_chapel_slots_present", context:region():name());
                         return;
