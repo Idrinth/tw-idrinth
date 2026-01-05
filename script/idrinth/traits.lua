@@ -21,11 +21,12 @@ end;
 local adjustDevotionTraitsBy = function(idrinth, devotion, points)
     local negative = idrinth:trait_points(devotion.."_negative");
     local positive = idrinth:trait_points(devotion.."_positive");
-    
+
     local total = positive - negative + points;
 
-    cm:force_remove_trait(cm:char_lookup_str(idrinth), devotion.."_positive");
-    cm:force_remove_trait(cm:char_lookup_str(idrinth), devotion.."_negative");
+    local idrinth_lookup = cm:char_lookup_str(idrinth);
+    cm:force_remove_trait(idrinth_lookup, devotion.."_positive");
+    cm:force_remove_trait(idrinth_lookup, devotion.."_negative");
     
     local movedPastTier = false;
     if points > 0 then
@@ -53,14 +54,14 @@ local adjustDevotionTraitsBy = function(idrinth, devotion, points)
     
     if total < 0 then
         cm:force_add_trait(
-            cm:char_lookup_str(idrinth),
+            idrinth_lookup,
             devotion.."_negative",
             movedPastTier,
             0 - total
         );
     elseif total > 0 then
         cm:force_add_trait(
-            cm:char_lookup_str(idrinth),
+            idrinth_lookup,
             devotion.."_positive",
             movedPastTier,
             total
