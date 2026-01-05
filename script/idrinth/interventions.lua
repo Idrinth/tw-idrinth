@@ -33,7 +33,7 @@ local godFavourDilemmas = {
         effect = "idrinth_dilemma_god_favour_khaine_medium",
         duration = 10,
         cooldown = 0,
-        maxCooldown = 17,
+        maxCooldown = 15,
     },
     kurnous_medium = {
         khaine = 0,
@@ -42,7 +42,7 @@ local godFavourDilemmas = {
         effect = "idrinth_dilemma_god_favour_kurnous_medium",
         duration = 10,
         cooldown = 0,
-        maxCooldown = 17,
+        maxCooldown = 15,
     },
     asuryan_medium = {
         khaine = 0,
@@ -51,7 +51,7 @@ local godFavourDilemmas = {
         effect = "idrinth_dilemma_god_favour_asuryan_medium",
         duration = 10,
         cooldown = 0,
-        maxCooldown = 17,
+        maxCooldown = 15,
     },
     khaine_small = {
         khaine = 100,
@@ -81,6 +81,12 @@ local godFavourDilemmas = {
         maxCooldown = 10,
     },
 };
+local cooldownMode = "medium";
+local cooldownFactors = {
+    low = 0.8,
+    medium = 1,
+    long = 1.2,
+};
 
 core:add_listener(
     "idrinth_interventions_FactionTurnStart",
@@ -114,7 +120,7 @@ core:add_listener(
                 asuryanUsed = asuryanUsed + event.asuryan;
                 kurnousUsed = kurnousUsed + event.kurnous;
                 khaineUsed = khaineUsed + event.khaine;
-                event.cooldown = event.maxCooldown;
+                event.cooldown = event.maxCooldown * cooldownFactors[cooldownMode];
                 eventTriggered = true;
             end;
         end;
@@ -128,6 +134,46 @@ core:add_listener(
                 77779
             );
         end;
+    end,
+    true
+);
+cm:add_saving_game_callback(
+	function(context)
+		for name, element in pairs(godFavourDilemmas) do
+            if element.cooldown > 0 then
+                cm:save_named_value("idrinth.interventions." .. name, element.cooldown, context);
+            end;
+		end;
+		cm:save_named_value("idrinth.interventionCooldownMode", cooldownMode, context);
+	end
+);
+cm:add_loading_game_callback(
+	function(context)
+		if cm:is_new_game() == false then
+            cooldownMode = cm:load_named_value("idrinth.interventionCooldownMode", cooldownMode, context);
+            for name, element in pairs(godFavourDilemmas) do
+                element.cooldown = cm:load_named_value("idrinth.interventions." .. name, 0, context);
+            end;
+		end;
+	end
+);
+core:add_listener(
+    "idrinth_interventions_MctInitialized",
+    "MctInitialized",
+    true,
+    function(context)
+        Idrinth.log("MctInitialized", "interventions");
+        cooldownMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("intervention_cooldown"):get_finalized_setting();
+    end,
+    true
+)
+core:add_listener(
+    "idrinth_interventions_MctFinalized",
+    "MctFinalized",
+    true,
+    function(context)
+        Idrinth.log("MctFinalized", "interventions");
+        cooldownMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("intervention_cooldown"):get_finalized_setting();
     end,
     true
 );

@@ -90,6 +90,11 @@ if mct then
             element = "dropdown",
             values = {"low", "medium", "long"},
             default = "medium"
+        },
+        intervention_cooldown = {
+            element = "dropdown",
+            values = {"low", "medium", "long"},
+            default = "medium"
         }
     }, false);
 end;

@@ -40,3 +40,8 @@ mct_idrinth_section_idrinth_features_name	Feature Toggles	false
 mct_idrinth_section_idrinth_spawn_name	Spawn Options	false
 mct_idrinth_section_idrinth_other_name	Additional Options	false
 mct_idrinth_section_idrinth_cooldowns_name	Cooldown Options	false
+mct_idrinth_intervention_cooldown_text	Intervention Cooldown	false
+mct_idrinth_intervention_cooldown_options_low_text	Low (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Medium (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	Long (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	Modifies the cooldown between divine interventions.	false

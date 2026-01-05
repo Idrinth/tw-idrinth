@@ -3,27 +3,24 @@ local displayWAAAGHUpradePanel = function(blessingsPanel)
         set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
         return;
     end;
-    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
-    local idrinth = Idrinth.Access.get();
-    if not (character == idrinth) then
-        set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
-        return;
-    end;
     local landUnitCard = find_uicomponent(blessingsPanel, "scrap_upgrades_list_box", "unit_card_parent", "land_unit_card");
     local upgrades = find_uicomponent(blessingsPanel, "scrap_upgrades_list_box", "scrap_upgrades_parent", "list_clip", "list_box");
     local units = find_uicomponent(core:get_ui_root(), "units_panel", "main_units_panel", "units");
-    local selectedAny = false;
+    local selectedType = "";
     for i = 1, units:ChildCount() do
         local unit = UIComponent(units:Find(i));
-        if unit and unit:GetProperty("IsSelected") then
-            landUnitCard:SetContextObject(unit:GetContextObject("CcoCampaignUnit"));
-            upgrades:SetContextObject(unit:GetContextObject("CcoCampaignUnit"));
+        if unit and unit:CurrentState() == "selected" then
+            local ccoCampaignUnit = unit:GetContextObject("CcoCampaignUnit");
+            local currentType = common.get_context_value("CcoCampaignUnit", unit:GetContextObjectId("CcoCampaignUnit"), "CcoMainUnit.Key")
+            landUnitCard:SetContextObject(ccoCampaignUnit);
+            upgrades:SetContextObject(ccoCampaignUnit);
             selectedAny = true;
+            if selectedType == "" then
+                selectedType = currentType;
+            elseif selectedType ~= currentType then
+                unit:SetState("active");
+            end;
         end;
-    end;
-    if not selectedAny then
-        set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
-        return;
     end;
 end;
 local enableWAAAGHUpgrades = function()
