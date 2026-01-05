@@ -238,6 +238,7 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("BattleCompleted", "resources");
+        local pending_battle = cm:model():pending_battle();
         local idrinth, idrinthFaction = Idrinth.Access.get();
         local attackerWon = false;
         if cm:pending_battle_cache_attacker_victory() then
@@ -299,20 +300,20 @@ core:add_listener(
             applyBattleResourceTransaction(
                 "asuryan",
                 idrinthFaction,
-                base + (1 - cm:model():pending_battle():percentage_of_attacker_killed()) * cm:pending_battle_cache_defender_value()/cm:pending_battle_cache_attacker_value(),
-                cm:model():pending_battle():attacker_battle_result()
+                base + (1 - pending_battle:percentage_of_attacker_killed()) * cm:pending_battle_cache_defender_value()/cm:pending_battle_cache_attacker_value(),
+                pending_battle:attacker_battle_result()
             );
             applyBattleResourceTransaction(
                 "kurnous",
                 idrinthFaction,
                 base + (1 + defenderCharacters)/(1 + attackerCharacters) * 5,
-                cm:model():pending_battle():attacker_battle_result()
+                pending_battle:attacker_battle_result()
             );
             applyBattleResourceTransaction(
                 "khaine",
                 idrinthFaction,
-                base + cm:model():pending_battle():attacker_kills() * 0.0175,
-                cm:model():pending_battle():attacker_battle_result()
+                base + pending_battle:attacker_kills() * 0.0175,
+                pending_battle:attacker_battle_result()
             );
         elseif idrinthIsDefender then
             local base = 1;
@@ -322,20 +323,20 @@ core:add_listener(
             applyBattleResourceTransaction(
                 "asuryan",
                 idrinthFaction,
-                base + (1 - cm:model():pending_battle():percentage_of_defender_killed()) * cm:pending_battle_cache_attacker_value()/cm:pending_battle_cache_defender_value(),
-                cm:model():pending_battle():defender_battle_result()
+                base + (1 - pending_battle:percentage_of_defender_killed()) * cm:pending_battle_cache_attacker_value()/cm:pending_battle_cache_defender_value(),
+                pending_battle:defender_battle_result()
             );
             applyBattleResourceTransaction(
                 "kurnous",
                 idrinthFaction,
                 base + (1 + attackerCharacters)/(1 + defenderCharacters) * 5,
-                cm:model():pending_battle():defender_battle_result()
+                pending_battle:defender_battle_result()
             );
             applyBattleResourceTransaction(
                 "khaine",
                 idrinthFaction,
-                base + cm:model():pending_battle():defender_kills() * 0.0075,
-                cm:model():pending_battle():defender_battle_result()
+                base + pending_battle:defender_kills() * 0.0075,
+                pending_battle:defender_battle_result()
             );
         end;
     end,
