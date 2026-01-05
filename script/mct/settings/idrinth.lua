@@ -16,7 +16,7 @@ local addCheckbox = function(mod, key, defaultValue, global)
     local checkbox = mod:add_new_option(key, "checkbox");
     checkbox:set_default_value(defaultValue);
     checkbox:set_is_global(global);
-    return chackbox;
+    return checkbox;
 end;
 local addSection = function(mod, key, elements, global)
     mod:add_new_section(key, "mct_idrinth_section_"..key.."_name");
