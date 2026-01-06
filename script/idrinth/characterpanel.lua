@@ -31,7 +31,7 @@ local setupInitiatives = function()
     if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
         return;
     end;
-    local characterContext = Idrinth.Ui.findElementWithin(core:get_ui_root(), {"character_details_panel", "character_context_parent"});
+    local characterContext = Idrinth.Ui.findElementWithin({"character_details_panel", "character_context_parent"});
     if not characterContext then
         return;
     end;
@@ -45,8 +45,8 @@ local setupIdrinthsPaths = function()
     if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
         return;
     end;
-    local tabPanels = Idrinth.Ui.findElementWithin(core:get_ui_root(), {"character_details_panel", "character_context_parent", "tab_panels"});
-    local tabGroup = Idrinth.Ui.findElementWithin(core:get_ui_root(), {"character_details_panel", "character_context_parent", "TabGroup"});
+    local tabPanels = Idrinth.Ui.findElementWithin({"character_details_panel", "character_context_parent", "tab_panels"});
+    local tabGroup = Idrinth.Ui.findElementWithin({"character_details_panel", "character_context_parent", "TabGroup"});
     if not tabPanels or not tabGroup then
         return;
     end;
@@ -73,7 +73,7 @@ local setupIdrinthsPaths = function()
     local isIdrinth = character:character_subtype_key() == Idrinth.Constants.HeroSubtype or character:character_subtype_key() == Idrinth.Constants.LordSubtype;
     if isIdrinth then   
         set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
-        local subtype = Idrinth.Ui.findElementWithin(core:get_ui_root(), {"character_details_panel", "character_context_parent", "character_name", "panel_subtitle", "dy_subtype"});
+        local subtype = Idrinth.Ui.findElementWithin({"character_details_panel", "character_context_parent", "character_name", "panel_subtitle", "dy_subtype"});
         if subtype then
             subtype:SetText("High Elf Vampire");
         end;
