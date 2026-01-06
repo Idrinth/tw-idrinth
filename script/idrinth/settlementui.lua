@@ -1,11 +1,11 @@
 local settlementForeignSlotDisplay = function(context)
-    local parent = Idrinth.Ui.findElementWithin({"settlement_panel", "settlement_list"});
+    local parent = Idrinth.Ui.findElementWithin("settlement_panel", "settlement_list");
     if not parent then
         return;
     end;
     for i = 1, parent:ChildCount() do
-        local settlementSlots = Idrinth.Ui.findElementWithin({UIComponent(parent:Find(i)), "settlement_view", "hostile_views", "settlement_hostile_slots"});
-        local settlement = Idrinth.Ui.findElementWithin({UIComponent(parent:Find(i)), "settlement_view"});
+        local settlementSlots = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view", "hostile_views", "settlement_hostile_slots");
+        local settlement = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view");
         if settlement and settlementSlots then
             local element;
             if i == 1 then
@@ -24,7 +24,7 @@ local settlementForeignSlotDisplay = function(context)
             element:SetDockOffset(0, 25);-- 25 down
             element:SetContextObject(settlementSlots:GetContextObject("CcoCampaignSettlement"));
             element:SetVisible(false);
-            local buttons = Idrinth.Ui.findElementWithin({UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list"});
+            local buttons = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list");
             local button = core:get_or_create_component(
                 "idrinth_settlement_panel_button",
                 "ui/idrinth/idrinth_settlement_panel_button.twui.xml",
@@ -36,12 +36,12 @@ local settlementForeignSlotDisplay = function(context)
 end;
 local lastClicked = "";
 local updateSettlementViewState = function(clickedButton)
-    local parent = Idrinth.Ui.findElementWithin({"settlement_panel", "settlement_list"});
+    local parent = Idrinth.Ui.findElementWithin("settlement_panel", "settlement_list");
     if not parent then
         return;
     end;
     for i = 1, parent:ChildCount() do
-        local buttons = Idrinth.Ui.findElementWithin({UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list"});
+        local buttons = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list");
         if buttons then
             local activeButtons = 0;
             for j = 1, buttons:ChildCount() do
@@ -51,7 +51,7 @@ local updateSettlementViewState = function(clickedButton)
                 end;
             end;
             if activeButtons == 0 then
-                local settlement = Idrinth.Ui.findElementWithin({UIComponent(parent:Find(i)), "settlement_view"});
+                local settlement = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view");
                 UIComponent(settlement:Find("default_view")):SetVisible(true);
                 UIComponent(settlement:Find("hostile_views")):SetVisible(false);
                 UIComponent(settlement:Find("discovered_views")):SetVisible(false);
@@ -59,7 +59,7 @@ local updateSettlementViewState = function(clickedButton)
                 UIComponent(settlement:Find("idrinth_settlement_hostile_slots")):SetVisible(false);
                 UIComponent("button_default_view"):SetState("selected");
             elseif activeButtons == 1 then
-                local settlement = Idrinth.Ui.findElementWithin({UIComponent(parent:Find(i)), "settlement_view"});
+                local settlement = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view");
                 UIComponent(settlement:Find("default_view")):SetVisible(false);
                 UIComponent(settlement:Find("hostile_views")):SetVisible(false);
                 UIComponent(settlement:Find("discovered_views")):SetVisible(false);
@@ -79,7 +79,7 @@ local updateSettlementViewState = function(clickedButton)
                     UIComponent(settlement:Find("idrinth_settlement_hostile_slots")):SetVisible(true);
                 end;
             elseif activeButtons > 1 then
-                local settlement = Idrinth.Ui.findElementWithin({UIComponent(parent:Find(i)), "settlement_view"});
+                local settlement = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view");
                 if clickedButton == "idrinth_settlement_panel_button" then
                     for j = 1, buttons:ChildCount() do
                         if UIComponent(buttons:Find(j)):VisibleFromRoot() then

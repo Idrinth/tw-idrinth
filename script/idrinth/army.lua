@@ -3,9 +3,9 @@ local displayWAAAGHUpradePanel = function(blessingsPanel)
         set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
         return;
     end;
-    local landUnitCard = Idrinth.Ui.findElementWithin({blessingsPanel, "scrap_upgrades_list_box", "unit_card_parent", "land_unit_card"});
-    local upgrades = Idrinth.Ui.findElementWithin({blessingsPanel, "scrap_upgrades_list_box", "scrap_upgrades_parent", "list_clip", "list_box"});
-    local units = Idrinth.Ui.findElementWithin({"units_panel", "main_units_panel", "units"});
+    local landUnitCard = Idrinth.Ui.findElementWithin(blessingsPanel, "scrap_upgrades_list_box", "unit_card_parent", "land_unit_card");
+    local upgrades = Idrinth.Ui.findElementWithin(blessingsPanel, "scrap_upgrades_list_box", "scrap_upgrades_parent", "list_clip", "list_box");
+    local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
     local selectedType = "";
     for i = 1, units:ChildCount() do
         local unit = UIComponent(units:Find(i));
@@ -29,7 +29,7 @@ local enableWAAAGHUpgrades = function()
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local idrinth = Idrinth.Access.get();
     if character == idrinth then
-        local parent = Idrinth.Ui.findElementWithin({"hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army"});
+        local parent = Idrinth.Ui.findElementWithin("hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
         if not parent then
             return;
         end;
@@ -42,7 +42,7 @@ local enableWAAAGHUpgrades = function()
         set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "tabgroup", "tab_horde_buildings");
         set_component_visible_with_parent(false, core:get_ui_root(), "units_panel", "main_units_panel", "unit_count_frame_holder", "frame");
         set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "icon_list", "dy_upkeep");
-        local dyTxt = Idrinth.Ui.findElementWithin({"units_panel", "main_units_panel", "header", "button_focus", "dy_txt"});
+        local dyTxt = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "header", "button_focus", "dy_txt");
         if dyTxt then
             dyTxt:SetText("Knight-Scholar Idrinth Thalui");
         end;
@@ -60,7 +60,7 @@ local enableArmyUpgrades = function()
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local idrinth = Idrinth.Access.get();
     if character == idrinth then
-        local parent = Idrinth.Ui.findElementWithin({"hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army"});
+        local parent = Idrinth.Ui.findElementWithin("hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
         if not parent then
             return;
         end;
@@ -145,7 +145,7 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "army");
-        local blessingsPanel = Idrinth.Ui.findElementWithin({"idrinth_units_panel_blessings"});
+        local blessingsPanel = Idrinth.Ui.findElementWithin("idrinth_units_panel_blessings");
         if not blessingsPanel or not blessingsPanel:Visible() then
             return;
         end;

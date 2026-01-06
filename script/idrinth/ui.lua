@@ -8,7 +8,7 @@ ui.nowAndThen = function(callback)
 end;
 ui.findElementWithin = function(...)
     parent = cm:get_ui_root();
-    for _, key in pairs(...) do
+    for _, key in pairs({...}) do
         if is_uicomponent(key) then
             parent = key;
         else

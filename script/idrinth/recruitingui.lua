@@ -2,7 +2,7 @@ local fixLordType = function()
     if not cm:get_campaign_ui_manager():is_panel_open("character_panel") then
         return;
     end;
-    local parent = Idrinth.Ui.findElementWithin({"character_panel", "character_panel_info_holder", "general_selection_panel", "main_holder", "character_list_parent", "character_list", "listview", "list_clip", "list_box"});
+    local parent = Idrinth.Ui.findElementWithin("character_panel", "character_panel_info_holder", "general_selection_panel", "main_holder", "character_list_parent", "character_list", "listview", "list_clip", "list_box");
     if not parent then
         return;
     end;
@@ -13,7 +13,7 @@ local fixLordType = function()
         local child = parent:Find(i);
         if child then
             if UIComponent(child):Visible() then
-                local subtype = Idrinth.Ui.findElementWithin({UIComponent(child), "info_holder", "details_holder", "dy_subtype"});
+                local subtype = Idrinth.Ui.findElementWithin(UIComponent(child), "info_holder", "details_holder", "dy_subtype");
                 if subtype then
                     local character = subtype:GetContextObjectId("CcoCampaignCharacter");
                     if character then

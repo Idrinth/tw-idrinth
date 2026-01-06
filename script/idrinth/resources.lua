@@ -2,7 +2,7 @@ local resourceChangedListener = function(context)
     if context:amount() == 0 then
         return;
     end;
-    local parent = Idrinth.Ui.findElementWithin({"hud_campaign", "resources_bar_holder", "resources_bar"});
+    local parent = Idrinth.Ui.findElementWithin("hud_campaign", "resources_bar_holder", "resources_bar");
     if not parent then
         return;
     end;
@@ -121,7 +121,7 @@ local applyBattleResourceTransaction = function(name, faction, amount, battleRes
     cm:pooled_resource_factor_transaction(faction:pooled_resource_manager(), "idrinth_" .. name .. "_battles", amt);
 end;
 local createResourceUI = function()
-    local parent = Idrinth.Ui.findElementWithin({"hud_campaign", "resources_bar_holder", "resources_bar"});
+    local parent = Idrinth.Ui.findElementWithin("hud_campaign", "resources_bar_holder", "resources_bar");
     if not parent then
         return;
     end;
