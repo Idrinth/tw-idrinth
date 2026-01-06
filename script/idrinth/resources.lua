@@ -9,11 +9,7 @@ local resourceChangedListener = function(context)
     local resources = {"khaine", "kurnous", "asuryan"};
     for _, resource in pairs(resources) do
         if context:resource():key() == "idrinth_"..resource then
-            local element = core:get_or_create_component(
-                "idrinth_pooled_resource_asuryan",
-                "ui/idrinth/idrinth_pooled_resource_asuryan.twui.xml",
-                parent
-            );
+            local element = Idrinth.Ui.createOrFind("idrinth_pooled_resource_asuryan", parent);
             UIComponent(element:Find(0)):SetText(context:resource():value());
         end;
     end;
@@ -125,21 +121,9 @@ local createResourceUI = function()
     if not parent then
         return;
     end;
-    core:get_or_create_component(
-        "idrinth_pooled_resource_asuryan",
-        "ui/idrinth/idrinth_pooled_resource_asuryan.twui.xml",
-        parent
-    );
-    core:get_or_create_component(
-        "idrinth_pooled_resource_kurnous",
-        "ui/idrinth/idrinth_pooled_resource_kurnous.twui.xml",
-        parent
-    );
-    core:get_or_create_component(
-        "idrinth_pooled_resource_khaine",
-        "ui/idrinth/idrinth_pooled_resource_khaine.twui.xml",
-        parent
-    );
+    Idrinth.Ui.createOrFind("idrinth_pooled_resource_asuryan", parent);
+    Idrinth.Ui.createOrFind("idrinth_pooled_resource_kurnous", parent);
+    Idrinth.Ui.createOrFind("idrinth_pooled_resource_khaine", parent);
 end;
 cm:add_first_tick_callback(                                                                       
     function()

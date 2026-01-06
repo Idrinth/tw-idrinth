@@ -9,27 +9,15 @@ local settlementForeignSlotDisplay = function(context)
         if settlement and settlementSlots then
             local element;
             if i == 1 then
-                element = core:get_or_create_component(
-                    "idrinth_settlement_hostile_slots",
-                    "ui/idrinth/idrinth_settlement_hostile_slots_capital.twui.xml",
-                    settlement
-                );
+                element = Idrinth.Ui.createOrFind("idrinth_settlement_hostile_slots", settlement, "idrinth_settlement_hostile_slots_capital");
             else
-                element = core:get_or_create_component(
-                    "idrinth_settlement_hostile_slots",
-                    "ui/idrinth/idrinth_settlement_hostile_slots.twui.xml",
-                    settlement
-                );
+                element = Idrinth.Ui.createOrFind("idrinth_settlement_hostile_slots", settlement);
             end;
             element:SetDockOffset(0, 25);-- 25 down
             element:SetContextObject(settlementSlots:GetContextObject("CcoCampaignSettlement"));
             element:SetVisible(false);
             local buttons = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view", "toggle_button_holder", "button_list");
-            local button = core:get_or_create_component(
-                "idrinth_settlement_panel_button",
-                "ui/idrinth/idrinth_settlement_panel_button.twui.xml",
-                buttons
-            );
+            local button = Idrinth.Ui.createOrFind("idrinth_settlement_panel_button", buttons);
             button:SetContextObject(settlementSlots:GetContextObject("CcoCampaignSettlement"));
         end;
     end;
