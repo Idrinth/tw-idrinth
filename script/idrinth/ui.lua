@@ -7,6 +7,9 @@ ui.nowAndThen = function(callback)
     cm:callback(callback, 2);
 end;
 ui.findElementWithin = function(...)
+    if not core:is_ui_created() then
+        return nil;
+    end;
     local parent = core:get_ui_root();
     if not parent then
         return nil;
@@ -35,6 +38,10 @@ ui.createOrFind = function(name, parent, overwriteAutoFile)
     if not overwriteAutoFile then
         overwriteAutoFile = name;
     end;
+    if not parent then
+        parent = core:get_ui_root();
+    end;
+    Idrinth.log("Creating element "..name.."@"..overwriteAutoFile, "ui");
     local element = core:get_or_create_component(
         name,
         "ui/idrinth/"..overwriteAutoFile..".twui.xml",

@@ -23,12 +23,14 @@ local displayWAAAGHUpradePanel = function(blessingsPanel)
     end;
 end;
 local handleUpgradeButtons = function()
+    if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
+        return;
+    end;
     Idrinth.log("handleUpgradeButtons", "army");
     local buttonWrapper = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "button_group_unit");
     if not buttonWrapper then
         return;
     end;
-    out(buttonWrapper)
     Idrinth.log("handleUpgradeButtons: building buttons", "army");
     local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
     if not units then
@@ -52,6 +54,9 @@ local handleUpgradeButtons = function()
             end;
         end;
     end;
+    if not selectedType or selectedType == "" then
+        return;
+    end;
     if hasMultipleTypes then
         Idrinth.log("Selected multiple unit types", "army");
         return;
@@ -63,6 +68,7 @@ local handleUpgradeButtons = function()
     local asuryanTroopsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_asuryan_troops", buttonWrapper, "idrinth_button_upgrade_asuryan");
     local khaineTroopsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_khaine_troops", buttonWrapper, "idrinth_button_upgrade_khaine");
     local kurnousTroopsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_kurnous_troops", buttonWrapper, "idrinth_button_upgrade_kurnous");
+    idrinth.log("UI built", "army");
     asuryanPriestUpgrade:Visible(false);
     khainePriestUpgrade:Visible(false);
     kurnousPriestUpgrade:Visible(false);
@@ -197,16 +203,6 @@ core:add_listener(
         Idrinth.Ui.nowAndThen(function()
             displayWAAAGHUpradePanel(blessingsPanel);
         end);
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentMouseOn",
-    "ComponentMouseOn",
-    true,
-    function(context)
-        Idrinth.log("ComponentMouseOn", "army");
-        Idrinth.Ui.nowAndThen(handleUpgradeButtons);
     end,
     true
 );

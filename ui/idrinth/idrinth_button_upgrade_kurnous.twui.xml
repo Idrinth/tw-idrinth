@@ -4,57 +4,57 @@
 	comment=""
 	precache_condition="">
 	<hierarchy>
-		<root this="0C4167B1-1FF9-48B3-AEC751BD3A427C79">
-            <button_upgrade_kurnous this="E43C6F3A-EA4B-9F14-B623C7C1A7DF99AE"/>
+		<root this="0C4167B1-1FF9-08B3-AEC751BD3A427C79">
+            <button_upgrade_kurnous this="E43C6F3A-EA4B-0F14-B623C7C1A7DF99AE"/>
 		</root>
 	</hierarchy>
 	<components>
 		<button_upgrade_kurnous
-			this="E43C6F3A-EA4B-9F14-B623C7C1A7DF99AE"
+			this="E43C6F3A-EA4B-0F14-B623C7C1A7DF99AE"
 			id="button_upgrade_kurnous"
 			template_id="square_medium_button"
 			part_of_template="true"
 			uniqueguid_in_template="18ECC36C-741F-40BF-869875E6BB71B6CC"
-			uniqueguid="E43C6F3A-EA4B-9F14-B623C7C1A7DF99AE"
+			uniqueguid="E43C6F3A-EA4B-0F14-B623C7C1A7DF99AE"
 			dimensions="55.00,55.00"
 			priority="12"
 			sound_category="UI_GBL_TMP_Round_Small_Button">
 			<state_uniqueguids>
 				<state_uniqueguid
 					name="active"
-					uniqueguid="B5C906C1-C4B4-45D4-B43418A84810ED85"/>
+					uniqueguid="B5C906C1-C4B4-05D4-B43418A84810ED85"/>
 				<state_uniqueguid
 					name="down"
-					uniqueguid="501530F4-82F9-40E7-97B4147CF5C41DBB"/>
+					uniqueguid="501530F4-82F9-00E7-97B4147CF5C41DBB"/>
 				<state_uniqueguid
 					name="down_off"
-					uniqueguid="A68822CC-7E51-4294-9C2C30B3DA9B437D"/>
+					uniqueguid="A68822CC-7E51-0294-9C2C30B3DA9B437D"/>
 				<state_uniqueguid
 					name="hover"
-					uniqueguid="93296CB3-3B74-4340-BC3F1974C0B8F1A5"/>
+					uniqueguid="93296CB3-3B74-0340-BC3F1974C0B8F1A5"/>
 				<state_uniqueguid
 					name="inactive"
-					uniqueguid="6C857E0B-D870-4099-9353357D51981950"/>
+					uniqueguid="6C857E0B-D870-0099-9353357D51981950"/>
 			</state_uniqueguids>
 			<component_image_uniqueguids>
 				<component_image_uniqueguid
 					name="ui/skins/default/icon_kurnous.png"
-					uniqueguid="8CDFE6D1-E888-416B-8A3BC7DB57A5273D"/>
+					uniqueguid="8CDFE6D1-E888-016B-8A3BC7DB57A5273D"/>
 				<component_image_uniqueguid
 					name="ui/skins/default/button_basic_pressed.png"
-					uniqueguid="4A353A4E-9C0C-4C2A-A565FD4D3F639D36"/>
+					uniqueguid="4A353A4E-9C0C-0C2A-A565FD4D3F639D36"/>
 				<component_image_uniqueguid
 					name="ui/skins/default/button_basic_hover.png"
-					uniqueguid="30384A00-3124-436A-8763F64D67D64DCC"/>
+					uniqueguid="30384A00-3124-036A-8763F64D67D64DCC"/>
 				<component_image_uniqueguid
 					name="ui/skins/default/button_basic_active.png"
-					uniqueguid="2E3978F6-9A37-4947-959BE17F92953ED0"/>
+					uniqueguid="2E3978F6-9A37-0947-959BE17F92953ED0"/>
 				<component_image_uniqueguid
 					name="ui/skins/default/button_basic_inactive.png"
-					uniqueguid="5FDA3831-7B78-4902-B2391A1CD2A7FC89"/>
+					uniqueguid="5FDA3831-7B78-0902-B2391A1CD2A7FC89"/>
 				<component_image_uniqueguid
 					name="ui/skins/default/button_basic_underlay.png"
-					uniqueguid="A01E2785-4DBA-41B6-B4CE5DF3097E18D1"/>
+					uniqueguid="A01E2785-4DBA-01B6-B4CE5DF3097E18D1"/>
 			</component_image_uniqueguids>
 			<callbacks_with_context>
 				<callback_with_context callback_id="Button"/>
@@ -99,32 +99,32 @@
 			</override_images>
 		</button_upgrade_kurnous>
 		<root
-			this="0C4167B1-1FF9-48B3-AEC751BD3A427C79"
+			this="0C4167B1-1FF9-08B3-AEC751BD3A427C79"
 			id="root"
 			tooltipslocalised="true"
-			uniqueguid="0C4167B1-1FF9-48B3-AEC751BD3A427C79"
-			currentstate="F74165C7-1FCD-49F0-8340366DD494814D">
+			uniqueguid="0C4167B1-1FF9-08B3-AEC751BD3A427C79"
+			currentstate="F74165C7-1FCD-09F0-8340366DD494814D">
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="CampaignRoot"/>
 			</callbackwithcontextlist>
 			<componentimages>
 				<component_image
-					this="4D6EE5DF-9E43-40A3-982CA1594146D1F9"
-					uniqueguid="4D6EE5DF-9E43-40A3-982CA1594146D1F9"/>
+					this="4D6EE5DF-9E43-00A3-982CA1594146D1F9"
+					uniqueguid="4D6EE5DF-9E43-00A3-982CA1594146D1F9"/>
 			</componentimages>
 			<states>
 				<newstate
-					this="F74165C7-1FCD-49F0-8340366DD494814D"
+					this="F74165C7-1FCD-09F0-8340366DD494814D"
 					name="NewState"
 					width="1600"
 					height="900"
 					interactive="true"
-					uniqueguid="F74165C7-1FCD-49F0-8340366DD494814D">
+					uniqueguid="F74165C7-1FCD-09F0-8340366DD494814D">
 					<imagemetrics>
 						<image
-							this="DDC09198-4C23-4B36-A7B6894A4EB617CA"
-							uniqueguid="DDC09198-4C23-4B36-A7B6894A4EB617CA"
-							componentimage="4D6EE5DF-9E43-40A3-982CA1594146D1F9"
+							this="DDC09198-4C23-0B36-A7B6894A4EB617CA"
+							uniqueguid="DDC09198-4C23-0B36-A7B6894A4EB617CA"
+							componentimage="4D6EE5DF-9E43-00A3-982CA1594146D1F9"
 							width="2000"
 							height="791"
 							colour="#7F7F7FFF"/>
@@ -138,6 +138,5 @@
 				</newstate>
 			</states>
 		</root>
-
     </components>
 </layout>
