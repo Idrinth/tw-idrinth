@@ -7,19 +7,26 @@ ui.nowAndThen = function(callback)
     cm:callback(callback, 2);
 end;
 ui.findElementWithin = function(...)
-    parent = cm:get_ui_root();
-    for _, key in pairs({...}) do
+    local parent = core:get_ui_root();
+    if not parent then
+        return nil;
+    end;
+    local argsTable = {...};
+    for _, key in pairs(argsTable) do
         if is_uicomponent(key) then
             parent = key;
-        else
-            local element = find_uicomponent(
-                parent,
-                key
-            );
-            if not element or element == parent then
+        elseif is_integer(key) or is_string(key) then
+            local child = parent:Find(key);
+            if not child then
                 return nil;
             end;
-            parent = element;
+            local component = UIComponent(child);
+            if not component or component == parent then
+                return nil;
+            end;
+            parent = component;
+        else
+            return nil;
         end;
     end;
     return parent;
