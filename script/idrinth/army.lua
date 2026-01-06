@@ -57,36 +57,12 @@ local handleUpgradeButtons = function()
         return;
     end;
     Idrinth.log("Selected: "..tostring(selectedType), "army");
-    local asuryanPriestUpgrade = core:get_or_create_component(
-        "idrinth_button_upgrade_asuryan_priest",
-        "ui/idrinth/idrinth_button_upgrade_asuryan.twui.xml",
-        buttonWrapper
-    );
-    local khainePriestUpgrade = core:get_or_create_component(
-        "idrinth_button_upgrade_khaine_priest",
-        "ui/idrinth/idrinth_button_upgrade_khaine.twui.xml",
-        buttonWrapper
-    );
-    local kurnousPriestUpgrade = core:get_or_create_component(
-        "idrinth_button_upgrade_kurnous_priest",
-        "ui/idrinth/idrinth_button_upgrade_kurnous.twui.xml",
-        buttonWrapper
-    );
-    local asuryanTroopsUpgrade = core:get_or_create_component(
-        "idrinth_button_upgrade_asuryan_troops",
-        "ui/idrinth/idrinth_button_upgrade_asuryan.twui.xml",
-        buttonWrapper
-    );
-    local khaineTroopsUpgrade = core:get_or_create_component(
-        "idrinth_button_upgrade_khaine_troops",
-        "ui/idrinth/idrinth_button_upgrade_khaine.twui.xml",
-        buttonWrapper
-    );
-    local kurnousTroopsUpgrade = core:get_or_create_component(
-        "idrinth_button_upgrade_kurnous_troops",
-        "ui/idrinth/idrinth_button_upgrade_kurnous.twui.xml",
-        buttonWrapper
-    );
+    local asuryanPriestUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_asuryan_priest", buttonWrapper, "idrinth_button_upgrade_asuryan");
+    local khainePriestUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_khaine_priest", buttonWrapper, "idrinth_button_upgrade_khaine");
+    local kurnousPriestUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_kurnous_priest", buttonWrapper, "idrinth_button_upgrade_kurnous");
+    local asuryanTroopsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_asuryan_troops", buttonWrapper, "idrinth_button_upgrade_asuryan");
+    local khaineTroopsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_khaine_troops", buttonWrapper, "idrinth_button_upgrade_khaine");
+    local kurnousTroopsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_kurnous_troops", buttonWrapper, "idrinth_button_upgrade_kurnous");
     asuryanPriestUpgrade:Visible(false);
     khainePriestUpgrade:Visible(false);
     kurnousPriestUpgrade:Visible(false);
@@ -116,11 +92,7 @@ local enableWAAAGHUpgrades = function()
         if not parent then
             return;
         end;
-        core:get_or_create_component(
-            "idrinth_units_panel_blessings_button",
-            "ui/idrinth/idrinth_units_panel_blessings_button.twui.xml",
-            parent
-        );
+        Idrinth.Ui.createOrFind("idrinth_units_panel_blessings_button", parent);
         set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button");
         set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "tabgroup", "tab_horde_buildings");
         set_component_visible_with_parent(false, core:get_ui_root(), "units_panel", "main_units_panel", "unit_count_frame_holder", "frame");
@@ -198,11 +170,7 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "army");
-        local blessingsPanel = core:get_or_create_component(
-            "idrinth_units_panel_blessings",
-            "ui/idrinth/idrinth_units_panel_blessings.twui.xml",
-            core:get_ui_root()
-        );
+        local blessingsPanel = Idrinth.Ui.createOrFind("idrinth_units_panel_blessings", core:get_ui_root());
         if blessingsPanel:Visible() then
             set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
             return;

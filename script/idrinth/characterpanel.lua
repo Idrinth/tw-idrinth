@@ -50,17 +50,9 @@ local setupIdrinthsPaths = function()
     if not tabPanels or not tabGroup then
         return;
     end;
-    local paths = core:get_or_create_component(
-        "idrinth_character_details_panel_idrinths_paths",
-        "ui/idrinth/idrinth_character_details_panel_idrinths_paths.twui.xml",
-        tabPanels
-    );
+    local paths = Idrinth.Ui.createOrFind("idrinth_character_details_panel_idrinths_paths", tabPanels);
     UIComponent(paths:Parent()):Adopt(paths:Address(), 3);
-    core:get_or_create_component(
-        "idrinth_character_details_panel_idrinths_paths_button",
-        "ui/idrinth/idrinth_character_details_panel_idrinths_paths_button.twui.xml",
-        tabGroup
-    );
+    Idrinth.Ui.createOrFind("idrinth_character_details_panel_idrinths_paths_button", tabGroup);
     set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths")
     set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
