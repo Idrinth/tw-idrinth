@@ -97,7 +97,7 @@
 				<element value="ui/skins/default/button_basic_underlay.png"/>
 				<element value=""/>
 			</override_images>
-		</button_open_augment>
+		</button_upgrade_khaine>
 		<root
 			this="0C4167B1-1FF9-48B3-AEC751BD3A427C79"
 			id="root"
