@@ -31,5 +31,19 @@ ui.findElementWithin = function(...)
     end;
     return parent;
 end;
+ui.createOrFind = function(name, parent, overwriteAutoFile)
+    if not overwriteAutoFile then
+        overwriteAutoFile = name;
+    end;
+    local element = core:get_or_create_component(
+        name,
+        "ui/idrinth/"..overwriteAutoFile..".twui.xml",
+        parent
+    );
+    if not element then
+        Idrinth.log("Failed to create element "..name.."@"..overwriteAutoFile, "ui");
+    end;
+    return element;
+end;
 
 return ui;
