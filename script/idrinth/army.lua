@@ -26,7 +26,6 @@ local enableWAAAGHUpgrades = function()
     if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
         return;
     end;
-    set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_warband_button");
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local idrinth = Idrinth.Access.get();
     if character == idrinth then
@@ -55,7 +54,6 @@ local enableArmyUpgrades = function()
         return;
     end;
     set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button");
-    set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_warband_button");
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local idrinth = Idrinth.Access.get();
     if character == idrinth then
@@ -165,7 +163,6 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("PanelOpenedCampaign", "army");
-        set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "button_warbands_upgrade");
         set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button");
     end,
     true
