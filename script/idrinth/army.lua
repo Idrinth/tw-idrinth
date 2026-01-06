@@ -14,7 +14,6 @@ local displayWAAAGHUpradePanel = function(blessingsPanel)
             local currentType = common.get_context_value("CcoCampaignUnit", unit:GetContextObjectId("CcoCampaignUnit"), "CcoMainUnit.Key")
             landUnitCard:SetContextObject(ccoCampaignUnit);
             upgrades:SetContextObject(ccoCampaignUnit);
-            selectedAny = true;
             if selectedType == "" then
                 selectedType = currentType;
             elseif selectedType ~= currentType then
@@ -61,7 +60,7 @@ local enableArmyUpgrades = function()
     local idrinth = Idrinth.Access.get();
     if character == idrinth then
         local parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
-        if not parent then
+        if not parent or parent == core:get_ui_root() then
             return;
         end;
         set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel");
@@ -104,17 +103,6 @@ core:add_listener(
     "idrinth_army_ComponentLClickUp_2",
     "ComponentLClickUp",
     function(context)
-        return context.string == "idrinth_units_panel_warband_button";
-    end,
-    function(context)
-        Idrinth.log("ComponentLClickUp", "army");
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_3",
-    "ComponentLClickUp",
-    function(context)
         return context.string == "tab_army";
     end,
     function(context)
@@ -124,7 +112,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_army_ComponentLClickUp_4",
+    "idrinth_army_ComponentLClickUp_3",
     "ComponentLClickUp",
     function(context)
         return context.string == "idrinth_units_panel_blessings_button";
@@ -149,7 +137,7 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_army_ComponentLClickUp_5",
+    "idrinth_army_ComponentLClickUp_4",
     "ComponentLClickUp",
     function(context)
         return true;
