@@ -19,8 +19,19 @@ local getSelectedUnitsInfo = function()
     end;
     return units, character, uiIds;
 end;
+local lockVeterans = function(faction, lock)
+    for num = 0, 9 do
+        cm:faction_set_unit_purchasable_effect_lock_state(
+            faction,
+            "idrinth_veteran_"..num,
+            "",
+            lock
+        );
+    end;
+end;
 local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
     return function()
+        Idrinth.log("applyVeteranRankToNewUnit", "army");
         local unitsPanel = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
         if not unitsPanel then
             return;
@@ -34,19 +45,9 @@ local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
                     local newUiId = common.get_context_value("CcoCampaignUnit", newId, "UniqueUiId");
                     if not uiIds[newUiId] and newType == expectedType then
                         local _, faction = Idrinth.Access.get();
-                        cm:faction_set_unit_purchasable_effect_lock_state(
-                            faction,
-                            "idrinth_veteran_"..currentRank,
-                            "",
-                            false
-                        );
+                        lockVeterans(faction, false);
                         common.call_context_command("CcoCampaignUnit", newId, "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \"idrinth_veteran_"..currentRank.."\"))");
-                        cm:faction_set_unit_purchasable_effect_lock_state(
-                            faction,
-                            "idrinth_veteran_"..currentRank,
-                            "",
-                            true
-                        );
+                        lockVeterans(faction, true);
                         return;
                     end;
                 end;
@@ -67,8 +68,7 @@ local displayWAAAGHUpradePanel = function(blessingsPanel)
         local unit = UIComponent(units:Find(i));
         if unit and unit:CurrentState() == "selected" then
             local ccoCampaignUnit = unit:GetContextObject("CcoCampaignUnit");
-            local currentType = common.get_context_value("CcoCampaignUnit", unit:GetContextObjectId("CcoCampaignUnit"), "CcoMainUnit.Key")
-;
+            local currentType = common.get_context_value("CcoCampaignUnit", unit:GetContextObjectId("CcoCampaignUnit"), "CcoMainUnit.Key");
             landUnitCard:SetContextObject(ccoCampaignUnit);
             upgrades:SetContextObject(ccoCampaignUnit);
             if selectedType == "" then
@@ -96,7 +96,7 @@ local upgradeUnit = function(god)
                     common.call_context_command("CcoCampaignUnit", id, "Disband");
                     cm:grant_unit_to_character(cm:char_lookup_str(character), "idrinth_hev_high_elf_vampires_chapel_"..god);
                     cm:treasury_mod(factionKey, -300);
-                    cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god, currentRank), 100);
+                    cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god, currentRank), 150);
                     return;
                 end;
             end;
@@ -124,10 +124,10 @@ local upgradePriest = function(god)
                     local randomNum = cm:random(100);
                     if randomNum < 15 + currentRank * 4 then
                         cm:grant_unit_to_character(cm:char_lookup_str(character), "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader_vampire");
-                        cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader_vampire", currentRank), 100);
-                    elseif randomNum < 45 + currentRank * 5 then
+                        cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader_vampire", currentRank), 150);
+                    elseif randomNum < 45 + currentRank * 6 then
                         cm:grant_unit_to_character(cm:char_lookup_str(character), "idrinth_hev_high_elf_vampires_chapel_"..god.."_varghulf");
-                        cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god.."_varghulf", currentRank), 100);
+                        cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god.."_varghulf", currentRank), 150);
                     end;
                     return;
                 end;
@@ -251,8 +251,7 @@ local enableArmyUpgrades = function()
         set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
     end;
 end;
-
-core:add_listener(
+core:add_listener(
     "idrinth_army_UnitCreated",
     "UnitCreated",
     function(context)
@@ -260,31 +259,18 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("UnitCreated", "army");
-        cm:faction_set_unit_purchasable_effect_lock_state(
-            context:unit():faction(),
-            "idrinth_veteran_0",
-            "",
-            false
-        );
+        lockVeterans(context:unit():faction(), false);
         local effectList = context:unit():get_unit_purchasable_effects();
-        for i=0, effectList:num_items() -1 do
-            if effectList:item_at(i):record_key() == "idrinth_veteran_0" then
-                cm:faction_purchase_unit_effect(context:unit():faction(), context:unit(), effectList:item_at(i));
-                cm:faction_set_unit_purchasable_effect_lock_state(
-                    context:unit():faction(),
-                    "idrinth_veteran_0",
-                    "",
-                    true
-                );
+        for i = 0, effectList:num_items() - 1 do
+            local effect = effectList:item_at(i);
+            if effect:record_key() == "idrinth_veteran_0" then
+                cm:faction_purchase_unit_effect(context:unit():faction(), context:unit(), effect);
+                Idrinth.log("Added idrinth_veteran_0 to new unit", "army");
+                lockVeterans(context:unit():faction(), true);
                 return;
             end;
         end;
-        cm:faction_set_unit_purchasable_effect_lock_state(
-            context:unit():faction(),
-            "idrinth_veteran_0",
-            "",
-            true
-        );
+        lockVeterans(context:unit():faction(), true);
     end,
     true
 )
@@ -322,8 +308,7 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "army");
-        Idrinth.Ui.nowAndThen(enableArmyUpgrades)
-;
+        Idrinth.Ui.nowAndThen(enableArmyUpgrades);
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
     end,
     true
@@ -447,13 +432,6 @@ core:add_listener(
 );
 cm:add_first_tick_callback(                                                                       
     function()
-        for num=0, 9 do
-            cm:faction_set_unit_purchasable_effect_lock_state(
-                cm:get_local_faction(),
-                "idrinth_veteran_"..num,
-                "",
-                true
-            );
-        end;
+        lockVeterans(cm:get_local_faction(), true);
     end
 );
