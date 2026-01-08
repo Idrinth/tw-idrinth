@@ -33,7 +33,7 @@ local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
                     local newType = common.get_context_value("CcoCampaignUnit", newId, "UnitRecordContext.Key");
                     local newUiId = common.get_context_value("CcoCampaignUnit", newId, "UniqueUiId");
                     if not uiIds[newUiId] and newType == expectedType then
-                        _, faction = Idrinth.Access.get();
+                        local _, faction = Idrinth.Access.get();
                         cm:faction_set_unit_purchasable_effect_lock_state(
                             faction,
                             "idrinth_veteran_"..currentRank,
@@ -67,7 +67,8 @@ local displayWAAAGHUpradePanel = function(blessingsPanel)
         local unit = UIComponent(units:Find(i));
         if unit and unit:CurrentState() == "selected" then
             local ccoCampaignUnit = unit:GetContextObject("CcoCampaignUnit");
-            local currentType = common.get_context_value("CcoCampaignUnit", unit:GetContextObjectId("CcoCampaignUnit"), "CcoMainUnit.Key");
+            local currentType = common.get_context_value("CcoCampaignUnit", unit:GetContextObjectId("CcoCampaignUnit"), "CcoMainUnit.Key")
+;
             landUnitCard:SetContextObject(ccoCampaignUnit);
             upgrades:SetContextObject(ccoCampaignUnit);
             if selectedType == "" then
@@ -321,7 +322,8 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "army");
-        Idrinth.Ui.nowAndThen(enableArmyUpgrades);
+        Idrinth.Ui.nowAndThen(enableArmyUpgrades)
+;
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
     end,
     true
