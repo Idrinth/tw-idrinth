@@ -56,4 +56,4 @@ core:add_listener(
         end;
     end,
     true
-)
+);

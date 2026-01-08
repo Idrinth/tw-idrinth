@@ -9,7 +9,7 @@ local resourceChangedListener = function(context)
     local resources = {"khaine", "kurnous", "asuryan"};
     for _, resource in pairs(resources) do
         if context:resource():key() == "idrinth_"..resource then
-            local element = Idrinth.Ui.createOrFind("idrinth_pooled_resource_asuryan", parent);
+            local element = Idrinth.Ui.createOrFind("idrinth_pooled_resource_"..resource, parent);
             UIComponent(element:Find(0)):SetText(context:resource():value());
         end;
     end;
