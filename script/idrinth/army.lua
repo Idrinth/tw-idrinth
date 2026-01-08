@@ -1,3 +1,59 @@
+local getSelectedUnitsInfo = function()
+    local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
+    if not units then
+        return nil, nil, nil;
+    end;
+    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
+    local uiIds = {};
+    for i = 1, units:ChildCount() do
+        local unit = UIComponent(units:Find(i));
+        if unit then
+            local id = unit:GetContextObjectId("CcoCampaignUnit");
+            if id then
+                local uiId = common.get_context_value("CcoCampaignUnit", id, "UniqueUiId");
+                if uiId and uiId ~= "" then
+                    uiIds[uiId] = true;
+                end;
+            end;
+        end;
+    end;
+    return units, character, uiIds;
+end;
+local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
+    return function()
+        local unitsPanel = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
+        if not unitsPanel then
+            return;
+        end;
+        for j = 1, unitsPanel:ChildCount() do
+            local newUnit = UIComponent(unitsPanel:Find(j));
+            if newUnit then
+                local newId = newUnit:GetContextObjectId("CcoCampaignUnit");
+                if newId then
+                    local newType = common.get_context_value("CcoCampaignUnit", newId, "UnitRecordContext.Key");
+                    local newUiId = common.get_context_value("CcoCampaignUnit", newId, "UniqueUiId");
+                    if not uiIds[newUiId] and newType == expectedType then
+                        local _, faction = Idrinth.Access.get();
+                        cm:faction_set_unit_purchasable_effect_lock_state(
+                            faction,
+                            "idrinth_veteran_"..currentRank,
+                            "",
+                            false
+                        );
+                        common.call_context_command("CcoCampaignUnit", newId, "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \"idrinth_veteran_"..currentRank.."\"))");
+                        cm:faction_set_unit_purchasable_effect_lock_state(
+                            faction,
+                            "idrinth_veteran_"..currentRank,
+                            "",
+                            true
+                        );
+                        return;
+                    end;
+                end;
+            end;
+        end;
+    end;
+end;
 local displayWAAAGHUpradePanel = function(blessingsPanel)
     if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
         set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
@@ -11,7 +67,8 @@ local displayWAAAGHUpradePanel = function(blessingsPanel)
         local unit = UIComponent(units:Find(i));
         if unit and unit:CurrentState() == "selected" then
             local ccoCampaignUnit = unit:GetContextObject("CcoCampaignUnit");
-            local currentType = common.get_context_value("CcoCampaignUnit", unit:GetContextObjectId("CcoCampaignUnit"), "CcoMainUnit.Key");
+            local currentType = common.get_context_value("CcoCampaignUnit", unit:GetContextObjectId("CcoCampaignUnit"), "CcoMainUnit.Key")
+;
             landUnitCard:SetContextObject(ccoCampaignUnit);
             upgrades:SetContextObject(ccoCampaignUnit);
             if selectedType == "" then
@@ -23,23 +80,9 @@ local displayWAAAGHUpradePanel = function(blessingsPanel)
     end;
 end;
 local upgradeUnit = function(god)
-    local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
+    local units, character, uiIds = getSelectedUnitsInfo();
     if not units then
         return;
-    end;
-    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
-    local uiIds = {};
-    for i = 1, units:ChildCount() do
-        local unit = UIComponent(units:Find(i));
-        if unit then
-            local id = unit:GetContextObjectId("CcoCampaignUnit");
-            if id then
-                local uiId = common.get_context_value("CcoCampaignUnit", id, "UniqueUiId");
-                if uiId and uiId ~= "" then
-                    uiIds[uiId] = true;
-                end;
-            end;
-        end;
     end;
     local factionKey = character:faction():name();
     for i = 1, units:ChildCount() do
@@ -49,46 +92,11 @@ local upgradeUnit = function(god)
             if id then
                 local currentType = common.get_context_value("CcoCampaignUnit", id, "UnitRecordContext.Key");
                 local currentRank = common.get_context_value("CcoCampaignUnit", id, "ExperienceLevel");
-                if currentType  == "idrinth_hev_high_elf_vampires_chapel_mixed" and character:faction():treasury() >= 300 then
+                if currentType == "idrinth_hev_high_elf_vampires_chapel_mixed" and character:faction():treasury() >= 300 then
                     common.call_context_command("CcoCampaignUnit", id, "Disband");
                     cm:grant_unit_to_character(cm:char_lookup_str(character), "idrinth_hev_high_elf_vampires_chapel_"..god);
                     cm:treasury_mod(factionKey, -300);
-                    cm:real_callback(
-                        function()
-                            local unitsPanel = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
-                            if not unitsPanel then
-                                return;
-                            end;
-                            for j = 1, unitsPanel:ChildCount() do
-                                local newUnit = UIComponent(unitsPanel:Find(j));
-                                if newUnit then
-                                    local newId = newUnit:GetContextObjectId("CcoCampaignUnit");
-                                    if newId then
-                                        local newType = common.get_context_value("CcoCampaignUnit", newId, "UnitRecordContext.Key");
-                                        local newUiId = common.get_context_value("CcoCampaignUnit", newId, "UniqueUiId");
-                                        if not uiIds[newUiId] and newType == "idrinth_hev_high_elf_vampires_chapel_"..god then
-                                            _, faction = Idrinth.Access.get();
-                                            cm:faction_set_unit_purchasable_effect_lock_state(
-                                                faction,
-                                                "idrinth_veteran_"..currentRank,
-                                                "",
-                                                false
-                                            );
-                                            common.call_context_command("CcoCampaignUnit", newId, "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \"idrinth_veteran_"..currentRank.."\"))");
-                                            cm:faction_set_unit_purchasable_effect_lock_state(
-                                                faction,
-                                                "idrinth_veteran_"..currentRank,
-                                                "",
-                                                true
-                                            );
-                                            return;
-                                        end;
-                                    end;
-                                end;
-                            end;
-                        end,
-                        100
-                    );
+                    cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god, currentRank), 100);
                     return;
                 end;
             end;
@@ -96,23 +104,9 @@ local upgradeUnit = function(god)
     end;
 end;
 local upgradePriest = function(god)
-    local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
+    local units, character, uiIds = getSelectedUnitsInfo();
     if not units then
         return;
-    end;
-    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
-    local uiIds = {};
-    for i = 1, units:ChildCount() do
-        local unit = UIComponent(units:Find(i));
-        if unit then
-            local id = unit:GetContextObjectId("CcoCampaignUnit");
-            if id then
-                local uiId = common.get_context_value("CcoCampaignUnit", id, "UniqueUiId");
-                if uiId and uiId ~= "" then
-                    uiIds[uiId] = true;
-                end;
-            end;
-        end;
     end;
     local pooledResourceManager = character:faction():pooled_resource_manager();
     local factionKey = character:faction():name();
@@ -123,87 +117,17 @@ local upgradePriest = function(god)
             if id then
                 local currentType = common.get_context_value("CcoCampaignUnit", id, "UnitRecordContext.Key");
                 local currentRank = common.get_context_value("CcoCampaignUnit", id, "ExperienceLevel");
-                if currentType  == "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader" and character:faction():treasury() >= 1000 and pooledResourceManager:resource("idrinth_"..god):value() >= 250 then
+                if currentType == "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader" and character:faction():treasury() >= 1000 and pooledResourceManager:resource("idrinth_"..god):value() >= 250 then
                     common.call_context_command("CcoCampaignUnit", id, "Disband");
                     cm:treasury_mod(factionKey, -1000);
                     cm:faction_add_pooled_resource(factionKey, "idrinth_"..god, "idrinth_"..god.."_other", -250);
                     local randomNum = cm:random(100);
                     if randomNum < 15 + currentRank * 4 then
                         cm:grant_unit_to_character(cm:char_lookup_str(character), "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader_vampire");
-                        cm:real_callback(
-                            function()
-                                local unitsPanel = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
-                                if not unitsPanel then
-                                    return;
-                                end;
-                                for j = 1, unitsPanel:ChildCount() do
-                                    local newUnit = UIComponent(unitsPanel:Find(j));
-                                    if newUnit then
-                                        local newId = newUnit:GetContextObjectId("CcoCampaignUnit");
-                                        if newId then
-                                            local newType = common.get_context_value("CcoCampaignUnit", newId, "UnitRecordContext.Key");
-                                            local newUiId = common.get_context_value("CcoCampaignUnit", newId, "UniqueUiId");
-                                            if not uiIds[newUiId] and newType == "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader_vampire" then
-                                                _, faction = Idrinth.Access.get();
-                                                cm:faction_set_unit_purchasable_effect_lock_state(
-                                                    faction,
-                                                    "idrinth_veteran_"..currentRank,
-                                                    "",
-                                                    false
-                                                );
-                                                common.call_context_command("CcoCampaignUnit", newId, "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \"idrinth_veteran_"..currentRank.."\"))");
-                                                cm:faction_set_unit_purchasable_effect_lock_state(
-                                                    faction,
-                                                    "idrinth_veteran_"..currentRank,
-                                                    "",
-                                                    true
-                                                );
-                                                return;
-                                            end;
-                                        end;
-                                    end;
-                                end;
-                            end,
-                            100
-                        );
+                        cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader_vampire", currentRank), 100);
                     elseif randomNum < 45 + currentRank * 5 then
                         cm:grant_unit_to_character(cm:char_lookup_str(character), "idrinth_hev_high_elf_vampires_chapel_"..god.."_varghulf");
-                        cm:real_callback(
-                            function()
-                                local unitsPanel = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
-                                if not unitsPanel then
-                                    return;
-                                end;
-                                for j = 1, unitsPanel:ChildCount() do
-                                    local newUnit = UIComponent(unitsPanel:Find(j));
-                                    if newUnit then
-                                        local newId = newUnit:GetContextObjectId("CcoCampaignUnit");
-                                        if newId then
-                                            local newType = common.get_context_value("CcoCampaignUnit", newId, "UnitRecordContext.Key");
-                                            local newUiId = common.get_context_value("CcoCampaignUnit", newId, "UniqueUiId");
-                                            if not uiIds[newUiId] and newType == "idrinth_hev_high_elf_vampires_chapel_"..god.."_varghulf" then
-                                                _, faction = Idrinth.Access.get();
-                                                cm:faction_set_unit_purchasable_effect_lock_state(
-                                                    faction,
-                                                    "idrinth_veteran_"..currentRank,
-                                                    "",
-                                                    false
-                                                );
-                                                common.call_context_command("CcoCampaignUnit", newId, "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \"idrinth_veteran_"..currentRank.."\"))");                                                
-                                                cm:faction_set_unit_purchasable_effect_lock_state(
-                                                    faction,
-                                                    "idrinth_veteran_"..currentRank,
-                                                    "",
-                                                    true
-                                                );
-                                                return;
-                                            end;
-                                        end;
-                                    end;
-                                end;
-                            end,
-                            100
-                        );
+                        cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god.."_varghulf", currentRank), 100);
                     end;
                     return;
                 end;
@@ -398,7 +322,8 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "army");
-        Idrinth.Ui.nowAndThen(enableArmyUpgrades);
+        Idrinth.Ui.nowAndThen(enableArmyUpgrades)
+;
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
     end,
     true
