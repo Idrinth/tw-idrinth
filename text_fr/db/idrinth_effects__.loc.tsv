@@ -74,4 +74,5 @@ effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Augmente vos
 effects_description_idrinth_chapel_beasts_upkeep	Réduit l'entretien des bêtes des Chapelles Thaluiennes de %+n%.	false
 effects_description_idrinth_enable_thalui_name	Ce personnage a juré une vengeance éternelle contre les puissances ruineuses et a adopté le nom Thalui pour cette raison.	false
 effects_description_idrinth_enable_knight_scholar_name	Ce personnage est à la fois un érudit et un chevalier, reconnu comme tel à travers différentes factions.	false
-
+effects_description_idrinth_chapel_recruitment_speedup	La durée de recrutement des unités de chapelle est réduite de %+n tours.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Empêche les ennemis d'utiliser la frappe éclair contre cette force.	false

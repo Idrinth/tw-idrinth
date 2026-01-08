@@ -40,3 +40,8 @@ mct_idrinth_section_idrinth_features_name	Options de Fonctionnalités	false
 mct_idrinth_section_idrinth_spawn_name	Options d'Apparition	false
 mct_idrinth_section_idrinth_other_name	Options Supplémentaires	false
 mct_idrinth_section_idrinth_cooldowns_name	Options de Temps de Recharge	false
+mct_idrinth_intervention_cooldown_text	Temps de Recharge de l'Intervention	false
+mct_idrinth_intervention_cooldown_options_low_text	Faible (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Moyen (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	Long (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	Modifie le temps de recharge entre les interventions divines.	false

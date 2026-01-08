@@ -40,3 +40,8 @@ mct_idrinth_section_idrinth_features_name	Opciones de Características	false
 mct_idrinth_section_idrinth_spawn_name	Opciones de Aparición	false
 mct_idrinth_section_idrinth_other_name	Opciones Adicionales	false
 mct_idrinth_section_idrinth_cooldowns_name	Opciones de Tiempo de Espera	false
+mct_idrinth_intervention_cooldown_text	Tiempo de Espera de Intervención	false
+mct_idrinth_intervention_cooldown_options_low_text	Bajo (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Medio (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	Largo (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	Modifica el tiempo de espera entre intervenciones divinas.	false

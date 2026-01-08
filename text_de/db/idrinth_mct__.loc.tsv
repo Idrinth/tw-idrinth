@@ -40,3 +40,8 @@ mct_idrinth_section_idrinth_features_name	Funktions-Schalter	false
 mct_idrinth_section_idrinth_spawn_name	Spawn-Optionen	false
 mct_idrinth_section_idrinth_other_name	Zusätzliche Optionen	false
 mct_idrinth_section_idrinth_cooldowns_name	Abklingzeit-Optionen	false
+mct_idrinth_intervention_cooldown_text	Interventions-Abklingzeit	false
+mct_idrinth_intervention_cooldown_options_low_text	Niedrig (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Mittel (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	Lang (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	Modifiziert die Abklingzeit zwischen göttlichen Interventionen.	false
