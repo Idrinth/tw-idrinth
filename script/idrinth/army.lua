@@ -276,15 +276,11 @@ end;
                         end;
                     end;
                     if not hasVeteranEffect then
-                        for k = 0, effectList:num_items() - 1 do
-                            local effect = effectList:item_at(k);
-                            if effect:record_key() == "idrinth_veteran_0" then
-                                cm:faction_purchase_unit_effect(faction, unit, effect);
-                                Idrinth.log("Added idrinth_veteran_0 to "..unitKey, "army");
-                                lockVeterans(faction, true);
-                                return;
-                            end;
-                        end;
+                        local cqi = unit:command_queue_index();
+                        common.call_context_command("CcoCampaignUnit", tostring(cqi), "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \"idrinth_veteran_0\"))");
+                        Idrinth.log("Added idrinth_veteran_0 to "..unitKey.." via context command", "army");
+                        lockVeterans(faction, true);
+                        return;
                     end;
                 end;
             end;
