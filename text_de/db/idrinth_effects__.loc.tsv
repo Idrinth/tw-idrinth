@@ -71,4 +71,8 @@ effects_description_idrinth_initiative_khaine_pray	Euer Gebet zu Khaine verbesse
 effects_description_idrinth_initiative_kurnous_pray	Euer Gebet zu Kurnous verbesserte das Jagdpotenzial Eurer Truppen.	false
 effects_description_idrinth_initiative_asuryan_pray	Euer Gebet zu Asuryan verbesserte das Überlebenspotenzial Eurer Truppen.	false
 effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Erhöht Eure Fähigkeiten in Kämpfen gegen die Verderblichen Mächte.	false
-
+effects_description_idrinth_chapel_beasts_upkeep	Verringert den Unterhalt für Tiere der Thaluischen Kapellen um %+n%.	false
+effects_description_idrinth_enable_thalui_name	Dieser Charakter hat ewige Rache gegen die Verderblichen Mächte geschworen und deshalb den Namen Thalui angenommen.	false
+effects_description_idrinth_enable_knight_scholar_name	Dieser Charakter ist sowohl ein Gelehrter als auch ein Ritter und wird als solcher in verschiedenen Fraktionen anerkannt.	false
+effects_description_idrinth_chapel_recruitment_speedup	Die Rekrutierungsdauer für Kapelleneinheiten wird um %+n Runden verkürzt.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Verhindert, dass Feinde den Blitzschlag gegen diese Streitmacht einsetzen können.	false
