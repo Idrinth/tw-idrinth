@@ -251,27 +251,39 @@ local enableArmyUpgrades = function()
         set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
     end;
 end;
-local applyVeteranRankToCreatedUnit = function(unitKey, faction)
+local applyVeteranRankToCreatedUnit = function(unitKey, factionKey)
     return function()
-        Idrinth.log("applyVeteranRankToCreatedUnit", "army");
-        local unitsPanel = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
-        if not unitsPanel then
-            lockVeterans(faction, true);
+        Idrinth.log("applyVeteranRankToCreatedUnit for "..unitKey, "army");
+        local faction = cm:get_faction(factionKey);
+        if not faction then
+            Idrinth.log("Faction not found: "..factionKey, "army");
             return;
         end;
-        for j = 1, unitsPanel:ChildCount() do
-            local unit = UIComponent(unitsPanel:Find(j));
-            if unit then
-                local id = unit:GetContextObjectId("CcoCampaignUnit");
-                if id then
-                    local unitType = common.get_context_value("CcoCampaignUnit", id, "UnitRecordContext.Key");
-                    if unitType == unitKey then
-                        local currentRank = common.get_context_value("CcoCampaignUnit", id, "ExperienceLevel");
-                        if currentRank == 0 then
-                            common.call_context_command("CcoCampaignUnit", id, "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \"idrinth_veteran_0\"))");
-                            Idrinth.log("Added idrinth_veteran_0 to new unit via UI context", "army");
-                            lockVeterans(faction, true);
-                            return;
+        local forceList = faction:military_force_list();
+        for i = 0, forceList:num_items() - 1 do
+            local force = forceList:item_at(i);
+            local unitList = force:unit_list();
+            for j = 0, unitList:num_items() - 1 do
+                local unit = unitList:item_at(j);
+                if unit:unit_key() == unitKey then
+                    local effectList = unit:get_unit_purchasable_effects();
+                    local hasVeteranEffect = false;
+                    for k = 0, effectList:num_items() - 1 do
+                        local existingEffect = effectList:item_at(k);
+                        if existingEffect:is_active() and string.find(existingEffect:record_key(), "idrinth_veteran_") then
+                            hasVeteranEffect = true;
+                            break;
+                        end;
+                    end;
+                    if not hasVeteranEffect then
+                        for k = 0, effectList:num_items() - 1 do
+                            local effect = effectList:item_at(k);
+                            if effect:record_key() == "idrinth_veteran_0" then
+                                cm:faction_purchase_unit_effect(faction, unit, effect);
+                                Idrinth.log("Added idrinth_veteran_0 to "..unitKey, "army");
+                                lockVeterans(faction, true);
+                                return;
+                            end;
                         end;
                     end;
                 end;
@@ -288,10 +300,10 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("UnitCreated", "army");
-        local faction = context:unit():faction();
+        local factionKey = context:unit():faction():name();
         local unitKey = context:unit():unit_key();
-        lockVeterans(faction, false);
-        cm:real_callback(applyVeteranRankToCreatedUnit(unitKey, faction), 150);
+        lockVeterans(context:unit():faction(), false);
+        cm:real_callback(applyVeteranRankToCreatedUnit(unitKey, factionKey), 200);
     end,
     true
 )
