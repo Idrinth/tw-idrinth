@@ -37,7 +37,10 @@ tw-idrinth/
 │   │   └── db/            # English strings
 │   ├── ui/                # User interface files (XML)
 │   │   └── idrinth/       # Mod-specific UI components
-│   └── variantmeshes/     # 3D mesh variants
+│   ├── variantmeshes/     # 3D mesh variants
+│   ├── dependencies_manager_v2.rpfm_reserved  # RPFM dependency config
+│   ├── notes.rpfm_reserved.md                 # RPFM project notes
+│   └── settings.rpfm_reserved.json            # RPFM project settings
 ├── idrinth-de/            # German language pack
 │   └── text/db/           # German translations
 ├── idrinth-es/            # Spanish language pack
