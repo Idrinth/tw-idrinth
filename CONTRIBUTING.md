@@ -27,24 +27,30 @@ Idrinth is a Total War: Warhammer III mod featuring "Idrinth Thalui," a unique c
 
 ```
 tw-idrinth/
-├── db/                    # Game database tables (TSV format)
-├── script/                # Lua scripts for mod logic
-│   ├── idrinth/           # Core mod modules
-│   ├── campaign/mod/      # Campaign initialization
-│   └── mct/settings/      # Mod Configuration Tool options
-├── text/                  # Localization files
-│   ├── db/                # English (source) strings
-│   ├── text_de/           # German translations
-│   ├── text_es/           # Spanish translations
-│   └── text_fr/           # French translations
-├── ui/                    # User interface files (XML)
-│   └── idrinth/           # Mod-specific UI components
-└── variantmeshes/         # 3D mesh variants
+├── idrinth/               # Main mod pack content
+│   ├── db/                # Game database tables (TSV format)
+│   ├── script/            # Lua scripts for mod logic
+│   │   ├── idrinth/       # Core mod modules
+│   │   ├── campaign/mod/  # Campaign initialization
+│   │   └── mct/settings/  # Mod Configuration Tool options
+│   ├── text/              # English localization (source)
+│   │   └── db/            # English strings
+│   ├── ui/                # User interface files (XML)
+│   │   └── idrinth/       # Mod-specific UI components
+│   └── variantmeshes/     # 3D mesh variants
+├── idrinth-de/            # German language pack
+│   └── text/db/           # German translations
+├── idrinth-es/            # Spanish language pack
+│   └── text/db/           # Spanish translations
+├── idrinth-fr/            # French language pack
+│   └── text/db/           # French translations
+└── idrinth-ru/            # Russian language pack
+    └── text/db/           # Russian translations
 ```
 
 ### Directory Details
 
-#### `db/` - Database Tables
+#### `idrinth/db/` - Database Tables
 
 Contains 180+ database tables in TSV (Tab-Separated Values) format. These define game mechanics:
 
@@ -57,7 +63,7 @@ Contains 180+ database tables in TSV (Tab-Separated Values) format. These define
 
 Each table folder contains TSV files that map directly to Total War's database schema.
 
-#### `script/` - Lua Scripts
+#### `idrinth/script/` - Lua Scripts
 
 The mod's core logic written in Lua (~3,900 lines across 25 modules):
 
@@ -89,18 +95,19 @@ The mod's core logic written in Lua (~3,900 lines across 25 modules):
 | `unlocks.lua` | Feature unlock system |
 | `version.lua` | Version tracking |
 
-#### `text/` - Localization
+#### `idrinth/text/` and `idrinth-{lang}/text/` - Localization
 
-Localization strings in TSV format with language-specific subdirectories:
+Localization strings in TSV format organized by language pack:
 
-- `db/` - English source strings (primary)
-- `text_de/` - German translations
-- `text_es/` - Spanish translations
-- `text_fr/` - French translations
+- `idrinth/text/db/` - English source strings (primary)
+- `idrinth-de/text/db/` - German translations
+- `idrinth-es/text/db/` - Spanish translations
+- `idrinth-fr/text/db/` - French translations
+- `idrinth-ru/text/db/` - Russian translations
 
-Each `.loc.tsv` file contains key-value pairs for UI text.
+Each `.loc.tsv` file contains key-value pairs for UI text. Language packs are separated into their own directories to allow independent distribution.
 
-#### `ui/` - User Interface
+#### `idrinth/ui/` - User Interface
 
 XML-based UI definitions using Total War's TWUI format:
 
@@ -158,28 +165,28 @@ There is no automated build process. To test changes:
 
 ## Making Changes
 
-### Database Tables (db/)
+### Database Tables (idrinth/db/)
 
 - Edit TSV files directly with a spreadsheet program or text editor
 - Maintain column headers exactly as they appear
 - Use tabs as separators (not spaces)
 - Reference Total War's schema documentation for field meanings
 
-### Lua Scripts (script/)
+### Lua Scripts (idrinth/script/)
 
 - Follow the existing event-driven architecture
 - Use the `Idrinth.*` namespace for all module code
 - Add new modules by:
-  1. Creating the file in `script/idrinth/`
-  2. Loading it in `script/campaign/mod/idrinth.lua`
+  1. Creating the file in `idrinth/script/idrinth/`
+  2. Loading it in `idrinth/script/campaign/mod/idrinth.lua`
 
-### UI Components (ui/)
+### UI Components (idrinth/ui/)
 
 - Use Total War's TWUI XML format
-- Place mod-specific components in `ui/idrinth/`
+- Place mod-specific components in `idrinth/ui/idrinth/`
 - Reference existing files for structure examples
 
-### Localization (text/)
+### Localization (idrinth/text/ and idrinth-{lang}/text/)
 
 See the [Localization](#localization) section below.
 
@@ -243,12 +250,13 @@ end, 0.5); -- Delay in seconds
 
 ### Adding Translations
 
-1. Create/edit files in the appropriate language directory:
-   - German: `text/text_de/`
-   - Spanish: `text/text_es/`
-   - French: `text/text_fr/`
+1. Create/edit files in the appropriate language pack directory:
+   - German: `idrinth-de/text/db/`
+   - Spanish: `idrinth-es/text/db/`
+   - French: `idrinth-fr/text/db/`
+   - Russian: `idrinth-ru/text/db/`
 
-2. Mirror the structure of English source files in `text/db/`
+2. Mirror the structure of English source files in `idrinth/text/db/`
 
 3. Use the same keys as the English source
 
@@ -264,8 +272,8 @@ idrinth_trait_desc	Translated Description	true
 
 ### Adding a New Language
 
-1. Create a new directory: `text/text_XX/` (where XX is the language code)
-2. Copy the structure from `text/db/`
+1. Create a new directory: `idrinth-XX/text/db/` (where XX is the language code)
+2. Copy the structure from `idrinth/text/db/`
 3. Translate all strings while keeping keys identical
 
 ## Submitting Changes
