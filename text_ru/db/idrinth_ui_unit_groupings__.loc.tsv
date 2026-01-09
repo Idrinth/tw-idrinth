@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/idrinth_ui_unit_groupings__.loc
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth	Вампир Высших Эльфов	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine	Святилище	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard	Стража Капеллы	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest	Жрец Капеллы	false
+
