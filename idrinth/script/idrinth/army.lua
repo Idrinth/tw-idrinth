@@ -273,10 +273,11 @@ end;
     "idrinth_army_UnitCreated",
     "UnitCreated",
     function(context)
-    if context then
-        return false;
-    end;
-        return context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_asuryan" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_kurnous" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_khaine" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" or context:unit():unit_key() == "idrinth_hev_high_elf_vampires_chapel_khaine_varghulf";
+        if context then
+            return false;
+        end;
+        local unitKey = context:unit():unit_key();
+        return (Idrinth.Unittypes.isPriest(unitKey) and Idrinth.Unittypes.isVampiric(unitKey)) or Idrinth.Unittypes.isEliteTroop(unitKey) or Idrinth.Unittypes.isVarghulf(unitKey);
     end,
     function(context)
         Idrinth.log("UnitCreated", "army");

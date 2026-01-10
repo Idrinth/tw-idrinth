@@ -31,7 +31,7 @@ core:add_listener(
             return false;
         end;
         local unitKey = context:unit():unit_key();
-        return unitKey == "idrinth_hev_high_elf_vampires_chapel_asuryan_leader" or unitKey == "idrinth_hev_high_elf_vampires_chapel_kurnous_leader" or unitKey == "idrinth_hev_high_elf_vampires_chapel_khaine_leader" or unitKey == "idrinth_hev_high_elf_vampires_chapel_great_eagle" or unitKey == "idrinth_hev_high_elf_vampires_chapel_asuryan" or unitKey == "idrinth_hev_high_elf_vampires_chapel_kurnous" or unitKey == "idrinth_hev_high_elf_vampires_chapel_khaine" or unitKey == "idrinth_hev_high_elf_vampires_chapel_mixed" or unitKey== "idrinth_hev_high_elf_vampires_chapel_cave_bats" or unitKey == "idrinth_hev_high_elf_vampires_chapel_hawks" or unitKey == "idrinth_hev_high_elf_vampires_chapel_wolves" or unitKey == "idrinth_hev_high_elf_vampires_chapel_outriders" or unitKey == "idrinth_hev_high_elf_vampires_chapel_stone_wolves" or unitKey == "idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" or unitKey == "idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" or unitKey == "idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire";
+        return Idrinth.Unittypes.isChapelUnit(unitKey) and not Idrinth.Unittypes.isVarghulf(unitKey) and not Idrinth.Unittypes.isHero(unitKey);
     end,
     function(context)
         Idrinth.log("UnitCreated", "renaming");
@@ -39,10 +39,10 @@ core:add_listener(
         local name = Idrinth.Names[cm:random_number(length)];
         local finalName = "";
         local unitKey = context:unit():unit_key();
-        if unitKey == "idrinth_hev_high_elf_vampires_chapel_asuryan_leader" or unitKey == "idrinth_hev_high_elf_vampires_chapel_kurnous_leader" or unitKey == "idrinth_hev_high_elf_vampires_chapel_khaine_leader" or unitKey == "idrinth_hev_high_elf_vampires_chapel_great_eagle" then
-            finalName = name;
-        elseif unitKey == "idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" or unitKey == "idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" or unitKey == "idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" then
+        if Idrinth.Unittypes.isPriest(unitKey) and Idrinth.Unittypes.isVampiric(unitKey) then
             finalName = name.." Thalui";
+        elseif Idrinth.Unittypes.isSingleEntity(unitKey) then
+            finalName = name;
         elseif string.ends_with(name, "s") then
             finalName = name .. "' " .. common.get_localised_string("land_units_onscreen_name_" .. unitKey);
         else
