@@ -11,6 +11,7 @@ Idrinth.Access = cm:load_global_script("script/idrinth/access");
 Idrinth.Cultures = cm:load_global_script("script/idrinth/cultures");
 Idrinth.Statistics = cm:load_global_script("script/idrinth/statistics");
 Idrinth.Ui = cm:load_global_script("script/idrinth/ui");
+Idrinth.Unittypes = cm:load_global_script("script/idrinth/unittypes");
 
 -- Event Listeners for specific topics
 cm:load_global_script("script/idrinth/settlementui");
