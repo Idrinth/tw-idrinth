@@ -39,10 +39,10 @@ core:add_listener(
         local name = Idrinth.Names[cm:random_number(length)];
         local finalName = "";
         local unitKey = context:unit():unit_key();
-        if (Idrinth.Unittypes.isSingleEntity(unitKey) and Idrinth.Unittypes.isBlessedAnimal(unitKey)) or (Idrinth.Unittypes.isPriest(unitKey) and not Idrinth.Unittypes.isVampiric(unitKey)) then
-            finalName = name;
-        elseif Idrinth.Unittypes.isPriest(unitKey) and Idrinth.Unittypes.isVampiric(unitKey) then
+        if Idrinth.Unittypes.isPriest(unitKey) and Idrinth.Unittypes.isVampiric(unitKey) then
             finalName = name.." Thalui";
+        elseif Idrinth.Unittypes.isPriest(unitKey) or (Idrinth.Unittypes.isSingleEntity(unitKey) and Idrinth.Unittypes.isBlessedAnimal(unitKey)) then
+            finalName = name;
         elseif string.ends_with(name, "s") then
             finalName = name .. "' " .. common.get_localised_string("land_units_onscreen_name_" .. unitKey);
         else
