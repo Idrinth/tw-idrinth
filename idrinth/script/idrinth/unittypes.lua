@@ -88,6 +88,23 @@ local vampiricUnits = {
     ["idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf"] = true,
 };
 
+local varghulfUnits = {
+    ["idrinth_hev_high_elf_vampires_chapel_khaine_varghulf"] = true,
+    ["idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf"] = true,
+    ["idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf"] = true,
+};
+
+local eliteTroopUnits = {
+    ["idrinth_hev_high_elf_vampires_chapel_asuryan"] = true,
+    ["idrinth_hev_high_elf_vampires_chapel_kurnous"] = true,
+    ["idrinth_hev_high_elf_vampires_chapel_khaine"] = true,
+};
+
+local heroUnits = {
+    ["idrinth_hef_high_elv_vampires_idrinthgeneral"] = true,
+    ["idrinth_hev_high_elf_vampires_idrinthchampion"] = true,
+};
+
 unittypes.isChapelUnit = function(unitKey)
     return chapelUnits[unitKey] == true;
 end;
@@ -114,6 +131,18 @@ end;
 
 unittypes.isVampiric = function(unitKey)
     return vampiricUnits[unitKey] == true;
+end;
+
+unittypes.isVarghulf = function(unitKey)
+    return varghulfUnits[unitKey] == true;
+end;
+
+unittypes.isEliteTroop = function(unitKey)
+    return eliteTroopUnits[unitKey] == true;
+end;
+
+unittypes.isHero = function(unitKey)
+    return heroUnits[unitKey] == true;
 end;
 
 return unittypes;
