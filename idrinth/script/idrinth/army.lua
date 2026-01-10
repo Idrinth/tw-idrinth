@@ -277,7 +277,7 @@ core:add_listener(
             return false;
         end;
         local unitKey = context:unit():unit_key();
-        return (Idrinth.Unittypes.isPriest(unitKey) and Idrinth.Unittypes.isVampiric(unitKey)) or Idrinth.Unittypes.isEliteTroop(unitKey) or Idrinth.Unittypes.isVarghulf(unitKey);
+        return Idrinth.Unittypes.isVampiric(unitKey) or Idrinth.Unittypes.isEliteTroop(unitKey);
     end,
     function(context)
         Idrinth.log("UnitCreated", "army");
