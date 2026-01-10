@@ -41,7 +41,7 @@ core:add_listener(
         local unitKey = context:unit():unit_key();
         if Idrinth.Unittypes.isPriest(unitKey) and Idrinth.Unittypes.isVampiric(unitKey) then
             finalName = name.." Thalui";
-        elseif Idrinth.Unittypes.isPriest(unitKey) or (Idrinth.Unittypes.isSingleEntity(unitKey) and Idrinth.Unittypes.isBlessedAnimal(unitKey)) then
+        elseif Idrinth.Unittypes.isSingleEntity(unitKey) then
             finalName = name;
         elseif string.ends_with(name, "s") then
             finalName = name .. "' " .. common.get_localised_string("land_units_onscreen_name_" .. unitKey);
