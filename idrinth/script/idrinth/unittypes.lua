@@ -18,7 +18,7 @@ local chapelUnits = {
     ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire"] = true,
     ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire"] = true,
     ["idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire"] = true,
-    ["idrinth_hef_high_elv_vampires_idrinthgeneral"] = true,
+    ["idrinth_hev_high_elf_vampires_idrinthgeneral"] = true,
     ["idrinth_hev_high_elf_vampires_idrinthchampion"] = true,
     ["idrinth_hev_high_elf_vampires_chapel_khaine_varghulf"] = true,
     ["idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf"] = true,
@@ -101,7 +101,7 @@ local eliteTroopUnits = {
 };
 
 local heroUnits = {
-    ["idrinth_hef_high_elv_vampires_idrinthgeneral"] = true,
+    ["idrinth_hev_high_elf_vampires_idrinthgeneral"] = true,
     ["idrinth_hev_high_elf_vampires_idrinthchampion"] = true,
 };
 
