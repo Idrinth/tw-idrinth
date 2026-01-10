@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_ancillaries__.loc
+#Loc;1;text/db/idrinth_ancillaries__.loc		
 ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	Талисман, благословлённый Кхейном, Кровавым Богом. Лишь немногие заслужили достаточно его милости, чтобы владеть подобным орудием от его имени. Засохшая кровь пульсирует древней силой, нашёптывая своему носителю обещания насилия.	false
 ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Доказанный боевой опыт.	false
 ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Талисман Засохшей Крови	false
@@ -30,4 +30,3 @@ ancillaries_onscreen_name_idrinth_anc_armour_asuryans_destiny	Доспехи С�
 ancillaries_explanation_text_idrinth_anc_books_secrets_of_shadow		false
 ancillaries_onscreen_name_idrinth_anc_books_secrets_of_shadow	Тайны Тени	false
 ancillaries_colour_text_idrinth_anc_books_secrets_of_shadow		false
-

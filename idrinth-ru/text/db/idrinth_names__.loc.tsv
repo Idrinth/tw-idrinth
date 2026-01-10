@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_names__.loc
+#Loc;1;text/db/idrinth_names__.loc		
 names_name_99990999999990	Идринт	false
 names_name_99990999999991	Талуи	false
 names_name_99990999999992	Рыцарь-Учёный	false
@@ -593,4 +593,3 @@ names_name_99991000000016	Рыцарь-Учёный	false
 names_name_99991000000017	Идринт	false
 names_name_99991000000018	Талуи	false
 names_name_99991000000019	Рыцарь-Учёный	false
-

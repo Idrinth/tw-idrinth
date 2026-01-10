@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text_es/db/idrinth_effects__.loc
+#Loc;1;text/db/idrinth_effects__.loc		
 effects_description_idrinth_effect_agent_action_assist_army_training	Acción [[col:yellow]]{{tr:agent_action_name_training}}[[/col]]: La ganancia de experiencia de la unidad aumenta en un %+n% adicional	false
 effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	Acción [[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]]: %+n% adicional de bajas infligidas	false
 effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	Acción [[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]]: %+n% adicional de probabilidad de éxito	false
@@ -74,5 +74,3 @@ effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Aumenta tus 
 effects_description_idrinth_chapel_beasts_upkeep	Disminuye el mantenimiento de las bestias de la Capilla Thaluiana en %+n%.	false
 effects_description_idrinth_enable_thalui_name	Este personaje ha jurado venganza eterna contra los poderes ruinosos y ha adoptado el nombre Thalui por ello.	false
 effects_description_idrinth_enable_knight_scholar_name	Este personaje es tanto un erudito como un caballero y es reconocido como tal en diferentes facciones.	false
-effects_description_idrinth_chapel_recruitment_speedup	La duración de reclutamiento para unidades de capilla se reduce en %+n turnos.	false
-effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Impide que los enemigos usen golpe relámpago contra esta fuerza.	false

@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_unit_abilities__.loc
+#Loc;1;text/db/idrinth_unit_abilities__.loc		
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding	Serment d'Endurance	false
 unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding		false
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded	Grand Serment d'Endurance	false
@@ -26,4 +26,3 @@ unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded	Gran
 unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded		false
 unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos	Pourfendeur des Puissances Ruineuses	false
 unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos	Spécialement formés contre les multiples ennemis des Puissances Ruineuses, ces guerriers sont exceptionnels au combat contre eux.	false
-

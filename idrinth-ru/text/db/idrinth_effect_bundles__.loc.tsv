@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_effect_bundles__.loc
+#Loc;1;text/db/idrinth_effect_bundles__.loc		
 effect_bundles_localised_description_idrinth_dilemma_empire_FIRST	Учёную очень интересовали старые войны. Обсуждение с Идринтом привело её к открытию тактики, полезной и сейчас.	false
 effect_bundles_localised_description_idrinth_dilemma_empire_SECOND	Учёная и Идринт обсудили магию, найдя небольшие улучшения для ваших магов.	false
 effect_bundles_localised_description_idrinth_dilemma_empire_THIRD	Вы спросили учёную об Идринте, узнав о его долгой войне против хаоса.	false
@@ -138,4 +138,3 @@ effect_bundles_localised_title_idrinth_veteran_8	Ветеран Смешанно
 effect_bundles_localised_description_idrinth_veteran_8	Ветеран Смешанной Стражи [[img:experience_8]]	false
 effect_bundles_localised_title_idrinth_veteran_9	Ветеран Смешанной Стражи [[img:experience_9]]	false
 effect_bundles_localised_description_idrinth_veteran_9	Ветеран Смешанной Стражи [[img:experience_9]]	false
-

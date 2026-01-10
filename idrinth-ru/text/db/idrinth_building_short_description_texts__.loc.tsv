@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_building_short_description_texts__.loc
+#Loc;1;text/db/idrinth_building_short_description_texts__.loc		
 building_short_description_texts_short_description_idrinth_hev_high_elf_vampires_chapel_0	Капелла для общины бродяг, изгнанников и искателей приключений эльфийского рода. Эти эльфы следуют по стопам Идринта как примеру того, как жить.	false
 building_short_description_texts_short_description_idrinth_hev_high_elf_vampires_chapel_1_asuryan	Капелла для общины бродяг, изгнанников и искателей приключений эльфийского рода. Эти эльфы следуют по стопам Идринта как примеру того, как жить во имя Асуриана.	false
 building_short_description_texts_short_description_idrinth_hev_high_elf_vampires_chapel_1_kurnous	Капелла для общины бродяг, изгнанников и искателей приключений эльфийского рода. Эти эльфы следуют по стопам Идринта как примеру того, как жить во имя Курноуса.	false
@@ -31,4 +31,3 @@ building_short_description_texts_short_description_idrinth_hev_high_elf_vampires
 building_short_description_texts_short_description_idrinth_hev_high_elf_vampires_tavern_1	Таверна, позволяющая как силам капеллы, так и союзникам отдохнуть после долгих дней.	false
 building_short_description_texts_short_description_idrinth_hev_high_elf_vampires_tavern_2	Большая таверна, позволяющая как силам капеллы, так и союзникам отдохнуть после долгих дней.	false
 building_short_description_texts_short_description_idrinth_hev_high_elf_vampires_library_2	Библиотека, собирающая эльфийские знания и проводящая исследования.	false
-

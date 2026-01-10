@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text_es/db/idrinth_dilemmas__.loc
+#Loc;1;text/db/idrinth_dilemmas__.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Un extraño encapuchado aparece una noche, ofreciendo su ayuda por una pequeña tarifa. ¿Aceptas la ayuda?	false
 dilemmas_localised_title_idrinth_unlock_choice	El Extraño	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Un mensajero elfo llega, buscando a un Idrinth. El Idrinth que conoces lo ha evitado hasta ahora, ¿quizás podrías ayudar?	false
@@ -32,6 +32,8 @@ dilemmas_localised_description_idrinth_dilemma_unlock_empire	He luchado y sangra
 dilemmas_localised_title_idrinth_dilemma_unlock_empire	Idrinth Thalui	false
 dilemmas_localised_description_idrinth_dilemma_unlock_vampire_counts	El extraño baja su capucha, revelando rasgos élficos. No soy amigo de la destrucción, pero nuestros enemigos forzaron mi mano. Guardando sus monedas declara: Volver a la familia después de muchos años cuando están en peligro es lo correcto, sin importar quién sea esa familia. ¿No estás de acuerdo?	false
 dilemmas_localised_title_idrinth_dilemma_unlock_vampire_counts	Idrinth Thalui	false
+dilemmas_localised_description_idrinth_dilemma_god_favour	Idrinth te informa de que sus dioses han decidido actuar para apoyar tu causa. Tus ejércitos serán más poderosos gracias a una bendición divina durante un tiempo.	false
+dilemmas_localised_title_idrinth_dilemma_god_favour	El Favor de los Dioses	false
 dilemmas_localised_description_idrinth_chapels_choice	¿Quieres habilitar las Capillas Thaluianas para tu campaña? Ofrecen defensas y opciones adicionales en comparación con solo tener al héroe.	false
 dilemmas_localised_description_idrinth_levelMinimum_choice	Para reclutar a Idrinth Thalui, el Caballero-Erudito, necesitarás tener un general con un nivel mínimo. ¿Qué tan temprano quieres poder reclutarlo?	false
 dilemmas_localised_title_idrinth_story_choice	Eventos de Historia	false

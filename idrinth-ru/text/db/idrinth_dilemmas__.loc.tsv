@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_dilemmas__.loc
+#Loc;1;text/db/idrinth_dilemmas__.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Однажды ночью появляется незнакомец в капюшоне, предлагающий свою помощь за небольшую плату. Вы примете помощь?	false
 dilemmas_localised_title_idrinth_unlock_choice	Незнакомец	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Прибывает эльфийский посланник, ищущий некоего Идринта. Идринт, которого вы знаете, до сих пор избегал его. Может, вы могли бы помочь?	false
@@ -84,4 +84,3 @@ dilemmas_localised_description_idrinth_dilemma_unlock_nagash	Капюшон не
 dilemmas_localised_title_idrinth_dilemma_unlock_nagash	Идринт Талуи	false
 dilemmas_localised_description_idrinth_dilemma_unlock_vampire_coast	Незнакомец сбрасывает свой просоленный плащ, открывая эльфийские черты и древние доспехи. "Я плавал по морям темнее этих," — замечает он, глядя на шаркающую команду без отвращения. "Кровь есть кровь, взята ли она на суше или воде." Он достаёт кошелёк с платой, взвешивая его задумчиво. "Вы охотитесь, вы грабите, вы выживаете. Я уважаю это." Понимающая улыбка пересекает его бледное лицо. "И подозреваю, ваши капитаны понимают — бессмертие меняет взгляд на... всё."	false
 dilemmas_localised_title_idrinth_dilemma_unlock_vampire_coast	Идринт Талуи	false
-

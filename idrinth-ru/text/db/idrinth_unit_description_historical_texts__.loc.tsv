@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_unit_description_historical_texts__.loc
+#Loc;1;text/db/idrinth_unit_description_historical_texts__.loc		
 unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth	Клинки, взмахиваемые с эльфийской элегантностью и вампирской мощью, луки, стреляющие с эльфийской точностью и вампирской силой. Эти создания вселяют страх в большинство сердец.	false
 unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan	Эти отчаянные изгнанники, искатели приключений и наёмники защищают святилище Асуриана.	false
 unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous	Эти отчаянные изгнанники, искатели приключений и наёмники защищают святилище Курноуса.	false
@@ -17,4 +17,3 @@ unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khai
 unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf	Эти неудавшиеся вампиры были прежде жрецами Кхейна.	false
 unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf	Эти неудавшиеся вампиры были прежде жрецами Курноуса.	false
 unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf	Эти неудавшиеся вампиры были прежде жрецами Асуриана.	false
-

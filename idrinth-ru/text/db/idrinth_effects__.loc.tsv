@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_effects__.loc
+#Loc;1;text/db/idrinth_effects__.loc		
 effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] действие: Получение опыта отрядами увеличивается дополнительно на %+n%	false
 effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] действие: Дополнительно %+n% нанесённых потерь	false
 effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] действие: Дополнительно %+n% шанс успеха	false
@@ -76,4 +76,3 @@ effects_description_idrinth_enable_thalui_name	Этот персонаж пок�
 effects_description_idrinth_enable_knight_scholar_name	Этот персонаж является и учёным, и рыцарем, и признан таковым разными фракциями.	false
 effects_description_idrinth_chapel_recruitment_speedup	Время вербовки отрядов капеллы сокращено на %+n ходов.	false
 effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Не позволяет врагам использовать молниеносный удар против этой армии.	false
-

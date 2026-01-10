@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_cdir_events_dilemma_choice_details__.loc
+#Loc;1;text/db/idrinth_cdir_events_dilemma_choice_details__.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Accepter l'aide. (Preux)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Accepter l'aide. (Général)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Chasser l'estranger.	false
@@ -69,4 +69,3 @@ cdir_events_dilemma_choice_details_localised_choice_label_idrinth_dilemma_unlock
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_dilemma_unlock_cathayFIRST	Puisse-t-il maintenir l'équilibre.	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_dilemma_unlock_bretonniaFIRST	Que la Dame nous pardonne.	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_dilemma_unlock_vampire_coastFIRST	Qu'il y ait butin.	false
-

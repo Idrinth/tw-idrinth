@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_uied_component_texts__.loc
+#Loc;1;text/db/idrinth_uied_component_texts__.loc		
 uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b	Derzeit Aktiv	false
 uied_component_texts_localised_string_Idrinth_StateText_5e2400a	Idrinths Pfade-Benachrichtigungen für diesen Charakter ausschalten	false
 uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9	Idrinths Hingabe	false
@@ -23,4 +23,3 @@ uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe	PLATZHALTER 22	
 uied_component_texts_localised_string_Idrinth_StateText_b7030818	PLATZHALTER 23	false
 uied_component_texts_localised_string_Idrinth_StateText_b68b4233	PLATZHALTER 24	false
 uied_component_texts_localised_string_Idrinth_StateText_b3139611	PLATZHALTER 25	false
-

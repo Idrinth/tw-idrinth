@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_dilemmas__.loc
+#Loc;1;text/db/idrinth_dilemmas__.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Un étranger encapuchonné apparaît une nuit, offrant son aide pour une modique somme. Acceptez-vous son aide ?	false
 dilemmas_localised_title_idrinth_unlock_choice	L'Étranger	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Un messager elfique arrive, cherchant un certain Idrinth. L'Idrinth que vous connaissez l'a évité jusqu'ici, peut-être pourriez-vous aider ?	false
@@ -84,4 +84,3 @@ dilemmas_localised_description_idrinth_dilemma_unlock_nagash	La capuche de l'ét
 dilemmas_localised_title_idrinth_dilemma_unlock_nagash	Idrinth Thalui	false
 dilemmas_localised_description_idrinth_dilemma_unlock_vampire_coast	L'étranger se défait de sa cape tachée de sel, révélant des traits elfiques et une armure ancienne en dessous. « J'ai navigué sur des mers plus sombres que celles-ci », remarque-t-il, regardant l'équipage chancelant sans dégoût. « Le sang est le sang, qu'il soit pris sur terre ou sur l'eau. » Il sort sa bourse de paiement, la soupesant pensivement. « Vous chassez, vous pillez, vous survivez. Je respecte cela. » Un sourire entendu traverse son visage pâle. « Et je soupçonne que vos capitaines comprennent — l'immortalité change la perspective sur... tout. »	false
 dilemmas_localised_title_idrinth_dilemma_unlock_vampire_coast	Idrinth Thalui	false
-

@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_building_chains__.loc
+#Loc;1;text/db/idrinth_building_chains__.loc		
 building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel	Эльфийская Общинная Капелла	false
 building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel	Капелла для небольшой общины эльфийских изгнанников, искателей приключений и бродяг.	false
 building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel	Эльфийская Общинная Капелла	false
@@ -13,4 +13,3 @@ building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader	Э�
 building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters	Ремесленный Квартал	false
 building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern	Эльфийская Таверна	false
 building_culture_variants_name_idrinth_hev_high_elf_vampires_library	Эльфийская Библиотека	false
-

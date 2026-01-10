@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text_es/db/idrinth_effect_bundles__.loc
+#Loc;1;text/db/idrinth_effect_bundles__.loc		
 effect_bundles_localised_description_idrinth_dilemma_empire_FIRST	La erudita estaba muy interesada en guerras antiguas. La discusión con Idrinth la guió a descubrir tácticas que también son útiles ahora.	false
 effect_bundles_localised_description_idrinth_dilemma_empire_SECOND	La erudita e Idrinth discutieron sobre magia, encontrando algunas pequeñas mejoras para que tus magos implementen.	false
 effect_bundles_localised_description_idrinth_dilemma_empire_THIRD	Preguntaste a la erudita sobre Idrinth, aprendiendo sobre su larga guerra contra el caos.	false
@@ -118,23 +118,3 @@ effect_bundles_localised_title_idrinth_hev_high_elf_vampires_anti_chaos	Bendici�
 effect_bundles_localised_description_idrinth_hev_high_elf_vampires_anti_chaos	Tus dioses empoderan a las fuerzas de la Capilla Thaluiana contra todos los seguidores de los poderes ruinosos.	false
 effect_bundles_localised_title_idrinth_chapel_slots_present	Espacio de Capilla Thaluiana	false
 effect_bundles_localised_description_idrinth_chapel_slots_present	Este asentamiento contiene un área que ha sido santificada por Asuryan, Khaine y Kurnous y podría albergar un Complejo de Capilla Thaluiana.	false
-effect_bundles_localised_title_idrinth_veteran_0	Reclutas Inexpertos	false
-effect_bundles_localised_description_idrinth_veteran_0	Reclutas Inexpertos	false
-effect_bundles_localised_title_idrinth_veteran_1	Reclutas de la Guardia Mixta [[img:experience_1]]	false
-effect_bundles_localised_description_idrinth_veteran_1	Reclutas de la Guardia Mixta [[img:experience_1]]	false
-effect_bundles_localised_title_idrinth_veteran_2	Reclutas de la Guardia Mixta [[img:experience_2]]	false
-effect_bundles_localised_description_idrinth_veteran_2	Reclutas de la Guardia Mixta [[img:experience_2]]	false
-effect_bundles_localised_title_idrinth_veteran_3	Reclutas de la Guardia Mixta [[img:experience_3]]	false
-effect_bundles_localised_description_idrinth_veteran_3	Reclutas de la Guardia Mixta [[img:experience_3]]	false
-effect_bundles_localised_title_idrinth_veteran_4	Soldados de la Guardia Mixta [[img:experience_4]]	false
-effect_bundles_localised_description_idrinth_veteran_4	Soldados de la Guardia Mixta [[img:experience_4]]	false
-effect_bundles_localised_title_idrinth_veteran_5	Soldados de la Guardia Mixta [[img:experience_5]]	false
-effect_bundles_localised_description_idrinth_veteran_5	Soldados de la Guardia Mixta [[img:experience_5]]	false
-effect_bundles_localised_title_idrinth_veteran_6	Soldados de la Guardia Mixta [[img:experience_6]]	false
-effect_bundles_localised_description_idrinth_veteran_6	Soldados de la Guardia Mixta [[img:experience_6]]	false
-effect_bundles_localised_title_idrinth_veteran_7	Veteranos de la Guardia Mixta [[img:experience_7]]	false
-effect_bundles_localised_description_idrinth_veteran_7	Veteranos de la Guardia Mixta [[img:experience_7]]	false
-effect_bundles_localised_title_idrinth_veteran_8	Veteranos de la Guardia Mixta [[img:experience_8]]	false
-effect_bundles_localised_description_idrinth_veteran_8	Veteranos de la Guardia Mixta [[img:experience_8]]	false
-effect_bundles_localised_title_idrinth_veteran_9	Veteranos de la Guardia Mixta [[img:experience_9]]	false
-effect_bundles_localised_description_idrinth_veteran_9	Veteranos de la Guardia Mixta [[img:experience_9]]	false

@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_agent_actions__.loc
+#Loc;1;text/db/idrinth_agent_actions__.loc		
 agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	[[col:yellow]]Accroît le gain d'expérience de %n% pour les unités servant en l'ost paternel.[[/col]]	false
 agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	[[col:yellow]]Occit le [[img:icon_hero]][[/img]]Preux ciblé.[[/col]]	false
 agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	[[col:yellow]]Inflige dommages à toutes les unités de l'ost ciblé.[[/col]]	false
@@ -12,4 +12,3 @@ agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth
 agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_passive_stimulate_growth	Amoindrit la [[img:icon_growth]][[/img]]croissance	false
 agent_actions_localised_action_description_idrinth_hev_high_elf_vampires_idrinth_passive_spread_public_order	[[col:yellow]]Accroît l'[[img:icon_public_order]][[/img]]Ordre publique de %n en la province locale.[[/col]]	false
 agent_actions_localised_action_name_idrinth_hev_high_elf_vampires_idrinth_passive_spread_public_order	Accroît l'[[img:icon_public_order]][[/img]]Ordre publique	false
-
