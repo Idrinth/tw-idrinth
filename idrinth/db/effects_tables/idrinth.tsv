@@ -92,4 +92,4 @@ idrinth_hev_high_elf_vampires_anti_chaos_enable	thalui.png	1	thalui.png	both	tru
 idrinth_hev_high_elf_vampires_anti_chaos_disable	thalui.png	2	thalui.png	both	false
 idrinth_chapel_slots_present	thalui.png	1	thalui.png	campaign	true
 idrinth_chapel_recruitment_speedup	thalui.png	11	thalui.png	campaign	false
-idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	subterfuge.png	8	subterfuge.png	campaign	false
+idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	subterfuge.png	12	subterfuge.png	campaign	false

@@ -100,6 +100,7 @@ local upgradeUnit = function(god)
         return;
     end;
     local factionKey = character:faction():name();
+    local pooledResourceManager = character:faction():pooled_resource_manager();
     for i = 1, units:ChildCount() do
         local unit = UIComponent(units:Find(i));
         if unit and (unit:CurrentState() == "selected_hover" or unit:CurrentState() == "selected") then
@@ -107,10 +108,12 @@ local upgradeUnit = function(god)
             if id then
                 local currentType = common.get_context_value("CcoCampaignUnit", id, "UnitRecordContext.Key");
                 local currentRank = common.get_context_value("CcoCampaignUnit", id, "ExperienceLevel");
-                if currentType == "idrinth_hev_high_elf_vampires_chapel_mixed" and character:faction():treasury() >= 300 then
+                local price = 300 + 50 * currentRank;
+                if currentType == "idrinth_hev_high_elf_vampires_chapel_mixed" and character:faction():treasury() >= price then
                     common.call_context_command("CcoCampaignUnit", id, "Disband");
                     cm:grant_unit_to_character(cm:char_lookup_str(character), "idrinth_hev_high_elf_vampires_chapel_"..god);
-                    cm:treasury_mod(factionKey, -300);
+                    cm:treasury_mod(factionKey, 0 - price);
+                    cm:faction_add_pooled_resource(factionKey, "idrinth_"..god, "idrinth_"..god.."_other", currentRank * currentRank);
                     cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god, currentRank), 150);
                     return;
                 end;
