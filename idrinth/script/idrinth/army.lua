@@ -44,6 +44,9 @@ local lockVeterans = function(faction, lock)
         );
     end;
 end;
+local lockAnimalBlessings = function(faction, lock)
+    -- todo
+end;
 local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
     return function()
         Idrinth.log("applyVeteranRankToNewUnit", "army");
@@ -66,30 +69,6 @@ local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
                         return;
                     end;
                 end;
-            end;
-        end;
-    end;
-end;
-local displayWAAAGHUpradePanel = function(blessingsPanel)
-    if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
-        set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
-        return;
-    end;
-    local landUnitCard = Idrinth.Ui.findElementWithin(blessingsPanel, "scrap_upgrades_list_box", "unit_card_parent", "land_unit_card");
-    local upgrades = Idrinth.Ui.findElementWithin(blessingsPanel, "scrap_upgrades_list_box", "scrap_upgrades_parent", "list_clip", "list_box");
-    local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
-    local selectedType = "";
-    for i = 1, units:ChildCount() do
-        local unit = UIComponent(units:Find(i));
-        if unit and unit:CurrentState() == "selected" then
-            local ccoCampaignUnit = unit:GetContextObject("CcoCampaignUnit");
-            local currentType = common.get_context_value("CcoCampaignUnit", unit:GetContextObjectId("CcoCampaignUnit"), "CcoMainUnit.Key");
-            landUnitCard:SetContextObject(ccoCampaignUnit);
-            upgrades:SetContextObject(ccoCampaignUnit);
-            if selectedType == "" then
-                selectedType = currentType;
-            elseif selectedType ~= currentType then
-                unit:SetState("active");
             end;
         end;
     end;
@@ -202,6 +181,9 @@ local handleUpgradeButtons = function()
     local asuryanTroopsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_asuryan_troops", buttonWrapper, "idrinth_button_upgrade_asuryan");
     local khaineTroopsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_khaine_troops", buttonWrapper, "idrinth_button_upgrade_khaine");
     local kurnousTroopsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_kurnous_troops", buttonWrapper, "idrinth_button_upgrade_kurnous");
+    local asuryanAnimalsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_asuryan_animals", buttonWrapper, "idrinth_button_upgrade_asuryan");
+    local khaineAnimalsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_khaine_animals", buttonWrapper, "idrinth_button_upgrade_khaine");
+    local kurnousAnimalsUpgrade = Idrinth.Ui.createOrFind("idrinth_button_upgrade_kurnous_animals", buttonWrapper, "idrinth_button_upgrade_kurnous");
     Idrinth.log("UI built", "army");
     asuryanPriestUpgrade:SetVisible(false);
     khainePriestUpgrade:SetVisible(false);
@@ -209,6 +191,9 @@ local handleUpgradeButtons = function()
     asuryanTroopsUpgrade:SetVisible(false);
     khaineTroopsUpgrade:SetVisible(false);
     kurnousTroopsUpgrade:SetVisible(false);
+    asuryanAnimalsUpgrade:SetVisible(false);
+    khaineAnimalsUpgrade:SetVisible(false);
+    kurnousAnimalsUpgrade:SetVisible(false);
     if selectedType == "idrinth_hev_high_elf_vampires_chapel_asuryan_leader" then
         asuryanPriestUpgrade:SetVisible(true);
         setTooltip(asuryanPriestUpgrade, "upgrade_tooltips_idrinth_priest_asuryan");
@@ -225,48 +210,34 @@ local handleUpgradeButtons = function()
         setTooltip(khaineTroopsUpgrade, "upgrade_tooltips_idrinth_unit_khaine");
         kurnousTroopsUpgrade:SetVisible(true);
         setTooltip(kurnousTroopsUpgrade, "upgrade_tooltips_idrinth_unit_kurnous");
-    end;
-end;
-local enableWAAAGHUpgrades = function()
-    if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
-        return;
-    end;
-    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
-    local idrinth = Idrinth.Access.get();
-    if character == idrinth then
-        local parent = Idrinth.Ui.findElementWithin("hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
-        if not parent then
-            return;
-        end;
-        Idrinth.Ui.createOrFind("idrinth_units_panel_blessings_button", parent);
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button");
-        set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "tabgroup", "tab_horde_buildings");
-        set_component_visible_with_parent(false, core:get_ui_root(), "units_panel", "main_units_panel", "unit_count_frame_holder", "frame");
-        set_component_visible_with_parent(true, core:get_ui_root(), "units_panel", "main_units_panel", "icon_list", "dy_upkeep");
-        local dyTxt = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "header", "button_focus", "dy_txt");
-        if dyTxt then
-            dyTxt:SetText("Knight-Scholar Idrinth Thalui");
-        end;
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "horde_growth");
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "character_info_parent", "equipment");
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "character_info_parent", "subpanel_effect_bundles");
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "info_panel_holder", "primary_info_panel_holder", "info_panel_background", "CharacterInfoPopup", "character_info_parent", "rank");
-    end;
-end;
-local enableArmyUpgrades = function()
-    if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
-        return;
-    end;
-    set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button");
-    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
-    local idrinth = Idrinth.Access.get();
-    if character == idrinth then
-        local parent = Idrinth.Ui.findElementWithin("hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
-        if not parent then
-            return;
-        end;
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel");
-        set_component_visible_with_parent(true, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army");
+    elseif selectedType == "idrinth_hev_high_elf_vampires_chapel_wolves" then
+        asuryanAnimalsUpgrade:SetVisible(true);
+        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_asuryan_wolves");
+        khaineAnimalsUpgrade:SetVisible(true);
+        setTooltip(khaineAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_khaine_wolves");
+        kurnousAnimalsUpgrade:SetVisible(true);
+        setTooltip(kurnousAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_kurnous_wolves");
+    elseif selectedType == "idrinth_hev_high_elf_vampires_chapel_cave_bats" then
+        asuryanAnimalsUpgrade:SetVisible(true);
+        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_asuryan_bats");
+        khaineAnimalsUpgrade:SetVisible(true);
+        setTooltip(khaineAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_khaine_bats");
+        kurnousAnimalsUpgrade:SetVisible(true);
+        setTooltip(kurnousAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_kurnous_bats");
+    elseif selectedType == "idrinth_hev_high_elf_vampires_chapel_hawks" then
+        asuryanAnimalsUpgrade:SetVisible(true);
+        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_asuryan_hawks");
+        khaineAnimalsUpgrade:SetVisible(true);
+        setTooltip(khaineAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_khaine_hawks");
+        kurnousAnimalsUpgrade:SetVisible(true);
+        setTooltip(kurnousAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_kurnous_hawks");
+    elseif selectedType == "idrinth_hev_high_elf_vampires_chapel_great_eagle" then
+        asuryanAnimalsUpgrade:SetVisible(true);
+        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_asuryan_eagle");
+        khaineAnimalsUpgrade:SetVisible(true);
+        setTooltip(khaineAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_khaine_eagle");
+        kurnousAnimalsUpgrade:SetVisible(true);
+        setTooltip(kurnousAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_kurnous_eagle");
     end;
 end;
 core:add_listener(
@@ -277,7 +248,7 @@ core:add_listener(
             return false;
         end;
         local unitKey = context:unit():unit_key();
-        return Idrinth.Unittypes.isVampiric(unitKey) or Idrinth.Unittypes.isEliteTroop(unitKey);
+        return Idrinth.Unittypes.isVampiric(unitKey) or Idrinth.Unittypes.isEliteTroop(unitKey) or Idrinth.Unittypes.isEnlargedEliteTroop(unitKey);
     end,
     function(context)
         Idrinth.log("UnitCreated", "army");
@@ -311,65 +282,12 @@ core:add_listener(
     true
 );
 core:add_listener(
-    "idrinth_army_ComponentLClickUp",
-    "ComponentLClickUp",
-    function(context)
-        return context.string == "tab_transported_army";
-    end,
-    function(context)
-        Idrinth.log("ComponentLClickUp", "army");
-        Idrinth.Ui.nowAndThen(enableWAAAGHUpgrades);
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_2",
-    "ComponentLClickUp",
-    function(context)
-        return context.string == "tab_army";
-    end,
-    function(context)
-        Idrinth.log("ComponentLClickUp", "army");
-        Idrinth.Ui.nowAndThen(enableArmyUpgrades);
-        Idrinth.Ui.nowAndThen(handleUpgradeButtons);
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_3",
-    "ComponentLClickUp",
-    function(context)
-        return context.string == "idrinth_units_panel_blessings_button";
-    end,
-    function(context)
-        Idrinth.log("ComponentLClickUp", "army");
-        local blessingsPanel = Idrinth.Ui.createOrFind("idrinth_units_panel_blessings", core:get_ui_root());
-        if blessingsPanel:Visible() then
-            set_component_visible_with_parent(false, core:get_ui_root(), "idrinth_units_panel_blessings");
-            return;
-        end;
-        set_component_visible_with_parent(true, core:get_ui_root(), "idrinth_units_panel_blessings");
-        blessingsPanel:SetDockOffset(0, -275);-- 275 up
-        Idrinth.Ui.nowAndThen(function()
-            displayWAAAGHUpradePanel(blessingsPanel);
-        end);
-    end,
-    true
-);
-core:add_listener(
     "idrinth_army_ComponentLClickUp_4",
     "ComponentLClickUp",
     true,
     function(context)
         Idrinth.log("ComponentLClickUp", "army");
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
-        local blessingsPanel = Idrinth.Ui.findElementWithin("idrinth_units_panel_blessings");
-        if not blessingsPanel or not blessingsPanel:Visible() then
-            return;
-        end;
-        Idrinth.Ui.nowAndThen(function()
-            displayWAAAGHUpradePanel(blessingsPanel);
-        end);
     end,
     true
 );
@@ -447,7 +365,6 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("PanelOpenedCampaign", "army");
-        set_component_visible_with_parent(false, core:get_ui_root(), "hud_campaign", "hud_center_docker", "hud_center", "small_bar", "button_subpanel_parent", "button_subpanel", "button_group_army", "idrinth_units_panel_blessings_button");
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
     end,
     true
@@ -455,5 +372,6 @@ core:add_listener(
 cm:add_first_tick_callback(                                                                       
     function()
         lockVeterans(cm:get_local_faction(), true);
+        lockAnimalBlessings(cm:get_local_faction(), true);
     end
 );
