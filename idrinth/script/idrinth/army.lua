@@ -44,8 +44,56 @@ local lockVeterans = function(faction, lock)
         );
     end;
 end;
+local godFavourBlessings = {
+    idrinth_hev_high_elf_vampires_chapel_cave_bats = {
+        asuryan = "idrinth_asuryan_god_favour_cave_bats",
+        kurnous = "idrinth_kurnous_god_favour_cave_bats",
+        khaine = "idrinth_khaine_god_favour_cave_bats",
+    },
+    idrinth_hev_high_elf_vampires_chapel_wolves = {
+        asuryan = "idrinth_asuryan_god_favour_wolves",
+        kurnous = "idrinth_kurnous_god_favour_wolves",
+        khaine = "idrinth_khaine_god_favour_wolves",
+    },
+    idrinth_hev_high_elf_vampires_chapel_hawks = {
+        asuryan = "idrinth_asuryan_god_favour_hawks",
+        kurnous = "idrinth_kurnous_god_favour_hawks",
+        khaine = "idrinth_khaine_god_favour_hawks",
+    },
+    idrinth_hev_high_elf_vampires_chapel_great_eagle = {
+        asuryan = "idrinth_asuryan_god_favour_great_eagles",
+        kurnous = "idrinth_kurnous_god_favour_great_eagles",
+        khaine = "idrinth_khaine_god_favour_great_eagles",
+    },
+};
 local lockAnimalBlessings = function(faction, lock)
-    -- todo
+    if lock then
+        cm:callback(
+            function()
+                for _, blessings in pairs(godFavourBlessings) do
+                    for _, blessing in pairs(blessings) do
+                        cm:faction_set_unit_purchasable_effect_lock_state(
+                            faction,
+                            blessing,
+                            "",
+                            true
+                        );
+                    end;
+                end;
+            end,
+            1
+        );
+    end;
+    for _, blessings in pairs(godFavourBlessings) do
+        for _, blessing in pairs(blessings) do
+            cm:faction_set_unit_purchasable_effect_lock_state(
+                faction,
+                blessing,
+                "",
+                false
+            );
+        end;
+    end;
 end;
 local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
     return function()
@@ -94,6 +142,52 @@ local upgradeUnit = function(god)
                     cm:treasury_mod(factionKey, 0 - price);
                     cm:faction_add_pooled_resource(factionKey, "idrinth_"..god, "idrinth_"..god.."_other", currentRank * currentRank);
                     cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god, currentRank), 150);
+                    return;
+                end;
+            end;
+        end;
+    end;
+end;
+local upgradeAnimal = function(god)
+    local units, character, uiIds = getSelectedUnitsInfo();
+    if not units then
+        return;
+    end;
+    local factionKey = character:faction():name();
+    local pooledResourceManager = character:faction():pooled_resource_manager();
+    for i = 1, units:ChildCount() do
+        local unit = UIComponent(units:Find(i));
+        if unit and (unit:CurrentState() == "selected_hover" or unit:CurrentState() == "selected") then
+            local id = unit:GetContextObjectId("CcoCampaignUnit");
+            if id then
+                local currentType = common.get_context_value("CcoCampaignUnit", id, "UnitRecordContext.Key");
+                if godFavourBlessings[currentType] and godFavourBlessings[currentType][god] then
+                    lockAnimalBlessings(character:faction(), false);
+                    common.call_context_command("CcoCampaignUnit", id, "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \""..godFavourBlessings[currentType][god].."\"))");
+                    lockAnimalBlessings(character:faction(), true);
+                    return;
+                end;
+            end;
+        end;
+    end;
+end;
+local upgradeAnimal = function(god)
+    local units, character, uiIds = getSelectedUnitsInfo();
+    if not units then
+        return;
+    end;
+    local factionKey = character:faction():name();
+    local pooledResourceManager = character:faction():pooled_resource_manager();
+    for i = 1, units:ChildCount() do
+        local unit = UIComponent(units:Find(i));
+        if unit and (unit:CurrentState() == "selected_hover" or unit:CurrentState() == "selected") then
+            local id = unit:GetContextObjectId("CcoCampaignUnit");
+            if id then
+                local currentType = common.get_context_value("CcoCampaignUnit", id, "UnitRecordContext.Key");
+                if godFavourBlessings[currentType] and godFavourBlessings[currentType][god] then
+                    lockAnimalBlessings(character:faction(), false);
+                    common.call_context_command("CcoCampaignUnit", id, "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \""..godFavourBlessings[currentType][god].."\"))");
+                    lockAnimalBlessings(character:faction(), true);
                     return;
                 end;
             end;
@@ -151,7 +245,7 @@ local handleUpgradeButtons = function()
     end;
     local selectedType = "";
     local hasMultipleTypes = false;
-    for i = 1, units:ChildCount() do
+    for i = 0, units:ChildCount() - 1 do
         local unit = UIComponent(units:Find(i));
         if unit and (unit:CurrentState() == "selected_hover" or unit:CurrentState() == "selected") then
             local id = unit:GetContextObjectId("CcoCampaignUnit");
@@ -162,6 +256,22 @@ local handleUpgradeButtons = function()
                         selectedType = currentType;
                     elseif selectedType ~= currentType then
                         hasMultipleTypes = true;
+                    end;
+                end;
+            end;
+        end;
+        if unit then
+            local id = unit:GetContextObjectId("CcoCampaignUnit");
+            if id then
+                local currentType = common.get_context_value("CcoCampaignUnit", id, "UnitRecordContext.Key");
+                if Idrinth.Unittypes.isBlessedAnimal(currentType) then
+                    local icon = UIComponent(UIComponent(unit:Find("card_image_holder")):Find("upgrade_effect_icon"));
+                    local waaagh = UIComponent(UIComponent(unit:Find("card_image_holder")):Find("waaagh_unit_marker"));
+                    waaagh:SetVisible(false);
+                    local hasNoEffect = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.IsEmpty")
+                    if not hasNoEffect then
+                        icon:SetVisible(true);
+                        icon:SetImagePath(common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.At(0).EffectBundleContext.IconPath"));
                     end;
                 end;
             end;
@@ -281,6 +391,35 @@ core:add_listener(
     end,
     true
 );
+local buttonMap = {
+    idrinth_button_upgrade_asuryan_troops = function()
+        upgradeUnit("asuryan");
+    end,
+    idrinth_button_upgrade_khaine_troops = function()
+        upgradeUnit("khaine");
+    end,
+    idrinth_button_upgrade_kurnous_troops = function()
+        upgradeUnit("kurnous");
+    end,
+    idrinth_button_upgrade_asuryan_priest = function()
+        upgradePriest("asuryan");
+    end,
+    idrinth_button_upgrade_khaine_priest = function()
+        upgradePriest("khaine");
+    end,
+    idrinth_button_upgrade_kurnous_priest = function()
+        upgradePriest("kurnous");
+    end,
+    idrinth_button_upgrade_asuryan_animals = function()
+        upgradeAnimal("asuryan");
+    end,
+    idrinth_button_upgrade_khaine_animals = function()
+        upgradeAnimal("khaine");
+    end,
+    idrinth_button_upgrade_kurnous_animals = function()
+        upgradeAnimal("kurnous");
+    end,
+}
 core:add_listener(
     "idrinth_army_ComponentLClickUp_4",
     "ComponentLClickUp",
@@ -288,72 +427,9 @@ core:add_listener(
     function(context)
         Idrinth.log("ComponentLClickUp", "army");
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_5",
-    "ComponentLClickUp",
-    function(context)
-        return context.string == "idrinth_button_upgrade_kurnous_troops"
-    end,
-    function(context)
-        upgradeUnit("kurnous");
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_6",
-    "ComponentLClickUp",
-    function(context)
-        return context.string == "idrinth_button_upgrade_asuryan_troops"
-    end,
-    function(context)
-        upgradeUnit("asuryan");
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_7",
-    "ComponentLClickUp",
-    function(context)
-        return context.string == "idrinth_button_upgrade_khaine_troops"
-    end,
-    function(context)
-        upgradeUnit("khaine");
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_8",
-    "ComponentLClickUp",
-    function(context)
-        return context.string == "idrinth_button_upgrade_kurnous_priest"
-    end,
-    function(context)
-        upgradePriest("kurnous");
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_9",
-    "ComponentLClickUp",
-    function(context)
-        return context.string == "idrinth_button_upgrade_asuryan_priest"
-    end,
-    function(context)
-        upgradePriest("asuryan");
-    end,
-    true
-);
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_10",
-    "ComponentLClickUp",
-    function(context)
-        return context.string == "idrinth_button_upgrade_khaine_priest"
-    end,
-    function(context)
-        upgradePriest("khaine");
+        if context.string and buttonMap[context.string] then
+            buttonMap[context.string]()
+        end;
     end,
     true
 );
