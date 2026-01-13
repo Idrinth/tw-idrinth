@@ -26,8 +26,11 @@ idrinth_chapel_kurnous_range	kurnous.png	6	kurnous.png	campaign	true
 idrinth_chapel_asuryan_ward_save	asuryan.png	7	asuryan.png	campaign	true
 idrinth_effect_agent_action_enable_passive_spread_public_order	public_order.png	4	public_order.png	campaign	true
 idrinth_loremaster_lore_of_vampires		12		both	false
+idrinth_loremaster_lore_of_vampires_2		12		both	true
 idrinth_loremaster_lore_of_shadows		123		both	false
+idrinth_loremaster_lore_of_shadows_2		123		both	true
 idrinth_loremaster_lore_of_death		123		both	false
+idrinth_loremaster_lore_of_death_2		123		both	true
 idrinth_priests_wh_main_effect_force_stat_weapon_strength		4		both	true
 idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction		4		both	false
 idrinth_priests_wh_main_effect_force_stat_speed		4		both	true

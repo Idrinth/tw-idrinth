@@ -114,6 +114,14 @@ local enlargedEliteTroopUnits = {
     ["idrinth_hev_high_elf_vampires_chapel_khaine_large"] = true,
 };
 
+local cavalryUnits = {
+    ["idrinth_hev_high_elf_vampires_chapel_outriders"] = true,
+    ["idrinth_hev_high_elf_vampires_chapel_outriders_large"] = true,
+};
+
+local enlargedCavalryUnits = {
+    ["idrinth_hev_high_elf_vampires_chapel_outriders_large"] = true,
+};
 
 local heroUnits = {
     ["idrinth_hev_high_elf_vampires_idrinthgeneral"] = true,
@@ -154,6 +162,18 @@ end;
 
 unittypes.isEliteTroop = function(unitKey)
     return eliteTroopUnits[unitKey] == true;
+end;
+
+unittypes.isEnlargedEliteTroop = function(unitKey)
+    return enlargedEliteTroopUnits[unitKey] == true;
+end;
+
+unittypes.isCavalry = function(unitKey)
+    return cavalryUnits[unitKey] == true;
+end;
+
+unittypes.isEnlargedCavalry = function(unitKey)
+    return enlargedCavalryUnits[unitKey] == true;
 end;
 
 unittypes.isHero = function(unitKey)

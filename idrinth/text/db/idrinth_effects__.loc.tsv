@@ -15,8 +15,11 @@ effects_description_idrinth_chapel_khaine_charge	Khaine strengthens your resolve
 effects_description_idrinth_chapel_kurnous_range	Kurnous strengthens your bow and let's Idrinth and chapel garrisons shoot %+n% further.	false
 effects_description_idrinth_chapel_asuryan_ward_save	Asuryan strengthens your mind, protecting Idrinth and chapel garrisons from %+n damage with a barrier.	false
 effects_description_idrinth_loremaster_lore_of_vampires	Reduces cost, cooldown and miscast chance by %+n% for lore of vampires spells.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Increases range  by %+n% for lore of vampires spells.	false
 effects_description_idrinth_loremaster_lore_of_shadows	Reduces cost, cooldown and miscast chance by %+n% for lore of shadows spells.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Increases range  by %+n% for lore of shadows spells.	false
 effects_description_idrinth_loremaster_lore_of_death	Reduces cost, cooldown and miscast chance by %+n% for lore of death spells.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Increases range by %+n% for lore of death spells.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Weaponstrength %+n% for priests.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Vigourloss %+n% for priests.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Speed %+n% for priests.	false
