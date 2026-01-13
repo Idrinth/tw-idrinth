@@ -15,8 +15,11 @@ effects_description_idrinth_chapel_khaine_charge	Кхейн укрепляет �
 effects_description_idrinth_chapel_kurnous_range	Курноус укрепляет ваш лук и позволяет Идринту и гарнизонам капелл стрелять на %+n% дальше.	false
 effects_description_idrinth_chapel_asuryan_ward_save	Асуриан укрепляет ваш разум, защищая Идринта и гарнизоны капелл от %+n урона барьером.	false
 effects_description_idrinth_loremaster_lore_of_vampires	Снижает стоимость, перезарядку и шанс неудачи на %+n% для заклинаний школы вампиров.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Increases range  by %+n% for lore of vampires spells.	false
 effects_description_idrinth_loremaster_lore_of_shadows	Снижает стоимость, перезарядку и шанс неудачи на %+n% для заклинаний школы теней.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Increases range  by %+n% for lore of shadows spells.	false
 effects_description_idrinth_loremaster_lore_of_death	Снижает стоимость, перезарядку и шанс неудачи на %+n% для заклинаний школы смерти.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Increases range by %+n% for lore of death spells.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Сила оружия %+n% для жрецов.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Потеря бодрости %+n% для жрецов.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Скорость %+n% для жрецов.	false

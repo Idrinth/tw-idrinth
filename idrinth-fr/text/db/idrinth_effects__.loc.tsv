@@ -15,8 +15,11 @@ effects_description_idrinth_chapel_khaine_charge	Khaine renforce votre détermin
 effects_description_idrinth_chapel_kurnous_range	Kurnous renforce votre arc et permet à Idrinth et aux garnisons de chapelle de tirer %+n% plus loin.	false
 effects_description_idrinth_chapel_asuryan_ward_save	Asuryan renforce votre esprit, protégeant Idrinth et les garnisons de chapelle de %+n dégâts avec une barrière.	false
 effects_description_idrinth_loremaster_lore_of_vampires	Réduit le coût, le temps de recharge et les chances de ratage de %+n% pour les sorts du domaine des vampires.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Increases range  by %+n% for lore of vampires spells.	false
 effects_description_idrinth_loremaster_lore_of_shadows	Réduit le coût, le temps de recharge et les chances de ratage de %+n% pour les sorts du domaine des ombres.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Increases range  by %+n% for lore of shadows spells.	false
 effects_description_idrinth_loremaster_lore_of_death	Réduit le coût, le temps de recharge et les chances de ratage de %+n% pour les sorts du domaine de la mort.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Increases range by %+n% for lore of death spells.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Force d'arme %+n% pour les prêtres.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Perte de vigueur %+n% pour les prêtres.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Vitesse %+n% pour les prêtres.	false
