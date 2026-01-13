@@ -15,8 +15,11 @@ effects_description_idrinth_chapel_khaine_charge	Khaine fortalece tu determinaci
 effects_description_idrinth_chapel_kurnous_range	Kurnous fortalece tu arco y permite que Idrinth y las guarniciones de capilla disparen %+n% más lejos.	false
 effects_description_idrinth_chapel_asuryan_ward_save	Asuryan fortalece tu mente, protegiendo a Idrinth y las guarniciones de capilla de %+n de daño con una barrera.	false
 effects_description_idrinth_loremaster_lore_of_vampires	Reduce el costo, tiempo de recarga y probabilidad de error en %+n% para hechizos del saber de vampiros.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Increases range  by %+n% for lore of vampires spells.	false
 effects_description_idrinth_loremaster_lore_of_shadows	Reduce el costo, tiempo de recarga y probabilidad de error en %+n% para hechizos del saber de sombras.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Increases range  by %+n% for lore of shadows spells.	false
 effects_description_idrinth_loremaster_lore_of_death	Reduce el costo, tiempo de recarga y probabilidad de error en %+n% para hechizos del saber de muerte.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Increases range by %+n% for lore of death spells.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Fuerza de arma %+n% para sacerdotes.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Pérdida de vigor %+n% para sacerdotes.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Velocidad %+n% para sacerdotes.	false
@@ -74,3 +77,5 @@ effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Aumenta tus 
 effects_description_idrinth_chapel_beasts_upkeep	Disminuye el mantenimiento de las bestias de la Capilla Thaluiana en %+n%.	false
 effects_description_idrinth_enable_thalui_name	Este personaje ha jurado venganza eterna contra los poderes ruinosos y ha adoptado el nombre Thalui por ello.	false
 effects_description_idrinth_enable_knight_scholar_name	Este personaje es tanto un erudito como un caballero y es reconocido como tal en diferentes facciones.	false
+effects_description_idrinth_chapel_recruitment_speedup	Recruitment duration for chapel units is reduced by %+n rounds.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Prevents enemies from using lightning strike against this force.	false
