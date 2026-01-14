@@ -110,6 +110,18 @@ Localization strings in TSV format organized by language pack:
 
 Each `.loc.tsv` file contains key-value pairs for UI text. Language packs are separated into their own directories to allow independent distribution.
 
+#### `readme.steam` Files - Steam Workshop Descriptions
+
+Each mod pack directory contains a `readme.steam` file used as the Steam Workshop description:
+
+- `idrinth/readme.steam` - Main mod description
+- `idrinth-de/readme.steam` - German language pack description
+- `idrinth-es/readme.steam` - Spanish language pack description
+- `idrinth-fr/readme.steam` - French language pack description
+- `idrinth-ru/readme.steam` - Russian language pack description
+
+**Important Size Limit**: All `readme.steam` files must be at or below **8000 bytes**. This equals approximately 8000 ASCII characters or 4000 UTF-8 characters (since many UTF-8 characters use 2 bytes). This is a Steam Workshop limitation.
+
 #### `idrinth/ui/` - User Interface
 
 XML-based UI definitions using Total War's TWUI format:
