@@ -1,0 +1,47 @@
+key	text	tooltip
+#Loc;1;text/db/idrinth_mct__.loc		
+mct_idrinth_title	Idrinth Thalui - The High Elven Vampire Loremaster	false
+mct_idrinth_author	Björn 'Idrinth' Büttner	false
+mct_idrinth_description	The Tale of a Fallen Loremaster\\n\\nOnce a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.\\n\\nWill you guide him toward redemption or embrace the darkness within? His fate rests in your hands.\\n\\nUnique Recruitment\\n\\nIdrinth can be recruited as Lord or Hero by those who might value his dual nature:\\n- The Empire (seeking arcane knowledge)\\n- Kislev (desperate for powerful allies)\\n- High Elves (wishing to reclaim one of their own)\\n- Wood Elves (valuing his connection to Kurnous)\\n- Vampire Counts (embracing his newfound power)\\n\\nLooser Lore Mode\\n\\nIn the looser lore mode some less likely factions are added, that represent desperate alliances:\\n- Bretonnia\\n- Cathay\\n- Dark Elves\\n- Legions of Nagash(modded Faction)\\n- Vampire Coast\\n\\nKey Features\\n\\nDivine Favor System\\n\\nBalance your allegiance between three powerful Elven deities, each offering unique paths to unify Idrinth's fractured existence:\\n\\nKhaine: Embrace aggression with enhanced melee prowess and damage output\\n\\nAsuryan: Seek balance through improved defenses and magical resistance\\n\\nKurnous: Channel the hunter's path with ranged superiority and mobility\\n\\nChapel System\\n\\nBased on the divine influences, Idrinth can found chapels that noticably affect garrison size, power and god favour use as well as benefiting the local economy and growth.\\n\\nIf the required mod is not used the foreign slots might behave weirdly - the mod is not technically required unless you play a faction that already has foreign slots.\\n\\nNarrative Dilemmas\\n\\nFace critical choices that shape Idrinth's character and determine his relationship with the divine. Will you embrace your elven roots or surrender to vampiric power? Each decision affects your divine favor and unlocks permanent bonuses.\\n\\nDivine Artifact Sets\\n\\nCollect and equip powerful god-aligned artifacts that enhance Idrinth's abilities. Complete a set to earn special bonuses that complement your chosen divine path.\\n\\nElven Slayer Consequences\\n\\nA dynamic trait system that tracks your battles against elven factions. The more elves you slay, the more you'll be known, despised, and eventually hated among their kind, with significant diplomatic and divine favor consequences.\\n\\nArcane Versatility\\n\\nMaster spells from multiple magical lores, reflecting Idrinth's scholarly background and vampiric transformation:\\n- Lore of Vampires\\n- Lore of Death\\n- Lore of Shadows\\n\\nCustom Battle Faction\\n\\nPlay the chapel forces as their own faction in custom battles, both single player and multiplayer.\\n\\nAnimal WAAAGH\\n\\nThe general collects a menagerie of allied animals around him, creating a waaagh out of blessed animals.\\n\\nALPHA VERSION NOTICE\\n\\nThis mod is in EARLY ALPHA development. You may encounter:\\n\\n- Some buttons in the army might be non functional\\n- Some UI-Changes take a second to apply\\n- Balance adjustments ongoing\\n- Prayer system temporarily replaced by random triggering godly interventions\\n\\nYour feedback is essential for improvement! Please report any issues you encounter.\\n\\nCompatibility Note:\\n\\nThe custom faction of Nagash is theoretically supported. The support needs play-testing though, if you find bugs report them here and don't bother the other mod!\\n\\nConfiguration\\n\\nThe mod configuration tool is supported, but optional.\\n\\nAI in this mod\\n\\nThere are currently some AI-generated images in the mod. They are being replaced by proper art over time once the unit identity and looks are final.	false
+mct_idrinth_expanded_spawn_text	Expanded Spawn Cultures	false
+mct_idrinth_expanded_spawn_tooltip	Allows Idrinth to spawn for Bretonnia, Cathay, the Legions of Nagash, Dark Elves and Vampire Coast as well.	false
+mct_idrinth_level_adjustment_text	Level Requirement	false
+mct_idrinth_level_adjustment_options_null_text	Early Game	false
+mct_idrinth_level_adjustment_options_one_text	Late Early Game	false
+mct_idrinth_level_adjustment_options_three_text	Early Mid Game	false
+mct_idrinth_level_adjustment_options_six_text	Mid Game	false
+mct_idrinth_level_adjustment_tooltip	Modifies the level requirement to get Idrinth's unlock quest.	false
+mct_idrinth_god_item_difficulty_text	God-Blessed Item Difficulty	false
+mct_idrinth_god_item_difficulty_options_low_text	Low Requirements	false
+mct_idrinth_god_item_difficulty_options_normal_text	Normal Requirements	false
+mct_idrinth_god_item_difficulty_options_high_text	High Requirements	false
+mct_idrinth_god_item_difficulty_tooltip	Modifies the requirements for receiving the god blessed items.	false
+mct_idrinth_chapel_chance_text	Chapel Spawn Chance	false
+mct_idrinth_chapel_chance_options_low_text	Low Chance	false
+mct_idrinth_chapel_chance_options_normal_text	Normal Chance	false
+mct_idrinth_chapel_chance_options_high_text	High Chance	false
+mct_idrinth_chapel_chance_tooltip	Modifies the chance of Thaluian Chapels being spawned by Idrinth's presence.	false
+mct_idrinth_story_events_text	Enable Story Events	false
+mct_idrinth_story_events_tooltip	Allows Idrinth to notify the player when reaching specific regions important to him.	false
+mct_idrinth_chapels_text	Thaluian Chapels	false
+mct_idrinth_chapels_tooltip	Allows Idrinth to found chapels that strengthen the defences of cities and affect god favor generation.	false
+mct_idrinth_dilemma_cooldown_text	Dilemma Cooldown	false
+mct_idrinth_dilemma_cooldown_options_low_text	Low (1 + [1-2])	false
+mct_idrinth_dilemma_cooldown_options_medium_text	Medium (2 + [1-3])	false
+mct_idrinth_dilemma_cooldown_options_long_text	Long (3 + [1-4])	false
+mct_idrinth_dilemma_cooldown_tooltip	Modifies the cooldown between dilemmas that require decisions.	false
+mct_idrinth_names_text	Unit Renaming	false
+mct_idrinth_names_tooltip	When checked units gain a custom name on recruitment pulled from a list of elven names.	false
+mct_idrinth_logging_text	Enable Own Logging	false
+mct_idrinth_logging_tooltip	When checked this mod logs to the game root directory into idrinth.*.log.	false
+mct_idrinth_base_logging_text	Enable Base Game Logging Usage	false
+mct_idrinth_base_logging_tooltip	When checked this mod logs with the base game logging function.	false
+mct_idrinth_section_idrinth_features_name	Feature Toggles	false
+mct_idrinth_section_idrinth_spawn_name	Spawn Options	false
+mct_idrinth_section_idrinth_other_name	Additional Options	false
+mct_idrinth_section_idrinth_cooldowns_name	Cooldown Options	false
+mct_idrinth_intervention_cooldown_text	Intervention Cooldown	false
+mct_idrinth_intervention_cooldown_options_low_text	Low (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Medium (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	Long (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	Modifies the cooldown between divine interventions.	false
