@@ -1,81 +1,81 @@
 key	text	tooltip
 #Loc;1;text/db/idrinth_effects__.loc		
-effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] action: Unit experience gain is increased by an additional %+n%	false
-effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] action: Additional %+n% casualties inflicted	false
-effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] action: Additional %+n% success chance	false
-effects_description_idrinth_effect_agent_action_enable_passive_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] action: Vampiric corruption is increased by an additional %+n	false
-effects_description_idrinth_pooled_resource_khaine	Generates %+n Favour of Khaine.	false
-effects_description_idrinth_pooled_resource_kurnous	Generates %+n Favour of Kurnous.	false
-effects_description_idrinth_pooled_resource_asuryan	Generates %+n Favour of Asuryan.	false
-effects_description_idrinth_effect_upkeep_idrinth	Upkeep increased by %+n% for Idrinth.	false
-effects_description_idrinth_initiative_khaine	Following the path of Khaine, the warrior, let's you slaughter your enemies.	false
-effects_description_idrinth_initiative_kurnous	Following the path of Kurnous, the hunter, makes you a better hunter.	false
-effects_description_idrinth_initiative_asuryan	Following the path of Asuryan, the protector, protects you.	false
-effects_description_idrinth_chapel_khaine_charge	Khaine strengthens your resolve and makes Idrinth and chapel garrisons %+n% shock troops.	false
-effects_description_idrinth_chapel_kurnous_range	Kurnous strengthens your bow and let's Idrinth and chapel garrisons shoot %+n% further.	false
-effects_description_idrinth_chapel_asuryan_ward_save	Asuryan strengthens your mind, protecting Idrinth and chapel garrisons from %+n damage with a barrier.	false
-effects_description_idrinth_loremaster_lore_of_vampires	Reduces cost, cooldown and miscast chance by %+n% for lore of vampires spells.	false
-effects_description_idrinth_loremaster_lore_of_vampires_2	Increases range  by %+n% for lore of vampires spells.	false
-effects_description_idrinth_loremaster_lore_of_shadows	Reduces cost, cooldown and miscast chance by %+n% for lore of shadows spells.	false
-effects_description_idrinth_loremaster_lore_of_shadows_2	Increases range  by %+n% for lore of shadows spells.	false
-effects_description_idrinth_loremaster_lore_of_death	Reduces cost, cooldown and miscast chance by %+n% for lore of death spells.	false
-effects_description_idrinth_loremaster_lore_of_death_2	Increases range by %+n% for lore of death spells.	false
-effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Weaponstrength %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Vigourloss %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Speed %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_force_stat_range	Range %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_force_stat_melee_defence	Melee Defense %+n for priests.	false
-effects_description_idrinth_priests_wh_main_effect_force_stat_melee_attack_pct	Melee Attack %+n for priests.	false
-effects_description_idrinth_priests_wh_main_effect_force_stat_fire_resistance	Fire vulnerability %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_force_stat_charge_bonus_pct	Charge Bonus %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_force_all_campaign_replenishment_rate	Replenishment %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_character_stat_physical_resistance	Physical Resistance %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_character_stat_missile_resistance	Missile Resistance %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_character_stat_missile_damage	Missile Damage %+n% for priests.	false
-effects_description_idrinth_priests_wh_main_effect_attribute_enable_causes_fear	Priests cause fear.	false
-effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	Priests have a vampiric hunger.	false
-effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	Priests know the Invokation of Nehek.	false
-effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	Priests are undead.	false
-effects_description_idrinth_successful_action_motivation	Success chance, Cost and Critical Chance are increased by %+n%.	false
-effects_description_idrinth_ranger_knowledge_primary	Elves of the Thaluian Chapels can shoot %+n% further.	false
-effects_description_idrinth_blade_dancing_primary	Elves of the Thaluian Chapels dance away from enemy blades, increasing their Melee Defense by %+n.	false
-effects_description_idrinth_unusual_training_primary	Elves of the Thaluian Chapels increase their Leadership by %+n.	false
-effects_description_idrinth_running_wild_primary	Elves of the Thaluian Chapels increase their Movement Speed by %+n%.	false
-effects_description_idrinth_veterans_primary	Veteran Elves of the Thaluian Chapels hit %+n% harder in melee.	false
-effects_description_idrinth_strong_as_stone_primary	Animated units of the Thaluian Chapels resist %+n% more damage.	false
-effects_description_idrinth_beasts_of_nature_primary	Beasts of the Thaluian Chapels are more feroucious, increasing their Melee Attack by %+n.	false
-effects_description_idrinth_ranger_knowledge_secondary	Elves of the Thaluian Chapels increase their reload speed by %+n%.	false
-effects_description_idrinth_blade_dancing_secondary	Elves of the Thaluian Chapels dance away from enemy blades, increasing their Melee Attack by %+n.	false
-effects_description_idrinth_unusual_training_secondary	Elves of the Thaluian Chapels learned to wear their armour more effectively, increasing their armour rating by %+n.	false
-effects_description_idrinth_running_wild_secondary	Elves of the Thaluian Chapels run wild, increasing their charge by %+n.	false
-effects_description_idrinth_veterans_secondary	Veteran Elves of the Thaluian Chapels tire %+n% more slowly.	false
-effects_description_idrinth_strong_as_stone_secondary	Constructs of the Thaluian Chapels increase their charge by %+n.	false
-effects_description_idrinth_beasts_of_nature_secondary	Beasts of the Thaluian Chapels are more motivated, increasing their Movement Speed by %+n%.	false
-effects_description_idrinth_veterans_tertiary	Veteran Elves of the Thaluian Chapels have faced fear and danger before, increasing their Leadership by %+n.	false
-effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	%+n unit limit for Mixed Elven Guard.	false
-effects_description_idrinth_unit_capacity_chapel_asuryan_guard	%+n unit limit for Asuryan's Guard.	false
-effects_description_idrinth_unit_capacity_chapel_khaine_guard	%+n unit limit for Khaine's Guard.	false
-effects_description_idrinth_unit_capacity_chapel_kurnous_guard	%+n unit limit for Kurnous' Guard.	false
-effects_description_idrinth_unit_capacity_chapel_asuryan_priest	%+n unit limit for Asuryan's Priests.	false
-effects_description_idrinth_unit_capacity_chapel_khaine_priest	%+n unit limit for Khaine's Priests.	false
-effects_description_idrinth_unit_capacity_chapel_kurnous_priest	%+n unit limit for Kurnous' Priests.	false
-effects_description_idrinth_unit_capacity_chapel_asuryan_vampire_priest	%+n unit limit for Asuryan's Vampire Priests.	false
-effects_description_idrinth_unit_capacity_chapel_khaine_vampire_priest	%+n unit limit for Khaine's Vampire Priests.	false
-effects_description_idrinth_unit_capacity_chapel_kurnous_vampire_priest	%+n unit limit for Kurnous' Vampire Priests.	false
-effects_description_idrinth_unit_capacity_chapel_asuryan_varghulf	%+n unit limit for Asuryan Varghulf.	false
-effects_description_idrinth_unit_capacity_chapel_khaine_varghulf	%+n unit limit for Khaine Varghulfs.	false
-effects_description_idrinth_unit_capacity_chapel_kurnous_varghulf	%+n unit limit for Kurnous Varghulfs.	false
-effects_description_idrinth_unit_capacity_chapel_shrine	%+n unit limit for Shrines to Asuryan, Kurnous and Khaine.	false
-effects_description_idrinth_unit_capacity_chapel_stone_wolves	%+n unit limit for Stone Wolves.	false
-effects_description_idrinth_unit_capacity_chapel_outriders	%+n unit limit for Outriders.	false
-effects_description_idrinth_chapel_units_upkeep	%+n% less upkeep for all elven units of the Thaluian Chapels.	false
-effects_description_idrinth_chapel_units_recruitment_rank	%+n recruitment rank for all elven units of the Thaluian Chapels.	false
-effects_description_idrinth_initiative_khaine_pray	Your prayer to Khaine improved your troops' offensive potential.	false
-effects_description_idrinth_initiative_kurnous_pray	Your prayer to Kurnous improved your troops' hunting potential.	false
-effects_description_idrinth_initiative_asuryan_pray	Your prayer to Asuryan improved your troops' survival potential.	false
-effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Increases your capabilities in battles against the ruinous powers.	false
-effects_description_idrinth_chapel_beasts_upkeep	Decreases upkeep for Thaluian Chapel beasts by %+n%.	false
-effects_description_idrinth_enable_thalui_name	This character has sworn eternal vengeance on the ruinous powers and adopted the name Thalui because of that.	false
-effects_description_idrinth_enable_knight_scholar_name	This character is both a scholar and a knight and recognised as such across different factions.	false
-effects_description_idrinth_chapel_recruitment_speedup	Recruitment duration for chapel units is reduced by %+n rounds.	false
-effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Prevents enemies from using lightning strike against this force.	false
+effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] akcja: Wzrost doświadczenia jednostki zwiększony o dodatkowe %+n%	false
+effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] akcja: Dodatkowe %+n% zadanych strat	false
+effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] akcja: Dodatkowe %+n% szansy powodzenia	false
+effects_description_idrinth_effect_agent_action_enable_passive_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] akcja: Korupcja wampiryczna zwiększona o dodatkowe %+n	false
+effects_description_idrinth_pooled_resource_khaine	Generuje %+n Przychylności Khaine'a.	false
+effects_description_idrinth_pooled_resource_kurnous	Generuje %+n Przychylności Kurnous.	false
+effects_description_idrinth_pooled_resource_asuryan	Generuje %+n Przychylności Asuryana.	false
+effects_description_idrinth_effect_upkeep_idrinth	Utrzymanie zwiększone o %+n% dla Idrinth.	false
+effects_description_idrinth_initiative_khaine	Podążanie ścieżką Khaine'a, wojownika, pozwala ci wymordować twoich wrogów.	false
+effects_description_idrinth_initiative_kurnous	Podążanie ścieżką Kurnous, łowcy, czyni cię lepszym łowcą.	false
+effects_description_idrinth_initiative_asuryan	Podążanie ścieżką Asuryana, obrońcy, cię chroni.	false
+effects_description_idrinth_chapel_khaine_charge	Khaine wzmacnia twoją determinację i czyni Idrinth oraz garnizony kaplic %+n% wojskami szturmowymi.	false
+effects_description_idrinth_chapel_kurnous_range	Kurnous wzmacnia twój łuk i pozwala Idrinth oraz garnizonom kaplic strzelać %+n% dalej.	false
+effects_description_idrinth_chapel_asuryan_ward_save	Asuryan wzmacnia twój umysł, chroniąc Idrinth oraz garnizony kaplic przed %+n obrażeniami barierą.	false
+effects_description_idrinth_loremaster_lore_of_vampires	Zmniejsza koszt, czas odnowienia i szansę błędnego rzucenia o %+n% dla zaklęć wiedzy wampirów.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Zwiększa zasięg o %+n% dla zaklęć wiedzy wampirów.	false
+effects_description_idrinth_loremaster_lore_of_shadows	Zmniejsza koszt, czas odnowienia i szansę błędnego rzucenia o %+n% dla zaklęć wiedzy cieni.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Zwiększa zasięg o %+n% dla zaklęć wiedzy cieni.	false
+effects_description_idrinth_loremaster_lore_of_death	Zmniejsza koszt, czas odnowienia i szansę błędnego rzucenia o %+n% dla zaklęć wiedzy śmierci.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Zwiększa zasięg o %+n% dla zaklęć wiedzy śmierci.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Siła broni %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Utrata wigoru %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Szybkość %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_range	Zasięg %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_defence	Obrona w Walce Wręcz %+n dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_attack_pct	Atak w Walce Wręcz %+n dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_fire_resistance	Wrażliwość na ogień %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_charge_bonus_pct	Bonus szarży %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_force_all_campaign_replenishment_rate	Uzupełnianie %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_physical_resistance	Odporność Fizyczna %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_resistance	Odporność na Pociski %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_damage	Obrażenia od Pocisków %+n% dla kapłanów.	false
+effects_description_idrinth_priests_wh_main_effect_attribute_enable_causes_fear	Kapłani wywołują strach.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	Kapłani mają wampiryczny głód.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	Kapłani znają Inwokację Neheka.	false
+effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	Kapłani są nieumarli.	false
+effects_description_idrinth_successful_action_motivation	Szansa powodzenia, Koszt i Szansa Krytyczna zwiększone o %+n%.	false
+effects_description_idrinth_ranger_knowledge_primary	Elfy Kaplicy Thaluiańskiej mogą strzelać %+n% dalej.	false
+effects_description_idrinth_blade_dancing_primary	Elfy Kaplicy Thaluiańskiej tańczą z dala od wrogich ostrzy, zwiększając swoją Obronę w Walce Wręcz o %+n.	false
+effects_description_idrinth_unusual_training_primary	Elfy Kaplicy Thaluiańskiej zwiększają swoje Przywództwo o %+n.	false
+effects_description_idrinth_running_wild_primary	Elfy Kaplicy Thaluiańskiej zwiększają swoją Szybkość Poruszania o %+n%.	false
+effects_description_idrinth_veterans_primary	Weterani-Elfy Kaplicy Thaluiańskiej uderzają %+n% mocniej w walce wręcz.	false
+effects_description_idrinth_strong_as_stone_primary	Ożywione jednostki Kaplicy Thaluiańskiej odporają na %+n% więcej obrażeń.	false
+effects_description_idrinth_beasts_of_nature_primary	Bestie Kaplicy Thaluiańskiej są bardziej zaciekłe, zwiększając swój Atak w Walce Wręcz o %+n.	false
+effects_description_idrinth_ranger_knowledge_secondary	Elfy Kaplicy Thaluiańskiej zwiększają swoją szybkość przeładowania o %+n%.	false
+effects_description_idrinth_blade_dancing_secondary	Elfy Kaplicy Thaluiańskiej tańczą z dala od wrogich ostrzy, zwiększając swój Atak w Walce Wręcz o %+n.	false
+effects_description_idrinth_unusual_training_secondary	Elfy Kaplicy Thaluiańskiej nauczyły się nosić swoją zbroję bardziej efektywnie, zwiększając swój pancerz o %+n.	false
+effects_description_idrinth_running_wild_secondary	Elfy Kaplicy Thaluiańskiej biegną dziko, zwiększając swoją szarżę o %+n.	false
+effects_description_idrinth_veterans_secondary	Weterani-Elfy Kaplicy Thaluiańskiej męczą się %+n% wolniej.	false
+effects_description_idrinth_strong_as_stone_secondary	Konstrukty Kaplicy Thaluiańskiej zwiększają swoją szarżę o %+n.	false
+effects_description_idrinth_beasts_of_nature_secondary	Bestie Kaplicy Thaluiańskiej są bardziej zmotywowane, zwiększając swoją Szybkość Poruszania o %+n%.	false
+effects_description_idrinth_veterans_tertiary	Weterani-Elfy Kaplicy Thaluiańskiej zmierzyły się ze strachem i niebezpieczeństwem wcześniej, zwiększając swoje Przywództwo o %+n.	false
+effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	%+n limit jednostek dla Mieszanej Gwardii Elfickiej.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_guard	%+n limit jednostek dla Gwardii Asuryana.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_guard	%+n limit jednostek dla Gwardii Khaine'a.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_guard	%+n limit jednostek dla Gwardii Kurnous.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_priest	%+n limit jednostek dla Kapłanów Asuryana.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_priest	%+n limit jednostek dla Kapłanów Khaine'a.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_priest	%+n limit jednostek dla Kapłanów Kurnous.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_vampire_priest	%+n limit jednostek dla Kapłanów Wampirów Asuryana.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_vampire_priest	%+n limit jednostek dla Kapłanów Wampirów Khaine'a.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_vampire_priest	%+n limit jednostek dla Kapłanów Wampirów Kurnous.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_varghulf	%+n limit jednostek dla Varghulfów Asuryana.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_varghulf	%+n limit jednostek dla Varghulfów Khaine'a.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_varghulf	%+n limit jednostek dla Varghulfów Kurnous.	false
+effects_description_idrinth_unit_capacity_chapel_shrine	%+n limit jednostek dla Sanktuariów Asuryana, Kurnous i Khaine'a.	false
+effects_description_idrinth_unit_capacity_chapel_stone_wolves	%+n limit jednostek dla Kamiennych Wilków.	false
+effects_description_idrinth_unit_capacity_chapel_outriders	%+n limit jednostek dla Zwiadowców.	false
+effects_description_idrinth_chapel_units_upkeep	%+n% mniej utrzymania dla wszystkich jednostek elfickich Kaplic Thaluiańskich.	false
+effects_description_idrinth_chapel_units_recruitment_rank	%+n ranga rekrutacji dla wszystkich jednostek elfickich Kaplic Thaluiańskich.	false
+effects_description_idrinth_initiative_khaine_pray	Twoja modlitwa do Khaine'a poprawiła potencjał ofensywny twoich wojsk.	false
+effects_description_idrinth_initiative_kurnous_pray	Twoja modlitwa do Kurnous poprawiła potencjał łowiecki twoich wojsk.	false
+effects_description_idrinth_initiative_asuryan_pray	Twoja modlitwa do Asuryana poprawiła potencjał przetrwania twoich wojsk.	false
+effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Zwiększa twoje możliwości w bitwach przeciwko zgubnym mocom.	false
+effects_description_idrinth_chapel_beasts_upkeep	Zmniejsza utrzymanie dla bestii Kaplicy Thaluiańskiej o %+n%.	false
+effects_description_idrinth_enable_thalui_name	Ta postać przysiągła wieczną zemstę na zgubnych mocach i przyjęła imię Thalui z tego powodu.	false
+effects_description_idrinth_enable_knight_scholar_name	Ta postać jest zarówno uczonym, jak i rycerzem i jest tak uznawana w różnych frakcjach.	false
+effects_description_idrinth_chapel_recruitment_speedup	Czas rekrutacji dla jednostek kaplicy zmniejszony o %+n tur.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Zapobiega użyciu przez wrogów uderzenia błyskawicy przeciwko tej sile.	false
