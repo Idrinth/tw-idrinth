@@ -127,7 +127,7 @@ local createResourceUI = function()
 end;
 cm:add_first_tick_callback(
     function()
-        local idrinth, faction = Idrinth.Access.get();
+        local _, faction = Idrinth.Access.get();
         if faction == cm:get_local_faction() then
             Idrinth.Ui.nowAndThen(createResourceUI);
             cm:add_pooled_resource_changed_listener_by_faction(
@@ -214,13 +214,13 @@ core:add_listener(
 core:add_listener(
     "idrinth_resources_BattleCompleted",
     "BattleCompleted",
-    function(context)
+    function()
         if not cm:model():pending_battle():has_been_fought() then
             return false;
         end;
         return Idrinth.Access.spawned();
     end,
-    function(context)
+    function()
         Idrinth.log("BattleCompleted", "resources");
         local pending_battle = cm:model():pending_battle();
         local idrinth, idrinthFaction = Idrinth.Access.get();
@@ -235,7 +235,7 @@ core:add_listener(
         local idrinthIsAttacker = false;
         local attackerCharacters = 0;
         for i = 1, cm:pending_battle_cache_num_attackers() do
-            local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_attacker(i);
+            local char_cqi = cm:pending_battle_cache_get_attacker(i);
             local characters = cm:pending_battle_cache_get_attacker_embedded_character_subtypes(i);
             local general = cm:get_character_by_cqi(char_cqi);
             if general then
@@ -257,7 +257,7 @@ core:add_listener(
         local idrinthIsDefender = false;
         local defenderCharacters = 0;
         for i = 1, cm:pending_battle_cache_num_defenders() do
-            local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_defender(i);
+            local char_cqi = cm:pending_battle_cache_get_defender(i);
             local characters = cm:pending_battle_cache_get_defender_embedded_character_subtypes(i);
             local general = cm:get_character_by_cqi(char_cqi);
             if general then

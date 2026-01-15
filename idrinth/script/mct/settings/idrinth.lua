@@ -22,9 +22,9 @@ local addSection = function(mod, key, elements, global)
     mod:add_new_section(key, "mct_idrinth_section_"..key.."_name");
     for elementKey, config in pairs(elements) do
         if config.element == "checkbox" then
-            local checkbox = addCheckbox(mod, elementKey, config.default, global);
+           addCheckbox(mod, elementKey, config.default, global);
         elseif config.element == "dropdown" then
-            local dropdown = addDropdown(mod, elementKey, config.values, config.default, global);
+            addDropdown(mod, elementKey, config.values, config.default, global);
         end;
     end;
 end;

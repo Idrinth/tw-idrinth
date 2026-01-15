@@ -197,7 +197,7 @@ local upgradeSize = function()
                 local currentVeteranRank = 0;
                 local hasNoEffect = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.IsEmpty");
                 if not hasNoEffect then
-                    currentVeteranRank = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.At(0).Key"
+                    currentVeteranRank = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.At(0).Key");
                 end;
                 local infantryPrice = 300;
                 local cavalryPrice = 250;

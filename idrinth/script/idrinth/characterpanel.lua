@@ -85,8 +85,7 @@ local setupIdrinthsPaths = function()
     UIComponent(paths:Parent()):Adopt(paths:Address(), 3);
     local pathsButton = Idrinth.Ui.createOrFind("idrinth_character_details_panel_idrinths_paths_button", tabGroup);
     setVisibility(paths, false);
-    setVisibility(pathsButton, false)
-;
+    setVisibility(pathsButton, false);
     local cqi = getChosenCharacterCQI();
     Idrinth.log("cqi: "..tostring(cqi), "characterpanel");
     if not cqi or cqi == 0 or cqi == "0" then
@@ -119,7 +118,7 @@ core:add_listener(
     function()
         return cm:get_campaign_ui_manager():is_panel_open("character_details_panel");
     end,
-    function(context)
+    function()
         Idrinth.log("CharacterSelected", "characterpanel");
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
@@ -130,7 +129,7 @@ core:add_listener(
     "idrinth_characterpanel_CharacterSkillPointAllocated",
     "CharacterSkillPointAllocated",
     true,
-    function(context)
+    function()
         Idrinth.log("CharacterSkillPointAllocated", "characterpanel");
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
@@ -143,7 +142,7 @@ core:add_listener(
     function(context)
         return context.string == "character_details_panel";
     end,
-    function(context)
+    function()
         Idrinth.log("PanelOpenedCampaign", "characterpanel");
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
@@ -156,7 +155,7 @@ core:add_listener(
     function(context)
         return cm:get_campaign_ui_manager():is_panel_open("character_details_panel") and context.string == "idrinth_character_details_panel_idrinths_paths_button";
     end,
-    function(context)
+    function()
         Idrinth.log("ComponentLClickUp", "characterpanel");
         set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "character_details_subpanel");

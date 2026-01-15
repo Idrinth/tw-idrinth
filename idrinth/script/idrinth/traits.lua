@@ -54,7 +54,7 @@ local adjustDevotionTraitsBy = function(idrinth, devotion, points)
     if total > 35 then
         total = 35;
     end;
-    
+
     if total < 0 then
         cm:force_add_trait(
             idrinth_lookup,
@@ -101,7 +101,7 @@ core:add_listener(
                         if activeInitiative:record_key() == devotionInitiative then
                             local totalValue = adjustDevotionTraitsBy(idrinth, devotion, 1);
                             for otherDevotion, _ in pairs(relevantDevotions) do
-                                if not (otherDevotion == devotion) then
+                                if otherDevotion ~= devotion then
                                     if totalValue > 34 then
                                         adjustDevotionTraitsBy(idrinth, otherDevotion, -4);
                                     elseif totalValue > 14 then
@@ -126,13 +126,13 @@ core:add_listener(
 core:add_listener(
     "idrinth_traits_BattleCompleted",
     "BattleCompleted",
-    function(context)
+    function()
         if not cm:model():pending_battle():has_been_fought() then
             return false;
         end;
         return Idrinth.Access.spawned();
     end,
-    function(context)
+    function()
         Idrinth.log("BattleCompleted", "traits");
         local idrinth, idrinthFaction = Idrinth.Access.get();
         local attackerWon = false;

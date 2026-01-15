@@ -37,7 +37,7 @@ core:add_listener(
         Idrinth.log("UnitCreated", "renaming");
         local length = #Idrinth.Names;
         local name = Idrinth.Names[cm:random_number(length)];
-        local finalName = "";
+        local finalName;
         local unitKey = context:unit():unit_key();
         if Idrinth.Unittypes.isPriest(unitKey) and Idrinth.Unittypes.isVampiric(unitKey) then
             finalName = name.." Thalui";

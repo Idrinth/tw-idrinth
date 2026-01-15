@@ -114,7 +114,7 @@ core:add_listener(
         local idrinth = Idrinth.Access.get(context:faction());
         return idrinth and not idrinth:is_wounded();
     end,
-    function(context)
+    function()
         Idrinth.log("FactionTurnStart", "story");
         local idrinth, faction, culture = Idrinth.Access.get();
         local level = idrinth:rank();

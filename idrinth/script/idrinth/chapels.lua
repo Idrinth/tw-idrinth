@@ -122,7 +122,7 @@ core:add_listener(
     Idrinth.Access.spawned,
     function(context)
         Idrinth.log("RegionFactionChangeEvent", "chapels");
-        local idrinth, faction = Idrinth.Access.get();
+        local _, faction = Idrinth.Access.get();
         local foreignSlotManager = context:region():foreign_slot_manager_for_faction(faction:name());
         if foreignSlotManager and not foreignSlotManager:is_null_interface() then
             if foreignSlotManager:slots() and not foreignSlotManager:slots():is_empty() then

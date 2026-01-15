@@ -93,7 +93,6 @@ local nameByCulture = {
         clanname = "99991000000001",
     },
 };
-local unlockDilemma = "idrinth_unlock_choice";
 local unlockMissionStarted = {};
 local spawnIdrinthArmy = function(faction, region, x, y)
     cm:create_force_with_general(
@@ -207,19 +206,19 @@ core:add_listener(
     function(context)
         Idrinth.log("DilemmaChoiceMadeEvent", "unlocks");
         if context:choice() == 1 then
-            settings.unlockLevelAdjustment = 0;
+            unlockLevelAdjustment = 0;
             return;
         end;
         if context:choice() == 2 then
-            settings.unlockLevelAdjustment = 1;
+            unlockLevelAdjustment = 1;
             return;
         end;
         if context:choice() == 3 then
-            settings.unlockLevelAdjustment = 3;
+            unlockLevelAdjustment = 3;
             return;
         end;
         if context:choice() == 4 then
-            settings.unlockLevelAdjustment = 6;
+            unlockLevelAdjustment = 6;
             return;
         end;
     end,
@@ -319,7 +318,7 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "unlocks");
-        agentType = Idrinth.Constants.HeroType;
+        local agentType = Idrinth.Constants.HeroType;
         if cm:random_number(100) > 50 then
             agentType = Idrinth.Constants.LordType;
         end;
@@ -358,7 +357,7 @@ core:add_listener(
         if context:choice() == 1 then
             return;
         end;
-        agentType = Idrinth.Constants.HeroType;
+        local agentType = Idrinth.Constants.HeroType;
         if context:choice() == 2 then
             agentType = Idrinth.Constants.LordType;
         end;

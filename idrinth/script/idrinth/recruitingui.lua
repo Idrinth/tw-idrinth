@@ -39,7 +39,7 @@ core:add_listener(
         end;
         return Idrinth.Access.spawned();
     end,
-    function(context)
+    function()
         Idrinth.log("ComponentLClickUp", "recruitingui");
         Idrinth.Ui.nowAndThen(fixLordType);
     end,
@@ -54,7 +54,7 @@ core:add_listener(
         end;
         return Idrinth.Access.spawned();
     end,
-    function(context)
+    function()
         Idrinth.log("PanelOpenedCampaign", "recruitingui");
         Idrinth.Ui.nowAndThen(fixLordType);
     end,
