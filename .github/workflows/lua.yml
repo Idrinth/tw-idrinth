@@ -16,8 +16,8 @@ jobs:
       - name: Install luarocks
         run: wget https://luarocks.org/releases/luarocks-3.13.0.tar.gz && tar zxpf luarocks-3.13.0.tar.gz && cd luarocks-3.13.0 && ./configure && make && sudo make install
       - name: Install lua file system
-        run: luarocks install luafilesystem
+        run: sudo luarocks install luafilesystem
       - name: Install luacheck
-        run: luarocks install luacheck
+        run: sudo luarocks install luacheck
       - name: Run luacheck
         run: luacheck **/*.lua
