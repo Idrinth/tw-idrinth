@@ -465,7 +465,7 @@ core:add_listener(
         local idrinth = Idrinth.Access.get(context:faction());
         return idrinth and not idrinth:is_wounded() and idrinth:has_military_force() and not idrinth:is_carrying_troops();
     end,
-    function(context)
+    function()
         Idrinth.log("FactionTurnStart", "army");
         local idrinth = Idrinth.Access.get();
         cm:spawn_transported_force_at_military_force(idrinth:military_force():command_queue_index(), "idrinth_hev_high_elf_vampires_idrinth_support", 1);
@@ -523,7 +523,7 @@ core:add_listener(
     function(context)
         return context.string == "units_panel";
     end,
-    function(context)
+    function()
         Idrinth.log("PanelOpenedCampaign", "army");
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
     end,

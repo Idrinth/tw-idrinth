@@ -223,7 +223,6 @@ core:add_listener(
     function()
         Idrinth.log("BattleCompleted", "resources");
         local pending_battle = cm:model():pending_battle();
-        local idrinth, idrinthFaction = Idrinth.Access.get();
         local attackerWon = false;
         if cm:pending_battle_cache_attacker_victory() then
             attackerWon = true;
@@ -281,6 +280,7 @@ core:add_listener(
             if attackerWon then
                 base = 5;
             end;
+            local _, idrinthFaction = Idrinth.Access.get();
             applyBattleResourceTransaction(
                 "asuryan",
                 idrinthFaction,
@@ -304,6 +304,7 @@ core:add_listener(
             if defenderWon then
                 base = 5;
             end;
+            local _, idrinthFaction = Idrinth.Access.get();
             applyBattleResourceTransaction(
                 "asuryan",
                 idrinthFaction,

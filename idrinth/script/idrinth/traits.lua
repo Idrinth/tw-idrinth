@@ -134,7 +134,6 @@ core:add_listener(
     end,
     function()
         Idrinth.log("BattleCompleted", "traits");
-        local idrinth, idrinthFaction = Idrinth.Access.get();
         local attackerWon = false;
         if cm:pending_battle_cache_attacker_victory() then
             attackerWon = true;
@@ -201,6 +200,7 @@ core:add_listener(
                     end;
                 end;
             end;
+            local idrinth = Idrinth.Access.get();
             if cm:pending_battle_cache_culture_is_defender("wh2_main_hef_high_elves") then
                 addSlayerTraits(4, 2, 1, cm:char_lookup_str(idrinth));
             end;
@@ -226,6 +226,7 @@ core:add_listener(
                     end;
                 end;
             end;
+            local idrinth = Idrinth.Access.get();
             if cm:pending_battle_cache_culture_is_attacker("wh2_main_hef_high_elves") then
                 addSlayerTraits(4, 2, 1, cm:char_lookup_str(idrinth));
             end;

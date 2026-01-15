@@ -140,7 +140,7 @@ local spawnIdrinth = function(agentType, faction)
             );
             spawnIdrinthArmy(faction, faction:home_region(), x, y);
         end;
-    elseif agentType == Idrinth.Constants.HeroType then         
+    elseif agentType == Idrinth.Constants.HeroType then
         if faction:faction_leader():has_region() then
             cm:spawn_unique_agent_at_character(
                 faction:command_queue_index(),
@@ -157,19 +157,19 @@ local spawnIdrinth = function(agentType, faction)
             );
         end;
     end;
-    idrinth = Idrinth.Access.get();
+    local idrinth = Idrinth.Access.get();
     if not idrinth then
         return;
     end;
     cm:replenish_action_points(cm:char_lookup_str(idrinth));
     for _, culture in pairs(Idrinth.Cultures.get()) do
-        for _, faction in pairs(cm:get_factions_by_culture(culture)) do
-            if faction:is_human() and unlockMissionStarted[faction:name()] then
-                cm:cancel_custom_mission(faction:name(), unlockMissions[culture]);
-                unlockMissionStarted[faction:name()] = false;
-            elseif faction:is_human() and faction == context:faction() then
+        for _, questFaction in pairs(cm:get_factions_by_culture(culture)) do
+            if questFaction:is_human() and unlockMissionStarted[questFaction:name()] then
+                cm:cancel_custom_mission(questFaction:name(), unlockMissions[culture]);
+                unlockMissionStarted[questFaction:name()] = false;
+            elseif questFaction:is_human() and questFaction == faction then
                 cm:trigger_dilemma(
-                    faction:name(),
+                    questFaction:name(),
                     afterUnlockDilemmas[culture]
                 );
             end;
