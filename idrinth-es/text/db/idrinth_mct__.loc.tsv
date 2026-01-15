@@ -37,11 +37,29 @@ mct_idrinth_logging_tooltip	Cuando está marcado, este mod registra en el direct
 mct_idrinth_base_logging_text	Activar Uso del Registro del Juego Base	false
 mct_idrinth_base_logging_tooltip	Cuando está marcado, este mod usa la función de registro del juego base.	false
 mct_idrinth_section_idrinth_features_name	Opciones de Características	false
+mct_idrinth_section_idrinth_chances_name	Probabilidades	false
 mct_idrinth_section_idrinth_spawn_name	Opciones de Aparición	false
 mct_idrinth_section_idrinth_other_name	Opciones Adicionales	false
 mct_idrinth_section_idrinth_cooldowns_name	Opciones de Tiempo de Espera	false
-mct_idrinth_intervention_cooldown_text	Intervention Cooldown	false
-mct_idrinth_intervention_cooldown_options_low_text	Low (80%)	false
-mct_idrinth_intervention_cooldown_options_medium_text	Medium (100%)	false
-mct_idrinth_intervention_cooldown_options_long_text	Long (120%)	false
-mct_idrinth_intervention_cooldown_tooltip	Modifies the cooldown between divine interventions.	false
+mct_idrinth_intervention_cooldown_text	Tiempo de Espera de Intervención	false
+mct_idrinth_intervention_cooldown_options_low_text	Bajo (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Medio (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	Largo (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	Modifica el tiempo de espera entre intervenciones divinas.	false
+mct_idrinth_animal_waaagh_text	WAAAGH Animal	false
+mct_idrinth_animal_waaagh_tooltip	Cuando está marcado, Idrinth es seguido por un ejército WAAAGH compuesto de animales. Desactivarlo no hace desaparecer al ejército.	false
+mct_idrinth_vampire_chance_text	Probabilidad de Conversión Vampírica	false
+mct_idrinth_vampire_chance_options_low_text	Baja (10% de éxito base)	false
+mct_idrinth_vampire_chance_options_normal_text	Normal (15% de éxito base)	false
+mct_idrinth_vampire_chance_options_high_text	Alta (20% de éxito base)	false
+mct_idrinth_vampire_chance_tooltip	Cambia la probabilidad de que los sacerdotes sobrevivan al ser convertidos en vampiros.	false
+mct_idrinth_story_dilemma_base_chance_text	Probabilidad Base de Dilemas de Historia	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Baja	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Normal	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Alta	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Cambia la probabilidad de que se activen los dilemas de decisiones de historia.	false
+mct_idrinth_god_item_base_chance_text	Probabilidad Base de Objetos Divinos	false
+mct_idrinth_god_item_base_chance_options_low_text	Baja	false
+mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
+mct_idrinth_god_item_base_chance_options_high_text	Alta	false
+mct_idrinth_god_item_base_chance_tooltip	Cambia la probabilidad de que se ofrezcan objetos divinos.	false

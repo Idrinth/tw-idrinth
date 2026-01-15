@@ -37,6 +37,7 @@ mct_idrinth_logging_tooltip	Lorsque coché, ce mod enregistre dans le répertoir
 mct_idrinth_base_logging_text	Activer l'Utilisation de la Journalisation du Jeu de Base	false
 mct_idrinth_base_logging_tooltip	Lorsque coché, ce mod utilise la fonction de journalisation du jeu de base.	false
 mct_idrinth_section_idrinth_features_name	Options de Fonctionnalités	false
+mct_idrinth_section_idrinth_chances_name	Chances	false
 mct_idrinth_section_idrinth_spawn_name	Options d'Apparition	false
 mct_idrinth_section_idrinth_other_name	Options Supplémentaires	false
 mct_idrinth_section_idrinth_cooldowns_name	Options de Temps de Recharge	false
@@ -45,3 +46,20 @@ mct_idrinth_intervention_cooldown_options_low_text	Faible (80%)	false
 mct_idrinth_intervention_cooldown_options_medium_text	Moyen (100%)	false
 mct_idrinth_intervention_cooldown_options_long_text	Long (120%)	false
 mct_idrinth_intervention_cooldown_tooltip	Modifie le temps de recharge entre les interventions divines.	false
+mct_idrinth_animal_waaagh_text	WAAAGH Animal	false
+mct_idrinth_animal_waaagh_tooltip	Lorsque coché, Idrinth est suivi par une armée WAAAGH composée d'animaux. Désactiver ne fait pas disparaître l'armée.	false
+mct_idrinth_vampire_chance_text	Chance de Conversion Vampirique	false
+mct_idrinth_vampire_chance_options_low_text	Faible (10% de succès de base)	false
+mct_idrinth_vampire_chance_options_normal_text	Normale (15% de succès de base)	false
+mct_idrinth_vampire_chance_options_high_text	Élevée (20% de succès de base)	false
+mct_idrinth_vampire_chance_tooltip	Modifie la chance que les prêtres survivent à leur conversion en vampires.	false
+mct_idrinth_story_dilemma_base_chance_text	Chance de Base des Dilemmes d'Histoire	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Faible	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Normale	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Élevée	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Modifie la chance que les dilemmes de décision d'histoire se déclenchent.	false
+mct_idrinth_god_item_base_chance_text	Chance de Base des Objets Divins	false
+mct_idrinth_god_item_base_chance_options_low_text	Faible	false
+mct_idrinth_god_item_base_chance_options_normal_text	Normale	false
+mct_idrinth_god_item_base_chance_options_high_text	Élevée	false
+mct_idrinth_god_item_base_chance_tooltip	Modifie la chance que des objets divins soient offerts.	false
