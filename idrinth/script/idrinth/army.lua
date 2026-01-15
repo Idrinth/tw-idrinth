@@ -1,4 +1,4 @@
-local vampireChance = "normal"
+local vampireChance = "normal";
 local enableAnimalWAAAGH = true;
 local vampireChances = {
     low = 10,
@@ -15,7 +15,7 @@ core:add_listener(
         vampireChance = context:mct():get_mod_by_key("idrinth"):get_option_by_key("vampire_chance"):get_finalized_setting();
     end,
     true
-)
+);
 core:add_listener(
     "idrinth_army_MctFinalized",
     "MctFinalized",
@@ -197,7 +197,7 @@ local upgradeSize = function()
                 local currentType = common.get_context_value("CcoCampaignUnit", id, "UnitRecordContext.Key");
                 local currentRank = common.get_context_value("CcoCampaignUnit", id, "ExperienceLevel");
                 local currentVeteranRank = 0;
-                local hasNoEffect = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.IsEmpty")
+                local hasNoEffect = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.IsEmpty");
                 if not hasNoEffect then
                     icon:SetVisible(true);
                     icon:SetImagePath(common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.At(0).EffectBundleContext.Key"));
@@ -323,7 +323,7 @@ local handleUpgradeButtons = function()
                     local icon = UIComponent(UIComponent(unit:Find("card_image_holder")):Find("upgrade_effect_icon"));
                     local waaagh = UIComponent(UIComponent(unit:Find("card_image_holder")):Find("waaagh_unit_marker"));
                     waaagh:SetVisible(false);
-                    local hasNoEffect = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.IsEmpty")
+                    local hasNoEffect = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.IsEmpty");
                     if not hasNoEffect then
                         icon:SetVisible(true);
                         icon:SetImagePath(common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.At(0).EffectBundleContext.IconPath"));
@@ -507,7 +507,7 @@ local buttonMap = {
     idrinth_button_upgrade_size = function()
         upgradeSize();
     end,
-}
+};
 core:add_listener(
     "idrinth_army_ComponentLClickUp_4",
     "ComponentLClickUp",
@@ -516,7 +516,7 @@ core:add_listener(
         Idrinth.log("ComponentLClickUp", "army");
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
         if context.string and buttonMap[context.string] then
-            buttonMap[context.string]()
+            buttonMap[context.string]();
         end;
     end,
     true
@@ -533,9 +533,9 @@ core:add_listener(
     end,
     true
 );
-cm:add_first_tick_callback(                                                                       
+cm:add_first_tick_callback(
     function()
         lockVeterans(cm:get_local_faction(), true);
         lockAnimalBlessings(cm:get_local_faction(), true);
-    end
+    end;
 );

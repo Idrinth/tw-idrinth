@@ -9,7 +9,7 @@ local containsInitiatives = function(cqi)
     local initiative_sets = character:character_details():character_initiative_sets();
     if initiative_sets then
         for i = 0, initiative_sets:num_items() -1 do
-            local initiative_set = initiative_sets:item_at(i)
+            local initiative_set = initiative_sets:item_at(i);
             if initiative_set then
                 local local_initiatives = initiative_set:all_initiatives();
                 if local_initiatives then
@@ -55,7 +55,7 @@ local getChosenCharacterCQI = function()
     return common.get_context_value("CcoCampaignCharacter", character, "CQI");
 end;
 local setupInitiatives = function()
-    local cqi = getChosenCharacterCQI()
+    local cqi = getChosenCharacterCQI();
     if cqi and containsInitiatives(cqi) then
         return;
     end;
@@ -92,7 +92,7 @@ local setupIdrinthsPaths = function()
         return;
     end;
     local character = cm:get_character_by_cqi(cqi);
-    Idrinth.log("character: "..tostring(character), "characterpanel")
+    Idrinth.log("character: "..tostring(character), "characterpanel");
     if not character then
         hideIdrinthPanels();
         return;
@@ -107,7 +107,7 @@ local setupIdrinthsPaths = function()
             subtype:SetText("High Elf Vampire");
         end;
         return;
-    end
+    end;
     Idrinth.log("is NOT idrinth: setting up", "characterpanel");
     hideIdrinthPanels();
 end;
@@ -164,7 +164,7 @@ core:add_listener(
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "character_initiatives_holder");
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "fragments_subpanel");
         set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "vows_subpanel");
-        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives");
     end,
     true
 );

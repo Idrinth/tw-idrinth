@@ -21,7 +21,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.15,
             wh3_main_ksl_kislev = 0.1,
             wh_main_vmp_vampire_counts = 0.05,
-        }
+        };
     },
     wood_elves = {
         min_rounds = 15,
@@ -37,7 +37,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.15,
             wh3_main_ksl_kislev = 0.1,
             wh_main_vmp_vampire_counts = 0.05,
-        }
+        };
     },
     kislev = {
         min_rounds = 15,
@@ -53,7 +53,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.3,
             wh3_main_ksl_kislev = 0.5,
             wh_main_vmp_vampire_counts = 0.15,
-        }
+        };
     },
     empire = {
         min_rounds = 15,
@@ -69,7 +69,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.5,
             wh3_main_ksl_kislev = 0.3,
             wh_main_vmp_vampire_counts = 0.15,
-        }
+        };
     },
     vampire_counts = {
         min_rounds = 15,
@@ -85,7 +85,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.3,
             wh3_main_ksl_kislev = 0.15,
             wh_main_vmp_vampire_counts = 0.5,
-        }
+        };
     },
     dwarves = {
         min_rounds = 20,
@@ -101,8 +101,8 @@ local dilemmas = {
             wh_main_emp_empire = 0.25,
             wh3_main_ksl_kislev = 0.2,
             wh_main_vmp_vampire_counts = 0.1,
-        }
-    }
+        };
+    };
 };
 core:add_listener(
     "idrinth_story_FactionTurnStart",
@@ -110,7 +110,7 @@ core:add_listener(
     function(context)
         if not context:faction():is_human() then
             return false;
-        end
+        end;
         local idrinth = Idrinth.Access.get(context:faction());
         return idrinth and not idrinth:is_wounded();
     end,
@@ -174,24 +174,24 @@ core:add_listener(
     true
 );
 cm:add_saving_game_callback(
-	function(context)
-		for name, element in pairs(dilemmas) do
+    function(context)
+        for name, element in pairs(dilemmas) do
             if element.triggered then
                 cm:save_named_value("idrinth.dilemmas." .. name, 1, context);
             end;
-		end;
-		cm:save_named_value("idrinth.dilemmaCooldown", cooldown, context);
-	end
+        end;
+        cm:save_named_value("idrinth.dilemmaCooldown", cooldown, context);
+    end;
 );
 cm:add_loading_game_callback(
-	function(context)
-		if cm:is_new_game() == false then
+    function(context)
+        if cm:is_new_game() == false then
             cooldown = cm:load_named_value("idrinth.dilemmaCooldown", cooldown, context);
             for name, element in pairs(dilemmas) do
                 element.triggered = (cm:load_named_value("idrinth.dilemmas." .. name, 0, context) == 1);
             end;
-		end;
-	end
+        end;
+    end;
 );
 core:add_listener(
     "idrinth_story_MctInitialized",
@@ -203,7 +203,7 @@ core:add_listener(
         chanceMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_dilemma_base_chance"):get_finalized_setting();
     end,
     true
-)
+);
 core:add_listener(
     "idrinth_story_MctFinalized",
     "MctFinalized",

@@ -68,7 +68,7 @@ core:add_listener(
     function(context)
         if not context:faction():is_human() then
             return false;
-        end
+        end;
         local idrinth = Idrinth.Access.get(context:faction());
         return idrinth and not idrinth:is_wounded();
     end,
@@ -109,7 +109,7 @@ core:add_listener(
                 cm:force_remove_ancillary_from_faction(
                     faction,
                     ancillary
-                )
+                );
                 cm:force_add_ancillary(
                     idrinth,
                     ancillary,
@@ -131,7 +131,7 @@ core:add_listener(
         itemChanceMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_base_chance"):get_finalized_setting();
     end,
     true
-)
+);
 core:add_listener(
     "idrinth_items_MctFinalized",
     "MctFinalized",
@@ -144,20 +144,20 @@ core:add_listener(
     true
 );
 cm:add_saving_game_callback(
-	function(context)
+    function(context)
         for name, element in pairs(itemDilemmas) do
             if element.triggered then
                 cm:save_named_value("idrinth.item_dilemmas." .. name, 1, context);
             end;
         end;
-	end
+    end;
 );
 cm:add_loading_game_callback(
-	function(context)
-		if cm:is_new_game() == false then
+    function(context)
+        if cm:is_new_game() == false then
             for name, element in pairs(itemDilemmas) do
                 element.triggered = (cm:load_named_value("idrinth.item_dilemmas." .. name, 0, context) == 1);
             end;
-		end;
-	end
+        end;
+    end;
 );

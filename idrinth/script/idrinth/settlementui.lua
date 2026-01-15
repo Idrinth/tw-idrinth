@@ -115,7 +115,7 @@ core:add_listener(
         Idrinth.Ui.nowAndThen(
             function()
                 updateSettlementViewState(lastClicked);
-            end
+            end;
         );
     end,
     true

@@ -31,7 +31,7 @@ access.get = function(requiredFaction)
         if factions then
             for _, faction in pairs(factions) do
                 if not requiredFaction or faction == requiredFaction then
-                    local idrinth = getIdrinthFromFaction(faction)
+                    local idrinth = getIdrinthFromFaction(faction);
                     if idrinth then
                         cqi = idrinth:cqi();
                         return idrinth, faction, culture;

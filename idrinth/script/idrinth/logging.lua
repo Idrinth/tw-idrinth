@@ -13,7 +13,7 @@ core:add_listener(
         enableBaseGameLogging = context:mct():get_mod_by_key("idrinth"):get_option_by_key("base_logging"):get_finalized_setting();
     end,
     true
-)
+);
 core:add_listener(
     "idrinth_logging_MctFinalized",
     "MctFinalized",
@@ -58,7 +58,7 @@ local log = function(thing, logtype)
         "ScriptEventIdrinthLogMessageReady",
         {
             message = "[" .. logtype .. "] " .. output_str .. "\n",
-        }
+        };
     );
 end;
 

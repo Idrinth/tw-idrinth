@@ -27,7 +27,7 @@ core:add_listener(
         cachedCultureMap = nil;
     end,
     true
-)
+);
 core:add_listener(
     "idrinth_cultures_MctFinalized",
     "MctFinalized",

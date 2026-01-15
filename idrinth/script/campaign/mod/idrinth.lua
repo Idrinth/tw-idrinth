@@ -1,6 +1,6 @@
 Idrinth = {};
 
--- Base methods and data
+-- Base methods and data;
 Idrinth.mayConfigure = cm:load_global_script("script/idrinth/multiplayer");
 Idrinth.Constants = cm:load_global_script("script/idrinth/constants");
 Idrinth.Version = cm:load_global_script("script/idrinth/version");
@@ -13,7 +13,7 @@ Idrinth.Statistics = cm:load_global_script("script/idrinth/statistics");
 Idrinth.Ui = cm:load_global_script("script/idrinth/ui");
 Idrinth.Unittypes = cm:load_global_script("script/idrinth/unittypes");
 
--- Event Listeners for specific topics
+-- Event Listeners for specific topics;
 cm:load_global_script("script/idrinth/settlementui");
 cm:load_global_script("script/idrinth/unlocks");
 cm:load_global_script("script/idrinth/resources");
