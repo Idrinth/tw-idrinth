@@ -4,8 +4,11 @@ local settlementForeignSlotDisplay = function()
         return;
     end;
     for i = 1, parent:ChildCount() do
-        local settlementSlots = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view", "hostile_views", "settlement_hostile_slots");
-        local settlement = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), "settlement_view");
+        local parentItem = UIComponent(parent:Find(i));
+        local settlementSlots = Idrinth.Ui.findElementWithin(
+            parentItem, "settlement_view", "hostile_views", "settlement_hostile_slots"
+        );
+        local settlement = Idrinth.Ui.findElementWithin(parentItem, "settlement_view");
         if settlement and settlementSlots then
             local element;
             if i == 1 then
@@ -107,7 +110,20 @@ core:add_listener(
         if not Idrinth.Access.spawned() then
             return false;
         end;
-        return context.string == "button_default_view" or context.string == "button_ally_view" or context.string == "button_player_foreign_view" or context.string == "button_player_foreign_trap_view" or context.string == "button_discovered_view" or context.string == "idrinth_settlement_panel_button";
+        local buttonNames = {
+            "button_default_view",
+            "button_ally_view",
+            "button_player_foreign_view",
+            "button_player_foreign_trap_view",
+            "button_discovered_view",
+            "idrinth_settlement_panel_button"
+        };
+        for _, name in pairs(buttonNames) do
+            if context.string == name then
+                return true;
+            end;
+        end;
+        return false;
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "settlementui");

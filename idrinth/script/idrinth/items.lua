@@ -87,7 +87,10 @@ core:add_listener(
             for _, allowed_type in pairs(data.allowed_types) do
                 allowed = allowed or (idrinth:character_type_key() == allowed_type);
             end;
-            if allowed and not data.triggered and Idrinth.Statistics.BattlesFought >= data.min_battles_fought * factor and Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations * factor and level >= data.min_level * factor then
+            local hasBattles = Idrinth.Statistics.BattlesFought >= data.min_battles_fought * factor;
+            local hasAssassinations = Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations * factor;
+            local hasLevel = level >= data.min_level * factor;
+            if allowed and not data.triggered and hasBattles and hasAssassinations and hasLevel then
                 if (cm:random_number(100) <= 25 * itemChanceFactors[itemChanceMode]) then
                     data.triggered = true;
                     cm:trigger_dilemma(context:faction():name(), data.key);
@@ -127,8 +130,9 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctInitialized", "items");
-        godBlessedItemRequirements = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_difficulty"):get_finalized_setting();
-        itemChanceMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_base_chance"):get_finalized_setting();
+        local mod = context:mct():get_mod_by_key("idrinth");
+        godBlessedItemRequirements = mod:get_option_by_key("god_item_difficulty"):get_finalized_setting();
+        itemChanceMode = mod:get_option_by_key("god_item_base_chance"):get_finalized_setting();
     end,
     true
 );
@@ -138,8 +142,9 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctFinalized", "items");
-        godBlessedItemRequirements = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_difficulty"):get_finalized_setting();
-        itemChanceMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_base_chance"):get_finalized_setting();
+        local mod = context:mct():get_mod_by_key("idrinth");
+        godBlessedItemRequirements = mod:get_option_by_key("god_item_difficulty"):get_finalized_setting();
+        itemChanceMode = mod:get_option_by_key("god_item_base_chance"):get_finalized_setting();
     end,
     true
 );

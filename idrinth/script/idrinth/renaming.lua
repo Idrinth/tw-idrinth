@@ -31,7 +31,10 @@ core:add_listener(
             return false;
         end;
         local unitKey = context:unit():unit_key();
-        return Idrinth.Unittypes.isChapelUnit(unitKey) and not Idrinth.Unittypes.isVarghulf(unitKey) and not Idrinth.Unittypes.isHero(unitKey);
+        local isChapel = Idrinth.Unittypes.isChapelUnit(unitKey);
+        local isNotVarghulf = not Idrinth.Unittypes.isVarghulf(unitKey);
+        local isNotHero = not Idrinth.Unittypes.isHero(unitKey);
+        return isChapel and isNotVarghulf and isNotHero;
     end,
     function(context)
         Idrinth.log("UnitCreated", "renaming");

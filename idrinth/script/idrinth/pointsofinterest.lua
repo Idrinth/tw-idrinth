@@ -102,7 +102,8 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctInitialized", "pointsofinterest");
-        enablePointsOfInterest = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_events"):get_finalized_setting();
+        local mod = context:mct():get_mod_by_key("idrinth");
+        enablePointsOfInterest = mod:get_option_by_key("story_events"):get_finalized_setting();
     end,
     true
 );
@@ -112,7 +113,8 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctFinalized", "pointsofinterest");
-        enablePointsOfInterest = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_events"):get_finalized_setting();
+        local mod = context:mct():get_mod_by_key("idrinth");
+        enablePointsOfInterest = mod:get_option_by_key("story_events"):get_finalized_setting();
     end,
     true
 );

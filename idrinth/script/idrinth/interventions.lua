@@ -106,22 +106,29 @@ core:add_listener(
         for _, event in pairs(godFavourDilemmas) do
             if event.cooldown > 0 then
                 event.cooldown = event.cooldown - 1;
-            elseif cm:random_number(100) > 95 and context:faction():pooled_resource_manager():resource("idrinth_khaine"):value() >= event.khaine + khaineUsed and context:faction():pooled_resource_manager():resource("idrinth_kurnous"):value() >= event.kurnous + kurnousUsed and context:faction():pooled_resource_manager():resource("idrinth_asuryan"):value() >= event.asuryan + asuryanUsed then
-                cm:apply_effect_bundle(
-                    event.effect,
-                    context:faction():name(),
-                    event.duration
-                );
-                cm:apply_effect_bundle(
-                    event.effect .. "_cost",
-                    context:faction():name(),
-                    1
-                );
-                asuryanUsed = asuryanUsed + event.asuryan;
-                kurnousUsed = kurnousUsed + event.kurnous;
-                khaineUsed = khaineUsed + event.khaine;
-                event.cooldown = event.maxCooldown * cooldownFactors[cooldownMode];
-                eventTriggered = true;
+            else
+                local prm = context:faction():pooled_resource_manager();
+                local hasKhaine = prm:resource("idrinth_khaine"):value() >= event.khaine + khaineUsed;
+                local hasKurnous = prm:resource("idrinth_kurnous"):value() >= event.kurnous + kurnousUsed;
+                local hasAsuryan = prm:resource("idrinth_asuryan"):value() >= event.asuryan + asuryanUsed;
+                local shouldTrigger = cm:random_number(100) > 95 and hasKhaine and hasKurnous and hasAsuryan;
+                if shouldTrigger then
+                    cm:apply_effect_bundle(
+                        event.effect,
+                        context:faction():name(),
+                        event.duration
+                    );
+                    cm:apply_effect_bundle(
+                        event.effect .. "_cost",
+                        context:faction():name(),
+                        1
+                    );
+                    asuryanUsed = asuryanUsed + event.asuryan;
+                    kurnousUsed = kurnousUsed + event.kurnous;
+                    khaineUsed = khaineUsed + event.khaine;
+                    event.cooldown = event.maxCooldown * cooldownFactors[cooldownMode];
+                    eventTriggered = true;
+                end;
             end;
         end;
         if eventTriggered then
