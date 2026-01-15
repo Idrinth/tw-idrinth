@@ -94,7 +94,7 @@ core:add_listener(
     function(context)
         if not context:faction():is_human() then
             return false;
-        end
+        end;
         return Idrinth.Access.get(context:faction()) ~= nil;
     end,
     function(context)
@@ -138,24 +138,24 @@ core:add_listener(
     true
 );
 cm:add_saving_game_callback(
-	function(context)
-		for name, element in pairs(godFavourDilemmas) do
+    function(context)
+        for name, element in pairs(godFavourDilemmas) do
             if element.cooldown > 0 then
                 cm:save_named_value("idrinth.interventions." .. name, element.cooldown, context);
             end;
-		end;
-		cm:save_named_value("idrinth.interventionCooldownMode", cooldownMode, context);
-	end
+        end;
+        cm:save_named_value("idrinth.interventionCooldownMode", cooldownMode, context);
+    end
 );
 cm:add_loading_game_callback(
-	function(context)
-		if cm:is_new_game() == false then
+    function(context)
+        if cm:is_new_game() == false then
             cooldownMode = cm:load_named_value("idrinth.interventionCooldownMode", cooldownMode, context);
             for name, element in pairs(godFavourDilemmas) do
                 element.cooldown = cm:load_named_value("idrinth.interventions." .. name, 0, context);
             end;
-		end;
-	end
+        end;
+    end
 );
 core:add_listener(
     "idrinth_interventions_MctInitialized",
@@ -166,7 +166,7 @@ core:add_listener(
         cooldownMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("intervention_cooldown"):get_finalized_setting();
     end,
     true
-)
+);
 core:add_listener(
     "idrinth_interventions_MctFinalized",
     "MctFinalized",

@@ -39,15 +39,15 @@ local adjustDevotionTraitsBy = function(idrinth, devotion, points)
             movedPastTier = true;
         elseif total >= 35 and total - points < 35 then
             movedPastTier = true;
-        end
+        end;
     else
         if total <= -10 and total + points > -10 then
             movedPastTier = true;
         elseif total <= -25 and total + points > -25 then
             movedPastTier = true;
-        end
-    end
-    
+        end;
+    end;
+
     if total < -25 then
         total = -25;
     end;
@@ -103,11 +103,11 @@ core:add_listener(
                             for otherDevotion, _ in pairs(relevantDevotions) do
                                 if not (otherDevotion == devotion) then
                                     if totalValue > 34 then
-                                        adjustDevotionTraitsBy(idrinth, otherDevotion, -4)
+                                        adjustDevotionTraitsBy(idrinth, otherDevotion, -4);
                                     elseif totalValue > 14 then
-                                        adjustDevotionTraitsBy(idrinth, otherDevotion, -2)
+                                        adjustDevotionTraitsBy(idrinth, otherDevotion, -2);
                                     elseif totalValue > 4 then
-                                        adjustDevotionTraitsBy(idrinth, otherDevotion, -1)
+                                        adjustDevotionTraitsBy(idrinth, otherDevotion, -1);
                                     end;
                                 end;
                             end;
@@ -129,7 +129,7 @@ core:add_listener(
     function(context)
         if not cm:model():pending_battle():has_been_fought() then
             return false;
-        end
+        end;
         return Idrinth.Access.spawned();
     end,
     function(context)

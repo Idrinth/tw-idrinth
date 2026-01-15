@@ -88,12 +88,12 @@ local placesOfInterest = {
         key = "idrinth_story_dilemma_ghrond",
         triggered = false,
         region = "wh3_main_combi_region_ghrond"
-    }
+    };
 };
 local regionToPoI = {};
 for _, data in pairs(placesOfInterest) do
     regionToPoI[data.region] = data;
-end
+end;
 local enablePointsOfInterest = nil;
 
 core:add_listener(
@@ -105,7 +105,7 @@ core:add_listener(
         enablePointsOfInterest = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_events"):get_finalized_setting();
     end,
     true
-)
+);
 core:add_listener(
     "idrinth_pointsofinterest_MctFinalized",
     "MctFinalized",
@@ -146,10 +146,10 @@ core:add_listener(
     function(context)
         if not enablePointsOfInterest then
             return false;
-        end
+        end;
         if not context:faction():is_human() then
             return false;
-        end
+        end;
         local idrinth = Idrinth.Access.get(context:faction());
         return idrinth and not idrinth:is_wounded() and idrinth:region() and idrinth:has_region();
     end,
@@ -160,21 +160,21 @@ core:add_listener(
         if poi and not poi.triggered then
             cm:trigger_dilemma(context:faction():name(), poi.key);
             poi.triggered = true;
-        end
+        end;
     end,
     true
 );
 cm:add_saving_game_callback(
-	function(context)
+    function(context)
         if enablePointsOfInterest then
-            cm:save_named_value("idrinth.enablePointsOfInterest", 1, context);         
+            cm:save_named_value("idrinth.enablePointsOfInterest", 1, context);
         end;
-	end
+    end
 );
 cm:add_loading_game_callback(
-	function(context)
-		if cm:is_new_game() == false then
+    function(context)
+        if cm:is_new_game() == false then
             enablePointsOfInterest = (cm:load_named_value("idrinth.enablePointsOfInterest", 0, context) == 1);
-		end;
-	end
+        end;
+    end
 );

@@ -110,7 +110,7 @@ local battleResultModifiers = {
         close_defeat = 50,
         decisive_defeat = 25,
         crushing_defeat = 0
-    }
+    };
 };
 local applyBattleResourceTransaction = function(name, faction, amount, battleResult)
     local amt = amount * battleResultModifiers[name][battleResult]/100 * (0.94 + cm:random_number(11)/100);
@@ -125,7 +125,7 @@ local createResourceUI = function()
     Idrinth.Ui.createOrFind("idrinth_pooled_resource_kurnous", parent);
     Idrinth.Ui.createOrFind("idrinth_pooled_resource_khaine", parent);
 end;
-cm:add_first_tick_callback(                                                                       
+cm:add_first_tick_callback(
     function()
         local idrinth, faction = Idrinth.Access.get();
         if faction == cm:get_local_faction() then
@@ -135,9 +135,9 @@ cm:add_first_tick_callback(
                 faction:name(),
                 resourceChangedListener,
                 true
-            )
+            );
         end;
-    end
+    end;
 );
 core:add_listener(
     "idrinth_resources_DilemmaChoiceMadeEvent",
@@ -149,7 +149,7 @@ core:add_listener(
         Idrinth.log("DilemmaChoiceMadeEvent", "resources");
         if context:choice() == 1 then
             return;
-        end
+        end;
         Idrinth.Ui.nowAndThen(createResourceUI);
         cm:add_pooled_resource_changed_listener_by_faction(
             "idrinth_PooledResourceListener",
@@ -217,7 +217,7 @@ core:add_listener(
     function(context)
         if not cm:model():pending_battle():has_been_fought() then
             return false;
-        end
+        end;
         return Idrinth.Access.spawned();
     end,
     function(context)

@@ -27,7 +27,7 @@ local addSection = function(mod, key, elements, global)
             local dropdown = addDropdown(mod, elementKey, config.values, config.default, global);
         end;
     end;
-end
+end;
 
 local mct = get_mct();
 if mct then
@@ -86,7 +86,7 @@ if mct then
         base_logging = {
             element = "checkbox",
             default = false,
-        }
+        };
     }, true);
     
     addSection(idrinth, "idrinth_cooldowns", {
@@ -99,7 +99,7 @@ if mct then
             element = "dropdown",
             values = {"low", "medium", "long"},
             default = "medium"
-        }
+        };
     }, false);
     
     addSection(idrinth, "idrinth_chances", {

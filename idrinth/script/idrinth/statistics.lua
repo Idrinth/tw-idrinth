@@ -3,23 +3,23 @@ local statistics = {
     BattlesFought = 0,
     CharactersAssassinated = 0,
     ChapelsFounded = 0,
-}
+};
 cm:add_saving_game_callback(
-	function(context)
-		cm:save_named_value("idrinth.activeRounds", statistics.ActiveRounds, context);
-		cm:save_named_value("idrinth.battlesFought", statistics.BattlesFought, context);
-		cm:save_named_value("idrinth.charactersAssassinated", statistics.CharactersAssassinated, context);
-	end
+    function(context)
+        cm:save_named_value("idrinth.activeRounds", statistics.ActiveRounds, context);
+        cm:save_named_value("idrinth.battlesFought", statistics.BattlesFought, context);
+        cm:save_named_value("idrinth.charactersAssassinated", statistics.CharactersAssassinated, context);
+    end
 );
 cm:add_loading_game_callback(
-	function(context)
-		if cm:is_new_game() then
+    function(context)
+        if cm:is_new_game() then
             return;
-		end;
+        end;
         statistics.ActiveRounds = cm:load_named_value("idrinth.activeRounds", statistics.ActiveRounds, context);
         statistics.BattlesFought = cm:load_named_value("idrinth.battlesFought", statistics.BattlesFought, context);
         statistics.CharactersAssassinated = cm:load_named_value("idrinth.charactersAssassinated", statistics.CharactersAssassinated, context);
-	end
+    end
 );
 core:add_listener(
     "idrinth_statistics_CharacterCharacterTargetAction",

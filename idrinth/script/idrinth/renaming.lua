@@ -9,7 +9,7 @@ core:add_listener(
         enableRenaming = context:mct():get_mod_by_key("idrinth"):get_option_by_key("names"):get_finalized_setting();
     end,
     true
-)
+);
 core:add_listener(
     "idrinth_renaming_MctFinalized",
     "MctFinalized",

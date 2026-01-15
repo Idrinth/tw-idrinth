@@ -3,7 +3,7 @@ local levelAdjustment = {
     null = 0,
     one = 1,
     three = 3,
-    six = 6
+    six = 6,
 };
 local afterUnlockDilemmas = {
     wh2_main_hef_high_elves = "idrinth_dilemma_unlock_high_elves",
@@ -92,7 +92,7 @@ local nameByCulture = {
         familyname = "99991000000000",
         clanname = "99991000000001",
     },
-}
+};
 local unlockDilemma = "idrinth_unlock_choice";
 local unlockMissionStarted = {};
 local spawnIdrinthArmy = function(faction, region, x, y)
@@ -119,7 +119,7 @@ local spawnIdrinthArmy = function(faction, region, x, y)
                 false,
                 1
             );
-        end
+        end;
     );
 end;
 local spawnIdrinth = function(agentType, faction)
@@ -187,7 +187,7 @@ core:add_listener(
         unlockLevelAdjustment = levelAdjustment[context:mct():get_mod_by_key("idrinth"):get_option_by_key("level_adjustment"):get_finalized_setting()];
     end,
     true
-)
+);
 core:add_listener(
     "idrinth_unlocks_MctFinalized",
     "MctFinalized",
@@ -209,19 +209,19 @@ core:add_listener(
         if context:choice() == 1 then
             settings.unlockLevelAdjustment = 0;
             return;
-        end
+        end;
         if context:choice() == 2 then
             settings.unlockLevelAdjustment = 1;
             return;
-        end
+        end;
         if context:choice() == 3 then
             settings.unlockLevelAdjustment = 3;
             return;
-        end
+        end;
         if context:choice() == 4 then
             settings.unlockLevelAdjustment = 6;
             return;
-        end
+        end;
     end,
     true
 );
@@ -322,7 +322,7 @@ core:add_listener(
         agentType = Idrinth.Constants.HeroType;
         if cm:random_number(100) > 50 then
             agentType = Idrinth.Constants.LordType;
-        end
+        end;
         spawnIdrinth(agentType, context:faction());
     end,
     true
@@ -357,30 +357,30 @@ core:add_listener(
         Idrinth.log("DilemmaChoiceMadeEvent", "unlocks");
         if context:choice() == 1 then
             return;
-        end
+        end;
         agentType = Idrinth.Constants.HeroType;
         if context:choice() == 2 then
             agentType = Idrinth.Constants.LordType;
-        end
+        end;
         spawnIdrinth(agentType, context:faction());
     end,
     true
 );
 cm:add_saving_game_callback(
-	function(context)
+    function(context)
         for _, faction in pairs(Idrinth.factions) do
             if unlockMissionStarted[faction] then
                 cm:save_named_value("idrinth.unlocks."..faction, 1, context);
             end;
         end;
-	end
+    end
 );
 cm:add_loading_game_callback(
-	function(context)
-		if cm:is_new_game() == false then
+    function(context)
+        if cm:is_new_game() == false then
             for _, faction in pairs(Idrinth.factions) do
                 unlockMissionStarted[faction] = (cm:load_named_value("idrinth.unlocks."..faction, 0, context) == 1);
             end;
-		end;
-	end
+        end;
+    end
 );
