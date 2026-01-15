@@ -20,4 +20,4 @@ jobs:
       - name: Install luacheck
         run: sudo luarocks install luacheck
       - name: Run luacheck
-        run: luacheck **/*.lua
+        run: luacheck */**/*.lua
