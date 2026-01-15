@@ -21,7 +21,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.15,
             wh3_main_ksl_kislev = 0.1,
             wh_main_vmp_vampire_counts = 0.05,
-        };
+        }
     },
     wood_elves = {
         min_rounds = 15,
