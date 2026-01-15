@@ -144,51 +144,44 @@ core:add_listener(
             defenderWon = true;
         end;
         local idrinthIsAttacker = false;
-        local idrinthFactionName = nil;
         local attackerCharacters = 0;
         for i = 1, cm:pending_battle_cache_num_attackers() do
-            local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_attacker(i);
+            local char_cqi = cm:pending_battle_cache_get_attacker(i);
             local characters = cm:pending_battle_cache_get_attacker_embedded_character_subtypes(i);
             local general = cm:get_character_by_cqi(char_cqi);
             if general then
                 attackerCharacters = attackerCharacters + 1;
                 if general:character_subtype(Idrinth.Constants.LordSubtype) then
                     idrinthIsAttacker = true;
-                    idrinthFactionName = faction_name;
                 end;
             end;
             for j=1, #characters do
                 attackerCharacters = attackerCharacters + 1;
                 if characters[j] == Idrinth.Constants.HeroSubtype then
                     idrinthIsAttacker = true;
-                    idrinthFactionName = faction_name;
                 elseif characters[j] == Idrinth.Constants.LordSubtype then
                     idrinthIsAttacker = true;
-                    idrinthFactionName = faction_name;
                 end;
             end;
         end;
         local idrinthIsDefender = false;
         local defenderCharacters = 0;
         for i = 1, cm:pending_battle_cache_num_defenders() do
-            local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_defender(i);
+            local char_cqi = cm:pending_battle_cache_get_defender(i);
             local characters = cm:pending_battle_cache_get_defender_embedded_character_subtypes(i);
             local general = cm:get_character_by_cqi(char_cqi);
             if general then
                 defenderCharacters = defenderCharacters + 1;
                 if general:character_subtype(Idrinth.Constants.LordSubtype) then
                     idrinthIsDefender = true;
-                    idrinthFactionName = faction_name;
                 end;
             end;
             for j=1, #characters do
                 defenderCharacters = defenderCharacters + 1;
                 if characters[j] == Idrinth.Constants.HeroSubtype then
                     idrinthIsDefender = true;
-                    idrinthFactionName = faction_name;
                 elseif characters[j] == Idrinth.Constants.LordSubtype then
                     idrinthIsDefender = true;
-                    idrinthFactionName = faction_name;
                 end;
             end;
         end;
@@ -196,7 +189,7 @@ core:add_listener(
             Idrinth.Statistics.BattlesFought = Idrinth.Statistics.BattlesFought + 1;
             if not attackerWon then
                 for i = 1, cm:pending_battle_cache_num_defenders() do
-                    local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_defender(i);
+                    local char_cqi = cm:pending_battle_cache_get_defender(i);
                     local general = cm:get_character_by_cqi(char_cqi);
                     if general then
                         cm:force_add_trait(
@@ -221,7 +214,7 @@ core:add_listener(
             Idrinth.Statistics.BattlesFought = Idrinth.Statistics.BattlesFought + 1;
             if not defenderWon then
                 for i = 1, cm:pending_battle_cache_num_attackers() do
-                    local char_cqi, mf_cqi, faction_name = cm:pending_battle_cache_get_attacker(i);
+                    local char_cqi = cm:pending_battle_cache_get_attacker(i);
                     local general = cm:get_character_by_cqi(char_cqi);
                     if general then
                         cm:force_add_trait(

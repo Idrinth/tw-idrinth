@@ -11,10 +11,10 @@ local getIdrinthFromFaction = function(faction)
 end;
 local cqi = nil;
 
-access = {};
+local access = {};
 access.get = function(requiredFaction)
     if cqi then
-        idrinth = cm:get_character_by_cqi(cqi);
+        local idrinth = cm:get_character_by_cqi(cqi);
         if idrinth then
             if requiredFaction and idrinth:faction() ~= requiredFaction then
                 return nil, nil, nil;
@@ -44,10 +44,7 @@ access.get = function(requiredFaction)
     return nil, nil, nil;
 end;
 access.spawned = function()
-    if cqi and cm:get_character_by_cqi(cqi) then
-        return true;
-    end;
     local character = access.get();
-    return character or false;
+    return character ~= nil;
 end;
 return access;

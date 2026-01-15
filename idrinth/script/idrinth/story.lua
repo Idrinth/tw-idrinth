@@ -119,7 +119,7 @@ core:add_listener(
         local idrinth, faction, culture = Idrinth.Access.get();
         local level = idrinth:rank();
         if cooldown > 0 then
-            cooldown = cilemmaCooldown - 1;
+            cooldown = cooldown - 1;
             return;
         end;
         local digit_bonus = 0;
@@ -145,12 +145,12 @@ core:add_listener(
             increment = increment + 1;
         end;
         local dilemmasTriggered = 0;
-        for factionName, data in pairs(dilemmas) do
+        for _, data in pairs(dilemmas) do
             if data.triggered then
                 dilemmasTriggered = dilemmasTriggered + 1;
             end;
         end;
-        for factionName, data in pairs(dilemmas) do
+        for _, data in pairs(dilemmas) do
             if not data.triggered and Idrinth.Statistics.ActiveRounds >= data.min_rounds and Idrinth.Statistics.BattlesFought >= data.min_battles_fought and Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations and level >= data.min_level then
                 local chance = data.chances[culture];
                 if not chance then
@@ -159,12 +159,12 @@ core:add_listener(
                 if chance and (cm:random_number(100) / 100 <= chance * chanceFactors[chanceMode] + digit_bonus/100 - dilemmasTriggered/100) then
                     data.triggered = true;
                     cm:trigger_dilemma(faction:name(), data.key);
-                    if Idrinth._dilemmaCooldownMode == "low" then
-                        Idrinth._dilemmaCooldown = cm:random_number(2) + 1;
-                    elseif Idrinth._dilemmaCooldownMode == "medium" then
-                        Idrinth._dilemmaCooldown = cm:random_number(3) + 2;
+                    if cooldownMode == "low" then
+                        cooldown = cm:random_number(2) + 1;
+                    elseif cooldownMode == "medium" then
+                        cooldown = cm:random_number(3) + 2;
                     else
-                        Idrinth._dilemmaCooldown = cm:random_number(4) + 3;
+                        cooldown = cm:random_number(4) + 3;
                     end;
                     return;
                 end;

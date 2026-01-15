@@ -137,7 +137,7 @@ cm:add_first_tick_callback(
                 true
             );
         end;
-    end;
+    end
 );
 core:add_listener(
     "idrinth_resources_DilemmaChoiceMadeEvent",

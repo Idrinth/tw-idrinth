@@ -1,4 +1,4 @@
-local settlementForeignSlotDisplay = function(context)
+local settlementForeignSlotDisplay = function()
     local parent = Idrinth.Ui.findElementWithin("settlement_panel", "settlement_list");
     if not parent then
         return;
@@ -124,9 +124,9 @@ core:add_listener(
     "idrinth_settlementui_PanelOpenedCampaign",
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
-    function(context)
+    function()
         Idrinth.log("PanelOpenedCampaign", "settlementui");
-        settlementForeignSlotDisplay(context);
+        settlementForeignSlotDisplay();
     end,
     true
 );
@@ -134,9 +134,9 @@ core:add_listener(
     "idrinth_settlementui_PanelOpenedCampaign_2",
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
-    function(context)
+    function()
         Idrinth.log("PanelOpenedCampaign", "settlementui");
-        settlementForeignSlotDisplay(context);
+        settlementForeignSlotDisplay();
     end,
     true
 );
@@ -144,9 +144,9 @@ core:add_listener(
     "idrinth_settlementui_CampaignSettlementSelectedAny",
     "CampaignSettlementSelectedAny",
     Idrinth.Access.spawned,
-    function(context)
+    function()
         Idrinth.log("CampaignSettlementSelectedAny", "settlementui");
-        settlementForeignSlotDisplay(context);
+        settlementForeignSlotDisplay();
     end,
     true
 );

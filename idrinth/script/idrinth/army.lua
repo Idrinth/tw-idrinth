@@ -160,7 +160,6 @@ local upgradeUnit = function(god)
         return;
     end;
     local factionKey = character:faction():name();
-    local pooledResourceManager = character:faction():pooled_resource_manager();
     for i = 1, units:ChildCount() do
         local unit = UIComponent(units:Find(i));
         if unit and (unit:CurrentState() == "selected_hover" or unit:CurrentState() == "selected") then
@@ -188,7 +187,6 @@ local upgradeSize = function()
         return;
     end;
     local factionKey = character:faction():name();
-    local pooledResourceManager = character:faction():pooled_resource_manager();
     for i = 1, units:ChildCount() do
         local unit = UIComponent(units:Find(i));
         if unit and (unit:CurrentState() == "selected_hover" or unit:CurrentState() == "selected") then
@@ -199,8 +197,7 @@ local upgradeSize = function()
                 local currentVeteranRank = 0;
                 local hasNoEffect = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.IsEmpty");
                 if not hasNoEffect then
-                    icon:SetVisible(true);
-                    icon:SetImagePath(common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.At(0).EffectBundleContext.Key"));
+                    currentVeteranRank = common.get_context_value("CcoCampaignUnit", id, "PurchasedEffectsList.At(0).Key"
                 end;
                 local infantryPrice = 300;
                 local cavalryPrice = 250;
@@ -228,11 +225,10 @@ local upgradeSize = function()
     end;
 end;
 local upgradeAnimal = function(god)
-    local units, character, uiIds = getSelectedUnitsInfo();
+    local units, character = getSelectedUnitsInfo();
     if not units then
         return;
     end;
-    local factionKey = character:faction():name();
     for i = 1, units:ChildCount() do
         local unit = UIComponent(units:Find(i));
         if unit and (unit:CurrentState() == "selected_hover" or unit:CurrentState() == "selected") then

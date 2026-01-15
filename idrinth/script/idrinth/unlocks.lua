@@ -119,7 +119,7 @@ local spawnIdrinthArmy = function(faction, region, x, y)
                 false,
                 1
             );
-        end;
+        end
     );
 end;
 local spawnIdrinth = function(agentType, faction)

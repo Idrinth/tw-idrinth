@@ -49,14 +49,10 @@ core:add_listener(
     "FactionTurnStart",
     function(context)
         local idrinth = Idrinth.Access.get(context:faction());
-        return idrinth;
+        return idrinth and not idrinth:is_wounded();
     end,
-    function(context)
+    function()
         Idrinth.log("FactionTurnStart", "statistics");
-        local idrinth = Idrinth.Access.get();
-        if idrinth:is_wounded() then
-            return;
-        end;
         statistics.ActiveRounds = statistics.ActiveRounds + 1;
     end,
     true

@@ -16,7 +16,7 @@ local addCheckbox = function(mod, key, defaultValue, global)
     local checkbox = mod:add_new_option(key, "checkbox");
     checkbox:set_default_value(defaultValue);
     checkbox:set_is_global(global);
-    return chackbox;
+    return checkbox;
 end;
 local addSection = function(mod, key, elements, global)
     mod:add_new_section(key, "mct_idrinth_section_"..key.."_name");
@@ -36,7 +36,7 @@ if mct then
     local version = require("script/idrinth/version");
     idrinth:set_version(version.iteration, version.main .. "." .. version.feature .. "." .. version.bug);
     idrinth:set_main_image("ui/flags/idrinth_hev_high_elf_vampires/mon_256.png", 256, 256);
-    
+
     addSection(idrinth, "idrinth_spawn", {
         expanded_spawn = {
             element = "checkbox",
@@ -58,7 +58,6 @@ if mct then
             default = "normal"
         },
     }, false);
-    
     addSection(idrinth, "idrinth_features", {
         story_events = {
             element = "checkbox",
@@ -77,7 +76,6 @@ if mct then
             default = true,
         },
     }, false);
-    
     addSection(idrinth, "idrinth_other", {
         logging = {
             element = "checkbox",
@@ -88,7 +86,6 @@ if mct then
             default = false,
         };
     }, true);
-    
     addSection(idrinth, "idrinth_cooldowns", {
         dilemma_cooldown = {
             element = "dropdown",
@@ -101,7 +98,6 @@ if mct then
             default = "medium"
         };
     }, false);
-    
     addSection(idrinth, "idrinth_chances", {
         vampire_chance = {
             element = "dropdown",
