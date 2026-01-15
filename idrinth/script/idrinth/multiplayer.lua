@@ -3,7 +3,7 @@ local isHost = false;
 cm:add_pre_first_tick_callback(
     function(context)
         isHost = common.get_context_value("CcoFrontendRoot", "", "CampaignLobbyContext.IsLocalPlayerHost");
-    end;
+    end
 );
 
 local mayConfigure = function()

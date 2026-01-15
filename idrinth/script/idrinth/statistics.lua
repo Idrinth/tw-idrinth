@@ -9,7 +9,7 @@ cm:add_saving_game_callback(
         cm:save_named_value("idrinth.activeRounds", statistics.ActiveRounds, context);
         cm:save_named_value("idrinth.battlesFought", statistics.BattlesFought, context);
         cm:save_named_value("idrinth.charactersAssassinated", statistics.CharactersAssassinated, context);
-    end;
+    end
 );
 cm:add_loading_game_callback(
     function(context)
@@ -19,7 +19,7 @@ cm:add_loading_game_callback(
         statistics.ActiveRounds = cm:load_named_value("idrinth.activeRounds", statistics.ActiveRounds, context);
         statistics.BattlesFought = cm:load_named_value("idrinth.battlesFought", statistics.BattlesFought, context);
         statistics.CharactersAssassinated = cm:load_named_value("idrinth.charactersAssassinated", statistics.CharactersAssassinated, context);
-    end;
+    end
 );
 core:add_listener(
     "idrinth_statistics_CharacterCharacterTargetAction",

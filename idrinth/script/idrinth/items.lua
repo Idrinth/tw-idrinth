@@ -150,7 +150,7 @@ cm:add_saving_game_callback(
                 cm:save_named_value("idrinth.item_dilemmas." .. name, 1, context);
             end;
         end;
-    end;
+    end
 );
 cm:add_loading_game_callback(
     function(context)
@@ -159,5 +159,5 @@ cm:add_loading_game_callback(
                 element.triggered = (cm:load_named_value("idrinth.item_dilemmas." .. name, 0, context) == 1);
             end;
         end;
-    end;
+    end
 );

@@ -537,5 +537,5 @@ cm:add_first_tick_callback(
     function()
         lockVeterans(cm:get_local_faction(), true);
         lockAnimalBlessings(cm:get_local_faction(), true);
-    end;
+    end
 );

@@ -181,7 +181,7 @@ cm:add_saving_game_callback(
             end;
         end;
         cm:save_named_value("idrinth.dilemmaCooldown", cooldown, context);
-    end;
+    end
 );
 cm:add_loading_game_callback(
     function(context)
@@ -191,7 +191,7 @@ cm:add_loading_game_callback(
                 element.triggered = (cm:load_named_value("idrinth.dilemmas." .. name, 0, context) == 1);
             end;
         end;
-    end;
+    end
 );
 core:add_listener(
     "idrinth_story_MctInitialized",

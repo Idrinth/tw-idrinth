@@ -152,14 +152,14 @@ core:add_listener(
 cm:add_saving_game_callback(
     function(context)
         if enableChapels then
-            cm:save_named_value("idrinth.enableChapels", 1, context);         
+            cm:save_named_value("idrinth.enableChapels", 1, context);
         end;
-    end;
+    end
 );
 cm:add_loading_game_callback(
     function(context)
         if cm:is_new_game() == false then
             enableChapels = (cm:load_named_value("idrinth.enableChapels", 0, context) == 1);
         end;
-    end;
+    end
 );

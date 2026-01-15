@@ -145,7 +145,7 @@ cm:add_saving_game_callback(
             end;
         end;
         cm:save_named_value("idrinth.interventionCooldownMode", cooldownMode, context);
-    end;
+    end
 );
 cm:add_loading_game_callback(
     function(context)
@@ -155,7 +155,7 @@ cm:add_loading_game_callback(
                 element.cooldown = cm:load_named_value("idrinth.interventions." .. name, 0, context);
             end;
         end;
-    end;
+    end
 );
 core:add_listener(
     "idrinth_interventions_MctInitialized",
