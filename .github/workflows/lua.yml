@@ -14,10 +14,8 @@ jobs:
       - name: Install lua
         run: sudo apt install lua5.1 liblua5.1-dev
       - name: Install luarocks
-        run: wget https://luarocks.org/releases/luarocks-3.13.0.tar.gz && tar zxpf luarocks-3.13.0.tar.gz && cd luarocks-3.13.0 && ./configure && make && sudo make install
-      - name: Install lua file system
-        run: sudo luarocks install luafilesystem
+        run: wget https://luarocks.org/releases/luarocks-3.13.0.tar.gz && tar zxpf luarocks-3.13.0.tar.gz && cd luarocks-3.13.0 && ./configure && make && sudo make install && cd .. && rm - r luarocks-3.13.0.tar.gz && rm -r luarocks-3.13.0
       - name: Install luacheck
         run: sudo luarocks install luacheck
       - name: Run luacheck
-        run: luacheck */**/*.lua
+        run: luacheck /home/runner/work/tw-idrinth/tw-idrinth/*/**/*.lua
