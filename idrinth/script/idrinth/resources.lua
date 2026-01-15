@@ -190,22 +190,23 @@ core:add_listener(
         local ability = context:ability();
         local idrinth = Idrinth.Access.get();
 
+        local prm = context:character():faction():pooled_resource_manager();
         if ability == "hinder_army" then
             if context:mission_result_critial_failure() then
-                cm:pooled_resource_factor_transaction(context:character():faction():pooled_resource_manager(), "idrinth_asuryan_other", -5);
+                cm:pooled_resource_factor_transaction(prm, "idrinth_asuryan_other", -5);
             elseif context:mission_result_success() then
-                cm:pooled_resource_factor_transaction(context:character():faction():pooled_resource_manager(), "idrinth_asuryan_other", 5);
+                cm:pooled_resource_factor_transaction(prm, "idrinth_asuryan_other", 5);
             elseif context:mission_result_critial_success() then
-                cm:pooled_resource_factor_transaction(context:character():faction():pooled_resource_manager(), "idrinth_asuryan_other", 15);
+                cm:pooled_resource_factor_transaction(prm, "idrinth_asuryan_other", 15);
             end;
         elseif ability == "hinder_character" or ability == "hinder_agent" then
             if context:mission_result_critial_failure() then
-                cm:pooled_resource_factor_transaction(context:character():faction():pooled_resource_manager(), "idrinth_kurnous_other", -5);
+                cm:pooled_resource_factor_transaction(prm, "idrinth_kurnous_other", -5);
             elseif context:mission_result_success() then
-                cm:pooled_resource_factor_transaction(context:character():faction():pooled_resource_manager(), "idrinth_kurnous_other", 5);
+                cm:pooled_resource_factor_transaction(prm, "idrinth_kurnous_other", 5);
                 cm:apply_effect_bundle_to_character("idrinth_successful_action_character", idrinth, 2);
             elseif context:mission_result_critial_success() then
-                cm:pooled_resource_factor_transaction(context:character():faction():pooled_resource_manager(), "idrinth_kurnous_other", 15);
+                cm:pooled_resource_factor_transaction(prm, "idrinth_kurnous_other", 15);
             end;
         end;
     end,
@@ -281,10 +282,14 @@ core:add_listener(
                 base = 5;
             end;
             local _, idrinthFaction = Idrinth.Access.get();
+            local attackerKilledPct = pending_battle:percentage_of_attacker_killed();
+            local defenderValue = cm:pending_battle_cache_defender_value();
+            local attackerValue = cm:pending_battle_cache_attacker_value();
+            local asuryanAmount = base + (1 - attackerKilledPct) * defenderValue / attackerValue;
             applyBattleResourceTransaction(
                 "asuryan",
                 idrinthFaction,
-                base + (1 - pending_battle:percentage_of_attacker_killed()) * cm:pending_battle_cache_defender_value()/cm:pending_battle_cache_attacker_value(),
+                asuryanAmount,
                 pending_battle:attacker_battle_result()
             );
             applyBattleResourceTransaction(
@@ -305,10 +310,14 @@ core:add_listener(
                 base = 5;
             end;
             local _, idrinthFaction = Idrinth.Access.get();
+            local defenderKilledPct = pending_battle:percentage_of_defender_killed();
+            local attackerVal = cm:pending_battle_cache_attacker_value();
+            local defenderVal = cm:pending_battle_cache_defender_value();
+            local asuryanAmt = base + (1 - defenderKilledPct) * attackerVal / defenderVal;
             applyBattleResourceTransaction(
                 "asuryan",
                 idrinthFaction,
-                base + (1 - pending_battle:percentage_of_defender_killed()) * cm:pending_battle_cache_attacker_value()/cm:pending_battle_cache_defender_value(),
+                asuryanAmt,
                 pending_battle:defender_battle_result()
             );
             applyBattleResourceTransaction(

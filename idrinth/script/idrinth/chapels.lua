@@ -15,11 +15,17 @@ local addForeignSlots = function(idrinth, faction)
         eventIdCreated
     );
     cm:apply_effect_bundle_to_region("idrinth_chapel_slots_present", idrinth:region():name(), 0);
+    local factionCqi = faction:command_queue_index();
+    local regionCqi = idrinth:region():cqi();
     if idrinth:region():is_province_capital() then
-        cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel_capital");
+        cm:add_foreign_slot_set_to_region_for_faction(
+            factionCqi, regionCqi, "idrinth_slot_set_chapel_capital"
+        );
         return;
     end;
-    cm:add_foreign_slot_set_to_region_for_faction(faction:command_queue_index(), idrinth:region():cqi(), "idrinth_slot_set_chapel");
+    cm:add_foreign_slot_set_to_region_for_faction(
+        factionCqi, regionCqi, "idrinth_slot_set_chapel"
+    );
 end;
 core:add_listener(
     "idrinth_chapels_MctInitialized",
@@ -27,8 +33,9 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctInitialized", "chapels");
-        enableChapels = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapels"):get_finalized_setting();
-        chapelMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapel_chance"):get_finalized_setting();
+        local mod = context:mct():get_mod_by_key("idrinth");
+        enableChapels = mod:get_option_by_key("chapels"):get_finalized_setting();
+        chapelMode = mod:get_option_by_key("chapel_chance"):get_finalized_setting();
     end,
     true
 );
@@ -38,8 +45,9 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctFinalized", "chapels");
-        enableChapels = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapels"):get_finalized_setting();
-        chapelMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("chapel_chance"):get_finalized_setting();
+        local mod = context:mct():get_mod_by_key("idrinth");
+        enableChapels = mod:get_option_by_key("chapels"):get_finalized_setting();
+        chapelMode = mod:get_option_by_key("chapel_chance"):get_finalized_setting();
     end,
     true
 );

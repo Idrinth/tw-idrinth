@@ -151,12 +151,18 @@ core:add_listener(
             end;
         end;
         for _, data in pairs(dilemmas) do
-            if not data.triggered and Idrinth.Statistics.ActiveRounds >= data.min_rounds and Idrinth.Statistics.BattlesFought >= data.min_battles_fought and Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations and level >= data.min_level then
+            local hasRounds = Idrinth.Statistics.ActiveRounds >= data.min_rounds;
+            local hasBattles = Idrinth.Statistics.BattlesFought >= data.min_battles_fought;
+            local hasAssassinations = Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations;
+            local hasLevel = level >= data.min_level;
+            local meetsRequirements = not data.triggered and hasRounds and hasBattles and hasAssassinations and hasLevel;
+            if meetsRequirements then
                 local chance = data.chances[culture];
                 if not chance then
                     chance = data.chance;
                 end;
-                if chance and (cm:random_number(100) / 100 <= chance * chanceFactors[chanceMode] + digit_bonus/100 - dilemmasTriggered/100) then
+                local threshold = chance * chanceFactors[chanceMode] + digit_bonus / 100 - dilemmasTriggered / 100;
+                if chance and (cm:random_number(100) / 100 <= threshold) then
                     data.triggered = true;
                     cm:trigger_dilemma(faction:name(), data.key);
                     if cooldownMode == "low" then
