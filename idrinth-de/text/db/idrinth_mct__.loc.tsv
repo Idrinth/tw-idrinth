@@ -37,6 +37,7 @@ mct_idrinth_logging_tooltip	Wenn aktiviert, schreibt diese Mod Logs in das Spiel
 mct_idrinth_base_logging_text	Basis-Spiel-Logging-Nutzung aktivieren	false
 mct_idrinth_base_logging_tooltip	Wenn aktiviert, nutzt diese Mod die Logging-Funktion des Basisspiels.	false
 mct_idrinth_section_idrinth_features_name	Funktions-Schalter	false
+mct_idrinth_section_idrinth_chances_name	Chancen	false
 mct_idrinth_section_idrinth_spawn_name	Spawn-Optionen	false
 mct_idrinth_section_idrinth_other_name	Zusätzliche Optionen	false
 mct_idrinth_section_idrinth_cooldowns_name	Abklingzeit-Optionen	false
@@ -45,3 +46,20 @@ mct_idrinth_intervention_cooldown_options_low_text	Niedrig (80%)	false
 mct_idrinth_intervention_cooldown_options_medium_text	Mittel (100%)	false
 mct_idrinth_intervention_cooldown_options_long_text	Lang (120%)	false
 mct_idrinth_intervention_cooldown_tooltip	Modifiziert die Abklingzeit zwischen göttlichen Interventionen.	false
+mct_idrinth_animal_waaagh_text	Tier-WAAAGH	false
+mct_idrinth_animal_waaagh_tooltip	Wenn aktiviert, wird Idrinth von einer WAAAGH-Armee aus Tieren begleitet. Das Deaktivieren lässt die Armee nicht verschwinden.	false
+mct_idrinth_vampire_chance_text	Vampir-Verwandlungschance	false
+mct_idrinth_vampire_chance_options_low_text	Niedrig (10% Basiserfolg)	false
+mct_idrinth_vampire_chance_options_normal_text	Normal (15% Basiserfolg)	false
+mct_idrinth_vampire_chance_options_high_text	Hoch (20% Basiserfolg)	false
+mct_idrinth_vampire_chance_tooltip	Ändert die Chance, dass Priester die Verwandlung in Vampire überleben.	false
+mct_idrinth_story_dilemma_base_chance_text	Basis-Chance für Story-Dilemmata	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Niedrig	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Normal	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Hoch	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Ändert die Chance, dass Story-Entscheidungs-Dilemmata ausgelöst werden.	false
+mct_idrinth_god_item_base_chance_text	Basis-Chance für Göttergegenstände	false
+mct_idrinth_god_item_base_chance_options_low_text	Niedrig	false
+mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
+mct_idrinth_god_item_base_chance_options_high_text	Hoch	false
+mct_idrinth_god_item_base_chance_tooltip	Ändert die Chance, dass Göttergegenstände angeboten werden.	false

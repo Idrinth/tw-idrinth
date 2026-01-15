@@ -37,6 +37,7 @@ mct_idrinth_logging_tooltip	При включении этот мод пишет
 mct_idrinth_base_logging_text	Включить Использование Базового Логирования Игры	false
 mct_idrinth_base_logging_tooltip	При включении этот мод пишет логи через функцию логирования базовой игры.	false
 mct_idrinth_section_idrinth_features_name	Переключатели Функций	false
+mct_idrinth_section_idrinth_chances_name	Шансы	false
 mct_idrinth_section_idrinth_spawn_name	Опции Появления	false
 mct_idrinth_section_idrinth_other_name	Дополнительные Опции	false
 mct_idrinth_section_idrinth_cooldowns_name	Опции Перезарядки	false
@@ -45,3 +46,20 @@ mct_idrinth_intervention_cooldown_options_low_text	Низкая (80%)	false
 mct_idrinth_intervention_cooldown_options_medium_text	Средняя (100%)	false
 mct_idrinth_intervention_cooldown_options_long_text	Долгая (120%)	false
 mct_idrinth_intervention_cooldown_tooltip	Изменяет перезарядку между божественными вмешательствами.	false
+mct_idrinth_animal_waaagh_text	Звериный ВАААГХ	false
+mct_idrinth_animal_waaagh_tooltip	При включении за Идринтом следует армия ВАААГХ из животных. Отключение не удаляет армию.	false
+mct_idrinth_vampire_chance_text	Шанс Обращения в Вампира	false
+mct_idrinth_vampire_chance_options_low_text	Низкий (10% базового успеха)	false
+mct_idrinth_vampire_chance_options_normal_text	Обычный (15% базового успеха)	false
+mct_idrinth_vampire_chance_options_high_text	Высокий (20% базового успеха)	false
+mct_idrinth_vampire_chance_tooltip	Изменяет шанс выживания жрецов при обращении в вампиров.	false
+mct_idrinth_story_dilemma_base_chance_text	Базовый Шанс Сюжетных Дилемм	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Низкий	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Обычный	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Высокий	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Изменяет шанс срабатывания дилемм сюжетных решений.	false
+mct_idrinth_god_item_base_chance_text	Базовый Шанс Божественных Предметов	false
+mct_idrinth_god_item_base_chance_options_low_text	Низкий	false
+mct_idrinth_god_item_base_chance_options_normal_text	Обычный	false
+mct_idrinth_god_item_base_chance_options_high_text	Высокий	false
+mct_idrinth_god_item_base_chance_tooltip	Изменяет шанс предложения божественных предметов.	false

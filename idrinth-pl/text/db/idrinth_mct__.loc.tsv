@@ -37,6 +37,7 @@ mct_idrinth_logging_tooltip	Gdy zaznaczone, ten mod loguje do głównego katalog
 mct_idrinth_base_logging_text	Włącz Użycie Logowania Podstawowej Gry	false
 mct_idrinth_base_logging_tooltip	Gdy zaznaczone, ten mod loguje za pomocą podstawowej funkcji logowania gry.	false
 mct_idrinth_section_idrinth_features_name	Przełączniki Funkcji	false
+mct_idrinth_section_idrinth_chances_name	Szanse	false
 mct_idrinth_section_idrinth_spawn_name	Opcje Pojawienia	false
 mct_idrinth_section_idrinth_other_name	Dodatkowe Opcje	false
 mct_idrinth_section_idrinth_cooldowns_name	Opcje Czasu Odnowienia	false
@@ -45,3 +46,20 @@ mct_idrinth_intervention_cooldown_options_low_text	Niski (80%)	false
 mct_idrinth_intervention_cooldown_options_medium_text	Średni (100%)	false
 mct_idrinth_intervention_cooldown_options_long_text	Długi (120%)	false
 mct_idrinth_intervention_cooldown_tooltip	Modyfikuje czas odnowienia między boskimi interwencjami.	false
+mct_idrinth_animal_waaagh_text	Zwierzęcy WAAAGH	false
+mct_idrinth_animal_waaagh_tooltip	Gdy zaznaczone, za Idrinthem podąża armia WAAAGH złożona ze zwierząt. Wyłączenie nie powoduje zniknięcia armii.	false
+mct_idrinth_vampire_chance_text	Szansa na Przemianę w Wampira	false
+mct_idrinth_vampire_chance_options_low_text	Niska (10% bazowego sukcesu)	false
+mct_idrinth_vampire_chance_options_normal_text	Normalna (15% bazowego sukcesu)	false
+mct_idrinth_vampire_chance_options_high_text	Wysoka (20% bazowego sukcesu)	false
+mct_idrinth_vampire_chance_tooltip	Zmienia szansę przeżycia kapłanów podczas przemiany w wampiry.	false
+mct_idrinth_story_dilemma_base_chance_text	Bazowa Szansa Dylematów Fabularnych	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Niska	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Normalna	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Wysoka	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Zmienia szansę na wywołanie dylematów decyzji fabularnych.	false
+mct_idrinth_god_item_base_chance_text	Bazowa Szansa Boskich Przedmiotów	false
+mct_idrinth_god_item_base_chance_options_low_text	Niska	false
+mct_idrinth_god_item_base_chance_options_normal_text	Normalna	false
+mct_idrinth_god_item_base_chance_options_high_text	Wysoka	false
+mct_idrinth_god_item_base_chance_tooltip	Zmienia szansę na zaoferowanie boskich przedmiotów.	false
