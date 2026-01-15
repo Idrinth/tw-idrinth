@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install lua5.1
-        run: sudo apt install lua
+      - name: Install lua
+        run: sudo apt install lua5.1
       - name: Install luarocks
         run: wget https://luarocks.org/releases/luarocks-3.13.0.tar.gz && tar zxpf luarocks-3.13.0.tar.gz && cd luarocks-3.13.0 && ./configure && make && sudo make install
       - name: Install lua file system
