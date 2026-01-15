@@ -1,4 +1,4 @@
-readonly_globals = {
+read_globals = {
     "core",
     "cm",
     "common",
