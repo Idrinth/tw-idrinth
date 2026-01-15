@@ -1,0 +1,21 @@
+name: LUA
+on:
+  push:
+    branches:
+    - the-one
+  pull_request:
+    branches:
+    - the-one
+jobs:
+  luacheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install luarocks
+        run: wget https://luarocks.org/releases/luarocks-3.13.0.tar.gz && tar zxpf luarocks-3.13.0.tar.gz && cd luarocks-3.13.0 && ./configure && make && sudo make install
+      - name: Install lua file system
+        run: luarocks install luafilesystem
+      - name: Install luacheck
+        run: luarocks install luacheck
+      - name: Run luacheck
+        run: luacheck idrinth/scripts/**/*.lua
