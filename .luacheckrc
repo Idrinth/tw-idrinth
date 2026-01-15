@@ -1,7 +1,10 @@
--- Luacheck configuration for Total War modding
-
--- Define Total War game globals
-globals = {
+readonly_globals = {
     "core",
     "cm",
-}
+    "is_string",
+    "is_integer"
+    "UIComponent"
+};
+globals = {
+    "Idrinth",
+};
