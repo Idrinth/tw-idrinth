@@ -65,7 +65,7 @@ end;
 local hideIdrinthPanels = function()
     local tabPanels = Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent", "tab_panels");
     local tabGroup = Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent", "TabGroup");
-    if true or not tabGroup or not tabPanels then
+    if not tabGroup or not tabPanels then
         return;
     end;
     setVisibility(Idrinth.Ui.findElementWithin(tabGroup, "idrinth_character_details_panel_idrinths_paths_button"), false);
