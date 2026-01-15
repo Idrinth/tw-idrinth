@@ -8,9 +8,7 @@ read_globals = {
     "is_uicomponent",
     "get_mct",
     "set_component_visible_with_parent",
-    "string" = {
-        "ends_with",
-    },
+    "string",
     "out",
 };
 globals = {
