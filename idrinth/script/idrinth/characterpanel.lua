@@ -48,7 +48,7 @@ local getChosenCharacterCQI = function()
     if not characterContext then
         return 0;
     end;
-    character = characterContext:GetContextObjectId("CcoCampaignCharacter");
+    local character = characterContext:GetContextObjectId("CcoCampaignCharacter");
     if not character then
         return 0;
     end;
@@ -59,7 +59,8 @@ local setupInitiatives = function()
     if cqi and containsInitiatives(cqi) then
         return;
     end;
-    setVisibility(Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent", "TabGroup", "character_initiatives"), false);
+    setVisibility(Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+, false);
 end;
 local hideIdrinthPanels = function()
     local tabPanels = Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent", "tab_panels");
@@ -84,7 +85,8 @@ local setupIdrinthsPaths = function()
     UIComponent(paths:Parent()):Adopt(paths:Address(), 3);
     local pathsButton = Idrinth.Ui.createOrFind("idrinth_character_details_panel_idrinths_paths_button", tabGroup);
     setVisibility(paths, false);
-    setVisibility(pathsButton, false);
+    setVisibility(pathsButton, false)
+;
     local cqi = getChosenCharacterCQI();
     Idrinth.log("cqi: "..tostring(cqi), "characterpanel");
     if not cqi or cqi == 0 or cqi == "0" then
