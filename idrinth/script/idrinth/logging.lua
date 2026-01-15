@@ -1,5 +1,6 @@
 local enableLogging = false;
-local enableBaseGameLogging = false;
+
+local enableBaseGameLogging = false;
 local lua_start_time = os.clock();
 local logfile = "idrinth." .. os.date("%y%m%d%H%M") .. ".log";
 
@@ -58,7 +59,7 @@ local log = function(thing, logtype)
         "ScriptEventIdrinthLogMessageReady",
         {
             message = "[" .. logtype .. "] " .. output_str .. "\n",
-        };
+        }
     );
 end;
 
