@@ -56,7 +56,7 @@ if mct then
             element = "dropdown",
             values = {"low", "normal", "high"},
             default = "normal"
-        }
+        },
     }, false);
     
     addSection(idrinth, "idrinth_features", {
@@ -71,7 +71,11 @@ if mct then
         names = {
             element = "checkbox",
             default = true,
-        }
+        },
+        animal_waaagh = {
+            element = "checkbox",
+            default = true,
+        },
     }, false);
     
     addSection(idrinth, "idrinth_other", {
@@ -96,5 +100,23 @@ if mct then
             values = {"low", "medium", "long"},
             default = "medium"
         }
+    }, false);
+    
+    addSection(idrinth, "idrinth_chances", {
+        vampire_chance = {
+            element = "dropdown",
+            values = {"low", "normal", "high"},
+            default = "normal"
+        },
+        story_dilemma_base_chance = {
+            element = "dropdown",
+            values = {"low", "normal", "high"},
+            default = "normal"
+        },
+        god_item_base_chance = {
+            element = "dropdown",
+            values = {"low", "normal", "high"},
+            default = "normal"
+        },
     }, false);
 end;

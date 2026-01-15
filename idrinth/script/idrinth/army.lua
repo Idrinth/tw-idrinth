@@ -1,3 +1,32 @@
+local vampireChance = "normal"
+local enableAnimalWAAAGH = true;
+local vampireChances = {
+    low = 10,
+    normal = 15,
+    high = 20,
+};
+core:add_listener(
+    "idrinth_army_MctInitialized",
+    "MctInitialized",
+    true,
+    function(context)
+        Idrinth.log("MctInitialized", "army");
+        enableAnimalWAAAGH = context:mct():get_mod_by_key("idrinth"):get_option_by_key("animal_waaagh"):get_finalized_setting();
+        vampireChance = context:mct():get_mod_by_key("idrinth"):get_option_by_key("vampire_chance"):get_finalized_setting();
+    end,
+    true
+)
+core:add_listener(
+    "idrinth_army_MctFinalized",
+    "MctFinalized",
+    true,
+    function(context)
+        Idrinth.log("MctFinalized", "army");
+        enableAnimalWAAAGH = context:mct():get_mod_by_key("idrinth"):get_option_by_key("animal_waaagh"):get_finalized_setting();
+        vampireChance = context:mct():get_mod_by_key("idrinth"):get_option_by_key("vampire_chance"):get_finalized_setting();
+    end,
+    true
+);
 local getSelectedUnitsInfo = function()
     local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
     if not units then
@@ -204,30 +233,6 @@ local upgradeAnimal = function(god)
         return;
     end;
     local factionKey = character:faction():name();
-    local pooledResourceManager = character:faction():pooled_resource_manager();
-    for i = 1, units:ChildCount() do
-        local unit = UIComponent(units:Find(i));
-        if unit and (unit:CurrentState() == "selected_hover" or unit:CurrentState() == "selected") then
-            local id = unit:GetContextObjectId("CcoCampaignUnit");
-            if id then
-                local currentType = common.get_context_value("CcoCampaignUnit", id, "UnitRecordContext.Key");
-                if godFavourBlessings[currentType] and godFavourBlessings[currentType][god] then
-                    lockAnimalBlessings(character:faction(), false);
-                    common.call_context_command("CcoCampaignUnit", id, "Upgrade(DatabaseRecordContext(\"CcoUnitPurchasableEffectRecord\", \""..godFavourBlessings[currentType][god].."\"))");
-                    lockAnimalBlessings(character:faction(), true);
-                    return;
-                end;
-            end;
-        end;
-    end;
-end;
-local upgradeAnimal = function(god)
-    local units, character, uiIds = getSelectedUnitsInfo();
-    if not units then
-        return;
-    end;
-    local factionKey = character:faction():name();
-    local pooledResourceManager = character:faction():pooled_resource_manager();
     for i = 1, units:ChildCount() do
         local unit = UIComponent(units:Find(i));
         if unit and (unit:CurrentState() == "selected_hover" or unit:CurrentState() == "selected") then
@@ -263,10 +268,10 @@ local upgradePriest = function(god)
                     cm:treasury_mod(factionKey, -1000);
                     cm:faction_add_pooled_resource(factionKey, "idrinth_"..god, "idrinth_"..god.."_other", -250);
                     local randomNum = cm:random(100);
-                    if randomNum < 15 + currentRank * 4 then
+                    if randomNum < vampireChances[vampireChance] + currentRank * 4 then
                         cm:grant_unit_to_character(cm:char_lookup_str(character), "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader_vampire");
                         cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god.."_leader_vampire", currentRank), 150);
-                    elseif randomNum < 45 + currentRank * 6 then
+                    elseif randomNum < 3 * vampireChances[vampireChance] + currentRank * 6 then
                         cm:grant_unit_to_character(cm:char_lookup_str(character), "idrinth_hev_high_elf_vampires_chapel_"..god.."_varghulf");
                         cm:real_callback(applyVeteranRankToNewUnit(uiIds, "idrinth_hev_high_elf_vampires_chapel_"..god.."_varghulf", currentRank), 150);
                     end;
@@ -458,6 +463,9 @@ core:add_listener(
     "idrinth_army_FactionTurnStart",
     "FactionTurnStart",
     function(context)
+        if not enableAnimalWAAAGH then
+            return;
+        end;
         local idrinth = Idrinth.Access.get(context:faction());
         return idrinth and not idrinth:is_wounded() and idrinth:has_military_force() and not idrinth:is_carrying_troops();
     end,

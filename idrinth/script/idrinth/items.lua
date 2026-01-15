@@ -1,3 +1,9 @@
+local itemChanceMode = "normal";
+local itemChanceFactors = {
+    low = 0.5,
+    medium = 1,
+    high = 1.5,
+};
 local itemDilemmas = {
     weapon_hero = {
         min_battles_fought = 0,
@@ -82,7 +88,7 @@ core:add_listener(
                 allowed = allowed or (idrinth:character_type_key() == allowed_type);
             end;
             if allowed and not data.triggered and Idrinth.Statistics.BattlesFought >= data.min_battles_fought * factor and Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations * factor and level >= data.min_level * factor then
-                if (cm:random_number(100) <= 25) then
+                if (cm:random_number(100) <= 25 * itemChanceFactors[itemChanceMode]) then
                     data.triggered = true;
                     cm:trigger_dilemma(context:faction():name(), data.key);
                 end;
@@ -121,7 +127,8 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctInitialized", "items");
-        godBlessedItemRequirements = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_difficulty"):get_finalized_setting()
+        godBlessedItemRequirements = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_difficulty"):get_finalized_setting();
+        itemChanceMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_base_chance"):get_finalized_setting();
     end,
     true
 )
@@ -131,7 +138,8 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctFinalized", "items");
-        godBlessedItemRequirements = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_difficulty"):get_finalized_setting()
+        godBlessedItemRequirements = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_difficulty"):get_finalized_setting();
+        itemChanceMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("god_item_base_chance"):get_finalized_setting();
     end,
     true
 );

@@ -37,6 +37,7 @@ mct_idrinth_logging_tooltip	When checked this mod logs to the game root director
 mct_idrinth_base_logging_text	Enable Base Game Logging Usage	false
 mct_idrinth_base_logging_tooltip	When checked this mod logs with the base game logging function.	false
 mct_idrinth_section_idrinth_features_name	Feature Toggles	false
+mct_idrinth_section_idrinth_chances_name	Chances	false
 mct_idrinth_section_idrinth_spawn_name	Spawn Options	false
 mct_idrinth_section_idrinth_other_name	Additional Options	false
 mct_idrinth_section_idrinth_cooldowns_name	Cooldown Options	false
@@ -45,3 +46,20 @@ mct_idrinth_intervention_cooldown_options_low_text	Low (80%)	false
 mct_idrinth_intervention_cooldown_options_medium_text	Medium (100%)	false
 mct_idrinth_intervention_cooldown_options_long_text	Long (120%)	false
 mct_idrinth_intervention_cooldown_tooltip	Modifies the cooldown between divine interventions.	false
+mct_idrinth_animal_waaagh_text	Animal WAAAGH	false
+mct_idrinth_animal_waaagh_tooltip	When checked Idrinth is followed by a WAAAGH-army made up of animals. Disabling does not despawn the army.	false
+mct_idrinth_vampire_chance_text	Vampire Turning Chance	false
+mct_idrinth_vampire_chance_options_low_text	Low (10% base success)	false
+mct_idrinth_vampire_chance_options_normal_text	Normal (15% base success)	false
+mct_idrinth_vampire_chance_options_high_text	High (20% base success)	false
+mct_idrinth_vampire_chance_tooltip	Changes the chance of priests surviving being turned into vampires.	false
+mct_idrinth_story_dilemma_base_chance_text	Story Dilemma Base Chance	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Low	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Normal	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	High	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Changes the chance of story decision dilemmas triggering.	false
+mct_idrinth_god_item_base_chance_text	God Item Base Chance	false
+mct_idrinth_god_item_base_chance_options_low_text	Low	false
+mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
+mct_idrinth_god_item_base_chance_options_high_text	High	false
+mct_idrinth_god_item_base_chance_tooltip	Changes the chance of god items being offered.	false

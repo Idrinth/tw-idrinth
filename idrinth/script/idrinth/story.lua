@@ -1,5 +1,11 @@
 local cooldown = 0;
 local cooldownMode = "medium";
+local chanceMode = "normal";
+local chanceFactors = {
+    low = 0.5,
+    normal = 1,
+    high = 1.5,
+};
 local dilemmas = {
     high_elves = {
         min_rounds = 15,
@@ -150,7 +156,7 @@ core:add_listener(
                 if not chance then
                     chance = data.chance;
                 end;
-                if chance and (cm:random_number(100) / 100 <= chance + digit_bonus/100 - dilemmasTriggered/100) then
+                if chance and (cm:random_number(100) / 100 <= chance * chanceFactors[chanceMode] + digit_bonus/100 - dilemmasTriggered/100) then
                     data.triggered = true;
                     cm:trigger_dilemma(faction:name(), data.key);
                     if Idrinth._dilemmaCooldownMode == "low" then
@@ -194,6 +200,7 @@ core:add_listener(
     function(context)
         Idrinth.log("MctInitialized", "story");
         cooldownMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("dilemma_cooldown"):get_finalized_setting();
+        chanceMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_dilemma_base_chance"):get_finalized_setting();
     end,
     true
 )
@@ -204,6 +211,7 @@ core:add_listener(
     function(context)
         Idrinth.log("MctFinalized", "story");
         cooldownMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("dilemma_cooldown"):get_finalized_setting();
+        chanceMode = context:mct():get_mod_by_key("idrinth"):get_option_by_key("story_dilemma_base_chance"):get_finalized_setting();
     end,
     true
 );

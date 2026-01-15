@@ -1,4 +1,7 @@
 local containsInitiatives = function(cqi)
+    if not cqi then
+        return false;
+    end;
     local character = cm:get_character_by_cqi(cqi);
     if not character then
         return false;
@@ -27,19 +30,46 @@ local containsInitiatives = function(cqi)
     end;
     return false;
 end;
-local setupInitiatives = function()
-    if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
+local setVisibility = function(component, visible)
+    Idrinth.log("visible "..tostring(visible).." for "..tostring(component), "characterpanel");
+    if not component then
         return;
+    end;
+    if component:Visible() == visible then
+        return;
+    end;
+    component:SetVisible(visible);
+end;
+local getChosenCharacterCQI = function()
+    if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
+        return 0;
     end;
     local characterContext = Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent");
     if not characterContext then
+        return 0;
+    end;
+    character = characterContext:GetContextObjectId("CcoCampaignCharacter");
+    if not character then
+        return 0;
+    end;
+    return common.get_context_value("CcoCampaignCharacter", character, "CQI");
+end;
+local setupInitiatives = function()
+    local cqi = getChosenCharacterCQI()
+    if cqi and containsInitiatives(cqi) then
         return;
     end;
-    local character = characterContext:GetContextObjectId("CcoCampaignCharacter");
-    if character and containsInitiatives(common.get_context_value("CcoCampaignCharacter", character, "CQI")) then
+    setVisibility(Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent", "TabGroup", "character_initiatives"), false);
+end;
+local hideIdrinthPanels = function()
+    local tabPanels = Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent", "tab_panels");
+    local tabGroup = Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent", "TabGroup");
+    if true or not tabGroup or not tabPanels then
         return;
     end;
-    set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives")
+    setVisibility(Idrinth.Ui.findElementWithin(tabGroup, "idrinth_character_details_panel_idrinths_paths_button"), false);
+    setVisibility(Idrinth.Ui.findElementWithin(tabPanels, "stats_effects_holder"), true);
+    setVisibility(Idrinth.Ui.findElementWithin(tabPanels, "idrinth_character_details_panel_idrinths_paths"), false);
 end;
 local setupIdrinthsPaths = function()
     if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
@@ -52,28 +82,34 @@ local setupIdrinthsPaths = function()
     end;
     local paths = Idrinth.Ui.createOrFind("idrinth_character_details_panel_idrinths_paths", tabPanels);
     UIComponent(paths:Parent()):Adopt(paths:Address(), 3);
-    Idrinth.Ui.createOrFind("idrinth_character_details_panel_idrinths_paths_button", tabGroup);
-    set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths")
-    set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
-    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
+    local pathsButton = Idrinth.Ui.createOrFind("idrinth_character_details_panel_idrinths_paths_button", tabGroup);
+    setVisibility(paths, false);
+    setVisibility(pathsButton, false);
+    local cqi = getChosenCharacterCQI();
+    Idrinth.log("cqi: "..tostring(cqi), "characterpanel");
+    if not cqi or cqi == 0 or cqi == "0" then
+        hideIdrinthPanels();
+        return;
+    end;
+    local character = cm:get_character_by_cqi(cqi);
+    Idrinth.log("character: "..tostring(character), "characterpanel")
     if not character then
-        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")            
-        set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "stats_effects_holder");
-        set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+        hideIdrinthPanels();
         return;
     end;
     local isIdrinth = character:character_subtype_key() == Idrinth.Constants.HeroSubtype or character:character_subtype_key() == Idrinth.Constants.LordSubtype;
-    if isIdrinth then   
-        set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")
+    Idrinth.log("is idrinth?: "..tostring(isIdrinth), "characterpanel");
+    if isIdrinth then
+        Idrinth.log("is idrinth: setting up", "characterpanel");
+        setVisibility(pathsButton, true);
         local subtype = Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent", "character_name", "panel_subtitle", "dy_subtype");
         if subtype then
             subtype:SetText("High Elf Vampire");
         end;
         return;
     end
-    set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "TabGroup", "idrinth_character_details_panel_idrinths_paths_button")            
-    set_component_visible_with_parent(true, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "stats_effects_holder");
-    set_component_visible_with_parent(false, core:get_ui_root(), "character_details_panel", "character_context_parent", "tab_panels", "idrinth_character_details_panel_idrinths_paths");
+    Idrinth.log("is NOT idrinth: setting up", "characterpanel");
+    hideIdrinthPanels();
 end;
 core:add_listener(
     "idrinth_characterpanel_CharacterSelected",
