@@ -18,4 +18,4 @@ jobs:
       - name: Install luacheck
         run: sudo luarocks install luacheck
       - name: Run luacheck
-        run: luacheck /home/runner/work/tw-idrinth/tw-idrinth/*/**/*.lua
+        run: luacheck **/*.lua
