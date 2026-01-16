@@ -11,8 +11,7 @@ local function get(key)
     return mod:get_option_by_key(key):get_finalized_setting();
 end
 
-Idrinth.Events.addListener("MctInitialized", true, init);
-Idrinth.Events.addListener("MctFinalized", true, init);
+Idrinth.Events.onMctChange(init);
 
 return {
     get = get,

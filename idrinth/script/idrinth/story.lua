@@ -201,5 +201,4 @@ local updateMctSettings = function()
     cooldownMode = Idrinth.Mct.get("dilemma_cooldown");
     chanceMode = Idrinth.Mct.get("story_dilemma_base_chance");
 end;
-Idrinth.Events.addListener("MctInitialized", true, updateMctSettings);
-Idrinth.Events.addListener("MctFinalized", true, updateMctSettings);
+Idrinth.Events.onMctChange(updateMctSettings);

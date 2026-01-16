@@ -8,8 +8,7 @@ local updateMctSettings = function()
     enableLogging = Idrinth.Mct.get("logging");
     enableBaseGameLogging = Idrinth.Mct.get("base_logging");
 end;
-Idrinth.Events.addListener("MctInitialized", true, updateMctSettings);
-Idrinth.Events.addListener("MctFinalized", true, updateMctSettings);
+Idrinth.Events.onMctChange(updateMctSettings);
 Idrinth.Events.addListener(
     "ScriptEventIdrinthLogMessageReady",
     true,
