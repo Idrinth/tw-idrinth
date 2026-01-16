@@ -303,9 +303,6 @@ def read_column_referenced_keys(db_path: Path) -> Set[str]:
                     unique_id = parts[unique_id_idx]
                     # Generate the effects_additional_tooltip_details translation key
                     referenced_keys.add(f"effects_additional_tooltip_details_localised_description_{unique_id}")
-                    # Some keys have _vmp suffix doubled (e.g., spread_corruption_vmp_vmp)
-                    if unique_id.endswith("_vmp"):
-                        referenced_keys.add(f"effects_additional_tooltip_details_localised_description_{unique_id}_vmp")
 
     # building_culture_variants has 'short_description' column that references
     # building_short_description_texts keys, and 'icon' column for shared names
