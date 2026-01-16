@@ -1,131 +1,135 @@
 local unittypes = {};
 
+-- File-local constants for repeated unit key prefixes
+local CP = "idrinth_hev_high_elf_vampires_chapel_";  -- Chapel prefix
+local HP = "idrinth_hev_high_elf_vampires_idrinth";  -- Hero prefix
+
 -- Hashmap lookups for O(1) unit type checking
 local chapelUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_great_eagle"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_mixed"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_cave_bats"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_hawks"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_wolves"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_outriders"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_stone_wolves"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_idrinthgeneral"] = true,
-    ["idrinth_hev_high_elf_vampires_idrinthchampion"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_varghulf"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_large"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_large"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_large"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_outriders_large"] = true,
+    [CP.."asuryan_leader"] = true,
+    [CP.."kurnous_leader"] = true,
+    [CP.."khaine_leader"] = true,
+    [CP.."great_eagle"] = true,
+    [CP.."asuryan"] = true,
+    [CP.."kurnous"] = true,
+    [CP.."khaine"] = true,
+    [CP.."mixed"] = true,
+    [CP.."cave_bats"] = true,
+    [CP.."hawks"] = true,
+    [CP.."wolves"] = true,
+    [CP.."outriders"] = true,
+    [CP.."stone_wolves"] = true,
+    [CP.."asuryan_leader_vampire"] = true,
+    [CP.."kurnous_leader_vampire"] = true,
+    [CP.."khaine_leader_vampire"] = true,
+    [HP.."general"] = true,
+    [HP.."champion"] = true,
+    [CP.."khaine_varghulf"] = true,
+    [CP.."kurnous_varghulf"] = true,
+    [CP.."asuryan_varghulf"] = true,
+    [CP.."asuryan_large"] = true,
+    [CP.."kurnous_large"] = true,
+    [CP.."khaine_large"] = true,
+    [CP.."outriders_large"] = true,
 };
 
 local singleEntityUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_great_eagle"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_idrinthgeneral"] = true,
-    ["idrinth_hev_high_elf_vampires_idrinthchampion"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_varghulf"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf"] = true,
+    [CP.."asuryan_leader"] = true,
+    [CP.."kurnous_leader"] = true,
+    [CP.."khaine_leader"] = true,
+    [CP.."great_eagle"] = true,
+    [CP.."asuryan_leader_vampire"] = true,
+    [CP.."kurnous_leader_vampire"] = true,
+    [CP.."khaine_leader_vampire"] = true,
+    [HP.."general"] = true,
+    [HP.."champion"] = true,
+    [CP.."khaine_varghulf"] = true,
+    [CP.."kurnous_varghulf"] = true,
+    [CP.."asuryan_varghulf"] = true,
 };
 
 local blessedAnimalUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_great_eagle"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_cave_bats"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_hawks"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_wolves"] = true,
+    [CP.."great_eagle"] = true,
+    [CP.."cave_bats"] = true,
+    [CP.."hawks"] = true,
+    [CP.."wolves"] = true,
 };
 
 local constructUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_stone_wolves"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_shrine"] = true,
+    [CP.."stone_wolves"] = true,
+    [CP.."shrine"] = true,
 };
 
 local elvenUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_mixed"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_outriders"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_idrinthgeneral"] = true,
-    ["idrinth_hev_high_elf_vampires_idrinthchampion"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_large"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_large"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_large"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_outriders_large"] = true,
+    [CP.."asuryan_leader"] = true,
+    [CP.."kurnous_leader"] = true,
+    [CP.."khaine_leader"] = true,
+    [CP.."asuryan"] = true,
+    [CP.."kurnous"] = true,
+    [CP.."khaine"] = true,
+    [CP.."mixed"] = true,
+    [CP.."outriders"] = true,
+    [CP.."asuryan_leader_vampire"] = true,
+    [CP.."kurnous_leader_vampire"] = true,
+    [CP.."khaine_leader_vampire"] = true,
+    [HP.."general"] = true,
+    [HP.."champion"] = true,
+    [CP.."asuryan_large"] = true,
+    [CP.."kurnous_large"] = true,
+    [CP.."khaine_large"] = true,
+    [CP.."outriders_large"] = true,
 };
 
 local priestUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_leader"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire"] = true,
+    [CP.."asuryan_leader"] = true,
+    [CP.."kurnous_leader"] = true,
+    [CP.."khaine_leader"] = true,
+    [CP.."asuryan_leader_vampire"] = true,
+    [CP.."kurnous_leader_vampire"] = true,
+    [CP.."khaine_leader_vampire"] = true,
 };
 
 local vampiricUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire"] = true,
-    ["idrinth_hev_high_elf_vampires_idrinthgeneral"] = true,
-    ["idrinth_hev_high_elf_vampires_idrinthchampion"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_varghulf"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf"] = true,
+    [CP.."asuryan_leader_vampire"] = true,
+    [CP.."kurnous_leader_vampire"] = true,
+    [CP.."khaine_leader_vampire"] = true,
+    [HP.."general"] = true,
+    [HP.."champion"] = true,
+    [CP.."khaine_varghulf"] = true,
+    [CP.."kurnous_varghulf"] = true,
+    [CP.."asuryan_varghulf"] = true,
 };
 
 local varghulfUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_varghulf"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf"] = true,
+    [CP.."khaine_varghulf"] = true,
+    [CP.."kurnous_varghulf"] = true,
+    [CP.."asuryan_varghulf"] = true,
 };
 
 local eliteTroopUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine"] = true,
+    [CP.."asuryan"] = true,
+    [CP.."kurnous"] = true,
+    [CP.."khaine"] = true,
 };
 
 local enlargedEliteTroopUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_asuryan_large"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_kurnous_large"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_khaine_large"] = true,
+    [CP.."asuryan_large"] = true,
+    [CP.."kurnous_large"] = true,
+    [CP.."khaine_large"] = true,
 };
 
 local cavalryUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_outriders"] = true,
-    ["idrinth_hev_high_elf_vampires_chapel_outriders_large"] = true,
+    [CP.."outriders"] = true,
+    [CP.."outriders_large"] = true,
 };
 
 local enlargedCavalryUnits = {
-    ["idrinth_hev_high_elf_vampires_chapel_outriders_large"] = true,
+    [CP.."outriders_large"] = true,
 };
 
 local heroUnits = {
-    ["idrinth_hev_high_elf_vampires_idrinthgeneral"] = true,
-    ["idrinth_hev_high_elf_vampires_idrinthchampion"] = true,
+    [HP.."general"] = true,
+    [HP.."champion"] = true,
 };
 
 unittypes.isChapelUnit = function(unitKey)

@@ -1,3 +1,26 @@
+-- File-local constants for repeated strings
+local PANEL_NAME = "character_details_panel";
+local CONTEXT_PARENT = "character_context_parent";
+local TAB_PANELS = "tab_panels";
+local TAB_GROUP = "TabGroup";
+local PATHS_PANEL = "idrinth_character_details_panel_idrinths_paths";
+local PATHS_BUTTON = "idrinth_character_details_panel_idrinths_paths_button";
+local CHARACTER_CONTEXT = "CcoCampaignCharacter";
+
+-- Initiative key constants
+local INITIATIVE_KEYS = {
+    "idrinth_khaine_pledge",
+    "idrinth_kurnous_pledge",
+    "idrinth_asuryan_pledge",
+    "idrinth_khaine_prayer",
+    "idrinth_kurnous_prayer",
+    "idrinth_asuryan_prayer",
+};
+local IDRINTH_INITIATIVES = {};
+for _, key in pairs(INITIATIVE_KEYS) do
+    IDRINTH_INITIATIVES[key] = true;
+end;
+
 local containsInitiatives = function(cqi)
     if not cqi then
         return false;
@@ -17,13 +40,7 @@ local containsInitiatives = function(cqi)
                         local initiative = local_initiatives:item_at(j);
                         if initiative then
                             local initiative_key = initiative:record_key();
-                            local isIdrinthInitiative = (initiative_key == "idrinth_khaine_pledge")
-                                or (initiative_key == "idrinth_kurnous_pledge")
-                                or (initiative_key == "idrinth_asuryan_pledge")
-                                or (initiative_key == "idrinth_khaine_prayer")
-                                or (initiative_key == "idrinth_kurnous_prayer")
-                                or (initiative_key == "idrinth_asuryan_prayer");
-                            if isIdrinthInitiative then
+                            if IDRINTH_INITIATIVES[initiative_key] then
                                 --idrinth is the only one who gets his initiatives
                             else
                                 return true;
@@ -47,18 +64,18 @@ local setVisibility = function(component, visible)
     component:SetVisible(visible);
 end;
 local getChosenCharacterCQI = function()
-    if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
+    if not cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME) then
         return 0;
     end;
-    local characterContext = Idrinth.Ui.findElementWithin("character_details_panel", "character_context_parent");
+    local characterContext = Idrinth.Ui.findElementWithin(PANEL_NAME, CONTEXT_PARENT);
     if not characterContext then
         return 0;
     end;
-    local character = characterContext:GetContextObjectId("CcoCampaignCharacter");
+    local character = characterContext:GetContextObjectId(CHARACTER_CONTEXT);
     if not character then
         return 0;
     end;
-    return common.get_context_value("CcoCampaignCharacter", character, "CQI");
+    return common.get_context_value(CHARACTER_CONTEXT, character, "CQI");
 end;
 local setupInitiatives = function()
     local cqi = getChosenCharacterCQI();
@@ -66,42 +83,42 @@ local setupInitiatives = function()
         return;
     end;
     local initiativesTab = Idrinth.Ui.findElementWithin(
-        "character_details_panel", "character_context_parent", "TabGroup", "character_initiatives"
+        PANEL_NAME, CONTEXT_PARENT, TAB_GROUP, "character_initiatives"
     );
     setVisibility(initiativesTab, false);
 end;
 local hideIdrinthPanels = function()
     local tabPanels = Idrinth.Ui.findElementWithin(
-        "character_details_panel", "character_context_parent", "tab_panels"
+        PANEL_NAME, CONTEXT_PARENT, TAB_PANELS
     );
     local tabGroup = Idrinth.Ui.findElementWithin(
-        "character_details_panel", "character_context_parent", "TabGroup"
+        PANEL_NAME, CONTEXT_PARENT, TAB_GROUP
     );
     if not tabGroup or not tabPanels then
         return;
     end;
-    setVisibility(Idrinth.Ui.findElementWithin(tabGroup, "idrinth_character_details_panel_idrinths_paths_button"), false);
+    setVisibility(Idrinth.Ui.findElementWithin(tabGroup, PATHS_BUTTON), false);
     setVisibility(Idrinth.Ui.findElementWithin(tabPanels, "stats_effects_holder"), true);
-    setVisibility(Idrinth.Ui.findElementWithin(tabPanels, "idrinth_character_details_panel_idrinths_paths"), false);
+    setVisibility(Idrinth.Ui.findElementWithin(tabPanels, PATHS_PANEL), false);
 end;
 local setupIdrinthsPaths = function()
-    if not cm:get_campaign_ui_manager():is_panel_open("character_details_panel") then
+    if not cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME) then
         return;
     end;
     local tabPanels = Idrinth.Ui.findElementWithin(
-        "character_details_panel", "character_context_parent", "tab_panels"
+        PANEL_NAME, CONTEXT_PARENT, TAB_PANELS
     );
     local tabGroup = Idrinth.Ui.findElementWithin(
-        "character_details_panel", "character_context_parent", "TabGroup"
+        PANEL_NAME, CONTEXT_PARENT, TAB_GROUP
     );
     if not tabPanels or not tabGroup then
         return;
     end;
-    local paths = Idrinth.Ui.createOrFind("idrinth_character_details_panel_idrinths_paths", tabPanels);
+    local paths = Idrinth.Ui.createOrFind(PATHS_PANEL, tabPanels);
     UIComponent(paths:Parent()):Adopt(paths:Address(), 3);
-    local pathsButton = Idrinth.Ui.createOrFind("idrinth_character_details_panel_idrinths_paths_button", tabGroup);
+    local pathsButton = Idrinth.Ui.createOrFind(PATHS_BUTTON, tabGroup);
     setVisibility(paths, false);
-    setVisibility(pathsButton, false);
+    setVisibility(pathsButton, false);
     local cqi = getChosenCharacterCQI();
     Idrinth.log("cqi: "..tostring(cqi), "characterpanel");
     if not cqi or cqi == 0 or cqi == "0" then
@@ -120,7 +137,7 @@ local setupIdrinthsPaths = function()
         Idrinth.log("is idrinth: setting up", "characterpanel");
         setVisibility(pathsButton, true);
         local subtype = Idrinth.Ui.findElementWithin(
-            "character_details_panel", "character_context_parent",
+            PANEL_NAME, CONTEXT_PARENT,
             "character_name", "panel_subtitle", "dy_subtype"
         );
         if subtype then
@@ -135,7 +152,7 @@ core:add_listener(
     "idrinth_characterpanel_CharacterSelected",
     "CharacterSelected",
     function()
-        return cm:get_campaign_ui_manager():is_panel_open("character_details_panel");
+        return cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);
     end,
     function()
         Idrinth.log("CharacterSelected", "characterpanel");
@@ -159,7 +176,7 @@ core:add_listener(
     "idrinth_characterpanel_PanelOpenedCampaign",
     "PanelOpenedCampaign",
     function(context)
-        return context.string == "character_details_panel";
+        return context.string == PANEL_NAME;
     end,
     function()
         Idrinth.log("PanelOpenedCampaign", "characterpanel");
@@ -172,33 +189,30 @@ core:add_listener(
     "idrinth_characterpanel_ComponentLClickUp",
     "ComponentLClickUp",
     function(context)
-        local isPanelOpen = cm:get_campaign_ui_manager():is_panel_open("character_details_panel");
-        return isPanelOpen and context.string == "idrinth_character_details_panel_idrinths_paths_button";
+        local isPanelOpen = cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);
+        return isPanelOpen and context.string == PATHS_BUTTON;
     end,
     function()
         Idrinth.log("ComponentLClickUp", "characterpanel");
         local uiRoot = core:get_ui_root();
-        local panel = "character_details_panel";
-        local ctx = "character_context_parent";
-        local tabs = "tab_panels";
         set_component_visible_with_parent(
-            true, uiRoot, panel, ctx, tabs, "idrinth_character_details_panel_idrinths_paths"
+            true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL
         );
         set_component_visible_with_parent(
-            false, uiRoot, panel, ctx, tabs, "character_details_subpanel"
+            false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "character_details_subpanel"
         );
-        set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, "skills_subpanel");
+        set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "skills_subpanel");
         set_component_visible_with_parent(
-            false, uiRoot, panel, ctx, tabs, "sla_eternal_dance_subpanel"
+            false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "sla_eternal_dance_subpanel"
         );
-        set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, "quests_subpanel");
+        set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "quests_subpanel");
         set_component_visible_with_parent(
-            false, uiRoot, panel, ctx, tabs, "character_initiatives_holder"
+            false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "character_initiatives_holder"
         );
-        set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, "fragments_subpanel");
-        set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, "vows_subpanel");
+        set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "fragments_subpanel");
+        set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "vows_subpanel");
         set_component_visible_with_parent(
-            false, uiRoot, panel, ctx, "TabGroup", "character_initiatives"
+            false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_GROUP, "character_initiatives"
         );
     end,
     true
@@ -207,47 +221,43 @@ core:add_listener(
     "idrinth_characterpanel_ComponentLClickUp_2",
     "ComponentLClickUp",
     function()
-        return cm:get_campaign_ui_manager():is_panel_open("character_details_panel");
+        return cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);
     end,
     function(context)
         Idrinth.log("ComponentLClickUp", "characterpanel");
-        if context.string == "idrinth_character_details_panel_idrinths_paths_button" then
+        if context.string == PATHS_BUTTON then
             return;
         end;
         Idrinth.Ui.nowAndThen(setupInitiatives);
         local uiRoot = core:get_ui_root();
-        local panel = "character_details_panel";
-        local ctx = "character_context_parent";
-        local tabs = "tab_panels";
-        local pathsPanel = "idrinth_character_details_panel_idrinths_paths";
         if context.string == "details" then
-            set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, pathsPanel);
-            set_component_visible_with_parent(true, uiRoot, panel, ctx, tabs, "stats_effects_holder");
+            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
+            set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "stats_effects_holder");
             set_component_visible_with_parent(
-                true, uiRoot, panel, ctx, tabs, "character_details_subpanel"
+                true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "character_details_subpanel"
             );
         elseif context.string == "skills" then
-            set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, pathsPanel);
-            set_component_visible_with_parent(true, uiRoot, panel, ctx, tabs, "stats_effects_holder");
-            set_component_visible_with_parent(true, uiRoot, panel, ctx, tabs, "skills_subpanel");
+            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
+            set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "stats_effects_holder");
+            set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "skills_subpanel");
         elseif context.string == "eternal_dance" then
-            set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, pathsPanel);
+            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(
-                true, uiRoot, panel, ctx, tabs, "sla_eternal_dance_subpanel"
+                true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "sla_eternal_dance_subpanel"
             );
         elseif context.string == "quests" then
-            set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, pathsPanel);
-            set_component_visible_with_parent(true, uiRoot, panel, ctx, tabs, "quests");
+            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
+            set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "quests");
         elseif context.string == "fragments" then
-            set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, pathsPanel);
-            set_component_visible_with_parent(true, uiRoot, panel, ctx, tabs, "fragments_subpanel");
+            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
+            set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "fragments_subpanel");
         elseif context.string == "vows" then
-            set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, pathsPanel);
-            set_component_visible_with_parent(true, uiRoot, panel, ctx, tabs, "vows_subpanel");
+            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
+            set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "vows_subpanel");
         elseif context.string == "changeling" then
-            set_component_visible_with_parent(false, uiRoot, panel, ctx, tabs, pathsPanel);
+            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(
-                true, uiRoot, panel, ctx, tabs, "formless_horror_subpanel"
+                true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "formless_horror_subpanel"
             );
         end;
     end,

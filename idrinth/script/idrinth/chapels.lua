@@ -33,7 +33,7 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctInitialized", "chapels");
-        local mod = context:mct():get_mod_by_key("idrinth");
+        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
         enableChapels = mod:get_option_by_key("chapels"):get_finalized_setting();
         chapelMode = mod:get_option_by_key("chapel_chance"):get_finalized_setting();
     end,
@@ -45,7 +45,7 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctFinalized", "chapels");
-        local mod = context:mct():get_mod_by_key("idrinth");
+        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
         enableChapels = mod:get_option_by_key("chapels"):get_finalized_setting();
         chapelMode = mod:get_option_by_key("chapel_chance"):get_finalized_setting();
     end,

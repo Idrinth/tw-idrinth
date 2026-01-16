@@ -201,13 +201,13 @@ core:add_listener(
                 end;
             end;
             local idrinth = Idrinth.Access.get();
-            if cm:pending_battle_cache_culture_is_defender("wh2_main_hef_high_elves") then
+            if cm:pending_battle_cache_culture_is_defender(Idrinth.Constants.Cultures.HighElves) then
                 addSlayerTraits(4, 2, 1, cm:char_lookup_str(idrinth));
             end;
-            if cm:pending_battle_cache_culture_is_defender("wh_dlc05_wef_wood_elves") then
+            if cm:pending_battle_cache_culture_is_defender(Idrinth.Constants.Cultures.WoodElves) then
                 addSlayerTraits(2, 4, 1, cm:char_lookup_str(idrinth));
             end;
-            if cm:pending_battle_cache_culture_is_defender("wh2_main_def_dark_elves") then
+            if cm:pending_battle_cache_culture_is_defender(Idrinth.Constants.Cultures.DarkElves) then
                 addSlayerTraits(2, 1, 4, cm:char_lookup_str(idrinth));
             end;
         elseif idrinthIsDefender then
@@ -227,13 +227,13 @@ core:add_listener(
                 end;
             end;
             local idrinth = Idrinth.Access.get();
-            if cm:pending_battle_cache_culture_is_attacker("wh2_main_hef_high_elves") then
+            if cm:pending_battle_cache_culture_is_attacker(Idrinth.Constants.Cultures.HighElves) then
                 addSlayerTraits(4, 2, 1, cm:char_lookup_str(idrinth));
             end;
-            if cm:pending_battle_cache_culture_is_attacker("wh_dlc05_wef_wood_elves") then
+            if cm:pending_battle_cache_culture_is_attacker(Idrinth.Constants.Cultures.WoodElves) then
                 addSlayerTraits(2, 4, 1, cm:char_lookup_str(idrinth));
             end;
-            if cm:pending_battle_cache_culture_is_attacker("wh2_main_def_dark_elves") then
+            if cm:pending_battle_cache_culture_is_attacker(Idrinth.Constants.Cultures.DarkElves) then
                 addSlayerTraits(2, 1, 4, cm:char_lookup_str(idrinth));
             end;
         end;
