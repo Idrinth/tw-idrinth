@@ -517,8 +517,10 @@ globals:
     args: []
   set_component_visible_with_parent:
     args:
-      - type: any
       - type: bool
+      - type:
+          display: UIComponent
+      - type: "..."
   out:
     args:
       - type: string
