@@ -62,8 +62,8 @@ local uniqueAncillaries = {
     "idrinth_anc_armour_asuryans_destiny"
 };
 
-core:add_listener(
-    "idrinth_items_FactionTurnStart",
+Idrinth.Events.addListener(
+    "items",
     "FactionTurnStart",
     function(context)
         if not context:faction():is_human() then
@@ -73,7 +73,6 @@ core:add_listener(
         return idrinth and not idrinth:is_wounded();
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "items");
         local idrinth = Idrinth.Access.get();
         local level = idrinth:rank();
         local factor = 1;
@@ -97,15 +96,13 @@ core:add_listener(
                 end;
             end;
         end;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_items_CharacterAncillaryGained",
+Idrinth.Events.addListener(
+    "items",
     "CharacterAncillaryGained",
     Idrinth.Access.spawned,
     function(context)
-        Idrinth.log("CharacterAncillaryGained", "items");
         local idrinth, faction = Idrinth.Access.get();
         for _, ancillary in pairs(uniqueAncillaries) do
             if context:ancillary() == ancillary and not idrinth:has_ancillary(ancillary) then
@@ -121,30 +118,25 @@ core:add_listener(
                 );
             end;
         end;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_items_MctInitialized",
+Idrinth.Events.addListener(
+    "items",
     "MctInitialized",
     true,
     function()
-        Idrinth.log("MctInitialized", "items");
         godBlessedItemRequirements = Idrinth.Mct.get("god_item_difficulty");
         itemChanceMode = Idrinth.Mct.get("god_item_base_chance");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_items_MctFinalized",
+Idrinth.Events.addListener(
+    "items",
     "MctFinalized",
     true,
     function()
-        Idrinth.log("MctFinalized", "items");
         godBlessedItemRequirements = Idrinth.Mct.get("god_item_difficulty");
         itemChanceMode = Idrinth.Mct.get("god_item_base_chance");
-    end,
-    true
+    end
 );
 cm:add_saving_game_callback(
     function(context)

@@ -11,23 +11,21 @@ local function get(key)
     return mod:get_option_by_key(key):get_finalized_setting();
 end
 
-core:add_listener(
-    "idrinth_mct_MctInitialized",
+Idrinth.Events.addListener(
+    "mct",
     "MctInitialized",
     true,
     function(context)
         init(context);
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_mct_MctFinalized",
+Idrinth.Events.addListener(
+    "mct",
     "MctFinalized",
     true,
     function(context)
         init(context);
-    end,
-    true
+    end
 );
 
 return {

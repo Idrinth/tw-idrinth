@@ -14,27 +14,23 @@ local CALLBACK_DELAY = 150;
 local VETERAN_PREFIX = "idrinth_veteran_";
 local CHAPEL_PREFIX = "idrinth_hev_high_elf_vampires_chapel_";
 local UPGRADE_EFFECT_RECORD = "CcoUnitPurchasableEffectRecord";
-core:add_listener(
-    "idrinth_army_MctInitialized",
+Idrinth.Events.addListener(
+    "army",
     "MctInitialized",
     true,
     function()
-        Idrinth.log("MctInitialized", "army");
         enableAnimalWAAAGH = Idrinth.Mct.get("animal_waaagh");
         vampireChance = Idrinth.Mct.get("vampire_chance");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_army_MctFinalized",
+Idrinth.Events.addListener(
+    "army",
     "MctFinalized",
     true,
     function()
-        Idrinth.log("MctFinalized", "army");
         enableAnimalWAAAGH = Idrinth.Mct.get("animal_waaagh");
         vampireChance = Idrinth.Mct.get("vampire_chance");
-    end,
-    true
+    end
 );
 local getSelectedUnitsInfo = function()
     local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
@@ -484,15 +480,14 @@ local handleUpgradeButtons = function()
         setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_size_outriders");
     end;
 end;
-core:add_listener(
-    "idrinth_army_UnitCreated",
+Idrinth.Events.addListener(
+    "army",
     "UnitCreated",
     function(context)
         local unitKey = context:unit():unit_key();
         return Idrinth.Unittypes.isVampiric(unitKey) or Idrinth.Unittypes.isEliteTroop(unitKey) or Idrinth.Unittypes.isEnlargedEliteTroop(unitKey);
     end,
     function(context)
-        Idrinth.log("UnitCreated", "army");
         lockVeterans(context:unit():faction(), false);
         local effectList = context:unit():get_unit_purchasable_effects();
         for i = 0, effectList:num_items() - 1 do
@@ -505,11 +500,10 @@ core:add_listener(
             end;
         end;
         lockVeterans(context:unit():faction(), true);
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_army_UnitCreated_1",
+Idrinth.Events.addListener(
+    "army",
     "UnitCreated",
     function(context)
         local unitKey = context:unit():unit_key();
@@ -521,11 +515,10 @@ core:add_listener(
             cm:add_experience_to_unit(context:unit(), lastXPRank);
             lastXPRank = 0;
         end;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_army_FactionTurnStart",
+Idrinth.Events.addListener(
+    "army",
     "FactionTurnStart",
     function(context)
         if not enableAnimalWAAAGH then
@@ -535,15 +528,13 @@ core:add_listener(
         return idrinth and not idrinth:is_wounded() and idrinth:has_military_force() and not idrinth:is_carrying_troops();
     end,
     function()
-        Idrinth.log("FactionTurnStart", "army");
         local idrinth = Idrinth.Access.get();
         cm:spawn_transported_force_at_military_force(
             idrinth:military_force():command_queue_index(),
             "idrinth_hev_high_elf_vampires_idrinth_support",
             1
         );
-    end,
-    true
+    end
 );
 local buttonMap = {
     idrinth_button_upgrade_asuryan_troops = function()
@@ -577,30 +568,26 @@ local buttonMap = {
         upgradeSize();
     end,
 };
-core:add_listener(
-    "idrinth_army_ComponentLClickUp_4",
+Idrinth.Events.addListener(
+    "army",
     "ComponentLClickUp",
     true,
     function(context)
-        Idrinth.log("ComponentLClickUp", "army");
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
         if context.string and buttonMap[context.string] then
             buttonMap[context.string]();
         end;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_army_PanelOpenedCampaign",
+Idrinth.Events.addListener(
+    "army",
     "PanelOpenedCampaign",
     function(context)
         return context.string == "units_panel";
     end,
     function()
-        Idrinth.log("PanelOpenedCampaign", "army");
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
-    end,
-    true
+    end
 );
 cm:add_first_tick_callback(
     function()

@@ -81,15 +81,15 @@ local godFavourDilemmas = {
         maxCooldown = 10,
     },
 };
-local cooldownMode = "medium";
-local cooldownFactors = {
+local cooldownMode = "medium";
+local cooldownFactors = {
     low = 0.8,
     medium = 1,
     long = 1.2,
-};
+};
 
-core:add_listener(
-    "idrinth_interventions_FactionTurnStart",
+Idrinth.Events.addListener(
+    "interventions",
     "FactionTurnStart",
     function(context)
         if not context:faction():is_human() then
@@ -98,7 +98,6 @@ core:add_listener(
         return Idrinth.Access.get(context:faction()) ~= nil;
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "interventions");
         local eventTriggered = false;
         local khaineUsed = 0;
         local kurnousUsed = 0;
@@ -141,8 +140,7 @@ core:add_listener(
                 77779
             );
         end;
-    end,
-    true
+    end
 );
 cm:add_saving_game_callback(
     function(context)
@@ -164,23 +162,19 @@ cm:add_loading_game_callback(
         end;
     end
 );
-core:add_listener(
-    "idrinth_interventions_MctInitialized",
+Idrinth.Events.addListener(
+    "interventions",
     "MctInitialized",
     true,
     function()
-        Idrinth.log("MctInitialized", "interventions");
         cooldownMode = Idrinth.Mct.get("intervention_cooldown");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_interventions_MctFinalized",
+Idrinth.Events.addListener(
+    "interventions",
     "MctFinalized",
     true,
     function()
-        Idrinth.log("MctFinalized", "interventions");
         cooldownMode = Idrinth.Mct.get("intervention_cooldown");
-    end,
-    true
+    end
 );

@@ -96,52 +96,44 @@ for _, data in pairs(placesOfInterest) do
 end;
 local enablePointsOfInterest = nil;
 
-core:add_listener(
-    "idrinth_pointsofinterest_MctInitialized",
+Idrinth.Events.addListener(
+    "pointsofinterest",
     "MctInitialized",
     true,
     function()
-        Idrinth.log("MctInitialized", "pointsofinterest");
         enablePointsOfInterest = Idrinth.Mct.get("story_events");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_pointsofinterest_MctFinalized",
+Idrinth.Events.addListener(
+    "pointsofinterest",
     "MctFinalized",
     true,
     function()
-        Idrinth.log("MctFinalized", "pointsofinterest");
         enablePointsOfInterest = Idrinth.Mct.get("story_events");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_pointsofinterest_DilemmaChoiceMadeEvent",
+Idrinth.Events.addListener(
+    "pointsofinterest",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_story_choice";
     end,
     function(context)
-        Idrinth.log("DilemmaChoiceMadeEvent", "pointsofinterest");
         enablePointsOfInterest = (context:choice() == 1);
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_pointsofinterest_FactionTurnStart",
+Idrinth.Events.addListener(
+    "pointsofinterest",
     "FactionTurnStart",
     function(context)
         return Idrinth.mayConfigure() and enablePointsOfInterest == nil and context:faction():is_human();
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "pointsofinterest");
         cm:trigger_dilemma(context:faction():name(), "idrinth_story_choice");
-    end,
-    false
+    end
 );
-core:add_listener(
-    "idrinth_pointsofinterest_FactionTurnStart_2",
+Idrinth.Events.addListener(
+    "pointsofinterest",
     "FactionTurnStart",
     function(context)
         if not enablePointsOfInterest then
@@ -154,15 +146,13 @@ core:add_listener(
         return idrinth and not idrinth:is_wounded() and idrinth:region() and idrinth:has_region();
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "pointsofinterest");
         local idrinth = Idrinth.Access.get();
         local poi = regionToPoI[idrinth:region():name()];
         if poi and not poi.triggered then
             cm:trigger_dilemma(context:faction():name(), poi.key);
             poi.triggered = true;
         end;
-    end,
-    true
+    end
 );
 cm:add_saving_game_callback(
     function(context)

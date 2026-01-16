@@ -104,8 +104,8 @@ local dilemmas = {
         };
     };
 };
-core:add_listener(
-    "idrinth_story_FactionTurnStart",
+Idrinth.Events.addListener(
+    "story",
     "FactionTurnStart",
     function(context)
         if not context:faction():is_human() then
@@ -115,7 +115,6 @@ core:add_listener(
         return idrinth and not idrinth:is_wounded();
     end,
     function()
-        Idrinth.log("FactionTurnStart", "story");
         local idrinth, faction, culture = Idrinth.Access.get();
         local level = idrinth:rank();
         if cooldown > 0 then
@@ -176,8 +175,7 @@ core:add_listener(
                 end;
             end;
         end;
-    end,
-    true
+    end
 );
 cm:add_saving_game_callback(
     function(context)
@@ -199,25 +197,21 @@ cm:add_loading_game_callback(
         end;
     end
 );
-core:add_listener(
-    "idrinth_story_MctInitialized",
+Idrinth.Events.addListener(
+    "story",
     "MctInitialized",
     true,
     function()
-        Idrinth.log("MctInitialized", "story");
         cooldownMode = Idrinth.Mct.get("dilemma_cooldown");
         chanceMode = Idrinth.Mct.get("story_dilemma_base_chance");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_story_MctFinalized",
+Idrinth.Events.addListener(
+    "story",
     "MctFinalized",
     true,
     function()
-        Idrinth.log("MctFinalized", "story");
         cooldownMode = Idrinth.Mct.get("dilemma_cooldown");
         chanceMode = Idrinth.Mct.get("story_dilemma_base_chance");
-    end,
-    true
+    end
 );

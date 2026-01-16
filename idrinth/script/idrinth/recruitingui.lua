@@ -37,8 +37,8 @@ local fixLordType = function()
         end;
     end;
 end;
-core:add_listener(
-    "idrinth_recruitingui_ComponentLClickUp",
+Idrinth.Events.addListener(
+    "recruitingui",
     "ComponentLClickUp",
     function(context)
         if context.string ~= "legendary_lords" then
@@ -47,13 +47,11 @@ core:add_listener(
         return Idrinth.Access.spawned();
     end,
     function()
-        Idrinth.log("ComponentLClickUp", "recruitingui");
         Idrinth.Ui.nowAndThen(fixLordType);
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_recruitingui_PanelOpenedCampaign",
+Idrinth.Events.addListener(
+    "recruitingui",
     "PanelOpenedCampaign",
     function(context)
         if context.string ~= "character_panel" then
@@ -62,8 +60,6 @@ core:add_listener(
         return Idrinth.Access.spawned();
     end,
     function()
-        Idrinth.log("PanelOpenedCampaign", "recruitingui");
         Idrinth.Ui.nowAndThen(fixLordType);
-    end,
-    true
+    end
 );

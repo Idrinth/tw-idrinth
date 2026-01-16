@@ -16,55 +16,47 @@ local extendedCultures = {
     "wh3_main_cth_cathay"
 };
 
-core:add_listener(
-    "idrinth_cultures_MctInitialized",
+Idrinth.Events.addListener(
+    "cultures",
     "MctInitialized",
     true,
     function()
-        Idrinth.log("MctInitialized", "cultures");
         enableExtendedCultures = Idrinth.Mct.get("expanded_spawn");
         cachedCultures = nil;
         cachedCultureMap = nil;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_cultures_MctFinalized",
+Idrinth.Events.addListener(
+    "cultures",
     "MctFinalized",
     true,
     function()
-        Idrinth.log("MctFinalized", "cultures");
         enableExtendedCultures = Idrinth.Mct.get("expanded_spawn");
         cachedCultures = nil;
         cachedCultureMap = nil;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_cultures_DilemmaChoiceMadeEvent",
+Idrinth.Events.addListener(
+    "cultures",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_mode_choice";
     end,
     function(context)
-        Idrinth.log("DilemmaChoiceMadeEvent", "cultures");
         enableExtendedCultures = context:choice() == 1;
         cachedCultures = nil;
         cachedCultureMap = nil;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_cultures_FactionTurnStart",
+Idrinth.Events.addListener(
+    "cultures",
     "FactionTurnStart",
     function(context)
         return context:faction():is_human() and enableExtendedCultures == nil;
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "cultures");
         cm:trigger_dilemma(context:faction():name(), "idrinth_mode_choice");
-    end,
-    false
+    end
 );
 local get = function()
     if cachedCultures then
