@@ -155,11 +155,15 @@ structs:
       args: []
     load_global_script:
       method: true
-      args: []
+      args:
+      - type: string
     load_named_value:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: string
+      - type: any
+      - type: any
     mission_is_active_for_faction:
       must_use: true
       method: true
