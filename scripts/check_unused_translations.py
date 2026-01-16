@@ -238,6 +238,39 @@ def read_composite_db_keys(db_path: Path) -> Dict[str, Set[str]]:
         if keys:
             composite_keys["cdir_events_dilemma_choice_details_tables"] = keys
 
+    # Also generate choice label keys from dilemmas_tables directly
+    # The game may auto-lookup choice labels for dilemmas even without explicit choice_details entries
+    dilemmas_file = db_path / "dilemmas_tables" / "idrinth.tsv"
+    if dilemmas_file.exists():
+        dilemma_keys = set()
+        with open(dilemmas_file, "r", encoding="utf-8") as f:
+            header = None
+            key_idx = 0
+
+            for line_num, line in enumerate(f, 1):
+                parts = line.strip().split("\t")
+
+                if line_num == 1:
+                    header = parts
+                    if "key" in header:
+                        key_idx = header.index("key")
+                    continue
+
+                if line.startswith("#"):
+                    continue
+
+                if parts and len(parts) > key_idx and parts[key_idx]:
+                    dilemma_key = parts[key_idx]
+                    # Generate possible choice labels (FIRST, SECOND, THIRD)
+                    for choice in ["FIRST", "SECOND", "THIRD"]:
+                        dilemma_keys.add(f"{dilemma_key}{choice}")
+
+        if dilemma_keys:
+            if "cdir_events_dilemma_choice_details_tables" in composite_keys:
+                composite_keys["cdir_events_dilemma_choice_details_tables"].update(dilemma_keys)
+            else:
+                composite_keys["cdir_events_dilemma_choice_details_tables"] = dilemma_keys
+
     return composite_keys
 
 
