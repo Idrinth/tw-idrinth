@@ -1,10 +1,116 @@
-# Selene standard library definition for Idrinth mod namespace
-# Based on globals in .luacheckrc
+# Selene standard library definition for Total War Idrinth mod
+# Combines lua51 base with Total War game API and Idrinth namespace
 
 name: tw_idrinth
-base: tw_game
+base: lua51
 
 globals:
+  # ============================================
+  # Total War Game API (from tw_game)
+  # ============================================
+
+  # Core object
+  core: {}
+  core.add_listener: {}
+  core.get_or_create_component: {}
+  core.get_ui_root: {}
+  core.is_ui_created: {}
+  core.trigger_custom_event: {}
+
+  # Campaign manager object
+  cm: {}
+  cm.add_experience_to_unit: {}
+  cm.add_first_tick_callback: {}
+  cm.add_foreign_slot_set_to_region_for_faction: {}
+  cm.add_loading_game_callback: {}
+  cm.add_pooled_resource_changed_listener_by_faction: {}
+  cm.add_pre_first_tick_callback: {}
+  cm.add_saving_game_callback: {}
+  cm.apply_effect_bundle: {}
+  cm.apply_effect_bundle_to_character: {}
+  cm.apply_effect_bundle_to_region: {}
+  cm.callback: {}
+  cm.cancel_custom_mission: {}
+  cm.change_character_custom_name: {}
+  cm.change_custom_unit_name: {}
+  cm.char_lookup_str: {}
+  cm.create_force_with_general: {}
+  cm.disable_event_feed_events: {}
+  cm.faction_add_pooled_resource: {}
+  cm.faction_purchase_unit_effect: {}
+  cm.faction_set_unit_purchasable_effect_lock_state: {}
+  cm.find_valid_spawn_location_for_character_from_position: {}
+  cm.force_add_ancillary: {}
+  cm.force_add_trait: {}
+  cm.force_remove_ancillary_from_faction: {}
+  cm.force_remove_trait: {}
+  cm.get_campaign_ui_manager: {}
+  cm.get_character_by_cqi: {}
+  cm.get_factions_by_culture: {}
+  cm.get_highest_ranked_general_for_faction: {}
+  cm.get_local_faction: {}
+  cm.get_most_recently_created_character_of_type: {}
+  cm.grant_unit_to_character: {}
+  cm.is_multiplayer: {}
+  cm.is_new_game: {}
+  cm.load_global_script: {}
+  cm.load_named_value: {}
+  cm.mission_is_active_for_faction: {}
+  cm.model: {}
+  cm.pending_battle_cache_attacker_value: {}
+  cm.pending_battle_cache_attacker_victory: {}
+  cm.pending_battle_cache_culture_is_attacker: {}
+  cm.pending_battle_cache_culture_is_defender: {}
+  cm.pending_battle_cache_defender_value: {}
+  cm.pending_battle_cache_defender_victory: {}
+  cm.pending_battle_cache_get_attacker: {}
+  cm.pending_battle_cache_get_attacker_embedded_character_subtypes: {}
+  cm.pending_battle_cache_get_defender: {}
+  cm.pending_battle_cache_get_defender_embedded_character_subtypes: {}
+  cm.pending_battle_cache_num_attackers: {}
+  cm.pending_battle_cache_num_defenders: {}
+  cm.pooled_resource_factor_transaction: {}
+  cm.random: {}
+  cm.random_number: {}
+  cm.real_callback: {}
+  cm.remove_effect_bundle_from_region: {}
+  cm.remove_faction_foreign_slots_from_region: {}
+  cm.repeat_real_callback: {}
+  cm.replenish_action_points: {}
+  cm.save_named_value: {}
+  cm.set_character_immortality: {}
+  cm.set_character_unique: {}
+  cm.show_message_event: {}
+  cm.show_message_event_located: {}
+  cm.spawn_transported_force_at_military_force: {}
+  cm.spawn_unique_agent_at_character: {}
+  cm.spawn_unique_agent_at_region: {}
+  cm.treasury_mod: {}
+  cm.trigger_dilemma: {}
+  cm.trigger_mission: {}
+
+  # Common utilities
+  common: {}
+  common.call_context_command: {}
+  common.get_context_value: {}
+  common.get_localised_string: {}
+
+  # String extensions
+  string.ends_with: {}
+
+  # Simple read-only globals
+  is_string: {}
+  is_integer: {}
+  UIComponent: {}
+  is_uicomponent: {}
+  get_mct: {}
+  set_component_visible_with_parent: {}
+  out: {}
+
+  # ============================================
+  # Idrinth Mod Namespace
+  # ============================================
+
   # Main Idrinth namespace - needs full-write to allow Idrinth = {}
   Idrinth:
     property: full-write
