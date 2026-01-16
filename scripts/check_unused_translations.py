@@ -249,12 +249,13 @@ def read_column_referenced_keys(db_path: Path) -> Set[str]:
     referenced_keys = set()
 
     # building_culture_variants has 'short_description' column that references
-    # building_short_description_texts keys
+    # building_short_description_texts keys, and 'icon' column for shared names
     bcv_file = db_path / "building_culture_variants_tables" / "idrinth.tsv"
     if bcv_file.exists():
         with open(bcv_file, "r", encoding="utf-8") as f:
             header = None
             short_desc_idx = -1
+            icon_idx = -1
 
             for line_num, line in enumerate(f, 1):
                 parts = line.strip().split("\t")
@@ -263,6 +264,8 @@ def read_column_referenced_keys(db_path: Path) -> Set[str]:
                     header = parts
                     if "short_description" in header:
                         short_desc_idx = header.index("short_description")
+                    if "icon" in header:
+                        icon_idx = header.index("icon")
                     continue
 
                 if line.startswith("#"):
@@ -272,6 +275,12 @@ def read_column_referenced_keys(db_path: Path) -> Set[str]:
                     # Generate the translation key from short_description value
                     short_desc = parts[short_desc_idx]
                     referenced_keys.add(f"building_short_description_texts_short_description_{short_desc}")
+
+                if icon_idx >= 0 and len(parts) > icon_idx and parts[icon_idx]:
+                    # The icon column contains shared translation key references
+                    icon = parts[icon_idx]
+                    referenced_keys.add(f"building_culture_variants_name_{icon}")
+                    referenced_keys.add(f"building_culture_variants_description_{icon}")
 
     # land_units has historical_description_text and short_description_text columns
     # that reference unit_description keys
@@ -303,6 +312,69 @@ def read_column_referenced_keys(db_path: Path) -> Set[str]:
                 if short_desc_idx >= 0 and len(parts) > short_desc_idx and parts[short_desc_idx]:
                     value = parts[short_desc_idx]
                     referenced_keys.add(f"unit_description_short_texts_text_{value}")
+
+    # main_units_tables has a land_unit column that references land_units for translation
+    # Also the unit column itself can be used for translation lookups
+    mu_file = db_path / "main_units_tables" / "idrinth.tsv"
+    if mu_file.exists():
+        with open(mu_file, "r", encoding="utf-8") as f:
+            header = None
+            unit_idx = -1
+            land_unit_idx = -1
+
+            for line_num, line in enumerate(f, 1):
+                parts = line.strip().split("\t")
+
+                if line_num == 1:
+                    header = parts
+                    if "unit" in header:
+                        unit_idx = header.index("unit")
+                    if "land_unit" in header:
+                        land_unit_idx = header.index("land_unit")
+                    continue
+
+                if line.startswith("#"):
+                    continue
+
+                # The unit column (main unit key) can also be used for translation lookups
+                if unit_idx >= 0 and len(parts) > unit_idx and parts[unit_idx]:
+                    unit = parts[unit_idx]
+                    referenced_keys.add(f"land_units_onscreen_name_{unit}")
+                    referenced_keys.add(f"land_units_concealed_name_{unit}")
+
+                if land_unit_idx >= 0 and len(parts) > land_unit_idx and parts[land_unit_idx]:
+                    land_unit = parts[land_unit_idx]
+                    # main_units reference land_units for their translation keys
+                    referenced_keys.add(f"land_units_onscreen_name_{land_unit}")
+                    referenced_keys.add(f"land_units_concealed_name_{land_unit}")
+
+    # special_ability_phases may use shared base keys (without _multi/_single suffix)
+    sap_file = db_path / "special_ability_phases_tables" / "idrinth.tsv"
+    if sap_file.exists():
+        with open(sap_file, "r", encoding="utf-8") as f:
+            header = None
+            key_idx = 0
+
+            for line_num, line in enumerate(f, 1):
+                parts = line.strip().split("\t")
+
+                if line_num == 1:
+                    header = parts
+                    if "key" in header:
+                        key_idx = header.index("key")
+                    continue
+
+                if line.startswith("#"):
+                    continue
+
+                if parts and len(parts) > key_idx and parts[key_idx]:
+                    key = parts[key_idx]
+                    # Also add the base key without _multi/_single suffix
+                    for suffix in ["_multi", "_single"]:
+                        if key.endswith(suffix):
+                            base_key = key[:-len(suffix)]
+                            referenced_keys.add(f"special_ability_phases_onscreen_name_{base_key}")
+                            referenced_keys.add(f"special_ability_phases_description_{base_key}")
 
     return referenced_keys
 
