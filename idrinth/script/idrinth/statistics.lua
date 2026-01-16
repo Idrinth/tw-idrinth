@@ -18,7 +18,9 @@ cm:add_loading_game_callback(
         end;
         statistics.ActiveRounds = cm:load_named_value("idrinth.activeRounds", statistics.ActiveRounds, context);
         statistics.BattlesFought = cm:load_named_value("idrinth.battlesFought", statistics.BattlesFought, context);
-        statistics.CharactersAssassinated = cm:load_named_value("idrinth.charactersAssassinated", statistics.CharactersAssassinated, context);
+        statistics.CharactersAssassinated = cm:load_named_value(
+            "idrinth.charactersAssassinated", statistics.CharactersAssassinated, context
+        );
     end
 );
 Idrinth.Events.addListener(
