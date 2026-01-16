@@ -345,9 +345,6 @@ structs:
       - type: string
       - type: string
       - type: number
-    random:
-      method: true
-      args: []
     random_number:
       method: true
       args:
