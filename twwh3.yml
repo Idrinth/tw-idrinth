@@ -497,6 +497,10 @@ globals:
   common:
     struct: Common
 
+  string.ends_with:
+      args:
+      - type: string
+
   # Utility functions
   # See: https://chadvandy.github.io/tw_modding_resources/WH3/script/_lib/lib_common.html
   is_string:
@@ -526,4 +530,4 @@ globals:
       - type: "..."
   out:
     args:
-      - type: string
+      - type: any
