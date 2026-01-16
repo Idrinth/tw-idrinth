@@ -340,8 +340,10 @@ def scan_lua_for_translation_keys(script_path: Path, all_translation_keys: Set[s
         re.compile(r'get_localised_string\s*\(\s*["\']([^"\']+)["\']'),
         # String concatenation patterns like "prefix_" .. variable
         re.compile(r'["\']([a-z_]+)["\']\s*\.\.\s*'),
-        # Direct string literals that look like translation keys
-        re.compile(r'["\']([a-z][a-z0-9_]+_idrinth[a-z0-9_]*)["\']'),
+        # Direct string literals that look like translation keys (containing idrinth)
+        re.compile(r'["\']([a-z][a-z0-9_]*idrinth[a-z0-9_]*)["\']'),
+        # upgrade_tooltips keys used in army.lua
+        re.compile(r'["\']((upgrade_tooltips|mct)_[a-z0-9_]+)["\']'),
     ]
 
     for lua_file in script_path.rglob("*.lua"):
@@ -352,13 +354,15 @@ def scan_lua_for_translation_keys(script_path: Path, all_translation_keys: Set[s
                 for pattern in patterns:
                     matches = pattern.findall(content)
                     for match in matches:
+                        # Handle tuple matches from patterns with groups
+                        key = match[0] if isinstance(match, tuple) else match
                         # Check if this is a known translation key
-                        if match in all_translation_keys:
-                            found_keys.add(match)
+                        if key in all_translation_keys:
+                            found_keys.add(key)
                         # Also check for prefix patterns that are used with concatenation
-                        for key in all_translation_keys:
-                            if key.startswith(match):
-                                found_keys.add(key)
+                        for trans_key in all_translation_keys:
+                            if trans_key.startswith(key):
+                                found_keys.add(trans_key)
         except IOError:
             continue
 
@@ -370,6 +374,7 @@ def scan_lua_for_dynamic_keys(script_path: Path, all_translation_keys: Set[str])
     Scan Lua files for dynamic key patterns.
     These are keys built by concatenating strings like:
         "land_units_onscreen_name_" .. unitKey
+        "mct_idrinth_"..key.."_options_"..vkey.."_text"
     """
     found_keys = set()
 
@@ -384,6 +389,8 @@ def scan_lua_for_dynamic_keys(script_path: Path, all_translation_keys: Set[str])
         "building_culture_variants_description_",
         "ancillaries_onscreen_name_",
         "special_ability_groups_onscreen_name_",
+        # MCT dynamic patterns
+        "mct_idrinth_",
     ]
 
     for lua_file in script_path.rglob("*.lua"):
