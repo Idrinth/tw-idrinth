@@ -344,8 +344,8 @@ structs:
     pooled_resource_factor_transaction:
       method: true
       args:
-      - type: string
-      - type: string
+      - type:
+          display: PooledResourceManager
       - type: string
       - type: number
     random_number:
