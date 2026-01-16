@@ -64,6 +64,64 @@ ui.findElementWithin = function(...)
     end;
     return parent;
 end;
+--- Iterates over all children of a UI component, calling the callback for each.
+--- @param parent userdata The parent UI component
+--- @param callback function A function(child, index) that receives each wrapped UIComponent and its 1-based index.
+---                          Return false to stop iteration early.
+ui.forEachChild = function(parent, callback)
+    for i = 1, parent:ChildCount() do
+        local child = UIComponent(parent:Find(i));
+        if callback(child, i) == false then
+            break;
+        end;
+    end;
+end;
+
+--- Finds the first child matching a predicate.
+--- @param parent userdata The parent UI component
+--- @param predicate function A function(child, index) that returns true for a match
+--- @return userdata|nil The first matching UIComponent child, or nil if none found
+--- @return number|nil The 1-based index of the match, or nil if none found
+ui.findChildWhere = function(parent, predicate)
+    for i = 1, parent:ChildCount() do
+        local child = UIComponent(parent:Find(i));
+        if predicate(child, i) then
+            return child, i;
+        end;
+    end;
+    return nil, nil;
+end;
+
+--- Returns a table of all children matching a predicate.
+--- @param parent userdata The parent UI component
+--- @param predicate function A function(child, index) that returns true for a match
+--- @return table An array of matching UIComponent children
+ui.filterChildren = function(parent, predicate)
+    local result = {};
+    for i = 1, parent:ChildCount() do
+        local child = UIComponent(parent:Find(i));
+        if predicate(child, i) then
+            result[#result + 1] = child;
+        end;
+    end;
+    return result;
+end;
+
+--- Counts children matching a predicate.
+--- @param parent userdata The parent UI component
+--- @param predicate function A function(child, index) that returns true for a match
+--- @return number The count of matching children
+ui.countChildrenWhere = function(parent, predicate)
+    local count = 0;
+    for i = 1, parent:ChildCount() do
+        local child = UIComponent(parent:Find(i));
+        if predicate(child, i) then
+            count = count + 1;
+        end;
+    end;
+    return count;
+end;
+
 ui.createOrFind = function(name, parent, overwriteAutoFile)
     if not overwriteAutoFile then
         overwriteAutoFile = name;
