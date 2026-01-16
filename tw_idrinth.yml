@@ -13,93 +13,170 @@ globals:
   core:
     property: read-only
     struct:
-      add_listener: {}
-      get_or_create_component: {}
-      get_ui_root: {}
-      is_ui_created: {}
-      trigger_custom_event: {}
+      add_listener:
+        property: read-only
+      get_or_create_component:
+        property: read-only
+      get_ui_root:
+        property: read-only
+      is_ui_created:
+        property: read-only
+      trigger_custom_event:
+        property: read-only
 
   # Campaign manager object
   cm:
     property: read-only
     struct:
-      add_experience_to_unit: {}
-      add_first_tick_callback: {}
-      add_foreign_slot_set_to_region_for_faction: {}
-      add_loading_game_callback: {}
-      add_pooled_resource_changed_listener_by_faction: {}
-      add_pre_first_tick_callback: {}
-      add_saving_game_callback: {}
-      apply_effect_bundle: {}
-      apply_effect_bundle_to_character: {}
-      apply_effect_bundle_to_region: {}
-      callback: {}
-      cancel_custom_mission: {}
-      change_character_custom_name: {}
-      change_custom_unit_name: {}
-      char_lookup_str: {}
-      create_force_with_general: {}
-      disable_event_feed_events: {}
-      faction_add_pooled_resource: {}
-      faction_purchase_unit_effect: {}
-      faction_set_unit_purchasable_effect_lock_state: {}
-      find_valid_spawn_location_for_character_from_position: {}
-      force_add_ancillary: {}
-      force_add_trait: {}
-      force_remove_ancillary_from_faction: {}
-      force_remove_trait: {}
-      get_campaign_ui_manager: {}
-      get_character_by_cqi: {}
-      get_factions_by_culture: {}
-      get_highest_ranked_general_for_faction: {}
-      get_local_faction: {}
-      get_most_recently_created_character_of_type: {}
-      grant_unit_to_character: {}
-      is_multiplayer: {}
-      is_new_game: {}
-      load_global_script: {}
-      load_named_value: {}
-      mission_is_active_for_faction: {}
-      model: {}
-      pending_battle_cache_attacker_value: {}
-      pending_battle_cache_attacker_victory: {}
-      pending_battle_cache_culture_is_attacker: {}
-      pending_battle_cache_culture_is_defender: {}
-      pending_battle_cache_defender_value: {}
-      pending_battle_cache_defender_victory: {}
-      pending_battle_cache_get_attacker: {}
-      pending_battle_cache_get_attacker_embedded_character_subtypes: {}
-      pending_battle_cache_get_defender: {}
-      pending_battle_cache_get_defender_embedded_character_subtypes: {}
-      pending_battle_cache_num_attackers: {}
-      pending_battle_cache_num_defenders: {}
-      pooled_resource_factor_transaction: {}
-      random: {}
-      random_number: {}
-      real_callback: {}
-      remove_effect_bundle_from_region: {}
-      remove_faction_foreign_slots_from_region: {}
-      repeat_real_callback: {}
-      replenish_action_points: {}
-      save_named_value: {}
-      set_character_immortality: {}
-      set_character_unique: {}
-      show_message_event: {}
-      show_message_event_located: {}
-      spawn_transported_force_at_military_force: {}
-      spawn_unique_agent_at_character: {}
-      spawn_unique_agent_at_region: {}
-      treasury_mod: {}
-      trigger_dilemma: {}
-      trigger_mission: {}
+      add_experience_to_unit:
+        property: read-only
+      add_first_tick_callback:
+        property: read-only
+      add_foreign_slot_set_to_region_for_faction:
+        property: read-only
+      add_loading_game_callback:
+        property: read-only
+      add_pooled_resource_changed_listener_by_faction:
+        property: read-only
+      add_pre_first_tick_callback:
+        property: read-only
+      add_saving_game_callback:
+        property: read-only
+      apply_effect_bundle:
+        property: read-only
+      apply_effect_bundle_to_character:
+        property: read-only
+      apply_effect_bundle_to_region:
+        property: read-only
+      callback:
+        property: read-only
+      cancel_custom_mission:
+        property: read-only
+      change_character_custom_name:
+        property: read-only
+      change_custom_unit_name:
+        property: read-only
+      char_lookup_str:
+        property: read-only
+      create_force_with_general:
+        property: read-only
+      disable_event_feed_events:
+        property: read-only
+      faction_add_pooled_resource:
+        property: read-only
+      faction_purchase_unit_effect:
+        property: read-only
+      faction_set_unit_purchasable_effect_lock_state:
+        property: read-only
+      find_valid_spawn_location_for_character_from_position:
+        property: read-only
+      force_add_ancillary:
+        property: read-only
+      force_add_trait:
+        property: read-only
+      force_remove_ancillary_from_faction:
+        property: read-only
+      force_remove_trait:
+        property: read-only
+      get_campaign_ui_manager:
+        property: read-only
+      get_character_by_cqi:
+        property: read-only
+      get_factions_by_culture:
+        property: read-only
+      get_highest_ranked_general_for_faction:
+        property: read-only
+      get_local_faction:
+        property: read-only
+      get_most_recently_created_character_of_type:
+        property: read-only
+      grant_unit_to_character:
+        property: read-only
+      is_multiplayer:
+        property: read-only
+      is_new_game:
+        property: read-only
+      load_global_script:
+        property: read-only
+      load_named_value:
+        property: read-only
+      mission_is_active_for_faction:
+        property: read-only
+      model:
+        property: read-only
+      pending_battle_cache_attacker_value:
+        property: read-only
+      pending_battle_cache_attacker_victory:
+        property: read-only
+      pending_battle_cache_culture_is_attacker:
+        property: read-only
+      pending_battle_cache_culture_is_defender:
+        property: read-only
+      pending_battle_cache_defender_value:
+        property: read-only
+      pending_battle_cache_defender_victory:
+        property: read-only
+      pending_battle_cache_get_attacker:
+        property: read-only
+      pending_battle_cache_get_attacker_embedded_character_subtypes:
+        property: read-only
+      pending_battle_cache_get_defender:
+        property: read-only
+      pending_battle_cache_get_defender_embedded_character_subtypes:
+        property: read-only
+      pending_battle_cache_num_attackers:
+        property: read-only
+      pending_battle_cache_num_defenders:
+        property: read-only
+      pooled_resource_factor_transaction:
+        property: read-only
+      random:
+        property: read-only
+      random_number:
+        property: read-only
+      real_callback:
+        property: read-only
+      remove_effect_bundle_from_region:
+        property: read-only
+      remove_faction_foreign_slots_from_region:
+        property: read-only
+      repeat_real_callback:
+        property: read-only
+      replenish_action_points:
+        property: read-only
+      save_named_value:
+        property: read-only
+      set_character_immortality:
+        property: read-only
+      set_character_unique:
+        property: read-only
+      show_message_event:
+        property: read-only
+      show_message_event_located:
+        property: read-only
+      spawn_transported_force_at_military_force:
+        property: read-only
+      spawn_unique_agent_at_character:
+        property: read-only
+      spawn_unique_agent_at_region:
+        property: read-only
+      treasury_mod:
+        property: read-only
+      trigger_dilemma:
+        property: read-only
+      trigger_mission:
+        property: read-only
 
   # Common utilities
   common:
     property: read-only
     struct:
-      call_context_command: {}
-      get_context_value: {}
-      get_localised_string: {}
+      call_context_command:
+        property: read-only
+      get_context_value:
+        property: read-only
+      get_localised_string:
+        property: read-only
 
   # Simple read-only globals
   is_string:
@@ -126,79 +203,143 @@ globals:
     property: full-write
     struct:
       Access:
+        property: read-only
         struct:
-          get: {}
-          spawned: {}
+          get:
+            property: read-only
+          spawned:
+            property: read-only
       Constants:
+        property: read-only
         struct:
           Cultures:
+            property: read-only
             struct:
-              DarkElves: {}
-              HighElves: {}
-              WoodElves: {}
-          GodList: {}
+              DarkElves:
+                property: read-only
+              HighElves:
+                property: read-only
+              WoodElves:
+                property: read-only
+          GodList:
+            property: read-only
           Gods:
+            property: read-only
             struct:
-              Asuryan: {}
-              Khaine: {}
-              Kurnous: {}
-          HeroSubtype: {}
-          HeroType: {}
-          LordSubtype: {}
-          LordType: {}
-          MctModKey: {}
+              Asuryan:
+                property: read-only
+              Khaine:
+                property: read-only
+              Kurnous:
+                property: read-only
+          HeroSubtype:
+            property: read-only
+          HeroType:
+            property: read-only
+          LordSubtype:
+            property: read-only
+          LordType:
+            property: read-only
+          MctModKey:
+            property: read-only
           Panels:
+            property: read-only
             struct:
-              HudCampaign: {}
-          UnlockDilemma: {}
+              HudCampaign:
+                property: read-only
+          UnlockDilemma:
+            property: read-only
       Cultures:
+        property: read-only
         struct:
-          get: {}
-          isAllowed: {}
+          get:
+            property: read-only
+          isAllowed:
+            property: read-only
       Events:
+        property: read-only
         struct:
           Conditions:
+            property: read-only
             struct:
-              battleFoughtAndSpawned: {}
-              dilemmaIs: {}
-              isPanelOpen: {}
-              panelOpened: {}
-          addListener: {}
-          onMctChange: {}
+              battleFoughtAndSpawned:
+                property: read-only
+              dilemmaIs:
+                property: read-only
+              isPanelOpen:
+                property: read-only
+              panelOpened:
+                property: read-only
+          addListener:
+            property: read-only
+          onMctChange:
+            property: read-only
       Mct:
+        property: read-only
         struct:
-          get: {}
-      Names: {}
+          get:
+            property: read-only
+      Names:
+        property: read-only
       Statistics:
+        property: read-only
         struct:
-          ActiveRounds: {}
-          BattlesFought: {}
-          CharactersAssassinated: {}
+          ActiveRounds:
+            property: read-only
+          BattlesFought:
+            property: read-only
+          CharactersAssassinated:
+            property: read-only
       Ui:
+        property: read-only
         struct:
-          countChildrenWhere: {}
-          createOrFind: {}
-          findChildWhere: {}
-          findElementWithin: {}
-          forEachChild: {}
-          nowAndThen: {}
+          countChildrenWhere:
+            property: read-only
+          createOrFind:
+            property: read-only
+          findChildWhere:
+            property: read-only
+          findElementWithin:
+            property: read-only
+          forEachChild:
+            property: read-only
+          nowAndThen:
+            property: read-only
       Unittypes:
+        property: read-only
         struct:
-          isBlessedAnimal: {}
-          isChapelUnit: {}
-          isEliteTroop: {}
-          isEnlargedCavalry: {}
-          isEnlargedEliteTroop: {}
-          isHero: {}
-          isPriest: {}
-          isSingleEntity: {}
-          isVampiric: {}
-          isVarghulf: {}
+          isBlessedAnimal:
+            property: read-only
+          isChapelUnit:
+            property: read-only
+          isEliteTroop:
+            property: read-only
+          isEnlargedCavalry:
+            property: read-only
+          isEnlargedEliteTroop:
+            property: read-only
+          isHero:
+            property: read-only
+          isPriest:
+            property: read-only
+          isSingleEntity:
+            property: read-only
+          isVampiric:
+            property: read-only
+          isVarghulf:
+            property: read-only
       Version:
+        property: read-only
         struct:
-          bug: {}
-          feature: {}
-          main: {}
-      factions: {}
-      log: {}
-      mayConfigure: {}
+          bug:
+            property: read-only
+          feature:
+            property: read-only
+          main:
+            property: read-only
+      factions:
+        property: read-only
+      log:
+        property: read-only
+      mayConfigure:
+        property: read-only
