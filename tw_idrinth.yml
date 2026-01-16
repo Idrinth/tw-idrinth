@@ -196,7 +196,7 @@ globals:
   set_component_visible_with_parent:
     args:
       - type: any
-      - type: boolean
+      - type: bool
   out:
     args:
       - type: string
