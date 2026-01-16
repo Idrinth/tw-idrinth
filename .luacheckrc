@@ -102,16 +102,106 @@ read_globals = {
 globals = {
     ["Idrinth"] = {
         fields = {
-            "Access",
-            "Constants",
-            "Cultures",
-            "Events",
-            "Mct",
+            ["Access"] = {
+                fields = {
+                    "get",
+                    "spawned",
+                },
+            },
+            ["Constants"] = {
+                fields = {
+                    ["Panels"] = {
+                        fields = {
+                            "HudCampaign",
+                        },
+                    },
+                    ["Gods"] = {
+                        fields = {
+                            "Asuryan",
+                            "Khaine",
+                            "Kurnous",
+                        },
+                    },
+                    "GodList",
+                    "HeroSubtype",
+                    "LordSubtype",
+                    "HeroType",
+                    "LordType",
+                    "UnlockDilemma",
+                    ["Cultures"] = {
+                        fields = {
+                            "HighElves",
+                            "WoodElves",
+                            "DarkElves",
+                        },
+                    },
+                    "MctModKey",
+                },
+            },
+            ["Cultures"] = {
+                fields = {
+                    "isAllowed",
+                    "get",
+                },
+            },
+            ["Events"] = {
+                fields = {
+                    "addListener",
+                    "onMctChange",
+                    ["Conditions"] = {
+                        fields = {
+                            "dilemmaIs",
+                            "battleFoughtAndSpawned",
+                            "panelOpened",
+                            "isPanelOpen",
+                        },
+                    },
+                },
+            },
+            ["Mct"] = {
+                fields = {
+                    "get",
+                },
+            },
+            ["Statistics"] = {
+                fields = {
+                    "BattlesFought",
+                    "ActiveRounds",
+                    "CharactersAssassinated",
+                },
+            },
+            ["Ui"] = {
+                fields = {
+                    "findElementWithin",
+                    "createOrFind",
+                    "forEachChild",
+                    "findChildWhere",
+                    "nowAndThen",
+                    "countChildrenWhere",
+                },
+            },
+            ["Unittypes"] = {
+                fields = {
+                    "isBlessedAnimal",
+                    "isVampiric",
+                    "isEliteTroop",
+                    "isEnlargedEliteTroop",
+                    "isEnlargedCavalry",
+                    "isChapelUnit",
+                    "isVarghulf",
+                    "isHero",
+                    "isPriest",
+                    "isSingleEntity",
+                },
+            },
+            ["Version"] = {
+                fields = {
+                    "main",
+                    "feature",
+                    "bug",
+                },
+            },
             "Names",
-            "Statistics",
-            "Ui",
-            "Unittypes",
-            "Version",
             "factions",
             "log",
             "mayConfigure",
