@@ -318,6 +318,76 @@ end;
 local setTooltip = function(element, loc_key)
     element:SetTooltipText(common.get_localised_string(loc_key), loc_key, true);
 end;
+local upgradeButtonConfigs = {
+    [CHAPEL_PREFIX.."asuryan_leader"] = {
+        buttons = {"asuryanPriestUpgrade"},
+        tooltips = {"upgrade_tooltips_idrinth_priest_asuryan"},
+    },
+    [CHAPEL_PREFIX.."khaine_leader"] = {
+        buttons = {"khainePriestUpgrade"},
+        tooltips = {"upgrade_tooltips_idrinth_priest_khaine"},
+    },
+    [CHAPEL_PREFIX.."kurnous_leader"] = {
+        buttons = {"kurnousPriestUpgrade"},
+        tooltips = {"upgrade_tooltips_idrinth_priest_kurnous"},
+    },
+    [CHAPEL_PREFIX.."mixed"] = {
+        buttons = {"asuryanTroopsUpgrade", "khaineTroopsUpgrade", "kurnousTroopsUpgrade"},
+        tooltips = {
+            "upgrade_tooltips_idrinth_unit_asuryan",
+            "upgrade_tooltips_idrinth_unit_khaine",
+            "upgrade_tooltips_idrinth_unit_kurnous",
+        },
+    },
+    [CHAPEL_PREFIX.."wolves"] = {
+        buttons = {"asuryanAnimalsUpgrade", "khaineAnimalsUpgrade", "kurnousAnimalsUpgrade"},
+        tooltips = {
+            "upgrade_tooltips_idrinth_animal_asuryan_wolves",
+            "upgrade_tooltips_idrinth_animal_khaine_wolves",
+            "upgrade_tooltips_idrinth_animal_kurnous_wolves",
+        },
+    },
+    [CHAPEL_PREFIX.."cave_bats"] = {
+        buttons = {"asuryanAnimalsUpgrade", "khaineAnimalsUpgrade", "kurnousAnimalsUpgrade"},
+        tooltips = {
+            "upgrade_tooltips_idrinth_animal_asuryan_bats",
+            "upgrade_tooltips_idrinth_animal_khaine_bats",
+            "upgrade_tooltips_idrinth_animal_kurnous_bats",
+        },
+    },
+    [CHAPEL_PREFIX.."hawks"] = {
+        buttons = {"asuryanAnimalsUpgrade", "khaineAnimalsUpgrade", "kurnousAnimalsUpgrade"},
+        tooltips = {
+            "upgrade_tooltips_idrinth_animal_asuryan_hawks",
+            "upgrade_tooltips_idrinth_animal_khaine_hawks",
+            "upgrade_tooltips_idrinth_animal_kurnous_hawks",
+        },
+    },
+    [CHAPEL_PREFIX.."great_eagle"] = {
+        buttons = {"asuryanAnimalsUpgrade", "khaineAnimalsUpgrade", "kurnousAnimalsUpgrade"},
+        tooltips = {
+            "upgrade_tooltips_idrinth_animal_asuryan_eagle",
+            "upgrade_tooltips_idrinth_animal_khaine_eagle",
+            "upgrade_tooltips_idrinth_animal_kurnous_eagle",
+        },
+    },
+    [CHAPEL_PREFIX.."asuryan"] = {
+        buttons = {"sizeUpgrade"},
+        tooltips = {"upgrade_tooltips_idrinth_size_asuryan"},
+    },
+    [CHAPEL_PREFIX.."khaine"] = {
+        buttons = {"sizeUpgrade"},
+        tooltips = {"upgrade_tooltips_idrinth_size_khaine"},
+    },
+    [CHAPEL_PREFIX.."kurnous"] = {
+        buttons = {"sizeUpgrade"},
+        tooltips = {"upgrade_tooltips_idrinth_size_kurnous"},
+    },
+    [CHAPEL_PREFIX.."outriders"] = {
+        buttons = {"sizeUpgrade"},
+        tooltips = {"upgrade_tooltips_idrinth_size_outriders"},
+    },
+};
 local handleUpgradeButtons = function()
     if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
         return;
@@ -412,72 +482,29 @@ local handleUpgradeButtons = function()
         "idrinth_button_upgrade_size", buttonWrapper, "idrinth_button_upgrade_size"
     );
     Idrinth.log("UI built", "army");
-    asuryanPriestUpgrade:SetVisible(false);
-    khainePriestUpgrade:SetVisible(false);
-    kurnousPriestUpgrade:SetVisible(false);
-    asuryanTroopsUpgrade:SetVisible(false);
-    khaineTroopsUpgrade:SetVisible(false);
-    kurnousTroopsUpgrade:SetVisible(false);
-    asuryanAnimalsUpgrade:SetVisible(false);
-    khaineAnimalsUpgrade:SetVisible(false);
-    kurnousAnimalsUpgrade:SetVisible(false);
-    sizeUpgrade:SetVisible(false);
-    if selectedType == CHAPEL_PREFIX.."asuryan_leader" then
-        asuryanPriestUpgrade:SetVisible(true);
-        setTooltip(asuryanPriestUpgrade, "upgrade_tooltips_idrinth_priest_asuryan");
-    elseif selectedType == CHAPEL_PREFIX.."khaine_leader" then
-        khainePriestUpgrade:SetVisible(true);
-        setTooltip(khainePriestUpgrade, "upgrade_tooltips_idrinth_priest_khaine");
-    elseif selectedType == CHAPEL_PREFIX.."kurnous_leader" then
-        kurnousPriestUpgrade:SetVisible(true);
-        setTooltip(kurnousPriestUpgrade, "upgrade_tooltips_idrinth_priest_kurnous");
-    elseif selectedType == CHAPEL_PREFIX.."mixed" then
-        asuryanTroopsUpgrade:SetVisible(true);
-        setTooltip(asuryanTroopsUpgrade, "upgrade_tooltips_idrinth_unit_asuryan");
-        khaineTroopsUpgrade:SetVisible(true);
-        setTooltip(khaineTroopsUpgrade, "upgrade_tooltips_idrinth_unit_khaine");
-        kurnousTroopsUpgrade:SetVisible(true);
-        setTooltip(kurnousTroopsUpgrade, "upgrade_tooltips_idrinth_unit_kurnous");
-    elseif selectedType == CHAPEL_PREFIX.."wolves" then
-        asuryanAnimalsUpgrade:SetVisible(true);
-        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_asuryan_wolves");
-        khaineAnimalsUpgrade:SetVisible(true);
-        setTooltip(khaineAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_khaine_wolves");
-        kurnousAnimalsUpgrade:SetVisible(true);
-        setTooltip(kurnousAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_kurnous_wolves");
-    elseif selectedType == CHAPEL_PREFIX.."cave_bats" then
-        asuryanAnimalsUpgrade:SetVisible(true);
-        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_asuryan_bats");
-        khaineAnimalsUpgrade:SetVisible(true);
-        setTooltip(khaineAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_khaine_bats");
-        kurnousAnimalsUpgrade:SetVisible(true);
-        setTooltip(kurnousAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_kurnous_bats");
-    elseif selectedType == CHAPEL_PREFIX.."hawks" then
-        asuryanAnimalsUpgrade:SetVisible(true);
-        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_asuryan_hawks");
-        khaineAnimalsUpgrade:SetVisible(true);
-        setTooltip(khaineAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_khaine_hawks");
-        kurnousAnimalsUpgrade:SetVisible(true);
-        setTooltip(kurnousAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_kurnous_hawks");
-    elseif selectedType == CHAPEL_PREFIX.."great_eagle" then
-        asuryanAnimalsUpgrade:SetVisible(true);
-        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_asuryan_eagle");
-        khaineAnimalsUpgrade:SetVisible(true);
-        setTooltip(khaineAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_khaine_eagle");
-        kurnousAnimalsUpgrade:SetVisible(true);
-        setTooltip(kurnousAnimalsUpgrade, "upgrade_tooltips_idrinth_animal_kurnous_eagle");
-    elseif selectedType == CHAPEL_PREFIX.."asuryan" then
-        sizeUpgrade:SetVisible(true);
-        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_size_asuryan");
-    elseif selectedType == CHAPEL_PREFIX.."khaine" then
-        sizeUpgrade:SetVisible(true);
-        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_size_khaine");
-    elseif selectedType == CHAPEL_PREFIX.."kurnous" then
-        sizeUpgrade:SetVisible(true);
-        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_size_kurnous");
-    elseif selectedType == CHAPEL_PREFIX.."outriders" then
-        sizeUpgrade:SetVisible(true);
-        setTooltip(asuryanAnimalsUpgrade, "upgrade_tooltips_idrinth_size_outriders");
+    local allButtons = {
+        asuryanPriestUpgrade = asuryanPriestUpgrade,
+        khainePriestUpgrade = khainePriestUpgrade,
+        kurnousPriestUpgrade = kurnousPriestUpgrade,
+        asuryanTroopsUpgrade = asuryanTroopsUpgrade,
+        khaineTroopsUpgrade = khaineTroopsUpgrade,
+        kurnousTroopsUpgrade = kurnousTroopsUpgrade,
+        asuryanAnimalsUpgrade = asuryanAnimalsUpgrade,
+        khaineAnimalsUpgrade = khaineAnimalsUpgrade,
+        kurnousAnimalsUpgrade = kurnousAnimalsUpgrade,
+        sizeUpgrade = sizeUpgrade,
+    };
+    for _, btn in pairs(allButtons) do
+        btn:SetVisible(false);
+    end;
+    local config = upgradeButtonConfigs[selectedType];
+    if not config then
+        return;
+    end;
+    for idx, buttonName in ipairs(config.buttons) do
+        local btn = allButtons[buttonName];
+        btn:SetVisible(true);
+        setTooltip(btn, config.tooltips[idx]);
     end;
 end;
 Idrinth.Events.addListener(
