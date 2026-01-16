@@ -2,8 +2,7 @@ local isIdrinthSubtype = function(subtype_string)
     return subtype_string == Idrinth.Constants.HeroSubtype or subtype_string == Idrinth.Constants.LordSubtype;
 end;
 
-local processCharacterChild = function(child)
-    local childComponent = UIComponent(child);
+local processCharacterChild = function(childComponent)
     if not childComponent:Visible() then
         return false;
     end;
@@ -34,12 +33,7 @@ local fixLordType = function()
     if not parent or parent:ChildCount() == 0 then
         return;
     end;
-    for i = 1, parent:ChildCount() do
-        local child = parent:Find(i);
-        if child and processCharacterChild(child) then
-            return;
-        end;
-    end;
+    Idrinth.Ui.findChildWhere(parent, processCharacterChild);
 end;
 Idrinth.Events.addListener(
     "ComponentLClickUp",

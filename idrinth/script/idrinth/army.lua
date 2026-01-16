@@ -14,6 +14,15 @@ local CALLBACK_DELAY = 150;
 local VETERAN_PREFIX = "idrinth_veteran_";
 local CHAPEL_PREFIX = "idrinth_hev_high_elf_vampires_chapel_";
 local UPGRADE_EFFECT_RECORD = "CcoUnitPurchasableEffectRecord";
+
+-- Helper predicate: checks if a unit is in a selected state
+local isUnitSelected = function(unit)
+    if not unit then
+        return false;
+    end;
+    local state = unit:CurrentState();
+    return state == STATE_SELECTED_HOVER or state == STATE_SELECTED;
+end;
 Idrinth.Events.addListener(
     "MctInitialized",
     true,
@@ -37,18 +46,15 @@ local getSelectedUnitsInfo = function()
     end;
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local uiIds = {};
-    for i = 1, units:ChildCount() do
-        local unit = UIComponent(units:Find(i));
-        if unit then
-            local id = unit:GetContextObjectId(UNIT_CONTEXT);
-            if id then
-                local uiId = common.get_context_value(UNIT_CONTEXT, id, "UniqueUiId");
-                if uiId and uiId ~= "" then
-                    uiIds[uiId] = true;
-                end;
+    Idrinth.Ui.forEachChild(units, function(unit)
+        local id = unit:GetContextObjectId(UNIT_CONTEXT);
+        if id then
+            local uiId = common.get_context_value(UNIT_CONTEXT, id, "UniqueUiId");
+            if uiId and uiId ~= "" then
+                uiIds[uiId] = true;
             end;
         end;
-    end;
+    end);
     return units, character, uiIds;
 end;
 local lockVeterans = function(faction, lock)
@@ -134,32 +140,26 @@ local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
         if not unitsPanel then
             return;
         end;
-        for j = 1, unitsPanel:ChildCount() do
-            local newUnit = UIComponent(unitsPanel:Find(j));
-            if newUnit then
-                local newId = newUnit:GetContextObjectId(UNIT_CONTEXT);
-                if newId then
-                    local newType = common.get_context_value(UNIT_CONTEXT, newId, "UnitRecordContext.Key");
-                    local newUiId = common.get_context_value(UNIT_CONTEXT, newId, "UniqueUiId");
-                    if not uiIds[newUiId] and newType == expectedType then
-                        local _, faction = Idrinth.Access.get();
-                        lockVeterans(faction, false);
-                        if is_string(currentRank) then
-                            local upgradeCmd = "Upgrade(DatabaseRecordContext("
-                                .. "\"" .. UPGRADE_EFFECT_RECORD .. "\", \"" .. currentRank .. "\"))";
-                            common.call_context_command(UNIT_CONTEXT, newId, upgradeCmd);
-                        else
-                            local upgradeCmd = "Upgrade(DatabaseRecordContext("
-                                .. "\"" .. UPGRADE_EFFECT_RECORD .. "\", \"" .. VETERAN_PREFIX
-                                .. currentRank .. "\"))";
-                            common.call_context_command(UNIT_CONTEXT, newId, upgradeCmd);
-                        end;
-                        lockVeterans(faction, true);
-                        return;
-                    end;
-                end;
+        local newUnit = Idrinth.Ui.findChildWhere(unitsPanel, function(unit)
+            local id = unit:GetContextObjectId(UNIT_CONTEXT);
+            if not id then
+                return false;
             end;
+            local unitType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
+            local uiId = common.get_context_value(UNIT_CONTEXT, id, "UniqueUiId");
+            return not uiIds[uiId] and unitType == expectedType;
+        end);
+        if not newUnit then
+            return;
         end;
+        local newId = newUnit:GetContextObjectId(UNIT_CONTEXT);
+        local _, faction = Idrinth.Access.get();
+        lockVeterans(faction, false);
+        local rankKey = is_string(currentRank) and currentRank or (VETERAN_PREFIX .. currentRank);
+        local upgradeCmd = "Upgrade(DatabaseRecordContext(\""
+            .. UPGRADE_EFFECT_RECORD .. "\", \"" .. rankKey .. "\"))";
+        common.call_context_command(UNIT_CONTEXT, newId, upgradeCmd);
+        lockVeterans(faction, true);
     end;
 end;
 local upgradeUnit = function(god)
@@ -167,27 +167,26 @@ local upgradeUnit = function(god)
     if not units then
         return;
     end;
+    local selectedUnit = Idrinth.Ui.findChildWhere(units, isUnitSelected);
+    if not selectedUnit then
+        return;
+    end;
+    local id = selectedUnit:GetContextObjectId(UNIT_CONTEXT);
+    if not id then
+        return;
+    end;
+    local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
+    local currentRank = common.get_context_value(UNIT_CONTEXT, id, "ExperienceLevel");
+    local price = 300 + 50 * currentRank;
     local factionKey = character:faction():name();
-    for i = 1, units:ChildCount() do
-        local unit = UIComponent(units:Find(i));
-        if unit and (unit:CurrentState() == STATE_SELECTED_HOVER or unit:CurrentState() == STATE_SELECTED) then
-            local id = unit:GetContextObjectId(UNIT_CONTEXT);
-            if id then
-                local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
-                local currentRank = common.get_context_value(UNIT_CONTEXT, id, "ExperienceLevel");
-                local price = 300 + 50 * currentRank;
-                if currentType == CHAPEL_PREFIX.."mixed" and character:faction():treasury() >= price then
-                    common.call_context_command(UNIT_CONTEXT, id, "Disband");
-                    cm:grant_unit_to_character(cm:char_lookup_str(character), CHAPEL_PREFIX..god);
-                    cm:treasury_mod(factionKey, 0 - price);
-                    cm:faction_add_pooled_resource(
-                        factionKey, "idrinth_"..god, "idrinth_"..god.."_other", currentRank * currentRank
-                    );
-                    cm:real_callback(applyVeteranRankToNewUnit(uiIds, CHAPEL_PREFIX..god, currentRank), CALLBACK_DELAY);
-                    return;
-                end;
-            end;
-        end;
+    if currentType == CHAPEL_PREFIX .. "mixed" and character:faction():treasury() >= price then
+        common.call_context_command(UNIT_CONTEXT, id, "Disband");
+        cm:grant_unit_to_character(cm:char_lookup_str(character), CHAPEL_PREFIX .. god);
+        cm:treasury_mod(factionKey, 0 - price);
+        cm:faction_add_pooled_resource(
+            factionKey, "idrinth_" .. god, "idrinth_" .. god .. "_other", currentRank * currentRank
+        );
+        cm:real_callback(applyVeteranRankToNewUnit(uiIds, CHAPEL_PREFIX .. god, currentRank), CALLBACK_DELAY);
     end;
 end;
 local lastXPRank = 0;
@@ -196,51 +195,47 @@ local upgradeSize = function()
     if not units then
         return;
     end;
+    local selectedUnit = Idrinth.Ui.findChildWhere(units, isUnitSelected);
+    if not selectedUnit then
+        return;
+    end;
+    local id = selectedUnit:GetContextObjectId(UNIT_CONTEXT);
+    if not id then
+        return;
+    end;
+    local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
+    local currentRank = common.get_context_value(UNIT_CONTEXT, id, "ExperienceLevel");
+    local currentVeteranRank = 0;
+    local hasNoEffect = common.get_context_value(UNIT_CONTEXT, id, "PurchasedEffectsList.IsEmpty");
+    if not hasNoEffect then
+        currentVeteranRank = common.get_context_value(UNIT_CONTEXT, id, "PurchasedEffectsList.At(0).Key");
+    end;
     local factionKey = character:faction():name();
-    for i = 1, units:ChildCount() do
-        local unit = UIComponent(units:Find(i));
-        if unit and (unit:CurrentState() == STATE_SELECTED_HOVER or unit:CurrentState() == STATE_SELECTED) then
-            local id = unit:GetContextObjectId(UNIT_CONTEXT);
-            if id then
-                local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
-                local currentRank = common.get_context_value(UNIT_CONTEXT, id, "ExperienceLevel");
-                local currentVeteranRank = 0;
-                local hasNoEffect = common.get_context_value(UNIT_CONTEXT, id, "PurchasedEffectsList.IsEmpty");
-                if not hasNoEffect then
-                    currentVeteranRank = common.get_context_value(UNIT_CONTEXT, id, "PurchasedEffectsList.At(0).Key");
-                end;
-                local infantryPrice = 300;
-                local cavalryPrice = 250;
-                if character:faction():treasury() >= infantryPrice then
-                    for _, god in pairs(Idrinth.Constants.GodList) do
-                        local chapelType = CHAPEL_PREFIX .. god;
-                        local largeType = chapelType .. "_large";
-                        if currentType == chapelType and character:faction():treasury() >= infantryPrice then
-                            common.call_context_command(UNIT_CONTEXT, id, "Disband");
-                            lastXPRank = currentRank;
-                            cm:grant_unit_to_character(cm:char_lookup_str(character), largeType);
-                            cm:treasury_mod(factionKey, 0 - infantryPrice);
-                            cm:real_callback(
-                                applyVeteranRankToNewUnit(uiIds, largeType, currentVeteranRank),
-                                CALLBACK_DELAY
-                            );
-                            return;
-                        end;
-                    end;
-                end;
-                local outridersType = CHAPEL_PREFIX.."outriders";
-                if currentType == outridersType and character:faction():treasury() >= cavalryPrice then
-                    common.call_context_command(UNIT_CONTEXT, id, "Disband");
-                    lastXPRank = currentRank;
-                    cm:grant_unit_to_character(
-                        cm:char_lookup_str(character),
-                        outridersType .. "_large"
-                    );
-                    cm:treasury_mod(factionKey, 0 - cavalryPrice);
-                    return;
-                end;
+    local infantryPrice = 300;
+    local cavalryPrice = 250;
+    if character:faction():treasury() >= infantryPrice then
+        for _, god in pairs(Idrinth.Constants.GodList) do
+            local chapelType = CHAPEL_PREFIX .. god;
+            local largeType = chapelType .. "_large";
+            if currentType == chapelType then
+                common.call_context_command(UNIT_CONTEXT, id, "Disband");
+                lastXPRank = currentRank;
+                cm:grant_unit_to_character(cm:char_lookup_str(character), largeType);
+                cm:treasury_mod(factionKey, 0 - infantryPrice);
+                cm:real_callback(
+                    applyVeteranRankToNewUnit(uiIds, largeType, currentVeteranRank),
+                    CALLBACK_DELAY
+                );
+                return;
             end;
         end;
+    end;
+    local outridersType = CHAPEL_PREFIX .. "outriders";
+    if currentType == outridersType and character:faction():treasury() >= cavalryPrice then
+        common.call_context_command(UNIT_CONTEXT, id, "Disband");
+        lastXPRank = currentRank;
+        cm:grant_unit_to_character(cm:char_lookup_str(character), outridersType .. "_large");
+        cm:treasury_mod(factionKey, 0 - cavalryPrice);
     end;
 end;
 local upgradeAnimal = function(god)
@@ -248,23 +243,22 @@ local upgradeAnimal = function(god)
     if not units then
         return;
     end;
-    for i = 1, units:ChildCount() do
-        local unit = UIComponent(units:Find(i));
-        if unit and (unit:CurrentState() == STATE_SELECTED_HOVER or unit:CurrentState() == STATE_SELECTED) then
-            local id = unit:GetContextObjectId(UNIT_CONTEXT);
-            if id then
-                local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
-                if godFavourBlessings[currentType] and godFavourBlessings[currentType][god] then
-                    lockAnimalBlessings(character:faction(), false);
-                    local blessing = godFavourBlessings[currentType][god];
-                    local upgradeCmd = "Upgrade(DatabaseRecordContext("
-                        .. "\"" .. UPGRADE_EFFECT_RECORD .. "\", \"" .. blessing .. "\"))";
-                    common.call_context_command(UNIT_CONTEXT, id, upgradeCmd);
-                    lockAnimalBlessings(character:faction(), true);
-                    return;
-                end;
-            end;
-        end;
+    local selectedUnit = Idrinth.Ui.findChildWhere(units, isUnitSelected);
+    if not selectedUnit then
+        return;
+    end;
+    local id = selectedUnit:GetContextObjectId(UNIT_CONTEXT);
+    if not id then
+        return;
+    end;
+    local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
+    if godFavourBlessings[currentType] and godFavourBlessings[currentType][god] then
+        lockAnimalBlessings(character:faction(), false);
+        local blessing = godFavourBlessings[currentType][god];
+        local upgradeCmd = "Upgrade(DatabaseRecordContext(\""
+            .. UPGRADE_EFFECT_RECORD .. "\", \"" .. blessing .. "\"))";
+        common.call_context_command(UNIT_CONTEXT, id, upgradeCmd);
+        lockAnimalBlessings(character:faction(), true);
     end;
 end;
 local upgradePriest = function(god)
@@ -272,47 +266,37 @@ local upgradePriest = function(god)
     if not units then
         return;
     end;
+    local selectedUnit = Idrinth.Ui.findChildWhere(units, isUnitSelected);
+    if not selectedUnit then
+        return;
+    end;
+    local id = selectedUnit:GetContextObjectId(UNIT_CONTEXT);
+    if not id then
+        return;
+    end;
+    local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
+    local currentRank = common.get_context_value(UNIT_CONTEXT, id, "ExperienceLevel");
+    local leaderType = CHAPEL_PREFIX .. god .. "_leader";
+    local godResource = "idrinth_" .. god;
     local pooledResourceManager = character:faction():pooled_resource_manager();
+    local hasEnoughTreasury = character:faction():treasury() >= 1000;
+    local hasEnoughResource = pooledResourceManager:resource(godResource):value() >= 250;
+    if currentType ~= leaderType or not hasEnoughTreasury or not hasEnoughResource then
+        return;
+    end;
     local factionKey = character:faction():name();
-    for i = 1, units:ChildCount() do
-        local unit = UIComponent(units:Find(i));
-        if unit and (unit:CurrentState() == STATE_SELECTED_HOVER or unit:CurrentState() == STATE_SELECTED) then
-            local id = unit:GetContextObjectId(UNIT_CONTEXT);
-            if id then
-                local currentType = common.get_context_value(
-                    UNIT_CONTEXT, id, "UnitRecordContext.Key"
-                );
-                local currentRank = common.get_context_value(
-                    UNIT_CONTEXT, id, "ExperienceLevel"
-                );
-                local leaderType = CHAPEL_PREFIX .. god .. "_leader";
-                local godResource = "idrinth_" .. god;
-                local hasEnoughTreasury = character:faction():treasury() >= 1000;
-                local hasEnoughResource = pooledResourceManager:resource(godResource):value() >= 250;
-                if currentType == leaderType and hasEnoughTreasury and hasEnoughResource then
-                    common.call_context_command(UNIT_CONTEXT, id, "Disband");
-                    cm:treasury_mod(factionKey, -1000);
-                    cm:faction_add_pooled_resource(
-                        factionKey, godResource, godResource .. "_other", -250
-                    );
-                    local randomNum = cm:random(100);
-                    local vampireType = leaderType .. "_vampire";
-                    local varghulfType = CHAPEL_PREFIX .. god .. "_varghulf";
-                    if randomNum < vampireChances[vampireChance] + currentRank * 4 then
-                        cm:grant_unit_to_character(cm:char_lookup_str(character), vampireType);
-                        cm:real_callback(
-                            applyVeteranRankToNewUnit(uiIds, vampireType, currentRank), CALLBACK_DELAY
-                        );
-                    elseif randomNum < 3 * vampireChances[vampireChance] + currentRank * 6 then
-                        cm:grant_unit_to_character(cm:char_lookup_str(character), varghulfType);
-                        cm:real_callback(
-                            applyVeteranRankToNewUnit(uiIds, varghulfType, currentRank), CALLBACK_DELAY
-                        );
-                    end;
-                    return;
-                end;
-            end;
-        end;
+    common.call_context_command(UNIT_CONTEXT, id, "Disband");
+    cm:treasury_mod(factionKey, -1000);
+    cm:faction_add_pooled_resource(factionKey, godResource, godResource .. "_other", -250);
+    local randomNum = cm:random(100);
+    local vampireType = leaderType .. "_vampire";
+    local varghulfType = CHAPEL_PREFIX .. god .. "_varghulf";
+    if randomNum < vampireChances[vampireChance] + currentRank * 4 then
+        cm:grant_unit_to_character(cm:char_lookup_str(character), vampireType);
+        cm:real_callback(applyVeteranRankToNewUnit(uiIds, vampireType, currentRank), CALLBACK_DELAY);
+    elseif randomNum < 3 * vampireChances[vampireChance] + currentRank * 6 then
+        cm:grant_unit_to_character(cm:char_lookup_str(character), varghulfType);
+        cm:real_callback(applyVeteranRankToNewUnit(uiIds, varghulfType, currentRank), CALLBACK_DELAY);
     end;
 end;
 local setTooltip = function(element, loc_key)
@@ -388,6 +372,58 @@ local upgradeButtonConfigs = {
         tooltips = {"upgrade_tooltips_idrinth_size_outriders"},
     },
 };
+-- Updates icon display for blessed animal units
+local updateBlessedAnimalIcons = function(unit)
+    local id = unit:GetContextObjectId(UNIT_CONTEXT);
+    if not id then
+        return;
+    end;
+    local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
+    if not Idrinth.Unittypes.isBlessedAnimal(currentType) then
+        return;
+    end;
+    local cardHolder = UIComponent(unit:Find("card_image_holder"));
+    local icon = UIComponent(cardHolder:Find("upgrade_effect_icon"));
+    local waaagh = UIComponent(cardHolder:Find("waaagh_unit_marker"));
+    waaagh:SetVisible(false);
+    local hasNoEffect = common.get_context_value(UNIT_CONTEXT, id, "PurchasedEffectsList.IsEmpty");
+    if not hasNoEffect then
+        icon:SetVisible(true);
+        local iconPath = common.get_context_value(
+            UNIT_CONTEXT, id, "PurchasedEffectsList.At(0).EffectBundleContext.IconPath"
+        );
+        icon:SetImagePath(iconPath);
+    end;
+end;
+
+-- Finds the selected unit type, returning nil if multiple types are selected
+local getSelectedUnitType = function(units)
+    local selectedType = "";
+    local hasMultipleTypes = false;
+    Idrinth.Ui.forEachChild(units, function(unit)
+        if not isUnitSelected(unit) then
+            return;
+        end;
+        local id = unit:GetContextObjectId(UNIT_CONTEXT);
+        if not id then
+            return;
+        end;
+        local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
+        if not currentType then
+            return;
+        end;
+        if selectedType == "" then
+            selectedType = currentType;
+        elseif selectedType ~= currentType then
+            hasMultipleTypes = true;
+        end;
+    end);
+    if hasMultipleTypes then
+        return nil;
+    end;
+    return selectedType;
+end;
+
 local handleUpgradeButtons = function()
     if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
         return;
@@ -402,55 +438,14 @@ local handleUpgradeButtons = function()
     if not units then
         return;
     end;
-    local selectedType = "";
-    local hasMultipleTypes = false;
-    for i = 0, units:ChildCount() - 1 do
-        local unit = UIComponent(units:Find(i));
-        if unit and (unit:CurrentState() == STATE_SELECTED_HOVER or unit:CurrentState() == STATE_SELECTED) then
-            local id = unit:GetContextObjectId(UNIT_CONTEXT);
-            if id then
-                local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
-                if currentType then
-                    if selectedType == "" then
-                        selectedType = currentType;
-                    elseif selectedType ~= currentType then
-                        hasMultipleTypes = true;
-                    end;
-                end;
-            end;
-        end;
-        if unit then
-            local id = unit:GetContextObjectId(UNIT_CONTEXT);
-            if id then
-                local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
-                if Idrinth.Unittypes.isBlessedAnimal(currentType) then
-                    local cardHolder = UIComponent(unit:Find("card_image_holder"));
-                    local icon = UIComponent(cardHolder:Find("upgrade_effect_icon"));
-                    local waaagh = UIComponent(cardHolder:Find("waaagh_unit_marker"));
-                    waaagh:SetVisible(false);
-                    local hasNoEffect = common.get_context_value(
-                        UNIT_CONTEXT, id, "PurchasedEffectsList.IsEmpty"
-                    );
-                    if not hasNoEffect then
-                        icon:SetVisible(true);
-                        local iconPath = common.get_context_value(
-                            UNIT_CONTEXT, id,
-                            "PurchasedEffectsList.At(0).EffectBundleContext.IconPath"
-                        );
-                        icon:SetImagePath(iconPath);
-                    end;
-                end;
-            end;
-        end;
-    end;
+    -- Update icons for all blessed animals
+    Idrinth.Ui.forEachChild(units, updateBlessedAnimalIcons);
+    -- Determine selected unit type
+    local selectedType = getSelectedUnitType(units);
     if not selectedType or selectedType == "" then
         return;
     end;
-    if hasMultipleTypes then
-        Idrinth.log("Selected multiple unit types", "army");
-        return;
-    end;
-    Idrinth.log("Selected: "..tostring(selectedType), "army");
+    Idrinth.log("Selected: " .. tostring(selectedType), "army");
     local asuryanPriestUpgrade = Idrinth.Ui.createOrFind(
         "idrinth_button_upgrade_asuryan_priest", buttonWrapper, "idrinth_button_upgrade_asuryan"
     );

@@ -58,40 +58,35 @@ local settlementForeignSlotDisplay = function()
     if not parent then
         return;
     end;
-    for i = 1, parent:ChildCount() do
-        local parentItem = UIComponent(parent:Find(i));
+    Idrinth.Ui.forEachChild(parent, function(parentItem, index)
         local settlementSlots = Idrinth.Ui.findElementWithin(
             parentItem, SETTLEMENT_VIEW, VIEW_HOSTILE, "settlement_hostile_slots"
         );
         local settlement = Idrinth.Ui.findElementWithin(parentItem, SETTLEMENT_VIEW);
-        if settlement and settlementSlots then
-            local element;
-            if i == 1 then
-                element = Idrinth.Ui.createOrFind(HOSTILE_SLOTS, settlement, HOSTILE_SLOTS_CAPITAL);
-            else
-                element = Idrinth.Ui.createOrFind(HOSTILE_SLOTS, settlement);
-            end;
-            element:SetDockOffset(0, 25);-- 25 down
-            element:SetContextObject(settlementSlots:GetContextObject(CONTEXT_SETTLEMENT));
-            element:SetVisible(false);
-            local buttons = Idrinth.Ui.findElementWithin(
-                UIComponent(parent:Find(i)), SETTLEMENT_VIEW, "toggle_button_holder", "button_list"
-            );
-            local button = Idrinth.Ui.createOrFind(PANEL_BUTTON, buttons);
-            button:SetContextObject(settlementSlots:GetContextObject(CONTEXT_SETTLEMENT));
+        if not settlement or not settlementSlots then
+            return;
         end;
-    end;
+        local element;
+        if index == 1 then
+            element = Idrinth.Ui.createOrFind(HOSTILE_SLOTS, settlement, HOSTILE_SLOTS_CAPITAL);
+        else
+            element = Idrinth.Ui.createOrFind(HOSTILE_SLOTS, settlement);
+        end;
+        element:SetDockOffset(0, 25);
+        element:SetContextObject(settlementSlots:GetContextObject(CONTEXT_SETTLEMENT));
+        element:SetVisible(false);
+        local buttons = Idrinth.Ui.findElementWithin(
+            parentItem, SETTLEMENT_VIEW, "toggle_button_holder", "button_list"
+        );
+        local button = Idrinth.Ui.createOrFind(PANEL_BUTTON, buttons);
+        button:SetContextObject(settlementSlots:GetContextObject(CONTEXT_SETTLEMENT));
+    end);
 end;
 local lastClicked = "";
 local countActiveButtons = function(buttons)
-    local count = 0;
-    for j = 1, buttons:ChildCount() do
-        local button = UIComponent(buttons:Find(j));
-        if button:VisibleFromRoot() and button:CurrentState() == "selected" then
-            count = count + 1;
-        end;
-    end;
-    return count;
+    return Idrinth.Ui.countChildrenWhere(buttons, function(button)
+        return button:VisibleFromRoot() and button:CurrentState() == "selected";
+    end);
 end;
 
 local handleNoActiveButtons = function(settlement)
@@ -107,11 +102,11 @@ end;
 
 local handleMultipleActiveButtons = function(settlement, buttons, clickedButton)
     if clickedButton == PANEL_BUTTON then
-        for j = 1, buttons:ChildCount() do
-            if UIComponent(buttons:Find(j)):VisibleFromRoot() then
-                UIComponent(buttons:Find(j)):SetState("active");
+        Idrinth.Ui.forEachChild(buttons, function(button)
+            if button:VisibleFromRoot() then
+                button:SetState("active");
             end;
-        end;
+        end);
         UIComponent(buttons:Find(PANEL_BUTTON)):SetState("selected");
         hideAllViews(settlement);
         UIComponent(settlement:Find(HOSTILE_SLOTS)):SetVisible(true);
@@ -127,14 +122,14 @@ local updateSettlementViewState = function(clickedButton)
     if not parent then
         return;
     end;
-    for i = 1, parent:ChildCount() do
+    Idrinth.Ui.forEachChild(parent, function(parentItem)
         local buttons = Idrinth.Ui.findElementWithin(
-            UIComponent(parent:Find(i)), SETTLEMENT_VIEW, "toggle_button_holder", "button_list"
+            parentItem, SETTLEMENT_VIEW, "toggle_button_holder", "button_list"
         );
         if not buttons then
-            return;
+            return false;
         end;
-        local settlement = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), SETTLEMENT_VIEW);
+        local settlement = Idrinth.Ui.findElementWithin(parentItem, SETTLEMENT_VIEW);
         local activeButtons = countActiveButtons(buttons);
         if activeButtons == 0 then
             handleNoActiveButtons(settlement);
@@ -143,7 +138,7 @@ local updateSettlementViewState = function(clickedButton)
         else
             handleMultipleActiveButtons(settlement, buttons, clickedButton);
         end;
-    end;
+    end);
 end;
 
 Idrinth.Events.addListener(
