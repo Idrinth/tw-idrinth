@@ -469,12 +469,10 @@ structs:
   # See: https://chadvandy.github.io/tw_modding_resources/WH3/script/_lib/lib_common.html
   Common:
     call_context_command:
-      method: true
       args:
       - type: string
     get_context_value:
       must_use: true
-      method: true
       args:
       - type: string
       - type: string
@@ -483,7 +481,6 @@ structs:
         required: false
     get_localised_string:
       must_use: true
-      method: true
       args:
       - type: string
 
