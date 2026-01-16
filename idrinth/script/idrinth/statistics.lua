@@ -31,11 +31,7 @@ Idrinth.Events.addListener(
         local ability = context:ability();
 
         if ability == "hinder_character" or ability == "hinder_agent" then
-            if context:mission_result_critial_failure() then
-                -- nothing
-            elseif context:mission_result_success() then
-                statistics.charactersAssassinated = statistics.charactersAssassinated + 1;
-            elseif context:mission_result_critial_success() then
+            if context:mission_result_success() or context:mission_result_critial_success() then
                 statistics.charactersAssassinated = statistics.charactersAssassinated + 1;
             end;
         end;

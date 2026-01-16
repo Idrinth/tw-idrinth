@@ -49,33 +49,31 @@ local applyRandomResourceBonus = function(name, faction)
             faction:name(),
             1
         );
-    elseif amount < 21 then
-        -- 0 change
-    elseif amount < 26 then
+    elseif amount >= 21 and amount < 26 then
         cm:apply_effect_bundle(
             RESOURCE_PREFIX .. name .. "_god_favour_plus1",
             faction:name(),
             1
         );
-    elseif amount < 30 then
+    elseif amount >= 26 and amount < 30 then
         cm:apply_effect_bundle(
             RESOURCE_PREFIX .. name .. "_god_favour_plus2",
             faction:name(),
             1
         );
-    elseif amount < 33 then
+    elseif amount >= 30 and amount < 33 then
         cm:apply_effect_bundle(
             RESOURCE_PREFIX .. name .. "_god_favour_plus3",
             faction:name(),
             1
         );
-    elseif amount < 35 then
+    elseif amount >= 33 and amount < 35 then
         cm:apply_effect_bundle(
             RESOURCE_PREFIX .. name .. "_god_favour_plus4",
             faction:name(),
             1
         );
-    else
+    elseif amount >= 35 then
         cm:apply_effect_bundle(
             RESOURCE_PREFIX .. name .. "_god_favour_plus5",
             faction:name(),
