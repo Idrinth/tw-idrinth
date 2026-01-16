@@ -8,100 +8,17 @@ globals:
   # ============================================
   # Total War Game API
   # ============================================
+  # Using any: true for game engine objects since they have
+  # extensive APIs that are externally defined
 
-  # Core object
   core:
-    struct:
-      add_listener: {}
-      get_or_create_component: {}
-      get_ui_root: {}
-      is_ui_created: {}
-      trigger_custom_event: {}
+    any: true
 
-  # Campaign manager object
   cm:
-    struct:
-      add_experience_to_unit: {}
-      add_first_tick_callback: {}
-      add_foreign_slot_set_to_region_for_faction: {}
-      add_loading_game_callback: {}
-      add_pooled_resource_changed_listener_by_faction: {}
-      add_pre_first_tick_callback: {}
-      add_saving_game_callback: {}
-      apply_effect_bundle: {}
-      apply_effect_bundle_to_character: {}
-      apply_effect_bundle_to_region: {}
-      callback: {}
-      cancel_custom_mission: {}
-      change_character_custom_name: {}
-      change_custom_unit_name: {}
-      char_lookup_str: {}
-      create_force_with_general: {}
-      disable_event_feed_events: {}
-      faction_add_pooled_resource: {}
-      faction_purchase_unit_effect: {}
-      faction_set_unit_purchasable_effect_lock_state: {}
-      find_valid_spawn_location_for_character_from_position: {}
-      force_add_ancillary: {}
-      force_add_trait: {}
-      force_remove_ancillary_from_faction: {}
-      force_remove_trait: {}
-      get_campaign_ui_manager: {}
-      get_character_by_cqi: {}
-      get_factions_by_culture: {}
-      get_highest_ranked_general_for_faction: {}
-      get_local_faction: {}
-      get_most_recently_created_character_of_type: {}
-      grant_unit_to_character: {}
-      is_multiplayer: {}
-      is_new_game: {}
-      load_global_script: {}
-      load_named_value: {}
-      mission_is_active_for_faction: {}
-      model: {}
-      pending_battle_cache_attacker_value: {}
-      pending_battle_cache_attacker_victory: {}
-      pending_battle_cache_culture_is_attacker: {}
-      pending_battle_cache_culture_is_defender: {}
-      pending_battle_cache_defender_value: {}
-      pending_battle_cache_defender_victory: {}
-      pending_battle_cache_get_attacker: {}
-      pending_battle_cache_get_attacker_embedded_character_subtypes: {}
-      pending_battle_cache_get_defender: {}
-      pending_battle_cache_get_defender_embedded_character_subtypes: {}
-      pending_battle_cache_num_attackers: {}
-      pending_battle_cache_num_defenders: {}
-      pooled_resource_factor_transaction: {}
-      random: {}
-      random_number: {}
-      real_callback: {}
-      remove_effect_bundle_from_region: {}
-      remove_faction_foreign_slots_from_region: {}
-      repeat_real_callback: {}
-      replenish_action_points: {}
-      save_named_value: {}
-      set_character_immortality: {}
-      set_character_unique: {}
-      show_message_event: {}
-      show_message_event_located: {}
-      spawn_transported_force_at_military_force: {}
-      spawn_unique_agent_at_character: {}
-      spawn_unique_agent_at_region: {}
-      treasury_mod: {}
-      trigger_dilemma: {}
-      trigger_mission: {}
+    any: true
 
-  # Common utilities
   common:
-    struct:
-      call_context_command: {}
-      get_context_value: {}
-      get_localised_string: {}
-
-  # String extensions
-  string:
-    struct:
-      ends_with: {}
+    any: true
 
   # Simple read-only globals
   is_string: {}
@@ -117,6 +34,7 @@ globals:
   # ============================================
 
   # Main Idrinth namespace - needs full-write to allow Idrinth = {}
+  # Using struct for validation since this is our own code
   Idrinth:
     property: full-write
     struct:
