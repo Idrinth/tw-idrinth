@@ -276,7 +276,7 @@ local upgradePriest = function(god)
     common.call_context_command(UNIT_CONTEXT, id, "Disband");
     cm:treasury_mod(factionKey, -1000);
     cm:faction_add_pooled_resource(factionKey, godResource, godResource .. "_other", -250);
-    local randomNum = cm:random(100);
+    local randomNum = cm:random_number(100);
     local vampireType = leaderType .. "_vampire";
     local varghulfType = CHAPEL_PREFIX .. god .. "_varghulf";
     if randomNum < vampireChances[vampireChance] + currentRank * 4 then
