@@ -33,7 +33,8 @@ local adjustDevotionTraitsBy = function(idrinth, devotion, points)
 
     local movedPastTier = false;
     if points > 0 then
-        if (total >= 5 and total - points < 5) or (total >= 15 and total - points < 15) or (total >= 35 and total - points < 35) then
+        if (total >= 5 and total - points < 5) or (total >= 15 and total - points < 15)
+                or (total >= 35 and total - points < 35) then
             movedPastTier = true;
         end;
     elseif (total <= -10 and total + points > -10) or (total <= -25 and total + points > -25) then
