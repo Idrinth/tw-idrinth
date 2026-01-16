@@ -4,147 +4,98 @@
 name: tw_idrinth
 
 globals:
+  # Main Idrinth namespace - needs full-write to allow Idrinth = {}
   Idrinth:
-    property: new-fields
-    struct:
-      Access:
-        property: new-fields
-        struct:
-          get:
-            property: new-fields
-          spawned:
-            property: new-fields
-      Constants:
-        property: new-fields
-        struct:
-          Panels:
-            property: new-fields
-            struct:
-              HudCampaign:
-                property: new-fields
-          Gods:
-            property: new-fields
-            struct:
-              Asuryan:
-                property: new-fields
-              Khaine:
-                property: new-fields
-              Kurnous:
-                property: new-fields
-          GodList:
-            property: new-fields
-          HeroSubtype:
-            property: new-fields
-          LordSubtype:
-            property: new-fields
-          HeroType:
-            property: new-fields
-          LordType:
-            property: new-fields
-          UnlockDilemma:
-            property: new-fields
-          Cultures:
-            property: new-fields
-            struct:
-              HighElves:
-                property: new-fields
-              WoodElves:
-                property: new-fields
-              DarkElves:
-                property: new-fields
-          MctModKey:
-            property: new-fields
-      Cultures:
-        property: new-fields
-        struct:
-          isAllowed:
-            property: new-fields
-          get:
-            property: new-fields
-      Events:
-        property: new-fields
-        struct:
-          addListener:
-            property: new-fields
-          onMctChange:
-            property: new-fields
-          Conditions:
-            property: new-fields
-            struct:
-              dilemmaIs:
-                property: new-fields
-              battleFoughtAndSpawned:
-                property: new-fields
-              panelOpened:
-                property: new-fields
-              isPanelOpen:
-                property: new-fields
-      Mct:
-        property: new-fields
-        struct:
-          get:
-            property: new-fields
-      Statistics:
-        property: new-fields
-        struct:
-          BattlesFought:
-            property: new-fields
-          ActiveRounds:
-            property: new-fields
-          CharactersAssassinated:
-            property: new-fields
-      Ui:
-        property: new-fields
-        struct:
-          findElementWithin:
-            property: new-fields
-          createOrFind:
-            property: new-fields
-          forEachChild:
-            property: new-fields
-          findChildWhere:
-            property: new-fields
-          nowAndThen:
-            property: new-fields
-          countChildrenWhere:
-            property: new-fields
-      Unittypes:
-        property: new-fields
-        struct:
-          isBlessedAnimal:
-            property: new-fields
-          isVampiric:
-            property: new-fields
-          isEliteTroop:
-            property: new-fields
-          isEnlargedEliteTroop:
-            property: new-fields
-          isEnlargedCavalry:
-            property: new-fields
-          isChapelUnit:
-            property: new-fields
-          isVarghulf:
-            property: new-fields
-          isHero:
-            property: new-fields
-          isPriest:
-            property: new-fields
-          isSingleEntity:
-            property: new-fields
-      Version:
-        property: new-fields
-        struct:
-          main:
-            property: new-fields
-          feature:
-            property: new-fields
-          bug:
-            property: new-fields
-      Names:
-        property: new-fields
-      factions:
-        property: new-fields
-      log:
-        property: new-fields
-      mayConfigure:
-        property: new-fields
+    property: full-write
+
+  # Top-level properties
+  Idrinth.Access: {}
+  Idrinth.Constants: {}
+  Idrinth.Cultures: {}
+  Idrinth.Events: {}
+  Idrinth.Mct: {}
+  Idrinth.Names: {}
+  Idrinth.Statistics: {}
+  Idrinth.Ui: {}
+  Idrinth.Unittypes: {}
+  Idrinth.Version: {}
+  Idrinth.factions: {}
+  Idrinth.log: {}
+  Idrinth.mayConfigure: {}
+
+  # Idrinth.Access methods
+  Idrinth.Access.get: {}
+  Idrinth.Access.spawned: {}
+
+  # Idrinth.Constants properties
+  Idrinth.Constants.Cultures: {}
+  Idrinth.Constants.GodList: {}
+  Idrinth.Constants.Gods: {}
+  Idrinth.Constants.HeroSubtype: {}
+  Idrinth.Constants.HeroType: {}
+  Idrinth.Constants.LordSubtype: {}
+  Idrinth.Constants.LordType: {}
+  Idrinth.Constants.MctModKey: {}
+  Idrinth.Constants.Panels: {}
+  Idrinth.Constants.UnlockDilemma: {}
+
+  # Idrinth.Constants.Cultures properties
+  Idrinth.Constants.Cultures.DarkElves: {}
+  Idrinth.Constants.Cultures.HighElves: {}
+  Idrinth.Constants.Cultures.WoodElves: {}
+
+  # Idrinth.Constants.Gods properties
+  Idrinth.Constants.Gods.Asuryan: {}
+  Idrinth.Constants.Gods.Khaine: {}
+  Idrinth.Constants.Gods.Kurnous: {}
+
+  # Idrinth.Constants.Panels properties
+  Idrinth.Constants.Panels.HudCampaign: {}
+
+  # Idrinth.Cultures methods
+  Idrinth.Cultures.get: {}
+  Idrinth.Cultures.isAllowed: {}
+
+  # Idrinth.Events properties and methods
+  Idrinth.Events.Conditions: {}
+  Idrinth.Events.addListener: {}
+  Idrinth.Events.onMctChange: {}
+
+  # Idrinth.Events.Conditions methods
+  Idrinth.Events.Conditions.battleFoughtAndSpawned: {}
+  Idrinth.Events.Conditions.dilemmaIs: {}
+  Idrinth.Events.Conditions.isPanelOpen: {}
+  Idrinth.Events.Conditions.panelOpened: {}
+
+  # Idrinth.Mct methods
+  Idrinth.Mct.get: {}
+
+  # Idrinth.Statistics properties
+  Idrinth.Statistics.ActiveRounds: {}
+  Idrinth.Statistics.BattlesFought: {}
+  Idrinth.Statistics.CharactersAssassinated: {}
+
+  # Idrinth.Ui methods
+  Idrinth.Ui.countChildrenWhere: {}
+  Idrinth.Ui.createOrFind: {}
+  Idrinth.Ui.findChildWhere: {}
+  Idrinth.Ui.findElementWithin: {}
+  Idrinth.Ui.forEachChild: {}
+  Idrinth.Ui.nowAndThen: {}
+
+  # Idrinth.Unittypes methods
+  Idrinth.Unittypes.isBlessedAnimal: {}
+  Idrinth.Unittypes.isChapelUnit: {}
+  Idrinth.Unittypes.isEliteTroop: {}
+  Idrinth.Unittypes.isEnlargedCavalry: {}
+  Idrinth.Unittypes.isEnlargedEliteTroop: {}
+  Idrinth.Unittypes.isHero: {}
+  Idrinth.Unittypes.isPriest: {}
+  Idrinth.Unittypes.isSingleEntity: {}
+  Idrinth.Unittypes.isVampiric: {}
+  Idrinth.Unittypes.isVarghulf: {}
+
+  # Idrinth.Version properties
+  Idrinth.Version.bug: {}
+  Idrinth.Version.feature: {}
+  Idrinth.Version.main: {}
