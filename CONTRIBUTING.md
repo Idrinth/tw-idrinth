@@ -12,6 +12,7 @@ Thank you for your interest in contributing to Idrinth! This guide explains the 
 - [Code Conventions](#code-conventions)
 - [Localization](#localization)
 - [Submitting Changes](#submitting-changes)
+- [CI Checks](#ci-checks)
 
 ## Project Overview
 
@@ -324,6 +325,30 @@ The project uses semantic versioning (MAJOR.MINOR.PATCH):
 - **MAJOR**: Breaking changes or major feature additions
 - **MINOR**: New features, backward compatible
 - **PATCH**: Bug fixes and minor improvements
+
+## CI Checks
+
+Pull requests are automatically validated by GitHub Actions. All checks must pass before merging.
+
+### Lua Linting (runs when Lua files change)
+
+Two linters analyze Lua code quality:
+
+- **luacheck**: Detects undefined globals, unused variables, and common coding issues
+- **selene**: Static analyzer that catches additional Lua code problems
+
+### Translation Validation
+
+- **check-unused**: Scans for translation keys defined in `text/db/` that are not referenced anywhere in the codebase, helping keep localization files clean
+
+### Fixing CI Failures
+
+If a CI check fails on your PR:
+
+1. Click "Details" on the failed check to see the error output
+2. For Lua linting errors, fix the reported issues in your code
+3. For unused translation errors, remove the unused keys or add proper references
+4. Commit and push the fixes to update your PR
 
 ## Community
 
