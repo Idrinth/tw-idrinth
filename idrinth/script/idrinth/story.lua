@@ -197,19 +197,9 @@ cm:add_loading_game_callback(
         end;
     end
 );
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        cooldownMode = Idrinth.Mct.get("dilemma_cooldown");
-        chanceMode = Idrinth.Mct.get("story_dilemma_base_chance");
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        cooldownMode = Idrinth.Mct.get("dilemma_cooldown");
-        chanceMode = Idrinth.Mct.get("story_dilemma_base_chance");
-    end
-);
+local updateMctSettings = function()
+    cooldownMode = Idrinth.Mct.get("dilemma_cooldown");
+    chanceMode = Idrinth.Mct.get("story_dilemma_base_chance");
+end;
+Idrinth.Events.addListener("MctInitialized", true, updateMctSettings);
+Idrinth.Events.addListener("MctFinalized", true, updateMctSettings);

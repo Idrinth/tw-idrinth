@@ -211,8 +211,8 @@ Idrinth.Events.addListener(
         end;
         Idrinth.Ui.nowAndThen(setupInitiatives);
         local uiRoot = core:get_ui_root();
+        set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
         if context.string == "details" then
-            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(
                 true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "stats_effects_holder"
             );
@@ -220,29 +220,23 @@ Idrinth.Events.addListener(
                 true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "character_details_subpanel"
             );
         elseif context.string == "skills" then
-            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(
                 true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "stats_effects_holder"
             );
             set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "skills_subpanel");
         elseif context.string == "eternal_dance" then
-            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(
                 true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "sla_eternal_dance_subpanel"
             );
         elseif context.string == "quests" then
-            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "quests");
         elseif context.string == "fragments" then
-            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(
                 true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "fragments_subpanel"
             );
         elseif context.string == "vows" then
-            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "vows_subpanel");
         elseif context.string == "changeling" then
-            set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(
                 true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "formless_horror_subpanel"
             );
