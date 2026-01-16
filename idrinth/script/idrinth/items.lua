@@ -89,7 +89,7 @@ Idrinth.Events.addListener(
             local hasAssassinations = Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations * factor;
             local hasLevel = level >= data.min_level * factor;
             if allowed and not data.triggered and hasBattles and hasAssassinations and hasLevel then
-                if (cm:random_number(100) <= 25 * itemChanceFactors[itemChanceMode]) then
+                if cm:random_number(100) <= 25 * itemChanceFactors[itemChanceMode] then
                     data.triggered = true;
                     cm:trigger_dilemma(context:faction():name(), data.key);
                 end;
