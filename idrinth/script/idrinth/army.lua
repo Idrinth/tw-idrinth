@@ -23,22 +23,10 @@ local isUnitSelected = function(unit)
     local state = unit:CurrentState();
     return state == STATE_SELECTED_HOVER or state == STATE_SELECTED;
 end;
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        enableAnimalWAAAGH = Idrinth.Mct.get("animal_waaagh");
-        vampireChance = Idrinth.Mct.get("vampire_chance");
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        enableAnimalWAAAGH = Idrinth.Mct.get("animal_waaagh");
-        vampireChance = Idrinth.Mct.get("vampire_chance");
-    end
-);
+Idrinth.Events.onMctChange(function()
+    enableAnimalWAAAGH = Idrinth.Mct.get("animal_waaagh");
+    vampireChance = Idrinth.Mct.get("vampire_chance");
+end);
 local getSelectedUnitsInfo = function()
     local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
     if not units then
@@ -604,9 +592,7 @@ Idrinth.Events.addListener(
 );
 Idrinth.Events.addListener(
     "PanelOpenedCampaign",
-    function(context)
-        return context.string == "units_panel";
-    end,
+    Idrinth.Events.Conditions.panelOpened("units_panel"),
     function()
         Idrinth.Ui.nowAndThen(handleUpgradeButtons);
     end

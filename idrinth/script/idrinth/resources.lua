@@ -113,9 +113,7 @@ cm:add_first_tick_callback(
 );
 Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
-    function(context)
-        return context:dilemma() == Idrinth.Constants.UnlockDilemma;
-    end,
+    Idrinth.Events.Conditions.dilemmaIs(Idrinth.Constants.UnlockDilemma),
     function(context)
         if context:choice() == 1 then
             return;
@@ -177,12 +175,7 @@ Idrinth.Events.addListener(
 );
 Idrinth.Events.addListener(
     "BattleCompleted",
-    function()
-        if not cm:model():pending_battle():has_been_fought() then
-            return false;
-        end;
-        return Idrinth.Access.spawned();
-    end,
+    Idrinth.Events.Conditions.battleFoughtAndSpawned,
     function()
         local pending_battle = cm:model():pending_battle();
         local attackerWon = false;

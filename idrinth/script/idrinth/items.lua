@@ -118,22 +118,10 @@ Idrinth.Events.addListener(
         end;
     end
 );
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        godBlessedItemRequirements = Idrinth.Mct.get("god_item_difficulty");
-        itemChanceMode = Idrinth.Mct.get("god_item_base_chance");
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        godBlessedItemRequirements = Idrinth.Mct.get("god_item_difficulty");
-        itemChanceMode = Idrinth.Mct.get("god_item_base_chance");
-    end
-);
+Idrinth.Events.onMctChange(function()
+    godBlessedItemRequirements = Idrinth.Mct.get("god_item_difficulty");
+    itemChanceMode = Idrinth.Mct.get("god_item_base_chance");
+end);
 cm:add_saving_game_callback(
     function(context)
         for name, element in pairs(itemDilemmas) do
