@@ -115,7 +115,7 @@ structs:
         - type:
             display: UIComponent
           required: false
-        - type: ...
+        - type: "..."
     filterChildren:
       args:
         - type:
