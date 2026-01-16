@@ -1,14 +1,17 @@
+-- File-local constants
+local RESOURCE_PREFIX = "idrinth_";
+local GOD_FAVOUR_BATTLES_SUFFIX = "_battles";
+
 local resourceChangedListener = function(context)
     if context:amount() == 0 then
         return;
     end;
-    local parent = Idrinth.Ui.findElementWithin("hud_campaign", "resources_bar_holder", "resources_bar");
+    local parent = Idrinth.Ui.findElementWithin(Idrinth.Constants.Panels.HudCampaign, "resources_bar_holder", "resources_bar");
     if not parent then
         return;
     end;
-    local resources = {"khaine", "kurnous", "asuryan"};
-    for _, resource in pairs(resources) do
-        if context:resource():key() == "idrinth_"..resource then
+    for _, resource in pairs(Idrinth.Constants.GodList) do
+        if context:resource():key() == RESOURCE_PREFIX..resource then
             local element = Idrinth.Ui.createOrFind("idrinth_pooled_resource_"..resource, parent);
             UIComponent(element:Find(0)):SetText(context:resource():value());
         end;
@@ -18,31 +21,31 @@ local applyRandomResourceBonus = function(name, faction)
     local amount = cm:random_number(35);
     if amount == 0 then
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_minus5",
+            RESOURCE_PREFIX .. name .. "_god_favour_minus5",
             faction:name(),
             1
         );
     elseif amount < 3 then
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_minus4",
+            RESOURCE_PREFIX .. name .. "_god_favour_minus4",
             faction:name(),
             1
         );
     elseif amount < 6 then
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_minus3",
+            RESOURCE_PREFIX .. name .. "_god_favour_minus3",
             faction:name(),
             1
         );
     elseif amount < 10 then
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_minus2",
+            RESOURCE_PREFIX .. name .. "_god_favour_minus2",
             faction:name(),
             1
         );
     elseif amount < 15 then
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_minus1",
+            RESOURCE_PREFIX .. name .. "_god_favour_minus1",
             faction:name(),
             1
         );
@@ -50,38 +53,38 @@ local applyRandomResourceBonus = function(name, faction)
         -- 0 change
     elseif amount < 26 then
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_plus1",
+            RESOURCE_PREFIX .. name .. "_god_favour_plus1",
             faction:name(),
             1
         );
     elseif amount < 30 then
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_plus2",
+            RESOURCE_PREFIX .. name .. "_god_favour_plus2",
             faction:name(),
             1
         );
     elseif amount < 33 then
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_plus3",
+            RESOURCE_PREFIX .. name .. "_god_favour_plus3",
             faction:name(),
             1
         );
     elseif amount < 35 then
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_plus4",
+            RESOURCE_PREFIX .. name .. "_god_favour_plus4",
             faction:name(),
             1
         );
     else
         cm:apply_effect_bundle(
-            "idrinth_" .. name .. "_god_favour_plus5",
+            RESOURCE_PREFIX .. name .. "_god_favour_plus5",
             faction:name(),
             1
         );
     end;
 end;
 local battleResultModifiers = {
-    asuryan = {
+    [Idrinth.Constants.Gods.Asuryan] = {
         heroic_victory = 125,
         decisive_victory = 150,
         close_victory = 100,
@@ -91,7 +94,7 @@ local battleResultModifiers = {
         decisive_defeat = 25,
         crushing_defeat = 0
     },
-    kurnous = {
+    [Idrinth.Constants.Gods.Kurnous] = {
         heroic_victory = 125,
         decisive_victory = 100,
         close_victory = 100,
@@ -101,7 +104,7 @@ local battleResultModifiers = {
         decisive_defeat = 25,
         crushing_defeat = 25
     },
-    khaine = {
+    [Idrinth.Constants.Gods.Khaine] = {
         heroic_victory = 150,
         decisive_victory = 125,
         close_victory = 100,
@@ -114,16 +117,16 @@ local battleResultModifiers = {
 };
 local applyBattleResourceTransaction = function(name, faction, amount, battleResult)
     local amt = amount * battleResultModifiers[name][battleResult]/100 * (0.94 + cm:random_number(11)/100);
-    cm:pooled_resource_factor_transaction(faction:pooled_resource_manager(), "idrinth_" .. name .. "_battles", amt);
+    cm:pooled_resource_factor_transaction(faction:pooled_resource_manager(), RESOURCE_PREFIX .. name .. GOD_FAVOUR_BATTLES_SUFFIX, amt);
 end;
 local createResourceUI = function()
-    local parent = Idrinth.Ui.findElementWithin("hud_campaign", "resources_bar_holder", "resources_bar");
+    local parent = Idrinth.Ui.findElementWithin(Idrinth.Constants.Panels.HudCampaign, "resources_bar_holder", "resources_bar");
     if not parent then
         return;
     end;
-    Idrinth.Ui.createOrFind("idrinth_pooled_resource_asuryan", parent);
-    Idrinth.Ui.createOrFind("idrinth_pooled_resource_kurnous", parent);
-    Idrinth.Ui.createOrFind("idrinth_pooled_resource_khaine", parent);
+    Idrinth.Ui.createOrFind("idrinth_pooled_resource_" .. Idrinth.Constants.Gods.Asuryan, parent);
+    Idrinth.Ui.createOrFind("idrinth_pooled_resource_" .. Idrinth.Constants.Gods.Kurnous, parent);
+    Idrinth.Ui.createOrFind("idrinth_pooled_resource_" .. Idrinth.Constants.Gods.Khaine, parent);
 end;
 cm:add_first_tick_callback(
     function()
@@ -169,9 +172,9 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("FactionTurnStart", "resources");
-        applyRandomResourceBonus("asuryan", context:faction());
-        applyRandomResourceBonus("kurnous", context:faction());
-        applyRandomResourceBonus("khaine", context:faction());
+        applyRandomResourceBonus(Idrinth.Constants.Gods.Asuryan, context:faction());
+        applyRandomResourceBonus(Idrinth.Constants.Gods.Kurnous, context:faction());
+        applyRandomResourceBonus(Idrinth.Constants.Gods.Khaine, context:faction());
     end,
     true
 );
@@ -240,16 +243,16 @@ core:add_listener(
             local general = cm:get_character_by_cqi(char_cqi);
             if general then
                 attackerCharacters = attackerCharacters + 1;
-                if general:character_subtype("idrinth_hev_high_elf_vampires_idrinthgeneral") then
+                if general:character_subtype(Idrinth.Constants.LordSubtype) then
                     idrinthIsAttacker = true;
                 end;
             end;
             for j=1, #characters do
                 attackerCharacters = attackerCharacters + 1;
-                if characters[j] == "idrinth_hev_high_elf_vampires_idrinthchampion" then
+                if characters[j] == Idrinth.Constants.HeroSubtype then
                     idrinthIsAttacker = true;
                 end;
-                if characters[j] == "idrinth_hev_high_elf_vampires_idrinthgeneral" then
+                if characters[j] == Idrinth.Constants.LordSubtype then
                     idrinthIsAttacker = true;
                 end;
             end;
@@ -262,16 +265,16 @@ core:add_listener(
             local general = cm:get_character_by_cqi(char_cqi);
             if general then
                 defenderCharacters = defenderCharacters + 1;
-                if general:character_subtype("idrinth_hev_high_elf_vampires_idrinthgeneral") then
+                if general:character_subtype(Idrinth.Constants.LordSubtype) then
                     idrinthIsDefender = true;
                 end;
             end;
             for j=1, #characters do
                 defenderCharacters = defenderCharacters + 1;
-                if characters[j] == "idrinth_hev_high_elf_vampires_idrinthchampion" then
+                if characters[j] == Idrinth.Constants.HeroSubtype then
                     idrinthIsDefender = true;
                 end;
-                if characters[j] == "idrinth_hev_high_elf_vampires_idrinthgeneral" then
+                if characters[j] == Idrinth.Constants.LordSubtype then
                     idrinthIsDefender = true;
                 end;
             end;
@@ -287,19 +290,19 @@ core:add_listener(
             local attackerValue = cm:pending_battle_cache_attacker_value();
             local asuryanAmount = base + (1 - attackerKilledPct) * defenderValue / attackerValue;
             applyBattleResourceTransaction(
-                "asuryan",
+                Idrinth.Constants.Gods.Asuryan,
                 idrinthFaction,
                 asuryanAmount,
                 pending_battle:attacker_battle_result()
             );
             applyBattleResourceTransaction(
-                "kurnous",
+                Idrinth.Constants.Gods.Kurnous,
                 idrinthFaction,
                 base + (1 + defenderCharacters)/(1 + attackerCharacters) * 5,
                 pending_battle:attacker_battle_result()
             );
             applyBattleResourceTransaction(
-                "khaine",
+                Idrinth.Constants.Gods.Khaine,
                 idrinthFaction,
                 base + pending_battle:attacker_kills() * 0.0175,
                 pending_battle:attacker_battle_result()
@@ -315,19 +318,19 @@ core:add_listener(
             local defenderVal = cm:pending_battle_cache_defender_value();
             local asuryanAmt = base + (1 - defenderKilledPct) * attackerVal / defenderVal;
             applyBattleResourceTransaction(
-                "asuryan",
+                Idrinth.Constants.Gods.Asuryan,
                 idrinthFaction,
                 asuryanAmt,
                 pending_battle:defender_battle_result()
             );
             applyBattleResourceTransaction(
-                "kurnous",
+                Idrinth.Constants.Gods.Kurnous,
                 idrinthFaction,
                 base + (1 + attackerCharacters)/(1 + defenderCharacters) * 5,
                 pending_battle:defender_battle_result()
             );
             applyBattleResourceTransaction(
-                "khaine",
+                Idrinth.Constants.Gods.Khaine,
                 idrinthFaction,
                 base + pending_battle:defender_kills() * 0.0075,
                 pending_battle:defender_battle_result()

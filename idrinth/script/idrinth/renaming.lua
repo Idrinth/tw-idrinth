@@ -6,7 +6,7 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctInitialized", "renaming");
-        enableRenaming = context:mct():get_mod_by_key("idrinth"):get_option_by_key("names"):get_finalized_setting();
+        enableRenaming = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("names"):get_finalized_setting();
     end,
     true
 );
@@ -16,7 +16,7 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctFinalized", "renaming");
-        enableRenaming = context:mct():get_mod_by_key("idrinth"):get_option_by_key("names"):get_finalized_setting();
+        enableRenaming = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("names"):get_finalized_setting();
     end,
     true
 );

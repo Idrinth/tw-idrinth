@@ -183,7 +183,7 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctInitialized", "unlocks");
-        local mod = context:mct():get_mod_by_key("idrinth");
+        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
         local setting = mod:get_option_by_key("level_adjustment"):get_finalized_setting();
         unlockLevelAdjustment = levelAdjustment[setting];
     end,
@@ -195,7 +195,7 @@ core:add_listener(
     true,
     function(context)
         Idrinth.log("MctFinalized", "unlocks");
-        local mod = context:mct():get_mod_by_key("idrinth");
+        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
         local setting = mod:get_option_by_key("level_adjustment"):get_finalized_setting();
         unlockLevelAdjustment = levelAdjustment[setting];
     end,
@@ -346,7 +346,7 @@ core:add_listener(
     end,
     function(context)
         Idrinth.log("MissionSucceeded", "unlocks");
-        cm:trigger_dilemma(context:faction():name(), "idrinth_unlock_choice");
+        cm:trigger_dilemma(context:faction():name(), Idrinth.Constants.UnlockDilemma);
     end,
     true
 );
@@ -354,7 +354,7 @@ core:add_listener(
     "idrinth_unlocks_DilemmaChoiceMadeEvent_3",
     "DilemmaChoiceMadeEvent",
     function(context)
-        return context:dilemma() == "idrinth_unlock_choice" and not Idrinth.Access.spawned();
+        return context:dilemma() == Idrinth.Constants.UnlockDilemma and not Idrinth.Access.spawned();
     end,
     function(context)
         Idrinth.log("DilemmaChoiceMadeEvent", "unlocks");
