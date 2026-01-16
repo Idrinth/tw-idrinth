@@ -11,20 +11,8 @@ local function get(key)
     return mod:get_option_by_key(key):get_finalized_setting();
 end
 
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function(context)
-        init(context);
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function(context)
-        init(context);
-    end
-);
+Idrinth.Events.addListener("MctInitialized", true, init);
+Idrinth.Events.addListener("MctFinalized", true, init);
 
 return {
     get = get,

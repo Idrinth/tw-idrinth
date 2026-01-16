@@ -200,10 +200,7 @@ Idrinth.Events.addListener(
             end;
             for j=1, #characters do
                 attackerCharacters = attackerCharacters + 1;
-                if characters[j] == Idrinth.Constants.HeroSubtype then
-                    idrinthIsAttacker = true;
-                end;
-                if characters[j] == Idrinth.Constants.LordSubtype then
+                if characters[j] == Idrinth.Constants.HeroSubtype or characters[j] == Idrinth.Constants.LordSubtype then
                     idrinthIsAttacker = true;
                 end;
             end;
@@ -222,10 +219,7 @@ Idrinth.Events.addListener(
             end;
             for j=1, #characters do
                 defenderCharacters = defenderCharacters + 1;
-                if characters[j] == Idrinth.Constants.HeroSubtype then
-                    idrinthIsDefender = true;
-                end;
-                if characters[j] == Idrinth.Constants.LordSubtype then
+                if characters[j] == Idrinth.Constants.HeroSubtype or characters[j] == Idrinth.Constants.LordSubtype then
                     idrinthIsDefender = true;
                 end;
             end;

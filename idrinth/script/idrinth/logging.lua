@@ -4,22 +4,12 @@ local enableBaseGameLogging = false;
 local lua_start_time = os.clock();
 local logfile = "idrinth." .. os.date("%y%m%d%H%M") .. ".log";
 
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        enableLogging = Idrinth.Mct.get("logging");
-        enableBaseGameLogging = Idrinth.Mct.get("base_logging");
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        enableLogging = Idrinth.Mct.get("logging");
-        enableBaseGameLogging = Idrinth.Mct.get("base_logging");
-    end
-);
+local updateMctSettings = function()
+    enableLogging = Idrinth.Mct.get("logging");
+    enableBaseGameLogging = Idrinth.Mct.get("base_logging");
+end;
+Idrinth.Events.addListener("MctInitialized", true, updateMctSettings);
+Idrinth.Events.addListener("MctFinalized", true, updateMctSettings);
 Idrinth.Events.addListener(
     "ScriptEventIdrinthLogMessageReady",
     true,
