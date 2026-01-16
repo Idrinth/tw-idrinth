@@ -15,14 +15,19 @@ globals:
     struct:
       add_listener:
         method: true
+        args: []
       get_or_create_component:
         method: true
+        args: []
       get_ui_root:
         method: true
+        args: []
       is_ui_created:
         method: true
+        args: []
       trigger_custom_event:
         method: true
+        args: []
 
   # Campaign manager object
   cm:
@@ -30,142 +35,211 @@ globals:
     struct:
       add_experience_to_unit:
         method: true
+        args: []
       add_first_tick_callback:
         method: true
+        args: []
       add_foreign_slot_set_to_region_for_faction:
         method: true
+        args: []
       add_loading_game_callback:
         method: true
+        args: []
       add_pooled_resource_changed_listener_by_faction:
         method: true
+        args: []
       add_pre_first_tick_callback:
         method: true
+        args: []
       add_saving_game_callback:
         method: true
+        args: []
       apply_effect_bundle:
         method: true
+        args: []
       apply_effect_bundle_to_character:
         method: true
+        args: []
       apply_effect_bundle_to_region:
         method: true
+        args: []
       callback:
         method: true
+        args: []
       cancel_custom_mission:
         method: true
+        args: []
       change_character_custom_name:
         method: true
+        args: []
       change_custom_unit_name:
         method: true
+        args: []
       char_lookup_str:
         method: true
+        args: []
       create_force_with_general:
         method: true
+        args: []
       disable_event_feed_events:
         method: true
+        args: []
       faction_add_pooled_resource:
         method: true
+        args: []
       faction_purchase_unit_effect:
         method: true
+        args: []
       faction_set_unit_purchasable_effect_lock_state:
         method: true
+        args: []
       find_valid_spawn_location_for_character_from_position:
         method: true
+        args: []
       force_add_ancillary:
         method: true
+        args: []
       force_add_trait:
         method: true
+        args: []
       force_remove_ancillary_from_faction:
         method: true
+        args: []
       force_remove_trait:
         method: true
+        args: []
       get_campaign_ui_manager:
         method: true
+        args: []
       get_character_by_cqi:
         method: true
+        args: []
       get_factions_by_culture:
         method: true
+        args: []
       get_highest_ranked_general_for_faction:
         method: true
+        args: []
       get_local_faction:
         method: true
+        args: []
       get_most_recently_created_character_of_type:
         method: true
+        args: []
       grant_unit_to_character:
         method: true
+        args: []
       is_multiplayer:
         method: true
+        args: []
       is_new_game:
         method: true
+        args: []
       load_global_script:
         method: true
+        args: []
       load_named_value:
         method: true
+        args: []
       mission_is_active_for_faction:
         method: true
+        args: []
       model:
         method: true
+        args: []
       pending_battle_cache_attacker_value:
         method: true
+        args: []
       pending_battle_cache_attacker_victory:
         method: true
+        args: []
       pending_battle_cache_culture_is_attacker:
         method: true
+        args: []
       pending_battle_cache_culture_is_defender:
         method: true
+        args: []
       pending_battle_cache_defender_value:
         method: true
+        args: []
       pending_battle_cache_defender_victory:
         method: true
+        args: []
       pending_battle_cache_get_attacker:
         method: true
+        args: []
       pending_battle_cache_get_attacker_embedded_character_subtypes:
         method: true
+        args: []
       pending_battle_cache_get_defender:
         method: true
+        args: []
       pending_battle_cache_get_defender_embedded_character_subtypes:
         method: true
+        args: []
       pending_battle_cache_num_attackers:
         method: true
+        args: []
       pending_battle_cache_num_defenders:
         method: true
+        args: []
       pooled_resource_factor_transaction:
         method: true
+        args: []
       random:
         method: true
+        args: []
       random_number:
         method: true
+        args: []
       real_callback:
         method: true
+        args: []
       remove_effect_bundle_from_region:
         method: true
+        args: []
       remove_faction_foreign_slots_from_region:
         method: true
+        args: []
       repeat_real_callback:
         method: true
+        args: []
       replenish_action_points:
         method: true
+        args: []
       save_named_value:
         method: true
+        args: []
       set_character_immortality:
         method: true
+        args: []
       set_character_unique:
         method: true
+        args: []
       show_message_event:
         method: true
+        args: []
       show_message_event_located:
         method: true
+        args: []
       spawn_transported_force_at_military_force:
         method: true
+        args: []
       spawn_unique_agent_at_character:
         method: true
+        args: []
       spawn_unique_agent_at_region:
         method: true
+        args: []
       treasury_mod:
         method: true
+        args: []
       trigger_dilemma:
         method: true
+        args: []
       trigger_mission:
         method: true
+        args: []
 
   # Common utilities
   common:
@@ -173,10 +247,13 @@ globals:
     struct:
       call_context_command:
         method: true
+        args: []
       get_context_value:
         method: true
+        args: []
       get_localised_string:
         method: true
+        args: []
 
   # Simple read-only globals
   is_string:
