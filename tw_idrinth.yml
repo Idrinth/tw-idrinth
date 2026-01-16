@@ -8,95 +8,81 @@ globals:
   # Main Idrinth namespace - needs full-write to allow Idrinth = {}
   Idrinth:
     property: full-write
-
-  # Top-level properties
-  Idrinth.Access: {}
-  Idrinth.Constants: {}
-  Idrinth.Cultures: {}
-  Idrinth.Events: {}
-  Idrinth.Mct: {}
-  Idrinth.Names: {}
-  Idrinth.Statistics: {}
-  Idrinth.Ui: {}
-  Idrinth.Unittypes: {}
-  Idrinth.Version: {}
-  Idrinth.factions: {}
-  Idrinth.log: {}
-  Idrinth.mayConfigure: {}
-
-  # Idrinth.Access methods
-  Idrinth.Access.get: {}
-  Idrinth.Access.spawned: {}
-
-  # Idrinth.Constants properties
-  Idrinth.Constants.Cultures: {}
-  Idrinth.Constants.GodList: {}
-  Idrinth.Constants.Gods: {}
-  Idrinth.Constants.HeroSubtype: {}
-  Idrinth.Constants.HeroType: {}
-  Idrinth.Constants.LordSubtype: {}
-  Idrinth.Constants.LordType: {}
-  Idrinth.Constants.MctModKey: {}
-  Idrinth.Constants.Panels: {}
-  Idrinth.Constants.UnlockDilemma: {}
-
-  # Idrinth.Constants.Cultures properties
-  Idrinth.Constants.Cultures.DarkElves: {}
-  Idrinth.Constants.Cultures.HighElves: {}
-  Idrinth.Constants.Cultures.WoodElves: {}
-
-  # Idrinth.Constants.Gods properties
-  Idrinth.Constants.Gods.Asuryan: {}
-  Idrinth.Constants.Gods.Khaine: {}
-  Idrinth.Constants.Gods.Kurnous: {}
-
-  # Idrinth.Constants.Panels properties
-  Idrinth.Constants.Panels.HudCampaign: {}
-
-  # Idrinth.Cultures methods
-  Idrinth.Cultures.get: {}
-  Idrinth.Cultures.isAllowed: {}
-
-  # Idrinth.Events properties and methods
-  Idrinth.Events.Conditions: {}
-  Idrinth.Events.addListener: {}
-  Idrinth.Events.onMctChange: {}
-
-  # Idrinth.Events.Conditions methods
-  Idrinth.Events.Conditions.battleFoughtAndSpawned: {}
-  Idrinth.Events.Conditions.dilemmaIs: {}
-  Idrinth.Events.Conditions.isPanelOpen: {}
-  Idrinth.Events.Conditions.panelOpened: {}
-
-  # Idrinth.Mct methods
-  Idrinth.Mct.get: {}
-
-  # Idrinth.Statistics properties
-  Idrinth.Statistics.ActiveRounds: {}
-  Idrinth.Statistics.BattlesFought: {}
-  Idrinth.Statistics.CharactersAssassinated: {}
-
-  # Idrinth.Ui methods
-  Idrinth.Ui.countChildrenWhere: {}
-  Idrinth.Ui.createOrFind: {}
-  Idrinth.Ui.findChildWhere: {}
-  Idrinth.Ui.findElementWithin: {}
-  Idrinth.Ui.forEachChild: {}
-  Idrinth.Ui.nowAndThen: {}
-
-  # Idrinth.Unittypes methods
-  Idrinth.Unittypes.isBlessedAnimal: {}
-  Idrinth.Unittypes.isChapelUnit: {}
-  Idrinth.Unittypes.isEliteTroop: {}
-  Idrinth.Unittypes.isEnlargedCavalry: {}
-  Idrinth.Unittypes.isEnlargedEliteTroop: {}
-  Idrinth.Unittypes.isHero: {}
-  Idrinth.Unittypes.isPriest: {}
-  Idrinth.Unittypes.isSingleEntity: {}
-  Idrinth.Unittypes.isVampiric: {}
-  Idrinth.Unittypes.isVarghulf: {}
-
-  # Idrinth.Version properties
-  Idrinth.Version.bug: {}
-  Idrinth.Version.feature: {}
-  Idrinth.Version.main: {}
+    struct:
+      Access:
+        struct:
+          get: {}
+          spawned: {}
+      Constants:
+        struct:
+          Cultures:
+            struct:
+              DarkElves: {}
+              HighElves: {}
+              WoodElves: {}
+          GodList: {}
+          Gods:
+            struct:
+              Asuryan: {}
+              Khaine: {}
+              Kurnous: {}
+          HeroSubtype: {}
+          HeroType: {}
+          LordSubtype: {}
+          LordType: {}
+          MctModKey: {}
+          Panels:
+            struct:
+              HudCampaign: {}
+          UnlockDilemma: {}
+      Cultures:
+        struct:
+          get: {}
+          isAllowed: {}
+      Events:
+        struct:
+          Conditions:
+            struct:
+              battleFoughtAndSpawned: {}
+              dilemmaIs: {}
+              isPanelOpen: {}
+              panelOpened: {}
+          addListener: {}
+          onMctChange: {}
+      Mct:
+        struct:
+          get: {}
+      Names: {}
+      Statistics:
+        struct:
+          ActiveRounds: {}
+          BattlesFought: {}
+          CharactersAssassinated: {}
+      Ui:
+        struct:
+          countChildrenWhere: {}
+          createOrFind: {}
+          findChildWhere: {}
+          findElementWithin: {}
+          forEachChild: {}
+          nowAndThen: {}
+      Unittypes:
+        struct:
+          isBlessedAnimal: {}
+          isChapelUnit: {}
+          isEliteTroop: {}
+          isEnlargedCavalry: {}
+          isEnlargedEliteTroop: {}
+          isHero: {}
+          isPriest: {}
+          isSingleEntity: {}
+          isVampiric: {}
+          isVarghulf: {}
+      Version:
+        struct:
+          bug: {}
+          feature: {}
+          main: {}
+      factions: {}
+      log: {}
+      mayConfigure: {}
