@@ -11,14 +11,26 @@ structs:
   Core:
     add_listener:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: any
+      - type: function
+      - type: bool
+        required: false
     get_or_create_component:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type:
+          display: UIComponent
     get_ui_root:
+      must_use: true
       method: true
       args: []
     is_ui_created:
+      must_use: true
       method: true
       args: []
     trigger_custom_event:
@@ -71,6 +83,7 @@ structs:
       method: true
       args: []
     char_lookup_str:
+      must_use: true
       method: true
       args: []
     create_force_with_general:
@@ -78,7 +91,8 @@ structs:
       args: []
     disable_event_feed_events:
       method: true
-      args: []
+      args:
+      - type: bool
     faction_add_pooled_resource:
       method: true
       args: []
@@ -89,6 +103,7 @@ structs:
       method: true
       args: []
     find_valid_spawn_location_for_character_from_position:
+      must_use: true
       method: true
       args: []
     force_add_ancillary:
@@ -104,78 +119,100 @@ structs:
       method: true
       args: []
     get_campaign_ui_manager:
+      must_use: true
       method: true
       args: []
     get_character_by_cqi:
+      must_use: true
       method: true
       args: []
     get_factions_by_culture:
+      must_use: true
       method: true
       args: []
     get_highest_ranked_general_for_faction:
+      must_use: true
       method: true
       args: []
     get_local_faction:
+      must_use: true
       method: true
       args: []
     get_most_recently_created_character_of_type:
+      must_use: true
       method: true
       args: []
     grant_unit_to_character:
       method: true
       args: []
     is_multiplayer:
+      must_use: true
       method: true
       args: []
     is_new_game:
+      must_use: true
       method: true
       args: []
     load_global_script:
       method: true
       args: []
     load_named_value:
+      must_use: true
       method: true
       args: []
     mission_is_active_for_faction:
+      must_use: true
       method: true
       args: []
     model:
       method: true
       args: []
     pending_battle_cache_attacker_value:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_attacker_victory:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_culture_is_attacker:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_culture_is_defender:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_defender_value:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_defender_victory:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_get_attacker:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_get_attacker_embedded_character_subtypes:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_get_defender:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_get_defender_embedded_character_subtypes:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_num_attackers:
+      must_use: true
       method: true
       args: []
     pending_battle_cache_num_defenders:
+      must_use: true
       method: true
       args: []
     pooled_resource_factor_transaction:
@@ -243,9 +280,11 @@ structs:
       method: true
       args: []
     get_context_value:
+      must_use: true
       method: true
       args: []
     get_localised_string:
+      must_use: true
       method: true
       args: []
 
@@ -263,18 +302,23 @@ globals:
   # Utility functions
   # See: https://chadvandy.github.io/tw_modding_resources/WH3/script/_lib/lib_common.html
   is_string:
+    must_use: true
     args:
       - type: any
   is_integer:
+    must_use: true
     args:
       - type: any
   UIComponent:
+    must_use: true
     args:
       - type: any
   is_uicomponent:
+    must_use: true
     args:
       - type: any
   get_mct:
+    must_use: true
     args: []
   set_component_visible_with_parent:
     args:
