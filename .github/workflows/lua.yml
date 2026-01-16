@@ -3,9 +3,13 @@ on:
   push:
     branches:
     - the-one
+    paths:
+    - '**.lua'
   pull_request:
     branches:
     - the-one
+    paths:
+    - '**.lua'
 jobs:
   luacheck:
     runs-on: ubuntu-latest
