@@ -134,8 +134,7 @@ local updateSettlementViewState = function(clickedButton)
     end;
 end;
 
-core:add_listener(
-    "idrinth_settlementui_ComponentLClickUp",
+Idrinth.Events.addListener(
     "ComponentLClickUp",
     function(context)
         if not Idrinth.Access.spawned() then
@@ -149,43 +148,32 @@ core:add_listener(
         return false;
     end,
     function(context)
-        Idrinth.log("ComponentLClickUp", "settlementui");
         lastClicked = context.string;
         Idrinth.Ui.nowAndThen(
             function()
                 updateSettlementViewState(lastClicked);
             end
         );
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_settlementui_PanelOpenedCampaign",
+Idrinth.Events.addListener(
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
     function()
-        Idrinth.log("PanelOpenedCampaign", "settlementui");
         settlementForeignSlotDisplay();
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_settlementui_PanelOpenedCampaign_2",
+Idrinth.Events.addListener(
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
     function()
-        Idrinth.log("PanelOpenedCampaign", "settlementui");
         settlementForeignSlotDisplay();
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_settlementui_CampaignSettlementSelectedAny",
+Idrinth.Events.addListener(
     "CampaignSettlementSelectedAny",
     Idrinth.Access.spawned,
     function()
-        Idrinth.log("CampaignSettlementSelectedAny", "settlementui");
         settlementForeignSlotDisplay();
-    end,
-    true
+    end
 );

@@ -148,52 +148,41 @@ local setupIdrinthsPaths = function()
     Idrinth.log("is NOT idrinth: setting up", "characterpanel");
     hideIdrinthPanels();
 end;
-core:add_listener(
-    "idrinth_characterpanel_CharacterSelected",
+Idrinth.Events.addListener(
     "CharacterSelected",
     function()
         return cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);
     end,
     function()
-        Idrinth.log("CharacterSelected", "characterpanel");
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_characterpanel_CharacterSkillPointAllocated",
+Idrinth.Events.addListener(
     "CharacterSkillPointAllocated",
     true,
     function()
-        Idrinth.log("CharacterSkillPointAllocated", "characterpanel");
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_characterpanel_PanelOpenedCampaign",
+Idrinth.Events.addListener(
     "PanelOpenedCampaign",
     function(context)
         return context.string == PANEL_NAME;
     end,
     function()
-        Idrinth.log("PanelOpenedCampaign", "characterpanel");
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_characterpanel_ComponentLClickUp",
+Idrinth.Events.addListener(
     "ComponentLClickUp",
     function(context)
         local isPanelOpen = cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);
         return isPanelOpen and context.string == PATHS_BUTTON;
     end,
     function()
-        Idrinth.log("ComponentLClickUp", "characterpanel");
         local uiRoot = core:get_ui_root();
         set_component_visible_with_parent(
             true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL
@@ -214,17 +203,14 @@ core:add_listener(
         set_component_visible_with_parent(
             false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_GROUP, "character_initiatives"
         );
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_characterpanel_ComponentLClickUp_2",
+Idrinth.Events.addListener(
     "ComponentLClickUp",
     function()
         return cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);
     end,
     function(context)
-        Idrinth.log("ComponentLClickUp", "characterpanel");
         if context.string == PATHS_BUTTON then
             return;
         end;
@@ -260,6 +246,5 @@ core:add_listener(
                 true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "formless_horror_subpanel"
             );
         end;
-    end,
-    true
+    end
 );

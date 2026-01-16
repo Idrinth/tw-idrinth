@@ -1,27 +1,20 @@
 local enableRenaming = true;
 
-core:add_listener(
-    "idrinth_renaming_MctInitialized",
+Idrinth.Events.addListener(
     "MctInitialized",
     true,
     function()
-        Idrinth.log("MctInitialized", "renaming");
         enableRenaming = Idrinth.Mct.get("names");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_renaming_MctFinalized",
+Idrinth.Events.addListener(
     "MctFinalized",
     true,
     function()
-        Idrinth.log("MctFinalized", "renaming");
         enableRenaming = Idrinth.Mct.get("names");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_renaming_UnitCreated",
+Idrinth.Events.addListener(
     "UnitCreated",
     function(context)
         if not enableRenaming then
@@ -37,7 +30,6 @@ core:add_listener(
         return isChapel and isNotVarghulf and isNotHero;
     end,
     function(context)
-        Idrinth.log("UnitCreated", "renaming");
         local length = #Idrinth.Names;
         local name = Idrinth.Names[cm:random_number(length)];
         local finalName;
@@ -61,6 +53,5 @@ core:add_listener(
                 ""
             );
         end;
-    end,
-    true
+    end
 );

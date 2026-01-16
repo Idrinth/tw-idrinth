@@ -27,54 +27,41 @@ local addForeignSlots = function(idrinth, faction)
         factionCqi, regionCqi, "idrinth_slot_set_chapel"
     );
 end;
-core:add_listener(
-    "idrinth_chapels_MctInitialized",
+Idrinth.Events.addListener(
     "MctInitialized",
     true,
     function()
-        Idrinth.log("MctInitialized", "chapels");
         enableChapels = Idrinth.Mct.get("chapels");
         chapelMode = Idrinth.Mct.get("chapel_chance");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_chapels_MctFinalized",
+Idrinth.Events.addListener(
     "MctFinalized",
     true,
     function()
-        Idrinth.log("MctFinalized", "chapels");
         enableChapels = Idrinth.Mct.get("chapels");
         chapelMode = Idrinth.Mct.get("chapel_chance");
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_chapels_FactionTurnStart",
+Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
         return Idrinth.mayConfigure() and context:faction():is_human() and nil == enableChapels;
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "chapels");
         cm:trigger_dilemma(context:faction():name(), "idrinth_chapels_choice");
-    end,
-    false
+    end
 );
-core:add_listener(
-    "idrinth_chapels_DilemmaChoiceMadeEvent",
+Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_chapels_choice";
     end,
     function(context)
-        Idrinth.log("DilemmaChoiceMadeEvent", "chapels");
         enableChapels = (context:choice() == 1);
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_chapels_FactionTurnStart_2",
+Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
         if not enableChapels then
@@ -84,7 +71,6 @@ core:add_listener(
         return idrinth and not idrinth:is_wounded() and idrinth:has_region() and idrinth:region();
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "chapels");
         local idrinth, faction = Idrinth.Access.get();
         local buildingSpawnChance = idrinth:rank();
         if idrinth:is_embedded_in_military_force() then
@@ -119,15 +105,12 @@ core:add_listener(
                 addForeignSlots(idrinth, faction);
             end;
         end;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_chapels_RegionFactionChangeEvent",
+Idrinth.Events.addListener(
     "RegionFactionChangeEvent",
     Idrinth.Access.spawned,
     function(context)
-        Idrinth.log("RegionFactionChangeEvent", "chapels");
         local _, faction = Idrinth.Access.get();
         local foreignSlotManager = context:region():foreign_slot_manager_for_faction(faction:name());
         if foreignSlotManager and not foreignSlotManager:is_null_interface() then
@@ -152,8 +135,7 @@ core:add_listener(
                 end;
             end;
         end;
-    end,
-    true
+    end
 );
 cm:add_saving_game_callback(
     function(context)

@@ -142,14 +142,12 @@ cm:add_first_tick_callback(
         end;
     end
 );
-core:add_listener(
-    "idrinth_resources_DilemmaChoiceMadeEvent",
+Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == Idrinth.Constants.UnlockDilemma;
     end,
     function(context)
-        Idrinth.log("DilemmaChoiceMadeEvent", "resources");
         if context:choice() == 1 then
             return;
         end;
@@ -160,26 +158,21 @@ core:add_listener(
             resourceChangedListener,
             true
         );
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_resources_FactionTurnStart",
+Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
         local idrinth = Idrinth.Access.get(context:faction());
         return idrinth;
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "resources");
         applyRandomResourceBonus(Idrinth.Constants.Gods.Asuryan, context:faction());
         applyRandomResourceBonus(Idrinth.Constants.Gods.Kurnous, context:faction());
         applyRandomResourceBonus(Idrinth.Constants.Gods.Khaine, context:faction());
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_resources_CharacterCharacterTargetAction",
+Idrinth.Events.addListener(
     "CharacterCharacterTargetAction",
     function(context)
         local idrinth = Idrinth.Access.get();
@@ -189,7 +182,6 @@ core:add_listener(
         return context:character() == idrinth;
     end,
     function(context)
-        Idrinth.log("CharacterCharacterTargetAction", "resources");
         local ability = context:ability();
         local idrinth = Idrinth.Access.get();
 
@@ -212,11 +204,9 @@ core:add_listener(
                 cm:pooled_resource_factor_transaction(prm, "idrinth_kurnous_other", 15);
             end;
         end;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_resources_BattleCompleted",
+Idrinth.Events.addListener(
     "BattleCompleted",
     function()
         if not cm:model():pending_battle():has_been_fought() then
@@ -225,7 +215,6 @@ core:add_listener(
         return Idrinth.Access.spawned();
     end,
     function()
-        Idrinth.log("BattleCompleted", "resources");
         local pending_battle = cm:model():pending_battle();
         local attackerWon = false;
         if cm:pending_battle_cache_attacker_victory() then
@@ -336,6 +325,5 @@ core:add_listener(
                 pending_battle:defender_battle_result()
             );
         end;
-    end,
-    true
+    end
 );

@@ -29,7 +29,7 @@ local adjustDevotionTraitsBy = function(idrinth, devotion, points)
     cm:disable_event_feed_events(true);
     cm:force_remove_trait(idrinth_lookup, devotion.."_positive");
     cm:force_remove_trait(idrinth_lookup, devotion.."_negative");
-    cm:disable_event_feed_events(false);
+    cm:disable_event_feed_events(false);
 
     local movedPastTier = false;
     if points > 0 then
@@ -73,15 +73,13 @@ local adjustDevotionTraitsBy = function(idrinth, devotion, points)
     Idrinth.log("Total "..devotion.." is: "..total, "traits");
     return total;
 end;
-core:add_listener(
-    "idrinth_traits_FactionTurnStart",
+Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
         local idrinth = Idrinth.Access.get(context:faction());
         return idrinth and not idrinth:is_wounded();
     end,
     function()
-        Idrinth.log("FactionTurnStart", "traits");
         local relevantDevotions = {
             idrinth_devotion_asuryan = "idrinth_asuryan_pledge",
             idrinth_devotion_khaine = "idrinth_khaine_pledge",
@@ -120,11 +118,9 @@ core:add_listener(
                 Idrinth.log("empty initiative set", "traits");
             end;
         end;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_traits_BattleCompleted",
+Idrinth.Events.addListener(
     "BattleCompleted",
     function()
         if not cm:model():pending_battle():has_been_fought() then
@@ -133,7 +129,6 @@ core:add_listener(
         return Idrinth.Access.spawned();
     end,
     function()
-        Idrinth.log("BattleCompleted", "traits");
         local attackerWon = false;
         if cm:pending_battle_cache_attacker_victory() then
             attackerWon = true;
@@ -237,6 +232,5 @@ core:add_listener(
                 addSlayerTraits(2, 1, 4, cm:char_lookup_str(idrinth));
             end;
         end;
-    end,
-    true
+    end
 );

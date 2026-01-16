@@ -177,34 +177,26 @@ local spawnIdrinth = function(agentType, faction)
     end;
 end;
 
-core:add_listener(
-    "idrinth_unlocks_MctInitialized",
+Idrinth.Events.addListener(
     "MctInitialized",
     true,
     function()
-        Idrinth.log("MctInitialized", "unlocks");
         unlockLevelAdjustment = levelAdjustment[Idrinth.Mct.get("level_adjustment")];
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_unlocks_MctFinalized",
+Idrinth.Events.addListener(
     "MctFinalized",
     true,
     function()
-        Idrinth.log("MctFinalized", "unlocks");
         unlockLevelAdjustment = levelAdjustment[Idrinth.Mct.get("level_adjustment")];
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_unlocks_DilemmaChoiceMadeEvent",
+Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_levelMinimum_choice";
     end,
     function(context)
-        Idrinth.log("DilemmaChoiceMadeEvent", "unlocks");
         if context:choice() == 1 then
             unlockLevelAdjustment = 0;
             return;
@@ -221,23 +213,18 @@ core:add_listener(
             unlockLevelAdjustment = 6;
             return;
         end;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_unlocks_FactionTurnStart",
+Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
         return Idrinth.mayConfigure() and context:faction():is_human() and unlockLevelAdjustment == nil;
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "unlocks");
         cm:trigger_dilemma(context:faction():name(), "idrinth_levelMinimum_choice");
-    end,
-    false
+    end
 );
-core:add_listener(
-    "idrinth_unlocks_FactionTurnStart_2",
+Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
         if not context:faction():is_human() then
@@ -268,7 +255,6 @@ core:add_listener(
         return false;
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "unlocks");
         if unlockMissionStarted[context:faction():name()] then
             return;
         end;
@@ -282,11 +268,9 @@ core:add_listener(
             unlockMissions[context:faction():culture()],
             true
         );
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_unlocks_FactionTurnStart_3",
+Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
         if context:faction():is_human() then
@@ -317,17 +301,14 @@ core:add_listener(
         return false;
     end,
     function(context)
-        Idrinth.log("FactionTurnStart", "unlocks");
         local agentType = Idrinth.Constants.HeroType;
         if cm:random_number(100) > 50 then
             agentType = Idrinth.Constants.LordType;
         end;
         spawnIdrinth(agentType, context:faction());
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_unlocks_MissionSucceeded",
+Idrinth.Events.addListener(
     "MissionSucceeded",
     function(context)
         if Idrinth.Access.spawned() then
@@ -341,19 +322,15 @@ core:add_listener(
         return false;
     end,
     function(context)
-        Idrinth.log("MissionSucceeded", "unlocks");
         cm:trigger_dilemma(context:faction():name(), Idrinth.Constants.UnlockDilemma);
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_unlocks_DilemmaChoiceMadeEvent_3",
+Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == Idrinth.Constants.UnlockDilemma and not Idrinth.Access.spawned();
     end,
     function(context)
-        Idrinth.log("DilemmaChoiceMadeEvent", "unlocks");
         if context:choice() == 1 then
             return;
         end;
@@ -362,8 +339,7 @@ core:add_listener(
             agentType = Idrinth.Constants.LordType;
         end;
         spawnIdrinth(agentType, context:faction());
-    end,
-    true
+    end
 );
 cm:add_saving_game_callback(
     function(context)

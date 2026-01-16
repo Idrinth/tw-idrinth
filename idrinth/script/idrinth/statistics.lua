@@ -1,7 +1,7 @@
 local statistics = {
     ActiveRounds = 0,
     BattlesFought = 0,
-    CharactersAssassinated = 0,
+    CharactersAssassinated = 0,
     ChapelsFounded = 0,
 };
 cm:add_saving_game_callback(
@@ -21,15 +21,13 @@ cm:add_loading_game_callback(
         statistics.CharactersAssassinated = cm:load_named_value("idrinth.charactersAssassinated", statistics.CharactersAssassinated, context);
     end
 );
-core:add_listener(
-    "idrinth_statistics_CharacterCharacterTargetAction",
+Idrinth.Events.addListener(
     "CharacterCharacterTargetAction",
     function(context)
         local idrinth = Idrinth.Access.get();
         return idrinth and (context:character() == idrinth);
     end,
     function(context)
-        Idrinth.log("CharacterCharacterTargetAction", "statistics");
         local ability = context:ability();
 
         if ability == "hinder_character" or ability == "hinder_agent" then
@@ -41,20 +39,16 @@ core:add_listener(
                 statistics.charactersAssassinated = statistics.charactersAssassinated + 1;
             end;
         end;
-    end,
-    true
+    end
 );
-core:add_listener(
-    "idrinth_statistics_FactionTurnStart",
+Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
         local idrinth = Idrinth.Access.get(context:faction());
         return idrinth and not idrinth:is_wounded();
     end,
     function()
-        Idrinth.log("FactionTurnStart", "statistics");
         statistics.ActiveRounds = statistics.ActiveRounds + 1;
-    end,
-    true
+    end
 );
 return statistics;

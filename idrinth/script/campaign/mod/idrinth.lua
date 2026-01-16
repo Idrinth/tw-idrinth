@@ -3,6 +3,7 @@ Idrinth = {};
 -- Base methods and data
 Idrinth.mayConfigure = cm:load_global_script("script/idrinth/multiplayer");
 Idrinth.Constants = cm:load_global_script("script/idrinth/constants");
+Idrinth.Events = cm:load_global_script("script/idrinth/events");
 Idrinth.Mct = cm:load_global_script("script/idrinth/mct");
 Idrinth.Version = cm:load_global_script("script/idrinth/version");
 Idrinth.Names = cm:load_global_script("script/idrinth/names");

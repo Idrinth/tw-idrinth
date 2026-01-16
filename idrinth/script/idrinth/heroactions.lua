@@ -1,12 +1,10 @@
-core:add_listener(
-    "idrinth_heroactions_CharacterCharacterTargetAction",
+Idrinth.Events.addListener(
     "CharacterCharacterTargetAction",
     function(context)
         local idrinth = Idrinth.Access.get();
         return idrinth and (context:character() == idrinth);
     end,
     function(context)
-        Idrinth.log("CharacterCharacterTargetAction", "heroactions");
         local ability = context:ability();
         local idrinth = Idrinth.Access.get();
 
@@ -29,6 +27,5 @@ core:add_listener(
                 cm:apply_effect_bundle_to_character("idrinth_successful_action_character_critical", idrinth, 5);
             end;
         end;
-    end,
-    true
+    end
 );
