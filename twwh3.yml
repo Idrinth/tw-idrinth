@@ -25,6 +25,7 @@ structs:
       - type: string
       - type:
           display: UIComponent
+        required: false
     get_ui_root:
       must_use: true
       method: true
@@ -35,89 +36,179 @@ structs:
       args: []
     trigger_custom_event:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: table
 
   # Campaign manager struct
   # See: https://chadvandy.github.io/tw_modding_resources/WH3/campaign/campaign_manager.html
   CampaignManager:
     add_experience_to_unit:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: number
     add_first_tick_callback:
       method: true
-      args: []
+      args:
+      - type: function
     add_foreign_slot_set_to_region_for_faction:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
     add_loading_game_callback:
       method: true
-      args: []
+      args:
+      - type: function
     add_pooled_resource_changed_listener_by_faction:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: function
+      - type: bool
     add_pre_first_tick_callback:
       method: true
-      args: []
+      args:
+      - type: function
     add_saving_game_callback:
       method: true
-      args: []
+      args:
+      - type: function
     apply_effect_bundle:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: number
     apply_effect_bundle_to_character:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: number
     apply_effect_bundle_to_region:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: number
     callback:
       method: true
-      args: []
+      args:
+      - type: function
+      - type: number
+      - type: string
+        required: false
     cancel_custom_mission:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
     change_character_custom_name:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
     change_custom_unit_name:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
     char_lookup_str:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: any
     create_force_with_general:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
+      - type: number
+      - type: number
+      - type: string
+      - type: string
+      - type: string
+      - type: string
+      - type: string
+      - type: string
+      - type: bool
+      - type: function
+        required: false
+      - type: bool
+        required: false
     disable_event_feed_events:
       method: true
       args:
       - type: bool
+      - type: string
+        required: false
+      - type: string
+        required: false
+      - type: string
+        required: false
     faction_add_pooled_resource:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
+      - type: number
     faction_purchase_unit_effect:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
     faction_set_unit_purchasable_effect_lock_state:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
+      - type: bool
     find_valid_spawn_location_for_character_from_position:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: string
+      - type: number
+      - type: number
+      - type: bool
+        required: false
+      - type: number
+        required: false
     force_add_ancillary:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: bool
+      - type: bool
     force_add_trait:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: bool
+        required: false
+      - type: number
+        required: false
     force_remove_ancillary_from_faction:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
     force_remove_trait:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
     get_campaign_ui_manager:
       must_use: true
       method: true
@@ -125,26 +216,38 @@ structs:
     get_character_by_cqi:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: number
     get_factions_by_culture:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: string
     get_highest_ranked_general_for_faction:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: any
     get_local_faction:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: bool
+        required: false
     get_most_recently_created_character_of_type:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+        required: false
+      - type: string
+        required: false
     grant_unit_to_character:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
     is_multiplayer:
       must_use: true
       method: true
@@ -157,6 +260,8 @@ structs:
       method: true
       args:
       - type: string
+      - type: bool
+        required: false
     load_named_value:
       must_use: true
       method: true
@@ -164,10 +269,14 @@ structs:
       - type: string
       - type: any
       - type: any
+      - type: bool
+        required: false
     mission_is_active_for_faction:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
     model:
       method: true
       args: []
@@ -182,11 +291,13 @@ structs:
     pending_battle_cache_culture_is_attacker:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: string
     pending_battle_cache_culture_is_defender:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: string
     pending_battle_cache_defender_value:
       must_use: true
       method: true
@@ -198,19 +309,27 @@ structs:
     pending_battle_cache_get_attacker:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: number
+        required: false
     pending_battle_cache_get_attacker_embedded_character_subtypes:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: number
+        required: false
     pending_battle_cache_get_defender:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: number
+        required: false
     pending_battle_cache_get_defender_embedded_character_subtypes:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: number
+        required: false
     pending_battle_cache_num_attackers:
       must_use: true
       method: true
@@ -221,76 +340,152 @@ structs:
       args: []
     pooled_resource_factor_transaction:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
+      - type: number
     random:
       method: true
       args: []
     random_number:
       method: true
-      args: []
+      args:
+      - type: number
+        required: false
+      - type: number
+        required: false
     real_callback:
       method: true
-      args: []
+      args:
+      - type: function
+      - type: number
+      - type: string
+        required: false
     remove_effect_bundle_from_region:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
     remove_faction_foreign_slots_from_region:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
     repeat_real_callback:
       method: true
-      args: []
+      args:
+      - type: function
+      - type: number
+      - type: string
+        required: false
     replenish_action_points:
       method: true
-      args: []
+      args:
+      - type: string
     save_named_value:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: any
+      - type: any
+      - type: bool
+        required: false
     set_character_immortality:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: bool
+      - type: bool
+        required: false
     set_character_unique:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: bool
     show_message_event:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
+      - type: string
+      - type: bool
+      - type: number
     show_message_event_located:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
+      - type: string
+      - type: number
+      - type: number
+      - type: bool
+      - type: number
     spawn_transported_force_at_military_force:
       method: true
-      args: []
+      args:
+      - type: number
+      - type: string
+      - type: string
     spawn_unique_agent_at_character:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
+      - type: bool
+        required: false
     spawn_unique_agent_at_region:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: string
+      - type: bool
+        required: false
     treasury_mod:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: number
     trigger_dilemma:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: bool
+        required: false
     trigger_mission:
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+      - type: bool
+        required: false
 
   # Common utilities struct
   # See: https://chadvandy.github.io/tw_modding_resources/WH3/script/_lib/lib_common.html
   Common:
     call_context_command:
       method: true
-      args: []
+      args:
+      - type: string
     get_context_value:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: string
+      - type: string
+        required: false
+      - type: string
+        required: false
     get_localised_string:
       must_use: true
       method: true
-      args: []
+      args:
+      - type: string
 
 globals:
   # Core game objects
