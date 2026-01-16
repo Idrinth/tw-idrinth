@@ -121,40 +121,37 @@ local spawnIdrinthArmy = function(faction, region, x, y)
         end
     );
 end;
+local getSpawnLocation = function(faction)
+    if faction:faction_leader():has_region() then
+        local leader = faction:faction_leader();
+        local x, y = cm:find_valid_spawn_location_for_character_from_position(
+            faction:name(), leader:logical_position_x(), leader:logical_position_y(), true
+        );
+        return leader:region(), x, y, leader:command_queue_index();
+    end;
+    if not faction:has_home_region() then
+        return nil;
+    end;
+    local home = faction:home_region();
+    local x, y = cm:find_valid_spawn_location_for_character_from_position(
+        faction:name(), home:settlement():logical_position_x(), home:settlement():logical_position_y(), true
+    );
+    return home, x, y, nil;
+end;
 local spawnIdrinth = function(agentType, faction)
+    local region, x, y, leaderCqi = getSpawnLocation(faction);
+    if not region then
+        return;
+    end;
     if agentType == Idrinth.Constants.LordType then
-        if faction:faction_leader():has_region() then
-            local x, y = cm:find_valid_spawn_location_for_character_from_position(
-                faction:name(),
-                faction:faction_leader():logical_position_x(),
-                faction:faction_leader():logical_position_y(),
-                true
-            );
-            spawnIdrinthArmy(faction, faction:faction_leader():region(), x, y);
-        elseif faction:has_home_region() then
-            local x, y = cm:find_valid_spawn_location_for_character_from_position(
-                faction:name(),
-                faction:home_region():settlement():logical_position_x(),
-                faction:home_region():settlement():logical_position_y(),
-                true
-            );
-            spawnIdrinthArmy(faction, faction:home_region(), x, y);
-        end;
+        spawnIdrinthArmy(faction, region, x, y);
     elseif agentType == Idrinth.Constants.HeroType then
-        if faction:faction_leader():has_region() then
+        if leaderCqi then
             cm:spawn_unique_agent_at_character(
-                faction:command_queue_index(),
-                Idrinth.Constants.HeroSubtype,
-                faction:faction_leader():command_queue_index(),
-                true
+                faction:command_queue_index(), Idrinth.Constants.HeroSubtype, leaderCqi, true
             );
-        elseif faction:has_home_region() then
-            cm:spawn_unique_agent_at_region(
-                faction:cqi(),
-                Idrinth.Constants.HeroSubtype,
-                faction:home_region():cqi(),
-                true
-            );
+        else
+            cm:spawn_unique_agent_at_region(faction:cqi(), Idrinth.Constants.HeroSubtype, region:cqi(), true);
         end;
     end;
     local idrinth = Idrinth.Access.get();
@@ -191,28 +188,14 @@ Idrinth.Events.addListener(
         unlockLevelAdjustment = levelAdjustment[Idrinth.Mct.get("level_adjustment")];
     end
 );
+local dilemmaChoiceToLevel = {[1] = 0, [2] = 1, [3] = 3, [4] = 6};
 Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_levelMinimum_choice";
     end,
     function(context)
-        if context:choice() == 1 then
-            unlockLevelAdjustment = 0;
-            return;
-        end;
-        if context:choice() == 2 then
-            unlockLevelAdjustment = 1;
-            return;
-        end;
-        if context:choice() == 3 then
-            unlockLevelAdjustment = 3;
-            return;
-        end;
-        if context:choice() == 4 then
-            unlockLevelAdjustment = 6;
-            return;
-        end;
+        unlockLevelAdjustment = dilemmaChoiceToLevel[context:choice()];
     end
 );
 Idrinth.Events.addListener(

@@ -19,69 +19,34 @@ local resourceChangedListener = function(context)
         end;
     end;
 end;
-local applyRandomResourceBonus = function(name, faction)
-    local amount = cm:random_number(35);
-    if amount == 0 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_minus5",
-            faction:name(),
-            1
-        );
-    elseif amount < 3 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_minus4",
-            faction:name(),
-            1
-        );
-    elseif amount < 6 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_minus3",
-            faction:name(),
-            1
-        );
-    elseif amount < 10 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_minus2",
-            faction:name(),
-            1
-        );
-    elseif amount < 15 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_minus1",
-            faction:name(),
-            1
-        );
-    elseif amount >= 21 and amount < 26 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_plus1",
-            faction:name(),
-            1
-        );
-    elseif amount >= 26 and amount < 30 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_plus2",
-            faction:name(),
-            1
-        );
-    elseif amount >= 30 and amount < 33 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_plus3",
-            faction:name(),
-            1
-        );
-    elseif amount >= 33 and amount < 35 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_plus4",
-            faction:name(),
-            1
-        );
-    elseif amount >= 35 then
-        cm:apply_effect_bundle(
-            RESOURCE_PREFIX .. name .. "_god_favour_plus5",
-            faction:name(),
-            1
-        );
+local resourceBonusThresholds = {
+    {threshold = 1, suffix = "_god_favour_minus5"},
+    {threshold = 3, suffix = "_god_favour_minus4"},
+    {threshold = 6, suffix = "_god_favour_minus3"},
+    {threshold = 10, suffix = "_god_favour_minus2"},
+    {threshold = 15, suffix = "_god_favour_minus1"},
+    {threshold = 21, suffix = nil},
+    {threshold = 26, suffix = "_god_favour_plus1"},
+    {threshold = 30, suffix = "_god_favour_plus2"},
+    {threshold = 33, suffix = "_god_favour_plus3"},
+    {threshold = 35, suffix = "_god_favour_plus4"},
+};
+
+local getResourceBonusSuffix = function(amount)
+    for _, entry in ipairs(resourceBonusThresholds) do
+        if amount < entry.threshold then
+            return entry.suffix;
+        end;
     end;
+    return "_god_favour_plus5";
+end;
+
+local applyRandomResourceBonus = function(name, faction)
+    local suffix = getResourceBonusSuffix(cm:random_number(35));
+    if not suffix then
+        return;
+    end;
+    cm:apply_effect_bundle(RESOURCE_PREFIX .. name .. suffix, faction:name(), 1);
 end;
 local battleResultModifiers = {
     [Idrinth.Constants.Gods.Asuryan] = {
