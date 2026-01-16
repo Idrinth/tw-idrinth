@@ -122,12 +122,7 @@ Idrinth.Events.addListener(
 );
 Idrinth.Events.addListener(
     "BattleCompleted",
-    function()
-        if not cm:model():pending_battle():has_been_fought() then
-            return false;
-        end;
-        return Idrinth.Access.spawned();
-    end,
+    Idrinth.Events.Conditions.battleFoughtAndSpawned,
     function()
         local attackerWon = false;
         if cm:pending_battle_cache_attacker_victory() then

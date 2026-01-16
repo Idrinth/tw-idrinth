@@ -161,17 +161,6 @@ cm:add_loading_game_callback(
         end;
     end
 );
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        cooldownMode = Idrinth.Mct.get("intervention_cooldown");
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        cooldownMode = Idrinth.Mct.get("intervention_cooldown");
-    end
-);
+Idrinth.Events.onMctChange(function()
+    cooldownMode = Idrinth.Mct.get("intervention_cooldown");
+end);

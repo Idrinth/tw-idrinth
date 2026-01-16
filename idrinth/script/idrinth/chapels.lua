@@ -44,22 +44,10 @@ local addForeignSlots = function(idrinth, faction)
         factionCqi, regionCqi, "idrinth_slot_set_chapel"
     );
 end;
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        enableChapels = Idrinth.Mct.get("chapels");
-        chapelMode = Idrinth.Mct.get("chapel_chance");
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        enableChapels = Idrinth.Mct.get("chapels");
-        chapelMode = Idrinth.Mct.get("chapel_chance");
-    end
-);
+Idrinth.Events.onMctChange(function()
+    enableChapels = Idrinth.Mct.get("chapels");
+    chapelMode = Idrinth.Mct.get("chapel_chance");
+end);
 Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
@@ -71,9 +59,7 @@ Idrinth.Events.addListener(
 );
 Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
-    function(context)
-        return context:dilemma() == "idrinth_chapels_choice";
-    end,
+    Idrinth.Events.Conditions.dilemmaIs("idrinth_chapels_choice"),
     function(context)
         enableChapels = (context:choice() == 1);
     end

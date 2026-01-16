@@ -174,26 +174,13 @@ local spawnIdrinth = function(agentType, faction)
     end;
 end;
 
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        unlockLevelAdjustment = levelAdjustment[Idrinth.Mct.get("level_adjustment")];
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        unlockLevelAdjustment = levelAdjustment[Idrinth.Mct.get("level_adjustment")];
-    end
-);
+Idrinth.Events.onMctChange(function()
+    unlockLevelAdjustment = levelAdjustment[Idrinth.Mct.get("level_adjustment")];
+end);
 local dilemmaChoiceToLevel = {[1] = 0, [2] = 1, [3] = 3, [4] = 6};
 Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
-    function(context)
-        return context:dilemma() == "idrinth_levelMinimum_choice";
-    end,
+    Idrinth.Events.Conditions.dilemmaIs("idrinth_levelMinimum_choice"),
     function(context)
         unlockLevelAdjustment = dilemmaChoiceToLevel[context:choice()];
     end

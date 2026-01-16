@@ -167,9 +167,7 @@ Idrinth.Events.addListener(
 );
 Idrinth.Events.addListener(
     "PanelOpenedCampaign",
-    function(context)
-        return context.string == PANEL_NAME;
-    end,
+    Idrinth.Events.Conditions.panelOpened(PANEL_NAME),
     function()
         Idrinth.Ui.nowAndThen(setupIdrinthsPaths);
         Idrinth.Ui.nowAndThen(setupInitiatives);
@@ -206,9 +204,7 @@ Idrinth.Events.addListener(
 );
 Idrinth.Events.addListener(
     "ComponentLClickUp",
-    function()
-        return cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);
-    end,
+    Idrinth.Events.Conditions.isPanelOpen(PANEL_NAME),
     function(context)
         if context.string == PATHS_BUTTON then
             return;

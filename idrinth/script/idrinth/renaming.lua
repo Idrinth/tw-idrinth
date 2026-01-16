@@ -1,19 +1,8 @@
 local enableRenaming = true;
 
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        enableRenaming = Idrinth.Mct.get("names");
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        enableRenaming = Idrinth.Mct.get("names");
-    end
-);
+Idrinth.Events.onMctChange(function()
+    enableRenaming = Idrinth.Mct.get("names");
+end);
 Idrinth.Events.addListener(
     "UnitCreated",
     function(context)

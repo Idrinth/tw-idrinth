@@ -16,29 +16,14 @@ local extendedCultures = {
     "wh3_main_cth_cathay"
 };
 
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        enableExtendedCultures = Idrinth.Mct.get("expanded_spawn");
-        cachedCultures = nil;
-        cachedCultureMap = nil;
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        enableExtendedCultures = Idrinth.Mct.get("expanded_spawn");
-        cachedCultures = nil;
-        cachedCultureMap = nil;
-    end
-);
+Idrinth.Events.onMctChange(function()
+    enableExtendedCultures = Idrinth.Mct.get("expanded_spawn");
+    cachedCultures = nil;
+    cachedCultureMap = nil;
+end);
 Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
-    function(context)
-        return context:dilemma() == "idrinth_mode_choice";
-    end,
+    Idrinth.Events.Conditions.dilemmaIs("idrinth_mode_choice"),
     function(context)
         enableExtendedCultures = context:choice() == 1;
         cachedCultures = nil;

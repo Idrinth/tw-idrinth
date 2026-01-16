@@ -96,25 +96,12 @@ for _, data in pairs(placesOfInterest) do
 end;
 local enablePointsOfInterest = nil;
 
-Idrinth.Events.addListener(
-    "MctInitialized",
-    true,
-    function()
-        enablePointsOfInterest = Idrinth.Mct.get("story_events");
-    end
-);
-Idrinth.Events.addListener(
-    "MctFinalized",
-    true,
-    function()
-        enablePointsOfInterest = Idrinth.Mct.get("story_events");
-    end
-);
+Idrinth.Events.onMctChange(function()
+    enablePointsOfInterest = Idrinth.Mct.get("story_events");
+end);
 Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
-    function(context)
-        return context:dilemma() == "idrinth_story_choice";
-    end,
+    Idrinth.Events.Conditions.dilemmaIs("idrinth_story_choice"),
     function(context)
         enablePointsOfInterest = (context:choice() == 1);
     end
