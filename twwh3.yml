@@ -428,7 +428,7 @@ structs:
       args:
       - type: number
       - type: string
-      - type: string
+      - type: number
     spawn_unique_agent_at_character:
       method: true
       args:
@@ -499,6 +499,7 @@ globals:
 
   string.ends_with:
       args:
+      - type: string
       - type: string
 
   # Utility functions
