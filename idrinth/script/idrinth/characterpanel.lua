@@ -149,7 +149,6 @@ local setupIdrinthsPaths = function()
     hideIdrinthPanels();
 end;
 Idrinth.Events.addListener(
-    "characterpanel",
     "CharacterSelected",
     function()
         return cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);
@@ -160,7 +159,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "characterpanel",
     "CharacterSkillPointAllocated",
     true,
     function()
@@ -169,7 +167,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "characterpanel",
     "PanelOpenedCampaign",
     function(context)
         return context.string == PANEL_NAME;
@@ -180,7 +177,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "characterpanel",
     "ComponentLClickUp",
     function(context)
         local isPanelOpen = cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);
@@ -210,7 +206,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "characterpanel",
     "ComponentLClickUp",
     function()
         return cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME);

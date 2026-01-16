@@ -143,7 +143,6 @@ cm:add_first_tick_callback(
     end
 );
 Idrinth.Events.addListener(
-    "resources",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == Idrinth.Constants.UnlockDilemma;
@@ -162,7 +161,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "resources",
     "FactionTurnStart",
     function(context)
         local idrinth = Idrinth.Access.get(context:faction());
@@ -175,7 +173,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "resources",
     "CharacterCharacterTargetAction",
     function(context)
         local idrinth = Idrinth.Access.get();
@@ -210,7 +207,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "resources",
     "BattleCompleted",
     function()
         if not cm:model():pending_battle():has_been_fought() then

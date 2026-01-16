@@ -38,7 +38,6 @@ local fixLordType = function()
     end;
 end;
 Idrinth.Events.addListener(
-    "recruitingui",
     "ComponentLClickUp",
     function(context)
         if context.string ~= "legendary_lords" then
@@ -51,7 +50,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "recruitingui",
     "PanelOpenedCampaign",
     function(context)
         if context.string ~= "character_panel" then

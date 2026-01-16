@@ -22,7 +22,6 @@ cm:add_loading_game_callback(
     end
 );
 Idrinth.Events.addListener(
-    "statistics",
     "CharacterCharacterTargetAction",
     function(context)
         local idrinth = Idrinth.Access.get();
@@ -43,7 +42,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "statistics",
     "FactionTurnStart",
     function(context)
         local idrinth = Idrinth.Access.get(context:faction());

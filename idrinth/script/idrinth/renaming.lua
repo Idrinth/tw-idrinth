@@ -1,7 +1,6 @@
 local enableRenaming = true;
 
 Idrinth.Events.addListener(
-    "renaming",
     "MctInitialized",
     true,
     function()
@@ -9,7 +8,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "renaming",
     "MctFinalized",
     true,
     function()
@@ -17,7 +15,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "renaming",
     "UnitCreated",
     function(context)
         if not enableRenaming then

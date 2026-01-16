@@ -105,7 +105,6 @@ local dilemmas = {
     };
 };
 Idrinth.Events.addListener(
-    "story",
     "FactionTurnStart",
     function(context)
         if not context:faction():is_human() then
@@ -198,7 +197,6 @@ cm:add_loading_game_callback(
     end
 );
 Idrinth.Events.addListener(
-    "story",
     "MctInitialized",
     true,
     function()
@@ -207,7 +205,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "story",
     "MctFinalized",
     true,
     function()

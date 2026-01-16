@@ -12,7 +12,6 @@ local function get(key)
 end
 
 Idrinth.Events.addListener(
-    "mct",
     "MctInitialized",
     true,
     function(context)
@@ -20,7 +19,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "mct",
     "MctFinalized",
     true,
     function(context)

@@ -135,7 +135,6 @@ local updateSettlementViewState = function(clickedButton)
 end;
 
 Idrinth.Events.addListener(
-    "settlementui",
     "ComponentLClickUp",
     function(context)
         if not Idrinth.Access.spawned() then
@@ -158,7 +157,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "settlementui",
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
     function()
@@ -166,7 +164,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "settlementui",
     "PanelOpenedCampaign",
     Idrinth.Access.spawned,
     function()
@@ -174,7 +171,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "settlementui",
     "CampaignSettlementSelectedAny",
     Idrinth.Access.spawned,
     function()

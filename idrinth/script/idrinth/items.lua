@@ -63,7 +63,6 @@ local uniqueAncillaries = {
 };
 
 Idrinth.Events.addListener(
-    "items",
     "FactionTurnStart",
     function(context)
         if not context:faction():is_human() then
@@ -99,7 +98,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "items",
     "CharacterAncillaryGained",
     Idrinth.Access.spawned,
     function(context)
@@ -121,7 +119,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "items",
     "MctInitialized",
     true,
     function()
@@ -130,7 +127,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "items",
     "MctFinalized",
     true,
     function()

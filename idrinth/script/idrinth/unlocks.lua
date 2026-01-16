@@ -178,7 +178,6 @@ local spawnIdrinth = function(agentType, faction)
 end;
 
 Idrinth.Events.addListener(
-    "unlocks",
     "MctInitialized",
     true,
     function()
@@ -186,7 +185,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "unlocks",
     "MctFinalized",
     true,
     function()
@@ -194,7 +192,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "unlocks",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_levelMinimum_choice";
@@ -219,7 +216,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "unlocks",
     "FactionTurnStart",
     function(context)
         return Idrinth.mayConfigure() and context:faction():is_human() and unlockLevelAdjustment == nil;
@@ -229,7 +225,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "unlocks",
     "FactionTurnStart",
     function(context)
         if not context:faction():is_human() then
@@ -276,7 +271,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "unlocks",
     "FactionTurnStart",
     function(context)
         if context:faction():is_human() then
@@ -315,7 +309,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "unlocks",
     "MissionSucceeded",
     function(context)
         if Idrinth.Access.spawned() then
@@ -333,7 +326,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "unlocks",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == Idrinth.Constants.UnlockDilemma and not Idrinth.Access.spawned();

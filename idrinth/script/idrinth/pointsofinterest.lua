@@ -97,7 +97,6 @@ end;
 local enablePointsOfInterest = nil;
 
 Idrinth.Events.addListener(
-    "pointsofinterest",
     "MctInitialized",
     true,
     function()
@@ -105,7 +104,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "pointsofinterest",
     "MctFinalized",
     true,
     function()
@@ -113,7 +111,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "pointsofinterest",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_story_choice";
@@ -123,7 +120,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "pointsofinterest",
     "FactionTurnStart",
     function(context)
         return Idrinth.mayConfigure() and enablePointsOfInterest == nil and context:faction():is_human();
@@ -133,7 +129,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "pointsofinterest",
     "FactionTurnStart",
     function(context)
         if not enablePointsOfInterest then

@@ -15,7 +15,6 @@ local VETERAN_PREFIX = "idrinth_veteran_";
 local CHAPEL_PREFIX = "idrinth_hev_high_elf_vampires_chapel_";
 local UPGRADE_EFFECT_RECORD = "CcoUnitPurchasableEffectRecord";
 Idrinth.Events.addListener(
-    "army",
     "MctInitialized",
     true,
     function()
@@ -24,7 +23,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "army",
     "MctFinalized",
     true,
     function()
@@ -481,7 +479,6 @@ local handleUpgradeButtons = function()
     end;
 end;
 Idrinth.Events.addListener(
-    "army",
     "UnitCreated",
     function(context)
         local unitKey = context:unit():unit_key();
@@ -503,7 +500,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "army",
     "UnitCreated",
     function(context)
         local unitKey = context:unit():unit_key();
@@ -518,7 +514,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "army",
     "FactionTurnStart",
     function(context)
         if not enableAnimalWAAAGH then
@@ -569,7 +564,6 @@ local buttonMap = {
     end,
 };
 Idrinth.Events.addListener(
-    "army",
     "ComponentLClickUp",
     true,
     function(context)
@@ -580,7 +574,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "army",
     "PanelOpenedCampaign",
     function(context)
         return context.string == "units_panel";

@@ -5,7 +5,6 @@ local lua_start_time = os.clock();
 local logfile = "idrinth." .. os.date("%y%m%d%H%M") .. ".log";
 
 Idrinth.Events.addListener(
-    "logging",
     "MctInitialized",
     true,
     function()
@@ -14,7 +13,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "logging",
     "MctFinalized",
     true,
     function()
@@ -23,7 +21,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "logging",
     "ScriptEventIdrinthLogMessageReady",
     true,
     function(context)

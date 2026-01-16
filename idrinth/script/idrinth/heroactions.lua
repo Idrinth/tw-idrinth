@@ -1,5 +1,4 @@
 Idrinth.Events.addListener(
-    "heroactions",
     "CharacterCharacterTargetAction",
     function(context)
         local idrinth = Idrinth.Access.get();

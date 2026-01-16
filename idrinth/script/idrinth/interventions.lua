@@ -89,7 +89,6 @@ local cooldownFactors = {
 };
 
 Idrinth.Events.addListener(
-    "interventions",
     "FactionTurnStart",
     function(context)
         if not context:faction():is_human() then
@@ -163,7 +162,6 @@ cm:add_loading_game_callback(
     end
 );
 Idrinth.Events.addListener(
-    "interventions",
     "MctInitialized",
     true,
     function()
@@ -171,7 +169,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "interventions",
     "MctFinalized",
     true,
     function()

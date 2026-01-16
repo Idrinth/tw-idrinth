@@ -28,7 +28,6 @@ local addForeignSlots = function(idrinth, faction)
     );
 end;
 Idrinth.Events.addListener(
-    "chapels",
     "MctInitialized",
     true,
     function()
@@ -37,7 +36,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "chapels",
     "MctFinalized",
     true,
     function()
@@ -46,7 +44,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "chapels",
     "FactionTurnStart",
     function(context)
         return Idrinth.mayConfigure() and context:faction():is_human() and nil == enableChapels;
@@ -56,7 +53,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "chapels",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_chapels_choice";
@@ -66,7 +62,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "chapels",
     "FactionTurnStart",
     function(context)
         if not enableChapels then
@@ -113,7 +108,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "chapels",
     "RegionFactionChangeEvent",
     Idrinth.Access.spawned,
     function(context)

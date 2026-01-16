@@ -74,7 +74,6 @@ local adjustDevotionTraitsBy = function(idrinth, devotion, points)
     return total;
 end;
 Idrinth.Events.addListener(
-    "traits",
     "FactionTurnStart",
     function(context)
         local idrinth = Idrinth.Access.get(context:faction());
@@ -122,7 +121,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "traits",
     "BattleCompleted",
     function()
         if not cm:model():pending_battle():has_been_fought() then

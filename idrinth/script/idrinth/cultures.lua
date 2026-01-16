@@ -17,7 +17,6 @@ local extendedCultures = {
 };
 
 Idrinth.Events.addListener(
-    "cultures",
     "MctInitialized",
     true,
     function()
@@ -27,7 +26,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "cultures",
     "MctFinalized",
     true,
     function()
@@ -37,7 +35,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "cultures",
     "DilemmaChoiceMadeEvent",
     function(context)
         return context:dilemma() == "idrinth_mode_choice";
@@ -49,7 +46,6 @@ Idrinth.Events.addListener(
     end
 );
 Idrinth.Events.addListener(
-    "cultures",
     "FactionTurnStart",
     function(context)
         return context:faction():is_human() and enableExtendedCultures == nil;
