@@ -280,6 +280,33 @@ def read_column_referenced_keys(db_path: Path) -> Set[str]:
     """
     referenced_keys = set()
 
+    # agent_actions_tables: unique_id column generates effects_additional_tooltip_details keys
+    agent_actions_file = db_path / "agent_actions_tables" / "idrinth.tsv"
+    if agent_actions_file.exists():
+        with open(agent_actions_file, "r", encoding="utf-8") as f:
+            header = None
+            unique_id_idx = 0
+
+            for line_num, line in enumerate(f, 1):
+                parts = line.strip().split("\t")
+
+                if line_num == 1:
+                    header = parts
+                    if "unique_id" in header:
+                        unique_id_idx = header.index("unique_id")
+                    continue
+
+                if line.startswith("#"):
+                    continue
+
+                if parts and len(parts) > unique_id_idx and parts[unique_id_idx]:
+                    unique_id = parts[unique_id_idx]
+                    # Generate the effects_additional_tooltip_details translation key
+                    referenced_keys.add(f"effects_additional_tooltip_details_localised_description_{unique_id}")
+                    # Some keys have _vmp suffix doubled (e.g., spread_corruption_vmp_vmp)
+                    if unique_id.endswith("_vmp"):
+                        referenced_keys.add(f"effects_additional_tooltip_details_localised_description_{unique_id}_vmp")
+
     # building_culture_variants has 'short_description' column that references
     # building_short_description_texts keys, and 'icon' column for shared names
     bcv_file = db_path / "building_culture_variants_tables" / "idrinth.tsv"
@@ -424,6 +451,12 @@ def generate_expected_translation_keys(
                 for db_key in db_keys:
                     for suffix in suffixes:
                         expected_keys.add(f"{prefix}{suffix}{db_key}")
+                        # For effects_tables, also generate keys without 'enable_' prefix
+                        # e.g., effect key 'idrinth_effect_agent_action_enable_assist_army_training'
+                        # can have translation key 'effects_description_idrinth_effect_agent_action_assist_army_training'
+                        if table_name == "effects_tables" and "_enable_" in db_key:
+                            key_without_enable = db_key.replace("_enable_", "_", 1)
+                            expected_keys.add(f"{prefix}{suffix}{key_without_enable}")
 
     # Handle composite keys
     for table_name, comp_keys in composite_keys.items():
