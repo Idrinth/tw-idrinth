@@ -168,9 +168,9 @@ core:add_listener(
     "idrinth_interventions_MctInitialized",
     "MctInitialized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctInitialized", "interventions");
-        cooldownMode = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("intervention_cooldown"):get_finalized_setting();
+        cooldownMode = Idrinth.Mct.get("intervention_cooldown");
     end,
     true
 );
@@ -178,9 +178,9 @@ core:add_listener(
     "idrinth_interventions_MctFinalized",
     "MctFinalized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctFinalized", "interventions");
-        cooldownMode = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("intervention_cooldown"):get_finalized_setting();
+        cooldownMode = Idrinth.Mct.get("intervention_cooldown");
     end,
     true
 );

@@ -203,10 +203,10 @@ core:add_listener(
     "idrinth_story_MctInitialized",
     "MctInitialized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctInitialized", "story");
-        cooldownMode = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("dilemma_cooldown"):get_finalized_setting();
-        chanceMode = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("story_dilemma_base_chance"):get_finalized_setting();
+        cooldownMode = Idrinth.Mct.get("dilemma_cooldown");
+        chanceMode = Idrinth.Mct.get("story_dilemma_base_chance");
     end,
     true
 );
@@ -214,10 +214,10 @@ core:add_listener(
     "idrinth_story_MctFinalized",
     "MctFinalized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctFinalized", "story");
-        cooldownMode = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("dilemma_cooldown"):get_finalized_setting();
-        chanceMode = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("story_dilemma_base_chance"):get_finalized_setting();
+        cooldownMode = Idrinth.Mct.get("dilemma_cooldown");
+        chanceMode = Idrinth.Mct.get("story_dilemma_base_chance");
     end,
     true
 );

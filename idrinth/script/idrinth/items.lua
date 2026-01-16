@@ -128,11 +128,10 @@ core:add_listener(
     "idrinth_items_MctInitialized",
     "MctInitialized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctInitialized", "items");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        godBlessedItemRequirements = mod:get_option_by_key("god_item_difficulty"):get_finalized_setting();
-        itemChanceMode = mod:get_option_by_key("god_item_base_chance"):get_finalized_setting();
+        godBlessedItemRequirements = Idrinth.Mct.get("god_item_difficulty");
+        itemChanceMode = Idrinth.Mct.get("god_item_base_chance");
     end,
     true
 );
@@ -140,11 +139,10 @@ core:add_listener(
     "idrinth_items_MctFinalized",
     "MctFinalized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctFinalized", "items");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        godBlessedItemRequirements = mod:get_option_by_key("god_item_difficulty"):get_finalized_setting();
-        itemChanceMode = mod:get_option_by_key("god_item_base_chance"):get_finalized_setting();
+        godBlessedItemRequirements = Idrinth.Mct.get("god_item_difficulty");
+        itemChanceMode = Idrinth.Mct.get("god_item_base_chance");
     end,
     true
 );
