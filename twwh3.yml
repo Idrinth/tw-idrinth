@@ -471,6 +471,8 @@ structs:
     call_context_command:
       args:
       - type: string
+      - type: any
+      - type: string
     get_context_value:
       must_use: true
       args:
