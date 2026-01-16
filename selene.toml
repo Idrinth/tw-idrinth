@@ -4,5 +4,5 @@
 std = "lua51+tw_game+tw_idrinth"
 
 [lints]
-# Allow shadowing of variables
-shadowing = "allow"
+# Disallow shadowing of variables
+shadowing = "deny"
