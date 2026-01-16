@@ -4,258 +4,451 @@
 name: tw_idrinth
 base: lua51
 
+structs:
+  # Core object struct
+  Core:
+    add_listener:
+      method: true
+      args: []
+    get_or_create_component:
+      method: true
+      args: []
+    get_ui_root:
+      method: true
+      args: []
+    is_ui_created:
+      method: true
+      args: []
+    trigger_custom_event:
+      method: true
+      args: []
+
+  # Campaign manager struct
+  CampaignManager:
+    add_experience_to_unit:
+      method: true
+      args: []
+    add_first_tick_callback:
+      method: true
+      args: []
+    add_foreign_slot_set_to_region_for_faction:
+      method: true
+      args: []
+    add_loading_game_callback:
+      method: true
+      args: []
+    add_pooled_resource_changed_listener_by_faction:
+      method: true
+      args: []
+    add_pre_first_tick_callback:
+      method: true
+      args: []
+    add_saving_game_callback:
+      method: true
+      args: []
+    apply_effect_bundle:
+      method: true
+      args: []
+    apply_effect_bundle_to_character:
+      method: true
+      args: []
+    apply_effect_bundle_to_region:
+      method: true
+      args: []
+    callback:
+      method: true
+      args: []
+    cancel_custom_mission:
+      method: true
+      args: []
+    change_character_custom_name:
+      method: true
+      args: []
+    change_custom_unit_name:
+      method: true
+      args: []
+    char_lookup_str:
+      method: true
+      args: []
+    create_force_with_general:
+      method: true
+      args: []
+    disable_event_feed_events:
+      method: true
+      args: []
+    faction_add_pooled_resource:
+      method: true
+      args: []
+    faction_purchase_unit_effect:
+      method: true
+      args: []
+    faction_set_unit_purchasable_effect_lock_state:
+      method: true
+      args: []
+    find_valid_spawn_location_for_character_from_position:
+      method: true
+      args: []
+    force_add_ancillary:
+      method: true
+      args: []
+    force_add_trait:
+      method: true
+      args: []
+    force_remove_ancillary_from_faction:
+      method: true
+      args: []
+    force_remove_trait:
+      method: true
+      args: []
+    get_campaign_ui_manager:
+      method: true
+      args: []
+    get_character_by_cqi:
+      method: true
+      args: []
+    get_factions_by_culture:
+      method: true
+      args: []
+    get_highest_ranked_general_for_faction:
+      method: true
+      args: []
+    get_local_faction:
+      method: true
+      args: []
+    get_most_recently_created_character_of_type:
+      method: true
+      args: []
+    grant_unit_to_character:
+      method: true
+      args: []
+    is_multiplayer:
+      method: true
+      args: []
+    is_new_game:
+      method: true
+      args: []
+    load_global_script:
+      method: true
+      args: []
+    load_named_value:
+      method: true
+      args: []
+    mission_is_active_for_faction:
+      method: true
+      args: []
+    model:
+      method: true
+      args: []
+    pending_battle_cache_attacker_value:
+      method: true
+      args: []
+    pending_battle_cache_attacker_victory:
+      method: true
+      args: []
+    pending_battle_cache_culture_is_attacker:
+      method: true
+      args: []
+    pending_battle_cache_culture_is_defender:
+      method: true
+      args: []
+    pending_battle_cache_defender_value:
+      method: true
+      args: []
+    pending_battle_cache_defender_victory:
+      method: true
+      args: []
+    pending_battle_cache_get_attacker:
+      method: true
+      args: []
+    pending_battle_cache_get_attacker_embedded_character_subtypes:
+      method: true
+      args: []
+    pending_battle_cache_get_defender:
+      method: true
+      args: []
+    pending_battle_cache_get_defender_embedded_character_subtypes:
+      method: true
+      args: []
+    pending_battle_cache_num_attackers:
+      method: true
+      args: []
+    pending_battle_cache_num_defenders:
+      method: true
+      args: []
+    pooled_resource_factor_transaction:
+      method: true
+      args: []
+    random:
+      method: true
+      args: []
+    random_number:
+      method: true
+      args: []
+    real_callback:
+      method: true
+      args: []
+    remove_effect_bundle_from_region:
+      method: true
+      args: []
+    remove_faction_foreign_slots_from_region:
+      method: true
+      args: []
+    repeat_real_callback:
+      method: true
+      args: []
+    replenish_action_points:
+      method: true
+      args: []
+    save_named_value:
+      method: true
+      args: []
+    set_character_immortality:
+      method: true
+      args: []
+    set_character_unique:
+      method: true
+      args: []
+    show_message_event:
+      method: true
+      args: []
+    show_message_event_located:
+      method: true
+      args: []
+    spawn_transported_force_at_military_force:
+      method: true
+      args: []
+    spawn_unique_agent_at_character:
+      method: true
+      args: []
+    spawn_unique_agent_at_region:
+      method: true
+      args: []
+    treasury_mod:
+      method: true
+      args: []
+    trigger_dilemma:
+      method: true
+      args: []
+    trigger_mission:
+      method: true
+      args: []
+
+  # Common utilities struct
+  Common:
+    call_context_command:
+      method: true
+      args: []
+    get_context_value:
+      method: true
+      args: []
+    get_localised_string:
+      method: true
+      args: []
+
+  # Idrinth sub-structs
+  IdrinthAccess:
+    get:
+      args: []
+    spawned:
+      args: []
+
+  IdrinthConstantsCultures:
+    DarkElves:
+      property: read-only
+    HighElves:
+      property: read-only
+    WoodElves:
+      property: read-only
+
+  IdrinthConstantsGods:
+    Asuryan:
+      property: read-only
+    Khaine:
+      property: read-only
+    Kurnous:
+      property: read-only
+
+  IdrinthConstantsPanels:
+    HudCampaign:
+      property: read-only
+
+  IdrinthConstants:
+    Cultures:
+      struct: IdrinthConstantsCultures
+    GodList:
+      property: read-only
+    Gods:
+      struct: IdrinthConstantsGods
+    HeroSubtype:
+      property: read-only
+    HeroType:
+      property: read-only
+    LordSubtype:
+      property: read-only
+    LordType:
+      property: read-only
+    MctModKey:
+      property: read-only
+    Panels:
+      struct: IdrinthConstantsPanels
+    UnlockDilemma:
+      property: read-only
+
+  IdrinthCultures:
+    get:
+      args: []
+    isAllowed:
+      args:
+        - type: string
+
+  IdrinthEventsConditions:
+    battleFoughtAndSpawned:
+      args: []
+    dilemmaIs:
+      args:
+        - type: string
+    isPanelOpen:
+      args:
+        - type: string
+    panelOpened:
+      args:
+        - type: string
+
+  IdrinthEvents:
+    Conditions:
+      struct: IdrinthEventsConditions
+    addListener:
+      args:
+        - type: string
+        - type: function
+        - type: function
+    onMctChange:
+      args:
+        - type: function
+
+  IdrinthMct:
+    get:
+      args:
+        - type: string
+
+  IdrinthStatistics:
+    ActiveRounds:
+      property: read-only
+    BattlesFought:
+      property: read-only
+    CharactersAssassinated:
+      property: read-only
+
+  IdrinthUi:
+    countChildrenWhere:
+      args:
+        - type: any
+        - type: function
+    createOrFind:
+      args:
+        - type: any
+        - type: string
+    findChildWhere:
+      args:
+        - type: any
+        - type: function
+    findElementWithin:
+      args:
+        - type: any
+        - type: string
+    forEachChild:
+      args:
+        - type: any
+        - type: function
+    nowAndThen:
+      args:
+        - type: any
+        - type: function
+
+  IdrinthUnittypes:
+    isBlessedAnimal:
+      args:
+        - type: string
+    isChapelUnit:
+      args:
+        - type: string
+    isEliteTroop:
+      args:
+        - type: string
+    isEnlargedCavalry:
+      args:
+        - type: string
+    isEnlargedEliteTroop:
+      args:
+        - type: string
+    isHero:
+      args:
+        - type: string
+    isPriest:
+      args:
+        - type: string
+    isSingleEntity:
+      args:
+        - type: string
+    isVampiric:
+      args:
+        - type: string
+    isVarghulf:
+      args:
+        - type: string
+
+  IdrinthVersion:
+    bug:
+      property: read-only
+    feature:
+      property: read-only
+    main:
+      property: read-only
+
+  Idrinth:
+    Access:
+      struct: IdrinthAccess
+    Constants:
+      struct: IdrinthConstants
+    Cultures:
+      struct: IdrinthCultures
+    Events:
+      struct: IdrinthEvents
+    Mct:
+      struct: IdrinthMct
+    Names:
+      property: read-only
+    Statistics:
+      struct: IdrinthStatistics
+    Ui:
+      struct: IdrinthUi
+    Unittypes:
+      struct: IdrinthUnittypes
+    Version:
+      struct: IdrinthVersion
+    factions:
+      property: read-only
+    log:
+      args:
+        - type: string
+    mayConfigure:
+      args: []
+
 globals:
   # ============================================
   # Total War Game API
   # ============================================
 
-  # Core object
   core:
-    property: read-only
-    struct:
-      add_listener:
-        method: true
-        args: []
-      get_or_create_component:
-        method: true
-        args: []
-      get_ui_root:
-        method: true
-        args: []
-      is_ui_created:
-        method: true
-        args: []
-      trigger_custom_event:
-        method: true
-        args: []
+    struct: Core
 
-  # Campaign manager object
   cm:
-    property: read-only
-    struct:
-      add_experience_to_unit:
-        method: true
-        args: []
-      add_first_tick_callback:
-        method: true
-        args: []
-      add_foreign_slot_set_to_region_for_faction:
-        method: true
-        args: []
-      add_loading_game_callback:
-        method: true
-        args: []
-      add_pooled_resource_changed_listener_by_faction:
-        method: true
-        args: []
-      add_pre_first_tick_callback:
-        method: true
-        args: []
-      add_saving_game_callback:
-        method: true
-        args: []
-      apply_effect_bundle:
-        method: true
-        args: []
-      apply_effect_bundle_to_character:
-        method: true
-        args: []
-      apply_effect_bundle_to_region:
-        method: true
-        args: []
-      callback:
-        method: true
-        args: []
-      cancel_custom_mission:
-        method: true
-        args: []
-      change_character_custom_name:
-        method: true
-        args: []
-      change_custom_unit_name:
-        method: true
-        args: []
-      char_lookup_str:
-        method: true
-        args: []
-      create_force_with_general:
-        method: true
-        args: []
-      disable_event_feed_events:
-        method: true
-        args: []
-      faction_add_pooled_resource:
-        method: true
-        args: []
-      faction_purchase_unit_effect:
-        method: true
-        args: []
-      faction_set_unit_purchasable_effect_lock_state:
-        method: true
-        args: []
-      find_valid_spawn_location_for_character_from_position:
-        method: true
-        args: []
-      force_add_ancillary:
-        method: true
-        args: []
-      force_add_trait:
-        method: true
-        args: []
-      force_remove_ancillary_from_faction:
-        method: true
-        args: []
-      force_remove_trait:
-        method: true
-        args: []
-      get_campaign_ui_manager:
-        method: true
-        args: []
-      get_character_by_cqi:
-        method: true
-        args: []
-      get_factions_by_culture:
-        method: true
-        args: []
-      get_highest_ranked_general_for_faction:
-        method: true
-        args: []
-      get_local_faction:
-        method: true
-        args: []
-      get_most_recently_created_character_of_type:
-        method: true
-        args: []
-      grant_unit_to_character:
-        method: true
-        args: []
-      is_multiplayer:
-        method: true
-        args: []
-      is_new_game:
-        method: true
-        args: []
-      load_global_script:
-        method: true
-        args: []
-      load_named_value:
-        method: true
-        args: []
-      mission_is_active_for_faction:
-        method: true
-        args: []
-      model:
-        method: true
-        args: []
-      pending_battle_cache_attacker_value:
-        method: true
-        args: []
-      pending_battle_cache_attacker_victory:
-        method: true
-        args: []
-      pending_battle_cache_culture_is_attacker:
-        method: true
-        args: []
-      pending_battle_cache_culture_is_defender:
-        method: true
-        args: []
-      pending_battle_cache_defender_value:
-        method: true
-        args: []
-      pending_battle_cache_defender_victory:
-        method: true
-        args: []
-      pending_battle_cache_get_attacker:
-        method: true
-        args: []
-      pending_battle_cache_get_attacker_embedded_character_subtypes:
-        method: true
-        args: []
-      pending_battle_cache_get_defender:
-        method: true
-        args: []
-      pending_battle_cache_get_defender_embedded_character_subtypes:
-        method: true
-        args: []
-      pending_battle_cache_num_attackers:
-        method: true
-        args: []
-      pending_battle_cache_num_defenders:
-        method: true
-        args: []
-      pooled_resource_factor_transaction:
-        method: true
-        args: []
-      random:
-        method: true
-        args: []
-      random_number:
-        method: true
-        args: []
-      real_callback:
-        method: true
-        args: []
-      remove_effect_bundle_from_region:
-        method: true
-        args: []
-      remove_faction_foreign_slots_from_region:
-        method: true
-        args: []
-      repeat_real_callback:
-        method: true
-        args: []
-      replenish_action_points:
-        method: true
-        args: []
-      save_named_value:
-        method: true
-        args: []
-      set_character_immortality:
-        method: true
-        args: []
-      set_character_unique:
-        method: true
-        args: []
-      show_message_event:
-        method: true
-        args: []
-      show_message_event_located:
-        method: true
-        args: []
-      spawn_transported_force_at_military_force:
-        method: true
-        args: []
-      spawn_unique_agent_at_character:
-        method: true
-        args: []
-      spawn_unique_agent_at_region:
-        method: true
-        args: []
-      treasury_mod:
-        method: true
-        args: []
-      trigger_dilemma:
-        method: true
-        args: []
-      trigger_mission:
-        method: true
-        args: []
+    struct: CampaignManager
 
-  # Common utilities
   common:
-    property: read-only
-    struct:
-      call_context_command:
-        method: true
-        args: []
-      get_context_value:
-        method: true
-        args: []
-      get_localised_string:
-        method: true
-        args: []
+    struct: Common
 
-  # Simple read-only globals
+  # Simple read-only globals (functions)
   is_string:
     args:
       - type: any
@@ -282,180 +475,6 @@ globals:
   # Idrinth Mod Namespace
   # ============================================
 
-  # Main Idrinth namespace - needs full-write to allow Idrinth = {}
   Idrinth:
     property: full-write
-    struct:
-      Access:
-        property: read-only
-        struct:
-          get:
-            args: []
-          spawned:
-            args: []
-      Constants:
-        property: read-only
-        struct:
-          Cultures:
-            property: read-only
-            struct:
-              DarkElves:
-                property: read-only
-              HighElves:
-                property: read-only
-              WoodElves:
-                property: read-only
-          GodList:
-            property: read-only
-          Gods:
-            property: read-only
-            struct:
-              Asuryan:
-                property: read-only
-              Khaine:
-                property: read-only
-              Kurnous:
-                property: read-only
-          HeroSubtype:
-            property: read-only
-          HeroType:
-            property: read-only
-          LordSubtype:
-            property: read-only
-          LordType:
-            property: read-only
-          MctModKey:
-            property: read-only
-          Panels:
-            property: read-only
-            struct:
-              HudCampaign:
-                property: read-only
-          UnlockDilemma:
-            property: read-only
-      Cultures:
-        property: read-only
-        struct:
-          get:
-            args: []
-          isAllowed:
-            args:
-              - type: string
-      Events:
-        property: read-only
-        struct:
-          Conditions:
-            property: read-only
-            struct:
-              battleFoughtAndSpawned:
-                args: []
-              dilemmaIs:
-                args:
-                  - type: string
-              isPanelOpen:
-                args:
-                  - type: string
-              panelOpened:
-                args:
-                  - type: string
-          addListener:
-            args:
-              - type: string
-              - type: function
-              - type: function
-          onMctChange:
-            args:
-              - type: function
-      Mct:
-        property: read-only
-        struct:
-          get:
-            args:
-              - type: string
-      Names:
-        property: read-only
-      Statistics:
-        property: read-only
-        struct:
-          ActiveRounds:
-            property: read-only
-          BattlesFought:
-            property: read-only
-          CharactersAssassinated:
-            property: read-only
-      Ui:
-        property: read-only
-        struct:
-          countChildrenWhere:
-            args:
-              - type: any
-              - type: function
-          createOrFind:
-            args:
-              - type: any
-              - type: string
-          findChildWhere:
-            args:
-              - type: any
-              - type: function
-          findElementWithin:
-            args:
-              - type: any
-              - type: string
-          forEachChild:
-            args:
-              - type: any
-              - type: function
-          nowAndThen:
-            args:
-              - type: any
-              - type: function
-      Unittypes:
-        property: read-only
-        struct:
-          isBlessedAnimal:
-            args:
-              - type: string
-          isChapelUnit:
-            args:
-              - type: string
-          isEliteTroop:
-            args:
-              - type: string
-          isEnlargedCavalry:
-            args:
-              - type: string
-          isEnlargedEliteTroop:
-            args:
-              - type: string
-          isHero:
-            args:
-              - type: string
-          isPriest:
-            args:
-              - type: string
-          isSingleEntity:
-            args:
-              - type: string
-          isVampiric:
-            args:
-              - type: string
-          isVarghulf:
-            args:
-              - type: string
-      Version:
-        property: read-only
-        struct:
-          bug:
-            property: read-only
-          feature:
-            property: read-only
-          main:
-            property: read-only
-      factions:
-        property: read-only
-      log:
-        args:
-          - type: string
-      mayConfigure:
-        args: []
+    struct: Idrinth
