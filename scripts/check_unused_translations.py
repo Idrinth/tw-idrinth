@@ -10,7 +10,6 @@ Exit codes:
     1 - Unused translations detected
 """
 
-import argparse
 import re
 import sys
 from pathlib import Path
@@ -570,29 +569,6 @@ def scan_db_for_direct_references(db_path: Path, all_translation_keys: Set[str])
 
 def main() -> int:
     """Main entry point."""
-    parser = argparse.ArgumentParser(
-        description="Check for unused translation keys in the Idrinth mod."
-    )
-    parser.add_argument(
-        "-q", "--quiet",
-        action="store_true",
-        help="Quiet mode - only output errors and summary"
-    )
-    parser.add_argument(
-        "-v", "--verbose",
-        action="store_true",
-        help="Verbose mode - show detailed progress"
-    )
-    args = parser.parse_args()
-
-    def log(message: str) -> None:
-        if not args.quiet:
-            print(message)
-
-    def verbose(message: str) -> None:
-        if args.verbose:
-            print(message)
-
     project_root = get_project_root()
     idrinth_path = project_root / "idrinth"
 
@@ -608,37 +584,15 @@ def main() -> int:
         print(f"Error: Database directory not found: {db_path}", file=sys.stderr)
         return 1
 
-    log("Reading translation keys...")
     all_translation_keys = read_translation_keys(text_db_path)
-    log(f"  Found {len(all_translation_keys)} translation keys")
-
-    log("Reading database keys...")
     table_keys = read_db_keys(db_path)
-    total_db_keys = sum(len(keys) for keys in table_keys.values())
-    log(f"  Found {total_db_keys} database keys across {len(table_keys)} tables")
-
-    log("Reading composite database keys...")
     composite_keys = read_composite_db_keys(db_path)
-    total_composite = sum(len(keys) for keys in composite_keys.values())
-    log(f"  Found {total_composite} composite keys")
-
-    log("Generating expected translation keys from database...")
     expected_from_db = generate_expected_translation_keys(table_keys, composite_keys)
-    log(f"  Generated {len(expected_from_db)} expected translation keys")
-
-    log("Scanning Lua files for translation key references...")
     lua_direct_refs = scan_lua_for_translation_keys(script_path, all_translation_keys)
     lua_dynamic_refs = scan_lua_for_dynamic_keys(script_path, all_translation_keys)
     lua_refs = lua_direct_refs | lua_dynamic_refs
-    log(f"  Found {len(lua_refs)} translation keys referenced in Lua")
-
-    log("Scanning database files for direct references...")
     db_direct_refs = scan_db_for_direct_references(db_path, all_translation_keys)
-    log(f"  Found {len(db_direct_refs)} translation keys directly referenced in database")
-
-    log("Reading column-referenced translation keys...")
     column_refs = read_column_referenced_keys(db_path)
-    log(f"  Found {len(column_refs)} translation keys referenced in database columns")
 
     # Combine all used keys
     used_keys = expected_from_db | lua_refs | db_direct_refs | column_refs
@@ -680,7 +634,7 @@ def main() -> int:
         print(f"Total unused: {len(unused_keys)}")
         return 1
     else:
-        log("\nNo unused translation keys found!")
+        print("\nNo unused translation keys found!")
         return 0
 
 
