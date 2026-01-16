@@ -110,12 +110,15 @@ structs:
     change_character_custom_name:
       method: true
       args:
+      - type:
+          display: Character
+      - type: string
+      - type: string
       - type: string
       - type: string
     change_custom_unit_name:
       method: true
       args:
-      - type: string
       - type: string
       - type: string
     char_lookup_str:
