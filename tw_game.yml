@@ -2,6 +2,7 @@
 # Based on read_globals in .luacheckrc
 
 name: tw_game
+base: lua51
 
 globals:
   # Core object - main entry point

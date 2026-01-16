@@ -1,7 +1,7 @@
 # Selene configuration for Total War modding
 # Based on .luacheckrc configuration
 
-std = "lua51+tw_game+tw_idrinth"
+std = "tw_idrinth"
 
 [lints]
 # Disallow shadowing of variables

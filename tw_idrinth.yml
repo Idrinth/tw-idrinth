@@ -2,6 +2,7 @@
 # Based on globals in .luacheckrc
 
 name: tw_idrinth
+base: tw_game
 
 globals:
   # Main Idrinth namespace - needs full-write to allow Idrinth = {}
