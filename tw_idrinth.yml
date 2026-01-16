@@ -14,185 +14,192 @@ globals:
     property: read-only
     struct:
       add_listener:
-        property: read-only
+        method: true
       get_or_create_component:
-        property: read-only
+        method: true
       get_ui_root:
-        property: read-only
+        method: true
       is_ui_created:
-        property: read-only
+        method: true
       trigger_custom_event:
-        property: read-only
+        method: true
 
   # Campaign manager object
   cm:
     property: read-only
     struct:
       add_experience_to_unit:
-        property: read-only
+        method: true
       add_first_tick_callback:
-        property: read-only
+        method: true
       add_foreign_slot_set_to_region_for_faction:
-        property: read-only
+        method: true
       add_loading_game_callback:
-        property: read-only
+        method: true
       add_pooled_resource_changed_listener_by_faction:
-        property: read-only
+        method: true
       add_pre_first_tick_callback:
-        property: read-only
+        method: true
       add_saving_game_callback:
-        property: read-only
+        method: true
       apply_effect_bundle:
-        property: read-only
+        method: true
       apply_effect_bundle_to_character:
-        property: read-only
+        method: true
       apply_effect_bundle_to_region:
-        property: read-only
+        method: true
       callback:
-        property: read-only
+        method: true
       cancel_custom_mission:
-        property: read-only
+        method: true
       change_character_custom_name:
-        property: read-only
+        method: true
       change_custom_unit_name:
-        property: read-only
+        method: true
       char_lookup_str:
-        property: read-only
+        method: true
       create_force_with_general:
-        property: read-only
+        method: true
       disable_event_feed_events:
-        property: read-only
+        method: true
       faction_add_pooled_resource:
-        property: read-only
+        method: true
       faction_purchase_unit_effect:
-        property: read-only
+        method: true
       faction_set_unit_purchasable_effect_lock_state:
-        property: read-only
+        method: true
       find_valid_spawn_location_for_character_from_position:
-        property: read-only
+        method: true
       force_add_ancillary:
-        property: read-only
+        method: true
       force_add_trait:
-        property: read-only
+        method: true
       force_remove_ancillary_from_faction:
-        property: read-only
+        method: true
       force_remove_trait:
-        property: read-only
+        method: true
       get_campaign_ui_manager:
-        property: read-only
+        method: true
       get_character_by_cqi:
-        property: read-only
+        method: true
       get_factions_by_culture:
-        property: read-only
+        method: true
       get_highest_ranked_general_for_faction:
-        property: read-only
+        method: true
       get_local_faction:
-        property: read-only
+        method: true
       get_most_recently_created_character_of_type:
-        property: read-only
+        method: true
       grant_unit_to_character:
-        property: read-only
+        method: true
       is_multiplayer:
-        property: read-only
+        method: true
       is_new_game:
-        property: read-only
+        method: true
       load_global_script:
-        property: read-only
+        method: true
       load_named_value:
-        property: read-only
+        method: true
       mission_is_active_for_faction:
-        property: read-only
+        method: true
       model:
-        property: read-only
+        method: true
       pending_battle_cache_attacker_value:
-        property: read-only
+        method: true
       pending_battle_cache_attacker_victory:
-        property: read-only
+        method: true
       pending_battle_cache_culture_is_attacker:
-        property: read-only
+        method: true
       pending_battle_cache_culture_is_defender:
-        property: read-only
+        method: true
       pending_battle_cache_defender_value:
-        property: read-only
+        method: true
       pending_battle_cache_defender_victory:
-        property: read-only
+        method: true
       pending_battle_cache_get_attacker:
-        property: read-only
+        method: true
       pending_battle_cache_get_attacker_embedded_character_subtypes:
-        property: read-only
+        method: true
       pending_battle_cache_get_defender:
-        property: read-only
+        method: true
       pending_battle_cache_get_defender_embedded_character_subtypes:
-        property: read-only
+        method: true
       pending_battle_cache_num_attackers:
-        property: read-only
+        method: true
       pending_battle_cache_num_defenders:
-        property: read-only
+        method: true
       pooled_resource_factor_transaction:
-        property: read-only
+        method: true
       random:
-        property: read-only
+        method: true
       random_number:
-        property: read-only
+        method: true
       real_callback:
-        property: read-only
+        method: true
       remove_effect_bundle_from_region:
-        property: read-only
+        method: true
       remove_faction_foreign_slots_from_region:
-        property: read-only
+        method: true
       repeat_real_callback:
-        property: read-only
+        method: true
       replenish_action_points:
-        property: read-only
+        method: true
       save_named_value:
-        property: read-only
+        method: true
       set_character_immortality:
-        property: read-only
+        method: true
       set_character_unique:
-        property: read-only
+        method: true
       show_message_event:
-        property: read-only
+        method: true
       show_message_event_located:
-        property: read-only
+        method: true
       spawn_transported_force_at_military_force:
-        property: read-only
+        method: true
       spawn_unique_agent_at_character:
-        property: read-only
+        method: true
       spawn_unique_agent_at_region:
-        property: read-only
+        method: true
       treasury_mod:
-        property: read-only
+        method: true
       trigger_dilemma:
-        property: read-only
+        method: true
       trigger_mission:
-        property: read-only
+        method: true
 
   # Common utilities
   common:
     property: read-only
     struct:
       call_context_command:
-        property: read-only
+        method: true
       get_context_value:
-        property: read-only
+        method: true
       get_localised_string:
-        property: read-only
+        method: true
 
   # Simple read-only globals
   is_string:
-    property: read-only
+    args:
+      - type: any
   is_integer:
-    property: read-only
+    args:
+      - type: any
   UIComponent:
-    property: read-only
+    args:
+      - type: any
   is_uicomponent:
-    property: read-only
+    args:
+      - type: any
   get_mct:
-    property: read-only
+    args: []
   set_component_visible_with_parent:
-    property: read-only
+    args:
+      - type: any
+      - type: boolean
   out:
-    property: read-only
+    args:
+      - type: string
 
   # ============================================
   # Idrinth Mod Namespace
