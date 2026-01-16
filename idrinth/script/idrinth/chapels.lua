@@ -74,7 +74,8 @@ Idrinth.Events.addListener(
         local idrinth, faction = Idrinth.Access.get();
         local buildingSpawnChance = idrinth:rank();
         if idrinth:is_embedded_in_military_force() then
-            if idrinth:embedded_in_military_force():has_general() and idrinth:embedded_in_military_force():general_character():in_settlement() then
+            if idrinth:embedded_in_military_force():has_general()
+                and idrinth:embedded_in_military_force():general_character():in_settlement() then
                 buildingSpawnChance = buildingSpawnChance * 2;
             end;
         else
@@ -118,7 +119,9 @@ Idrinth.Events.addListener(
                 for i = 0, foreignSlotManager:slots():num_items() -1 do
                     local slot = foreignSlotManager:slots():item_at(i);
                     if slot and slot:template_key() == "idrinth_hev_high_elf_vampires_chapel" then
-                        cm:remove_faction_foreign_slots_from_region(faction:command_queue_index(), context:region():cqi());
+                        cm:remove_faction_foreign_slots_from_region(
+                            faction:command_queue_index(), context:region():cqi()
+                        );
                         cm:show_message_event_located(
                             faction:name(),
                             "message_event_strings_title_idrinth_chapel_lost",

@@ -129,7 +129,8 @@ local setupIdrinthsPaths = function()
         hideIdrinthPanels();
         return;
     end;
-    local isIdrinth = character:character_subtype_key() == Idrinth.Constants.HeroSubtype or character:character_subtype_key() == Idrinth.Constants.LordSubtype;
+    local isIdrinth = character:character_subtype_key() == Idrinth.Constants.HeroSubtype
+        or character:character_subtype_key() == Idrinth.Constants.LordSubtype;
     Idrinth.log("is idrinth?: "..tostring(isIdrinth), "characterpanel");
     if isIdrinth then
         Idrinth.log("is idrinth: setting up", "characterpanel");
@@ -216,13 +217,17 @@ Idrinth.Events.addListener(
         local uiRoot = core:get_ui_root();
         if context.string == "details" then
             set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
-            set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "stats_effects_holder");
+            set_component_visible_with_parent(
+                true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "stats_effects_holder"
+            );
             set_component_visible_with_parent(
                 true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "character_details_subpanel"
             );
         elseif context.string == "skills" then
             set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
-            set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "stats_effects_holder");
+            set_component_visible_with_parent(
+                true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "stats_effects_holder"
+            );
             set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "skills_subpanel");
         elseif context.string == "eternal_dance" then
             set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
@@ -234,7 +239,9 @@ Idrinth.Events.addListener(
             set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "quests");
         elseif context.string == "fragments" then
             set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
-            set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "fragments_subpanel");
+            set_component_visible_with_parent(
+                true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "fragments_subpanel"
+            );
         elseif context.string == "vows" then
             set_component_visible_with_parent(false, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, PATHS_PANEL);
             set_component_visible_with_parent(true, uiRoot, PANEL_NAME, CONTEXT_PARENT, TAB_PANELS, "vows_subpanel");

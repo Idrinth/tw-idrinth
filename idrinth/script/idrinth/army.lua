@@ -180,7 +180,9 @@ local upgradeUnit = function(god)
                     common.call_context_command(UNIT_CONTEXT, id, "Disband");
                     cm:grant_unit_to_character(cm:char_lookup_str(character), CHAPEL_PREFIX..god);
                     cm:treasury_mod(factionKey, 0 - price);
-                    cm:faction_add_pooled_resource(factionKey, "idrinth_"..god, "idrinth_"..god.."_other", currentRank * currentRank);
+                    cm:faction_add_pooled_resource(
+                        factionKey, "idrinth_"..god, "idrinth_"..god.."_other", currentRank * currentRank
+                    );
                     cm:real_callback(applyVeteranRankToNewUnit(uiIds, CHAPEL_PREFIX..god, currentRank), CALLBACK_DELAY);
                     return;
                 end;
@@ -482,7 +484,9 @@ Idrinth.Events.addListener(
     "UnitCreated",
     function(context)
         local unitKey = context:unit():unit_key();
-        return Idrinth.Unittypes.isVampiric(unitKey) or Idrinth.Unittypes.isEliteTroop(unitKey) or Idrinth.Unittypes.isEnlargedEliteTroop(unitKey);
+        return Idrinth.Unittypes.isVampiric(unitKey)
+            or Idrinth.Unittypes.isEliteTroop(unitKey)
+            or Idrinth.Unittypes.isEnlargedEliteTroop(unitKey);
     end,
     function(context)
         lockVeterans(context:unit():faction(), false);
@@ -520,7 +524,10 @@ Idrinth.Events.addListener(
             return;
         end;
         local idrinth = Idrinth.Access.get(context:faction());
-        return idrinth and not idrinth:is_wounded() and idrinth:has_military_force() and not idrinth:is_carrying_troops();
+        return idrinth
+            and not idrinth:is_wounded()
+            and idrinth:has_military_force()
+            and not idrinth:is_carrying_troops();
     end,
     function()
         local idrinth = Idrinth.Access.get();

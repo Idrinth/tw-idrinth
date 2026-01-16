@@ -1,9 +1,13 @@
 local getIdrinthFromFaction = function(faction)
-    local idrinthChampion = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth.Constants.HeroType, Idrinth.Constants.HeroSubtype);
+    local idrinthChampion = cm:get_most_recently_created_character_of_type(
+        faction:name(), Idrinth.Constants.HeroType, Idrinth.Constants.HeroSubtype
+    );
     if idrinthChampion then
         return idrinthChampion;
     end;
-    local idrinthGeneral = cm:get_most_recently_created_character_of_type(faction:name(), Idrinth.Constants.LordType, Idrinth.Constants.LordSubtype);
+    local idrinthGeneral = cm:get_most_recently_created_character_of_type(
+        faction:name(), Idrinth.Constants.LordType, Idrinth.Constants.LordSubtype
+    );
     if idrinthGeneral then
         return idrinthGeneral;
     end;

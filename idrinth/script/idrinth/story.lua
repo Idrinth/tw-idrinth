@@ -153,7 +153,8 @@ Idrinth.Events.addListener(
             local hasBattles = Idrinth.Statistics.BattlesFought >= data.min_battles_fought;
             local hasAssassinations = Idrinth.Statistics.CharactersAssassinated >= data.min_assassinations;
             local hasLevel = level >= data.min_level;
-            local meetsRequirements = not data.triggered and hasRounds and hasBattles and hasAssassinations and hasLevel;
+            local meetsRequirements = not data.triggered
+                and hasRounds and hasBattles and hasAssassinations and hasLevel;
             if meetsRequirements then
                 local chance = data.chances[culture];
                 if not chance then

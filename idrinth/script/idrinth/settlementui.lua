@@ -50,7 +50,9 @@ local settlementForeignSlotDisplay = function()
             element:SetDockOffset(0, 25);-- 25 down
             element:SetContextObject(settlementSlots:GetContextObject(CONTEXT_SETTLEMENT));
             element:SetVisible(false);
-            local buttons = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), SETTLEMENT_VIEW, "toggle_button_holder", "button_list");
+            local buttons = Idrinth.Ui.findElementWithin(
+                UIComponent(parent:Find(i)), SETTLEMENT_VIEW, "toggle_button_holder", "button_list"
+            );
             local button = Idrinth.Ui.createOrFind(PANEL_BUTTON, buttons);
             button:SetContextObject(settlementSlots:GetContextObject(CONTEXT_SETTLEMENT));
         end;
@@ -63,7 +65,9 @@ local updateSettlementViewState = function(clickedButton)
         return;
     end;
     for i = 1, parent:ChildCount() do
-        local buttons = Idrinth.Ui.findElementWithin(UIComponent(parent:Find(i)), SETTLEMENT_VIEW, "toggle_button_holder", "button_list");
+        local buttons = Idrinth.Ui.findElementWithin(
+            UIComponent(parent:Find(i)), SETTLEMENT_VIEW, "toggle_button_holder", "button_list"
+        );
         if buttons then
             local activeButtons = 0;
             for j = 1, buttons:ChildCount() do
