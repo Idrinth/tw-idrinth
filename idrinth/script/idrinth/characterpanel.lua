@@ -40,9 +40,7 @@ local containsInitiatives = function(cqi)
                         local initiative = local_initiatives:item_at(j);
                         if initiative then
                             local initiative_key = initiative:record_key();
-                            if IDRINTH_INITIATIVES[initiative_key] then
-                                --idrinth is the only one who gets his initiatives
-                            else
+                            if not IDRINTH_INITIATIVES[initiative_key] then
                                 return true;
                             end;
                         end;
