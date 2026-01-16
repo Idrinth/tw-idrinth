@@ -213,9 +213,9 @@ globals:
         property: read-only
         struct:
           get:
-            property: read-only
+            args: []
           spawned:
-            property: read-only
+            args: []
       Constants:
         property: read-only
         struct:
@@ -260,9 +260,10 @@ globals:
         property: read-only
         struct:
           get:
-            property: read-only
+            args: []
           isAllowed:
-            property: read-only
+            args:
+              - type: string
       Events:
         property: read-only
         struct:
@@ -270,22 +271,30 @@ globals:
             property: read-only
             struct:
               battleFoughtAndSpawned:
-                property: read-only
+                args: []
               dilemmaIs:
-                property: read-only
+                args:
+                  - type: string
               isPanelOpen:
-                property: read-only
+                args:
+                  - type: string
               panelOpened:
-                property: read-only
+                args:
+                  - type: string
           addListener:
-            property: read-only
+            args:
+              - type: string
+              - type: function
+              - type: function
           onMctChange:
-            property: read-only
+            args:
+              - type: function
       Mct:
         property: read-only
         struct:
           get:
-            property: read-only
+            args:
+              - type: string
       Names:
         property: read-only
       Statistics:
@@ -301,40 +310,62 @@ globals:
         property: read-only
         struct:
           countChildrenWhere:
-            property: read-only
+            args:
+              - type: any
+              - type: function
           createOrFind:
-            property: read-only
+            args:
+              - type: any
+              - type: string
           findChildWhere:
-            property: read-only
+            args:
+              - type: any
+              - type: function
           findElementWithin:
-            property: read-only
+            args:
+              - type: any
+              - type: string
           forEachChild:
-            property: read-only
+            args:
+              - type: any
+              - type: function
           nowAndThen:
-            property: read-only
+            args:
+              - type: any
+              - type: function
       Unittypes:
         property: read-only
         struct:
           isBlessedAnimal:
-            property: read-only
+            args:
+              - type: string
           isChapelUnit:
-            property: read-only
+            args:
+              - type: string
           isEliteTroop:
-            property: read-only
+            args:
+              - type: string
           isEnlargedCavalry:
-            property: read-only
+            args:
+              - type: string
           isEnlargedEliteTroop:
-            property: read-only
+            args:
+              - type: string
           isHero:
-            property: read-only
+            args:
+              - type: string
           isPriest:
-            property: read-only
+            args:
+              - type: string
           isSingleEntity:
-            property: read-only
+            args:
+              - type: string
           isVampiric:
-            property: read-only
+            args:
+              - type: string
           isVarghulf:
-            property: read-only
+            args:
+              - type: string
       Version:
         property: read-only
         struct:
@@ -347,6 +378,7 @@ globals:
       factions:
         property: read-only
       log:
-        property: read-only
+        args:
+          - type: string
       mayConfigure:
-        property: read-only
+        args: []
