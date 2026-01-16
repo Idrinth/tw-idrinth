@@ -5,12 +5,16 @@ name: tw_idrinth
 base: twwh3
 
 structs:
-  # Idrinth sub-structs
   IdrinthAccess:
     get:
-      args: []
+      args:
+      - type:
+          display: Faction
+        required: false
     spawned:
-      args: []
+      - type:
+          display: Faction
+        required: false
 
   IdrinthConstantsCultures:
     DarkElves:
@@ -102,27 +106,39 @@ structs:
   IdrinthUi:
     countChildrenWhere:
       args:
-        - type: any
+        - type:
+            display: UIComponent
         - type: function
     createOrFind:
       args:
-        - type: any
         - type: string
+        - type:
+            display: UIComponent
+          required: false
+        - type: ...
+    filterChildren:
+      args:
+        - type:
+            display: UIComponent
+        - type: function
     findChildWhere:
       args:
-        - type: any
+        - type:
+            display: UIComponent
         - type: function
     findElementWithin:
       args:
-        - type: any
+        - type:
+            display: UIComponent
+          required: false
         - type: string
     forEachChild:
       args:
-        - type: any
+        - type:
+            display: UIComponent
         - type: function
     nowAndThen:
       args:
-        - type: any
         - type: function
 
   IdrinthUnittypes:
@@ -164,6 +180,8 @@ structs:
       property: read-only
     main:
       property: read-only
+    iteration:
+      property: read-only
 
   Idrinth:
     Access:
@@ -190,12 +208,13 @@ structs:
       property: read-only
     log:
       args:
+        - type: any
         - type: string
+          required: false
     mayConfigure:
       args: []
 
 globals:
-  # Idrinth Mod Namespace
   Idrinth:
     property: full-write
     struct: Idrinth
