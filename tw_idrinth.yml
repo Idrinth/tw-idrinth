@@ -12,6 +12,7 @@ structs:
           display: Faction
         required: false
     spawned:
+      args:
       - type:
           display: Faction
         required: false
