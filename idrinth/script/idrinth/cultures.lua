@@ -20,10 +20,9 @@ core:add_listener(
     "idrinth_cultures_MctInitialized",
     "MctInitialized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctInitialized", "cultures");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        enableExtendedCultures = mod:get_option_by_key("expanded_spawn"):get_finalized_setting();
+        enableExtendedCultures = Idrinth.Mct.get("expanded_spawn");
         cachedCultures = nil;
         cachedCultureMap = nil;
     end,
@@ -33,10 +32,9 @@ core:add_listener(
     "idrinth_cultures_MctFinalized",
     "MctFinalized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctFinalized", "cultures");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        enableExtendedCultures = mod:get_option_by_key("expanded_spawn"):get_finalized_setting();
+        enableExtendedCultures = Idrinth.Mct.get("expanded_spawn");
         cachedCultures = nil;
         cachedCultureMap = nil;
     end,

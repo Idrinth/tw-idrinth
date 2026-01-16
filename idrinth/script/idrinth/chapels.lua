@@ -31,11 +31,10 @@ core:add_listener(
     "idrinth_chapels_MctInitialized",
     "MctInitialized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctInitialized", "chapels");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        enableChapels = mod:get_option_by_key("chapels"):get_finalized_setting();
-        chapelMode = mod:get_option_by_key("chapel_chance"):get_finalized_setting();
+        enableChapels = Idrinth.Mct.get("chapels");
+        chapelMode = Idrinth.Mct.get("chapel_chance");
     end,
     true
 );
@@ -43,11 +42,10 @@ core:add_listener(
     "idrinth_chapels_MctFinalized",
     "MctFinalized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctFinalized", "chapels");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        enableChapels = mod:get_option_by_key("chapels"):get_finalized_setting();
-        chapelMode = mod:get_option_by_key("chapel_chance"):get_finalized_setting();
+        enableChapels = Idrinth.Mct.get("chapels");
+        chapelMode = Idrinth.Mct.get("chapel_chance");
     end,
     true
 );

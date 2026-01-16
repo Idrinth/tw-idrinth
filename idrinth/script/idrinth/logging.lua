@@ -8,10 +8,10 @@ core:add_listener(
     "idrinth_logging_MctInitialized",
     "MctInitialized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctInitialized", "logging");
-        enableLogging = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("logging"):get_finalized_setting();
-        enableBaseGameLogging = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("base_logging"):get_finalized_setting();
+        enableLogging = Idrinth.Mct.get("logging");
+        enableBaseGameLogging = Idrinth.Mct.get("base_logging");
     end,
     true
 );
@@ -19,10 +19,10 @@ core:add_listener(
     "idrinth_logging_MctFinalized",
     "MctFinalized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctFinalized", "logging");
-        enableLogging = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("logging"):get_finalized_setting();
-        enableBaseGameLogging = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey):get_option_by_key("base_logging"):get_finalized_setting();
+        enableLogging = Idrinth.Mct.get("logging");
+        enableBaseGameLogging = Idrinth.Mct.get("base_logging");
     end,
     true
 );

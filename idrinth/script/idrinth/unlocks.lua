@@ -181,11 +181,9 @@ core:add_listener(
     "idrinth_unlocks_MctInitialized",
     "MctInitialized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctInitialized", "unlocks");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        local setting = mod:get_option_by_key("level_adjustment"):get_finalized_setting();
-        unlockLevelAdjustment = levelAdjustment[setting];
+        unlockLevelAdjustment = levelAdjustment[Idrinth.Mct.get("level_adjustment")];
     end,
     true
 );
@@ -193,11 +191,9 @@ core:add_listener(
     "idrinth_unlocks_MctFinalized",
     "MctFinalized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctFinalized", "unlocks");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        local setting = mod:get_option_by_key("level_adjustment"):get_finalized_setting();
-        unlockLevelAdjustment = levelAdjustment[setting];
+        unlockLevelAdjustment = levelAdjustment[Idrinth.Mct.get("level_adjustment")];
     end,
     true
 );

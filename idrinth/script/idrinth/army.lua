@@ -18,11 +18,10 @@ core:add_listener(
     "idrinth_army_MctInitialized",
     "MctInitialized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctInitialized", "army");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        enableAnimalWAAAGH = mod:get_option_by_key("animal_waaagh"):get_finalized_setting();
-        vampireChance = mod:get_option_by_key("vampire_chance"):get_finalized_setting();
+        enableAnimalWAAAGH = Idrinth.Mct.get("animal_waaagh");
+        vampireChance = Idrinth.Mct.get("vampire_chance");
     end,
     true
 );
@@ -30,11 +29,10 @@ core:add_listener(
     "idrinth_army_MctFinalized",
     "MctFinalized",
     true,
-    function(context)
+    function()
         Idrinth.log("MctFinalized", "army");
-        local mod = context:mct():get_mod_by_key(Idrinth.Constants.MctModKey);
-        enableAnimalWAAAGH = mod:get_option_by_key("animal_waaagh"):get_finalized_setting();
-        vampireChance = mod:get_option_by_key("vampire_chance"):get_finalized_setting();
+        enableAnimalWAAAGH = Idrinth.Mct.get("animal_waaagh");
+        vampireChance = Idrinth.Mct.get("vampire_chance");
     end,
     true
 );
