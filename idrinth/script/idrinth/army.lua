@@ -36,14 +36,12 @@ Idrinth.Events.onMctChange(function()
 end);
 --- Gets information about the currently displayed units panel.
 --- @return userdata|nil units The units panel UI component, or nil if not found.
---- @return userdata|nil character The currently selected character, or nil.
 --- @return table|nil uiIds Map of unique UI IDs for existing units.
 local getSelectedUnitsInfo = function()
     local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
     if not units then
-        return nil, nil, nil;
+        return nil, nil;
     end;
-    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local uiIds = {};
     Idrinth.Ui.forEachChild(units, function(unit)
         local id = unit:GetContextObjectId(UNIT_CONTEXT);
@@ -54,7 +52,7 @@ local getSelectedUnitsInfo = function()
             end;
         end;
     end);
-    return units, character, uiIds;
+    return units, uiIds;
 end;
 --- Locks or unlocks veteran rank purchasable effects for a faction.
 --- @param faction userdata The faction to modify.
@@ -175,7 +173,7 @@ end;
 --- Upgrades a mixed unit to a god-dedicated troop type.
 --- @param god string The god key (asuryan, khaine, or kurnous).
 local upgradeUnit = function(god)
-    local units, character, uiIds = getSelectedUnitsInfo();
+    local units, uiIds = getSelectedUnitsInfo();
     if not units then
         return;
     end;
@@ -190,22 +188,26 @@ local upgradeUnit = function(god)
     local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
     local currentRank = common.get_context_value(UNIT_CONTEXT, id, "ExperienceLevel");
     local price = 300 + 50 * currentRank;
+    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
+    local lookup = cm:char_lookup_str(character);
     local factionKey = character:faction():name();
     if currentType == CHAPEL_PREFIX .. "mixed" and character:faction():treasury() >= price then
         common.call_context_command(UNIT_CONTEXT, id, "Disband");
-        cm:grant_unit_to_character(cm:char_lookup_str(character), CHAPEL_PREFIX .. god);
+        cm:real_callback(function()
+            cm:grant_unit_to_character(lookup, CHAPEL_PREFIX .. god);
+        end, CALLBACK_DELAY);
         cm:treasury_mod(factionKey, 0 - price);
         cm:faction_add_pooled_resource(
             factionKey, "idrinth_" .. god, "idrinth_" .. god .. "_other", currentRank * currentRank
         );
-        cm:real_callback(applyVeteranRankToNewUnit(uiIds, CHAPEL_PREFIX .. god, currentRank), CALLBACK_DELAY);
+        cm:real_callback(applyVeteranRankToNewUnit(uiIds, CHAPEL_PREFIX .. god, currentRank), CALLBACK_DELAY * 2);
     end;
 end;
 local lastXPRank = 0;
 
 --- Upgrades a unit to a larger variant (elite troops or cavalry).
 local upgradeSize = function()
-    local units, character, uiIds = getSelectedUnitsInfo();
+    local units, uiIds = getSelectedUnitsInfo();
     if not units then
         return;
     end;
@@ -224,6 +226,8 @@ local upgradeSize = function()
     if not hasNoEffect then
         currentVeteranRank = common.get_context_value(UNIT_CONTEXT, id, "PurchasedEffectsList.At(0).Key");
     end;
+    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
+    local lookup = cm:char_lookup_str(character);
     local factionKey = character:faction():name();
     local infantryPrice = 300;
     local cavalryPrice = 250;
@@ -234,11 +238,13 @@ local upgradeSize = function()
             if currentType == chapelType then
                 common.call_context_command(UNIT_CONTEXT, id, "Disband");
                 lastXPRank = currentRank;
-                cm:grant_unit_to_character(cm:char_lookup_str(character), largeType);
+                cm:real_callback(function()
+                    cm:grant_unit_to_character(lookup, largeType);
+                end, CALLBACK_DELAY);
                 cm:treasury_mod(factionKey, 0 - infantryPrice);
                 cm:real_callback(
                     applyVeteranRankToNewUnit(uiIds, largeType, currentVeteranRank),
-                    CALLBACK_DELAY
+                    CALLBACK_DELAY * 2
                 );
                 return;
             end;
@@ -248,14 +254,16 @@ local upgradeSize = function()
     if currentType == outridersType and character:faction():treasury() >= cavalryPrice then
         common.call_context_command(UNIT_CONTEXT, id, "Disband");
         lastXPRank = currentRank;
-        cm:grant_unit_to_character(cm:char_lookup_str(character), outridersType .. "_large");
+        cm:real_callback(function()
+            cm:grant_unit_to_character(lookup, outridersType .. "_large");
+        end, CALLBACK_DELAY);
         cm:treasury_mod(factionKey, 0 - cavalryPrice);
     end;
 end;
 --- Applies a god favour blessing to a blessed animal unit.
 --- @param god string The god key (asuryan, khaine, or kurnous).
 local upgradeAnimal = function(god)
-    local units, character = getSelectedUnitsInfo();
+    local units = getSelectedUnitsInfo();
     if not units then
         return;
     end;
@@ -267,6 +275,7 @@ local upgradeAnimal = function(god)
     if not id then
         return;
     end;
+    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
     if godFavourBlessings[currentType] and godFavourBlessings[currentType][god] then
         lockAnimalBlessings(character:faction(), false);
@@ -281,7 +290,7 @@ end;
 --- Requires sufficient treasury and god resource. Outcome is randomized.
 --- @param god string The god key (asuryan, khaine, or kurnous).
 local upgradePriest = function(god)
-    local units, character, uiIds = getSelectedUnitsInfo();
+    local units, uiIds = getSelectedUnitsInfo();
     if not units then
         return;
     end;
@@ -297,12 +306,14 @@ local upgradePriest = function(god)
     local currentRank = common.get_context_value(UNIT_CONTEXT, id, "ExperienceLevel");
     local leaderType = CHAPEL_PREFIX .. god .. "_leader";
     local godResource = "idrinth_" .. god;
+    local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local pooledResourceManager = character:faction():pooled_resource_manager();
     local hasEnoughTreasury = character:faction():treasury() >= 1000;
     local hasEnoughResource = pooledResourceManager:resource(godResource):value() >= 250;
     if currentType ~= leaderType or not hasEnoughTreasury or not hasEnoughResource then
         return;
     end;
+    local lookup = cm:char_lookup_str(character);
     local factionKey = character:faction():name();
     common.call_context_command(UNIT_CONTEXT, id, "Disband");
     cm:treasury_mod(factionKey, -1000);
@@ -311,11 +322,15 @@ local upgradePriest = function(god)
     local vampireType = leaderType .. "_vampire";
     local varghulfType = CHAPEL_PREFIX .. god .. "_varghulf";
     if randomNum < vampireChances[vampireChance] + currentRank * 4 then
-        cm:grant_unit_to_character(cm:char_lookup_str(character), vampireType);
-        cm:real_callback(applyVeteranRankToNewUnit(uiIds, vampireType, currentRank), CALLBACK_DELAY);
+        cm:real_callback(function()
+            cm:grant_unit_to_character(lookup, vampireType);
+        end, CALLBACK_DELAY);
+        cm:real_callback(applyVeteranRankToNewUnit(uiIds, vampireType, currentRank), CALLBACK_DELAY * 2);
     elseif randomNum < 3 * vampireChances[vampireChance] + currentRank * 6 then
-        cm:grant_unit_to_character(cm:char_lookup_str(character), varghulfType);
-        cm:real_callback(applyVeteranRankToNewUnit(uiIds, varghulfType, currentRank), CALLBACK_DELAY);
+        cm:real_callback(function()
+            cm:grant_unit_to_character(lookup, varghulfType);
+        end, CALLBACK_DELAY);
+        cm:real_callback(applyVeteranRankToNewUnit(uiIds, varghulfType, currentRank), CALLBACK_DELAY * 2);
     end;
 end;
 --- Sets a localized tooltip on a UI element.

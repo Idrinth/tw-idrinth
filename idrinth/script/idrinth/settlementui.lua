@@ -106,10 +106,10 @@ end;
 
 --- Handles the case when no buttons are active by showing the default view.
 --- @param settlement userdata The settlement view UI component.
-local handleNoActiveButtons = function(settlement)
+local handleNoActiveButtons = function(settlement, buttons, clickedButton)
     hideAllViews(settlement);
-    UIComponent(settlement:Find(VIEW_DEFAULT)):SetVisible(true);
-    UIComponent(BUTTON_DEFAULT):SetState("selected");
+    showViewForButton(settlement, clickedButton);
+    UIComponent(buttons:Find(clickedButton)):SetState("selected");
 end;
 
 --- Handles the case when a single button is active.
@@ -158,7 +158,7 @@ local updateSettlementViewState = function(clickedButton)
         local settlement = Idrinth.Ui.findElementWithin(parentItem, SETTLEMENT_VIEW);
         local activeButtons = countActiveButtons(buttons);
         if activeButtons == 0 then
-            handleNoActiveButtons(settlement);
+            handleNoActiveButtons(settlement, buttons, clickedButton);
         elseif activeButtons == 1 then
             handleSingleActiveButton(settlement, clickedButton);
         else

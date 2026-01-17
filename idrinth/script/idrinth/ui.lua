@@ -82,7 +82,7 @@ end;
 --- @param parent userdata The parent UI component.
 --- @param callback function A function(child, index) called for each child. Return false to stop iteration.
 ui.forEachChild = function(parent, callback)
-    for i = 1, parent:ChildCount() do
+    for i = 0, parent:ChildCount() - 1 do
         local child = UIComponent(parent:Find(i));
         if callback(child, i) == false then
             break;
@@ -96,7 +96,7 @@ end;
 --- @return userdata|nil The first matching UIComponent child, or nil if none found
 --- @return number|nil The 1-based index of the match, or nil if none found
 ui.findChildWhere = function(parent, predicate)
-    for i = 1, parent:ChildCount() do
+    for i = 0, parent:ChildCount() - 1 do
         local child = UIComponent(parent:Find(i));
         if predicate(child, i) then
             return child, i;
@@ -111,7 +111,7 @@ end;
 --- @return table An array of matching UIComponent children
 ui.filterChildren = function(parent, predicate)
     local result = {};
-    for i = 1, parent:ChildCount() do
+    for i = 0, parent:ChildCount() - 1 do
         local child = UIComponent(parent:Find(i));
         if predicate(child, i) then
             result[#result + 1] = child;
@@ -126,7 +126,7 @@ end;
 --- @return number The count of matching children
 ui.countChildrenWhere = function(parent, predicate)
     local count = 0;
-    for i = 1, parent:ChildCount() do
+    for i = 0, parent:ChildCount() - 1 do
         local child = UIComponent(parent:Find(i));
         if predicate(child, i) then
             count = count + 1;

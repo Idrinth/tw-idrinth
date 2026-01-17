@@ -96,8 +96,8 @@ local placesOfInterest = {
     };
 };
 local regionToPoI = {};
-for _, data in pairs(placesOfInterest) do
-    regionToPoI[data.region] = data;
+for key, data in pairs(placesOfInterest) do
+    regionToPoI[data.region] = key;
 end;
 local enablePointsOfInterest = nil;
 
@@ -135,9 +135,9 @@ Idrinth.Events.addListener(
     function(context)
         local idrinth = Idrinth.Access.get();
         local poi = regionToPoI[idrinth:region():name()];
-        if poi and not poi.triggered then
-            cm:trigger_dilemma(context:faction():name(), poi.key);
-            poi.triggered = true;
+        if poi and not placesOfInterest[poi].triggered then
+            cm:trigger_dilemma(context:faction():name(), placesOfInterest[poi].key);
+            placesOfInterest[poi].triggered = true;
         end;
     end
 );
@@ -145,6 +145,11 @@ cm:add_saving_game_callback(
     function(context)
         if enablePointsOfInterest then
             cm:save_named_value("idrinth.enablePointsOfInterest", 1, context);
+            for key, data in pairs(placesOfInterest) do
+                if data.triggered then
+                    cm:save_named_value("idrinth.poi."..key, 1, context);
+                end;
+            end;
         end;
     end
 );
@@ -152,6 +157,9 @@ cm:add_loading_game_callback(
     function(context)
         if cm:is_new_game() == false then
             enablePointsOfInterest = (cm:load_named_value("idrinth.enablePointsOfInterest", 0, context) == 1);
+            for key, data in pairs(placesOfInterest) do
+                data.triggered = (cm:load_named_value("idrinth.poi."..key, 0, context) == 1);
+            end;
         end;
     end
 );

@@ -63,22 +63,22 @@ idrinth_veterans_secondary		4		both	false
 idrinth_strong_as_stone_secondary		4		both	true
 idrinth_beasts_of_nature_secondary		4		both	true
 idrinth_veterans_tertiary		4		both	true
-idrinth_unit_capacity_chapel_mixed_elven_guard		4		campaign	true
-idrinth_unit_capacity_chapel_asuryan_guard		4		campaign	true
-idrinth_unit_capacity_chapel_khaine_guard		4		campaign	true
-idrinth_unit_capacity_chapel_kurnous_guard		4		campaign	true
-idrinth_unit_capacity_chapel_asuryan_priest		4		campaign	true
-idrinth_unit_capacity_chapel_khaine_priest		4		campaign	true
-idrinth_unit_capacity_chapel_kurnous_priest		4		campaign	true
-idrinth_unit_capacity_chapel_asuryan_vampire_priest		4		campaign	true
-idrinth_unit_capacity_chapel_khaine_vampire_priest		4		campaign	true
-idrinth_unit_capacity_chapel_kurnous_vampire_priest		4		campaign	true
-idrinth_unit_capacity_chapel_asuryan_varghulf		4		campaign	true
-idrinth_unit_capacity_chapel_khaine_varghulf		4		campaign	true
-idrinth_unit_capacity_chapel_kurnous_varghulf		4		campaign	true
-idrinth_unit_capacity_chapel_shrine		4		campaign	true
-idrinth_unit_capacity_chapel_outriders		4		campaign	true
-idrinth_unit_capacity_chapel_stone_wolves		4		campaign	true
+idrinth_unit_capacity_chapel_mixed_elven_guard	thalui.png	4	thalui.png	campaign	true
+idrinth_unit_capacity_chapel_asuryan_guard	asuryan.png	4	asuryan.png	campaign	true
+idrinth_unit_capacity_chapel_khaine_guard	khaine.png	4	khaine.png	campaign	true
+idrinth_unit_capacity_chapel_kurnous_guard	kurnous.png	4	kurnous.png	campaign	true
+idrinth_unit_capacity_chapel_asuryan_priest	asuryan.png	4	asuryan.png	campaign	true
+idrinth_unit_capacity_chapel_khaine_priest	khaine.png	4	khaine.png	campaign	true
+idrinth_unit_capacity_chapel_kurnous_priest	kurnous.png	4	kurnous.png	campaign	true
+idrinth_unit_capacity_chapel_asuryan_vampire_priest	asuryan.png	4	asuryan.png	campaign	true
+idrinth_unit_capacity_chapel_khaine_vampire_priest	khaine.png	4	khaine.png	campaign	true
+idrinth_unit_capacity_chapel_kurnous_vampire_priest	kurnous.png	4	kurnous.png	campaign	true
+idrinth_unit_capacity_chapel_asuryan_varghulf	asuryan.png	4	asuryan.png	campaign	true
+idrinth_unit_capacity_chapel_khaine_varghulf	khaine.png	4	khaine.png	campaign	true
+idrinth_unit_capacity_chapel_kurnous_varghulf	kurnous.png	4	kurnous.png	campaign	true
+idrinth_unit_capacity_chapel_shrine	thalui.png	4	thalui.png	campaign	true
+idrinth_unit_capacity_chapel_outriders	thalui.png	4	thalui.png	campaign	true
+idrinth_unit_capacity_chapel_stone_wolves	thalui.png	4	thalui.png	campaign	true
 idrinth_unit_upkeep_mod_conditional	military_spending.png	1	military_spending.png	campaign	false
 idrinth_chapel_beasts_upkeep	military_spending.png	1	military_spending.png	campaign	false
 idrinth_chapel_units_upkeep	military_spending.png	1	military_spending.png	campaign	false

@@ -41,10 +41,10 @@ local adjustDevotionTraitsBy = function(idrinth, devotion, points)
 
     local idrinth_lookup = cm:char_lookup_str(idrinth);
 
-    cm:disable_event_feed_events(true);
+    cm:disable_event_feed_events(true, "", "", "");
     cm:force_remove_trait(idrinth_lookup, devotion.."_positive");
     cm:force_remove_trait(idrinth_lookup, devotion.."_negative");
-    cm:disable_event_feed_events(false);
+    cm:disable_event_feed_events(false, "", "", "");
 
     local movedPastTier = false;
     if points > 0 then
