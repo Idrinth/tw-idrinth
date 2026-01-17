@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v3
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Thank you for finding something to improve or fix! I'll usually react within 24h."
-        pr-message: "Thank you for contributing! I'll usually react within 24h."
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        issue_message: "Thank you for finding something to improve or fix! I'll usually react within 24h."
+        pr_message: "Thank you for contributing! I'll usually react within 24h."
