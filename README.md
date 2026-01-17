@@ -2,8 +2,6 @@
 
 ## Idrinth Thalui: The Knight-Scholar
 
-[![Mod Configuration Tool](https://i.imgur.com/1Vglg7c.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021)
-
 ### The Tale of a Fallen Loremaster
 
 Once a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.
@@ -35,7 +33,6 @@ I fully support translations of this mod, they can be edited on [crowdin](https:
 
 This mod is in **EARLY ALPHA** development. You may encounter:
 
-- Some buttons in the army might be non functional
 - Some UI-Changes take a second to apply
 - Balance adjustments ongoing
 - Prayer system temporarily replaced by random triggering godly interventions
@@ -45,10 +42,6 @@ Your feedback is essential for improvement! Please report any issues you encount
 ## Compatibility Note:
 
 The custom faction of Nagash is theoretically supported. The support needs play-testing though, if you find bugs report them here and don't bother the other mod!
-
-## Configuration
-
-The [mod configuration tool](https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021) is supported, but optional.
 
 ## AI in this mod
 
