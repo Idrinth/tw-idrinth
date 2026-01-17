@@ -2,7 +2,8 @@
 --- UI element manipulation utilities for the Idrinth mod.
 --- Provides functions for finding, creating, and iterating UI components.
 --- Also includes a deferred callback system for UI updates.
---- @return table Module with nowAndThen, findElementWithin, forEachChild, findChildWhere, filterChildren, countChildrenWhere, createOrFind.
+--- @return table Module with nowAndThen, findElementWithin, forEachChild,
+---   findChildWhere, filterChildren, countChildrenWhere, createOrFind.
 
 local ui = {};
 local todo = {};

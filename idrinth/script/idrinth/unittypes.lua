@@ -1,7 +1,9 @@
 --- @module Idrinth.Unittypes
 --- Unit type classification module for the Idrinth mod.
 --- Provides predicate functions to check unit types (chapel units, vampires, priests, etc.).
---- @return table Module with isChapelUnit, isSingleEntity, isBlessedAnimal, isConstruct, isElven, isPriest, isVampiric, isVarghulf, isEliteTroop, isEnlargedEliteTroop, isCavalry, isEnlargedCavalry, isHero.
+--- @return table Module with isChapelUnit, isSingleEntity, isBlessedAnimal, isConstruct,
+---   isElven, isPriest, isVampiric, isVarghulf, isEliteTroop, isEnlargedEliteTroop,
+---   isCavalry, isEnlargedCavalry, isHero.
 
 local unittypes = {};
 
