@@ -1,65 +1,65 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_mct__.loc		
-mct_idrinth_title	Idrinth Thalui - Le Maître du Savoir Vampire Haut-Elfe	false
-mct_idrinth_author	Björn 'Idrinth' Büttner	false
-mct_idrinth_description	L'Histoire d'un Maître du Savoir Déchu\\n\\nAutrefois un respecté Maître du Savoir Haut-Elfe, Idrinth Thalui trouva sa fin mortelle durant les sanglantes Guerres des Vampires, pour renaître en l'une des créatures mêmes qu'il combattait. Désormais, ce Chevalier-Érudit marche sur un chemin précaire entre son héritage elfique et sa malédiction vampirique, cherchant un but dans un monde déchiré par le Chaos.\\n\\nLe guiderez-vous vers la rédemption ou embrasserez-vous les ténèbres en lui ? Son destin repose entre vos mains.\\n\\nRecrutement Unique\\n\\nIdrinth peut être recruté comme Seigneur ou Héros par ceux qui pourraient apprécier sa double nature :\\n- L'Empire (en quête de savoir arcanique)\\n- Kislev (désespérément en quête d'alliés puissants)\\n- Hauts-Elfes (souhaitant récupérer l'un des leurs)\\n- Elfes Sylvains (valorisant sa connexion à Kurnous)\\n- Comtes Vampires (embrassant son nouveau pouvoir)\\n\\nMode Histoire Assouplie\\n\\nDans le mode histoire assouplie, certaines factions moins probables sont ajoutées, représentant des alliances désespérées :\\n- Bretonnie\\n- Cathay\\n- Elfes Noirs\\n- Légions de Nagash (Faction moddée)\\n- Côte des Vampires\\n\\nCaractéristiques Principales\\n\\nSystème de Faveur Divine\\n\\nÉquilibrez votre allégeance entre trois puissantes divinités elfiques, chacune offrant des voies uniques pour unifier l'existence fracturée d'Idrinth :\\n\\nKhaine : Embrassez l'agression avec une prouesse au corps à corps améliorée et des dégâts accrus\\n\\nAsuryan : Recherchez l'équilibre grâce à des défenses améliorées et une résistance magique\\n\\nKurnous : Canalisez le chemin du chasseur avec une supériorité à distance et une mobilité accrue\\n\\nSystème de Chapelles\\n\\nBasé sur les influences divines, Idrinth peut fonder des chapelles qui affectent notablement la taille de la garnison, la puissance et l'utilisation de la faveur divine, tout en bénéficiant à l'économie locale et à la croissance.\\n\\nSi le mod requis n'est pas utilisé, les emplacements étrangers pourraient se comporter étrangement - le mod n'est techniquement pas nécessaire sauf si vous jouez une faction qui possède déjà des emplacements étrangers.\\n\\nDilemmes Narratifs\\n\\nFaites face à des choix critiques qui façonnent le caractère d'Idrinth et déterminent sa relation avec le divin. Embrasserez-vous vos racines elfiques ou vous abandonnerez-vous au pouvoir vampirique ? Chaque décision affecte votre faveur divine et débloque des bonus permanents.\\n\\nSets d'Artefacts Divins\\n\\nCollectionnez et équipez de puissants artefacts alignés sur les dieux qui améliorent les capacités d'Idrinth. Complétez un set pour gagner des bonus spéciaux qui complètent votre voie divine choisie.\\n\\nConséquences du Tueur d'Elfes\\n\\nUn système de traits dynamique qui suit vos batailles contre les factions elfiques. Plus vous tuez d'elfes, plus vous serez connu, méprisé, et finalement haï parmi leur peuple, avec des conséquences diplomatiques et de faveur divine significatives.\\n\\nPolyvalence Arcanique\\n\\nMaîtrisez des sorts de plusieurs domaines magiques, reflétant le passé érudit d'Idrinth et sa transformation vampirique :\\n- Domaine des Vampires\\n- Domaine de la Mort\\n- Domaine des Ombres\\n\\nFaction de Bataille Personnalisée\\n\\nJouez les forces des chapelles comme leur propre faction dans les batailles personnalisées, en solo et en multijoueur.\\n\\nWAAAGH Animal\\n\\nLe général rassemble une ménagerie d'animaux alliés autour de lui, créant un waaagh d'animaux bénis.\\n\\nAVIS VERSION ALPHA\\n\\nCe mod est en développement ALPHA PRÉCOCE. Vous pourriez rencontrer :\\n\\n- Certains boutons dans l'armée pourraient ne pas fonctionner\\n- Certains changements d'interface prennent une seconde à s'appliquer\\n- Ajustements d'équilibrage en cours\\n- Système de prière temporairement remplacé par des interventions divines déclenchées aléatoirement\\n\\nVos retours sont essentiels pour l'amélioration ! Veuillez signaler tout problème rencontré.\\n\\nNote de Compatibilité :\\n\\nLa faction personnalisée de Nagash est théoriquement supportée. Le support nécessite cependant des tests en jeu - si vous trouvez des bugs, signalez-les ici et ne dérangez pas l'autre mod !\\n\\nConfiguration\\n\\nL'outil de configuration de mod est supporté, mais optionnel.\\n\\nIA dans ce mod\\n\\nIl y a actuellement quelques images générées par IA dans le mod. Elles seront remplacées par des illustrations appropriées au fil du temps, une fois que l'identité et l'apparence des unités seront finales.	false
-mct_idrinth_expanded_spawn_text	Cultures d'Apparition Étendues	false
-mct_idrinth_expanded_spawn_tooltip	Permet à Idrinth d'apparaître également pour la Bretonnie, Cathay, les Légions de Nagash, les Elfes Noirs et la Côte des Vampires.	false
-mct_idrinth_level_adjustment_text	Niveau Requis	false
-mct_idrinth_level_adjustment_options_null_text	Début de Partie	false
-mct_idrinth_level_adjustment_options_one_text	Fin du Début de Partie	false
-mct_idrinth_level_adjustment_options_three_text	Début du Milieu de Partie	false
-mct_idrinth_level_adjustment_options_six_text	Milieu de Partie	false
-mct_idrinth_level_adjustment_tooltip	Modifie le niveau requis pour obtenir la quête de déverrouillage d'Idrinth.	false
-mct_idrinth_god_item_difficulty_text	Difficulté des Objets Bénis par les Dieux	false
-mct_idrinth_god_item_difficulty_options_low_text	Exigences Basses	false
-mct_idrinth_god_item_difficulty_options_normal_text	Exigences Normales	false
-mct_idrinth_god_item_difficulty_options_high_text	Exigences Élevées	false
-mct_idrinth_god_item_difficulty_tooltip	Modifie les exigences pour recevoir les objets bénis par les dieux.	false
-mct_idrinth_chapel_chance_text	Chance d'Apparition des Chapelles	false
-mct_idrinth_chapel_chance_options_low_text	Chance Basse	false
-mct_idrinth_chapel_chance_options_normal_text	Chance Normale	false
-mct_idrinth_chapel_chance_options_high_text	Chance Élevée	false
-mct_idrinth_chapel_chance_tooltip	Modifie la chance que des Chapelles Thaluiennes apparaissent grâce à la présence d'Idrinth.	false
-mct_idrinth_story_events_text	Activer les Événements d'Histoire	false
-mct_idrinth_story_events_tooltip	Permet à Idrinth de notifier le joueur lorsqu'il atteint des régions spécifiques importantes pour lui.	false
-mct_idrinth_chapels_text	Chapelles Thaluiennes	false
-mct_idrinth_chapels_tooltip	Permet à Idrinth de fonder des chapelles qui renforcent les défenses des villes et affectent la génération de faveur divine.	false
-mct_idrinth_dilemma_cooldown_text	Temps de Recharge des Dilemmes	false
-mct_idrinth_dilemma_cooldown_options_low_text	Court (1 + [1-2])	false
-mct_idrinth_dilemma_cooldown_options_medium_text	Moyen (2 + [1-3])	false
-mct_idrinth_dilemma_cooldown_options_long_text	Long (3 + [1-4])	false
-mct_idrinth_dilemma_cooldown_tooltip	Modifie le temps de recharge entre les dilemmes nécessitant des décisions.	false
-mct_idrinth_names_text	Renommage des Unités	false
-mct_idrinth_names_tooltip	Lorsque coché, les unités reçoivent un nom personnalisé lors du recrutement, tiré d'une liste de noms elfiques.	false
-mct_idrinth_logging_text	Activer la Journalisation Propre	false
-mct_idrinth_logging_tooltip	Lorsque coché, ce mod enregistre dans le répertoire racine du jeu sous idrinth.*.log.	false
-mct_idrinth_base_logging_text	Activer l'Utilisation de la Journalisation du Jeu de Base	false
-mct_idrinth_base_logging_tooltip	Lorsque coché, ce mod utilise la fonction de journalisation du jeu de base.	false
-mct_idrinth_section_idrinth_features_name	Options de Fonctionnalités	false
-mct_idrinth_section_idrinth_chances_name	Chances	false
-mct_idrinth_section_idrinth_spawn_name	Options d'Apparition	false
-mct_idrinth_section_idrinth_other_name	Options Supplémentaires	false
-mct_idrinth_section_idrinth_cooldowns_name	Options de Temps de Recharge	false
-mct_idrinth_intervention_cooldown_text	Temps de Recharge de l'Intervention	false
-mct_idrinth_intervention_cooldown_options_low_text	Faible (80%)	false
-mct_idrinth_intervention_cooldown_options_medium_text	Moyen (100%)	false
-mct_idrinth_intervention_cooldown_options_long_text	Long (120%)	false
-mct_idrinth_intervention_cooldown_tooltip	Modifie le temps de recharge entre les interventions divines.	false
-mct_idrinth_animal_waaagh_text	WAAAGH Animal	false
-mct_idrinth_animal_waaagh_tooltip	Lorsque coché, Idrinth est suivi par une armée WAAAGH composée d'animaux. Désactiver ne fait pas disparaître l'armée.	false
-mct_idrinth_vampire_chance_text	Chance de Conversion Vampirique	false
-mct_idrinth_vampire_chance_options_low_text	Faible (10% de succès de base)	false
-mct_idrinth_vampire_chance_options_normal_text	Normale (15% de succès de base)	false
-mct_idrinth_vampire_chance_options_high_text	Élevée (20% de succès de base)	false
-mct_idrinth_vampire_chance_tooltip	Modifie la chance que les prêtres survivent à leur conversion en vampires.	false
-mct_idrinth_story_dilemma_base_chance_text	Chance de Base des Dilemmes d'Histoire	false
-mct_idrinth_story_dilemma_base_chance_options_low_text	Faible	false
-mct_idrinth_story_dilemma_base_chance_options_normal_text	Normale	false
-mct_idrinth_story_dilemma_base_chance_options_high_text	Élevée	false
-mct_idrinth_story_dilemma_base_chance_tooltip	Modifie la chance que les dilemmes de décision d'histoire se déclenchent.	false
-mct_idrinth_god_item_base_chance_text	Chance de Base des Objets Divins	false
-mct_idrinth_god_item_base_chance_options_low_text	Faible	false
-mct_idrinth_god_item_base_chance_options_normal_text	Normale	false
-mct_idrinth_god_item_base_chance_options_high_text	Élevée	false
-mct_idrinth_god_item_base_chance_tooltip	Modifie la chance que des objets divins soient offerts.	false
+"key"	"text"	"tooltip"
+"#Loc;1;text/db/idrinth_mct__.loc"	""	""
+"mct_idrinth_title"	"Idrinth Thalui - Le Maître du Savoir Vampire Haut-Elfe"	"false"
+"mct_idrinth_author"	"Björn 'Idrinth' Büttner"	"false"
+"mct_idrinth_description"	"L'Histoire d'un Maître du Savoir Déchu\\n\\nAutrefois un respecté Maître du Savoir Haut-Elfe, Idrinth Thalui trouva sa fin mortelle durant les sanglantes Guerres des Vampires, pour renaître en l'une des créatures mêmes qu'il combattait. Désormais, ce Chevalier-Érudit marche sur un chemin précaire entre son héritage elfique et sa malédiction vampirique, cherchant un but dans un monde déchiré par le Chaos.\\n\\nLe guiderez-vous vers la rédemption ou embrasserez-vous les ténèbres en lui ? Son destin repose entre vos mains.\\n\\nRecrutement Unique\\n\\nIdrinth peut être recruté comme Seigneur ou Héros par ceux qui pourraient apprécier sa double nature :\\n- L'Empire (en quête de savoir arcanique)\\n- Kislev (désespérément en quête d'alliés puissants)\\n- Hauts-Elfes (souhaitant récupérer l'un des leurs)\\n- Elfes Sylvains (valorisant sa connexion à Kurnous)\\n- Comtes Vampires (embrassant son nouveau pouvoir)\\n\\nMode Histoire Assouplie\\n\\nDans le mode histoire assouplie, certaines factions moins probables sont ajoutées, représentant des alliances désespérées :\\n- Bretonnie\\n- Cathay\\n- Elfes Noirs\\n- Légions de Nagash (Faction moddée)\\n- Côte des Vampires\\n\\nCaractéristiques Principales\\n\\nSystème de Faveur Divine\\n\\nÉquilibrez votre allégeance entre trois puissantes divinités elfiques, chacune offrant des voies uniques pour unifier l'existence fracturée d'Idrinth :\\n\\nKhaine : Embrassez l'agression avec une prouesse au corps à corps améliorée et des dégâts accrus\\n\\nAsuryan : Recherchez l'équilibre grâce à des défenses améliorées et une résistance magique\\n\\nKurnous : Canalisez le chemin du chasseur avec une supériorité à distance et une mobilité accrue\\n\\nSystème de Chapelles\\n\\nBasé sur les influences divines, Idrinth peut fonder des chapelles qui affectent notablement la taille de la garnison, la puissance et l'utilisation de la faveur divine, tout en bénéficiant à l'économie locale et à la croissance.\\n\\nSi le mod requis n'est pas utilisé, les emplacements étrangers pourraient se comporter étrangement - le mod n'est techniquement pas nécessaire sauf si vous jouez une faction qui possède déjà des emplacements étrangers.\\n\\nDilemmes Narratifs\\n\\nFaites face à des choix critiques qui façonnent le caractère d'Idrinth et déterminent sa relation avec le divin. Embrasserez-vous vos racines elfiques ou vous abandonnerez-vous au pouvoir vampirique ? Chaque décision affecte votre faveur divine et débloque des bonus permanents.\\n\\nSets d'Artefacts Divins\\n\\nCollectionnez et équipez de puissants artefacts alignés sur les dieux qui améliorent les capacités d'Idrinth. Complétez un set pour gagner des bonus spéciaux qui complètent votre voie divine choisie.\\n\\nConséquences du Tueur d'Elfes\\n\\nUn système de traits dynamique qui suit vos batailles contre les factions elfiques. Plus vous tuez d'elfes, plus vous serez connu, méprisé, et finalement haï parmi leur peuple, avec des conséquences diplomatiques et de faveur divine significatives.\\n\\nPolyvalence Arcanique\\n\\nMaîtrisez des sorts de plusieurs domaines magiques, reflétant le passé érudit d'Idrinth et sa transformation vampirique :\\n- Domaine des Vampires\\n- Domaine de la Mort\\n- Domaine des Ombres\\n\\nFaction de Bataille Personnalisée\\n\\nJouez les forces des chapelles comme leur propre faction dans les batailles personnalisées, en solo et en multijoueur.\\n\\nWAAAGH Animal\\n\\nLe général rassemble une ménagerie d'animaux alliés autour de lui, créant un waaagh d'animaux bénis.\\n\\nAVIS VERSION ALPHA\\n\\nCe mod est en développement ALPHA PRÉCOCE. Vous pourriez rencontrer :\\n\\n- Certains boutons dans l'armée pourraient ne pas fonctionner\\n- Certains changements d'interface prennent une seconde à s'appliquer\\n- Ajustements d'équilibrage en cours\\n- Système de prière temporairement remplacé par des interventions divines déclenchées aléatoirement\\n\\nVos retours sont essentiels pour l'amélioration ! Veuillez signaler tout problème rencontré.\\n\\nNote de Compatibilité :\\n\\nLa faction personnalisée de Nagash est théoriquement supportée. Le support nécessite cependant des tests en jeu - si vous trouvez des bugs, signalez-les ici et ne dérangez pas l'autre mod !\\n\\nConfiguration\\n\\nL'outil de configuration de mod est supporté, mais optionnel.\\n\\nIA dans ce mod\\n\\nIl y a actuellement quelques images générées par IA dans le mod. Elles seront remplacées par des illustrations appropriées au fil du temps, une fois que l'identité et l'apparence des unités seront finales."	"false"
+"mct_idrinth_expanded_spawn_text"	"Cultures d'Apparition Étendues"	"false"
+"mct_idrinth_expanded_spawn_tooltip"	"Permet à Idrinth d'apparaître également pour la Bretonnie, Cathay, les Légions de Nagash, les Elfes Noirs et la Côte des Vampires."	"false"
+"mct_idrinth_level_adjustment_text"	"Niveau Requis"	"false"
+"mct_idrinth_level_adjustment_options_null_text"	"Début de Partie"	"false"
+"mct_idrinth_level_adjustment_options_one_text"	"Fin du Début de Partie"	"false"
+"mct_idrinth_level_adjustment_options_three_text"	"Début du Milieu de Partie"	"false"
+"mct_idrinth_level_adjustment_options_six_text"	"Milieu de Partie"	"false"
+"mct_idrinth_level_adjustment_tooltip"	"Modifie le niveau requis pour obtenir la quête de déverrouillage d'Idrinth."	"false"
+"mct_idrinth_god_item_difficulty_text"	"Difficulté des Objets Bénis par les Dieux"	"false"
+"mct_idrinth_god_item_difficulty_options_low_text"	"Exigences Basses"	"false"
+"mct_idrinth_god_item_difficulty_options_normal_text"	"Exigences Normales"	"false"
+"mct_idrinth_god_item_difficulty_options_high_text"	"Exigences Élevées"	"false"
+"mct_idrinth_god_item_difficulty_tooltip"	"Modifie les exigences pour recevoir les objets bénis par les dieux."	"false"
+"mct_idrinth_chapel_chance_text"	"Chance d'Apparition des Chapelles"	"false"
+"mct_idrinth_chapel_chance_options_low_text"	"Chance Basse"	"false"
+"mct_idrinth_chapel_chance_options_normal_text"	"Chance Normale"	"false"
+"mct_idrinth_chapel_chance_options_high_text"	"Chance Élevée"	"false"
+"mct_idrinth_chapel_chance_tooltip"	"Modifie la chance que des Chapelles Thaluiennes apparaissent grâce à la présence d'Idrinth."	"false"
+"mct_idrinth_story_events_text"	"Activer les Événements d'Histoire"	"false"
+"mct_idrinth_story_events_tooltip"	"Permet à Idrinth de notifier le joueur lorsqu'il atteint des régions spécifiques importantes pour lui."	"false"
+"mct_idrinth_chapels_text"	"Chapelles Thaluiennes"	"false"
+"mct_idrinth_chapels_tooltip"	"Permet à Idrinth de fonder des chapelles qui renforcent les défenses des villes et affectent la génération de faveur divine."	"false"
+"mct_idrinth_dilemma_cooldown_text"	"Temps de Recharge des Dilemmes"	"false"
+"mct_idrinth_dilemma_cooldown_options_low_text"	"Court (1 + [1-2])"	"false"
+"mct_idrinth_dilemma_cooldown_options_medium_text"	"Moyen (2 + [1-3])"	"false"
+"mct_idrinth_dilemma_cooldown_options_long_text"	"Long (3 + [1-4])"	"false"
+"mct_idrinth_dilemma_cooldown_tooltip"	"Modifie le temps de recharge entre les dilemmes nécessitant des décisions."	"false"
+"mct_idrinth_names_text"	"Renommage des Unités"	"false"
+"mct_idrinth_names_tooltip"	"Lorsque coché, les unités reçoivent un nom personnalisé lors du recrutement, tiré d'une liste de noms elfiques."	"false"
+"mct_idrinth_logging_text"	"Activer la Journalisation Propre"	"false"
+"mct_idrinth_logging_tooltip"	"Lorsque coché, ce mod enregistre dans le répertoire racine du jeu sous idrinth.*.log."	"false"
+"mct_idrinth_base_logging_text"	"Activer l'Utilisation de la Journalisation du Jeu de Base"	"false"
+"mct_idrinth_base_logging_tooltip"	"Lorsque coché, ce mod utilise la fonction de journalisation du jeu de base."	"false"
+"mct_idrinth_section_idrinth_features_name"	"Options de Fonctionnalités"	"false"
+"mct_idrinth_section_idrinth_chances_name"	"Chances"	"false"
+"mct_idrinth_section_idrinth_spawn_name"	"Options d'Apparition"	"false"
+"mct_idrinth_section_idrinth_other_name"	"Options Supplémentaires"	"false"
+"mct_idrinth_section_idrinth_cooldowns_name"	"Options de Temps de Recharge"	"false"
+"mct_idrinth_intervention_cooldown_text"	"Temps de Recharge de l'Intervention"	"false"
+"mct_idrinth_intervention_cooldown_options_low_text"	"Faible (80%)"	"false"
+"mct_idrinth_intervention_cooldown_options_medium_text"	"Moyen (100%)"	"false"
+"mct_idrinth_intervention_cooldown_options_long_text"	"Long (120%)"	"false"
+"mct_idrinth_intervention_cooldown_tooltip"	"Modifie le temps de recharge entre les interventions divines."	"false"
+"mct_idrinth_animal_waaagh_text"	"WAAAGH Animal"	"false"
+"mct_idrinth_animal_waaagh_tooltip"	"Lorsque coché, Idrinth est suivi par une armée WAAAGH composée d'animaux. Désactiver ne fait pas disparaître l'armée."	"false"
+"mct_idrinth_vampire_chance_text"	"Chance de Conversion Vampirique"	"false"
+"mct_idrinth_vampire_chance_options_low_text"	"Faible (10% de succès de base)"	"false"
+"mct_idrinth_vampire_chance_options_normal_text"	"Normale (15% de succès de base)"	"false"
+"mct_idrinth_vampire_chance_options_high_text"	"Élevée (20% de succès de base)"	"false"
+"mct_idrinth_vampire_chance_tooltip"	"Modifie la chance que les prêtres survivent à leur conversion en vampires."	"false"
+"mct_idrinth_story_dilemma_base_chance_text"	"Chance de Base des Dilemmes d'Histoire"	"false"
+"mct_idrinth_story_dilemma_base_chance_options_low_text"	"Faible"	"false"
+"mct_idrinth_story_dilemma_base_chance_options_normal_text"	"Normale"	"false"
+"mct_idrinth_story_dilemma_base_chance_options_high_text"	"Élevée"	"false"
+"mct_idrinth_story_dilemma_base_chance_tooltip"	"Modifie la chance que les dilemmes de décision d'histoire se déclenchent."	"false"
+"mct_idrinth_god_item_base_chance_text"	"Chance de Base des Objets Divins"	"false"
+"mct_idrinth_god_item_base_chance_options_low_text"	"Faible"	"false"
+"mct_idrinth_god_item_base_chance_options_normal_text"	"Normale"	"false"
+"mct_idrinth_god_item_base_chance_options_high_text"	"Élevée"	"false"
+"mct_idrinth_god_item_base_chance_tooltip"	"Modifie la chance que des objets divins soient offerts."	"false"
