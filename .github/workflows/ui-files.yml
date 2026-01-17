@@ -1,0 +1,25 @@
+name: UI Files
+on:
+  push:
+    branches:
+    - the-one
+    paths:
+    - '**.twui.xml'
+    - '**.lua'
+  pull_request:
+    branches:
+    - the-one
+    paths:
+    - '**.twui.xml'
+    - '**.lua'
+jobs:
+  check-references:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+      - name: Check for unreferenced UI files
+        run: python scripts/check_ui_file_references.py
