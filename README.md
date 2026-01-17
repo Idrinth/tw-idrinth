@@ -54,4 +54,4 @@ There are currently some AI-generated images in the mod. They are being replaced
 
 ## Socials
 
-If you want to discuss the mod or need support, feel free to drop by on Discord at https://discord.gg/idrinth ! If you want to help translations or fix things, the code is at https://github.com/Idrinth/tw-idrinth !
+If you want to discuss the mod or need support, feel free to drop by on [Discord](https://discord.gg/idrinth)!
