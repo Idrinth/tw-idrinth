@@ -28,8 +28,7 @@ jobs:
           MAIN=$(grep 'main\s*=' version_prev.lua | sed 's/[^0-9]*//g')
           FEATURE=$(grep 'feature\s*=' version_prev.lua | sed 's/[^0-9]*//g')
           BUG=$(grep 'bug\s*=' version_prev.lua | sed 's/[^0-9]*//g')
-          ITERATION=$(grep 'iteration\s*=' version_prev.lua | sed 's/[^0-9]*//g')
-          VERSION="v${MAIN}.${FEATURE}.${BUG}.${ITERATION}"
+          VERSION="v${MAIN}.${FEATURE}.${BUG}"
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Check if tag already exists
