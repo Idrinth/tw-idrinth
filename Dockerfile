@@ -31,7 +31,13 @@ RUN wget -q https://luarocks.org/releases/luarocks-3.13.0.tar.gz \
 RUN luarocks install luacheck
 
 # Install Selene 0.29.0 (matching CI version)
-RUN curl -L https://github.com/Kampfkarren/selene/releases/download/0.29.0/selene-0.29.0-linux.zip -o /tmp/selene.zip \
+RUN ARCH=$(uname -m) && \
+    if [ "$ARCH" = "aarch64" ] || [ "$ARCH" = "arm64" ]; then \
+        SELENE_URL="https://github.com/Kampfkarren/selene/releases/download/0.29.0/selene-0.29.0-linux-aarch64.zip"; \
+    else \
+        SELENE_URL="https://github.com/Kampfkarren/selene/releases/download/0.29.0/selene-0.29.0-linux.zip"; \
+    fi && \
+    curl -L "$SELENE_URL" -o /tmp/selene.zip \
     && unzip /tmp/selene.zip -d /usr/local/bin/ \
     && chmod +x /usr/local/bin/selene \
     && rm /tmp/selene.zip
