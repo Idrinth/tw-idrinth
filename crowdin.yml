@@ -1,5 +1,0 @@
-base_path: "."
-preserve_hierarchy: true
-files:
-- source: "/idrinth/text/db/*.loc.tsv",
-  translation: "/idrinth-%two_letters_code%/text/db/%original_file_name%"
