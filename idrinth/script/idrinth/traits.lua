@@ -1,3 +1,13 @@
+--- @module Idrinth.Traits
+--- Trait acquisition and management system for the Idrinth mod.
+--- Handles slayer traits (elf slayer), devotion traits (god favour), and related mechanics.
+--- Tracks battle statistics and applies traits based on battles fought against elves.
+
+--- Adds elf slayer trait points to Idrinth for each elven god.
+--- @param asuryan number Points to add for Asuryan slayer trait.
+--- @param kurnous number Points to add for Kurnous slayer trait.
+--- @param khaine number Points to add for Khaine slayer trait.
+--- @param idrinth_lookup string The character lookup string for Idrinth.
 local addSlayerTraits = function(asuryan, kurnous, khaine, idrinth_lookup)
     cm:force_add_trait(
         idrinth_lookup,
@@ -18,6 +28,11 @@ local addSlayerTraits = function(asuryan, kurnous, khaine, idrinth_lookup)
         khaine
     );
 end;
+--- Adjusts devotion trait points for a god, handling positive/negative states and tier thresholds.
+--- @param idrinth userdata The Idrinth character object.
+--- @param devotion string The devotion trait prefix (e.g., "idrinth_devotion_asuryan").
+--- @param points number The number of points to add (can be negative).
+--- @return number The new total devotion value.
 local adjustDevotionTraitsBy = function(idrinth, devotion, points)
     local negative = idrinth:trait_points(devotion.."_negative");
     local positive = idrinth:trait_points(devotion.."_positive");

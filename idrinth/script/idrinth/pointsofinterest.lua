@@ -1,3 +1,8 @@
+--- @module Idrinth.Pointsofinterest
+--- Points of Interest story event system for the Idrinth mod.
+--- Triggers special dilemmas when Idrinth visits significant lore locations.
+--- Includes locations like Drakenhof, Temple of Khaine, Tower of Hoeth, etc.
+
 local placesOfInterest = {
     drakenhof = {
         key = "idrinth_story_dilemma_drakenhof",

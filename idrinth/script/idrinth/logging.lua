@@ -1,9 +1,16 @@
+--- @module Idrinth.log
+--- Logging system for the Idrinth mod.
+--- Provides timestamped logging to file and optional base game out() logging.
+--- Logging can be enabled/disabled via MCT settings.
+--- @return function log function for writing log messages.
+
 local enableLogging = false;
 
 local enableBaseGameLogging = false;
 local lua_start_time = os.clock();
 local logfile = "idrinth." .. os.date("%y%m%d%H%M") .. ".log";
 
+--- Updates logging settings from MCT configuration.
 local updateMctSettings = function()
     enableLogging = Idrinth.Mct.get("logging");
     enableBaseGameLogging = Idrinth.Mct.get("base_logging");
@@ -20,6 +27,9 @@ Idrinth.Events.addListener(
     true
 );
 
+--- Logs a message with timestamp and category.
+--- @param thing any The value to log (will be converted to string).
+--- @param logtype string|nil The category/type of log message (e.g., "army", "ui", "traits").
 local log = function(thing, logtype)
     if enableBaseGameLogging then
         out("=== IDRINTH DEBUG ===");

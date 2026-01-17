@@ -1,3 +1,8 @@
+--- @module Idrinth.Heroactions
+--- Hero action effect system for the Idrinth mod.
+--- Applies effect bundles when Idrinth performs successful hero actions.
+--- Rewards include temporary buffs and action point replenishment.
+
 Idrinth.Events.addListener(
     "CharacterCharacterTargetAction",
     function(context)

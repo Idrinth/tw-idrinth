@@ -1,3 +1,10 @@
+--- @module Idrinth.Unittypes
+--- Unit type classification module for the Idrinth mod.
+--- Provides predicate functions to check unit types (chapel units, vampires, priests, etc.).
+--- @return table Module with isChapelUnit, isSingleEntity, isBlessedAnimal, isConstruct,
+---   isElven, isPriest, isVampiric, isVarghulf, isEliteTroop, isEnlargedEliteTroop,
+---   isCavalry, isEnlargedCavalry, isHero.
+
 local unittypes = {};
 
 local CP = "idrinth_hev_high_elf_vampires_chapel_";
@@ -130,54 +137,93 @@ local heroUnits = {
     [HP.."champion"] = true,
 };
 
+--- Checks if a unit is a chapel-recruitable unit.
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is a chapel unit.
 unittypes.isChapelUnit = function(unitKey)
     return chapelUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is a single entity (heroes, priests, varghulfs).
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is a single entity.
 unittypes.isSingleEntity = function(unitKey)
     return singleEntityUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is a blessed animal (eagle, bats, hawks, wolves).
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is a blessed animal.
 unittypes.isBlessedAnimal = function(unitKey)
     return blessedAnimalUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is a construct (stone wolves, shrine).
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is a construct.
 unittypes.isConstruct = function(unitKey)
     return constructUnits[unitKey] == true;
 end;
 
+--- Checks if a unit has elven composition.
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is elven.
 unittypes.isElven = function(unitKey)
     return elvenUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is a priest (god leaders).
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is a priest.
 unittypes.isPriest = function(unitKey)
     return priestUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is vampiric (vampire priests, varghulfs, hero units).
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is vampiric.
 unittypes.isVampiric = function(unitKey)
     return vampiricUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is a varghulf.
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is a varghulf.
 unittypes.isVarghulf = function(unitKey)
     return varghulfUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is an elite troop (god-dedicated infantry).
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is an elite troop.
 unittypes.isEliteTroop = function(unitKey)
     return eliteTroopUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is an enlarged elite troop (larger variant).
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is an enlarged elite troop.
 unittypes.isEnlargedEliteTroop = function(unitKey)
     return enlargedEliteTroopUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is cavalry (outriders).
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is cavalry.
 unittypes.isCavalry = function(unitKey)
     return cavalryUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is enlarged cavalry.
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is enlarged cavalry.
 unittypes.isEnlargedCavalry = function(unitKey)
     return enlargedCavalryUnits[unitKey] == true;
 end;
 
+--- Checks if a unit is a hero unit (Idrinth general or champion).
+--- @param unitKey string The unit record key to check.
+--- @return boolean True if the unit is a hero.
 unittypes.isHero = function(unitKey)
     return heroUnits[unitKey] == true;
 end;

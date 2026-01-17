@@ -1,3 +1,9 @@
+--- @module Idrinth.Cultures
+--- Culture management module for the Idrinth mod.
+--- Determines which cultures can spawn Idrinth (base vs extended mode).
+--- Extended mode adds additional cultures like Dark Elves, Vampire Coast, etc.
+--- @return table Module with get and isAllowed functions.
+
 local enableExtendedCultures = false;
 local cachedCultures = nil;
 local cachedCultureMap = nil;
@@ -39,6 +45,8 @@ Idrinth.Events.addListener(
         cm:trigger_dilemma(context:faction():name(), "idrinth_mode_choice");
     end
 );
+--- Gets the list of cultures that can spawn Idrinth.
+--- @return table Array of culture key strings.
 local get = function()
     if cachedCultures then
         return cachedCultures;
@@ -57,6 +65,9 @@ local get = function()
     return cachedCultures;
 end;
 
+--- Checks if a culture is allowed to spawn Idrinth.
+--- @param culture string The culture key to check.
+--- @return boolean True if the culture can spawn Idrinth.
 local isAllowed = function(culture)
     if not cachedCultureMap then
         cachedCultureMap = {};

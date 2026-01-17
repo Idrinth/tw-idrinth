@@ -1,3 +1,8 @@
+--- @module Idrinth.Story
+--- Narrative dilemma and story progression system for the Idrinth mod.
+--- Triggers story dilemmas based on Idrinth's statistics, level, and culture.
+--- Each dilemma has culture-specific chances and requirements.
+
 local cooldown = 0;
 local cooldownMode = "medium";
 local chanceMode = "normal";

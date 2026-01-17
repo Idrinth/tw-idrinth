@@ -1,3 +1,8 @@
+--- @module Idrinth.Renaming
+--- Character and unit renaming system for the Idrinth mod.
+--- Automatically assigns lore-appropriate names to chapel units and priests.
+--- Names are selected from the Idrinth.Names database.
+
 local enableRenaming = true;
 
 Idrinth.Events.onMctChange(function()

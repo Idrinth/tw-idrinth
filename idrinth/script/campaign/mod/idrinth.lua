@@ -1,3 +1,7 @@
+--- @module Idrinth
+--- Main entry point for the Idrinth Thalui mod.
+--- Loads all core modules and event listeners for the High Elf Vampire character.
+--- This file initializes the global Idrinth table and loads all required scripts.
 Idrinth = {};
 
 -- Base methods and data

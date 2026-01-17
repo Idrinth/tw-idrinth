@@ -1,7 +1,18 @@
+--- @module Idrinth.Recruitingui
+--- Recruitment UI customization for the Idrinth mod.
+--- Fixes the lord type display to show "High Elf Vampire" for Idrinth.
+--- Corrects visibility issues for subtype text in the character recruitment list.
+
+--- Checks if a subtype string matches Idrinth's hero or lord subtype.
+--- @param subtype_string string The subtype key to check.
+--- @return boolean True if the subtype is Idrinth.
 local isIdrinthSubtype = function(subtype_string)
     return subtype_string == Idrinth.Constants.HeroSubtype or subtype_string == Idrinth.Constants.LordSubtype;
 end;
 
+--- Processes a character list child component to fix Idrinth's subtype display.
+--- @param childComponent userdata The character list item UI component.
+--- @return boolean True if processing should continue to next child.
 local processCharacterChild = function(childComponent)
     if not childComponent:Visible() then
         return false;
@@ -22,6 +33,7 @@ local processCharacterChild = function(childComponent)
     return true;
 end;
 
+--- Fixes the lord type display in the recruitment panel for Idrinth.
 local fixLordType = function()
     if not cm:get_campaign_ui_manager():is_panel_open("character_panel") then
         return;
