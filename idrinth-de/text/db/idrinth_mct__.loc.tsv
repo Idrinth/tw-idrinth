@@ -1,65 +1,65 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_mct__.loc		
-mct_idrinth_title	Idrinth Thalui - Der hochelfische Vampir-Gelehrte	false
-mct_idrinth_author	Björn 'Idrinth' Büttner	false
-mct_idrinth_description	Die Geschichte eines gefallenen Gelehrten\\n\\nEinst ein angesehener hochelfischer Gelehrter, fand Idrinth Thalui während der blutigen Vampirkriege sein sterbliches Ende, nur um als eines jener Wesen wiederzuerstehen, gegen die er einst kämpfte. Nun wandelt dieser Ritter-Gelehrte auf einem schmalen Grat zwischen seinem elfischen Erbe und seinem vampirischen Fluch und sucht nach einem Sinn in einer vom Chaos zerrissenen Welt.\\n\\nWerdet ihr ihn zur Erlösung führen oder die Dunkelheit in ihm umarmen? Sein Schicksal liegt in euren Händen.\\n\\nEinzigartige Rekrutierung\\n\\nIdrinth kann als Lord oder Held von jenen rekrutiert werden, die seine duale Natur zu schätzen wissen:\\n- Das Imperium (auf der Suche nach arkanem Wissen)\\n- Kislev (verzweifelt auf der Suche nach mächtigen Verbündeten)\\n- Hochelfen (die einen der ihren zurückgewinnen wollen)\\n- Waldelfen (die seine Verbindung zu Kurnous schätzen)\\n- Vampirfürsten (die seine neu gewonnene Macht begrüßen)\\n\\nLockerer Hintergrund-Modus\\n\\nIm lockeren Hintergrund-Modus werden einige weniger wahrscheinliche Fraktionen hinzugefügt, die verzweifelte Allianzen darstellen:\\n- Bretonia\\n- Cathay\\n- Dunkelelfen\\n- Legionen von Nagash (modifizierte Fraktion)\\n- Vampirküste\\n\\nHauptmerkmale\\n\\nGöttliche Gunst-System\\n\\nBalanciert eure Treue zwischen drei mächtigen elfischen Gottheiten, die jeweils einzigartige Wege bieten, Idrinths zerrissene Existenz zu vereinen:\\n\\nKhaine: Umarmt Aggression mit verbesserter Nahkampfstärke und Schadensausgabe\\n\\nAsuryan: Sucht Gleichgewicht durch verbesserte Verteidigung und Magieresistenz\\n\\nKurnous: Kanalisiert den Pfad des Jägers mit überlegener Fernkampfstärke und Mobilität\\n\\nKapellen-System\\n\\nBasierend auf den göttlichen Einflüssen kann Idrinth Kapellen gründen, die die Garnisonsgröße, Stärke und Nutzung göttlicher Gunst deutlich beeinflussen sowie die lokale Wirtschaft und das Wachstum fördern.\\n\\nWenn die erforderliche Mod nicht verwendet wird, könnten sich die fremden Slots seltsam verhalten - die Mod ist technisch nicht erforderlich, es sei denn, ihr spielt eine Fraktion, die bereits fremde Slots hat.\\n\\nNarrative Dilemmata\\n\\nStellt euch vor kritische Entscheidungen, die Idrinths Charakter formen und seine Beziehung zum Göttlichen bestimmen. Werdet ihr eure elfischen Wurzeln umarmen oder euch der vampirischen Macht hingeben? Jede Entscheidung beeinflusst eure göttliche Gunst und schaltet dauerhafte Boni frei.\\n\\nGöttliche Artefakt-Sets\\n\\nSammelt und rüstet mächtige göttlich ausgerichtete Artefakte aus, die Idrinths Fähigkeiten verbessern. Vervollständigt ein Set, um spezielle Boni zu erhalten, die euren gewählten göttlichen Pfad ergänzen.\\n\\nElfen-Schlächter-Konsequenzen\\n\\nEin dynamisches Eigenschaften-System, das eure Schlachten gegen elfische Fraktionen verfolgt. Je mehr Elfen ihr erschlagt, desto bekannter, verachteter und schließlich gehasster werdet ihr unter ihrer Art, mit erheblichen diplomatischen und göttlichen Gunst-Konsequenzen.\\n\\nArkane Vielseitigkeit\\n\\nMeistert Zauber aus mehreren magischen Lehren, die Idrinths gelehrten Hintergrund und vampirische Transformation widerspiegeln:\\n- Lehre der Vampire\\n- Lehre des Todes\\n- Lehre der Schatten\\n\\nBenutzerdefinierte Schlacht-Fraktion\\n\\nSpielt die Kapellenkräfte als eigene Fraktion in benutzerdefinierten Schlachten, sowohl im Einzelspieler als auch im Mehrspieler.\\n\\nTier-WAAAGH\\n\\nDer General sammelt eine Menagerie verbündeter Tiere um sich und erschafft einen Waaagh aus gesegneten Tieren.\\n\\nALPHA-VERSION HINWEIS\\n\\nDiese Mod befindet sich in FRÜHER ALPHA-Entwicklung. Ihr könntet auf Folgendes stoßen:\\n\\n- Einige Schaltflächen in der Armee sind möglicherweise nicht funktionsfähig\\n- Einige UI-Änderungen brauchen einen Moment zur Anwendung\\n- Balance-Anpassungen sind im Gange\\n- Gebetssystem vorübergehend durch zufällig auslösende göttliche Interventionen ersetzt\\n\\nEuer Feedback ist essentiell für Verbesserungen! Bitte meldet alle Probleme, auf die ihr stoßt.\\n\\nKompatibilitätshinweis:\\n\\nDie benutzerdefinierte Fraktion von Nagash wird theoretisch unterstützt. Die Unterstützung muss jedoch getestet werden - wenn ihr Fehler findet, meldet sie hier und belästigt nicht die andere Mod!\\n\\nKonfiguration\\n\\nDas Mod-Konfigurations-Tool wird unterstützt, ist aber optional.\\n\\nKI in dieser Mod\\n\\nDerzeit gibt es einige KI-generierte Bilder in der Mod. Diese werden nach und nach durch ordentliche Kunst ersetzt, sobald die Einheitsidentität und das Aussehen final sind.	false
-mct_idrinth_expanded_spawn_text	Erweiterte Spawn-Kulturen	false
-mct_idrinth_expanded_spawn_tooltip	Erlaubt es Idrinth, auch für Bretonia, Cathay, die Legionen von Nagash, Dunkelelfen und Vampirküste zu erscheinen.	false
-mct_idrinth_level_adjustment_text	Stufenanforderung	false
-mct_idrinth_level_adjustment_options_null_text	Frühes Spiel	false
-mct_idrinth_level_adjustment_options_one_text	Spätes frühes Spiel	false
-mct_idrinth_level_adjustment_options_three_text	Frühes mittleres Spiel	false
-mct_idrinth_level_adjustment_options_six_text	Mittleres Spiel	false
-mct_idrinth_level_adjustment_tooltip	Modifiziert die Stufenanforderung, um Idrinths Freischaltquest zu erhalten.	false
-mct_idrinth_god_item_difficulty_text	Schwierigkeit der gottgesegneten Gegenstände	false
-mct_idrinth_god_item_difficulty_options_low_text	Niedrige Anforderungen	false
-mct_idrinth_god_item_difficulty_options_normal_text	Normale Anforderungen	false
-mct_idrinth_god_item_difficulty_options_high_text	Hohe Anforderungen	false
-mct_idrinth_god_item_difficulty_tooltip	Modifiziert die Anforderungen für den Erhalt der gottgesegneten Gegenstände.	false
-mct_idrinth_chapel_chance_text	Kapellen-Spawn-Chance	false
-mct_idrinth_chapel_chance_options_low_text	Niedrige Chance	false
-mct_idrinth_chapel_chance_options_normal_text	Normale Chance	false
-mct_idrinth_chapel_chance_options_high_text	Hohe Chance	false
-mct_idrinth_chapel_chance_tooltip	Modifiziert die Chance, dass Thaluische Kapellen durch Idrinths Anwesenheit erscheinen.	false
-mct_idrinth_story_events_text	Story-Ereignisse aktivieren	false
-mct_idrinth_story_events_tooltip	Erlaubt Idrinth, den Spieler zu benachrichtigen, wenn er bestimmte für ihn wichtige Regionen erreicht.	false
-mct_idrinth_chapels_text	Thaluische Kapellen	false
-mct_idrinth_chapels_tooltip	Erlaubt Idrinth, Kapellen zu gründen, die die Verteidigung von Städten stärken und die Erzeugung göttlicher Gunst beeinflussen.	false
-mct_idrinth_dilemma_cooldown_text	Dilemma-Abklingzeit	false
-mct_idrinth_dilemma_cooldown_options_low_text	Niedrig (1 + [1-2])	false
-mct_idrinth_dilemma_cooldown_options_medium_text	Mittel (2 + [1-3])	false
-mct_idrinth_dilemma_cooldown_options_long_text	Lang (3 + [1-4])	false
-mct_idrinth_dilemma_cooldown_tooltip	Modifiziert die Abklingzeit zwischen Dilemmata, die Entscheidungen erfordern.	false
-mct_idrinth_names_text	Einheiten-Umbenennung	false
-mct_idrinth_names_tooltip	Wenn aktiviert, erhalten Einheiten bei der Rekrutierung einen benutzerdefinierten Namen aus einer Liste elfischer Namen.	false
-mct_idrinth_logging_text	Eigenes Logging aktivieren	false
-mct_idrinth_logging_tooltip	Wenn aktiviert, schreibt diese Mod Logs in das Spielwurzelverzeichnis als idrinth.*.log.	false
-mct_idrinth_base_logging_text	Basis-Spiel-Logging-Nutzung aktivieren	false
-mct_idrinth_base_logging_tooltip	Wenn aktiviert, nutzt diese Mod die Logging-Funktion des Basisspiels.	false
-mct_idrinth_section_idrinth_features_name	Funktions-Schalter	false
-mct_idrinth_section_idrinth_chances_name	Chancen	false
-mct_idrinth_section_idrinth_spawn_name	Spawn-Optionen	false
-mct_idrinth_section_idrinth_other_name	Zusätzliche Optionen	false
-mct_idrinth_section_idrinth_cooldowns_name	Abklingzeit-Optionen	false
-mct_idrinth_intervention_cooldown_text	Interventions-Abklingzeit	false
-mct_idrinth_intervention_cooldown_options_low_text	Niedrig (80%)	false
-mct_idrinth_intervention_cooldown_options_medium_text	Mittel (100%)	false
-mct_idrinth_intervention_cooldown_options_long_text	Lang (120%)	false
-mct_idrinth_intervention_cooldown_tooltip	Modifiziert die Abklingzeit zwischen göttlichen Interventionen.	false
-mct_idrinth_animal_waaagh_text	Tier-WAAAGH	false
-mct_idrinth_animal_waaagh_tooltip	Wenn aktiviert, wird Idrinth von einer WAAAGH-Armee aus Tieren begleitet. Das Deaktivieren lässt die Armee nicht verschwinden.	false
-mct_idrinth_vampire_chance_text	Vampir-Verwandlungschance	false
-mct_idrinth_vampire_chance_options_low_text	Niedrig (10% Basiserfolg)	false
-mct_idrinth_vampire_chance_options_normal_text	Normal (15% Basiserfolg)	false
-mct_idrinth_vampire_chance_options_high_text	Hoch (20% Basiserfolg)	false
-mct_idrinth_vampire_chance_tooltip	Ändert die Chance, dass Priester die Verwandlung in Vampire überleben.	false
-mct_idrinth_story_dilemma_base_chance_text	Basis-Chance für Story-Dilemmata	false
-mct_idrinth_story_dilemma_base_chance_options_low_text	Niedrig	false
-mct_idrinth_story_dilemma_base_chance_options_normal_text	Normal	false
-mct_idrinth_story_dilemma_base_chance_options_high_text	Hoch	false
-mct_idrinth_story_dilemma_base_chance_tooltip	Ändert die Chance, dass Story-Entscheidungs-Dilemmata ausgelöst werden.	false
-mct_idrinth_god_item_base_chance_text	Basis-Chance für Göttergegenstände	false
-mct_idrinth_god_item_base_chance_options_low_text	Niedrig	false
-mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
-mct_idrinth_god_item_base_chance_options_high_text	Hoch	false
-mct_idrinth_god_item_base_chance_tooltip	Ändert die Chance, dass Göttergegenstände angeboten werden.	false
+"key"	"text"	"tooltip"
+"#Loc;1;text/db/idrinth_mct__.loc"	""	""
+"mct_idrinth_title"	"Idrinth Thalui - Der hochelfische Vampir-Gelehrte"	"false"
+"mct_idrinth_author"	"Björn 'Idrinth' Büttner"	"false"
+"mct_idrinth_description"	"Die Geschichte eines gefallenen Gelehrten\\n\\nEinst ein angesehener hochelfischer Gelehrter, fand Idrinth Thalui während der blutigen Vampirkriege sein sterbliches Ende, nur um als eines jener Wesen wiederzuerstehen, gegen die er einst kämpfte. Nun wandelt dieser Ritter-Gelehrte auf einem schmalen Grat zwischen seinem elfischen Erbe und seinem vampirischen Fluch und sucht nach einem Sinn in einer vom Chaos zerrissenen Welt.\\n\\nWerdet ihr ihn zur Erlösung führen oder die Dunkelheit in ihm umarmen? Sein Schicksal liegt in euren Händen.\\n\\nEinzigartige Rekrutierung\\n\\nIdrinth kann als Lord oder Held von jenen rekrutiert werden, die seine duale Natur zu schätzen wissen:\\n- Das Imperium (auf der Suche nach arkanem Wissen)\\n- Kislev (verzweifelt auf der Suche nach mächtigen Verbündeten)\\n- Hochelfen (die einen der ihren zurückgewinnen wollen)\\n- Waldelfen (die seine Verbindung zu Kurnous schätzen)\\n- Vampirfürsten (die seine neu gewonnene Macht begrüßen)\\n\\nLockerer Hintergrund-Modus\\n\\nIm lockeren Hintergrund-Modus werden einige weniger wahrscheinliche Fraktionen hinzugefügt, die verzweifelte Allianzen darstellen:\\n- Bretonia\\n- Cathay\\n- Dunkelelfen\\n- Legionen von Nagash (modifizierte Fraktion)\\n- Vampirküste\\n\\nHauptmerkmale\\n\\nGöttliche Gunst-System\\n\\nBalanciert eure Treue zwischen drei mächtigen elfischen Gottheiten, die jeweils einzigartige Wege bieten, Idrinths zerrissene Existenz zu vereinen:\\n\\nKhaine: Umarmt Aggression mit verbesserter Nahkampfstärke und Schadensausgabe\\n\\nAsuryan: Sucht Gleichgewicht durch verbesserte Verteidigung und Magieresistenz\\n\\nKurnous: Kanalisiert den Pfad des Jägers mit überlegener Fernkampfstärke und Mobilität\\n\\nKapellen-System\\n\\nBasierend auf den göttlichen Einflüssen kann Idrinth Kapellen gründen, die die Garnisonsgröße, Stärke und Nutzung göttlicher Gunst deutlich beeinflussen sowie die lokale Wirtschaft und das Wachstum fördern.\\n\\nWenn die erforderliche Mod nicht verwendet wird, könnten sich die fremden Slots seltsam verhalten - die Mod ist technisch nicht erforderlich, es sei denn, ihr spielt eine Fraktion, die bereits fremde Slots hat.\\n\\nNarrative Dilemmata\\n\\nStellt euch vor kritische Entscheidungen, die Idrinths Charakter formen und seine Beziehung zum Göttlichen bestimmen. Werdet ihr eure elfischen Wurzeln umarmen oder euch der vampirischen Macht hingeben? Jede Entscheidung beeinflusst eure göttliche Gunst und schaltet dauerhafte Boni frei.\\n\\nGöttliche Artefakt-Sets\\n\\nSammelt und rüstet mächtige göttlich ausgerichtete Artefakte aus, die Idrinths Fähigkeiten verbessern. Vervollständigt ein Set, um spezielle Boni zu erhalten, die euren gewählten göttlichen Pfad ergänzen.\\n\\nElfen-Schlächter-Konsequenzen\\n\\nEin dynamisches Eigenschaften-System, das eure Schlachten gegen elfische Fraktionen verfolgt. Je mehr Elfen ihr erschlagt, desto bekannter, verachteter und schließlich gehasster werdet ihr unter ihrer Art, mit erheblichen diplomatischen und göttlichen Gunst-Konsequenzen.\\n\\nArkane Vielseitigkeit\\n\\nMeistert Zauber aus mehreren magischen Lehren, die Idrinths gelehrten Hintergrund und vampirische Transformation widerspiegeln:\\n- Lehre der Vampire\\n- Lehre des Todes\\n- Lehre der Schatten\\n\\nBenutzerdefinierte Schlacht-Fraktion\\n\\nSpielt die Kapellenkräfte als eigene Fraktion in benutzerdefinierten Schlachten, sowohl im Einzelspieler als auch im Mehrspieler.\\n\\nTier-WAAAGH\\n\\nDer General sammelt eine Menagerie verbündeter Tiere um sich und erschafft einen Waaagh aus gesegneten Tieren.\\n\\nALPHA-VERSION HINWEIS\\n\\nDiese Mod befindet sich in FRÜHER ALPHA-Entwicklung. Ihr könntet auf Folgendes stoßen:\\n\\n- Einige Schaltflächen in der Armee sind möglicherweise nicht funktionsfähig\\n- Einige UI-Änderungen brauchen einen Moment zur Anwendung\\n- Balance-Anpassungen sind im Gange\\n- Gebetssystem vorübergehend durch zufällig auslösende göttliche Interventionen ersetzt\\n\\nEuer Feedback ist essentiell für Verbesserungen! Bitte meldet alle Probleme, auf die ihr stoßt.\\n\\nKompatibilitätshinweis:\\n\\nDie benutzerdefinierte Fraktion von Nagash wird theoretisch unterstützt. Die Unterstützung muss jedoch getestet werden - wenn ihr Fehler findet, meldet sie hier und belästigt nicht die andere Mod!\\n\\nKonfiguration\\n\\nDas Mod-Konfigurations-Tool wird unterstützt, ist aber optional.\\n\\nKI in dieser Mod\\n\\nDerzeit gibt es einige KI-generierte Bilder in der Mod. Diese werden nach und nach durch ordentliche Kunst ersetzt, sobald die Einheitsidentität und das Aussehen final sind."	"false"
+"mct_idrinth_expanded_spawn_text"	"Erweiterte Spawn-Kulturen"	"false"
+"mct_idrinth_expanded_spawn_tooltip"	"Erlaubt es Idrinth, auch für Bretonia, Cathay, die Legionen von Nagash, Dunkelelfen und Vampirküste zu erscheinen."	"false"
+"mct_idrinth_level_adjustment_text"	"Stufenanforderung"	"false"
+"mct_idrinth_level_adjustment_options_null_text"	"Frühes Spiel"	"false"
+"mct_idrinth_level_adjustment_options_one_text"	"Spätes frühes Spiel"	"false"
+"mct_idrinth_level_adjustment_options_three_text"	"Frühes mittleres Spiel"	"false"
+"mct_idrinth_level_adjustment_options_six_text"	"Mittleres Spiel"	"false"
+"mct_idrinth_level_adjustment_tooltip"	"Modifiziert die Stufenanforderung, um Idrinths Freischaltquest zu erhalten."	"false"
+"mct_idrinth_god_item_difficulty_text"	"Schwierigkeit der gottgesegneten Gegenstände"	"false"
+"mct_idrinth_god_item_difficulty_options_low_text"	"Niedrige Anforderungen"	"false"
+"mct_idrinth_god_item_difficulty_options_normal_text"	"Normale Anforderungen"	"false"
+"mct_idrinth_god_item_difficulty_options_high_text"	"Hohe Anforderungen"	"false"
+"mct_idrinth_god_item_difficulty_tooltip"	"Modifiziert die Anforderungen für den Erhalt der gottgesegneten Gegenstände."	"false"
+"mct_idrinth_chapel_chance_text"	"Kapellen-Spawn-Chance"	"false"
+"mct_idrinth_chapel_chance_options_low_text"	"Niedrige Chance"	"false"
+"mct_idrinth_chapel_chance_options_normal_text"	"Normale Chance"	"false"
+"mct_idrinth_chapel_chance_options_high_text"	"Hohe Chance"	"false"
+"mct_idrinth_chapel_chance_tooltip"	"Modifiziert die Chance, dass Thaluische Kapellen durch Idrinths Anwesenheit erscheinen."	"false"
+"mct_idrinth_story_events_text"	"Story-Ereignisse aktivieren"	"false"
+"mct_idrinth_story_events_tooltip"	"Erlaubt Idrinth, den Spieler zu benachrichtigen, wenn er bestimmte für ihn wichtige Regionen erreicht."	"false"
+"mct_idrinth_chapels_text"	"Thaluische Kapellen"	"false"
+"mct_idrinth_chapels_tooltip"	"Erlaubt Idrinth, Kapellen zu gründen, die die Verteidigung von Städten stärken und die Erzeugung göttlicher Gunst beeinflussen."	"false"
+"mct_idrinth_dilemma_cooldown_text"	"Dilemma-Abklingzeit"	"false"
+"mct_idrinth_dilemma_cooldown_options_low_text"	"Niedrig (1 + [1-2])"	"false"
+"mct_idrinth_dilemma_cooldown_options_medium_text"	"Mittel (2 + [1-3])"	"false"
+"mct_idrinth_dilemma_cooldown_options_long_text"	"Lang (3 + [1-4])"	"false"
+"mct_idrinth_dilemma_cooldown_tooltip"	"Modifiziert die Abklingzeit zwischen Dilemmata, die Entscheidungen erfordern."	"false"
+"mct_idrinth_names_text"	"Einheiten-Umbenennung"	"false"
+"mct_idrinth_names_tooltip"	"Wenn aktiviert, erhalten Einheiten bei der Rekrutierung einen benutzerdefinierten Namen aus einer Liste elfischer Namen."	"false"
+"mct_idrinth_logging_text"	"Eigenes Logging aktivieren"	"false"
+"mct_idrinth_logging_tooltip"	"Wenn aktiviert, schreibt diese Mod Logs in das Spielwurzelverzeichnis als idrinth.*.log."	"false"
+"mct_idrinth_base_logging_text"	"Basis-Spiel-Logging-Nutzung aktivieren"	"false"
+"mct_idrinth_base_logging_tooltip"	"Wenn aktiviert, nutzt diese Mod die Logging-Funktion des Basisspiels."	"false"
+"mct_idrinth_section_idrinth_features_name"	"Funktions-Schalter"	"false"
+"mct_idrinth_section_idrinth_chances_name"	"Chancen"	"false"
+"mct_idrinth_section_idrinth_spawn_name"	"Spawn-Optionen"	"false"
+"mct_idrinth_section_idrinth_other_name"	"Zusätzliche Optionen"	"false"
+"mct_idrinth_section_idrinth_cooldowns_name"	"Abklingzeit-Optionen"	"false"
+"mct_idrinth_intervention_cooldown_text"	"Interventions-Abklingzeit"	"false"
+"mct_idrinth_intervention_cooldown_options_low_text"	"Niedrig (80%)"	"false"
+"mct_idrinth_intervention_cooldown_options_medium_text"	"Mittel (100%)"	"false"
+"mct_idrinth_intervention_cooldown_options_long_text"	"Lang (120%)"	"false"
+"mct_idrinth_intervention_cooldown_tooltip"	"Modifiziert die Abklingzeit zwischen göttlichen Interventionen."	"false"
+"mct_idrinth_animal_waaagh_text"	"Tier-WAAAGH"	"false"
+"mct_idrinth_animal_waaagh_tooltip"	"Wenn aktiviert, wird Idrinth von einer WAAAGH-Armee aus Tieren begleitet. Das Deaktivieren lässt die Armee nicht verschwinden."	"false"
+"mct_idrinth_vampire_chance_text"	"Vampir-Verwandlungschance"	"false"
+"mct_idrinth_vampire_chance_options_low_text"	"Niedrig (10% Basiserfolg)"	"false"
+"mct_idrinth_vampire_chance_options_normal_text"	"Normal (15% Basiserfolg)"	"false"
+"mct_idrinth_vampire_chance_options_high_text"	"Hoch (20% Basiserfolg)"	"false"
+"mct_idrinth_vampire_chance_tooltip"	"Ändert die Chance, dass Priester die Verwandlung in Vampire überleben."	"false"
+"mct_idrinth_story_dilemma_base_chance_text"	"Basis-Chance für Story-Dilemmata"	"false"
+"mct_idrinth_story_dilemma_base_chance_options_low_text"	"Niedrig"	"false"
+"mct_idrinth_story_dilemma_base_chance_options_normal_text"	"Normal"	"false"
+"mct_idrinth_story_dilemma_base_chance_options_high_text"	"Hoch"	"false"
+"mct_idrinth_story_dilemma_base_chance_tooltip"	"Ändert die Chance, dass Story-Entscheidungs-Dilemmata ausgelöst werden."	"false"
+"mct_idrinth_god_item_base_chance_text"	"Basis-Chance für Göttergegenstände"	"false"
+"mct_idrinth_god_item_base_chance_options_low_text"	"Niedrig"	"false"
+"mct_idrinth_god_item_base_chance_options_normal_text"	"Normal"	"false"
+"mct_idrinth_god_item_base_chance_options_high_text"	"Hoch"	"false"
+"mct_idrinth_god_item_base_chance_tooltip"	"Ändert die Chance, dass Göttergegenstände angeboten werden."	"false"
