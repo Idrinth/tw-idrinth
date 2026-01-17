@@ -989,7 +989,7 @@
 			<localised_texts>
 				<localised_text
 					tooltip_label="button_player_foreign_view_Tooltip_54002e"
-					tooltip_text="{{tr:foreign_slot_button_tooltip}}"/>
+					tooltip_text="{{tr:idrinth_chapel_button_tooltip}}"/>
 				<localised_text
 					state="active"
 					is_text_localised="false"/>
