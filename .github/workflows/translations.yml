@@ -3,9 +3,19 @@ on:
   push:
     branches:
     - the-one
+    paths:
+    - '**.loc'
+    - '**.tsv'
+    - '**.twui.xml'
+    - '**.lua'
   pull_request:
     branches:
     - the-one
+    paths:
+    - '**.loc'
+    - '**.tsv'
+    - '**.twui.xml'
+    - '**.lua'
 jobs:
   check-unused:
     runs-on: ubuntu-latest
