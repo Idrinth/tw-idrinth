@@ -3,7 +3,7 @@
 Check for unused translation keys in the Idrinth mod.
 
 This script detects translation keys defined in .loc.tsv files that are not
-referenced by database tables or Lua scripts.
+referenced by database tables, Lua scripts, or TWUI XML files.
 
 Exit codes:
     0 - No unused translations found
@@ -597,6 +597,47 @@ def scan_db_for_direct_references(db_path: Path, all_translation_keys: Set[str])
     return found_keys
 
 
+def scan_twui_for_translation_keys(ui_path: Path, all_translation_keys: Set[str]) -> Set[str]:
+    """
+    Scan TWUI XML files for translation key references.
+    These files use patterns like:
+        - {{tr:key_name}} for tooltips
+        - Loc(&quot;key_name&quot;) or Loc("key_name") in context functions
+    """
+    found_keys = set()
+
+    # Pattern for {{tr:key_name}}
+    tr_pattern = re.compile(r'\{\{tr:([^}]+)\}\}')
+    # Pattern for Loc(&quot;key_name&quot;) - HTML-encoded quotes
+    loc_html_pattern = re.compile(r'Loc\(&quot;([^&]+)&quot;\)')
+    # Pattern for Loc("key_name") - regular quotes (in case any exist)
+    loc_pattern = re.compile(r'Loc\(["\']([^"\']+)["\']\)')
+
+    for twui_file in ui_path.rglob("*.twui.xml"):
+        try:
+            with open(twui_file, "r", encoding="utf-8", errors="ignore") as f:
+                content = f.read()
+
+                # Find {{tr:key}} patterns
+                for match in tr_pattern.findall(content):
+                    if match in all_translation_keys:
+                        found_keys.add(match)
+
+                # Find Loc(&quot;key&quot;) patterns (HTML-encoded)
+                for match in loc_html_pattern.findall(content):
+                    if match in all_translation_keys:
+                        found_keys.add(match)
+
+                # Find Loc("key") patterns (regular quotes)
+                for match in loc_pattern.findall(content):
+                    if match in all_translation_keys:
+                        found_keys.add(match)
+        except IOError:
+            continue
+
+    return found_keys
+
+
 def main() -> int:
     """Main entry point."""
     project_root = get_project_root()
@@ -605,6 +646,7 @@ def main() -> int:
     text_db_path = idrinth_path / "text" / "db"
     db_path = idrinth_path / "db"
     script_path = idrinth_path / "script"
+    ui_path = idrinth_path / "ui"
 
     if not text_db_path.exists():
         print(f"Error: Translation directory not found: {text_db_path}", file=sys.stderr)
@@ -623,9 +665,10 @@ def main() -> int:
     lua_refs = lua_direct_refs | lua_dynamic_refs
     db_direct_refs = scan_db_for_direct_references(db_path, all_translation_keys)
     column_refs = read_column_referenced_keys(db_path)
+    twui_refs = scan_twui_for_translation_keys(ui_path, all_translation_keys)
 
     # Combine all used keys
-    used_keys = expected_from_db | lua_refs | db_direct_refs | column_refs
+    used_keys = expected_from_db | lua_refs | db_direct_refs | column_refs | twui_refs
 
     # Special prefixes are always considered used (MCT, UI components, etc.)
     for key in all_translation_keys:
