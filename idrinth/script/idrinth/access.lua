@@ -1,3 +1,12 @@
+--- @module Idrinth.Access
+--- Character access and lookup module.
+--- Provides functions to find and check for the Idrinth character across factions.
+--- Caches the character CQI for efficient repeated lookups.
+--- @return table Module with get and spawned functions.
+
+--- Searches a faction for an Idrinth character (hero or lord).
+--- @param faction userdata The faction object to search within.
+--- @return userdata|nil The Idrinth character if found, nil otherwise.
 local getIdrinthFromFaction = function(faction)
     local idrinthChampion = cm:get_most_recently_created_character_of_type(
         faction:name(), Idrinth.Constants.HeroType, Idrinth.Constants.HeroSubtype
@@ -16,6 +25,12 @@ end;
 local cqi = nil;
 
 local access = {};
+
+--- Gets the Idrinth character, optionally filtering by faction.
+--- @param requiredFaction userdata|nil If provided, only returns Idrinth if in this faction.
+--- @return userdata|nil character The Idrinth character or nil.
+--- @return userdata|nil faction The faction Idrinth belongs to or nil.
+--- @return string|nil culture The culture key of the faction or nil.
 access.get = function(requiredFaction)
     if cqi then
         local idrinth = cm:get_character_by_cqi(cqi);
@@ -47,6 +62,8 @@ access.get = function(requiredFaction)
     cqi = nil;
     return nil, nil, nil;
 end;
+--- Checks if Idrinth has been spawned in any allowed faction.
+--- @return boolean True if Idrinth exists, false otherwise.
 access.spawned = function()
     local character = access.get();
     return character ~= nil;

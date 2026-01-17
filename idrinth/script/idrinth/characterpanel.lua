@@ -1,3 +1,8 @@
+--- @module Idrinth.Characterpanel
+--- Character panel customization for the Idrinth mod.
+--- Adds a custom "Idrinth's Paths" tab to the character details panel.
+--- Manages visibility of initiative tabs and custom UI elements for Idrinth.
+
 -- File-local constants for repeated strings
 local PANEL_NAME = "character_details_panel";
 local CONTEXT_PARENT = "character_context_parent";
@@ -21,6 +26,9 @@ for _, key in pairs(INITIATIVE_KEYS) do
     IDRINTH_INITIATIVES[key] = true;
 end;
 
+--- Checks if a character has any non-Idrinth initiatives.
+--- @param cqi number The character command queue index.
+--- @return boolean True if the character has other initiatives.
 local containsInitiatives = function(cqi)
     if not cqi then
         return false;
@@ -51,6 +59,9 @@ local containsInitiatives = function(cqi)
     end;
     return false;
 end;
+--- Sets the visibility of a UI component with logging.
+--- @param component userdata The UI component.
+--- @param visible boolean The desired visibility state.
 local setVisibility = function(component, visible)
     Idrinth.log("visible "..tostring(visible).." for "..tostring(component), "characterpanel");
     if not component then
@@ -61,6 +72,8 @@ local setVisibility = function(component, visible)
     end;
     component:SetVisible(visible);
 end;
+--- Gets the CQI of the currently selected character in the character panel.
+--- @return number The character CQI, or 0 if no character is selected.
 local getChosenCharacterCQI = function()
     if not cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME) then
         return 0;
@@ -75,6 +88,7 @@ local getChosenCharacterCQI = function()
     end;
     return common.get_context_value(CHARACTER_CONTEXT, character, "CQI");
 end;
+--- Sets up the initiatives tab visibility based on the selected character.
 local setupInitiatives = function()
     local cqi = getChosenCharacterCQI();
     if cqi and containsInitiatives(cqi) then
@@ -85,6 +99,7 @@ local setupInitiatives = function()
     );
     setVisibility(initiativesTab, false);
 end;
+--- Hides Idrinth-specific panels when viewing a non-Idrinth character.
 local hideIdrinthPanels = function()
     local tabPanels = Idrinth.Ui.findElementWithin(
         PANEL_NAME, CONTEXT_PARENT, TAB_PANELS
@@ -99,6 +114,7 @@ local hideIdrinthPanels = function()
     setVisibility(Idrinth.Ui.findElementWithin(tabPanels, "stats_effects_holder"), true);
     setVisibility(Idrinth.Ui.findElementWithin(tabPanels, PATHS_PANEL), false);
 end;
+--- Sets up Idrinth's Paths panel and button in the character details panel.
 local setupIdrinthsPaths = function()
     if not cm:get_campaign_ui_manager():is_panel_open(PANEL_NAME) then
         return;

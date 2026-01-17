@@ -1,3 +1,8 @@
+--- @module Idrinth.Army
+--- Army and unit management system for the Idrinth mod.
+--- Handles unit upgrades, veterancy, blessed animal mechanics, and troop dedications to gods.
+--- Provides UI integration for upgrade buttons and unit transformation mechanics.
+
 local vampireChance = "normal";
 local enableAnimalWAAAGH = true;
 local vampireChances = {
@@ -15,7 +20,9 @@ local VETERAN_PREFIX = "idrinth_veteran_";
 local CHAPEL_PREFIX = "idrinth_hev_high_elf_vampires_chapel_";
 local UPGRADE_EFFECT_RECORD = "CcoUnitPurchasableEffectRecord";
 
--- Helper predicate: checks if a unit is in a selected state
+--- Checks if a unit UI component is in a selected state.
+--- @param unit userdata The UI component representing the unit.
+--- @return boolean True if the unit is selected or hovered while selected.
 local isUnitSelected = function(unit)
     if not unit then
         return false;
@@ -27,6 +34,10 @@ Idrinth.Events.onMctChange(function()
     enableAnimalWAAAGH = Idrinth.Mct.get("animal_waaagh");
     vampireChance = Idrinth.Mct.get("vampire_chance");
 end);
+--- Gets information about the currently displayed units panel.
+--- @return userdata|nil units The units panel UI component, or nil if not found.
+--- @return userdata|nil character The currently selected character, or nil.
+--- @return table|nil uiIds Map of unique UI IDs for existing units.
 local getSelectedUnitsInfo = function()
     local units = Idrinth.Ui.findElementWithin("units_panel", "main_units_panel", "units");
     if not units then
@@ -45,6 +56,9 @@ local getSelectedUnitsInfo = function()
     end);
     return units, character, uiIds;
 end;
+--- Locks or unlocks veteran rank purchasable effects for a faction.
+--- @param faction userdata The faction to modify.
+--- @param lock boolean True to lock effects, false to unlock.
 local lockVeterans = function(faction, lock)
     if lock then
         cm:callback(
@@ -92,6 +106,9 @@ local godFavourBlessings = {
         khaine = "idrinth_khaine_god_favour_great_eagles",
     },
 };
+--- Locks or unlocks god favour blessing effects for blessed animals.
+--- @param faction userdata The faction to modify.
+--- @param lock boolean True to lock effects, false to unlock.
 local lockAnimalBlessings = function(faction, lock)
     if lock then
         cm:callback(
@@ -121,6 +138,11 @@ local lockAnimalBlessings = function(faction, lock)
         end;
     end;
 end;
+--- Creates a callback function to apply veteran rank to a newly created unit.
+--- @param uiIds table Map of existing unit UI IDs to filter out.
+--- @param expectedType string The expected unit type key for the new unit.
+--- @param currentRank number|string The veteran rank to apply.
+--- @return function Callback function that finds and upgrades the new unit.
 local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
     return function()
         Idrinth.log("applyVeteranRankToNewUnit", "army");
@@ -150,6 +172,8 @@ local applyVeteranRankToNewUnit = function(uiIds, expectedType, currentRank)
         lockVeterans(faction, true);
     end;
 end;
+--- Upgrades a mixed unit to a god-dedicated troop type.
+--- @param god string The god key (asuryan, khaine, or kurnous).
 local upgradeUnit = function(god)
     local units, character, uiIds = getSelectedUnitsInfo();
     if not units then
@@ -178,6 +202,8 @@ local upgradeUnit = function(god)
     end;
 end;
 local lastXPRank = 0;
+
+--- Upgrades a unit to a larger variant (elite troops or cavalry).
 local upgradeSize = function()
     local units, character, uiIds = getSelectedUnitsInfo();
     if not units then
@@ -226,6 +252,8 @@ local upgradeSize = function()
         cm:treasury_mod(factionKey, 0 - cavalryPrice);
     end;
 end;
+--- Applies a god favour blessing to a blessed animal unit.
+--- @param god string The god key (asuryan, khaine, or kurnous).
 local upgradeAnimal = function(god)
     local units, character = getSelectedUnitsInfo();
     if not units then
@@ -249,6 +277,9 @@ local upgradeAnimal = function(god)
         lockAnimalBlessings(character:faction(), true);
     end;
 end;
+--- Attempts to transform a priest into a vampire or varghulf.
+--- Requires sufficient treasury and god resource. Outcome is randomized.
+--- @param god string The god key (asuryan, khaine, or kurnous).
 local upgradePriest = function(god)
     local units, character, uiIds = getSelectedUnitsInfo();
     if not units then
@@ -287,6 +318,9 @@ local upgradePriest = function(god)
         cm:real_callback(applyVeteranRankToNewUnit(uiIds, varghulfType, currentRank), CALLBACK_DELAY);
     end;
 end;
+--- Sets a localized tooltip on a UI element.
+--- @param element userdata The UI component.
+--- @param loc_key string The localization key for the tooltip text.
 local setTooltip = function(element, loc_key)
     element:SetTooltipText(common.get_localised_string(loc_key), loc_key, true);
 end;
@@ -360,7 +394,8 @@ local upgradeButtonConfigs = {
         tooltips = {"upgrade_tooltips_idrinth_size_outriders"},
     },
 };
--- Updates icon display for blessed animal units
+--- Updates icon display for blessed animal units to show their god favour blessing.
+--- @param unit userdata The unit UI component.
 local updateBlessedAnimalIcons = function(unit)
     local id = unit:GetContextObjectId(UNIT_CONTEXT);
     if not id then
@@ -384,7 +419,9 @@ local updateBlessedAnimalIcons = function(unit)
     end;
 end;
 
--- Finds the selected unit type, returning nil if multiple types are selected
+--- Finds the selected unit type, returning nil if multiple different types are selected.
+--- @param units userdata The units panel UI component.
+--- @return string|nil The unit type key if all selected units are the same type, nil otherwise.
 local getSelectedUnitType = function(units)
     local selectedType = "";
     local hasMultipleTypes = false;
@@ -412,6 +449,7 @@ local getSelectedUnitType = function(units)
     return selectedType;
 end;
 
+--- Handles the display and visibility of upgrade buttons based on selected unit type.
 local handleUpgradeButtons = function()
     if not cm:get_campaign_ui_manager():is_panel_open("units_panel") then
         return;

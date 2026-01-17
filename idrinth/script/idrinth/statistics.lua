@@ -1,3 +1,9 @@
+--- @module Idrinth.Statistics
+--- Combat statistics tracking for the Idrinth mod.
+--- Tracks active rounds, battles fought, characters assassinated, and chapels founded.
+--- Statistics are persisted across save/load cycles.
+--- @return table Statistics table with ActiveRounds, BattlesFought, CharactersAssassinated, ChapelsFounded.
+
 local statistics = {
     ActiveRounds = 0,
     BattlesFought = 0,

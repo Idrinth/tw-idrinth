@@ -1,3 +1,9 @@
+--- @module Idrinth.Ui
+--- UI element manipulation utilities for the Idrinth mod.
+--- Provides functions for finding, creating, and iterating UI components.
+--- Also includes a deferred callback system for UI updates.
+--- @return table Module with nowAndThen, findElementWithin, forEachChild, findChildWhere, filterChildren, countChildrenWhere, createOrFind.
+
 local ui = {};
 local todo = {};
 local todoProcessingStarted = false;
@@ -27,6 +33,9 @@ local processTodos = function()
     end;
 end;
 
+--- Schedules a callback to run now and twice more in the next 2 seconds.
+--- Useful for UI updates that need to apply after async operations.
+--- @param callback function The function to execute multiple times.
 ui.nowAndThen = function(callback)
     if todoProcessingStarted == false then
         todoProcessingStarted = true;
@@ -36,6 +45,10 @@ ui.nowAndThen = function(callback)
     addTodo(os.time() + 1, callback);
     addTodo(os.time() + 2, callback);
 end;
+
+--- Finds a nested UI element by traversing a path of component names.
+--- @vararg string|number|userdata Component names, indices, or parent components to traverse.
+--- @return userdata|nil The found UIComponent or nil if not found.
 ui.findElementWithin = function(...)
     if not core:is_ui_created() then
         return nil;
@@ -64,6 +77,9 @@ ui.findElementWithin = function(...)
     end;
     return parent;
 end;
+--- Iterates over all children of a UI component.
+--- @param parent userdata The parent UI component.
+--- @param callback function A function(child, index) called for each child. Return false to stop iteration.
 ui.forEachChild = function(parent, callback)
     for i = 1, parent:ChildCount() do
         local child = UIComponent(parent:Find(i));
@@ -118,6 +134,11 @@ ui.countChildrenWhere = function(parent, predicate)
     return count;
 end;
 
+--- Creates a UI component from a template or returns existing one if found.
+--- @param name string The component name/identifier.
+--- @param parent userdata|nil The parent component (defaults to UI root).
+--- @param overwriteAutoFile string|nil Override the template filename (defaults to name).
+--- @return userdata|nil The created or found UIComponent.
 ui.createOrFind = function(name, parent, overwriteAutoFile)
     if not overwriteAutoFile then
         overwriteAutoFile = name;

@@ -1,3 +1,7 @@
+--- @module Idrinth.factions
+--- List of all faction keys that can potentially interact with the Idrinth mod.
+--- Used for save/load callbacks and faction-specific mechanics.
+--- @return table Array of faction key strings.
 return {
     "wh2_dlc09_tmb_dune_kingdoms",
     "wh2_dlc09_tmb_exiles_of_nehek",

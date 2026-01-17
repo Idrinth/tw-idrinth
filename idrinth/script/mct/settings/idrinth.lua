@@ -1,3 +1,14 @@
+--- @module MCT.Idrinth
+--- Mod Configuration Tool (MCT) settings definition for the Idrinth mod.
+--- Provides user-configurable options for spawn settings, features, cooldowns, and chances.
+
+--- Adds a dropdown option to an MCT mod.
+--- @param mod userdata The MCT mod object.
+--- @param key string The option key.
+--- @param values table Array of value keys for the dropdown.
+--- @param defaultValue string The default value key.
+--- @param global boolean Whether the option is global.
+--- @return userdata The created dropdown option.
 local addDropdown = function(mod, key, values, defaultValue, global)
     local dropdown = mod:add_new_option(key, "dropdown");
     local dropdownValues = {};
@@ -12,12 +23,23 @@ local addDropdown = function(mod, key, values, defaultValue, global)
     dropdown:set_is_global(global);
     return dropdown;
 end;
+--- Adds a checkbox option to an MCT mod.
+--- @param mod userdata The MCT mod object.
+--- @param key string The option key.
+--- @param defaultValue boolean The default value.
+--- @param global boolean Whether the option is global.
+--- @return userdata The created checkbox option.
 local addCheckbox = function(mod, key, defaultValue, global)
     local checkbox = mod:add_new_option(key, "checkbox");
     checkbox:set_default_value(defaultValue);
     checkbox:set_is_global(global);
     return checkbox;
 end;
+--- Adds a section with multiple options to an MCT mod.
+--- @param mod userdata The MCT mod object.
+--- @param key string The section key.
+--- @param elements table Map of element keys to config objects (element type, values, default).
+--- @param global boolean Whether options in this section are global.
 local addSection = function(mod, key, elements, global)
     mod:add_new_section(key, "mct_idrinth_section_"..key.."_name");
     for elementKey, config in pairs(elements) do

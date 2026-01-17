@@ -1,3 +1,8 @@
+--- @module Idrinth.Settlementui
+--- Settlement UI panel customization for the Idrinth mod.
+--- Adds a button to view Idrinth's chapel foreign slots in the settlement panel.
+--- Handles view switching between default, hostile, and chapel slot views.
+
 -- File-local constants for repeated strings
 local SETTLEMENT_PANEL = "settlement_panel";
 local SETTLEMENT_LIST = "settlement_list";
@@ -38,6 +43,8 @@ local buttonToView = {
     [PANEL_BUTTON] = HOSTILE_SLOTS,
 };
 
+--- Hides all view panels in the settlement view.
+--- @param settlement userdata The settlement view UI component.
 local hideAllViews = function(settlement)
     UIComponent(settlement:Find(VIEW_DEFAULT)):SetVisible(false);
     UIComponent(settlement:Find(VIEW_HOSTILE)):SetVisible(false);
@@ -46,6 +53,9 @@ local hideAllViews = function(settlement)
     UIComponent(settlement:Find(HOSTILE_SLOTS)):SetVisible(false);
 end;
 
+--- Shows the view corresponding to a button click.
+--- @param settlement userdata The settlement view UI component.
+--- @param clickedButton string The name of the clicked button.
 local showViewForButton = function(settlement, clickedButton)
     local viewName = buttonToView[clickedButton];
     if viewName then
@@ -53,6 +63,7 @@ local showViewForButton = function(settlement, clickedButton)
     end;
 end;
 
+--- Sets up the foreign slot display UI for all settlements in the list.
 local settlementForeignSlotDisplay = function()
     local parent = Idrinth.Ui.findElementWithin(SETTLEMENT_PANEL, SETTLEMENT_LIST);
     if not parent then
@@ -83,23 +94,36 @@ local settlementForeignSlotDisplay = function()
     end);
 end;
 local lastClicked = "";
+
+--- Counts the number of active (selected) buttons in a button list.
+--- @param buttons userdata The button list UI component.
+--- @return number The count of selected buttons.
 local countActiveButtons = function(buttons)
     return Idrinth.Ui.countChildrenWhere(buttons, function(button)
         return button:VisibleFromRoot() and button:CurrentState() == "selected";
     end);
 end;
 
+--- Handles the case when no buttons are active by showing the default view.
+--- @param settlement userdata The settlement view UI component.
 local handleNoActiveButtons = function(settlement)
     hideAllViews(settlement);
     UIComponent(settlement:Find(VIEW_DEFAULT)):SetVisible(true);
     UIComponent(BUTTON_DEFAULT):SetState("selected");
 end;
 
+--- Handles the case when a single button is active.
+--- @param settlement userdata The settlement view UI component.
+--- @param clickedButton string The name of the clicked button.
 local handleSingleActiveButton = function(settlement, clickedButton)
     hideAllViews(settlement);
     showViewForButton(settlement, clickedButton);
 end;
 
+--- Handles the case when multiple buttons are active.
+--- @param settlement userdata The settlement view UI component.
+--- @param buttons userdata The button list UI component.
+--- @param clickedButton string The name of the clicked button.
 local handleMultipleActiveButtons = function(settlement, buttons, clickedButton)
     if clickedButton == PANEL_BUTTON then
         Idrinth.Ui.forEachChild(buttons, function(button)
@@ -117,6 +141,8 @@ local handleMultipleActiveButtons = function(settlement, buttons, clickedButton)
     showViewForButton(settlement, clickedButton);
 end;
 
+--- Updates the settlement view state based on which button was clicked.
+--- @param clickedButton string The name of the clicked button.
 local updateSettlementViewState = function(clickedButton)
     local parent = Idrinth.Ui.findElementWithin(SETTLEMENT_PANEL, SETTLEMENT_LIST);
     if not parent then

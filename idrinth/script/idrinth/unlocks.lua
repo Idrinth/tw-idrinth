@@ -1,3 +1,8 @@
+--- @module Idrinth.Unlocks
+--- Unlock progression system for the Idrinth mod.
+--- Handles missions, dilemmas, and character spawning when unlock conditions are met.
+--- Supports different spawn configurations per culture and AI/human player differences.
+
 local unlockLevelAdjustment = nil;
 local levelAdjustment = {
     null = 0,
@@ -94,6 +99,11 @@ local nameByCulture = {
     },
 };
 local unlockMissionStarted = {};
+--- Spawns Idrinth as a lord with a starting army at the specified location.
+--- @param faction userdata The faction to spawn for.
+--- @param region userdata The region to spawn in.
+--- @param x number X coordinate for spawn.
+--- @param y number Y coordinate for spawn.
 local spawnIdrinthArmy = function(faction, region, x, y)
     cm:create_force_with_general(
         faction:name(),
@@ -121,6 +131,12 @@ local spawnIdrinthArmy = function(faction, region, x, y)
         end
     );
 end;
+--- Determines the best spawn location for Idrinth based on faction state.
+--- @param faction userdata The faction to find a spawn location for.
+--- @return userdata|nil region The region to spawn in.
+--- @return number|nil x X coordinate.
+--- @return number|nil y Y coordinate.
+--- @return number|nil leaderCqi CQI of faction leader if available.
 local getSpawnLocation = function(faction)
     if faction:faction_leader():has_region() then
         local leader = faction:faction_leader();
@@ -138,6 +154,10 @@ local getSpawnLocation = function(faction)
     );
     return home, x, y, nil;
 end;
+--- Spawns Idrinth as either a hero or lord for the specified faction.
+--- Cancels any active unlock missions and triggers appropriate dilemmas.
+--- @param agentType string The agent type (Idrinth.Constants.HeroType or LordType).
+--- @param faction userdata The faction to spawn Idrinth for.
 local spawnIdrinth = function(agentType, faction)
     local region, x, y, leaderCqi = getSpawnLocation(faction);
     if not region then

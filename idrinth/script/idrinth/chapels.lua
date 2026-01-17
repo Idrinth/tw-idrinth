@@ -1,9 +1,17 @@
+--- @module Idrinth.Chapels
+--- Chapel/building system for the Idrinth mod.
+--- Creates foreign slot chapels in regions where Idrinth is present.
+--- Chapels provide garrison bonuses and economic benefits.
+
 local enableChapels = nil;
 local chapelMode = "normal";
 local eventIdCreated = 77777;
 local eventIdDestroyed = 77778;
 local CHAPEL_TEMPLATE_KEY = "idrinth_hev_high_elf_vampires_chapel";
 
+--- Checks if a foreign slot manager contains a chapel slot.
+--- @param foreignSlotManager userdata The foreign slot manager to check.
+--- @return boolean True if a chapel slot exists.
 local hasChapelSlot = function(foreignSlotManager)
     if not foreignSlotManager or foreignSlotManager:is_null_interface() then
         return false;
@@ -20,6 +28,9 @@ local hasChapelSlot = function(foreignSlotManager)
     return false;
 end;
 
+--- Adds chapel foreign slots to Idrinth's current region.
+--- @param idrinth userdata The Idrinth character object.
+--- @param faction userdata The faction owning the chapel.
 local addForeignSlots = function(idrinth, faction)
     cm:show_message_event_located(
         faction:name(),

@@ -1,3 +1,7 @@
+--- @module Idrinth.Names
+--- Database of character names used for naming chapel units and priests.
+--- Contains a list of lore-appropriate names for the Idrinth cult members.
+--- @return table Array of name strings that can be randomly selected for unit naming.
 return {
     "Eva",
     "Plyitus",

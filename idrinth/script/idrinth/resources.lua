@@ -1,7 +1,14 @@
+--- @module Idrinth.Resources
+--- Resource management system for the Idrinth mod.
+--- Handles god favour pooled resources (Asuryan, Kurnous, Khaine) and their UI display.
+--- Provides battle-based resource gain calculations and random resource bonuses.
+
 -- File-local constants
 local RESOURCE_PREFIX = "idrinth_";
 local GOD_FAVOUR_BATTLES_SUFFIX = "_battles";
 
+--- Listener callback for pooled resource changes, updates the UI display.
+--- @param context table The event context containing resource information.
 local resourceChangedListener = function(context)
     if context:amount() == 0 then
         return;
@@ -32,6 +39,9 @@ local resourceBonusThresholds = {
     {threshold = 35, suffix = "_god_favour_plus4"},
 };
 
+--- Gets the effect bundle suffix based on resource amount thresholds.
+--- @param amount number The resource amount to check.
+--- @return string|nil The suffix for the effect bundle, or nil for no effect.
 local getResourceBonusSuffix = function(amount)
     for _, entry in ipairs(resourceBonusThresholds) do
         if amount < entry.threshold then
@@ -41,6 +51,9 @@ local getResourceBonusSuffix = function(amount)
     return "_god_favour_plus5";
 end;
 
+--- Applies a random resource bonus effect bundle to a faction.
+--- @param name string The god name (asuryan, kurnous, khaine).
+--- @param faction userdata The faction to apply the effect to.
 local applyRandomResourceBonus = function(name, faction)
     local suffix = getResourceBonusSuffix(cm:random_number(35));
     if not suffix then
@@ -80,12 +93,18 @@ local battleResultModifiers = {
         crushing_defeat = 0
     };
 };
+--- Applies a battle-based resource transaction with result modifiers.
+--- @param name string The god name (asuryan, kurnous, khaine).
+--- @param faction userdata The faction to modify resources for.
+--- @param amount number Base amount before modifiers.
+--- @param battleResult string The battle result key (e.g., "decisive_victory").
 local applyBattleResourceTransaction = function(name, faction, amount, battleResult)
     local amt = amount * battleResultModifiers[name][battleResult]/100 * (0.94 + cm:random_number(11)/100);
     cm:pooled_resource_factor_transaction(
         faction:pooled_resource_manager(), RESOURCE_PREFIX .. name .. GOD_FAVOUR_BATTLES_SUFFIX, amt
     );
 end;
+--- Creates the god favour resource UI elements on the campaign HUD.
 local createResourceUI = function()
     local parent = Idrinth.Ui.findElementWithin(
         Idrinth.Constants.Panels.HudCampaign, "resources_bar_holder", "resources_bar"

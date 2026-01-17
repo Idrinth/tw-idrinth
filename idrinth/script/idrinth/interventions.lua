@@ -1,3 +1,8 @@
+--- @module Idrinth.Interventions
+--- Godly intervention event system for the Idrinth mod.
+--- Triggers random divine intervention effects when god favour resources are high enough.
+--- Each intervention has a cost, duration, and cooldown period.
+
 local godFavourDilemmas = {
     khaine_large = {
         khaine = 300,

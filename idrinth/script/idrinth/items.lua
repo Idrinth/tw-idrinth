@@ -1,3 +1,8 @@
+--- @module Idrinth.Items
+--- Artifact/item acquisition system for the Idrinth mod.
+--- Triggers dilemmas to award god-blessed items based on Idrinth's achievements.
+--- Unique ancillaries are automatically moved to Idrinth if acquired by other characters.
+
 local itemChanceMode = "normal";
 local itemChanceFactors = {
     low = 0.5,

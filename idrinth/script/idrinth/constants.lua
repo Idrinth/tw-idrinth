@@ -1,3 +1,8 @@
+--- @module Idrinth.Constants
+--- Configuration constants for the Idrinth mod.
+--- Contains character types, unit prefixes, god names, culture keys, panel names, and dilemma keys.
+--- @return table Constants table with BaseType, HeroType, LordType, UnitPrefix, Gods, Cultures, Panels, etc.
+
 local BaseType = "idrinth_hev_high_elf_vampires_idrinth";
 local HeroType = "champion";
 local LordType = "general";
