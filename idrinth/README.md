@@ -1,105 +1,102 @@
-[h1]Idrinth Thalui: The Knight-Scholar[/h1]
+# Idrinth Thalui: The Knight-Scholar
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021][img]https://i.imgur.com/1Vglg7c.png[/img][/url]
+[![Mod Configuration Tool](https://i.imgur.com/1Vglg7c.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021)
 
-[h2]The Tale of a Fallen Loremaster[/h2]
+## The Tale of a Fallen Loremaster
 
 Once a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.
 
 Will you guide him toward redemption or embrace the darkness within? His fate rests in your hands.
 
-[h2]Translations[/h2]
+## Translations
 
 I fully support translations of this mod, they can be edited on GitHub by anyone as well if they aren't perfect or something is missing. Currently known translations are:
 
-[list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3626835116]German/Deutsch[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3630581892]French/Français[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019]Spanish/Español[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732]Russian/Русский[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214]Polish/Polski[/url
-[/list]
+- [German/Deutsch](https://steamcommunity.com/sharedfiles/filedetails/?id=3626835116)
+- [French/Français](https://steamcommunity.com/sharedfiles/filedetails/?id=3630581892)
+- [Spanish/Español](https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019)
+- [Russian/Русский](https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732)
+- [Polish/Polski](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214)
 
-[h2]Unique Recruitment[/h2]
+## Unique Recruitment
 
 Idrinth can be recruited as Lord or Hero by those who might value his dual nature:
-[list]
-[*]The Empire (seeking arcane knowledge)
-[*]Kislev (desperate for powerful allies)
-[*]High Elves (wishing to reclaim one of their own)
-[*]Wood Elves (valuing his connection to Kurnous)
-[*]Vampire Counts (embracing his newfound power)
-[/list]
-[h3]Looser Lore Mode[/h3]
+- The Empire (seeking arcane knowledge)
+- Kislev (desperate for powerful allies)
+- High Elves (wishing to reclaim one of their own)
+- Wood Elves (valuing his connection to Kurnous)
+- Vampire Counts (embracing his newfound power)
+
+### Looser Lore Mode
+
 In the looser lore mode some less likely factions are added, that represent desperate alliances:
-[list]
-[*]Bretonnia
-[*]Cathay
-[*]Dark Elves
-[*]Legions of Nagash(modded Faction)
-[*]Vampire Coast
-[/list]
+- Bretonnia
+- Cathay
+- Dark Elves
+- Legions of Nagash (modded Faction)
+- Vampire Coast
 
-[h2]Key Features[/h2]
+## Key Features
 
-[h3]Divine Favor System[/h3]
+### Divine Favor System
+
 Balance your allegiance between three powerful Elven deities, each offering unique paths to unify Idrinth's fractured existence:
-[list]
-[*][b]Khaine[/b]: Embrace aggression with enhanced melee prowess and damage output
-[*][b]Asuryan[/b]: Seek balance through improved defenses and magical resistance
-[*][b]Kurnous[/b]: Channel the hunter's path with ranged superiority and mobility
-[/list]
+- **Khaine**: Embrace aggression with enhanced melee prowess and damage output
+- **Asuryan**: Seek balance through improved defenses and magical resistance
+- **Kurnous**: Channel the hunter's path with ranged superiority and mobility
 
-[b]Chapel System[/b]
+**Chapel System**
+
 Based on the divine influences, Idrinth can found chapels that noticeably affect garrison size, power and god favour use as well as benefiting the local economy and growth.
 
 If the required mod is not used the foreign slots might behave weirdly - the mod is not technically required unless you play a faction that already has foreign slots.
 
-[h3]Narrative Dilemmas[/h3]
+### Narrative Dilemmas
+
 Face critical choices that shape Idrinth's character and determine his relationship with the divine. Will you embrace your elven roots or surrender to vampiric power? Each decision affects your divine favor and unlocks permanent bonuses.
 
-[h3]Divine Artifact Sets[/h3]
+### Divine Artifact Sets
+
 Collect and equip powerful god-aligned artifacts that enhance Idrinth's abilities. Complete a set to earn special bonuses that complement your chosen divine path.
 
-[h3]Elven Slayer Consequences[/h3]
+### Elven Slayer Consequences
+
 A dynamic trait system that tracks your battles against elven factions. The more elves you slay, the more you'll be known, despised, and eventually hated among their kind, with significant diplomatic and divine favor consequences.
 
-[h3]Arcane Versatility[/h3]
-Master spells from multiple magical lores, reflecting Idrinth's scholarly background and vampiric transformation:
-[list]
-[*]Lore of Vampires
-[*]Lore of Death
-[*]Lore of Shadows
-[/list]
+### Arcane Versatility
 
-[h3]Custom Battle Faction[/h3]
+Master spells from multiple magical lores, reflecting Idrinth's scholarly background and vampiric transformation:
+- Lore of Vampires
+- Lore of Death
+- Lore of Shadows
+
+### Custom Battle Faction
 
 Play the chapel forces as their own faction in custom battles, both single-player and multiplayer.
 
-[h3]Animal WAAAGH[/h3]
+### Animal WAAAGH
 
 The general collects a menagerie of allied animals around him, creating a waaagh out of blessed animals.
 
-[h2]ALPHA VERSION NOTICE[/h2]
+## ALPHA VERSION NOTICE
 
-This mod is in [b]EARLY ALPHA[/b] development. You may encounter:
+This mod is in **EARLY ALPHA** development. You may encounter:
 
-[list]
-[*]Some buttons in the army might be non functional
-[*]Some UI-Changes take a second to apply
-[*]Balance adjustments ongoing
-[*]Prayer system temporarily replaced by random triggering godly interventions
-[/list]
+- Some buttons in the army might be non functional
+- Some UI-Changes take a second to apply
+- Balance adjustments ongoing
+- Prayer system temporarily replaced by random triggering godly interventions
 
 Your feedback is essential for improvement! Please report any issues you encounter.
 
-[h2]Compatibility Note:[/h2]
+## Compatibility Note:
 
 The custom faction of Nagash is theoretically supported. The support needs play-testing though, if you find bugs report them here and don't bother the other mod!
 
-[h2]AI in this mod[/h2]
+## AI in this mod
 
 There are currently some AI-generated images in the mod. They are being replaced by proper art over time once the unit identity and looks are final.
 
-[h2]Socials[/h2]
-If you want to discuss the mod or need support, feel free to drop by on Discord at [url]https://discord.gg/idrinth[/url]! If you want to help translations or fix things, the code is at [url]https://github.com/Idrinth/tw-idrinth[/url]!
+## Socials
+
+If you want to discuss the mod or need support, feel free to drop by on Discord at https://discord.gg/idrinth! If you want to help translations or fix things, the code is at https://github.com/Idrinth/tw-idrinth!

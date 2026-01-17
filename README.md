@@ -10,75 +10,24 @@ Once a respected High Elven Loremaster, Idrinth Thalui met his mortal end during
 
 Will you guide him toward redemption or embrace the darkness within? His fate rests in your hands.
 
+## Mods
+
+| Mod | Description |
+|-----|-------------|
+| [Main Mod (English)](idrinth/README.md) | The core Idrinth Thalui mod with all features |
+| [No Upkeep Scaling](idrinth-no-upkeep/README.md) | Removes upkeep scaling from skill choices |
+
 ### Translations
 
 I fully support translations of this mod, they can be edited on GitHub by anyone as well if they aren't perfect or something is missing. Currently known translations are:
 
-- [German/Deutsch](https://steamcommunity.com/sharedfiles/filedetails/?id=3626835116)
-- [French/Français](https://steamcommunity.com/sharedfiles/filedetails/?id=3630581892)
-- [Spanish/Español](https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019)
-- [Russian/Русский](https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732)
-- [Polish/Polski](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214)
-
-### Unique Recruitment
-
-Idrinth can be recruited as Lord or Hero by those who might value his dual nature:
-- The Empire (seeking arcane knowledge)
-- Kislev (desperate for powerful allies)
-- High Elves (wishing to reclaim one of their own)
-- Wood Elves (valuing his connection to Kurnous)
-- Vampire Counts (embracing his newfound power)
-
-#### Looser Lore Mode
-
-In the looser lore mode some less likely factions are added, that represent desperate alliances:
-- Bretonnia
-- Cathay
-- Dark Elves
-- Legions of Nagash (modded Faction)
-- Vampire Coast
-
-### Key Features
-
-#### Divine Favor System
-
-Balance your allegiance between three powerful Elven deities, each offering unique paths to unify Idrinth's fractured existence:
-- **Khaine**: Embrace aggression with enhanced melee prowess and damage output
-- **Asuryan**: Seek balance through improved defenses and magical resistance
-- **Kurnous**: Channel the hunter's path with ranged superiority and mobility
-
-**Chapel System**
-
-Based on the divine influences, Idrinth can found chapels that noticably affect garrison size, power and god favour use as well as benefiting the local economy and growth.
-
-If the required mod is not used the foreign slots might behave weirdly - the mod is not technically required unless you play a faction that already has foreign slots.
-
-#### Narrative Dilemmas
-
-Face critical choices that shape Idrinth's character and determine his relationship with the divine. Will you embrace your elven roots or surrender to vampiric power? Each decision affects your divine favor and unlocks permanent bonuses.
-
-#### Divine Artifact Sets
-
-Collect and equip powerful god-aligned artifacts that enhance Idrinth's abilities. Complete a set to earn special bonuses that complement your chosen divine path.
-
-#### Elven Slayer Consequences
-
-A dynamic trait system that tracks your battles against elven factions. The more elves you slay, the more you'll be known, despised, and eventually hated among their kind, with significant diplomatic and divine favor consequences.
-
-#### Arcane Versatility
-
-Master spells from multiple magical lores, reflecting Idrinth's scholarly background and vampiric transformation:
-- Lore of Vampires
-- Lore of Death
-- Lore of Shadows
-
-#### Custom Battle Faction
-
-Play the chapel forces as their own faction in custom battles, both single player and multiplayer.
-
-#### Animal WAAAGH
-
-The general collects a menagerie of allied animals around him, creating a waaagh out of blessed animals.
+| Language | Steam Workshop | GitHub |
+|----------|----------------|--------|
+| German/Deutsch | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3626835116) | [README](idrinth-de/README.md) |
+| French/Francais | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3630581892) | [README](idrinth-fr/README.md) |
+| Spanish/Espanol | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019) | [README](idrinth-es/README.md) |
+| Russian/Russkij | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732) | [README](idrinth-ru/README.md) |
+| Polish/Polski | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214) | [README](idrinth-pl/README.md) |
 
 ## ALPHA VERSION NOTICE
 
