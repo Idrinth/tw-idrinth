@@ -404,6 +404,29 @@ def read_column_referenced_keys(db_path: Path) -> Set[str]:
                     referenced_keys.add(f"land_units_onscreen_name_{land_unit}")
                     referenced_keys.add(f"land_units_concealed_name_{land_unit}")
 
+    # ui_texts_replacement_labels has a 'label' column that directly references translation keys
+    ui_text_labels_file = db_path / "ui_texts_replacement_labels_tables" / "idrinth.tsv"
+    if ui_text_labels_file.exists():
+        with open(ui_text_labels_file, "r", encoding="utf-8") as f:
+            header = None
+            label_idx = -1
+
+            for line_num, line in enumerate(f, 1):
+                parts = line.strip().split("\t")
+
+                if line_num == 1:
+                    header = parts
+                    if "label" in header:
+                        label_idx = header.index("label")
+                    continue
+
+                if line.startswith("#"):
+                    continue
+
+                if label_idx >= 0 and len(parts) > label_idx and parts[label_idx]:
+                    # The label column contains direct translation key references
+                    referenced_keys.add(parts[label_idx])
+
     # special_ability_phases may use shared base keys (without _multi/_single suffix)
     sap_file = db_path / "special_ability_phases_tables" / "idrinth.tsv"
     if sap_file.exists():
