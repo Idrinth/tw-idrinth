@@ -17,9 +17,9 @@ Will you guide him toward redemption or embrace the darkness within? His fate re
 | [Main Mod (English)](idrinth/README.md) | ![mod logo](idrinth/idrinth.png) | The core Idrinth Thalui mod with all features |
 | [No Upkeep Scaling](idrinth-no-upkeep/README.md) | ![mod logo](idrinth-no-upkeep/idrinth-no-upkeep.png) | Removes upkeep scaling from skill choices |
 
-### Translations
+### Translations [![Crowdin](https://badges.crowdin.net/idrinth-thalui/localized.svg)](https://crowdin.com/project/idrinth-thalui)
 
-I fully support translations of this mod, they can be edited on GitHub by anyone as well if they aren't perfect or something is missing. Currently known translations are:
+I fully support translations of this mod, they can be edited on [crowdin](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006) by anyone as well if they aren't perfect or something is missing. Currently known translations are:
 
 | Language | Logo | Steam Workshop | GitHub |
 |----------|-----|----------------|--------|
