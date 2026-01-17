@@ -12,22 +12,22 @@ Will you guide him toward redemption or embrace the darkness within? His fate re
 
 ## Mods
 
-| Mod | Description |
-|-----|-------------|
-| [Main Mod (English)](idrinth/README.md) | The core Idrinth Thalui mod with all features |
-| [No Upkeep Scaling](idrinth-no-upkeep/README.md) | Removes upkeep scaling from skill choices |
+| Mod | Logo | Description |
+|-----|-----|-------------|
+| [Main Mod (English)](idrinth/README.md) | ![mod logo](idrinth/idrinth.png) | The core Idrinth Thalui mod with all features |
+| [No Upkeep Scaling](idrinth-no-upkeep/README.md) | ![mod logo](idrinth-no-upkeep/idrinth-no-upkeep.png) | Removes upkeep scaling from skill choices |
 
 ### Translations
 
 I fully support translations of this mod, they can be edited on GitHub by anyone as well if they aren't perfect or something is missing. Currently known translations are:
 
-| Language | Steam Workshop | GitHub |
-|----------|----------------|--------|
-| German/Deutsch | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3626835116) | [README](idrinth-de/README.md) |
-| French/Francais | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3630581892) | [README](idrinth-fr/README.md) |
-| Spanish/Espanol | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019) | [README](idrinth-es/README.md) |
-| Russian/Russkij | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732) | [README](idrinth-ru/README.md) |
-| Polish/Polski | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214) | [README](idrinth-pl/README.md) |
+| Language | Logo | Steam Workshop | GitHub |
+|----------|-----|----------------|--------|
+| German/Deutsch | ![mod logo](idrinth-de/idrinth-de.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3626835116) | [README](idrinth-de/README.md) |
+| French/Francais | ![mod logo](idrinth-fr/idrinth-fr.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3630581892) | [README](idrinth-fr/README.md) |
+| Spanish/Espanol | ![mod logo](idrinth-es/idrinth-es.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019) | [README](idrinth-es/README.md) |
+| Russian/Russkij | ![mod logo](idrinth-ru/idrinth-ru.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732) | [README](idrinth-ru/README.md) |
+| Polish/Polski | ![mod logo](idrinth-pl/idrinth-pl.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214) | [README](idrinth-pl/README.md) |
 
 ## ALPHA VERSION NOTICE
 
