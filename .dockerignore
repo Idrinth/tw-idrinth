@@ -1,0 +1,25 @@
+# Git
+.git
+.gitignore
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+CONTRIBUTING.md
+LICENSE
+
+# GitHub specific
+.github
+
+# Build artifacts (if any)
+*.log
