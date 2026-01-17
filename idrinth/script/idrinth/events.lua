@@ -1,4 +1,4 @@
-local addListener = function(event, conditionFunction, functionToRun)
+local addListener = function(event, conditionFunction, functionToRun, skipLogging)
     local info = debug.getinfo(2, "Sl");
     local source = info.source;
     local line = info.currentline;
@@ -10,7 +10,9 @@ local addListener = function(event, conditionFunction, functionToRun)
         event,
         conditionFunction,
         function(context)
-            Idrinth.log("source: " .. sourceFile .. ":" .. line .. " event: " .. event, "events");
+            if not skipLogging then
+                Idrinth.log("source: " .. sourceFile .. ":" .. line .. " event: " .. event, "events");
+            end;
             functionToRun(context);
         end,
         true

@@ -64,10 +64,6 @@ ui.findElementWithin = function(...)
     end;
     return parent;
 end;
---- Iterates over all children of a UI component, calling the callback for each.
---- @param parent userdata The parent UI component
---- @param callback function A function(child, index) that receives each wrapped UIComponent and its 1-based index.
----                          Return false to stop iteration early.
 ui.forEachChild = function(parent, callback)
     for i = 1, parent:ChildCount() do
         local child = UIComponent(parent:Find(i));

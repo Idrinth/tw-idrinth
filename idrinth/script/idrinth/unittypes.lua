@@ -1,10 +1,8 @@
 local unittypes = {};
 
--- File-local constants for repeated unit key prefixes
-local CP = "idrinth_hev_high_elf_vampires_chapel_";  -- Chapel prefix
-local HP = "idrinth_hev_high_elf_vampires_idrinth";  -- Hero prefix
+local CP = "idrinth_hev_high_elf_vampires_chapel_";
+local HP = "idrinth_hev_high_elf_vampires_idrinth";
 
--- Hashmap lookups for O(1) unit type checking
 local chapelUnits = {
     [CP.."asuryan_leader"] = true,
     [CP.."kurnous_leader"] = true,

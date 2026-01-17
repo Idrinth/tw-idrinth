@@ -16,7 +16,8 @@ Idrinth.Events.addListener(
         local file = io.open(logfile, "a");
         file:write(tostring(context:message()));
         file:close();
-    end
+    end,
+    true
 );
 
 local log = function(thing, logtype)
