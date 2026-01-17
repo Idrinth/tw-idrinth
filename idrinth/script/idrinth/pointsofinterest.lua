@@ -145,10 +145,10 @@ cm:add_saving_game_callback(
     function(context)
         if enablePointsOfInterest then
             cm:save_named_value("idrinth.enablePointsOfInterest", 1, context);
-            for key, data in pairs(placesOfInterest) do
-                if data.triggered then
-                    cm:save_named_value("idrinth.poi."..key, 1, context);
-                end;
+        end;
+        for key, data in pairs(placesOfInterest) do
+            if data.triggered then
+                cm:save_named_value("idrinth.poi."..key, 1, context);
             end;
         end;
     end

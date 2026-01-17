@@ -547,29 +547,6 @@ Idrinth.Events.addListener(
     "UnitCreated",
     function(context)
         local unitKey = context:unit():unit_key();
-        return Idrinth.Unittypes.isVampiric(unitKey)
-            or Idrinth.Unittypes.isEliteTroop(unitKey)
-            or Idrinth.Unittypes.isEnlargedEliteTroop(unitKey);
-    end,
-    function(context)
-        lockVeterans(context:unit():faction(), false);
-        local effectList = context:unit():get_unit_purchasable_effects();
-        for i = 0, effectList:num_items() - 1 do
-            local effect = effectList:item_at(i);
-            if effect:record_key() == VETERAN_PREFIX.."0" then
-                cm:faction_purchase_unit_effect(context:unit():faction(), context:unit(), effect);
-                Idrinth.log("Added "..VETERAN_PREFIX.."0 to new unit", "army");
-                lockVeterans(context:unit():faction(), true);
-                return;
-            end;
-        end;
-        lockVeterans(context:unit():faction(), true);
-    end
-);
-Idrinth.Events.addListener(
-    "UnitCreated",
-    function(context)
-        local unitKey = context:unit():unit_key();
         return Idrinth.Unittypes.isEnlargedCavalry(unitKey) or Idrinth.Unittypes.isEnlargedEliteTroop(unitKey);
     end,
     function(context)

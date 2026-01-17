@@ -6,7 +6,7 @@
 local itemChanceMode = "normal";
 local itemChanceFactors = {
     low = 0.5,
-    medium = 1,
+    normal = 1,
     high = 1.5,
 };
 local itemDilemmas = {
