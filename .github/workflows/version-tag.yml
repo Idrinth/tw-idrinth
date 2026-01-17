@@ -1,0 +1,48 @@
+name: Tag Version
+
+on:
+  push:
+    branches:
+      - the-one
+    paths:
+      - 'idrinth/script/idrinth/version.lua'
+
+jobs:
+  tag-previous-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+
+      - name: Get previous commit SHA
+        id: prev-commit
+        run: echo "sha=$(git rev-parse HEAD~1)" >> $GITHUB_OUTPUT
+
+      - name: Extract version from previous commit
+        id: version
+        run: |
+          git show ${{ steps.prev-commit.outputs.sha }}:idrinth/script/idrinth/version.lua > version_prev.lua
+          MAIN=$(grep 'main\s*=' version_prev.lua | sed 's/[^0-9]*//g')
+          FEATURE=$(grep 'feature\s*=' version_prev.lua | sed 's/[^0-9]*//g')
+          BUG=$(grep 'bug\s*=' version_prev.lua | sed 's/[^0-9]*//g')
+          ITERATION=$(grep 'iteration\s*=' version_prev.lua | sed 's/[^0-9]*//g')
+          VERSION="v${MAIN}.${FEATURE}.${BUG}.${ITERATION}"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Check if tag already exists
+        id: check-tag
+        run: |
+          if git rev-parse "${{ steps.version.outputs.version }}" >/dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create and push tag
+        if: steps.check-tag.outputs.exists == 'false'
+        run: |
+          git tag ${{ steps.version.outputs.version }} ${{ steps.prev-commit.outputs.sha }}
+          git push origin ${{ steps.version.outputs.version }}
