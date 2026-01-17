@@ -109,7 +109,7 @@
 			visible="false"
 			docking="Top Center"
 			component_anchor_point="0.50,0.00"
-			componentleveltooltip="{{tr:pirate_cove_settlement_panel_tooltip}}"
+			componentleveltooltip="{{tr:idrinth_chapel_settlement_panel_tooltip}}"
 			tooltiplabel="ComponentTooltip_b508ad56"
 			uniqueguid="11A8785D-0FD4-4953-950A1597E795CBED"
 			currentstate="73A362B2-0FAE-43D5-9F9B360AADD5362C"
