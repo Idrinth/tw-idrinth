@@ -35,7 +35,7 @@ Equilibrez votre allegeance entre trois puissantes divinites elfiques, chacune o
 - **Asuryan** : Recherchez l'equilibre grace a des defenses ameliorees et une resistance magique
 - **Kurnous** : Canalisez la voie du chasseur avec une superiorite a distance et la mobilite
 
-**Systeme de Chapelles**
+### Système de Chapelles
 
 Base sur les influences divines, Idrinth peut fonder des chapelles qui affectent notablement la taille de la garnison, la puissance et l'utilisation de la faveur divine ainsi que l'economie locale et la croissance.
 

@@ -35,7 +35,7 @@ Balansuj swoja lojalnosc miedzy trzema poteznymi elfickimi bostwami, z ktorych k
 - **Asuryan**: Szukaj rownowagi poprzez ulepszona obrone i odpornosc na magie
 - **Kurnous**: Podazaj sciezka lowcy z przewaga w walce dystansowej i mobilnoscia
 
-**System Kaplic**
+### System Kaplic
 
 W oparciu o boskie wplywy, Idrinth moze zakladac kaplice, ktore znaczaco wplywaja na rozmiar garnizonu, sile i wykorzystanie boskiej laski, a takze wspieraja lokalna ekonomie i wzrost.
 

@@ -35,7 +35,7 @@ Balanciere deine Loyalität zwischen drei mächtigen elfischen Gottheiten, von d
 - **Asuryan**: Suche Balance durch verbesserte Verteidigung und magische Resistenz
 - **Kurnous**: Kanalisiere den Pfad des Jägers mit Fernkampfüberlegenheit und Mobilität
 
-**Kapellen-System**
+### Kapellen-System
 
 Basierend auf den göttlichen Einflüssen kann Idrinth Kapellen gründen, die die Garnisionsgröße, Stärke und Nutzung der Göttergunst merklich beeinflussen sowie der lokalen Wirtschaft und dem Wachstum zugutekommen.
 
@@ -89,4 +89,4 @@ Es gibt derzeit einige KI-generierte Bilder in der Mod. Sie werden im Laufe der 
 
 ## Soziale Medien
 
-Wenn du die Mod diskutieren möchtest oder Unterstützung brauchst, schau gerne auf Discord vorbei unter https://discord.gg/idrinth! Wenn du bei Übersetzungen helfen oder Dinge reparieren möchtest, findest du den Code unter https://github.com/Idrinth/tw-idrinth!
+Wenn du die Mod diskutieren möchtest oder Unterstützung brauchst, schau gerne auf [Discord](https://discord.gg/idrinth) vorbei! Wenn du bei Übersetzungen helfen oder Dinge reparieren möchtest, findest du den Code auf [GitHub](https://github.com/Idrinth/tw-idrinth)!

@@ -2,11 +2,11 @@
 
 [![Mod Configuration Tool](https://i.imgur.com/1Vglg7c.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021)
 
-## La Historia de un Maestro del Saber Caido
+## La Historia de un Maestro del Saber Caído
 
-Alguna vez un respetado Maestro del Saber de los Altos Elfos, Idrinth Thalui encontro su fin mortal durante las sangrientas Guerras Vampiricas, solo para resurgir como una de las mismas criaturas contra las que lucho. Ahora este Caballero-Erudito camina por un sendero precario entre su herencia elfica y su maldicion vampirica, buscando proposito en un mundo desgarrado por el Caos.
+Alguna vez un respetado Maestro del Saber de los Altos Elfos, Idrinth Thalui encontró su fin mortal durante las sangrientas Guerras Vampíricas, solo para resurgir como una de las mismas criaturas contra las que luchó. Ahora este Caballero-Erudito camina por un sendero precario entre su herencia élfica y su maldición vampírica, buscando propósito en un mundo desgarrado por el Caos.
 
-Lo guiaras hacia la redencion o abrazaras la oscuridad interior? Su destino esta en tus manos.
+¿Lo guiarás hacia la redención o abrazarás la oscuridad interior? Su destino está en tus manos.
 
 ## Reclutamiento Unico
 
