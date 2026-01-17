@@ -17,6 +17,8 @@ I fully support translations of this mod, they can be edited on GitHub by anyone
 - [Spanish/Español](https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019)
 - [Russian/Русский](https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732)
 - [Polish/Polski](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214)
+- [Portuguese/Português](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565436)
+- [Italian/Italiano](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565302)
 
 ## Unique Recruitment
 
