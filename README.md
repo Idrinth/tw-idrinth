@@ -28,6 +28,8 @@ I fully support translations of this mod, they can be edited on GitHub by anyone
 | Spanish/Espanol | ![mod logo](idrinth-es/idrinth-es.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019) | [README](idrinth-es/README.md) |
 | Russian/Russkij | ![mod logo](idrinth-ru/idrinth-ru.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732) | [README](idrinth-ru/README.md) |
 | Polish/Polski | ![mod logo](idrinth-pl/idrinth-pl.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214) | [README](idrinth-pl/README.md) |
+| Portuguese/Português | ![mod logo](idrinth-pt/idrinth-pt.png) | Coming Soon | [README](idrinth-pt/README.md) |
+| Italian/Italiano | ![mod logo](idrinth-it/idrinth-it.png) | Coming Soon | [README](idrinth-it/README.md) |
 
 ## ALPHA VERSION NOTICE
 
