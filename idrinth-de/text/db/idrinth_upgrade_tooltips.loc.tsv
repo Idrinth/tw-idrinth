@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_upgrade_tooltips.loc		
+#Loc;1;text/db/idrinth_upgrade_tooltips.loc
 upgrade_tooltips_idrinth_unit_asuryan	Gemischte Elfengarde zu Asuryans Garde für 300 Gold aufwerten.	false
 upgrade_tooltips_idrinth_priest_asuryan	Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.	false
 upgrade_tooltips_idrinth_unit_khaine	Gemischte Elfengarde zu Khaines Garde für 300 Gold aufwerten.	false
@@ -18,3 +18,7 @@ upgrade_tooltips_idrinth_animal_asuryan_bats	Bless the bats in Asuryan's name fo
 upgrade_tooltips_idrinth_animal_kurnous_wolves	Bless the wolves in Kurnous' name for 75 gold and 30 favour.	false
 upgrade_tooltips_idrinth_animal_khaine_wolves	Bless the wolves in Khaine's name for 75 gold and 30 favour.	false
 upgrade_tooltips_idrinth_animal_asuryan_wolves	Bless the wolves in Asuryan's name for 75 gold and 30 favour.	false
+upgrade_tooltips_idrinth_size_outriders	Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.	false
+upgrade_tooltips_idrinth_size_kurnous	Increase the number of Kurnous' Guard by 15 for 300 gold. Ranks and Veteran status carry over.	false
+upgrade_tooltips_idrinth_size_khaine	Increase the number of Khaine's Guard by 15 for 300 gold. Ranks and Veteran status carry over.	false
+upgrade_tooltips_idrinth_size_asuryan	Increase the number of Asuryan's Guard by 15 for 300 gold. Ranks and Veteran status carry over.	false

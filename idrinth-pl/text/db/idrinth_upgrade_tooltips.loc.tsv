@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_upgrade_tooltips.loc		
+#Loc;1;text/db/idrinth_upgrade_tooltips.loc
 upgrade_tooltips_idrinth_unit_asuryan	Ulepsz Mieszaną Straż Elficką do Straży Asuryana za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski	false
 upgrade_tooltips_idrinth_priest_asuryan	Spróbuj zamienić tego kapłana w wampira za 1000 Złota i 250 Łaski. To może się nie udać, a w najgorszym przypadku po prostu ich zabić.	false
 upgrade_tooltips_idrinth_unit_khaine	Ulepsz Mieszaną Straż Elficką do Straży Khaine'a za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski.	false
@@ -18,3 +18,7 @@ upgrade_tooltips_idrinth_animal_asuryan_bats	Pobłogosław nietoperze w imieniu 
 upgrade_tooltips_idrinth_animal_kurnous_wolves	Pobłogosław wilki w imieniu Kurnous za 75 złota i 30 łaski.	false
 upgrade_tooltips_idrinth_animal_khaine_wolves	Pobłogosław wilki w imieniu Khaine'a za 75 złota i 30 łaski.	false
 upgrade_tooltips_idrinth_animal_asuryan_wolves	Pobłogosław wilki w imieniu Asuryana za 75 złota i 30 łaski.	false
+upgrade_tooltips_idrinth_size_outriders	Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.	false
+upgrade_tooltips_idrinth_size_kurnous	Increase the number of Kurnous' Guard by 15 for 300 gold. Ranks and Veteran status carry over.	false
+upgrade_tooltips_idrinth_size_khaine	Increase the number of Khaine's Guard by 15 for 300 gold. Ranks and Veteran status carry over.	false
+upgrade_tooltips_idrinth_size_asuryan	Increase the number of Asuryan's Guard by 15 for 300 gold. Ranks and Veteran status carry over.	false
