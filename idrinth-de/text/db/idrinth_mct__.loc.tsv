@@ -67,3 +67,5 @@ mct_idrinth_elf_slayer_traits_text	Elf Slayer Traits	false
 mct_idrinth_elf_slayer_traits_tooltip	Enables the traits for slaying elves. Disabling does not remove existing trait levels.	false
 mct_idrinth_devotion_traits_text	Devotion Traits	false
 mct_idrinth_devotion_traits_tooltip	Enables the traits for spending time devoted to a specific god. Disabling does not remove existing trait levels.	false
+mct_idrinth_interventions_text	Enable Divine Intervention	false
+mct_idrinth_interventions_tooltip	If enabled Asuryan, Kurnous and Khaine will intervene when your favour is high, using some of it for faction wide buffs.	false
