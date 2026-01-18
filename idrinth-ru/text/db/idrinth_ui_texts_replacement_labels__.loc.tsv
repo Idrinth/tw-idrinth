@@ -1,4 +1,4 @@
-key"	"text"	"tooltip"
-"#Loc;1;text/db/idrinth_ui_texts_replacement_labels__.loc"	""	""
-"ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip"	"Талуианская Капелла"	"false"
-"ui_text_replacements_localised_text_idrinth_chapel_button_tooltip"	"Показать местную талуианскую часовню"	"false"
+key	text	tooltip
+#Loc;1;text/db/idrinth_ui_texts_replacement_labels__.loc
+ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip	Талуианская Капелла	false
+ui_text_replacements_localised_text_idrinth_chapel_button_tooltip	Показать местную талуианскую часовню	false
