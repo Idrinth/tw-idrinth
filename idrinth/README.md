@@ -20,6 +20,10 @@ I fully support translations of this mod, they can be edited on GitHub by anyone
 - [Portuguese/Português](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565436)
 - [Italian/Italiano](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565302)
 
+## Related Mods
+
+- [No Upkeep](https://steamcommunity.com/sharedfiles/filedetails/?id=3622407938)
+
 ## Unique Recruitment
 
 Idrinth can be recruited as Lord or Hero by those who might value his dual nature:
