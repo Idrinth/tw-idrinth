@@ -111,15 +111,24 @@ Localization strings in TSV format organized by language pack:
 
 Each `.loc.tsv` file contains key-value pairs for UI text. Language packs are separated into their own directories to allow independent distribution.
 
-#### `readme.steam` Files - Steam Workshop Descriptions
+#### `README.md` and `readme.steam` Files - Documentation
 
-Each mod pack directory contains a `readme.steam` file used as the Steam Workshop description:
+Each mod pack directory contains two documentation files that should be kept in sync:
 
-- `idrinth/readme.steam` - Main mod description
-- `idrinth-de/readme.steam` - German language pack description
-- `idrinth-es/readme.steam` - Spanish language pack description
-- `idrinth-fr/readme.steam` - French language pack description
-- `idrinth-ru/readme.steam` - Russian language pack description
+- `README.md` - GitHub repository documentation (Markdown format)
+- `readme.steam` - Steam Workshop description (Steam BBCode format)
+
+**Main mod documentation:**
+- `idrinth/README.md` - Main mod GitHub description
+- `idrinth/readme.steam` - Main mod Steam Workshop description
+
+**Language pack documentation:**
+- `idrinth-de/README.md` and `readme.steam` - German language pack
+- `idrinth-es/README.md` and `readme.steam` - Spanish language pack
+- `idrinth-fr/README.md` and `readme.steam` - French language pack
+- `idrinth-ru/README.md` and `readme.steam` - Russian language pack
+
+**Important**: When updating documentation content, you must update **both** `README.md` and `readme.steam` in the same pull request to keep them synchronized. The content should be equivalent, just formatted differently for each platform.
 
 **Important Size Limit**: All `readme.steam` files must be at or below **8000 bytes**. This equals approximately 8000 ASCII characters or 4000 UTF-8 characters (since many UTF-8 characters use 2 bytes). This is a Steam Workshop limitation.
 
@@ -298,17 +307,18 @@ idrinth_trait_desc	Translated Description	true
 
 1. Ensure your code follows the conventions above
 2. Test changes in-game
-3. Commit with clear, descriptive messages:
+3. If updating documentation, ensure both `README.md` and `readme.steam` are updated in the same PR
+4. Commit with clear, descriptive messages:
    ```bash
    git commit -m "Add new chapel building for Khaine"
    ```
 
-4. Push your branch:
+5. Push your branch:
    ```bash
    git push -u origin feature/your-feature-name
    ```
 
-5. Open a Pull Request with:
+6. Open a Pull Request with:
    - Clear description of changes
    - Testing steps performed
    - Screenshots if UI changes are involved
