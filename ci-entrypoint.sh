@@ -59,6 +59,17 @@ run_translations() {
     fi
 }
 
+run_ui_check() {
+    print_header "Checking UI File References"
+    if python3 scripts/check_ui_file_references.py; then
+        print_success "UI file reference check passed!"
+        return 0
+    else
+        print_error "UI file reference check failed!"
+        return 1
+    fi
+}
+
 show_help() {
     echo "Usage: docker run <image> [command]"
     echo ""
@@ -67,6 +78,7 @@ show_help() {
     echo "  luacheck      Run Luacheck only"
     echo "  selene        Run Selene only"
     echo "  translations  Run translation check only"
+    echo "  ui            Run UI file reference check only"
     echo "  lint          Run both Luacheck and Selene"
     echo "  help          Show this help message"
     echo ""
@@ -86,6 +98,7 @@ case "${1:-all}" in
         run_luacheck || FAILED=1
         run_selene || FAILED=1
         run_translations || FAILED=1
+        run_ui_check || FAILED=1
 
         echo ""
         if [ $FAILED -eq 0 ]; then
@@ -104,6 +117,9 @@ case "${1:-all}" in
         ;;
     translations)
         run_translations
+        ;;
+    ui)
+        run_ui_check
         ;;
     lint)
         FAILED=0
