@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_cdir_events_dilemma_choice_details__.loc
+#Loc;1;text/db/idrinth_cdir_events_dilemma_choice_details__.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Hilfe annehmen. (Held)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Hilfe annehmen. (Feldherr)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Den Fremden fortjagen.	false
