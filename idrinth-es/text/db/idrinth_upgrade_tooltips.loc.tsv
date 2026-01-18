@@ -1,20 +1,24 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_upgrade_tooltips.loc		
-upgrade_tooltips_idrinth_unit_asuryan	Mejora la Guardia Élfica Mixta a Guardia de Asuryan por 300 de Oro.	false
-upgrade_tooltips_idrinth_priest_asuryan	Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.	false
-upgrade_tooltips_idrinth_unit_khaine	Mejora la Guardia Élfica Mixta a Guardia de Khaine por 300 de Oro.	false
-upgrade_tooltips_idrinth_priest_khaine	Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.	false
-upgrade_tooltips_idrinth_unit_kurnous	Mejora la Guardia Élfica Mixta a Guardia de Kurnous por 300 de Oro.	false
-upgrade_tooltips_idrinth_priest_kurnous	Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.	false
-upgrade_tooltips_idrinth_animal_kurnous_eagle	Bless the great eagle in Kurnous' name for 125 gold and 70 favour.	false
-upgrade_tooltips_idrinth_animal_khaine_eagle	Bless the great eagle in Khaine's name for 125 gold and 70 favour.	false
-upgrade_tooltips_idrinth_animal_asuryan_eagle	Bless the great eagle in Asuryan's name for 125 gold and 70 favour.	false
-upgrade_tooltips_idrinth_animal_kurnous_hawks	Bless the hawks in Kurnous' name for 100 gold and 40 favour.	false
-upgrade_tooltips_idrinth_animal_khaine_hawks	Bless the hawks in Khaine's name for 100 gold and 40 favour.	false
-upgrade_tooltips_idrinth_animal_asuryan_hawks	Bless the hawks in Asuryan's name for 100 gold and 40 favour.	false
-upgrade_tooltips_idrinth_animal_kurnous_bats	Bless the bats in Kurnous' name for 50 gold and 20 favour.	false
-upgrade_tooltips_idrinth_animal_khaine_bats	Bless the bats in Khaine's name for 50 gold and 20 favour.	false
-upgrade_tooltips_idrinth_animal_asuryan_bats	Bless the bats in Asuryan's name for 50 gold and 20 favour.	false
-upgrade_tooltips_idrinth_animal_kurnous_wolves	Bless the wolves in Kurnous' name for 75 gold and 30 favour.	false
-upgrade_tooltips_idrinth_animal_khaine_wolves	Bless the wolves in Khaine's name for 75 gold and 30 favour.	false
-upgrade_tooltips_idrinth_animal_asuryan_wolves	Bless the wolves in Asuryan's name for 75 gold and 30 favour.	false
+key"	"text"	"tooltip"
+"#Loc;1;text/db/idrinth_upgrade_tooltips.loc"	""	""
+"upgrade_tooltips_idrinth_unit_asuryan"	"Mejora la Guardia Élfica Mixta a Guardia de Asuryan por 300 de Oro."	"false"
+"upgrade_tooltips_idrinth_priest_asuryan"	"Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo."	"false"
+"upgrade_tooltips_idrinth_unit_khaine"	"Mejora la Guardia Élfica Mixta a Guardia de Khaine por 300 de Oro."	"false"
+"upgrade_tooltips_idrinth_priest_khaine"	"Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo."	"false"
+"upgrade_tooltips_idrinth_unit_kurnous"	"Mejora la Guardia Élfica Mixta a Guardia de Kurnous por 300 de Oro."	"false"
+"upgrade_tooltips_idrinth_priest_kurnous"	"Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo."	"false"
+"upgrade_tooltips_idrinth_animal_kurnous_eagle"	"Bless the great eagle in Kurnous' name for 125 gold and 70 favour."	"false"
+"upgrade_tooltips_idrinth_animal_khaine_eagle"	"Bless the great eagle in Khaine's name for 125 gold and 70 favour."	"false"
+"upgrade_tooltips_idrinth_animal_asuryan_eagle"	"Bless the great eagle in Asuryan's name for 125 gold and 70 favour."	"false"
+"upgrade_tooltips_idrinth_animal_kurnous_hawks"	"Bless the hawks in Kurnous' name for 100 gold and 40 favour."	"false"
+"upgrade_tooltips_idrinth_animal_khaine_hawks"	"Bless the hawks in Khaine's name for 100 gold and 40 favour."	"false"
+"upgrade_tooltips_idrinth_animal_asuryan_hawks"	"Bless the hawks in Asuryan's name for 100 gold and 40 favour."	"false"
+"upgrade_tooltips_idrinth_animal_kurnous_bats"	"Bless the bats in Kurnous' name for 50 gold and 20 favour."	"false"
+"upgrade_tooltips_idrinth_animal_khaine_bats"	"Bless the bats in Khaine's name for 50 gold and 20 favour."	"false"
+"upgrade_tooltips_idrinth_animal_asuryan_bats"	"Bless the bats in Asuryan's name for 50 gold and 20 favour."	"false"
+"upgrade_tooltips_idrinth_animal_kurnous_wolves"	"Bless the wolves in Kurnous' name for 75 gold and 30 favour."	"false"
+"upgrade_tooltips_idrinth_animal_khaine_wolves"	"Bless the wolves in Khaine's name for 75 gold and 30 favour."	"false"
+"upgrade_tooltips_idrinth_animal_asuryan_wolves"	"Bless the wolves in Asuryan's name for 75 gold and 30 favour."	"false"
+"upgrade_tooltips_idrinth_size_outriders"	"Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over."	"false"
+"upgrade_tooltips_idrinth_size_kurnous"	"Increase the number of Kurnous' Guard by 15 for 300 gold. Ranks and Veteran status carry over."	"false"
+"upgrade_tooltips_idrinth_size_khaine"	"Increase the number of Khaine's Guard by 15 for 300 gold. Ranks and Veteran status carry over."	"false"
+"upgrade_tooltips_idrinth_size_asuryan"	"Increase the number of Asuryan's Guard by 15 for 300 gold. Ranks and Veteran status carry over."	"false"
