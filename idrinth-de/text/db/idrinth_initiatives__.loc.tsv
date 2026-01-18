@@ -6,9 +6,9 @@ initiatives_localised_name_idrinth_asuryan_pledge	Weiht Euch dem Asuryan	false
 initiatives_localised_name_idrinth_khaine_prayer	Betet zu Khaine	false
 initiatives_localised_name_idrinth_kurnous_prayer	Betet zu Kurnous	false
 initiatives_localised_name_idrinth_asuryan_prayer	Betet zu Asuryan	false
-idrinth_khaine_pledgefalse
-idrinth_kurnous_pledgefalse
-idrinth_asuryan_pledgefalse
-idrinth_khaine_prayerfalse
-idrinth_kurnous_prayerfalse
-idrinth_asuryan_prayerfalse
+idrinth_khaine_pledge		false
+idrinth_kurnous_pledge		false
+idrinth_asuryan_pledge		false
+idrinth_khaine_prayer		false
+idrinth_kurnous_prayer		false
+idrinth_asuryan_prayer		false
