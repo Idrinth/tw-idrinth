@@ -1,0 +1,65 @@
+key	text	tooltip
+#Loc;1;text/db/idrinth_mct__.loc
+mct_idrinth_title	Idrinth Thalui - Yüksek Elf Vampir Bilge Ustası	false
+mct_idrinth_author	Björn 'Idrinth' Büttner	false
+mct_idrinth_description	Düşmüş Bir Bilge Ustasının Hikayesi\\n\\nBir zamanlar saygın bir Yüksek Elf Bilge Ustası olan Idrinth Thalui, kanlı Vampir Savaşları sırasında ölümlü sonuyla karşılaştı, ancak savaştığı yaratıklardan biri olarak yeniden dirildi. Şimdi bu Şövalye-Bilgin, elf mirası ile vampir laneti arasında tehlikeli bir yolda yürüyor ve Kaos tarafından parçalanmış bir dünyada amaç arıyor.\\n\\nOnu kurtuluşa mı yönlendireceksiniz yoksa içindeki karanlığı mı kucaklayacaksınız? Kaderi sizin ellerinizde.\\n\\nBenzersiz İşe Alım\\n\\nIdrinth, ikili doğasına değer verebilecek olanlar tarafından Lord veya Kahraman olarak işe alınabilir:\\n- İmparatorluk (gizemli bilgi arayan)\\n- Kislev (güçlü müttefiklere muhtaç)\\n- Yüksek Elfler (kendi halkından birini geri almak isteyen)\\n- Orman Elfleri (Kurnous ile bağlantısına değer veren)\\n- Vampir Kontları (yeni kazanılmış gücünü kucaklayan)\\n\\nGevşek Hikaye Modu\\n\\nGevşek hikaye modunda, umutsuz ittifakları temsil eden bazı daha az olası fraksiyonlar eklenir:\\n- Bretonnia\\n- Cathay\\n- Karanlık Elfler\\n- Nagash Lejyonları (modlanmış Fraksiyon)\\n- Vampir Sahili\\n\\nAna Özellikler\\n\\nİlahi İyilik Sistemi\\n\\nÜç güçlü Elf tanrısı arasındaki bağlılığınızı dengeleyin, her biri Idrinth'in parçalanmış varlığını birleştirmek için benzersiz yollar sunar:\\n\\nKhaine: Gelişmiş yakın dövüş yeteneği ve hasar çıkışı ile saldırganlığı kucaklayın\\n\\nAsuryan: Gelişmiş savunma ve büyü direnci ile denge arayın\\n\\nKurnous: Menzilli üstünlük ve hareketlilik ile avcının yolunu izleyin\\n\\nŞapel Sistemi\\n\\nİlahi etkilere dayanarak, Idrinth garnizon boyutunu, gücünü ve tanrı iyiliği kullanımını belirgin şekilde etkileyen ve yerel ekonomiye ve büyümeye fayda sağlayan şapeller kurabilir.\\n\\nGerekli mod kullanılmazsa yabancı slotlar garip davranabilir - mod teknik olarak yalnızca zaten yabancı slotlara sahip bir fraksiyon oynuyorsanız gereklidir.\\n\\nAnlatısal İkilemler\\n\\nIdrinth'in karakterini şekillendiren ve ilahi ile ilişkisini belirleyen kritik seçimlerle yüzleşin. Elf köklerinizi mi kucaklayacaksınız yoksa vampir gücüne mi teslim olacaksınız? Her karar ilahi iyiliğinizi etkiler ve kalıcı bonuslar açar.\\n\\nİlahi Eşya Setleri\\n\\nIdrinth'in yeteneklerini artıran güçlü tanrı hizalı eşyalar toplayın ve kuşanın. Seçtiğiniz ilahi yolu tamamlayan özel bonuslar kazanmak için bir seti tamamlayın.\\n\\nElf Katili Sonuçları\\n\\nElf fraksiyonlarına karşı savaşlarınızı takip eden dinamik bir özellik sistemi. Ne kadar çok elf öldürürseniz, onların arasında o kadar çok tanınacak, hor görülecek ve sonunda nefret edileceksiniz, önemli diplomatik ve ilahi iyilik sonuçlarıyla.\\n\\nGizemli Çok Yönlülük\\n\\nIdrinth'in akademik geçmişini ve vampir dönüşümünü yansıtan birden fazla büyü ilminden büyüler öğrenin:\\n- Vampir İlmi\\n- Ölüm İlmi\\n- Gölge İlmi\\n\\nÖzel Savaş Fraksiyonu\\n\\nŞapel kuvvetlerini hem tek oyunculu hem de çok oyunculu özel savaşlarda kendi fraksiyonları olarak oynayın.\\n\\nHayvan WAAAGH\\n\\nGeneral etrafında müttefik hayvanlardan oluşan bir koleksiyon toplar, kutsanmış hayvanlardan bir WAAAGH oluşturur.\\n\\nALFA SÜRÜM BİLDİRİMİ\\n\\nBu mod ERKEN ALFA geliştirme aşamasındadır. Karşılaşabileceğiniz durumlar:\\n\\n- Ordudaki bazı düğmeler işlevsel olmayabilir\\n- Bazı arayüz değişikliklerinin uygulanması bir saniye sürebilir\\n- Denge ayarlamaları devam ediyor\\n- Dua sistemi geçici olarak rastgele tetiklenen ilahi müdahalelerle değiştirildi\\n\\nGeri bildiriminiz gelişim için çok önemli! Lütfen karşılaştığınız sorunları bildirin.\\n\\nUyumluluk Notu:\\n\\nNagash'ın özel fraksiyonu teorik olarak destekleniyor. Ancak desteğin oynanarak test edilmesi gerekiyor, hata bulursanız buraya bildirin ve diğer modu rahatsız etmeyin!\\n\\nYapılandırma\\n\\nMod yapılandırma aracı destekleniyor, ancak isteğe bağlı.\\n\\nBu Modda Yapay Zeka\\n\\nŞu anda modda bazı yapay zeka tarafından oluşturulmuş görseller var. Birim kimliği ve görünümü kesinleştiğinde bunlar zamanla uygun sanat eserleriyle değiştirilecek.	false
+mct_idrinth_expanded_spawn_text	Genişletilmiş Doğma Kültürleri	false
+mct_idrinth_expanded_spawn_tooltip	Idrinth'in Bretonnia, Cathay, Nagash Lejyonları, Karanlık Elfler ve Vampir Sahili için de doğmasına izin verir.	false
+mct_idrinth_level_adjustment_text	Seviye Gereksinimi	false
+mct_idrinth_level_adjustment_options_null_text	Erken Oyun	false
+mct_idrinth_level_adjustment_options_one_text	Geç Erken Oyun	false
+mct_idrinth_level_adjustment_options_three_text	Erken Orta Oyun	false
+mct_idrinth_level_adjustment_options_six_text	Orta Oyun	false
+mct_idrinth_level_adjustment_tooltip	Idrinth'in kilit açma görevini almak için seviye gereksinimini değiştirir.	false
+mct_idrinth_god_item_difficulty_text	Tanrı Kutsanmış Eşya Zorluğu	false
+mct_idrinth_god_item_difficulty_options_low_text	Düşük Gereksinimler	false
+mct_idrinth_god_item_difficulty_options_normal_text	Normal Gereksinimler	false
+mct_idrinth_god_item_difficulty_options_high_text	Yüksek Gereksinimler	false
+mct_idrinth_god_item_difficulty_tooltip	Tanrı kutsanmış eşyaları almak için gereksinimleri değiştirir.	false
+mct_idrinth_chapel_chance_text	Şapel Doğma Şansı	false
+mct_idrinth_chapel_chance_options_low_text	Düşük Şans	false
+mct_idrinth_chapel_chance_options_normal_text	Normal Şans	false
+mct_idrinth_chapel_chance_options_high_text	Yüksek Şans	false
+mct_idrinth_chapel_chance_tooltip	Idrinth'in varlığı tarafından Thalui Şapellerinin doğma şansını değiştirir.	false
+mct_idrinth_story_events_text	Hikaye Olaylarını Etkinleştir	false
+mct_idrinth_story_events_tooltip	Idrinth'in kendisi için önemli olan belirli bölgelere ulaştığında oyuncuyu bilgilendirmesine izin verir.	false
+mct_idrinth_chapels_text	Thalui Şapelleri	false
+mct_idrinth_chapels_tooltip	Idrinth'in şehirlerin savunmasını güçlendiren ve tanrı iyiliği üretimini etkileyen şapeller kurmasına izin verir.	false
+mct_idrinth_dilemma_cooldown_text	İkilem Bekleme Süresi	false
+mct_idrinth_dilemma_cooldown_options_low_text	Düşük (1 + [1-2])	false
+mct_idrinth_dilemma_cooldown_options_medium_text	Orta (2 + [1-3])	false
+mct_idrinth_dilemma_cooldown_options_long_text	Uzun (3 + [1-4])	false
+mct_idrinth_dilemma_cooldown_tooltip	Karar gerektiren ikilemler arasındaki bekleme süresini değiştirir.	false
+mct_idrinth_names_text	Birim Yeniden Adlandırma	false
+mct_idrinth_names_tooltip	İşaretlendiğinde birimler işe alındığında elf isimleri listesinden çekilen özel bir isim alır.	false
+mct_idrinth_logging_text	Kendi Günlük Kaydını Etkinleştir	false
+mct_idrinth_logging_tooltip	İşaretlendiğinde bu mod oyun kök dizinine idrinth.*.log olarak günlük kaydı yapar.	false
+mct_idrinth_base_logging_text	Temel Oyun Günlük Kaydı Kullanımını Etkinleştir	false
+mct_idrinth_base_logging_tooltip	İşaretlendiğinde bu mod temel oyun günlük kaydı işlevi ile günlük kaydı yapar.	false
+mct_idrinth_section_idrinth_features_name	Özellik Geçişleri	false
+mct_idrinth_section_idrinth_chances_name	Şanslar	false
+mct_idrinth_section_idrinth_spawn_name	Doğma Seçenekleri	false
+mct_idrinth_section_idrinth_other_name	Ek Seçenekler	false
+mct_idrinth_section_idrinth_cooldowns_name	Bekleme Süresi Seçenekleri	false
+mct_idrinth_intervention_cooldown_text	Müdahale Bekleme Süresi	false
+mct_idrinth_intervention_cooldown_options_low_text	Düşük (%80)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Orta (%100)	false
+mct_idrinth_intervention_cooldown_options_long_text	Uzun (%120)	false
+mct_idrinth_intervention_cooldown_tooltip	İlahi müdahaleler arasındaki bekleme süresini değiştirir.	false
+mct_idrinth_animal_waaagh_text	Hayvan WAAAGH	false
+mct_idrinth_animal_waaagh_tooltip	İşaretlendiğinde Idrinth'i hayvanlardan oluşan bir WAAAGH ordusu takip eder. Devre dışı bırakmak orduyu yok etmez.	false
+mct_idrinth_vampire_chance_text	Vampir Dönüştürme Şansı	false
+mct_idrinth_vampire_chance_options_low_text	Düşük (%10 temel başarı)	false
+mct_idrinth_vampire_chance_options_normal_text	Normal (%15 temel başarı)	false
+mct_idrinth_vampire_chance_options_high_text	Yüksek (%20 temel başarı)	false
+mct_idrinth_vampire_chance_tooltip	Rahiplerin vampire dönüştürülürken hayatta kalma şansını değiştirir.	false
+mct_idrinth_story_dilemma_base_chance_text	Hikaye İkilemi Temel Şansı	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Düşük	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Normal	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Yüksek	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Hikaye karar ikilemlerinin tetiklenme şansını değiştirir.	false
+mct_idrinth_god_item_base_chance_text	Tanrı Eşyası Temel Şansı	false
+mct_idrinth_god_item_base_chance_options_low_text	Düşük	false
+mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
+mct_idrinth_god_item_base_chance_options_high_text	Yüksek	false
+mct_idrinth_god_item_base_chance_tooltip	Tanrı eşyalarının teklif edilme şansını değiştirir.	false
