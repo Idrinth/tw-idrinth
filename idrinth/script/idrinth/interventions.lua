@@ -87,6 +87,7 @@ local godFavourDilemmas = {
     },
 };
 local cooldownMode = "medium";
+local enabled = true;
 local cooldownFactors = {
     low = 0.8,
     medium = 1,
@@ -96,6 +97,9 @@ local cooldownFactors = {
 Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
+        if not enabled then
+            return false;
+        end;
         if not context:faction():is_human() then
             return false;
         end;
@@ -168,4 +172,5 @@ cm:add_loading_game_callback(
 );
 Idrinth.Events.onMctChange(function()
     cooldownMode = Idrinth.Mct.get("intervention_cooldown");
+    enabled = Idrinth.Mct.get("interventions");
 end);

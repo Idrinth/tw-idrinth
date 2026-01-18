@@ -105,6 +105,10 @@ if mct then
             element = "checkbox",
             default = true,
         },
+        interventions = {
+            element = "checkbox",
+            default = true,
+        },
     }, false);
     addSection(idrinth, "idrinth_other", {
         logging = {
