@@ -35,7 +35,7 @@ Gevşek hikaye modunda, umutsuz ittifakları temsil eden bazı daha az olası gr
 - **Asuryan**: Geliştirilmiş savunma ve büyü direnci ile denge ara
 - **Kurnous**: Menzilli üstünlük ve hareketlilik ile avcının yolunu kanalize et
 
-**Şapel Sistemi**
+### Şapel Sistemi
 
 İlahi etkilere dayanarak, Idrinth garnizyon boyutunu, gücünü ve tanrı lütfu kullanımını belirgin şekilde etkileyen şapeller kurabilir, ayrıca yerel ekonomiye ve büyümeye fayda sağlar.
 
