@@ -90,3 +90,5 @@ Obecnie w modzie znajduja sie niektore obrazy wygenerowane przez AI. Sa one zast
 ## Media Spolecznosciowe
 
 Jesli chcesz dyskutowac o modzie lub potrzebujesz wsparcia, wpadnij na Discord: https://discord.gg/idrinth! Jesli chcesz pomoc z tlumaczeniami lub naprawic rzeczy, kod jest na https://github.com/Idrinth/tw-idrinth!
+
+Chcesz pomoc ulepszyc to tlumaczenie? Odwiedz nasz [projekt Crowdin](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006), aby poprawic i skorygowac tlumaczenia!
