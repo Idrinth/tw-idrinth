@@ -2,6 +2,13 @@
 --- Trait acquisition and management system for the Idrinth mod.
 --- Handles slayer traits (elf slayer), devotion traits (god favour), and related mechanics.
 --- Tracks battle statistics and applies traits based on battles fought against elves.
+local enableElfSlayerTraits = true;
+local enableDevotionTraits = true;
+
+Idrinth.Events.onMctChange(function()
+    enableElfSlayerTraits = Idrinth.Mct.get("elf_slayer_traits");
+    enableDevotionTraits = Idrinth.Mct.get("devotion_traits");
+end);
 
 --- Adds elf slayer trait points to Idrinth for each elven god.
 --- @param asuryan number Points to add for Asuryan slayer trait.
@@ -9,6 +16,9 @@
 --- @param khaine number Points to add for Khaine slayer trait.
 --- @param idrinth_lookup string The character lookup string for Idrinth.
 local addSlayerTraits = function(asuryan, kurnous, khaine, idrinth_lookup)
+    if not enableDevotionTraits then
+        return;
+    end;
     cm:force_add_trait(
         idrinth_lookup,
         "idrinth_slayer_elves_asuryan",
@@ -132,6 +142,9 @@ Idrinth.Events.addListener(
     "BattleCompleted",
     Idrinth.Events.Conditions.battleFoughtAndSpawned,
     function()
+        if not enableElfSlayerTraits then
+            return false;
+        end;
         local attackerWon = false;
         if cm:pending_battle_cache_attacker_victory() then
             attackerWon = true;

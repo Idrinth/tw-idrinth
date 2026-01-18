@@ -97,6 +97,14 @@ if mct then
             element = "checkbox",
             default = true,
         },
+        elf_slayer_traits = {
+            element = "checkbox",
+            default = true,
+        },
+        devotion_traits = {
+            element = "checkbox",
+            default = true,
+        },
     }, false);
     addSection(idrinth, "idrinth_other", {
         logging = {
