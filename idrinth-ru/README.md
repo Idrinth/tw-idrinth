@@ -90,3 +90,5 @@
 ## Социальные Сети
 
 Для обсуждения мода или поддержки заходите на Discord: https://discord.gg/idrinth! Для помощи с переводами код на https://github.com/Idrinth/tw-idrinth!
+
+Хотите помочь улучшить этот перевод? Посетите наш [проект Crowdin](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006), чтобы улучшить и исправить переводы!

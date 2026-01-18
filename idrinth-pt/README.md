@@ -90,3 +90,5 @@ Atualmente existem algumas imagens geradas por IA no mod. Elas serão substituí
 ## Redes Sociais
 
 Se você quiser discutir o mod ou precisar de suporte, sinta-se à vontade para visitar o [Discord](https://discord.gg/idrinth)! Se você quiser ajudar com traduções ou corrigir coisas, você pode encontrar o código no [GitHub](https://github.com/Idrinth/tw-idrinth)!
+
+Quer ajudar a melhorar esta tradução? Visite nosso [projeto Crowdin](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006) para melhorar e corrigir as traduções!

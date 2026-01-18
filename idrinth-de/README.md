@@ -90,3 +90,5 @@ Es gibt derzeit einige KI-generierte Bilder in der Mod. Sie werden im Laufe der 
 ## Soziale Medien
 
 Wenn du die Mod diskutieren möchtest oder Unterstützung brauchst, schau gerne auf [Discord](https://discord.gg/idrinth) vorbei! Wenn du bei Übersetzungen helfen oder Dinge reparieren möchtest, findest du den Code auf [GitHub](https://github.com/Idrinth/tw-idrinth)!
+
+Möchtest du bei der Verbesserung dieser Übersetzung helfen? Besuche unser [Crowdin-Projekt](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006), um Übersetzungen zu verbessern und zu korrigieren!
