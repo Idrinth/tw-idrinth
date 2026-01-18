@@ -19,6 +19,8 @@ I fully support translations of this mod, they can be edited on GitHub by anyone
 - [Polish/Polski](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214)
 - [Portuguese/Português](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565436)
 - [Italian/Italiano](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565302)
+- [Czech/Čeština](https://steamcommunity.com/sharedfiles/filedetails/?id=3649208503)
+- [Turkish/Türkçe](https://steamcommunity.com/sharedfiles/filedetails/?id=3649209623)
 
 ## Related Mods
 
