@@ -5,7 +5,7 @@ on:
     branches:
       - the-one
     paths:
-      - 'idrinth/script/idrinth/version.lua'
+      - 'idrinth/**'
 
 jobs:
   tag-version:
