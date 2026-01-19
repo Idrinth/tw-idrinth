@@ -55,6 +55,7 @@ local mct = get_mct();
 if mct then
     local idrinth = mct:register_mod("idrinth");
     idrinth:set_workshop_id("3449820771");
+    idrinth:set_github_id("Idrinth/tw-idrinth");
     local version = require("script/idrinth/version");
     idrinth:set_version(version.iteration, version.main .. "." .. version.feature .. "." .. version.bug);
     idrinth:set_main_image("ui/flags/idrinth_hev_high_elf_vampires/mon_256.png", 256, 256);
