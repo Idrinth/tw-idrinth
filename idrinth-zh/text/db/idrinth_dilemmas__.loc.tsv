@@ -1,86 +1,86 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_dilemmas__.loc		
-dilemmas_localised_description_idrinth_unlock_choice	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	false
-dilemmas_localised_title_idrinth_unlock_choice	The Stranger	false
-dilemmas_localised_description_idrinth_dilemma_high_elves	An elven messanger arrives, looking for an Idrinth. The Idrinth you know has avoided him so far, maybe you could help?	false
-dilemmas_localised_description_idrinth_dilemma_wood_elves	A wood elf ranger arrives at your camp site. Stating that he is in need of his bloodied cousin. While Idrinth quickly confirms, that he was meant, he refuses to meet.	false
-dilemmas_localised_description_idrinth_dilemma_empire	An old scholar approaches your camp. Carrying books of the past, she claims to have found valuable knowledge for you.	false
-dilemmas_localised_description_idrinth_dilemma_kislev	At night, while an icy wind tortures your guards, they catch a kislevite trying to sneak into the camp. He is young and seemingly harmless, but what do you do with him?	false
-dilemmas_localised_description_idrinth_dilemma_vampire_counts	One night you find one of your servants drained of blood right outside Idrinth's tent. Rushing in, you find him reading an old scroll sitting at his table.	false
-dilemmas_localised_title_idrinth_dilemma_high_elves	The Messeger	false
-dilemmas_localised_title_idrinth_dilemma_wood_elves	Blood Cousins	false
-dilemmas_localised_title_idrinth_dilemma_kislev	Intruder!	false
-dilemmas_localised_title_idrinth_dilemma_empire	The Scholar	false
-dilemmas_localised_title_idrinth_dilemma_vampire_counts	The Servant's End	false
-dilemmas_localised_description_idrinth_dilemma_dwarves	A group of dwarves have been spotted nearby. Your scouts have listened in on their stories about the vampire wars. One elf mentioned sounds suspiciously like Idrinth.	false
-dilemmas_localised_title_idrinth_dilemma_dwarves	An old feud	false
-dilemmas_localised_description_idrinth_dilemma_weapon	After the latest hunt Idrinth approaches you with what looks like an ancient elven weapon. He asks you for advise on who to dedicate it to.	false
-dilemmas_localised_title_idrinth_dilemma_weapon	A Blessed Weapon	false
-dilemmas_localised_description_idrinth_dilemma_armour	After the latest battle Idrinth approaches you with what looks like an ancient elven armour. He asks you for advise on who to dedicate it to.	false
-dilemmas_localised_title_idrinth_dilemma_armour	A Blessed Armour	false
-dilemmas_localised_description_idrinth_dilemma_talisman	After the finishing travel for the day Idrinth approaches you with what looks like an ancient elven talisman. He asks you for advise on who to dedicate it to.	false
-dilemmas_localised_title_idrinth_dilemma_talisman	A Blessed Talisman	false
-dilemmas_localised_description_idrinth_mode_choice	Activate stricter lore friendliness to limit the recruiting cultures for Knight-Scholar Idrinth Thalui to High Elves, Wood Elves, Kislev, The Empire and Vampire Counts. Choose looser mode to have Vampire Coast, Legions of Nagash, Dark Elves, Cathay and Bretonia in the list as well.	false
-dilemmas_localised_title_idrinth_mode_choice	Mode: Stricter or Looser Lore Friendliness	false
-dilemmas_localised_description_idrinth_dilemma_unlock_high_elves	After accepting your coin the stranger introduces himself as a fellow Asur named Idrinth. Taking off his travel robes you see the battle worn armor of a lore master, a matching greatsword and a metal bow near stoic eyes hinting at brutalities yet to be committed.	false
-dilemmas_localised_title_idrinth_dilemma_unlock_high_elves	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_wood_elves	I look forward to fighting alongside the hunters of the woods, cousin, states the asur in a friendly tone while packing his payment and travel cloak. I may not be as great of a shot as you are, but I won't slow you down. A slightly amused smile plays around his bloodless lips before disappearing. Let us have a hunt that will be told of in centuries still!	false
-dilemmas_localised_title_idrinth_dilemma_unlock_wood_elves	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_kislev	The stranger disrobes himself after having been payed and reveals an elven face and elven weaponry beneath his travel robes. My name is Idrinth, I have been fighting our foes for longer than most of you have lived. I would enjoy practicing with the force and teaching them. A slight smile plays around his bloodless lips before it disappears in an ageless face.	false
-dilemmas_localised_title_idrinth_dilemma_unlock_kislev	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_empire	I have fought and bled with warriors believing in Ulfic or Sigmar. We have the same foes, he states as he removes his travel robes, and I look forward to driving them back with you. Sharing my knowledge for the betterment of the world. His eyes look coldly at praying humans before returning their attention to the general and his guard.	false
-dilemmas_localised_title_idrinth_dilemma_unlock_empire	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_vampire_counts	The stranger lowers his hood, revealing elven features. I am no friend of destruction, but our enemies forced my hand. Pocketing his coins he states, Returning to family after many years when they are in danger is right, no matter who that family is. Don't you agree?	false
-dilemmas_localised_title_idrinth_dilemma_unlock_vampire_counts	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_chapels_choice	Do you want to enable the Thaluian Chapels for your campaign? They offer further defenses and options compared to just having the hero.	false
-dilemmas_localised_description_idrinth_levelMinimum_choice	To recruit Idrinth Thalui, the Knight-Scholar, you will need to have a general with a minimum level. How early do you want to be able to recruit him?	false
-dilemmas_localised_title_idrinth_story_choice	Story Events	false
-dilemmas_localised_description_idrinth_story_choice	Do you want to enable story events when Idrinth reaches specific, important places?	false
-dilemmas_localised_title_idrinth_chapels_choice	The Thaluian Chapels	false
-dilemmas_localised_title_idrinth_levelMinimum_choice	Rank of Renown	false
-dilemmas_localised_title_idrinth_story_dilemma_drakenhof	Drakenhof	false
-dilemmas_localised_title_idrinth_story_dilemma_temple_of_khaine	Temple of Khaine	false
-dilemmas_localised_title_idrinth_story_dilemma_shrine_of_khaine	Shrine of Khaine	false
-dilemmas_localised_title_idrinth_story_dilemma_temple_of_asuryan	Temple of Asuryan	false
-dilemmas_localised_title_idrinth_story_dilemma_temple_of_kurnous	Temple of Kurnous	false
-dilemmas_localised_title_idrinth_story_dilemma_shrine_of_loec	Shrine of Loec	false
-dilemmas_localised_title_idrinth_story_dilemma_hel_fenn	Hel Fenn	false
-dilemmas_localised_title_idrinth_story_dilemma_black_pyramid	Black Pyramid of Nagash	false
-dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_ulthuan	Vauls Anvil in Ulthuan	false
-dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_naggaroth	Vauls Anvil in Naggaroth	false
-dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_loren	Vauls Anvil in Athel Loren	false
-dilemmas_localised_title_idrinth_story_dilemma_tower_of_hoeth	Tower of Hoeth	false
-dilemmas_localised_title_idrinth_story_dilemma_blood_keep	Blood Keep	false
-dilemmas_localised_title_idrinth_story_dilemma_oak_of_ages	Oak of Ages	false
-dilemmas_localised_title_idrinth_story_dilemma_the_galleons_graveyard	Galleons Graveyard	false
-dilemmas_localised_title_idrinth_story_dilemma_sartosa	Sartosa	false
-dilemmas_localised_title_idrinth_story_dilemma_lahmia	Lahmia	false
-dilemmas_localised_title_idrinth_story_dilemma_ghrond	Ghrond	false
-dilemmas_localised_description_idrinth_story_dilemma_drakenhof	The black spires of Drakenhof castle pierce the perpetual gloom of Sylvania. Idrinth stands motionless before its gates, memories of the Vampire Wars flooding back unbidden. "I bled here," he whispers, "and rose again. The Von Carsteins taught me what I had become—whether I wished to learn or not." His hand rests on his sword hilt. Does he enter as a kinsman of blood, or as a reminder of what their ambition cost the world?	false
-dilemmas_localised_description_idrinth_story_dilemma_temple_of_khaine	The Temple of Khaine rises from Naggaroth's wastes, its altars slick with fresh offerings. Idrinth feels the Murder God's gaze upon him—not with hatred, but with hungry recognition. "You know my blade's count," he murmurs to the bloody dark. "Every chaos-spawn I've ended, every daemon I've banished. Does that please you, Bloody-Handed One? Or do you merely await the day I turn it upon the innocent?"	false
-dilemmas_localised_description_idrinth_story_dilemma_shrine_of_khaine	The Sword of Khaine pulses with malevolent promise, its whispers cutting through even Idrinth's undead stillness. For a long moment, he simply stares at the Widowmaker. "Aenarion took you up to save our people and damned his line forever," he says quietly. "I was already damned when I swore my oath of vengeance. Would you make me worse, or merely... more efficient?" His fingers twitch, but do not reach.	false
-dilemmas_localised_description_idrinth_story_dilemma_temple_of_asuryan	The sacred flames of Asuryan's temple burn eternal, and Idrinth approaches no further than the outer courtyard. "I walked these halls as a living elf," he says, his voice hollow. "I prayed here before marching to war against the undead. Now I am what I fought." He watches the flames dance. "Do you still hear me, Lord of the Phoenix? Or does my curse make my prayers into mockery?"	false
-dilemmas_localised_description_idrinth_story_dilemma_temple_of_kurnous	Ancient trees frame the hunting shrine, and the scent of wild places fills the air. Idrinth breathes deep—an old habit from when breath meant life. "I hunt still, Lord of the Wild," he addresses the antlered stones. "Though I am no longer part of nature's cycle. I take no prey for sustenance of the body, only for vengeance of the spirit. Does the eternal hunt have room for one such as I?"	false
-dilemmas_localised_description_idrinth_story_dilemma_shrine_of_loec	The Shrine of Loec shifts in the corner of one's vision, never quite where it seems. Idrinth allows himself a rare, cold smile. "The Trickster God. I have learned your arts, after a fashion—shadow magic came easier to me after death than it ever did in life." He performs a mocking half-bow. "Is that your joke, Laughing One? That I dance better now that my feet are cold?"	false
-dilemmas_localised_description_idrinth_story_dilemma_hel_fenn	The marshes of Hel Fenn stretch before him, and Idrinth's expression becomes unreadable. "This is where it ended. And began." His voice carries no emotion. "I remember the mud. The blood. Mannfred's host crumbling around us. I remember thinking we had won." A long pause. "I do not remember dying. Only waking, three nights later, hungry for something I could not name."	false
-dilemmas_localised_description_idrinth_story_dilemma_black_pyramid	Nagash's monument looms against the desert sky, radiating power that makes Idrinth's curse writhe within him. "The father of all our damnation," he says, neither reverent nor contemptuous—merely stating fact. "Every vampire exists because you reached too far, Great Necromancer. My curse flows from your ambition." He studies the ancient stones. "I wonder—do you approve of how I use your gift? Turning death against Chaos itself?"	false
-dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_ulthuan	The forge-shrine of Vaul radiates ancient power, and Idrinth's enchanted weapons seem to hum in response. "I carried weapons blessed at lesser forges into the Vampire Wars," he recalls. "They shattered against the undead. Now I am undead, and I carry weapons that would have slain what I became." His fingers trace his blade's edge. "There is poetry in that, of the sort only the Maker would appreciate."	false
-dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_naggaroth	The Dark Elves claim their own connection to the Smith God, their forges burning with bitter industry. Idrinth observes without approaching. "Cousins," he muses. "They fell to one darkness, I to another. Yet they chose their path. I wonder sometimes if that makes them more honest than I—they embraced what they became, while I still pretend I am what I was."	false
-dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_loren	The Wood Elves maintain Vaul's teachings in their own way, shaping living wood alongside dead metal. Idrinth watches the craftwork with scholarly interest. "Life and death married in a single weapon," he observes. "The Asrai understand something the other kindreds do not—that the boundary is more... permeable than we like to believe." A ghost of his old academic fascination surfaces. "I should study their techniques."	false
-dilemmas_localised_description_idrinth_story_dilemma_tower_of_hoeth	The White Tower rises impossibly high, repository of all High Elven knowledge. Idrinth stops at the base, unable—or unwilling—to enter. "I was a Loremaster," he says, voice cracking with ancient grief. "I studied within those halls. I knew the secret ways, the hidden libraries, the forbidden sections." His eyes do not blink. "Do they still speak my name? Or have they struck it from the records, pretending I never existed?"	false
-dilemmas_localised_description_idrinth_story_dilemma_blood_keep	The fortress of the Blood Dragons stands proud in its mountain fastness, a monument to martial honor among the damned. Idrinth regards it with something approaching respect. "Abhorash's legacy. Vampires who seek to overcome their curse through perfection of arms." He touches his own blade. "I understand the impulse. To be something more than a monster, even when the monster is what you are."	false
-dilemmas_localised_description_idrinth_story_dilemma_oak_of_ages	The World Tree's presence is overwhelming, and Idrinth approaches slowly, as one might approach a judging god. "The heart of all forests. The root of the world." He speaks barely above a whisper. "I hunted in your shadow once, in my living days. The wood elves tolerated my presence as kin." He looks down at his pale hands. "Do the trees remember me? Do they recoil from what walks among their roots now?"	false
-dilemmas_localised_description_idrinth_story_dilemma_the_galleons_graveyard	Ships rot eternally in the Galleons Graveyard, their undead crews maintaining a mockery of maritime tradition. Idrinth surveys the wreckage with distaste. "Noctilus and his lot. Vampires who abandoned all pretense of their former lives to become something... lesser." He shakes his head. "I understand the temptation. When you can live forever, why not become a pirate king? But they've forgotten what we should be fighting."	false
-dilemmas_localised_description_idrinth_story_dilemma_sartosa	The pirate haven sprawls before him, lawless and dangerous—yet almost refreshingly honest about it. "A city where the dead and living trade side by side, united by greed," Idrinth observes. "I find myself oddly comfortable here. No one pretends I am not what I am. No one demands I perform humanity I no longer possess." He pauses. "Perhaps that is why I should leave quickly."	false
-dilemmas_localised_description_idrinth_story_dilemma_lahmia	The ruins of Lahmia whisper of ancient glory and the first vampires. Idrinth walks through the empty streets with something approaching reverence. "Where it all began. Neferata and her court, the first to drink from Nagash's poisoned cup." He kneels beside a toppled statue. "I have studied the histories. The first vampires were scholars, queens, warriors of great refinement. Look at what their legacy became. Look at what I became."	false
-dilemmas_localised_description_idrinth_story_dilemma_ghrond	The North Tower of the Sorceresses looms dark against the northern sky, Morathi's power palpable even at a distance. Idrinth's jaw tightens. "The mother of the Witch King. The one who brought Chaos-worship to elvenkind." His voice carries cold hatred. "I have killed many servants of the Dark Powers. But this one... this one would be worth any cost." He does not approach. Not yet. "Patience. Vengeance is eternal. I have time."	false
-dilemmas_localised_description_idrinth_dilemma_unlock_bretonnia	The stranger removes his traveling cloak with practiced grace, revealing elven armor beneath. "I have served alongside knights before," he says, inclining his head with courtly precision. "Honor and duty transcend the boundaries of race. Your Lady protects these lands, and I would see them defended from the darkness that consumes all." His pale features remain composed, though his bloodless lips betray no warmth. "Let us ride against our common foe."	false
-dilemmas_localised_title_idrinth_dilemma_unlock_bretonnia	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_dark_elves	The stranger pulls back his hood, revealing features unmistakably Asur—yet his eyes hold none of their typical disdain. "Cousin," he says, the word carrying neither mockery nor warmth. "I care nothing for ancient grudges. Chaos devours Druchii and Asur alike, and I have learned that survival demands... flexibility." A mirthless smile crosses his bloodless lips. "You understand pragmatism better than most. Shall we put it to use?"	false
-dilemmas_localised_title_idrinth_dilemma_unlock_dark_elves	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_cathay	The robed figure bows with unexpected formality, then straightens to reveal elven features beneath his traveling garments. "I have walked your lands before, in ages past," he states, his voice measured and calm. "The Great Bastion holds back horrors I know all too well. Balance must be maintained against the Ruinous Powers." His ageless eyes study the Cathayan officials with scholarly interest. "I offer knowledge spanning millennia. Perhaps we can learn from one another."	false
-dilemmas_localised_title_idrinth_dilemma_unlock_cathay	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_nagash	The stranger's hood falls away, revealing an elven face untouched by time. "I know what you serve," he says flatly, meeting the gaze of the undead without flinching. "And I know what I am. We need not pretend otherwise." He adjusts the greatsword at his back with familiar ease. "Nagash's enemies are Chaos' servants. For now, that alignment of purpose is enough." His bloodless lips twist into something resembling dark amusement. "The Great Necromancer collects all things eventually. I simply choose the terms."	false
-dilemmas_localised_title_idrinth_dilemma_unlock_nagash	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_vampire_coast	The stranger sheds his salt-stained cloak, revealing elven features and ancient armor beneath. "I've sailed darker seas than these," he remarks, eyeing the shambling crew without disgust. "Blood is blood, whether taken on land or water." He produces his payment pouch, weighing it thoughtfully. "You hunt, you raid, you survive. I respect that." A knowing smile crosses his pale face. "And I suspect your captains understand—immortality changes one's perspective on... everything."	false
-dilemmas_localised_title_idrinth_dilemma_unlock_vampire_coast	Idrinth Thalui	false
+#Loc;1;text/db/idrinth_dilemmas__.loc
+dilemmas_localised_description_idrinth_unlock_choice	一位身穿長袍的陌生人在某個夜晚出現，願意以小額費用提供他的幫助。你接受這份幫助嗎？	false
+dilemmas_localised_title_idrinth_unlock_choice	陌生人	false
+dilemmas_localised_description_idrinth_dilemma_high_elves	一位精靈使者到來，尋找一位叫伊德林斯的人。你認識的伊德林斯到目前為止一直躲避他，也許你可以幫忙？	false
+dilemmas_localised_description_idrinth_dilemma_wood_elves	一位森林精靈遊俠來到你的營地。聲稱她需要找到她那沾滿鮮血的表親。雖然伊德林斯很快確認他就是被找的人，但他拒絕見面。	false
+dilemmas_localised_description_idrinth_dilemma_empire	一位老學者來到你的營地。帶著過去的書籍，她聲稱為你找到了有價值的知識。	false
+dilemmas_localised_description_idrinth_dilemma_kislev	夜裡，當冰冷的風折磨著你的守衛時，他們抓住了一個試圖潛入營地的基斯列夫人。他年輕且看起來無害，但你該如何處置他？	false
+dilemmas_localised_description_idrinth_dilemma_vampire_counts	一天夜裡，你發現你的一名僕人被抽乾血液，倒在伊德林斯帳篷外面。你衝進去，發現他坐在桌旁閱讀一卷古老的卷軸。	false
+dilemmas_localised_title_idrinth_dilemma_high_elves	使者	false
+dilemmas_localised_title_idrinth_dilemma_wood_elves	血親	false
+dilemmas_localised_title_idrinth_dilemma_kislev	入侵者！	false
+dilemmas_localised_title_idrinth_dilemma_empire	學者	false
+dilemmas_localised_title_idrinth_dilemma_vampire_counts	僕人之死	false
+dilemmas_localised_description_idrinth_dilemma_dwarves	附近發現了一群矮人。你的斥候偷聽到他們講述吸血鬼戰爭的故事。其中提到的一位精靈聽起來很像伊德林斯。	false
+dilemmas_localised_title_idrinth_dilemma_dwarves	舊仇	false
+dilemmas_localised_description_idrinth_dilemma_weapon	最近一次狩獵後，伊德林斯帶著一件看起來像是古代精靈武器的東西來找你。他請你建議該將它獻給哪位神祇。	false
+dilemmas_localised_title_idrinth_dilemma_weapon	受祝福的武器	false
+dilemmas_localised_description_idrinth_dilemma_armour	最近一場戰鬥後，伊德林斯帶著一件看起來像是古代精靈盔甲的東西來找你。他請你建議該將它獻給哪位神祇。	false
+dilemmas_localised_title_idrinth_dilemma_armour	受祝福的盔甲	false
+dilemmas_localised_description_idrinth_dilemma_talisman	在結束一天的旅程後，伊德林斯帶著一件看起來像是古代精靈護符的東西來找你。他請你建議該將它獻給哪位神祇。	false
+dilemmas_localised_title_idrinth_dilemma_talisman	受祝福的護符	false
+dilemmas_localised_description_idrinth_mode_choice	啟用更嚴格的設定友好度以限制騎士學者伊德林斯·塔路易的招募文化為高等精靈、森林精靈、基斯列夫、帝國和吸血鬼伯爵。選擇較寬鬆模式則會將吸血鬼海岸、納迦什軍團、暗黑精靈、震旦天朝和布列塔尼亞也加入列表中。	false
+dilemmas_localised_title_idrinth_mode_choice	模式：嚴格或寬鬆設定友好度	false
+dilemmas_localised_description_idrinth_dilemma_unlock_high_elves	接受你的金幣後，這位陌生人自我介紹為一位名叫伊德林斯的阿蘇爾同胞。脫下他的旅行長袍，你看到一位學術大師飽經戰鬥的盔甲，配套的巨劍和一把金屬弓，以及冷峻的眼神暗示著即將發生的暴行。	false
+dilemmas_localised_title_idrinth_dilemma_unlock_high_elves	伊德林斯·塔路易	false
+dilemmas_localised_description_idrinth_dilemma_unlock_wood_elves	我期待與森林的獵人並肩作戰，表親，這位阿蘇爾用友好的語氣說道，同時收拾著他的報酬和旅行斗篷。我可能不如你們射得準，但我不會拖你們後腿。一絲略帶玩味的微笑在他蒼白的嘴唇上浮現，然後消失。讓我們一起進行一場將被傳頌數個世紀的狩獵吧！	false
+dilemmas_localised_title_idrinth_dilemma_unlock_wood_elves	伊德林斯·塔路易	false
+dilemmas_localised_description_idrinth_dilemma_unlock_kislev	這位陌生人在收到報酬後脫下外衣，露出他旅行長袍下的精靈面孔和精靈武器。我叫伊德林斯，我與我們的敵人戰鬥的時間比你們大多數人活著的時間還要長。我很樂意與部隊一起訓練並教導他們。一絲淡淡的微笑在他蒼白的嘴唇上浮現，然後在他那張不老的臉上消失。	false
+dilemmas_localised_title_idrinth_dilemma_unlock_kislev	伊德林斯·塔路易	false
+dilemmas_localised_description_idrinth_dilemma_unlock_empire	我曾與信奉烏爾里克或西格瑪的戰士並肩戰鬥、流血。我們有共同的敵人，他一邊脫下旅行長袍一邊說道，我期待與你們一起將他們擊退。為了世界的改善而分享我的知識。他冷漠地看著祈禱中的人們，然後將注意力轉回將軍和他的守衛。	false
+dilemmas_localised_title_idrinth_dilemma_unlock_empire	伊德林斯·塔路易	false
+dilemmas_localised_description_idrinth_dilemma_unlock_vampire_counts	這位陌生人放下兜帽，露出精靈的面容。我不是毀滅的朋友，但我們的敵人逼我出手。他一邊把金幣收入囊中一邊說道，多年後回到危難中的家人身邊是正確的，無論那個家人是誰。你不同意嗎？	false
+dilemmas_localised_title_idrinth_dilemma_unlock_vampire_counts	伊德林斯·塔路易	false
+dilemmas_localised_description_idrinth_chapels_choice	你想為你的戰役啟用塔路易教堂嗎？與只擁有英雄相比，它們提供更多的防禦和選擇。	false
+dilemmas_localised_description_idrinth_levelMinimum_choice	要招募騎士學者伊德林斯·塔路易，你需要有一位達到最低等級的將軍。你希望多早能夠招募他？	false
+dilemmas_localised_title_idrinth_story_choice	故事事件	false
+dilemmas_localised_description_idrinth_story_choice	你想在伊德林斯到達特定重要地點時啟用故事事件嗎？	false
+dilemmas_localised_title_idrinth_chapels_choice	塔路易教堂	false
+dilemmas_localised_title_idrinth_levelMinimum_choice	聲望等級	false
+dilemmas_localised_title_idrinth_story_dilemma_drakenhof	德拉肯霍夫	false
+dilemmas_localised_title_idrinth_story_dilemma_temple_of_khaine	凱恩神殿	false
+dilemmas_localised_title_idrinth_story_dilemma_shrine_of_khaine	凱恩聖壇	false
+dilemmas_localised_title_idrinth_story_dilemma_temple_of_asuryan	阿蘇瑞安神殿	false
+dilemmas_localised_title_idrinth_story_dilemma_temple_of_kurnous	庫爾諾斯神殿	false
+dilemmas_localised_title_idrinth_story_dilemma_shrine_of_loec	洛艾克聖壇	false
+dilemmas_localised_title_idrinth_story_dilemma_hel_fenn	地獄沼澤	false
+dilemmas_localised_title_idrinth_story_dilemma_black_pyramid	納迦什的黑金字塔	false
+dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_ulthuan	奧蘇安的瓦烏爾之砧	false
+dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_naggaroth	納迦羅斯的瓦烏爾之砧	false
+dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_loren	阿瑟洛倫的瓦烏爾之砧	false
+dilemmas_localised_title_idrinth_story_dilemma_tower_of_hoeth	霍斯之塔	false
+dilemmas_localised_title_idrinth_story_dilemma_blood_keep	血之堡壘	false
+dilemmas_localised_title_idrinth_story_dilemma_oak_of_ages	萬古橡樹	false
+dilemmas_localised_title_idrinth_story_dilemma_the_galleons_graveyard	帆船墳場	false
+dilemmas_localised_title_idrinth_story_dilemma_sartosa	薩托薩	false
+dilemmas_localised_title_idrinth_story_dilemma_lahmia	拉米亞	false
+dilemmas_localised_title_idrinth_story_dilemma_ghrond	格隆德	false
+dilemmas_localised_description_idrinth_story_dilemma_drakenhof	德拉肯霍夫城堡的黑色尖塔刺穿了西瓦尼亞永恆的陰霾。伊德林斯一動不動地站在城門前，吸血鬼戰爭的記憶不請自來地湧現。「我曾在這裡流血，」他低語道，「然後重生。馮·卡斯坦家族教會了我什麼是我已經變成的存在——無論我是否願意學習。」他的手放在劍柄上。他是作為血親進入，還是作為他們的野心給這個世界帶來代價的提醒？	false
+dilemmas_localised_description_idrinth_story_dilemma_temple_of_khaine	凱恩神殿從納迦羅斯的荒野中拔地而起，祭壇上滿是新鮮的祭品。伊德林斯感受到了謀殺之神的注視——不是帶著仇恨，而是帶著飢渴的認可。「你知道我劍下的亡魂數目，」他向血腥的黑暗低語。「每一個我終結的混沌孽種，每一個我驅逐的惡魔。這讓你滿意嗎，血手神？還是你只是在等待我將它轉向無辜者的那一天？」	false
+dilemmas_localised_description_idrinth_story_dilemma_shrine_of_khaine	凱恩之劍散發著惡毒的承諾，它的低語甚至能穿透伊德林斯亡靈般的靜止。他凝視著寡婦製造者良久。「艾納里昂拿起你是為了拯救我們的族人，卻永遠詛咒了他的血脈，」他平靜地說。「當我發下復仇誓言時，我已經被詛咒了。你會讓我變得更糟，還是僅僅……更有效率？」他的手指抽動著，但沒有伸出去。	false
+dilemmas_localised_description_idrinth_story_dilemma_temple_of_asuryan	阿蘇瑞安神殿的聖火永恆燃燒，而伊德林斯沒有走得比外院更近。「我曾作為一名活著的精靈走過這些大廳，」他說道，聲音空洞。「在出征對抗亡靈之前，我曾在這裡祈禱。現在我已成為我所對抗的存在。」他看著火焰舞動。「你還能聽到我嗎，鳳凰之主？還是我的詛咒讓我的祈禱變成了嘲弄？」	false
+dilemmas_localised_description_idrinth_story_dilemma_temple_of_kurnous	古老的樹木環繞著狩獵聖壇，空氣中瀰漫著荒野的氣息。伊德林斯深吸一口氣——一個當呼吸還意味著生命時的舊習慣。「我仍在狩獵，荒野之主，」他對著有鹿角的石頭說道。「雖然我不再是自然循環的一部分。我不為身體的營養而捕獵，只為精神的復仇。永恆的狩獵中還有我這樣的人的位置嗎？」	false
+dilemmas_localised_description_idrinth_story_dilemma_shrine_of_loec	洛艾克聖壇在視線的角落不斷移動，永遠不在它看起來的位置。伊德林斯允許自己露出一個罕見的、冷淡的微笑。「詭計之神。我已經以某種方式學會了你的藝術——死後暗影魔法比生前更容易掌握。」他做了一個嘲弄性的半鞠躬。「這是你的玩笑嗎，笑神？我在腳變冷之後跳得更好了？」	false
+dilemmas_localised_description_idrinth_story_dilemma_hel_fenn	地獄沼澤的沼澤地在他面前延展，伊德林斯的表情變得難以捉摸。「這是它結束的地方。也是開始的地方。」他的聲音不帶任何情感。「我記得泥漿。血液。曼弗雷德的軍隊在我們周圍崩潰。我記得以為我們已經贏了。」長長的停頓。「我不記得死亡。只記得三天後醒來，渴望著某種我無法說出名字的東西。」	false
+dilemmas_localised_description_idrinth_story_dilemma_black_pyramid	納迦什的紀念碑在沙漠的天空下若隱若現，散發出令伊德林斯的詛咒在體內翻湧的力量。「我們所有詛咒之父，」他說，既非虔誠也非輕蔑——只是陳述事實。「每一個吸血鬼的存在都是因為你伸得太遠，偉大的死靈法師。我的詛咒源自你的野心。」他研究著古老的石頭。「我想知道——你認可我使用你的恩賜的方式嗎？用死亡對抗混沌本身？」	false
+dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_ulthuan	瓦烏爾的鍛造聖壇散發著古老的力量，伊德林斯的附魔武器似乎在回應中嗡嗡作響。「我曾攜帶在較小鍛爐中祝福的武器進入吸血鬼戰爭，」他回憶道。「它們在亡靈面前粉碎了。現在我是亡靈，我攜帶著本會殺死我所變成之物的武器。」他的手指撫過劍刃的邊緣。「這其中有一種詩意，只有鍛造者才會欣賞。」	false
+dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_naggaroth	暗黑精靈聲稱他們與鍛造之神有自己的聯繫，他們的鍛爐燃燒著苦澀的工業之火。伊德林斯遠遠地觀察著，沒有靠近。「表親們，」他沉思道。「他們墮入一種黑暗，我墮入另一種。但他們選擇了自己的道路。我有時想知道這是否使他們比我更誠實——他們擁抱了自己所變成的，而我仍然假裝我是曾經的自己。」	false
+dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_loren	森林精靈以他們自己的方式維護瓦烏爾的教導，將活木與死金屬結合塑形。伊德林斯以學術的興趣觀看著工藝。「生與死結合在一件武器中，」他觀察道。「阿賽人理解其他親族所不理解的東西——邊界比我們願意相信的更……可滲透。」他舊日學術熱情的幽靈浮現。「我應該研究他們的技術。」	false
+dilemmas_localised_description_idrinth_story_dilemma_tower_of_hoeth	白塔高聳入雲，是所有高等精靈知識的寶庫。伊德林斯在塔底停下，無法——或不願——進入。「我曾是一位學術大師，」他說，聲音因古老的悲傷而顫抖。「我曾在那些大廳中學習。我知道秘密通道、隱藏的圖書館、禁忌的區域。」他的眼睛沒有眨動。「他們還提起我的名字嗎？還是他們已經從記錄中抹去了它，假裝我從未存在過？」	false
+dilemmas_localised_description_idrinth_story_dilemma_blood_keep	血龍的堡壘驕傲地矗立在山間，是被詛咒者中武道榮譽的紀念碑。伊德林斯以一種接近尊重的目光看著它。「阿布霍拉什的遺產。尋求通過武藝完美來克服詛咒的吸血鬼。」他撫摸著自己的劍刃。「我理解這種衝動。即使怪物是你的本質，也要成為超越怪物的存在。」	false
+dilemmas_localised_description_idrinth_story_dilemma_oak_of_ages	世界樹的存在是壓倒性的，伊德林斯緩慢地靠近，像是接近一位審判之神。「所有森林的心臟。世界的根源。」他幾乎是低語。「我曾在你的陰影下狩獵，在我還活著的日子。森林精靈容忍我作為親族的存在。」他低頭看著自己蒼白的手。「樹木還記得我嗎？它們會對現在走在它們根部之間的東西感到排斥嗎？」	false
+dilemmas_localised_description_idrinth_story_dilemma_the_galleons_graveyard	船隻在帆船墳場永恆腐爛，亡靈船員維持著一種航海傳統的嘲弄。伊德林斯厭惡地審視著殘骸。「諾克蒂魯斯和他的同夥。放棄所有前世偽裝的吸血鬼，變成了……更低等的東西。」他搖了搖頭。「我理解這種誘惑。當你能永生，為什麼不成為海盜王呢？但他們忘記了我們應該對抗的是什麼。」	false
+dilemmas_localised_description_idrinth_story_dilemma_sartosa	海盜港灣在他面前蔓延，無法無天且危險——但在這方面幾乎令人耳目一新地誠實。「一座死者與活人並肩交易的城市，因貪婪而團結，」伊德林斯觀察道。「我發現自己在這裡出奇地舒適。沒有人假裝我不是我所是的。沒有人要求我表演我不再擁有的人性。」他停頓了。「也許這就是我應該迅速離開的原因。」	false
+dilemmas_localised_description_idrinth_story_dilemma_lahmia	拉米亞的廢墟低語著古老的輝煌和第一批吸血鬼。伊德林斯帶著一種接近虔誠的態度穿過空蕩蕩的街道。「一切開始的地方。納菲拉塔和她的宮廷，第一批喝下納迦什毒杯的人。」他跪在一尊倒塌的雕像旁。「我研究過歷史。第一批吸血鬼是學者、女王、極其高雅的戰士。看看他們的遺產變成了什麼。看看我變成了什麼。」	false
+dilemmas_localised_description_idrinth_story_dilemma_ghrond	女巫的北塔在北方的天空下陰森地矗立，莫拉斯的力量即使在遠處也能感受到。伊德林斯的下巴緊繃。「巫王之母。將混沌崇拜帶給精靈族的人。」他的聲音帶著冰冷的仇恨。「我殺死了許多黑暗力量的僕從。但這一個……這一個值得付出任何代價。」他沒有靠近。還不是時候。「耐心。復仇是永恆的。我有的是時間。」	false
+dilemmas_localised_description_idrinth_dilemma_unlock_bretonnia	這位陌生人以練達的優雅脫下旅行斗篷，露出下面的精靈盔甲。「我曾與騎士並肩服役過，」他說，以宮廷式的精確鞠躬。「榮譽與責任超越種族的界限。你的聖女保護這片土地，我願意看到它們免受吞噬一切的黑暗的侵害。」他蒼白的面容保持平靜，儘管他蒼白的嘴唇沒有溫暖。「讓我們一起騎馬對抗我們共同的敵人。」	false
+dilemmas_localised_title_idrinth_dilemma_unlock_bretonnia	伊德林斯·塔路易	false
+dilemmas_localised_description_idrinth_dilemma_unlock_dark_elves	這位陌生人拉下兜帽，露出明顯是阿蘇爾的面容——但他的眼睛沒有他們典型的輕蔑。「表親，」他說，這個詞既不帶嘲弄也不帶溫暖。「我不關心古老的恩怨。混沌吞噬德魯奇和阿蘇爾一樣，而我已經學會生存需要……靈活性。」一絲冷笑掠過他蒼白的嘴唇。「你比大多數人更懂得實用主義。我們把它用起來如何？」	false
+dilemmas_localised_title_idrinth_dilemma_unlock_dark_elves	伊德林斯·塔路易	false
+dilemmas_localised_description_idrinth_dilemma_unlock_cathay	這位身穿長袍的人物以出人意料的禮節鞠躬，然後挺直身子，露出旅行服裝下的精靈面容。「我曾在遠古時代走過你們的土地，」他說，聲音沉穩而平靜。「長城阻擋著我深知的恐怖。必須維持對抗邪惡力量的平衡。」他那不老的眼睛以學者的興趣研究著震旦官員。「我提供跨越千年的知識。也許我們可以互相學習。」	false
+dilemmas_localised_title_idrinth_dilemma_unlock_cathay	伊德林斯·塔路易	false
+dilemmas_localised_description_idrinth_dilemma_unlock_nagash	這位陌生人的兜帽落下，露出一張未被時間觸及的精靈面孔。「我知道你們服務的是誰，」他平靜地說，毫不退縮地與亡靈對視。「我也知道我是什麼。我們不需要假裝。」他熟練地調整著背上的巨劍。「納迦什的敵人是混沌的僕從。目前，這種目的的一致就足夠了。」他蒼白的嘴唇扭成一種類似陰暗玩味的表情。「偉大的死靈法師最終會收集一切。我只是選擇條件。」	false
+dilemmas_localised_title_idrinth_dilemma_unlock_nagash	伊德林斯·塔路易	false
+dilemmas_localised_description_idrinth_dilemma_unlock_vampire_coast	這位陌生人脫下沾滿鹽漬的斗篷，露出下面的精靈面容和古老的盔甲。「我航行過比這更黑暗的海域，」他說著，毫無厭惡地看著蹣跚的船員。「血就是血，無論是在陸地上還是水上奪取的。」他拿出裝報酬的袋子，沉思地掂量著。「你們狩獵，你們劫掠，你們生存。我尊重這些。」一絲了然的微笑掠過他蒼白的臉龐。「而且我懷疑你們的船長們理解——永生改變了一個人對……一切的看法。」	false
+dilemmas_localised_title_idrinth_dilemma_unlock_vampire_coast	伊德林斯·塔路易	false
