@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_ancillaries__.loc
+#Loc;1;text/db/idrinth_ancillaries__.loc		
 ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	一件受凱恩——血手神祝福的護符。很少有人獲得足夠的眷顧以他的名義揮舞這樣的工具。乾涸的血液散發著古老的力量，向佩戴者低語暴力的承諾。	false
 ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	證明了戰鬥經驗。	false
 ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	乾血護符	false
