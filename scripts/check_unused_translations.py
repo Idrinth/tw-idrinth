@@ -170,8 +170,8 @@ def get_valid_version_notes_keys(iteration: int) -> Set[str]:
     """
     valid_keys = set()
     for i in range(1, iteration + 1):
-        valid_keys.add(f"mct_patch_notes_{i}_notes")
-        valid_keys.add(f"mct_patch_notes_{i}_version")
+        valid_keys.add(f"mct_patch_notes_idrinth_{i}_notes")
+        valid_keys.add(f"mct_patch_notes_idrinth_{i}_version")
     return valid_keys
 
 
