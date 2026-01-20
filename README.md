@@ -30,6 +30,9 @@ I fully support translations of this mod, they can be edited on [crowdin](https:
 | Italian/Italiano | ![mod logo](idrinth-it/idrinth-it.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565302) | [README](idrinth-it/README.md) |
 | Czech/Čeština | ![mod logo](idrinth-cs/idrinth-cs.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3649208503) | [README](idrinth-cs/README.md) |
 | Turkish/Türkçe | ![mod logo](idrinth-tr/idrinth-tr.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3649209623) | [README](idrinth-tr/README.md) |
+| Korean/한국어 | ![mod logo](idrinth-ko/idrinth-ko.png) | - | [README](idrinth-ko/README.md) |
+| Simplified Chinese/简体中文 | ![mod logo](idrinth-cn/idrinth-cn.png) | - | [README](idrinth-cn/README.md) |
+| Traditional Chinese/繁體中文 | ![mod logo](idrinth-zh/idrinth-zh.png) | - | [README](idrinth-zh/README.md) |
 
 ## ALPHA VERSION NOTICE
 
