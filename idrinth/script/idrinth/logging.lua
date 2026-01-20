@@ -5,15 +5,25 @@
 --- @return function log function for writing log messages.
 
 local enableLogging = false;
-
 local enableBaseGameLogging = false;
+local enableGroovyLogging = false;
 local lua_start_time = os.clock();
 local logfile = "idrinth." .. os.date("%y%m%d%H%M") .. ".log";
+local lg = nil;
+local log = function(text)
+    if lg == nil and get_vlog ~= nil then
+        lg = get_vlog("[idrinth]");
+    end;
+    if lg ~= nil then
+        lg(text);
+    end;
+end;
 
 --- Updates logging settings from MCT configuration.
 local updateMctSettings = function()
     enableLogging = Idrinth.Mct.get("logging");
     enableBaseGameLogging = Idrinth.Mct.get("base_logging");
+    enableGroovyLogging = Idrinth.Mct.get("groovy_logging");
 end;
 Idrinth.Events.onMctChange(updateMctSettings);
 Idrinth.Events.addListener(
@@ -30,11 +40,17 @@ Idrinth.Events.addListener(
 --- Logs a message with timestamp and category.
 --- @param thing any The value to log (will be converted to string).
 --- @param logtype string|nil The category/type of log message (e.g., "army", "ui", "traits").
-local log = function(thing, logtype)
+local log_value = function(thing, logtype)
+    if not logtype then
+        logtype = "unknown";
+    end;
     if enableBaseGameLogging then
         out("=== IDRINTH DEBUG ===");
-        out(logtype or "unknown");
+        out(logtype);
         out(thing);
+    end;
+    if enableGroovyLogging then
+        log(logtype .. ": " .. thing);
     end;
     if not enableLogging then
         return;
@@ -44,9 +60,6 @@ local log = function(thing, logtype)
     local output_str_table = {timestamp, string.format("%" .. (11 - string.len(timestamp)) .."s", " ")};
     table.insert(output_str_table, str_from_script);
     local output_str = table.concat(output_str_table);
-    if not logtype then
-        logtype = "unknown";
-    end;
     core:trigger_custom_event(
         "ScriptEventIdrinthLogMessageReady",
         {
@@ -55,4 +68,4 @@ local log = function(thing, logtype)
     );
 end;
 
-return log;
+return log_value;

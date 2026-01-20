@@ -18,7 +18,15 @@ local function get(key)
     if mod == nil then
         return nil;
     end
-    return mod:get_option_by_key(key):get_finalized_setting();
+    if not key or key == "" then
+        return nil;
+    end;
+    local option = mod:get_option_by_key(key);
+    if not option then
+        Idrinth.log("Undefined key "..tostring(key), "mct")
+        return nil;
+    end;
+    return option:get_finalized_setting();
 end
 
 Idrinth.Events.onMctChange(init);
