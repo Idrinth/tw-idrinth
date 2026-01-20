@@ -69,3 +69,5 @@ mct_idrinth_devotion_traits_text	헌신 특성	false
 mct_idrinth_devotion_traits_tooltip	특정 신에게 헌신하는 시간에 대한 특성을 활성화합니다. 비활성화해도 기존 특성 레벨이 제거되지 않습니다.	false
 mct_idrinth_interventions_text	신의 개입 활성화	false
 mct_idrinth_interventions_tooltip	활성화하면 아수리안, 쿠르노스, 카인이 당신의 은총이 높을 때 개입하여 일부를 세력 전체 버프에 사용합니다.	false
+mct_idrinth_groovy_logging_text	EnableGroovy Logging Usage	false
+mct_idrinth_groovy_logging_tooltip	When checked this mod logs with the logging provided by the MCT.	false
