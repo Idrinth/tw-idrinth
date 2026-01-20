@@ -69,3 +69,5 @@ mct_idrinth_devotion_traits_text	奉獻特質	false
 mct_idrinth_devotion_traits_tooltip	啟用奉獻特定神祇時間的特質。停用不會移除現有特質等級。	false
 mct_idrinth_interventions_text	啟用神聖干預	false
 mct_idrinth_interventions_tooltip	啟用後，當你的眷顧值較高時，阿蘇瑞安、庫爾諾斯和凱恩會進行干預，消耗部分眷顧來提供派系範圍的增益。	false
+mct_idrinth_groovy_logging_text	EnableGroovy Logging Usage	false
+mct_idrinth_groovy_logging_tooltip	When checked this mod logs with the logging provided by the MCT.	false
