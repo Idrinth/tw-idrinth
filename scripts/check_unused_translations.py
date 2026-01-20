@@ -131,11 +131,48 @@ SPECIAL_PREFIXES = [
     "upgrade_tooltips_",
 ]
 
+# Pattern for version patch notes keys: mct_patch_notes_{iteration}_{notes|version}
+VERSION_NOTES_PATTERN = re.compile(r'^mct_patch_notes_(\d+)_(notes|version)$')
+
 
 def get_project_root() -> Path:
     """Get the project root directory."""
     script_dir = Path(__file__).resolve().parent
     return script_dir.parent
+
+
+def get_version_iteration(script_path: Path) -> int:
+    """
+    Read the version iteration from version.lua.
+    Returns the iteration number, or 0 if not found.
+    """
+    version_file = script_path / "idrinth" / "version.lua"
+    if not version_file.exists():
+        return 0
+
+    iteration_pattern = re.compile(r'iteration\s*=\s*(\d+)')
+    try:
+        with open(version_file, "r", encoding="utf-8") as f:
+            content = f.read()
+            match = iteration_pattern.search(content)
+            if match:
+                return int(match.group(1))
+    except IOError:
+        pass
+
+    return 0
+
+
+def get_valid_version_notes_keys(iteration: int) -> Set[str]:
+    """
+    Generate valid version notes translation keys for iterations 1 to iteration.
+    These keys are used dynamically by MCT based on the version iteration.
+    """
+    valid_keys = set()
+    for i in range(1, iteration + 1):
+        valid_keys.add(f"mct_patch_notes_{i}_notes")
+        valid_keys.add(f"mct_patch_notes_{i}_version")
+    return valid_keys
 
 
 def read_translation_keys(text_db_path: Path) -> Set[str]:
@@ -692,6 +729,13 @@ def main() -> int:
 
     # Combine all used keys
     used_keys = expected_from_db | lua_refs | db_direct_refs | column_refs | twui_refs
+
+    # Version notes keys are valid for iterations 1 to current iteration
+    # These are used dynamically by MCT based on the version iteration
+    version_iteration = get_version_iteration(script_path)
+    if version_iteration > 0:
+        valid_version_keys = get_valid_version_notes_keys(version_iteration)
+        used_keys |= valid_version_keys
 
     # Special prefixes are always considered used (MCT, UI components, etc.)
     for key in all_translation_keys:

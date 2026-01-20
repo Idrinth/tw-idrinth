@@ -15,11 +15,11 @@ effects_description_idrinth_chapel_khaine_charge	Khaine stärkt Eure Entschlosse
 effects_description_idrinth_chapel_kurnous_range	Kurnous stärkt Euren Bogen und lässt Idrinth und Kapellenbesatzungen %+n% weiter schießen.	false
 effects_description_idrinth_chapel_asuryan_ward_save	Asuryan stärkt Euren Geist und schützt Idrinth und Kapellenbesatzungen vor %+n Schaden mit einer Barriere.	false
 effects_description_idrinth_loremaster_lore_of_vampires	Reduziert Kosten, Abklingzeit und Fehlschlagchance um %+n% für Zauber der Vampirlehre.	false
-effects_description_idrinth_loremaster_lore_of_vampires_2	Increases range  by %+n% for lore of vampires spells.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Erhöht die Reichweite von Zaubern der Lehre der Vampire um %+n%.	false
 effects_description_idrinth_loremaster_lore_of_shadows	Reduziert Kosten, Abklingzeit und Fehlschlagchance um %+n% für Zauber der Schattenlehre.	false
-effects_description_idrinth_loremaster_lore_of_shadows_2	Increases range  by %+n% for lore of shadows spells.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Erhöht die Reichweite von Zaubern der Lehre der Schatten um %+n%.	false
 effects_description_idrinth_loremaster_lore_of_death	Reduziert Kosten, Abklingzeit und Fehlschlagchance um %+n% für Zauber der Todeslehre.	false
-effects_description_idrinth_loremaster_lore_of_death_2	Increases range by %+n% for lore of death spells.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Erhöht die Reichweite von Zaubern der Lehre des Todes um %+n%.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Waffenstärke %+n% für Priester.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Erschöpfungsverlust %+n% für Priester.	false
 effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Geschwindigkeit %+n% für Priester.	false

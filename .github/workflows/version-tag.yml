@@ -5,58 +5,33 @@ on:
     branches:
       - the-one
     paths:
-      - 'idrinth/script/idrinth/version.lua'
+      - 'idrinth/**'
 
 jobs:
-  tag-previous-commit:
+  tag-version:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v6
-        with:
-          fetch-depth: 2
 
-      - name: Get previous commit SHA
-        id: prev-commit
-        run: echo "sha=$(git rev-parse HEAD~1)" >> $GITHUB_OUTPUT
-
-      - name: Extract versions and check if changed
+      - name: Extract version from version.lua
         id: version
         run: |
-          # Get version from previous commit
-          git show ${{ steps.prev-commit.outputs.sha }}:idrinth/script/idrinth/version.lua > version_prev.lua
-          PREV_MAIN=$(grep 'main\s*=' version_prev.lua | sed 's/[^0-9]*//g')
-          PREV_FEATURE=$(grep 'feature\s*=' version_prev.lua | sed 's/[^0-9]*//g')
-          PREV_BUG=$(grep 'bug\s*=' version_prev.lua | sed 's/[^0-9]*//g')
-          PREV_VERSION="v${PREV_MAIN}.${PREV_FEATURE}.${PREV_BUG}"
+          MAIN=$(grep 'main\s*=' idrinth/script/idrinth/version.lua | sed 's/[^0-9]*//g')
+          FEATURE=$(grep 'feature\s*=' idrinth/script/idrinth/version.lua | sed 's/[^0-9]*//g')
+          BUG=$(grep 'bug\s*=' idrinth/script/idrinth/version.lua | sed 's/[^0-9]*//g')
+          VERSION="v${MAIN}.${FEATURE}.${BUG}"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
 
-          # Get version from current commit (HEAD)
-          CURR_MAIN=$(grep 'main\s*=' idrinth/script/idrinth/version.lua | sed 's/[^0-9]*//g')
-          CURR_FEATURE=$(grep 'feature\s*=' idrinth/script/idrinth/version.lua | sed 's/[^0-9]*//g')
-          CURR_BUG=$(grep 'bug\s*=' idrinth/script/idrinth/version.lua | sed 's/[^0-9]*//g')
-          CURR_VERSION="v${CURR_MAIN}.${CURR_FEATURE}.${CURR_BUG}"
-
-          echo "version=$PREV_VERSION" >> $GITHUB_OUTPUT
-
-          # Only tag if version actually changed
-          if [ "$PREV_VERSION" != "$CURR_VERSION" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Check if tag already exists
-        id: check-tag
+      - name: Delete existing tag if present
         run: |
-          if git rev-parse "${{ steps.version.outputs.version }}" >/dev/null 2>&1; then
-            echo "exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "exists=false" >> $GITHUB_OUTPUT
+          VERSION="${{ steps.version.outputs.version }}"
+          if git ls-remote --tags origin | grep -q "refs/tags/${VERSION}$"; then
+            git push origin --delete "$VERSION"
           fi
 
       - name: Create and push tag
-        if: steps.check-tag.outputs.exists == 'false' && steps.version.outputs.changed == 'true'
         run: |
-          git tag ${{ steps.version.outputs.version }} ${{ steps.prev-commit.outputs.sha }}
+          git tag ${{ steps.version.outputs.version }}
           git push origin ${{ steps.version.outputs.version }}
