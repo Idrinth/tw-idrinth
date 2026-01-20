@@ -1,6 +1,6 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_message_event_text__.loc		
-message_event_text_idrinth_chapel_lost	The Chapel has been burned down by the settlement's new owner. Where will be gather now?	false
-message_event_text_idrinth_chapel_founded	The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.	false
-message_event_text_idrinth_godly_intervention	Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.	false
-message_event_text_idrinth_godly_intervention_subtitle	Asuryan, Khaine and Kurnous act.	false
+#Loc;1;text/db/idrinth_message_event_text__.loc
+message_event_text_idrinth_chapel_lost	礼拜堂已被定居点的新主人焚毁。我们现在要在哪里聚集？	false
+message_event_text_idrinth_chapel_founded	新礼拜堂的位置已被神灵祝圣。我们应该尽快建造它以获得他们的祝福。	false
+message_event_text_idrinth_godly_intervention	Idrinth 通知你，他的神灵已决定出手支持你的事业。你的军队将因神圣祝福而暂时变得更加强大。	false
+message_event_text_idrinth_godly_intervention_subtitle	阿苏里安、凯恩和库尔诺斯行动了。	false

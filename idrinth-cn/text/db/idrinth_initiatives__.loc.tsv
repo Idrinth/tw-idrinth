@@ -1,11 +1,11 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_initiatives__.loc		
-initiatives_localised_name_idrinth_khaine_pledge	Dedicate yourself to Khaine	false
-initiatives_localised_name_idrinth_kurnous_pledge	Dedicate yourself to Kurnous	false
-initiatives_localised_name_idrinth_asuryan_pledge	Dedicate yourself to Asuryan	false
-initiatives_localised_name_idrinth_khaine_prayer	Pray to Khaine	false
-initiatives_localised_name_idrinth_kurnous_prayer	Pray to Kurnous	false
-initiatives_localised_name_idrinth_asuryan_prayer	Pray to Asuryan	false
+#Loc;1;text/db/idrinth_initiatives__.loc
+initiatives_localised_name_idrinth_khaine_pledge	献身于凯恩	false
+initiatives_localised_name_idrinth_kurnous_pledge	献身于库尔诺斯	false
+initiatives_localised_name_idrinth_asuryan_pledge	献身于阿苏里安	false
+initiatives_localised_name_idrinth_khaine_prayer	向凯恩祈祷	false
+initiatives_localised_name_idrinth_kurnous_prayer	向库尔诺斯祈祷	false
+initiatives_localised_name_idrinth_asuryan_prayer	向阿苏里安祈祷	false
 idrinth_khaine_pledge		false
 idrinth_kurnous_pledge		false
 idrinth_asuryan_pledge		false
