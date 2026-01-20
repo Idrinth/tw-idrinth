@@ -10,7 +10,9 @@ Will you guide him toward redemption or embrace the darkness within? His fate re
 
 ## Translations
 
-I fully support translations of this mod, they can be edited on GitHub by anyone as well if they aren't perfect or something is missing. Currently known translations are:
+I fully support translations of this mod. Want to help translate? Join our [Crowdin project](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006) to contribute translations or improve existing ones!
+
+Currently known translations are:
 
 - [German/Deutsch](https://steamcommunity.com/sharedfiles/filedetails/?id=3626835116)
 - [French/Français](https://steamcommunity.com/sharedfiles/filedetails/?id=3630581892)
