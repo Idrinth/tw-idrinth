@@ -69,3 +69,5 @@ mct_idrinth_devotion_traits_text	献身特质	false
 mct_idrinth_devotion_traits_tooltip	启用献身于特定神明的特质。禁用不会移除现有的特质等级。	false
 mct_idrinth_interventions_text	启用神明干预	false
 mct_idrinth_interventions_tooltip	如果启用，当你的神眷值较高时，阿苏里安、库尔诺斯和凯恩会进行干预，使用部分神眷提供派系范围的增益。	false
+mct_idrinth_groovy_logging_text	EnableGroovy Logging Usage	false
+mct_idrinth_groovy_logging_tooltip	When checked this mod logs with the logging provided by the MCT.	false
