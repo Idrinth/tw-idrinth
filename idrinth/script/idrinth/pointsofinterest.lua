@@ -123,10 +123,10 @@ Idrinth.Events.addListener(
 Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
-        if not enablePointsOfInterest then
+        if not context:faction():is_human() then
             return false;
         end;
-        if not context:faction():is_human() then
+        if not enablePointsOfInterest then
             return false;
         end;
         local idrinth = Idrinth.Access.get(context:faction());

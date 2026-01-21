@@ -97,10 +97,10 @@ local cooldownFactors = {
 Idrinth.Events.addListener(
     "FactionTurnStart",
     function(context)
-        if not enabled then
+        if not context:faction():is_human() then
             return false;
         end;
-        if not context:faction():is_human() then
+        if not enabled then
             return false;
         end;
         return Idrinth.Access.get(context:faction()) ~= nil;
