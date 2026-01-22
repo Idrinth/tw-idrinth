@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_versions.loc
+#Loc;1;text/db/idrinth_versions.loc		
 mct_patch_notes_idrinth_129_notes	- corrigido custos do tesouro para melhorias que davam dinheiro em vez de custar	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- codigo reescrito para melhor estabilidade\\n- mais opcoes na ferramenta de configuracao do mod\\n- muitas pequenas correcoes	false
