@@ -2,7 +2,7 @@ key	text	tooltip
 #Loc;1;text/db/idrinth_mct__.loc		
 mct_idrinth_title	Idrinth Thalui - O Mestre do Saber Vampiro Alto Elfo	false
 mct_idrinth_author	Björn 'Idrinth' Büttner	false
-mct_idrinth_description	The Tale of a Fallen Loremaster\\n\\nOnce a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.\\n\\nWill you guide him toward redemption or embrace the darkness within? His fate rests in your hands.	false
+mct_idrinth_description	A História de um Mestre do Saber Caído\\n\\nUm dia um respeitado Mestre do Saber Alto Elfo, Idrinth Thalui encontrou seu fim mortal durante as sangrentas Guerras Vampíricas, apenas para ressurgir como uma das criaturas contra as quais lutava. Agora este Cavaleiro-Erudito caminha por um caminho precário entre sua herança élfica e maldição vampírica, buscando propósito em um mundo dilacerado pelo Caos.\\n\\nVocê o guiará para a redenção ou abraçará a escuridão interior? Seu destino está em suas mãos.	false
 mct_idrinth_expanded_spawn_text	Culturas de Aparição Expandidas	false
 mct_idrinth_expanded_spawn_tooltip	Permite que Idrinth apareça para Bretônia, Cathay, as Legiões de Nagash, Elfos Negros e Costa Vampírica também.	false
 mct_idrinth_level_adjustment_text	Requisito de Nível	false
@@ -63,11 +63,11 @@ mct_idrinth_god_item_base_chance_options_low_text	Baixa	false
 mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
 mct_idrinth_god_item_base_chance_options_high_text	Alta	false
 mct_idrinth_god_item_base_chance_tooltip	Altera a chance de itens divinos serem oferecidos.	false
-mct_idrinth_elf_slayer_traits_text	Elf Slayer Traits	false
-mct_idrinth_elf_slayer_traits_tooltip	Enables the traits for slaying elves. Disabling does not remove existing trait levels.	false
-mct_idrinth_devotion_traits_text	Devotion Traits	false
-mct_idrinth_devotion_traits_tooltip	Enables the traits for spending time devoted to a specific god. Disabling does not remove existing trait levels.	false
-mct_idrinth_interventions_text	Enable Divine Intervention	false
-mct_idrinth_interventions_tooltip	If enabled Asuryan, Kurnous and Khaine will intervene when your favour is high, using some of it for faction wide buffs.	false
-mct_idrinth_groovy_logging_text	EnableGroovy Logging Usage	false
-mct_idrinth_groovy_logging_tooltip	When checked this mod logs with the logging provided by the MCT.	false
+mct_idrinth_elf_slayer_traits_text	Traços de Matador de Elfos	false
+mct_idrinth_elf_slayer_traits_tooltip	Ativa os traços para matar elfos. Desativar não remove os níveis de traços existentes.	false
+mct_idrinth_devotion_traits_text	Traços de Devoção	false
+mct_idrinth_devotion_traits_tooltip	Ativa os traços para tempo dedicado a um deus específico. Desativar não remove os níveis de traços existentes.	false
+mct_idrinth_interventions_text	Ativar Intervenção Divina	false
+mct_idrinth_interventions_tooltip	Se ativado, Asuryan, Kurnous e Khaine intervirão quando seu favor estiver alto, usando parte dele para bônus de toda a facção.	false
+mct_idrinth_groovy_logging_text	Ativar Uso do Log Groovy	false
+mct_idrinth_groovy_logging_tooltip	Quando marcado, este mod registra com o sistema de log fornecido pelo MCT.	false

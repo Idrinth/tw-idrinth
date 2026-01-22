@@ -2,7 +2,7 @@ key	text	tooltip
 #Loc;1;text/db/idrinth_mct__.loc		
 mct_idrinth_title	Idrinth Thalui - Yüksek Elf Vampir Bilge Ustası	false
 mct_idrinth_author	Björn 'Idrinth' Büttner	false
-mct_idrinth_description	The Tale of a Fallen Loremaster\\n\\nOnce a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.\\n\\nWill you guide him toward redemption or embrace the darkness within? His fate rests in your hands.	false
+mct_idrinth_description	Düşmüş Bir Bilge Ustasının Hikayesi\\n\\nBir zamanlar saygın bir Yüksek Elf Bilge Ustası olan Idrinth Thalui, kanlı Vampir Savaşları sırasında ölümlü sonunu buldu, ancak savaştığı yaratıklardan biri olarak yeniden doğdu. Şimdi bu Şövalye-Bilgin, elf mirası ile vampir laneti arasında tehlikeli bir yolda yürüyor, Kaos tarafından parçalanmış bir dünyada amaç arıyor.\\n\\nOnu kurtuluşa mı yönlendireceksin yoksa içindeki karanlığı mı kucaklayacaksın? Kaderi senin ellerinde.	false
 mct_idrinth_expanded_spawn_text	Genişletilmiş Doğma Kültürleri	false
 mct_idrinth_expanded_spawn_tooltip	Idrinth'in Bretonnia, Cathay, Nagash Lejyonları, Karanlık Elfler ve Vampir Sahili için de doğmasına izin verir.	false
 mct_idrinth_level_adjustment_text	Seviye Gereksinimi	false
@@ -63,11 +63,11 @@ mct_idrinth_god_item_base_chance_options_low_text	Düşük	false
 mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
 mct_idrinth_god_item_base_chance_options_high_text	Yüksek	false
 mct_idrinth_god_item_base_chance_tooltip	Tanrı eşyalarının teklif edilme şansını değiştirir.	false
-mct_idrinth_elf_slayer_traits_text	Elf Slayer Traits	false
-mct_idrinth_elf_slayer_traits_tooltip	Enables the traits for slaying elves. Disabling does not remove existing trait levels.	false
-mct_idrinth_devotion_traits_text	Devotion Traits	false
-mct_idrinth_devotion_traits_tooltip	Enables the traits for spending time devoted to a specific god. Disabling does not remove existing trait levels.	false
-mct_idrinth_interventions_text	Enable Divine Intervention	false
-mct_idrinth_interventions_tooltip	If enabled Asuryan, Kurnous and Khaine will intervene when your favour is high, using some of it for faction wide buffs.	false
-mct_idrinth_groovy_logging_text	EnableGroovy Logging Usage	false
-mct_idrinth_groovy_logging_tooltip	When checked this mod logs with the logging provided by the MCT.	false
+mct_idrinth_elf_slayer_traits_text	Elf Katili Özellikleri	false
+mct_idrinth_elf_slayer_traits_tooltip	Elf öldürme özelliklerini etkinleştirir. Devre dışı bırakmak mevcut özellik seviyelerini kaldırmaz.	false
+mct_idrinth_devotion_traits_text	Bağlılık Özellikleri	false
+mct_idrinth_devotion_traits_tooltip	Belirli bir tanrıya adanmış zaman için özellikleri etkinleştirir. Devre dışı bırakmak mevcut özellik seviyelerini kaldırmaz.	false
+mct_idrinth_interventions_text	İlahi Müdahaleyi Etkinleştir	false
+mct_idrinth_interventions_tooltip	Etkinleştirilirse, Asuryan, Kurnous ve Khaine, iyiliğin yüksek olduğunda müdahale edecek ve bir kısmını tüm hizip bonusları için kullanacaktır.	false
+mct_idrinth_groovy_logging_text	Groovy Günlük Kaydı Kullanımını Etkinleştir	false
+mct_idrinth_groovy_logging_tooltip	İşaretlendiğinde bu mod MCT tarafından sağlanan günlük kaydı sistemiyle kayıt yapar.	false
