@@ -100,6 +100,7 @@ read_globals = {
     "UIComponent",
     "is_uicomponent",
     "get_mct",
+    "get_vlog",
     "set_component_visible_with_parent",
     "out",
 }
