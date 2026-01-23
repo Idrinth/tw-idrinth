@@ -36,7 +36,8 @@ mct_idrinth_logging_text	Включить Собственное Логиров�
 mct_idrinth_logging_tooltip	При включении этот мод пишет логи в корневую директорию игры в idrinth.*.log.	false
 mct_idrinth_base_logging_text	Включить Использование Базового Логирования Игры	false
 mct_idrinth_base_logging_tooltip	При включении этот мод пишет логи через функцию логирования базовой игры.	false
-mct_idrinth_section_idrinth_features_name	Переключатели Функций	false
+mct_idrinth_section_idrinth_story_features_name	Story Feature Toggles	false
+mct_idrinth_section_idrinth_game_features_name	Game Feature Toggles	false
 mct_idrinth_section_idrinth_chances_name	Шансы	false
 mct_idrinth_section_idrinth_spawn_name	Опции Появления	false
 mct_idrinth_section_idrinth_other_name	Дополнительные Опции	false
