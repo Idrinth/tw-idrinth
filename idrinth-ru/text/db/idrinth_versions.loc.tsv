@@ -258,5 +258,5 @@ mct_patch_notes_idrinth_2_notes	- теперь отображается благ
 mct_patch_notes_idrinth_2_version	v0.2.0	false
 mct_patch_notes_idrinth_1_notes	- начальная версия	false
 mct_patch_notes_idrinth_1_version	v0.1.0	false
-mct_patch_notes_idrinth_130_notes	- улучшения MCT, включая примечания к патчам	false
+mct_patch_notes_idrinth_130_notes	- MCT improvements, including patch notes\\n- Movement while settled restored\\n- fixes to upgrades being purchased despite money missing	false
 mct_patch_notes_idrinth_130_version	v1.6.5	false
