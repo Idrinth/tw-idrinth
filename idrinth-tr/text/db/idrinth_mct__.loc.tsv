@@ -36,7 +36,8 @@ mct_idrinth_logging_text	Kendi Günlük Kaydını Etkinleştir	false
 mct_idrinth_logging_tooltip	İşaretlendiğinde bu mod oyun kök dizinine idrinth.*.log olarak günlük kaydı yapar.	false
 mct_idrinth_base_logging_text	Temel Oyun Günlük Kaydı Kullanımını Etkinleştir	false
 mct_idrinth_base_logging_tooltip	İşaretlendiğinde bu mod temel oyun günlük kaydı işlevi ile günlük kaydı yapar.	false
-mct_idrinth_section_idrinth_features_name	Özellik Geçişleri	false
+mct_idrinth_section_idrinth_story_features_name	Story Feature Toggles	false
+mct_idrinth_section_idrinth_game_features_name	Game Feature Toggles	false
 mct_idrinth_section_idrinth_chances_name	Şanslar	false
 mct_idrinth_section_idrinth_spawn_name	Doğma Seçenekleri	false
 mct_idrinth_section_idrinth_other_name	Ek Seçenekler	false
