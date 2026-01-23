@@ -81,20 +81,12 @@ if mct then
             default = "normal"
         },
     }, false);
-    addSection(idrinth, "idrinth_features", {
+    addSection(idrinth, "idrinth_story_features", {
         story_events = {
             element = "checkbox",
             default = true,
         },
-        chapels = {
-            element = "checkbox",
-            default = true,
-        },
         names = {
-            element = "checkbox",
-            default = true,
-        },
-        animal_waaagh = {
             element = "checkbox",
             default = true,
         },
@@ -107,6 +99,16 @@ if mct then
             default = true,
         },
         interventions = {
+            element = "checkbox",
+            default = true,
+        },
+    }, false);
+    addSection(idrinth, "idrinth_game_features", {
+        chapels = {
+            element = "checkbox",
+            default = true,
+        },
+        animal_waaagh = {
             element = "checkbox",
             default = true,
         },

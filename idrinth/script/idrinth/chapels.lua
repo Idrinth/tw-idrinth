@@ -118,6 +118,9 @@ Idrinth.Events.addListener(
         if not hasChapelSlot(foreignSlotManager) then
             return;
         end;
+        if not faction:at_war_with(context:region():owning_faction()) then
+            return;
+        end;
         cm:remove_faction_foreign_slots_from_region(faction:command_queue_index(), context:region():cqi());
         cm:show_message_event_located(
             faction:name(),
