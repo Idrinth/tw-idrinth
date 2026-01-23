@@ -219,3 +219,5 @@ globals:
   Idrinth:
     property: full-write
     struct: Idrinth
+  get_vlog:
+    property: read-only

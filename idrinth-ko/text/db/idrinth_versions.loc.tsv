@@ -1,262 +1,262 @@
 key	text	tooltip
 #Loc;1;text/db/idrinth_versions.loc		
-mct_patch_notes_idrinth_129_notes	- fix treasury costs for upgrades giving money instead of costing it	false
+mct_patch_notes_idrinth_129_notes	- 업그레이드 비용이 돈을 소모하는 대신 지급하던 재정 비용 수정	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
-mct_patch_notes_idrinth_128_notes	- rewritten code for better stability\\n- more options in the mod config tool\\n- many small fixes	false
+mct_patch_notes_idrinth_128_notes	- 더 나은 안정성을 위한 코드 재작성\\n- 모드 설정 도구에 더 많은 옵션 추가\\n- 많은 작은 수정사항	false
 mct_patch_notes_idrinth_128_version	v1.6.3	false
-mct_patch_notes_idrinth_127_notes	- performance improvements for delayed function calling	false
+mct_patch_notes_idrinth_127_notes	- 지연 함수 호출에 대한 성능 개선	false
 mct_patch_notes_idrinth_127_version	v1.6.2	false
-mct_patch_notes_idrinth_126_notes	- fix nowAndThen firing too often leading to crashes	false
+mct_patch_notes_idrinth_126_notes	- nowAndThen이 너무 자주 발동되어 충돌을 유발하던 문제 수정	false
 mct_patch_notes_idrinth_126_version	v1.6.1	false
-mct_patch_notes_idrinth_125_notes	- unit size upgrades\\n- beast upgrade rework	false
+mct_patch_notes_idrinth_125_notes	- 유닛 크기 업그레이드\\n- 야수 업그레이드 재작업	false
 mct_patch_notes_idrinth_125_version	v1.6.0	false
-mct_patch_notes_idrinth_124_notes	- prevent trait removal event spam	false
+mct_patch_notes_idrinth_124_notes	- 특성 제거 이벤트 스팸 방지	false
 mct_patch_notes_idrinth_124_version	v1.5.2	false
-mct_patch_notes_idrinth_123_notes	- fix to anti lighting strike	false
+mct_patch_notes_idrinth_123_notes	- 번개 타격 방지 수정	false
 mct_patch_notes_idrinth_123_version	v1.5.1	false
-mct_patch_notes_idrinth_122_notes	- Unit Upgrades for elven units are in	false
+mct_patch_notes_idrinth_122_notes	- 엘프 유닛을 위한 유닛 업그레이드 추가	false
 mct_patch_notes_idrinth_122_version	v1.5.0	false
-mct_patch_notes_idrinth_121_notes	- code cleanups	false
+mct_patch_notes_idrinth_121_notes	- 코드 정리	false
 mct_patch_notes_idrinth_121_version	v1.4.6	false
-mct_patch_notes_idrinth_120_notes	- fixes name loss when assigned a pirate coast "government position"	false
+mct_patch_notes_idrinth_120_notes	- 해적 해안 "정부 직위"에 배정될 때 이름이 사라지는 문제 수정	false
 mct_patch_notes_idrinth_120_version	v1.4.5	false
-mct_patch_notes_idrinth_119_notes	- fixes to battle resources\\n- code optimizations	false
+mct_patch_notes_idrinth_119_notes	- 전투 자원 수정\\n- 코드 최적화	false
 mct_patch_notes_idrinth_119_version	v1.4.4	false
-mct_patch_notes_idrinth_118_notes	- fixed a case where the unit upgrade panel would not show after clicking the button	false
+mct_patch_notes_idrinth_118_notes	- 버튼 클릭 후 유닛 업그레이드 패널이 표시되지 않던 경우 수정	false
 mct_patch_notes_idrinth_118_version	v1.4.3	false
-mct_patch_notes_idrinth_117_notes	- fixed a case where the unit upgrade panel would not show after clicking the button	false
+mct_patch_notes_idrinth_117_notes	- 버튼 클릭 후 유닛 업그레이드 패널이 표시되지 않던 경우 수정	false
 mct_patch_notes_idrinth_117_version	v1.4.2	false
-mct_patch_notes_idrinth_116_notes	- added hints for unit usage	false
+mct_patch_notes_idrinth_116_notes	- 유닛 사용에 대한 힌트 추가	false
 mct_patch_notes_idrinth_116_version	v1.4.1	false
-mct_patch_notes_idrinth_115_notes	- make unit blessings for waaagh animals work\\n- rebalancing buildings of horde	false
+mct_patch_notes_idrinth_115_notes	- waaagh 동물을 위한 유닛 축복 작동\\n- 호드 건물 재조정	false
 mct_patch_notes_idrinth_115_version	v1.4.0	false
-mct_patch_notes_idrinth_114_notes	- fixes for unit set not encompassing everything required	false
+mct_patch_notes_idrinth_114_notes	- 유닛 세트가 필요한 모든 것을 포함하지 않던 문제 수정	false
 mct_patch_notes_idrinth_114_version	v1.3.5	false
-mct_patch_notes_idrinth_113_notes	- fixes for unit set not encompassing everything required	false
+mct_patch_notes_idrinth_113_notes	- 유닛 세트가 필요한 모든 것을 포함하지 않던 문제 수정	false
 mct_patch_notes_idrinth_113_version	v1.3.4	false
-mct_patch_notes_idrinth_112_notes	- fixes for unit set not encompassing everything required	false
+mct_patch_notes_idrinth_112_notes	- 유닛 세트가 필요한 모든 것을 포함하지 않던 문제 수정	false
 mct_patch_notes_idrinth_112_version	v1.3.3	false
-mct_patch_notes_idrinth_111_notes	- fixed detection of character initiatives	false
+mct_patch_notes_idrinth_111_notes	- 캐릭터 이니셔티브 감지 수정	false
 mct_patch_notes_idrinth_111_version	v1.3.2	false
-mct_patch_notes_idrinth_110_notes	- fix a crash reason	false
+mct_patch_notes_idrinth_110_notes	- 충돌 원인 수정	false
 mct_patch_notes_idrinth_110_version	v1.3.1	false
-mct_patch_notes_idrinth_109_notes	- major rewrite for performance	false
+mct_patch_notes_idrinth_109_notes	- 성능을 위한 대규모 재작성	false
 mct_patch_notes_idrinth_109_version	v1.3.0	false
-mct_patch_notes_idrinth_108_notes	- fix version number	false
+mct_patch_notes_idrinth_108_notes	- 버전 번호 수정	false
 mct_patch_notes_idrinth_108_version	v1.2.2	false
-mct_patch_notes_idrinth_107_notes	- fixing antitrait handling	false
+mct_patch_notes_idrinth_107_notes	- 반특성 처리 수정	false
 mct_patch_notes_idrinth_107_version	v1.2.1	false
-mct_patch_notes_idrinth_106_notes	- icon on settlement when chapels are available\\n- a lot of code cleanups\\n- devotion system improvements with god jealousy	false
+mct_patch_notes_idrinth_106_notes	- 예배당 이용 가능시 정착지에 아이콘 표시\\n- 많은 코드 정리\\n- 신의 질투와 함께 헌신 시스템 개선	false
 mct_patch_notes_idrinth_106_version	v1.2.0	false
-mct_patch_notes_idrinth_105_notes	- fixes to the resources being misplaced in the UI	false
+mct_patch_notes_idrinth_105_notes	- UI에서 자원이 잘못 배치되던 문제 수정	false
 mct_patch_notes_idrinth_105_version	v1.1.18	false
-mct_patch_notes_idrinth_104_notes	- yet another settlement ui fix	false
+mct_patch_notes_idrinth_104_notes	- 또 다른 정착지 UI 수정	false
 mct_patch_notes_idrinth_104_version	v1.1.17	false
-mct_patch_notes_idrinth_103_notes	- fixing button handling in settlement view	false
+mct_patch_notes_idrinth_103_notes	- 정착지 보기에서 버튼 처리 수정	false
 mct_patch_notes_idrinth_103_version	v1.1.16	false
-mct_patch_notes_idrinth_102_notes	- fix item status storing/retrieving to prevent multiple sets from being gained	false
+mct_patch_notes_idrinth_102_notes	- 여러 세트가 획득되는 것을 방지하기 위한 아이템 상태 저장/검색 수정	false
 mct_patch_notes_idrinth_102_version	v1.1.15	false
-mct_patch_notes_idrinth_101_notes	- fix auto-equipping unique items	false
+mct_patch_notes_idrinth_101_notes	- 고유 아이템 자동 장착 수정	false
 mct_patch_notes_idrinth_101_version	v1.1.14	false
-mct_patch_notes_idrinth_100_notes	- proper lord and office titles displayed during recruitment\\n- preventing dual spawning(hopefully)	false
+mct_patch_notes_idrinth_100_notes	- 모집 중 영주 및 관직 칭호가 올바르게 표시\\n- 이중 소환 방지(희망적으로)	false
 mct_patch_notes_idrinth_100_version	v1.1.13	false
-mct_patch_notes_idrinth_99_notes	- fixing two cases of dilemmas triggering for the wrong faction(s)	false
+mct_patch_notes_idrinth_99_notes	- 잘못된 세력에서 딜레마가 발동되던 두 가지 경우 수정	false
 mct_patch_notes_idrinth_99_version	v1.1.12	false
-mct_patch_notes_idrinth_98_notes	- fixing one more thing in item giving	false
+mct_patch_notes_idrinth_98_notes	- 아이템 지급에서 한 가지 더 수정	false
 mct_patch_notes_idrinth_98_version	v1.1.11	false
-mct_patch_notes_idrinth_97_notes	- recruiting script fixes\\n- ui fixes\\n- item script fixes	false
+mct_patch_notes_idrinth_97_notes	- 모집 스크립트 수정\\n- UI 수정\\n- 아이템 스크립트 수정	false
 mct_patch_notes_idrinth_97_version	v1.1.10	false
-mct_patch_notes_idrinth_96_notes	- fixing item giving code	false
+mct_patch_notes_idrinth_96_notes	- 아이템 지급 코드 수정	false
 mct_patch_notes_idrinth_96_version	v1.1.9	false
-mct_patch_notes_idrinth_95_notes	- some tidy up tasks	false
+mct_patch_notes_idrinth_95_notes	- 일부 정리 작업	false
 mct_patch_notes_idrinth_95_version	v1.1.8	false
-mct_patch_notes_idrinth_94_notes	- fix settings in multiplayer popping up for the wrong player	false
+mct_patch_notes_idrinth_94_notes	- 멀티플레이어에서 잘못된 플레이어에게 설정이 표시되던 문제 수정	false
 mct_patch_notes_idrinth_94_version	v1.1.7	false
-mct_patch_notes_idrinth_93_notes	- fix version number	false
+mct_patch_notes_idrinth_93_notes	- 버전 번호 수정	false
 mct_patch_notes_idrinth_93_version	v1.1.6	false
-mct_patch_notes_idrinth_92_notes	- prevent npc factions from getting location and story events	false
+mct_patch_notes_idrinth_92_notes	- NPC 세력이 위치 및 스토리 이벤트를 받지 못하도록 방지	false
 mct_patch_notes_idrinth_92_version	v1.1.5	false
-mct_patch_notes_idrinth_91_notes	- fixes to item gaining	false
+mct_patch_notes_idrinth_91_notes	- 아이템 획득 수정	false
 mct_patch_notes_idrinth_91_version	v1.1.4	false
-mct_patch_notes_idrinth_90_notes	- ui fixes	false
+mct_patch_notes_idrinth_90_notes	- UI 수정	false
 mct_patch_notes_idrinth_90_version	v1.1.3	false
-mct_patch_notes_idrinth_89_notes	- version number increment	false
+mct_patch_notes_idrinth_89_notes	- 버전 번호 증가	false
 mct_patch_notes_idrinth_89_version	v1.1.2	false
-mct_patch_notes_idrinth_88_notes	- small script fixes	false
+mct_patch_notes_idrinth_88_notes	- 작은 스크립트 수정	false
 mct_patch_notes_idrinth_88_version	v1.1.1	false
-mct_patch_notes_idrinth_87_notes	- refactoring\\n- devotion unlocked\\n- major improvements to general\\n- adding animal waaagh mechanic to general	false
+mct_patch_notes_idrinth_87_notes	- 리팩토링\\n- 헌신 잠금 해제\\n- 장군에 대한 주요 개선\\n- 장군에게 동물 waaagh 메카닉 추가	false
 mct_patch_notes_idrinth_87_version	v1.1.0	false
-mct_patch_notes_idrinth_86_notes	- unlock quest spam likely fixed\\n- no more weird animals to ride on for outriders\\n- small adjustments to text clarity	false
+mct_patch_notes_idrinth_86_notes	- 퀘스트 잠금 해제 스팸 수정 가능성\\n- 정찰병이 이상한 동물을 타지 않음\\n- 텍스트 명확성에 대한 작은 조정	false
 mct_patch_notes_idrinth_86_version	v1.0.15	false
-mct_patch_notes_idrinth_85_notes	- fix missing attrition immunities to the lord version	false
+mct_patch_notes_idrinth_85_notes	- 영주 버전에 누락된 소모 면역 수정	false
 mct_patch_notes_idrinth_85_version	v1.0.14	false
-mct_patch_notes_idrinth_84_notes	- fix favour resources not updating in the UI during the turn itself	false
+mct_patch_notes_idrinth_84_notes	- 턴 중 UI에서 호의 자원이 업데이트되지 않던 문제 수정	false
 mct_patch_notes_idrinth_84_version	v1.0.13	false
-mct_patch_notes_idrinth_83_notes	- encamp no longer costs movement	false
+mct_patch_notes_idrinth_83_notes	- 야영이 더 이상 이동력을 소모하지 않음	false
 mct_patch_notes_idrinth_83_version	v1.0.12	false
-mct_patch_notes_idrinth_82_notes	- fixed story event toggle triggering multiple times	false
+mct_patch_notes_idrinth_82_notes	- 스토리 이벤트 토글이 여러 번 발동되던 문제 수정	false
 mct_patch_notes_idrinth_82_version	v1.0.11	false
-mct_patch_notes_idrinth_81_notes	- add missing unit type classifications	false
+mct_patch_notes_idrinth_81_notes	- 누락된 유닛 유형 분류 추가	false
 mct_patch_notes_idrinth_81_version	v1.0.10	false
-mct_patch_notes_idrinth_80_notes	- add forgotten positive effects to elf killer traits\\n- make sure models use at maximum 5 variants per file	false
+mct_patch_notes_idrinth_80_notes	- 엘프 킬러 특성에 잊혀진 긍정적 효과 추가\\n- 모델이 파일당 최대 5개의 변형만 사용하도록 보장	false
 mct_patch_notes_idrinth_80_version	v1.0.9	false
-mct_patch_notes_idrinth_79_notes	- fix battle tracking\\n- fix ranged weapon damage of priests and Idrinth	false
+mct_patch_notes_idrinth_79_notes	- 전투 추적 수정\\n- 사제와 이드린스의 원거리 무기 피해 수정	false
 mct_patch_notes_idrinth_79_version	v1.0.8	false
-mct_patch_notes_idrinth_78_notes	- fixed resource generation bug\\n- added forgotten skill to general skill line	false
+mct_patch_notes_idrinth_78_notes	- 자원 생성 버그 수정\\n- 장군 스킬 라인에 잊혀진 스킬 추가	false
 mct_patch_notes_idrinth_78_version	v1.0.7	false
-mct_patch_notes_idrinth_77_notes	- fixed localization for elven slayer traits	false
+mct_patch_notes_idrinth_77_notes	- 엘프 학살자 특성에 대한 현지화 수정	false
 mct_patch_notes_idrinth_77_version	v1.0.6	false
-mct_patch_notes_idrinth_76_notes	- fixes to tavern chapel building chain	false
+mct_patch_notes_idrinth_76_notes	- 주점 예배당 건물 체인 수정	false
 mct_patch_notes_idrinth_76_version	v1.0.5	false
-mct_patch_notes_idrinth_75_notes	- fix unit recruiting for  imrik, morathi, sartosa	false
+mct_patch_notes_idrinth_75_notes	- 임릭, 모라시, 사르토사의 유닛 모집 수정	false
 mct_patch_notes_idrinth_75_version	v1.0.4	false
-mct_patch_notes_idrinth_74_notes	- fixing recruiting for drycha	false
+mct_patch_notes_idrinth_74_notes	- 드라이카의 모집 수정	false
 mct_patch_notes_idrinth_74_version	v1.0.3	false
-mct_patch_notes_idrinth_73_notes	- horde growth scope fix	false
+mct_patch_notes_idrinth_73_notes	- 호드 성장 범위 수정	false
 mct_patch_notes_idrinth_73_version	v1.0.2	false
-mct_patch_notes_idrinth_72_notes	- fixed recruiting limit of 0 due to wrong scope	false
+mct_patch_notes_idrinth_72_notes	- 잘못된 범위로 인한 모집 제한 0 수정	false
 mct_patch_notes_idrinth_72_version	v1.0.1	false
-mct_patch_notes_idrinth_71_notes	- horde mode lord option\\n- three more foreign slot buildings\\n- major rebalancing\\n- new unit(outriders)\\n- bugfixes to skill scopes	false
+mct_patch_notes_idrinth_71_notes	- 호드 모드 영주 옵션\\n- 세 개의 추가 외국 슬롯 건물\\n- 대규모 재조정\\n- 새 유닛(정찰병)\\n- 스킬 범위 버그 수정	false
 mct_patch_notes_idrinth_71_version	v1.0.0	false
-mct_patch_notes_idrinth_70_notes	- fix quest titles and descriptions missing for expanded cultures	false
+mct_patch_notes_idrinth_70_notes	- 확장된 문화에서 퀘스트 제목 및 설명이 누락되던 문제 수정	false
 mct_patch_notes_idrinth_70_version	v0.19.3	false
-mct_patch_notes_idrinth_69_notes	- prevent item granting spam	false
+mct_patch_notes_idrinth_69_notes	- 아이템 지급 스팸 방지	false
 mct_patch_notes_idrinth_69_version	v0.19.2	false
-mct_patch_notes_idrinth_68_notes	- fix level comparison for item checks	false
+mct_patch_notes_idrinth_68_notes	- 아이템 확인을 위한 레벨 비교 수정	false
 mct_patch_notes_idrinth_68_version	v0.19.1	false
-mct_patch_notes_idrinth_67_notes	- support for Mod Configuration Tool\\n- new place based events\\n- slight rebalancing\\n- better implemented recruiting by expanded Culture recruiting	false
+mct_patch_notes_idrinth_67_notes	- 모드 설정 도구 지원\\n- 새로운 장소 기반 이벤트\\n- 약간의 재조정\\n- 확장된 문화 모집으로 모집 더 잘 구현	false
 mct_patch_notes_idrinth_67_version	v0.19.0	false
-mct_patch_notes_idrinth_66_notes	- prevent events from triggering while Idrinth is wounded	false
+mct_patch_notes_idrinth_66_notes	- 이드린스가 부상 중일 때 이벤트 발동 방지	false
 mct_patch_notes_idrinth_66_version	v0.18.3	false
-mct_patch_notes_idrinth_65_notes	- a lot of cleanups	false
+mct_patch_notes_idrinth_65_notes	- 많은 정리	false
 mct_patch_notes_idrinth_65_version	v0.18.2	false
-mct_patch_notes_idrinth_64_notes	- vigor loss reduction now reduces instead of increases\\n- idrinth's type is no longer recruitable(even if his category was never unlocked)	false
+mct_patch_notes_idrinth_64_notes	- 활력 손실 감소가 이제 증가 대신 감소\\n- 이드린스의 유형은 더 이상 모집할 수 없음(카테고리가 잠금 해제되지 않은 경우에도)	false
 mct_patch_notes_idrinth_64_version	v0.18.1	false
-mct_patch_notes_idrinth_63_notes	- expanding the chapel settlements\\n- expanding the faction roster	false
+mct_patch_notes_idrinth_63_notes	- 예배당 정착지 확장\\n- 세력 명단 확장	false
 mct_patch_notes_idrinth_63_version	v0.18.0	false
-mct_patch_notes_idrinth_62_notes	- fix missing defense vs large on guards\\n- slightly increase unit weight	false
+mct_patch_notes_idrinth_62_notes	- 경비병의 대형 유닛 대항 방어력 누락 수정\\n- 유닛 무게 약간 증가	false
 mct_patch_notes_idrinth_62_version	v0.17.1	false
-mct_patch_notes_idrinth_61_notes	- added ranged skills and made the custom battle faction more distrinct	false
+mct_patch_notes_idrinth_61_notes	- 원거리 스킬 추가 및 사용자 정의 전투 세력을 더욱 독특하게 만듦	false
 mct_patch_notes_idrinth_61_version	v0.17.0	false
-mct_patch_notes_idrinth_60_notes	- added a banner and icon for the Thaluian Chapel for custom battles	false
+mct_patch_notes_idrinth_60_notes	- 사용자 정의 전투를 위한 탈루이안 예배당의 배너 및 아이콘 추가	false
 mct_patch_notes_idrinth_60_version	v0.16.0	false
-mct_patch_notes_idrinth_59_notes	- new temple level (priest-hero defenders)\\n- level scaling option for unlocks(lv 5, lv 6, lv 8, lv 11)\\n- some fixes to temples\\n- typo fixes for dilemmas\\n- seperate faction for skirmishes	false
+mct_patch_notes_idrinth_59_notes	- 새로운 사원 레벨(사제-영웅 수비수)\\n- 잠금 해제를 위한 레벨 스케일링 옵션(레벨 5, 6, 8, 11)\\n- 사원에 대한 일부 수정\\n- 딜레마 오타 수정\\n- 교전을 위한 별도의 세력	false
 mct_patch_notes_idrinth_59_version	v0.15.0	false
-mct_patch_notes_idrinth_58_notes	- lower base cost from 550 to 400	false
+mct_patch_notes_idrinth_58_notes	- 기본 비용을 550에서 400으로 감소	false
 mct_patch_notes_idrinth_58_version	v0.14.4	false
-mct_patch_notes_idrinth_57_notes	- fixed resource costs of favour not applying properly	false
+mct_patch_notes_idrinth_57_notes	- 호의의 자원 비용이 올바르게 적용되지 않던 문제 수정	false
 mct_patch_notes_idrinth_57_version	v0.14.3	false
-mct_patch_notes_idrinth_56_notes	- fix overlooked diplomacy modifiers for elven chapels	false
+mct_patch_notes_idrinth_56_notes	- 엘프 예배당에 대한 간과된 외교 수정자 수정	false
 mct_patch_notes_idrinth_56_version	v0.14.2	false
-mct_patch_notes_idrinth_55_notes	- typos and fixes for the elven chapel chain	false
+mct_patch_notes_idrinth_55_notes	- 엘프 예배당 체인의 오타 및 수정	false
 mct_patch_notes_idrinth_55_version	v0.14.1	false
-mct_patch_notes_idrinth_54_notes	- add elven chapels founded by Idrinth, basic version, more to come.	false
+mct_patch_notes_idrinth_54_notes	- 이드린스가 설립한 엘프 예배당 추가, 기본 버전, 더 많은 내용 추가 예정.	false
 mct_patch_notes_idrinth_54_version	v0.14.0	false
-mct_patch_notes_idrinth_53_notes	- hopefully prevent double triggering of quests for slower players.	false
+mct_patch_notes_idrinth_53_notes	- 느린 플레이어를 위한 퀘스트 이중 발동 방지를 희망합니다.	false
 mct_patch_notes_idrinth_53_version	v0.13.4	false
-mct_patch_notes_idrinth_52_notes	- adjusted auto resolve values.	false
+mct_patch_notes_idrinth_52_notes	- 자동 해결 값 조정.	false
 mct_patch_notes_idrinth_52_version	v0.13.3	false
-mct_patch_notes_idrinth_51_notes	- fixes to resource gains as well as randomised god blessings.	false
+mct_patch_notes_idrinth_51_notes	- 자원 획득 및 무작위 신의 축복에 대한 수정.	false
 mct_patch_notes_idrinth_51_version	v0.13.2	false
-mct_patch_notes_idrinth_50_notes	- a few typos fixed, mostly casing.	false
+mct_patch_notes_idrinth_50_notes	- 몇 가지 오타 수정, 주로 대소문자.	false
 mct_patch_notes_idrinth_50_version	v0.13.1	false
-mct_patch_notes_idrinth_49_notes	- added culture specific unlock dilemma texts for all primary cultures.	false
+mct_patch_notes_idrinth_49_notes	- 모든 주요 문화에 대한 문화별 잠금 해제 딜레마 텍스트 추가.	false
 mct_patch_notes_idrinth_49_version	v0.13.0	false
-mct_patch_notes_idrinth_48_notes	- fixed mode question appearing multiple times because of reloading.	false
+mct_patch_notes_idrinth_48_notes	- 재로딩으로 인해 모드 질문이 여러 번 나타나던 문제 수정.	false
 mct_patch_notes_idrinth_48_version	v0.12.2	false
-mct_patch_notes_idrinth_47_notes	- fixed cases of fallback images appearing.	false
+mct_patch_notes_idrinth_47_notes	- 대체 이미지가 나타나던 경우 수정.	false
 mct_patch_notes_idrinth_47_version	v0.12.1	false
-mct_patch_notes_idrinth_46_notes	- restored logic for prayers and devotion.	false
+mct_patch_notes_idrinth_46_notes	- 기도와 헌신에 대한 로직 복원.	false
 mct_patch_notes_idrinth_46_version	v0.12.0	false
-mct_patch_notes_idrinth_45_notes	- slight cleanups	false
+mct_patch_notes_idrinth_45_notes	- 약간의 정리	false
 mct_patch_notes_idrinth_45_version	v0.11.2	false
-mct_patch_notes_idrinth_44_notes	- removed the one conflicting twui file for now.	false
+mct_patch_notes_idrinth_44_notes	- 충돌하는 twui 파일 하나를 일단 제거.	false
 mct_patch_notes_idrinth_44_version	v0.11.1	false
-mct_patch_notes_idrinth_43_notes	- removed dependency on resource bar overwriting for god favour.\\n- theoretical support for Nagash faction	false
+mct_patch_notes_idrinth_43_notes	- 신의 호의에 대한 자원 바 덮어쓰기 의존성 제거.\\n- 나가쉬 세력에 대한 이론적 지원	false
 mct_patch_notes_idrinth_43_version	v0.11.0	false
-mct_patch_notes_idrinth_42_notes	- fixed mesh textures to be more vampiric and not show a nice, pink skin.	false
+mct_patch_notes_idrinth_42_notes	- 메쉬 텍스처를 더 뱀파이어답게 수정하여 좋은 분홍색 피부가 보이지 않도록 함.	false
 mct_patch_notes_idrinth_42_version	v0.10.6	false
-mct_patch_notes_idrinth_41_notes	- adjusted unit card image	false
+mct_patch_notes_idrinth_41_notes	- 유닛 카드 이미지 조정	false
 mct_patch_notes_idrinth_41_version	v0.10.5	false
-mct_patch_notes_idrinth_40_notes	- prevent re-triggering of recruiting mission after loading.	false
+mct_patch_notes_idrinth_40_notes	- 로딩 후 모집 미션 재발동 방지.	false
 mct_patch_notes_idrinth_40_version	v0.10.4	false
-mct_patch_notes_idrinth_39_notes	- removed dependency on overwriting core scripts.	false
+mct_patch_notes_idrinth_39_notes	- 코어 스크립트 덮어쓰기 의존성 제거.	false
 mct_patch_notes_idrinth_39_version	v0.10.3	false
-mct_patch_notes_idrinth_38_notes	- fixed khaine set boni being attached to the wrong things.	false
+mct_patch_notes_idrinth_38_notes	- 케인 세트 보너스가 잘못된 것에 붙어 있던 문제 수정.	false
 mct_patch_notes_idrinth_38_version	v0.10.2	false
-mct_patch_notes_idrinth_37_notes	- fixed a typo in the unit names.	false
+mct_patch_notes_idrinth_37_notes	- 유닛 이름의 오타 수정.	false
 mct_patch_notes_idrinth_37_version	v0.10.1	false
-mct_patch_notes_idrinth_36_notes	- added high elf and vampire counts dilemma rewards.	false
+mct_patch_notes_idrinth_36_notes	- 하이 엘프와 뱀파이어 백작 딜레마 보상 추가.	false
 mct_patch_notes_idrinth_36_version	v0.10.0	false
-mct_patch_notes_idrinth_35_notes	- added wood elf dilemma rewards.	false
+mct_patch_notes_idrinth_35_notes	- 우드 엘프 딜레마 보상 추가.	false
 mct_patch_notes_idrinth_35_version	v0.9.0	false
-mct_patch_notes_idrinth_34_notes	- added dwarf dilemma rewards.	false
+mct_patch_notes_idrinth_34_notes	- 드워프 딜레마 보상 추가.	false
 mct_patch_notes_idrinth_34_version	v0.8.0	false
-mct_patch_notes_idrinth_33_notes	- added kislev dilemma rewards.	false
+mct_patch_notes_idrinth_33_notes	- 키슬레프 딜레마 보상 추가.	false
 mct_patch_notes_idrinth_33_version	v0.7.0	false
-mct_patch_notes_idrinth_32_notes	- reducing growth of god favour at higher levels.	false
+mct_patch_notes_idrinth_32_notes	- 높은 레벨에서 신의 호의 성장 감소.	false
 mct_patch_notes_idrinth_32_version	v0.6.5	false
-mct_patch_notes_idrinth_31_notes	- fixed crash on ancillary assignement on round start.	false
+mct_patch_notes_idrinth_31_notes	- 라운드 시작 시 보조 장비 배정에서 충돌 수정.	false
 mct_patch_notes_idrinth_31_version	v0.6.4	false
-mct_patch_notes_idrinth_30_notes	- reduce corruption reduction from dilemma.	false
+mct_patch_notes_idrinth_30_notes	- 딜레마에서 타락 감소 줄이기.	false
 mct_patch_notes_idrinth_30_version	v0.6.3	false
-mct_patch_notes_idrinth_29_notes	- added further effects for the empire dilemma	false
+mct_patch_notes_idrinth_29_notes	- 제국 딜레마에 추가 효과 추가	false
 mct_patch_notes_idrinth_29_version	v0.6.2	false
-mct_patch_notes_idrinth_28_notes	- fixed god favour assignments for dilemmas.	false
+mct_patch_notes_idrinth_28_notes	- 딜레마에 대한 신의 호의 배정 수정.	false
 mct_patch_notes_idrinth_28_version	v0.6.1	false
-mct_patch_notes_idrinth_27_notes	- added effect texts to dilemma options \\n- reduced favour generation from 5 to 1.	false
+mct_patch_notes_idrinth_27_notes	- 딜레마 옵션에 효과 텍스트 추가\\n- 호의 생성을 5에서 1로 감소.	false
 mct_patch_notes_idrinth_27_version	v0.6.0	false
-mct_patch_notes_idrinth_26_notes	- fixed a few script issues related to loading values and equipping ancillaries.	false
+mct_patch_notes_idrinth_26_notes	- 값 로드 및 보조 장비 장착과 관련된 몇 가지 스크립트 문제 수정.	false
 mct_patch_notes_idrinth_26_version	v0.5.6	false
-mct_patch_notes_idrinth_25_notes	- updated charge bonus for assault to actually have an effect.	false
+mct_patch_notes_idrinth_25_notes	- 돌격 보너스가 실제로 효과를 발휘하도록 업데이트.	false
 mct_patch_notes_idrinth_25_version	v0.5.5	false
-mct_patch_notes_idrinth_24_notes	- fixed multiple UUIDs in the twui-files	false
+mct_patch_notes_idrinth_24_notes	- twui 파일에서 여러 UUID 수정	false
 mct_patch_notes_idrinth_24_version	v0.5.4	false
-mct_patch_notes_idrinth_23_notes	- fixed duplicate Khaine rewards for dilemmas. Rewards are still subject to change.	false
+mct_patch_notes_idrinth_23_notes	- 딜레마에 대한 중복 케인 보상 수정. 보상은 여전히 변경될 수 있습니다.	false
 mct_patch_notes_idrinth_23_version	v0.5.3	false
-mct_patch_notes_idrinth_22_notes	- another set of UI related fixes	false
+mct_patch_notes_idrinth_22_notes	- 또 다른 UI 관련 수정 세트	false
 mct_patch_notes_idrinth_22_version	v0.5.2	false
-mct_patch_notes_idrinth_21_notes	- resource display fixes	false
+mct_patch_notes_idrinth_21_notes	- 자원 표시 수정	false
 mct_patch_notes_idrinth_21_version	v0.5.1	false
-mct_patch_notes_idrinth_20_notes	- add resources to wh3 top bar	false
+mct_patch_notes_idrinth_20_notes	- wh3 상단 바에 자원 추가	false
 mct_patch_notes_idrinth_20_version	v0.5.0	false
-mct_patch_notes_idrinth_19_notes	- fixed effects from dilemmas not being shown. Effects are subject to change.	false
+mct_patch_notes_idrinth_19_notes	- 딜레마의 효과가 표시되지 않던 문제 수정. 효과는 변경될 수 있습니다.	false
 mct_patch_notes_idrinth_19_version	v0.4.8	false
-mct_patch_notes_idrinth_18_notes	- fixed a crash after loading due to wrongly cached data.	false
+mct_patch_notes_idrinth_18_notes	- 잘못 캐시된 데이터로 인한 로딩 후 충돌 수정.	false
 mct_patch_notes_idrinth_18_version	v0.4.7	false
-mct_patch_notes_idrinth_17_notes	- reactivate event re-enablement to reduce crashes.	false
+mct_patch_notes_idrinth_17_notes	- 충돌을 줄이기 위해 이벤트 재활성화 복원.	false
 mct_patch_notes_idrinth_17_version	v0.4.6	false
-mct_patch_notes_idrinth_16_notes	- remove debug code(script log)	false
+mct_patch_notes_idrinth_16_notes	- 디버그 코드(스크립트 로그) 제거	false
 mct_patch_notes_idrinth_16_version	v0.4.5	false
-mct_patch_notes_idrinth_15_notes	- Remove auto-spawn from script, that was just intended for testing.	false
+mct_patch_notes_idrinth_15_notes	- 스크립트에서 자동 생성 제거, 이것은 테스트용이었습니다.	false
 mct_patch_notes_idrinth_15_version	v0.4.4	false
-mct_patch_notes_idrinth_14_notes	- made agent abilities a bit more useful.	false
+mct_patch_notes_idrinth_14_notes	- 에이전트 능력을 조금 더 유용하게 만듦.	false
 mct_patch_notes_idrinth_14_version	v0.4.3	false
-mct_patch_notes_idrinth_13_notes	- another crash case fixed.	false
+mct_patch_notes_idrinth_13_notes	- 또 다른 충돌 케이스 수정.	false
 mct_patch_notes_idrinth_13_version	v0.4.2	false
-mct_patch_notes_idrinth_12_notes	- reduce crashes by suppressing events more effectively.	false
+mct_patch_notes_idrinth_12_notes	- 이벤트를 더 효과적으로 억제하여 충돌 감소.	false
 mct_patch_notes_idrinth_12_version	v0.4.1	false
-mct_patch_notes_idrinth_11_notes	- introduce elf-slayer traits to handle elf mass slaughter.	false
+mct_patch_notes_idrinth_11_notes	- 엘프 대량 학살을 처리하기 위한 엘프 학살자 특성 도입.	false
 mct_patch_notes_idrinth_11_version	v0.4.0	false
-mct_patch_notes_idrinth_10_notes	- script and db fixes, so custom items are properly equipped when available.	false
+mct_patch_notes_idrinth_10_notes	- 스크립트 및 DB 수정으로 사용자 정의 아이템이 사용 가능할 때 올바르게 장착됨.	false
 mct_patch_notes_idrinth_10_version	v0.3.4	false
-mct_patch_notes_idrinth_9_notes	- script fixes for dilemma triggering.	false
+mct_patch_notes_idrinth_9_notes	- 딜레마 발동을 위한 스크립트 수정.	false
 mct_patch_notes_idrinth_9_version	v0.3.3	false
-mct_patch_notes_idrinth_8_notes	- fixed some of the crashes related to to late event suppression.	false
+mct_patch_notes_idrinth_8_notes	- 늦은 이벤트 억제와 관련된 일부 충돌 수정.	false
 mct_patch_notes_idrinth_8_version	v0.3.2	false
-mct_patch_notes_idrinth_7_notes	- improved lore texts.	false
+mct_patch_notes_idrinth_7_notes	- 로어 텍스트 개선.	false
 mct_patch_notes_idrinth_7_version	v0.3.1	false
-mct_patch_notes_idrinth_6_notes	- added lore and explanation texts to all new items.	false
+mct_patch_notes_idrinth_6_notes	- 모든 새 아이템에 로어 및 설명 텍스트 추가.	false
 mct_patch_notes_idrinth_6_version	v0.3.0	false
-mct_patch_notes_idrinth_5_notes	- adjustments to shooting arc, to make him actually able to skirmish	false
+mct_patch_notes_idrinth_5_notes	- 사격 호를 조정하여 실제로 교전할 수 있게 함	false
 mct_patch_notes_idrinth_5_version	v0.2.3	false
-mct_patch_notes_idrinth_4_notes	- properly placed icons for god favour	false
+mct_patch_notes_idrinth_4_notes	- 신의 호의 아이콘을 올바르게 배치	false
 mct_patch_notes_idrinth_4_version	v0.2.2	false
-mct_patch_notes_idrinth_3_notes	- fixed crashes on gaining Ancillary	false
+mct_patch_notes_idrinth_3_notes	- 보조 장비 획득 시 충돌 수정	false
 mct_patch_notes_idrinth_3_version	v0.2.1	false
-mct_patch_notes_idrinth_2_notes	- displaying God Favour now.	false
+mct_patch_notes_idrinth_2_notes	- 이제 신의 호의를 표시합니다.	false
 mct_patch_notes_idrinth_2_version	v0.2.0	false
-mct_patch_notes_idrinth_1_notes	- initial version	false
+mct_patch_notes_idrinth_1_notes	- 초기 버전	false
 mct_patch_notes_idrinth_1_version	v0.1.0	false
-mct_patch_notes_idrinth_130_notes	- MCT improvements, including patch notes	false
+mct_patch_notes_idrinth_130_notes	- 패치 노트를 포함한 MCT 개선	false
 mct_patch_notes_idrinth_130_version	v1.6.5	false
