@@ -36,7 +36,8 @@ mct_idrinth_logging_text	자체 로깅 활성화	false
 mct_idrinth_logging_tooltip	체크하면 이 모드가 게임 루트 디렉토리의 idrinth.*.log에 로그를 남깁니다.	false
 mct_idrinth_base_logging_text	기본 게임 로깅 사용 활성화	false
 mct_idrinth_base_logging_tooltip	체크하면 이 모드가 기본 게임 로깅 기능으로 로그를 남깁니다.	false
-mct_idrinth_section_idrinth_features_name	기능 토글	false
+mct_idrinth_section_idrinth_story_features_name	Story Feature Toggles	false
+mct_idrinth_section_idrinth_game_features_name	Game Feature Toggles	false
 mct_idrinth_section_idrinth_chances_name	확률	false
 mct_idrinth_section_idrinth_spawn_name	생성 옵션	false
 mct_idrinth_section_idrinth_other_name	추가 옵션	false
