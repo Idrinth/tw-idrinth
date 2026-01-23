@@ -258,5 +258,5 @@ mct_patch_notes_idrinth_2_notes	- 现在显示神眷。	false
 mct_patch_notes_idrinth_2_version	v0.2.0	false
 mct_patch_notes_idrinth_1_notes	- 初始版本	false
 mct_patch_notes_idrinth_1_version	v0.1.0	false
-mct_patch_notes_idrinth_130_notes	- MCT 改进，包括补丁说明	false
+mct_patch_notes_idrinth_130_notes	- MCT improvements, including patch notes\\n- Movement while settled restored\\n- fixes to upgrades being purchased despite money missing	false
 mct_patch_notes_idrinth_130_version	v1.6.5	false
