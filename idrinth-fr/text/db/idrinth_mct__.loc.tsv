@@ -36,7 +36,8 @@ mct_idrinth_logging_text	Activer la Journalisation Propre	false
 mct_idrinth_logging_tooltip	Lorsque coché, ce mod enregistre dans le répertoire racine du jeu sous idrinth.*.log.	false
 mct_idrinth_base_logging_text	Activer l'Utilisation de la Journalisation du Jeu de Base	false
 mct_idrinth_base_logging_tooltip	Lorsque coché, ce mod utilise la fonction de journalisation du jeu de base.	false
-mct_idrinth_section_idrinth_features_name	Options de Fonctionnalités	false
+mct_idrinth_section_idrinth_story_features_name	Story Feature Toggles	false
+mct_idrinth_section_idrinth_game_features_name	Game Feature Toggles	false
 mct_idrinth_section_idrinth_chances_name	Chances	false
 mct_idrinth_section_idrinth_spawn_name	Options d'Apparition	false
 mct_idrinth_section_idrinth_other_name	Options Supplémentaires	false
