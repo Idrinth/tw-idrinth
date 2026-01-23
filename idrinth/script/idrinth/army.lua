@@ -277,9 +277,16 @@ local upgradeAnimal = function(god)
     end;
     local character = cm:get_character_by_cqi(cm:get_campaign_ui_manager():get_char_selected_cqi());
     local currentType = common.get_context_value(UNIT_CONTEXT, id, "UnitRecordContext.Key");
+    _, faction = Idrinth.Access.get();
     if godFavourBlessings[currentType] and godFavourBlessings[currentType][god] then
         lockAnimalBlessings(character:faction(), false);
         local blessing = godFavourBlessings[currentType][god];
+        local costTreasury = common.get_context_value(UNIT_CONTEXT, id, "DatabaseRecordContext(\""
+            .. UPGRADE_EFFECT_RECORD .. "\", \"" .. blessing .. "\").CostContext.TreasuryCost");
+        if faction:treasury() + costTreasury < 0 then
+            lockAnimalBlessings(character:faction(), true);
+            return;
+        end;
         local upgradeCmd = "Upgrade(DatabaseRecordContext(\""
             .. UPGRADE_EFFECT_RECORD .. "\", \"" .. blessing .. "\"))";
         common.call_context_command(UNIT_CONTEXT, id, upgradeCmd);
