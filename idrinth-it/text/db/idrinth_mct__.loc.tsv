@@ -36,7 +36,8 @@ mct_idrinth_logging_text	Abilita Log Proprio	false
 mct_idrinth_logging_tooltip	Quando attivato, questa mod registra nella directory root del gioco in idrinth.*.log.	false
 mct_idrinth_base_logging_text	Abilita Uso Log Gioco Base	false
 mct_idrinth_base_logging_tooltip	Quando attivato, questa mod registra con la funzione di logging del gioco base.	false
-mct_idrinth_section_idrinth_features_name	Toggle Funzionalità	false
+mct_idrinth_section_idrinth_story_features_name	Toggle Funzionalità Storia	false
+mct_idrinth_section_idrinth_game_features_name	Toggle Funzionalità Gioco	false
 mct_idrinth_section_idrinth_chances_name	Probabilità	false
 mct_idrinth_section_idrinth_spawn_name	Opzioni Spawn	false
 mct_idrinth_section_idrinth_other_name	Opzioni Aggiuntive	false

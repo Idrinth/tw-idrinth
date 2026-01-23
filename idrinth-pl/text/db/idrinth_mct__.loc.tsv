@@ -36,7 +36,8 @@ mct_idrinth_logging_text	Włącz Własne Logowanie	false
 mct_idrinth_logging_tooltip	Gdy zaznaczone, ten mod loguje do głównego katalogu gry do idrinth.*.log.	false
 mct_idrinth_base_logging_text	Włącz Użycie Logowania Podstawowej Gry	false
 mct_idrinth_base_logging_tooltip	Gdy zaznaczone, ten mod loguje za pomocą podstawowej funkcji logowania gry.	false
-mct_idrinth_section_idrinth_features_name	Przełączniki Funkcji	false
+mct_idrinth_section_idrinth_story_features_name	Przełączniki Funkcji Fabularnych	false
+mct_idrinth_section_idrinth_game_features_name	Przełączniki Funkcji Gry	false
 mct_idrinth_section_idrinth_chances_name	Szanse	false
 mct_idrinth_section_idrinth_spawn_name	Opcje Pojawienia	false
 mct_idrinth_section_idrinth_other_name	Dodatkowe Opcje	false
