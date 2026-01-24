@@ -1,5 +1,5 @@
 files:
   - source: /idrinth/text/db/*__.loc.tsv
-    translation: '%original_path%/%original_file_name%%two_letters_code%'
+    translation: /%original_path%/%original_file_name%%two_letters_code%
   - source: /idrinth/readme.steam
     translation: /idrinth/readme-%two_letters_code%.steam
