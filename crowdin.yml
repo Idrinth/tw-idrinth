@@ -1,3 +1,3 @@
 files:
-  - source: /idrinth/text/db/*.loc.tsv
-    translation: /idrinth-%two_letters_code%/text/db/%original_file_name%
+  - source: /idrinth/text/db/*__.loc.tsv
+    translation: /idrinth/text/db/%file_name%%two_letters_code%.loc.tsv
