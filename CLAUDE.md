@@ -87,6 +87,26 @@ When updating documentation, you MUST update BOTH files in the same commit:
 - File format: TSV with `key`, `text`, `tooltip` columns
 - Keep keys identical to English source
 
+### Language Code Mapping (TW:WH3 Convention)
+
+| Code | Language |
+|------|----------|
+| (none) | English (default) |
+| `br` | Brazilian Portuguese |
+| `cn` | Simplified Chinese |
+| `cz` | Czech |
+| `de` | German |
+| `es` | Spanish |
+| `fr` | French |
+| `it` | Italian |
+| `kr` | Korean |
+| `pl` | Polish |
+| `ru` | Russian |
+| `tr` | Turkish |
+| `zh` | Traditional Chinese |
+
+File naming example: `idrinth_traits__.loc.tsv` (English), `idrinth_traits__de.loc.tsv` (German)
+
 ## Commit Messages
 
 - Use present tense: "Add feature" not "Added feature"
