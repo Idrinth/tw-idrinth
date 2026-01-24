@@ -28,4 +28,3 @@ function fixCrowdinTsv(tsvContent) {
     .join('\n');
 }
 content = fixCrowdinTsv(content);
-fileName = fileName.replace(/__(\.loc\.tsv)(.{2})/, "__$2$1");
