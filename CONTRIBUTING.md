@@ -295,9 +295,31 @@ idrinth_trait_name	Translated Name	false
 idrinth_trait_desc	Translated Description	true
 ```
 
+### Language Code Mapping (TW:WH3 Convention)
+
+The project uses Total War: Warhammer III's standard language codes in file names:
+
+| Code | Language |
+|------|----------|
+| (none) | English (default) |
+| `br` | Brazilian Portuguese |
+| `cn` | Simplified Chinese |
+| `cz` | Czech |
+| `de` | German |
+| `es` | Spanish |
+| `fr` | French |
+| `it` | Italian |
+| `kr` | Korean |
+| `pl` | Polish |
+| `ru` | Russian |
+| `tr` | Turkish |
+| `zh` | Traditional Chinese |
+
+File naming example: `idrinth_traits__.loc.tsv` (English), `idrinth_traits__de.loc.tsv` (German)
+
 ### Adding a New Language
 
-1. Create a new directory: `idrinth-XX/text/db/` (where XX is the language code)
+1. Create a new directory: `idrinth-XX/text/db/` (where XX is the language code from the table above)
 2. Copy the structure from `idrinth/text/db/`
 3. Translate all strings while keeping keys identical
 
