@@ -3,1104 +3,1104 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">Uma reunião de malfeitores, exilados e aventureiros da raça élfica reunidos ao redor de uma capela para suas divindades.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="pt-BR" state="translated">Uma reunião de malfeitores, exilados e aventureiros da raça élfica reunidos ao redor de uma capela para suas divindades.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Capela da Comunidade Élfica</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="pt-BR" state="translated">Capela da Comunidade Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Veterinária Élfica</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="pt-BR" state="translated">Veterinária Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Alcance Élfico</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="pt-BR" state="translated">Alcance Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artesãos Élficos</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="pt-BR" state="translated">Artesãos Élficos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Veterinária Élfica</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="pt-BR" state="translated">Veterinária Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Alcance Élfico</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="pt-BR" state="translated">Alcance Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artesãos Élficos</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="pt-BR" state="translated">Artesãos Élficos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Acampamento Élfico</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="pt-BR" state="translated">Acampamento Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Curandeiros Élficos</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="pt-BR" state="translated">Curandeiros Élficos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Intendente Élfico</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="pt-BR" state="translated">Intendente Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Comerciante Élfico</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="pt-BR" state="translated">Comerciante Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Acampamento Élfico</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="pt-BR" state="translated">Acampamento Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Curandeiros Élficos</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="pt-BR" state="translated">Curandeiros Élficos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Intendente Élfico</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="pt-BR" state="translated">Intendente Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Comerciante Élfico</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="pt-BR" state="translated">Comerciante Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Bairro dos Artesãos Élficos</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="pt-BR" state="translated">Bairro dos Artesãos Élficos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverna Élfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="pt-BR" state="translated">Taverna Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Élfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="pt-BR" state="translated">Biblioteca Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Bairro dos Artesãos Élficos</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="pt-BR" state="translated">Bairro dos Artesãos Élficos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverna Élfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="pt-BR" state="translated">Taverna Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Élfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="pt-BR" state="translated">Biblioteca Élfica</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">一群流亡者、冒险者和精灵冒险家聚集在供奉神灵的礼拜堂周围。</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="zh-CN" state="translated">一群流亡者、冒险者和精灵冒险家聚集在供奉神灵的礼拜堂周围。</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">精灵社区礼拜堂</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="zh-CN" state="translated">精灵社区礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">精灵兽医</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="zh-CN" state="translated">精灵兽医</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">精灵外联处</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="zh-CN" state="translated">精灵外联处</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">精灵工匠</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="zh-CN" state="translated">精灵工匠</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">精灵兽医</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="zh-CN" state="translated">精灵兽医</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">精灵外联处</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="zh-CN" state="translated">精灵外联处</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">精灵工匠</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="zh-CN" state="translated">精灵工匠</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">精灵营地</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="zh-CN" state="translated">精灵营地</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">精灵治疗师</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="zh-CN" state="translated">精灵治疗师</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">精灵军需官</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="zh-CN" state="translated">精灵军需官</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">精灵商人</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="zh-CN" state="translated">精灵商人</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">精灵营地</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="zh-CN" state="translated">精灵营地</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">精灵治疗师</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="zh-CN" state="translated">精灵治疗师</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">精灵军需官</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="zh-CN" state="translated">精灵军需官</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">精灵商人</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="zh-CN" state="translated">精灵商人</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">精灵工匠区</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="zh-CN" state="translated">精灵工匠区</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">精灵酒馆</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="zh-CN" state="translated">精灵酒馆</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">精灵图书馆</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="zh-CN" state="translated">精灵图书馆</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">精灵工匠区</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="zh-CN" state="translated">精灵工匠区</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">精灵酒馆</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="zh-CN" state="translated">精灵酒馆</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">精灵图书馆</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="zh-CN" state="translated">精灵图书馆</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">Shromáždění lotrů, vyhnanců a dobrodruhů elfího původu kolem kaple jejich božstev.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="cs" state="translated">Shromáždění lotrů, vyhnanců a dobrodruhů elfího původu kolem kaple jejich božstev.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elfí komunitní kaple</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="cs" state="translated">Elfí komunitní kaple</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elfí veterinární péče</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="cs" state="translated">Elfí veterinární péče</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elfí vyslanectví</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="cs" state="translated">Elfí vyslanectví</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elfí řemeslníci</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="cs" state="translated">Elfí řemeslníci</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elfí veterinární péče</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="cs" state="translated">Elfí veterinární péče</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elfí vyslanectví</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="cs" state="translated">Elfí vyslanectví</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elfí řemeslníci</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="cs" state="translated">Elfí řemeslníci</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elfí tábor</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="cs" state="translated">Elfí tábor</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elfí léčitelé</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="cs" state="translated">Elfí léčitelé</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elfí intendant</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="cs" state="translated">Elfí intendant</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elfí obchodník</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="cs" state="translated">Elfí obchodník</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elfí tábor</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="cs" state="translated">Elfí tábor</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elfí léčitelé</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="cs" state="translated">Elfí léčitelé</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elfí intendant</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="cs" state="translated">Elfí intendant</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elfí obchodník</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="cs" state="translated">Elfí obchodník</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Elfí řemeslnické čtvrti</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="cs" state="translated">Elfí řemeslnické čtvrti</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elfí hospoda</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="cs" state="translated">Elfí hospoda</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elfí knihovna</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="cs" state="translated">Elfí knihovna</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Elfí řemeslnické čtvrti</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="cs" state="translated">Elfí řemeslnické čtvrti</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elfí hospoda</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="cs" state="translated">Elfí hospoda</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elfí knihovna</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="cs" state="translated">Elfí knihovna</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">Eine Versammlung von Schurken, Verbannten und Abenteurern elfischen Geblüts, die sich um eine Kapelle ihrer Gottheiten scharen.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="de" state="translated">Eine Versammlung von Schurken, Verbannten und Abenteurern elfischen Geblüts, die sich um eine Kapelle ihrer Gottheiten scharen.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elfische Gemeinschaftskapelle</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="de" state="translated">Elfische Gemeinschaftskapelle</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elfische Tierheilstätte</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="de" state="translated">Elfische Tierheilstätte</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elfische Gesandtschaft</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="de" state="translated">Elfische Gesandtschaft</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elfische Handwerker</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="de" state="translated">Elfische Handwerker</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elfische Tierheilstätte</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="de" state="translated">Elfische Tierheilstätte</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elfische Gesandtschaft</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="de" state="translated">Elfische Gesandtschaft</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elfische Handwerker</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="de" state="translated">Elfische Handwerker</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elfisches Lager</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="de" state="translated">Elfisches Lager</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elfische Heiler</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="de" state="translated">Elfische Heiler</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elfischer Quartiermeister</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="de" state="translated">Elfischer Quartiermeister</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elfischer Händler</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="de" state="translated">Elfischer Händler</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elfisches Lager</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="de" state="translated">Elfisches Lager</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elfische Heiler</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="de" state="translated">Elfische Heiler</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elfischer Quartiermeister</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="de" state="translated">Elfischer Quartiermeister</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elfischer Händler</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="de" state="translated">Elfischer Händler</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Elfisches Handwerkerviertel</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="de" state="translated">Elfisches Handwerkerviertel</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elfische Schenke</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="de" state="translated">Elfische Schenke</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elfische Bibliothek</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="de" state="translated">Elfische Bibliothek</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Elfisches Handwerkerviertel</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="de" state="translated">Elfisches Handwerkerviertel</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elfische Schenke</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="de" state="translated">Elfische Schenke</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elfische Bibliothek</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="de" state="translated">Elfische Bibliothek</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">Una reunión de pícaros, exiliados y aventureros de raza élfica que se congregan alrededor de una capilla dedicada a sus deidades.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="es" state="translated">Una reunión de pícaros, exiliados y aventureros de raza élfica que se congregan alrededor de una capilla dedicada a sus deidades.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Capilla de la Comunidad Élfica</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="es" state="translated">Capilla de la Comunidad Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Veterinaria Élfica</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="es" state="translated">Veterinaria Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Extensión Élfica</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="es" state="translated">Extensión Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artesanos Elfos</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="es" state="translated">Artesanos Elfos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Veterinaria Élfica</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="es" state="translated">Veterinaria Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Extensión Élfica</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="es" state="translated">Extensión Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artesanos Elfos</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="es" state="translated">Artesanos Elfos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Campamento Élfico</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="es" state="translated">Campamento Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Sanadores Elfos</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="es" state="translated">Sanadores Elfos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Intendente Élfico</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="es" state="translated">Intendente Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Comerciante Élfico</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="es" state="translated">Comerciante Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Campamento Élfico</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="es" state="translated">Campamento Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Sanadores Elfos</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="es" state="translated">Sanadores Elfos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Intendente Élfico</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="es" state="translated">Intendente Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Comerciante Élfico</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="es" state="translated">Comerciante Élfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Barrio de Artesanos Elfos</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="es" state="translated">Barrio de Artesanos Elfos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taberna Élfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="es" state="translated">Taberna Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Élfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="es" state="translated">Biblioteca Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Barrio de Artesanos Elfos</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="es" state="translated">Barrio de Artesanos Elfos</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taberna Élfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="es" state="translated">Taberna Élfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Élfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="es" state="translated">Biblioteca Élfica</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">Un rassemblement de malandrins, exilés et aventuriers de la gent elfique autour d&apos;une chapelle dédiée à leurs divinités.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="fr" state="translated">Un rassemblement de malandrins, exilés et aventuriers de la gent elfique autour d&apos;une chapelle dédiée à leurs divinités.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Chappelle Communautaire Elfique</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="fr" state="translated">Chappelle Communautaire Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Vétérinaires Elfiques</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="fr" state="translated">Vétérinaires Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Ambassade Elfique</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="fr" state="translated">Ambassade Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artisans Elfiques</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="fr" state="translated">Artisans Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Vétérinaires Elfiques</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="fr" state="translated">Vétérinaires Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Ambassade Elfique</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="fr" state="translated">Ambassade Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artisans Elfiques</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="fr" state="translated">Artisans Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Campement Elfique</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="fr" state="translated">Campement Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Guérisseurs Elfiques</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="fr" state="translated">Guérisseurs Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Intendant Elfique</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="fr" state="translated">Intendant Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Marchands Elfiques</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="fr" state="translated">Marchands Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Campement Elfique</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="fr" state="translated">Campement Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Guérisseurs Elfiques</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="fr" state="translated">Guérisseurs Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Intendant Elfique</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="fr" state="translated">Intendant Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Marchands Elfiques</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="fr" state="translated">Marchands Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Quartier des Artisans Elfiques</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="fr" state="translated">Quartier des Artisans Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverne Elfique</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="fr" state="translated">Taverne Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Bibliothèque Elfique</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="fr" state="translated">Bibliothèque Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Quartier des Artisans Elfiques</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="fr" state="translated">Quartier des Artisans Elfiques</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverne Elfique</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="fr" state="translated">Taverne Elfique</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Bibliothèque Elfique</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="fr" state="translated">Bibliothèque Elfique</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">Un raduno di furfanti, esuli e avventurieri di stirpe elfica riuniti attorno a una cappella dedicata alle loro divinità.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="it" state="translated">Un raduno di furfanti, esuli e avventurieri di stirpe elfica riuniti attorno a una cappella dedicata alle loro divinità.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Cappella della Comunità Elfica</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="it" state="translated">Cappella della Comunità Elfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Veterinario Elfico</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="it" state="translated">Veterinario Elfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Ambasciata Elfica</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="it" state="translated">Ambasciata Elfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artigiani Elfici</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="it" state="translated">Artigiani Elfici</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Veterinario Elfico</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="it" state="translated">Veterinario Elfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Ambasciata Elfica</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="it" state="translated">Ambasciata Elfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artigiani Elfici</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="it" state="translated">Artigiani Elfici</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Campo Elfico</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="it" state="translated">Campo Elfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Guaritori Elfici</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="it" state="translated">Guaritori Elfici</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Quartiermastro Elfico</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="it" state="translated">Quartiermastro Elfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Mercante Elfico</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="it" state="translated">Mercante Elfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Campo Elfico</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="it" state="translated">Campo Elfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Guaritori Elfici</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="it" state="translated">Guaritori Elfici</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Quartiermastro Elfico</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="it" state="translated">Quartiermastro Elfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Mercante Elfico</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="it" state="translated">Mercante Elfico</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Quartiere degli Artigiani Elfici</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="it" state="translated">Quartiere degli Artigiani Elfici</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverna Elfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="it" state="translated">Taverna Elfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Elfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="it" state="translated">Biblioteca Elfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Quartiere degli Artigiani Elfici</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="it" state="translated">Quartiere degli Artigiani Elfici</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverna Elfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="it" state="translated">Taverna Elfica</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Elfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="it" state="translated">Biblioteca Elfica</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">신들에게 바치는 예배당 주위에 모인 엘프 종족의 불량배, 망명자, 모험가들의 모임.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="ko" state="translated">신들에게 바치는 예배당 주위에 모인 엘프 종족의 불량배, 망명자, 모험가들의 모임.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">엘프 공동체 예배당</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="ko" state="translated">엘프 공동체 예배당</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">엘프 수의사</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="ko" state="translated">엘프 수의사</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">엘프 외교</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="ko" state="translated">엘프 외교</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">엘프 장인</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="ko" state="translated">엘프 장인</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">엘프 수의사</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="ko" state="translated">엘프 수의사</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">엘프 외교</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="ko" state="translated">엘프 외교</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">엘프 장인</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="ko" state="translated">엘프 장인</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">엘프 야영지</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="ko" state="translated">엘프 야영지</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">엘프 치료사</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="ko" state="translated">엘프 치료사</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">엘프 병참장교</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="ko" state="translated">엘프 병참장교</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">엘프 상인</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="ko" state="translated">엘프 상인</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">엘프 야영지</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="ko" state="translated">엘프 야영지</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">엘프 치료사</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="ko" state="translated">엘프 치료사</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">엘프 병참장교</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="ko" state="translated">엘프 병참장교</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">엘프 상인</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="ko" state="translated">엘프 상인</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">엘프 장인 구역</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="ko" state="translated">엘프 장인 구역</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">엘프 술집</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="ko" state="translated">엘프 술집</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">엘프 도서관</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="ko" state="translated">엘프 도서관</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">엘프 장인 구역</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="ko" state="translated">엘프 장인 구역</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">엘프 술집</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="ko" state="translated">엘프 술집</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">엘프 도서관</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="ko" state="translated">엘프 도서관</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">Zgromadzenie łotrów, wygnańców i poszukiwaczy przygód elfickiego pochodzenia, gromadzących się wokół kaplicy poświęconej ich bóstwom.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="pl" state="translated">Zgromadzenie łotrów, wygnańców i poszukiwaczy przygód elfickiego pochodzenia, gromadzących się wokół kaplicy poświęconej ich bóstwom.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elficka Kaplica Wspólnotowa</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="pl" state="translated">Elficka Kaplica Wspólnotowa</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elficki Weterynarz</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="pl" state="translated">Elficki Weterynarz</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elfickie Przedstawicielstwo</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="pl" state="translated">Elfickie Przedstawicielstwo</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elficcy Rzemieślnicy</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="pl" state="translated">Elficcy Rzemieślnicy</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elficki Weterynarz</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="pl" state="translated">Elficki Weterynarz</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elfickie Przedstawicielstwo</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="pl" state="translated">Elfickie Przedstawicielstwo</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elficcy Rzemieślnicy</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="pl" state="translated">Elficcy Rzemieślnicy</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elficki Obóz</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="pl" state="translated">Elficki Obóz</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elficcy Uzdrowiciele</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="pl" state="translated">Elficcy Uzdrowiciele</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elficki Kwatermistrz</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="pl" state="translated">Elficki Kwatermistrz</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elficki Handlarz</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="pl" state="translated">Elficki Handlarz</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elficki Obóz</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="pl" state="translated">Elficki Obóz</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elficcy Uzdrowiciele</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="pl" state="translated">Elficcy Uzdrowiciele</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elficki Kwatermistrz</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="pl" state="translated">Elficki Kwatermistrz</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elficki Handlarz</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="pl" state="translated">Elficki Handlarz</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Elficka Dzielnica Rzemieślników</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="pl" state="translated">Elficka Dzielnica Rzemieślników</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elficka Tawerna</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="pl" state="translated">Elficka Tawerna</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elficka Biblioteka</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="pl" state="translated">Elficka Biblioteka</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Elficka Dzielnica Rzemieślników</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="pl" state="translated">Elficka Dzielnica Rzemieślników</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elficka Tawerna</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="pl" state="translated">Elficka Tawerna</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elficka Biblioteka</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="pl" state="translated">Elficka Biblioteka</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">Собрание бродяг, изгнанников и искателей приключений эльфийского рода, объединившихся вокруг капеллы своих божеств.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="ru" state="translated">Собрание бродяг, изгнанников и искателей приключений эльфийского рода, объединившихся вокруг капеллы своих божеств.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Эльфийская Общинная Капелла</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="ru" state="translated">Эльфийская Общинная Капелла</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Эльфийская Ветеринарная Лечебница</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="ru" state="translated">Эльфийская Ветеринарная Лечебница</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Эльфийская Миссия</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="ru" state="translated">Эльфийская Миссия</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Эльфийские Мастера</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="ru" state="translated">Эльфийские Мастера</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Эльфийская Ветеринарная Лечебница</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="ru" state="translated">Эльфийская Ветеринарная Лечебница</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Эльфийская Миссия</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="ru" state="translated">Эльфийская Миссия</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Эльфийские Мастера</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="ru" state="translated">Эльфийские Мастера</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Эльфийский Лагерь</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="ru" state="translated">Эльфийский Лагерь</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Эльфийские Целители</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="ru" state="translated">Эльфийские Целители</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Эльфийский Интендант</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="ru" state="translated">Эльфийский Интендант</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Эльфийский Торговец</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="ru" state="translated">Эльфийский Торговец</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Эльфийский Лагерь</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="ru" state="translated">Эльфийский Лагерь</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Эльфийские Целители</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="ru" state="translated">Эльфийские Целители</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Эльфийский Интендант</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="ru" state="translated">Эльфийский Интендант</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Эльфийский Торговец</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="ru" state="translated">Эльфийский Торговец</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Эльфийский Ремесленный Квартал</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="ru" state="translated">Эльфийский Ремесленный Квартал</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Эльфийская Таверна</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="ru" state="translated">Эльфийская Таверна</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Эльфийская Библиотека</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="ru" state="translated">Эльфийская Библиотека</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Эльфийский Ремесленный Квартал</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="ru" state="translated">Эльфийский Ремесленный Квартал</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Эльфийская Таверна</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="ru" state="translated">Эльфийская Таверна</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Эльфийская Библиотека</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="ru" state="translated">Эльфийская Библиотека</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">Tanrılarına adanmış bir şapel etrafında toplanan haydutlar, sürgünler ve maceracılardan oluşan bir elf topluluğu.</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="tr" state="translated">Tanrılarına adanmış bir şapel etrafında toplanan haydutlar, sürgünler ve maceracılardan oluşan bir elf topluluğu.</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elf Topluluk Şapeli</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="tr" state="translated">Elf Topluluk Şapeli</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elf Veterinerliği</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="tr" state="translated">Elf Veterinerliği</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elf Sosyal Yardımı</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="tr" state="translated">Elf Sosyal Yardımı</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elf Zanaatkarları</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="tr" state="translated">Elf Zanaatkarları</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elf Veterinerliği</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="tr" state="translated">Elf Veterinerliği</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elf Sosyal Yardımı</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="tr" state="translated">Elf Sosyal Yardımı</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elf Zanaatkarları</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="tr" state="translated">Elf Zanaatkarları</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elf Kampı</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="tr" state="translated">Elf Kampı</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elf Şifacıları</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="tr" state="translated">Elf Şifacıları</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elf Levazımcısı</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="tr" state="translated">Elf Levazımcısı</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elf Tüccarı</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="tr" state="translated">Elf Tüccarı</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elf Kampı</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="tr" state="translated">Elf Kampı</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elf Şifacıları</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="tr" state="translated">Elf Şifacıları</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elf Levazımcısı</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="tr" state="translated">Elf Levazımcısı</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elf Tüccarı</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="tr" state="translated">Elf Tüccarı</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Elf Zanaatkar Mahallesi</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="tr" state="translated">Elf Zanaatkar Mahallesi</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elf Tavernası</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="tr" state="translated">Elf Tavernası</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elf Kütüphanesi</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="tr" state="translated">Elf Kütüphanesi</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">Elf Zanaatkar Mahallesi</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="tr" state="translated">Elf Zanaatkar Mahallesi</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elf Tavernası</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="tr" state="translated">Elf Tavernası</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elf Kütüphanesi</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="tr" state="translated">Elf Kütüphanesi</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_building_sets__.loc.tsv">
     <body>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
-        <target state="translated">一群流亡者、冒險家和精靈族流浪者聚集在獻給他們神祇的教堂周圍。</target>
+        <source xml:lang="en">A gathering of rogues, exiles and adventurers of elven kind gathering around a chapel to their deities.</source>
+        <target xml:lang="zh-TW" state="translated">一群流亡者、冒險家和精靈族流浪者聚集在獻給他們神祇的教堂周圍。</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">精靈社區教堂</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="zh-TW" state="translated">精靈社區教堂</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">精靈獸醫所</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="zh-TW" state="translated">精靈獸醫所</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">精靈外交站</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="zh-TW" state="translated">精靈外交站</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">精靈工匠坊</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="zh-TW" state="translated">精靈工匠坊</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_beast" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">精靈獸醫所</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="zh-TW" state="translated">精靈獸醫所</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">精靈外交站</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="zh-TW" state="translated">精靈外交站</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">精靈工匠坊</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="zh-TW" state="translated">精靈工匠坊</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">精靈營地</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="zh-TW" state="translated">精靈營地</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">精靈治療師</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="zh-TW" state="translated">精靈治療師</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">精靈軍需官</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="zh-TW" state="translated">精靈軍需官</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">精靈商人</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="zh-TW" state="translated">精靈商人</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">精靈營地</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="zh-TW" state="translated">精靈營地</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">精靈治療師</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="zh-TW" state="translated">精靈治療師</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">精靈軍需官</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="zh-TW" state="translated">精靈軍需官</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">精靈商人</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="zh-TW" state="translated">精靈商人</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">精靈工匠區</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="zh-TW" state="translated">精靈工匠區</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">精靈酒館</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="zh-TW" state="translated">精靈酒館</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">精靈圖書館</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="zh-TW" state="translated">精靈圖書館</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Elven Artisan Quarters</source>
-        <target state="translated">精靈工匠區</target>
+        <source xml:lang="en">Elven Artisan Quarters</source>
+        <target xml:lang="zh-TW" state="translated">精靈工匠區</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">精靈酒館</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="zh-TW" state="translated">精靈酒館</target>
       </trans-unit>
       <trans-unit id="building_sets_onscreen_description_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">精靈圖書館</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="zh-TW" state="translated">精靈圖書館</target>
       </trans-unit>
     </body>
   </file>

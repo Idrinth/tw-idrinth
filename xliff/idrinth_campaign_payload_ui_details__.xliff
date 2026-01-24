@@ -3,96 +3,96 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">Recrutar o estranho.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="pt-BR" state="translated">Recrutar o estranho.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">招募这位陌生人。</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="zh-CN" state="translated">招募这位陌生人。</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">Naverbuj cizince.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="cs" state="translated">Naverbuj cizince.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">Nehmet den Fremden in Dienst.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="de" state="translated">Nehmet den Fremden in Dienst.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">Reclutar al extraño.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="es" state="translated">Reclutar al extraño.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">Recrutez l&apos;estranger.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="fr" state="translated">Recrutez l&apos;estranger.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">Recluta lo straniero.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="it" state="translated">Recluta lo straniero.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">낯선 자를 모집합니다.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="ko" state="translated">낯선 자를 모집합니다.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">Rekrutuj nieznajomego.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="pl" state="translated">Rekrutuj nieznajomego.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">Нанять незнакомца.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="ru" state="translated">Нанять незнакомца.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">Yabancıyı işe al.</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="tr" state="translated">Yabancıyı işe al.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_campaign_payload_ui_details__.loc.tsv">
     <body>
       <trans-unit id="campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui" xml:space="preserve">
-        <source>Recruit the stranger.</source>
-        <target state="translated">招募這位陌生人。</target>
+        <source xml:lang="en">Recruit the stranger.</source>
+        <target xml:lang="zh-TW" state="translated">招募這位陌生人。</target>
       </trans-unit>
     </body>
   </file>

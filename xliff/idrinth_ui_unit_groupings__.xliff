@@ -3,240 +3,240 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">Vampiro Alto Elfo</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="pt-BR" state="translated">Vampiro Alto Elfo</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">Santuário</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="pt-BR" state="translated">Santuário</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">Guarda da Capela</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="pt-BR" state="translated">Guarda da Capela</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">Sacerdote da Capela</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="pt-BR" state="translated">Sacerdote da Capela</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">高等精灵吸血鬼</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="zh-CN" state="translated">高等精灵吸血鬼</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">神龛</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="zh-CN" state="translated">神龛</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">礼拜堂卫士</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="zh-CN" state="translated">礼拜堂卫士</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">礼拜堂祭司</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="zh-CN" state="translated">礼拜堂祭司</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">Vysokoelfí upír</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="cs" state="translated">Vysokoelfí upír</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">Svatyně</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="cs" state="translated">Svatyně</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">Kaplanská stráž</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="cs" state="translated">Kaplanská stráž</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">Kaplanský kněz</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="cs" state="translated">Kaplanský kněz</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">Hochelfischer Vampir</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="de" state="translated">Hochelfischer Vampir</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">Schrein</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="de" state="translated">Schrein</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">Kapellengarde</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="de" state="translated">Kapellengarde</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">Kapellenpriester</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="de" state="translated">Kapellenpriester</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">Vampiro Alto Elfo</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="es" state="translated">Vampiro Alto Elfo</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">Santuario</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="es" state="translated">Santuario</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">Guardia de Capilla</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="es" state="translated">Guardia de Capilla</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">Sacerdote de Capilla</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="es" state="translated">Sacerdote de Capilla</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">Vampire Haut Elfe</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="fr" state="translated">Vampire Haut Elfe</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">Sanctuaire</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="fr" state="translated">Sanctuaire</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">Garde de la Chappelle</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="fr" state="translated">Garde de la Chappelle</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">Prêtre de la Chappelle</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="fr" state="translated">Prêtre de la Chappelle</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">Vampiro Alto Elfo</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="it" state="translated">Vampiro Alto Elfo</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">Santuario</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="it" state="translated">Santuario</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">Guardia della Cappella</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="it" state="translated">Guardia della Cappella</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">Sacerdote della Cappella</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="it" state="translated">Sacerdote della Cappella</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">하이 엘프 뱀파이어</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="ko" state="translated">하이 엘프 뱀파이어</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">성소</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="ko" state="translated">성소</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">예배당 수호대</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="ko" state="translated">예배당 수호대</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">예배당 사제</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="ko" state="translated">예배당 사제</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">Wampir Wysoki Elf</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="pl" state="translated">Wampir Wysoki Elf</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">Sanktuarium</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="pl" state="translated">Sanktuarium</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">Straż Kaplicy</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="pl" state="translated">Straż Kaplicy</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">Kapłan Kaplicy</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="pl" state="translated">Kapłan Kaplicy</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">Вампир Высших Эльфов</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="ru" state="translated">Вампир Высших Эльфов</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">Святилище</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="ru" state="translated">Святилище</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">Стража Капеллы</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="ru" state="translated">Стража Капеллы</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">Жрец Капеллы</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="ru" state="translated">Жрец Капеллы</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">Yüksek Elf Vampiri</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="tr" state="translated">Yüksek Elf Vampiri</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">Türbe</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="tr" state="translated">Türbe</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">Şapel Muhafızı</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="tr" state="translated">Şapel Muhafızı</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">Şapel Rahibi</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="tr" state="translated">Şapel Rahibi</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
     <body>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>High Elf Vampire</source>
-        <target state="translated">高等精靈吸血鬼</target>
+        <source xml:lang="en">High Elf Vampire</source>
+        <target xml:lang="zh-TW" state="translated">高等精靈吸血鬼</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>Shrine</source>
-        <target state="translated">神殿</target>
+        <source xml:lang="en">Shrine</source>
+        <target xml:lang="zh-TW" state="translated">神殿</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
-        <source>Chapel Guard</source>
-        <target state="translated">教堂衛隊</target>
+        <source xml:lang="en">Chapel Guard</source>
+        <target xml:lang="zh-TW" state="translated">教堂衛隊</target>
       </trans-unit>
       <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
-        <source>Chapel Priest</source>
-        <target state="translated">教堂祭司</target>
+        <source xml:lang="en">Chapel Priest</source>
+        <target xml:lang="zh-TW" state="translated">教堂祭司</target>
       </trans-unit>
     </body>
   </file>

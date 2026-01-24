@@ -3,240 +3,240 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Auxiliar Exército)\\nAumenta o ganho de experiência para unidades servindo no exército principal.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="pt-BR" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Auxiliar Exército)\\nAumenta o ganho de experiência para unidades servindo no exército principal.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Alvo: Herói)\\nMata o [[img:icon_hero]][[/img]]Herói alvo.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="pt-BR" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Alvo: Herói)\\nMata o [[img:icon_hero]][[/img]]Herói alvo.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Alvo: Exército)\\nInflige dano a todas as unidades no exército alvo.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="pt-BR" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Alvo: Exército)\\nInflige dano a todas as unidades no exército alvo.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Efeito Local Constante)\\nAumenta a quantidade de [[img:icon_corruption_vmp]][[/img]]corrupção Vampírica na província local.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="pt-BR" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Efeito Local Constante)\\nAumenta a quantidade de [[img:icon_corruption_vmp]][[/img]]corrupção Vampírica na província local.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]]（协助军队）\\n增加所在军队单位的经验获取。</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="zh-CN" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]]（协助军队）\\n增加所在军队单位的经验获取。</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]]（目标：英雄）\\n杀死目标[[img:icon_hero]][[/img]]英雄。</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="zh-CN" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]]（目标：英雄）\\n杀死目标[[img:icon_hero]][[/img]]英雄。</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]]（目标：军队）\\n对目标军队中的所有单位造成伤害。</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="zh-CN" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]]（目标：军队）\\n对目标军队中的所有单位造成伤害。</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]]（持续本地效果）\\n增加当地省份的[[img:icon_corruption_vmp]][[/img]]吸血鬼腐化。</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="zh-CN" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]]（持续本地效果）\\n增加当地省份的[[img:icon_corruption_vmp]][[/img]]吸血鬼腐化。</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Podpora armády)\\nZvyšuje získávání zkušeností pro jednotky sloužící v mateřské armádě.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="cs" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Podpora armády)\\nZvyšuje získávání zkušeností pro jednotky sloužící v mateřské armádě.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Cíl: Hrdina)\\nZabije cílového [[img:icon_hero]][[/img]]Hrdinu.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="cs" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Cíl: Hrdina)\\nZabije cílového [[img:icon_hero]][[/img]]Hrdinu.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Cíl: Armáda)\\nZpůsobuje poškození všem jednotkám v cílové armádě.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="cs" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Cíl: Armáda)\\nZpůsobuje poškození všem jednotkám v cílové armádě.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Konstantní lokální efekt)\\nZvyšuje množství [[img:icon_corruption_vmp]][[/img]]upíří korupce v místní provincii.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="cs" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Konstantní lokální efekt)\\nZvyšuje množství [[img:icon_corruption_vmp]][[/img]]upíří korupce v místní provincii.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Heer unterstützen)\\nErhöht den Erfahrungsgewinn für Einheiten in der zugehörigen Heerschar.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="de" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Heer unterstützen)\\nErhöht den Erfahrungsgewinn für Einheiten in der zugehörigen Heerschar.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Ziel: Held)\\nTötet den anvisierten [[img:icon_hero]][[/img]]Helden.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="de" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Ziel: Held)\\nTötet den anvisierten [[img:icon_hero]][[/img]]Helden.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Ziel: Heerschar)\\nFügt allen Einheiten der anvisierten Heerschar Schaden zu.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="de" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Ziel: Heerschar)\\nFügt allen Einheiten der anvisierten Heerschar Schaden zu.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Ständiger lokaler Effekt)\\nErhöht die [[img:icon_corruption_vmp]][[/img]]Vampirische Verderbnis in der hiesigen Provinz.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="de" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Ständiger lokaler Effekt)\\nErhöht die [[img:icon_corruption_vmp]][[/img]]Vampirische Verderbnis in der hiesigen Provinz.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Asistir Ejército)\\nAumenta la ganancia de experiencia para las unidades que sirven en el ejército principal.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="es" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Asistir Ejército)\\nAumenta la ganancia de experiencia para las unidades que sirven en el ejército principal.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Objetivo: Héroe)\\nMata al [[img:icon_hero]][[/img]]Héroe objetivo.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="es" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Objetivo: Héroe)\\nMata al [[img:icon_hero]][[/img]]Héroe objetivo.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Objetivo: Ejército)\\nInflige daño a todas las unidades del ejército objetivo.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="es" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Objetivo: Ejército)\\nInflige daño a todas las unidades del ejército objetivo.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Efecto Local Constante)\\nAumenta la cantidad de [[img:icon_corruption_vmp]][[/img]]Corrupción Vampírica en la provincia local.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="es" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Efecto Local Constante)\\nAumenta la cantidad de [[img:icon_corruption_vmp]][[/img]]Corrupción Vampírica en la provincia local.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assistance à l&apos;ost)\\nAccroît le gain d&apos;expérience pour les unités servant en l&apos;ost paternel.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="fr" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assistance à l&apos;ost)\\nAccroît le gain d&apos;expérience pour les unités servant en l&apos;ost paternel.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Cible : Preux)\\nOccit le [[img:icon_hero]][[/img]]Preux ciblé.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="fr" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Cible : Preux)\\nOccit le [[img:icon_hero]][[/img]]Preux ciblé.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Cible : Ost)\\nInflige dommages à toutes les unités de l&apos;ost ciblé.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="fr" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Cible : Ost)\\nInflige dommages à toutes les unités de l&apos;ost ciblé.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Effet Local Constant)\\nAccroît la [[img:icon_corruption_vmp]][[/img]]corruption vampirique en la province locale.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="fr" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Effet Local Constant)\\nAccroît la [[img:icon_corruption_vmp]][[/img]]corruption vampirique en la province locale.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assistenza Esercito)\\nAumenta il guadagno di esperienza per le unità che servono nell&apos;esercito principale.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="it" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assistenza Esercito)\\nAumenta il guadagno di esperienza per le unità che servono nell&apos;esercito principale.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Bersaglio: Eroe)\\nUccide l&apos;[[img:icon_hero]][[/img]]Eroe bersaglio.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="it" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Bersaglio: Eroe)\\nUccide l&apos;[[img:icon_hero]][[/img]]Eroe bersaglio.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Bersaglio: Esercito)\\nInfligge danni a tutte le unità nell&apos;esercito bersaglio.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="it" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Bersaglio: Esercito)\\nInfligge danni a tutte le unità nell&apos;esercito bersaglio.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Effetto Locale Costante)\\nAumenta la quantità di corruzione [[img:icon_corruption_vmp]][[/img]]Vampirica nella provincia locale.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="it" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Effetto Locale Costante)\\nAumenta la quantità di corruzione [[img:icon_corruption_vmp]][[/img]]Vampirica nella provincia locale.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (군대 지원)\\n상위 군대에서 복무하는 유닛의 경험치 획득을 증가시킵니다.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="ko" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (군대 지원)\\n상위 군대에서 복무하는 유닛의 경험치 획득을 증가시킵니다.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (대상: 영웅)\\n대상 [[img:icon_hero]][[/img]]영웅을 죽입니다.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="ko" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (대상: 영웅)\\n대상 [[img:icon_hero]][[/img]]영웅을 죽입니다.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (대상: 군대)\\n대상 군대의 모든 유닛에 피해를 입힙니다.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="ko" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (대상: 군대)\\n대상 군대의 모든 유닛에 피해를 입힙니다.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (지속적인 지역 효과)\\n해당 지역의 [[img:icon_corruption_vmp]][[/img]]뱀파이어 타락량을 증가시킵니다.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="ko" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (지속적인 지역 효과)\\n해당 지역의 [[img:icon_corruption_vmp]][[/img]]뱀파이어 타락량을 증가시킵니다.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Wspomaganie Armii)\\nZwiększa zdobywanie doświadczenia dla jednostek służących w armii macierzystej.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="pl" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Wspomaganie Armii)\\nZwiększa zdobywanie doświadczenia dla jednostek służących w armii macierzystej.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Cel: Bohater)\\nZabija docelowego [[img:icon_hero]][[/img]]Bohatera.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="pl" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Cel: Bohater)\\nZabija docelowego [[img:icon_hero]][[/img]]Bohatera.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Cel: Armia)\\nZadaje obrażenia wszystkim jednostkom w docelowej armii.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="pl" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Cel: Armia)\\nZadaje obrażenia wszystkim jednostkom w docelowej armii.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Stały Efekt Lokalny)\\nZwiększa ilość [[img:icon_corruption_vmp]][[/img]]korupcji wampirycznej w lokalnej prowincji.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="pl" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Stały Efekt Lokalny)\\nZwiększa ilość [[img:icon_corruption_vmp]][[/img]]korupcji wampirycznej w lokalnej prowincji.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Помощь Армии)\\nУвеличивает получение опыта для отрядов родительской армии.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="ru" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Помощь Армии)\\nУвеличивает получение опыта для отрядов родительской армии.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Цель: Герой)\\nУбивает целевого [[img:icon_hero]][[/img]]Героя.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="ru" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Цель: Герой)\\nУбивает целевого [[img:icon_hero]][[/img]]Героя.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Цель: Армия)\\nНаносит урон всем отрядам целевой армии.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="ru" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Цель: Армия)\\nНаносит урон всем отрядам целевой армии.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Постоянный Локальный Эффект)\\nУвеличивает уровень [[img:icon_corruption_vmp]][[/img]]Вампирской порчи в местной провинции.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="ru" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Постоянный Локальный Эффект)\\nУвеличивает уровень [[img:icon_corruption_vmp]][[/img]]Вампирской порчи в местной провинции.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Orduya Yardım)\\nAna orduda görev yapan birimler için deneyim kazanımını artırır.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="tr" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Orduya Yardım)\\nAna orduda görev yapan birimler için deneyim kazanımını artırır.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Hedef: Kahraman)\\nHedef [[img:icon_hero]][[/img]]Kahramanı öldürür.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="tr" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Hedef: Kahraman)\\nHedef [[img:icon_hero]][[/img]]Kahramanı öldürür.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Hedef: Ordu)\\nHedef ordudaki tüm birimlere hasar verir.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="tr" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Hedef: Ordu)\\nHedef ordudaki tüm birimlere hasar verir.</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Sürekli Yerel Etki)\\nYerel eyaletteki [[img:icon_corruption_vmp]][[/img]]Vampirik yozlaşma miktarını artırır.</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="tr" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Sürekli Yerel Etki)\\nYerel eyaletteki [[img:icon_corruption_vmp]][[/img]]Vampirik yozlaşma miktarını artırır.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_effects_additional_tooltip_details__.loc.tsv">
     <body>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]]（協助軍隊）\\n增加母軍隊中單位的經驗獲取。</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Assist Army)\\nIncreases experience gain for units serving in the parent army.</source>
+        <target xml:lang="zh-TW" state="translated">[[col:yellow]]{{tr:agent_action_name_training}}[[/col]]（協助軍隊）\\n增加母軍隊中單位的經驗獲取。</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]]（目標：英雄）\\n殺死目標[[img:icon_hero]][[/img]]英雄。</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Target: Hero)\\nKills the target [[img:icon_hero]][[/img]]Hero.</source>
+        <target xml:lang="zh-TW" state="translated">[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]]（目標：英雄）\\n殺死目標[[img:icon_hero]][[/img]]英雄。</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]]（目標：軍隊）\\n對目標軍隊的所有單位造成傷害。</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Target: Army)\\nInflicts damage upon all units in the target army.</source>
+        <target xml:lang="zh-TW" state="translated">[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]]（目標：軍隊）\\n對目標軍隊的所有單位造成傷害。</target>
       </trans-unit>
       <trans-unit id="effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp" xml:space="preserve">
-        <source>[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
-        <target state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]]（持續本地效果）\\n增加本省的[[img:icon_corruption_vmp]][[/img]]吸血鬼腐化程度。</target>
+        <source xml:lang="en">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.</source>
+        <target xml:lang="zh-TW" state="translated">[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]]（持續本地效果）\\n增加本省的[[img:icon_corruption_vmp]][[/img]]吸血鬼腐化程度。</target>
       </trans-unit>
     </body>
   </file>

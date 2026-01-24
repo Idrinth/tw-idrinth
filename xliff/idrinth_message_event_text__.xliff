@@ -3,240 +3,240 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">A Capela foi queimada pelo novo dono do assentamento. Onde nos reuniremos agora?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="pt-BR" state="translated">A Capela foi queimada pelo novo dono do assentamento. Onde nos reuniremos agora?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">O lugar para uma nova Capela foi consagrado pelos deuses. Devemos construí-la rapidamente para ganhar suas bênçãos.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="pt-BR" state="translated">O lugar para uma nova Capela foi consagrado pelos deuses. Devemos construí-la rapidamente para ganhar suas bênçãos.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Idrinth informa que seus deuses decidiram agir para apoiar sua causa. Seus exércitos serão mais poderosos com uma bênção divina por um tempo.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="pt-BR" state="translated">Idrinth informa que seus deuses decidiram agir para apoiar sua causa. Seus exércitos serão mais poderosos com uma bênção divina por um tempo.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">Asuryan, Khaine e Kurnous agem.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="pt-BR" state="translated">Asuryan, Khaine e Kurnous agem.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">礼拜堂已被定居点的新主人焚毁。我们现在要在哪里聚集？</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="zh-CN" state="translated">礼拜堂已被定居点的新主人焚毁。我们现在要在哪里聚集？</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">新礼拜堂的位置已被神灵祝圣。我们应该尽快建造它以获得他们的祝福。</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="zh-CN" state="translated">新礼拜堂的位置已被神灵祝圣。我们应该尽快建造它以获得他们的祝福。</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Idrinth 通知你，他的神灵已决定出手支持你的事业。你的军队将因神圣祝福而暂时变得更加强大。</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="zh-CN" state="translated">Idrinth 通知你，他的神灵已决定出手支持你的事业。你的军队将因神圣祝福而暂时变得更加强大。</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">阿苏里安、凯恩和库尔诺斯行动了。</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="zh-CN" state="translated">阿苏里安、凯恩和库尔诺斯行动了。</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">Kaple byla spálena novým majitelem osídlení. Kde se nyní budeme shromažďovat?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="cs" state="translated">Kaple byla spálena novým majitelem osídlení. Kde se nyní budeme shromažďovat?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">Místo pro novou kapli bylo vysvěceno bohy. Měli bychom ji rychle vybudovat, abychom získali jejich požehnání.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="cs" state="translated">Místo pro novou kapli bylo vysvěceno bohy. Měli bychom ji rychle vybudovat, abychom získali jejich požehnání.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Idrinth tě informuje, že jeho bohové se rozhodli jednat na podporu tvé věci. Tvé armády budou mocnější díky božskému požehnání po nějakou dobu.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="cs" state="translated">Idrinth tě informuje, že jeho bohové se rozhodli jednat na podporu tvé věci. Tvé armády budou mocnější díky božskému požehnání po nějakou dobu.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">Asuryan, Khaine a Kurnous jednají.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="cs" state="translated">Asuryan, Khaine a Kurnous jednají.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">Die Kapelle wurde vom neuen Besitzer der Siedlung niedergebrannt. Wo werden wir uns nun versammeln?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="de" state="translated">Die Kapelle wurde vom neuen Besitzer der Siedlung niedergebrannt. Wo werden wir uns nun versammeln?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">Der Platz für eine neue Kapelle wurde von den Göttern geweiht. Wir sollten sie schnell errichten, um ihre Segnungen zu erlangen.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="de" state="translated">Der Platz für eine neue Kapelle wurde von den Göttern geweiht. Wir sollten sie schnell errichten, um ihre Segnungen zu erlangen.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Idrinth teilt Euch mit, dass seine Götter beschlossen haben, Eure Sache zu unterstützen. Eure Armeen werden durch einen göttlichen Segen für eine Weile mächtiger sein.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="de" state="translated">Idrinth teilt Euch mit, dass seine Götter beschlossen haben, Eure Sache zu unterstützen. Eure Armeen werden durch einen göttlichen Segen für eine Weile mächtiger sein.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">Asuryan, Khaine und Kurnous handeln.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="de" state="translated">Asuryan, Khaine und Kurnous handeln.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">La Capilla ha sido incendiada por el nuevo dueño del asentamiento. ¿Dónde nos reuniremos ahora?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="es" state="translated">La Capilla ha sido incendiada por el nuevo dueño del asentamiento. ¿Dónde nos reuniremos ahora?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">El lugar para una nueva Capilla ha sido consagrado por los dioses. Deberíamos construirla rápidamente para obtener sus bendiciones.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="es" state="translated">El lugar para una nueva Capilla ha sido consagrado por los dioses. Deberíamos construirla rápidamente para obtener sus bendiciones.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Idrinth te informa que sus dioses han decidido actuar para apoyar tu causa. Tus ejércitos serán más poderosos gracias a una bendición divina durante un tiempo.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="es" state="translated">Idrinth te informa que sus dioses han decidido actuar para apoyar tu causa. Tus ejércitos serán más poderosos gracias a una bendición divina durante un tiempo.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">Asuryan, Khaine y Kurnous actúan.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="es" state="translated">Asuryan, Khaine y Kurnous actúan.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">La chapelle a été incendiée par le nouveau propriétaire de la colonie. Où allons-nous nous rassembler maintenant ?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="fr" state="translated">La chapelle a été incendiée par le nouveau propriétaire de la colonie. Où allons-nous nous rassembler maintenant ?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">L&apos;emplacement d&apos;une nouvelle chapelle a été consacré par les dieux. Nous devrions la construire rapidement pour obtenir leurs bénédictions.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="fr" state="translated">L&apos;emplacement d&apos;une nouvelle chapelle a été consacré par les dieux. Nous devrions la construire rapidement pour obtenir leurs bénédictions.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Idrinth vous informe que ses dieux ont décidé d&apos;agir pour soutenir votre cause. Vos armées seront plus puissantes grâce à une bénédiction divine pendant un temps.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="fr" state="translated">Idrinth vous informe que ses dieux ont décidé d&apos;agir pour soutenir votre cause. Vos armées seront plus puissantes grâce à une bénédiction divine pendant un temps.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">Asuryan, Khaine et Kurnous agissent.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="fr" state="translated">Asuryan, Khaine et Kurnous agissent.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">La Cappella è stata bruciata dal nuovo proprietario dell&apos;insediamento. Dove ci raduneremo ora?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="it" state="translated">La Cappella è stata bruciata dal nuovo proprietario dell&apos;insediamento. Dove ci raduneremo ora?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">Il luogo per una nuova Cappella è stato consacrato dagli dei. Dovremmo costruirla rapidamente per ottenere le loro benedizioni.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="it" state="translated">Il luogo per una nuova Cappella è stato consacrato dagli dei. Dovremmo costruirla rapidamente per ottenere le loro benedizioni.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Idrinth ti informa che i suoi dei hanno deciso di agire per supportare la tua causa. I tuoi eserciti saranno più potenti grazie a una benedizione divina per un po&apos;.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="it" state="translated">Idrinth ti informa che i suoi dei hanno deciso di agire per supportare la tua causa. I tuoi eserciti saranno più potenti grazie a una benedizione divina per un po&apos;.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">Asuryan, Khaine e Kurnous agiscono.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="it" state="translated">Asuryan, Khaine e Kurnous agiscono.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">예배당이 정착지의 새 주인에 의해 불태워졌습니다. 이제 어디서 모일까요?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="ko" state="translated">예배당이 정착지의 새 주인에 의해 불태워졌습니다. 이제 어디서 모일까요?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">새 예배당을 위한 장소가 신들에 의해 봉헌되었습니다. 그들의 축복을 얻기 위해 빨리 건설해야 합니다.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="ko" state="translated">새 예배당을 위한 장소가 신들에 의해 봉헌되었습니다. 그들의 축복을 얻기 위해 빨리 건설해야 합니다.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">이드린스가 그의 신들이 당신의 대의를 지원하기로 결정했다고 알립니다. 당신의 군대는 잠시 동안 신성한 축복으로 더 강력해질 것입니다.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="ko" state="translated">이드린스가 그의 신들이 당신의 대의를 지원하기로 결정했다고 알립니다. 당신의 군대는 잠시 동안 신성한 축복으로 더 강력해질 것입니다.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">아수리안, 카인, 쿠르노스가 행동합니다.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="ko" state="translated">아수리안, 카인, 쿠르노스가 행동합니다.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">Kaplica została spalona przez nowego właściciela osady. Gdzie teraz będziemy się gromadzić?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="pl" state="translated">Kaplica została spalona przez nowego właściciela osady. Gdzie teraz będziemy się gromadzić?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">Miejsce dla nowej Kaplicy zostało poświęcone przez bogów. Powinniśmy szybko ją zbudować, aby zyskać ich błogosławieństwa.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="pl" state="translated">Miejsce dla nowej Kaplicy zostało poświęcone przez bogów. Powinniśmy szybko ją zbudować, aby zyskać ich błogosławieństwa.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Idrinth informuje cię, że jego bogowie postanowili działać, aby wspierać twoją sprawę. Twoje armie będą potężniejsze dzięki boskim błogosławieństwom przez pewien czas.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="pl" state="translated">Idrinth informuje cię, że jego bogowie postanowili działać, aby wspierać twoją sprawę. Twoje armie będą potężniejsze dzięki boskim błogosławieństwom przez pewien czas.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">Asuryan, Khaine i Kurnous działają.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="pl" state="translated">Asuryan, Khaine i Kurnous działają.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">Капелла была сожжена новым владельцем поселения. Где нам теперь собираться?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="ru" state="translated">Капелла была сожжена новым владельцем поселения. Где нам теперь собираться?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">Место для новой Капеллы освящено богами. Нам следует быстро возвести её, чтобы получить их благословения.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="ru" state="translated">Место для новой Капеллы освящено богами. Нам следует быстро возвести её, чтобы получить их благословения.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Идринт сообщает вам, что его боги решили действовать в поддержку вашего дела. Ваши армии на некоторое время получат божественное благословение.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="ru" state="translated">Идринт сообщает вам, что его боги решили действовать в поддержку вашего дела. Ваши армии на некоторое время получат божественное благословение.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">Асуриан, Кхейн и Курноус действуют.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="ru" state="translated">Асуриан, Кхейн и Курноус действуют.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">Şapel, yerleşimin yeni sahibi tarafından yakıldı. Şimdi nerede toplanacağız?</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="tr" state="translated">Şapel, yerleşimin yeni sahibi tarafından yakıldı. Şimdi nerede toplanacağız?</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">Yeni bir Şapel için yer tanrılar tarafından kutsandı. Kutsamalarını kazanmak için hızlıca inşa etmeliyiz.</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="tr" state="translated">Yeni bir Şapel için yer tanrılar tarafından kutsandı. Kutsamalarını kazanmak için hızlıca inşa etmeliyiz.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">Idrinth size bildirir ki, tanrıları davanızı desteklemek için harekete geçmeye karar verdi. Ordularınız bir süreliğine ilahi kutsama sayesinde daha güçlü olacak.</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="tr" state="translated">Idrinth size bildirir ki, tanrıları davanızı desteklemek için harekete geçmeye karar verdi. Ordularınız bir süreliğine ilahi kutsama sayesinde daha güçlü olacak.</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">Asuryan, Khaine ve Kurnous harekete geçiyor.</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="tr" state="translated">Asuryan, Khaine ve Kurnous harekete geçiyor.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_message_event_text__.loc.tsv">
     <body>
       <trans-unit id="message_event_text_idrinth_chapel_lost" xml:space="preserve">
-        <source>The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
-        <target state="translated">教堂已被定居點的新主人燒毀。我們現在該在哪裡集會？</target>
+        <source xml:lang="en">The Chapel has been burned down by the settlement&apos;s new owner. Where will be gather now?</source>
+        <target xml:lang="zh-TW" state="translated">教堂已被定居點的新主人燒毀。我們現在該在哪裡集會？</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_chapel_founded" xml:space="preserve">
-        <source>The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
-        <target state="translated">新教堂的地點已被眾神祝聖。我們應該迅速建造它以獲得他們的祝福。</target>
+        <source xml:lang="en">The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.</source>
+        <target xml:lang="zh-TW" state="translated">新教堂的地點已被眾神祝聖。我們應該迅速建造它以獲得他們的祝福。</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention" xml:space="preserve">
-        <source>Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
-        <target state="translated">伊德林斯通知你，他的神祇已決定採取行動支持你的事業。你的軍隊將因神聖祝福而在一段時間內更加強大。</target>
+        <source xml:lang="en">Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.</source>
+        <target xml:lang="zh-TW" state="translated">伊德林斯通知你，他的神祇已決定採取行動支持你的事業。你的軍隊將因神聖祝福而在一段時間內更加強大。</target>
       </trans-unit>
       <trans-unit id="message_event_text_idrinth_godly_intervention_subtitle" xml:space="preserve">
-        <source>Asuryan, Khaine and Kurnous act.</source>
-        <target state="translated">阿蘇瑞安、凱恩和庫爾諾斯出手了。</target>
+        <source xml:lang="en">Asuryan, Khaine and Kurnous act.</source>
+        <target xml:lang="zh-TW" state="translated">阿蘇瑞安、凱恩和庫爾諾斯出手了。</target>
       </trans-unit>
     </body>
   </file>

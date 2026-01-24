@@ -3,1104 +3,1104 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Promover Guarda Élfica Mista para Guarda de Asuryan por 300 + 50 * Patente de Ouro e ganhar Patente² Favor</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="pt-BR" state="translated">Promover Guarda Élfica Mista para Guarda de Asuryan por 300 + 50 * Patente de Ouro e ganhar Patente² Favor</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="pt-BR" state="translated">Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">Promover Guarda Élfica Mista para Guarda de Khaine por 300 + 50 * Patente de Ouro e ganhar Patente² Favor.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="pt-BR" state="translated">Promover Guarda Élfica Mista para Guarda de Khaine por 300 + 50 * Patente de Ouro e ganhar Patente² Favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="pt-BR" state="translated">Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Promover Guarda Élfica Mista para Guarda de Kurnous por 300 + 50 * Patente de Ouro e ganhar Patente² Favor</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="pt-BR" state="translated">Promover Guarda Élfica Mista para Guarda de Kurnous por 300 + 50 * Patente de Ouro e ganhar Patente² Favor</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="pt-BR" state="translated">Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">Abençoar a grande águia em nome de Kurnous por 125 de ouro e 70 de favor.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar a grande águia em nome de Kurnous por 125 de ouro e 70 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Abençoar a grande águia em nome de Khaine por 125 de ouro e 70 de favor.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar a grande águia em nome de Khaine por 125 de ouro e 70 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Abençoar a grande águia em nome de Asuryan por 125 de ouro e 70 de favor.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar a grande águia em nome de Asuryan por 125 de ouro e 70 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">Abençoar os falcões em nome de Kurnous por 100 de ouro e 40 de favor.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar os falcões em nome de Kurnous por 100 de ouro e 40 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Abençoar os falcões em nome de Khaine por 100 de ouro e 40 de favor.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar os falcões em nome de Khaine por 100 de ouro e 40 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Abençoar os falcões em nome de Asuryan por 100 de ouro e 40 de favor.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar os falcões em nome de Asuryan por 100 de ouro e 40 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">Abençoar os morcegos em nome de Kurnous por 50 de ouro e 20 de favor.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar os morcegos em nome de Kurnous por 50 de ouro e 20 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Abençoar os morcegos em nome de Khaine por 50 de ouro e 20 de favor.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar os morcegos em nome de Khaine por 50 de ouro e 20 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Abençoar os morcegos em nome de Asuryan por 50 de ouro e 20 de favor.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar os morcegos em nome de Asuryan por 50 de ouro e 20 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">Abençoar os lobos em nome de Kurnous por 75 de ouro e 30 de favor.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar os lobos em nome de Kurnous por 75 de ouro e 30 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Abençoar os lobos em nome de Khaine por 75 de ouro e 30 de favor.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar os lobos em nome de Khaine por 75 de ouro e 30 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Abençoar os lobos em nome de Asuryan por 75 de ouro e 30 de favor.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="pt-BR" state="translated">Abençoar os lobos em nome de Asuryan por 75 de ouro e 30 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">Aumentar o número de Batedores da Capela em 5 por 250 de ouro. As patentes são mantidas.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="pt-BR" state="translated">Aumentar o número de Batedores da Capela em 5 por 250 de ouro. As patentes são mantidas.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Aumentar o número da Guarda de Kurnous em 15 por 300 de ouro. As patentes e status de veterano são mantidos.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="pt-BR" state="translated">Aumentar o número da Guarda de Kurnous em 15 por 300 de ouro. As patentes e status de veterano são mantidos.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Aumentar o número da Guarda de Khaine em 15 por 300 de ouro. As patentes e status de veterano são mantidos.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="pt-BR" state="translated">Aumentar o número da Guarda de Khaine em 15 por 300 de ouro. As patentes e status de veterano são mantidos.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Aumentar o número da Guarda de Asuryan em 15 por 300 de ouro. As patentes e status de veterano são mantidos.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="pt-BR" state="translated">Aumentar o número da Guarda de Asuryan em 15 por 300 de ouro. As patentes e status de veterano são mantidos.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">将混编精灵卫士升级为阿苏里安卫士，花费 300 + 50 * 等级 金币并获得 等级² 恩宠</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="zh-CN" state="translated">将混编精灵卫士升级为阿苏里安卫士，花费 300 + 50 * 等级 金币并获得 等级² 恩宠</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">尝试将此祭司转化为吸血鬼，花费 1000 金币和 250 恩宠。这可能会失败，最坏情况下会杀死他们。</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="zh-CN" state="translated">尝试将此祭司转化为吸血鬼，花费 1000 金币和 250 恩宠。这可能会失败，最坏情况下会杀死他们。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">将混编精灵卫士升级为凯恩卫士，花费 300 + 50 * 等级 金币并获得 等级² 恩宠。</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="zh-CN" state="translated">将混编精灵卫士升级为凯恩卫士，花费 300 + 50 * 等级 金币并获得 等级² 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">尝试将此祭司转化为吸血鬼，花费 1000 金币和 250 恩宠。这可能会失败，最坏情况下会杀死他们。</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="zh-CN" state="translated">尝试将此祭司转化为吸血鬼，花费 1000 金币和 250 恩宠。这可能会失败，最坏情况下会杀死他们。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">将混编精灵卫士升级为库尔诺斯卫士，花费 300 + 50 * 等级 金币并获得 等级² 恩宠</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="zh-CN" state="translated">将混编精灵卫士升级为库尔诺斯卫士，花费 300 + 50 * 等级 金币并获得 等级² 恩宠</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">尝试将此祭司转化为吸血鬼，花费 1000 金币和 250 恩宠。这可能会失败，最坏情况下会杀死他们。</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="zh-CN" state="translated">尝试将此祭司转化为吸血鬼，花费 1000 金币和 250 恩宠。这可能会失败，最坏情况下会杀死他们。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">以库尔诺斯之名祝福巨鹰，花费 125 金币和 70 恩宠。</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以库尔诺斯之名祝福巨鹰，花费 125 金币和 70 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">以凯恩之名祝福巨鹰，花费 125 金币和 70 恩宠。</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以凯恩之名祝福巨鹰，花费 125 金币和 70 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">以阿苏里安之名祝福巨鹰，花费 125 金币和 70 恩宠。</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以阿苏里安之名祝福巨鹰，花费 125 金币和 70 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">以库尔诺斯之名祝福猎鹰，花费 100 金币和 40 恩宠。</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以库尔诺斯之名祝福猎鹰，花费 100 金币和 40 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">以凯恩之名祝福猎鹰，花费 100 金币和 40 恩宠。</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以凯恩之名祝福猎鹰，花费 100 金币和 40 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">以阿苏里安之名祝福猎鹰，花费 100 金币和 40 恩宠。</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以阿苏里安之名祝福猎鹰，花费 100 金币和 40 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">以库尔诺斯之名祝福蝙蝠，花费 50 金币和 20 恩宠。</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以库尔诺斯之名祝福蝙蝠，花费 50 金币和 20 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">以凯恩之名祝福蝙蝠，花费 50 金币和 20 恩宠。</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以凯恩之名祝福蝙蝠，花费 50 金币和 20 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">以阿苏里安之名祝福蝙蝠，花费 50 金币和 20 恩宠。</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以阿苏里安之名祝福蝙蝠，花费 50 金币和 20 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">以库尔诺斯之名祝福狼群，花费 75 金币和 30 恩宠。</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以库尔诺斯之名祝福狼群，花费 75 金币和 30 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">以凯恩之名祝福狼群，花费 75 金币和 30 恩宠。</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以凯恩之名祝福狼群，花费 75 金币和 30 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">以阿苏里安之名祝福狼群，花费 75 金币和 30 恩宠。</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="zh-CN" state="translated">以阿苏里安之名祝福狼群，花费 75 金币和 30 恩宠。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">增加 5 名礼拜堂骑哨，花费 250 金币。等级保留。</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="zh-CN" state="translated">增加 5 名礼拜堂骑哨，花费 250 金币。等级保留。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">增加 15 名库尔诺斯卫士，花费 300 金币。等级和老兵状态保留。</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="zh-CN" state="translated">增加 15 名库尔诺斯卫士，花费 300 金币。等级和老兵状态保留。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">增加 15 名凯恩卫士，花费 300 金币。等级和老兵状态保留。</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="zh-CN" state="translated">增加 15 名凯恩卫士，花费 300 金币。等级和老兵状态保留。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">增加 15 名阿苏里安卫士，花费 300 金币。等级和老兵状态保留。</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="zh-CN" state="translated">增加 15 名阿苏里安卫士，花费 300 金币。等级和老兵状态保留。</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Povyš Smíšenou elfí stráž na Asuryanovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="cs" state="translated">Povyš Smíšenou elfí stráž na Asuryanovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="cs" state="translated">Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">Povyš Smíšenou elfí stráž na Khainovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="cs" state="translated">Povyš Smíšenou elfí stráž na Khainovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="cs" state="translated">Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Povyš Smíšenou elfí stráž na Kurnousovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="cs" state="translated">Povyš Smíšenou elfí stráž na Kurnousovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="cs" state="translated">Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">Požehnej velkému orlu ve jménu Kurnouse za 125 zlata a 70 přízně.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej velkému orlu ve jménu Kurnouse za 125 zlata a 70 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Požehnej velkému orlu ve jménu Khaina za 125 zlata a 70 přízně.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej velkému orlu ve jménu Khaina za 125 zlata a 70 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Požehnej velkému orlu ve jménu Asuryana za 125 zlata a 70 přízně.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej velkému orlu ve jménu Asuryana za 125 zlata a 70 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">Požehnej jestřábům ve jménu Kurnouse za 100 zlata a 40 přízně.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej jestřábům ve jménu Kurnouse za 100 zlata a 40 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Požehnej jestřábům ve jménu Khaina za 100 zlata a 40 přízně.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej jestřábům ve jménu Khaina za 100 zlata a 40 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Požehnej jestřábům ve jménu Asuryana za 100 zlata a 40 přízně.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej jestřábům ve jménu Asuryana za 100 zlata a 40 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">Požehnej netopýrům ve jménu Kurnouse za 50 zlata a 20 přízně.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej netopýrům ve jménu Kurnouse za 50 zlata a 20 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Požehnej netopýrům ve jménu Khaina za 50 zlata a 20 přízně.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej netopýrům ve jménu Khaina za 50 zlata a 20 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Požehnej netopýrům ve jménu Asuryana za 50 zlata a 20 přízně.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej netopýrům ve jménu Asuryana za 50 zlata a 20 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">Požehnej vlkům ve jménu Kurnouse za 75 zlata a 30 přízně.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej vlkům ve jménu Kurnouse za 75 zlata a 30 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Požehnej vlkům ve jménu Khaina za 75 zlata a 30 přízně.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej vlkům ve jménu Khaina za 75 zlata a 30 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Požehnej vlkům ve jménu Asuryana za 75 zlata a 30 přízně.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="cs" state="translated">Požehnej vlkům ve jménu Asuryana za 75 zlata a 30 přízně.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">Zvyš počet kaplanských předjezdců o 5 za 250 zlata. Hodnosti se přenášejí.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="cs" state="translated">Zvyš počet kaplanských předjezdců o 5 za 250 zlata. Hodnosti se přenášejí.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Zvyš počet Kurnousovy stráže o 15 za 300 zlata. Hodnosti a veteránský status se přenášejí.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="cs" state="translated">Zvyš počet Kurnousovy stráže o 15 za 300 zlata. Hodnosti a veteránský status se přenášejí.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Zvyš počet Khainovy stráže o 15 za 300 zlata. Hodnosti a veteránský status se přenášejí.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="cs" state="translated">Zvyš počet Khainovy stráže o 15 za 300 zlata. Hodnosti a veteránský status se přenášejí.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Zvyš počet Asuryanovy stráže o 15 za 300 zlata. Hodnosti a veteránský status se přenášejí.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="cs" state="translated">Zvyš počet Asuryanovy stráže o 15 za 300 zlata. Hodnosti a veteránský status se přenášejí.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Gemischte Elfengarde zu Asuryans Garde für 300 Gold aufwerten.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="de" state="translated">Gemischte Elfengarde zu Asuryans Garde für 300 Gold aufwerten.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="de" state="translated">Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">Gemischte Elfengarde zu Khaines Garde für 300 Gold aufwerten.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="de" state="translated">Gemischte Elfengarde zu Khaines Garde für 300 Gold aufwerten.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="de" state="translated">Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Gemischte Elfengarde zu Kurnous&apos; Garde für 300 Gold aufwerten.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="de" state="translated">Gemischte Elfengarde zu Kurnous&apos; Garde für 300 Gold aufwerten.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="de" state="translated">Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">Segne den Großen Adler im Namen von Kurnous für 125 Gold und 70 Gunst.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="de" state="translated">Segne den Großen Adler im Namen von Kurnous für 125 Gold und 70 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Segne den Großen Adler im Namen von Khaine für 125 Gold und 70 Gunst.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="de" state="translated">Segne den Großen Adler im Namen von Khaine für 125 Gold und 70 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Segne den Großen Adler im Namen von Asuryan für 125 Gold und 70 Gunst.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="de" state="translated">Segne den Großen Adler im Namen von Asuryan für 125 Gold und 70 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">Segne die Falken im Namen von Kurnous für 100 Gold und 40 Gunst.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="de" state="translated">Segne die Falken im Namen von Kurnous für 100 Gold und 40 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Segne die Falken im Namen von Khaine für 100 Gold und 40 Gunst.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="de" state="translated">Segne die Falken im Namen von Khaine für 100 Gold und 40 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Segne die Falken im Namen von Asuryan für 100 Gold und 40 Gunst.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="de" state="translated">Segne die Falken im Namen von Asuryan für 100 Gold und 40 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">Segne die Fledermäuse im Namen von Kurnous für 50 Gold und 20 Gunst.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="de" state="translated">Segne die Fledermäuse im Namen von Kurnous für 50 Gold und 20 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Segne die Fledermäuse im Namen von Khaine für 50 Gold und 20 Gunst.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="de" state="translated">Segne die Fledermäuse im Namen von Khaine für 50 Gold und 20 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Segne die Fledermäuse im Namen von Asuryan für 50 Gold und 20 Gunst.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="de" state="translated">Segne die Fledermäuse im Namen von Asuryan für 50 Gold und 20 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">Segne die Wölfe im Namen von Kurnous für 75 Gold und 30 Gunst.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="de" state="translated">Segne die Wölfe im Namen von Kurnous für 75 Gold und 30 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Segne die Wölfe im Namen von Khaine für 75 Gold und 30 Gunst.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="de" state="translated">Segne die Wölfe im Namen von Khaine für 75 Gold und 30 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Segne die Wölfe im Namen von Asuryan für 75 Gold und 30 Gunst.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="de" state="translated">Segne die Wölfe im Namen von Asuryan für 75 Gold und 30 Gunst.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">Erhöhe die Anzahl der Kapellenreiter um 5 für 250 Gold. Ränge werden übernommen.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="de" state="translated">Erhöhe die Anzahl der Kapellenreiter um 5 für 250 Gold. Ränge werden übernommen.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Erhöhe die Anzahl von Kurnous&apos; Garde um 15 für 300 Gold. Ränge und Veteranenstatus werden übernommen.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="de" state="translated">Erhöhe die Anzahl von Kurnous&apos; Garde um 15 für 300 Gold. Ränge und Veteranenstatus werden übernommen.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Erhöhe die Anzahl von Khaines Garde um 15 für 300 Gold. Ränge und Veteranenstatus werden übernommen.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="de" state="translated">Erhöhe die Anzahl von Khaines Garde um 15 für 300 Gold. Ränge und Veteranenstatus werden übernommen.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Erhöhe die Anzahl von Asuryans Garde um 15 für 300 Gold. Ränge und Veteranenstatus werden übernommen.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="de" state="translated">Erhöhe die Anzahl von Asuryans Garde um 15 für 300 Gold. Ränge und Veteranenstatus werden übernommen.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Mejora la Guardia Élfica Mixta a Guardia de Asuryan por 300 de Oro.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="es" state="translated">Mejora la Guardia Élfica Mixta a Guardia de Asuryan por 300 de Oro.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="es" state="translated">Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">Mejora la Guardia Élfica Mixta a Guardia de Khaine por 300 de Oro.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="es" state="translated">Mejora la Guardia Élfica Mixta a Guardia de Khaine por 300 de Oro.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="es" state="translated">Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Mejora la Guardia Élfica Mixta a Guardia de Kurnous por 300 de Oro.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="es" state="translated">Mejora la Guardia Élfica Mixta a Guardia de Kurnous por 300 de Oro.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="es" state="translated">Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">Bendice al gran águila en nombre de Kurnous por 125 de oro y 70 de favor.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="es" state="translated">Bendice al gran águila en nombre de Kurnous por 125 de oro y 70 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Bendice al gran águila en nombre de Khaine por 125 de oro y 70 de favor.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="es" state="translated">Bendice al gran águila en nombre de Khaine por 125 de oro y 70 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Bendice al gran águila en nombre de Asuryan por 125 de oro y 70 de favor.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="es" state="translated">Bendice al gran águila en nombre de Asuryan por 125 de oro y 70 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">Bendice a los halcones en nombre de Kurnous por 100 de oro y 40 de favor.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="es" state="translated">Bendice a los halcones en nombre de Kurnous por 100 de oro y 40 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Bendice a los halcones en nombre de Khaine por 100 de oro y 40 de favor.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="es" state="translated">Bendice a los halcones en nombre de Khaine por 100 de oro y 40 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Bendice a los halcones en nombre de Asuryan por 100 de oro y 40 de favor.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="es" state="translated">Bendice a los halcones en nombre de Asuryan por 100 de oro y 40 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">Bendice a los murciélagos en nombre de Kurnous por 50 de oro y 20 de favor.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="es" state="translated">Bendice a los murciélagos en nombre de Kurnous por 50 de oro y 20 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Bendice a los murciélagos en nombre de Khaine por 50 de oro y 20 de favor.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="es" state="translated">Bendice a los murciélagos en nombre de Khaine por 50 de oro y 20 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Bendice a los murciélagos en nombre de Asuryan por 50 de oro y 20 de favor.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="es" state="translated">Bendice a los murciélagos en nombre de Asuryan por 50 de oro y 20 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">Bendice a los lobos en nombre de Kurnous por 75 de oro y 30 de favor.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="es" state="translated">Bendice a los lobos en nombre de Kurnous por 75 de oro y 30 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Bendice a los lobos en nombre de Khaine por 75 de oro y 30 de favor.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="es" state="translated">Bendice a los lobos en nombre de Khaine por 75 de oro y 30 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Bendice a los lobos en nombre de Asuryan por 75 de oro y 30 de favor.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="es" state="translated">Bendice a los lobos en nombre de Asuryan por 75 de oro y 30 de favor.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">Aumenta el número de Exploradores de la Capilla en 5 por 250 de oro. Los rangos se conservan.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="es" state="translated">Aumenta el número de Exploradores de la Capilla en 5 por 250 de oro. Los rangos se conservan.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Aumenta el número de la Guardia de Kurnous en 15 por 300 de oro. Los rangos y el estatus de veterano se conservan.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="es" state="translated">Aumenta el número de la Guardia de Kurnous en 15 por 300 de oro. Los rangos y el estatus de veterano se conservan.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Aumenta el número de la Guardia de Khaine en 15 por 300 de oro. Los rangos y el estatus de veterano se conservan.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="es" state="translated">Aumenta el número de la Guardia de Khaine en 15 por 300 de oro. Los rangos y el estatus de veterano se conservan.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Aumenta el número de la Guardia de Asuryan en 15 por 300 de oro. Los rangos y el estatus de veterano se conservan.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="es" state="translated">Aumenta el número de la Guardia de Asuryan en 15 por 300 de oro. Los rangos y el estatus de veterano se conservan.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Améliorer la Garde Elfique Mixte en Garde d&apos;Asuryan pour 300 Or.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="fr" state="translated">Améliorer la Garde Elfique Mixte en Garde d&apos;Asuryan pour 300 Or.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="fr" state="translated">Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">Améliorer la Garde Elfique Mixte en Garde de Khaine pour 300 Or.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="fr" state="translated">Améliorer la Garde Elfique Mixte en Garde de Khaine pour 300 Or.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="fr" state="translated">Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Améliorer la Garde Elfique Mixte en Garde de Kurnous pour 300 Or.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="fr" state="translated">Améliorer la Garde Elfique Mixte en Garde de Kurnous pour 300 Or.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="fr" state="translated">Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">Bénir le grand aigle au nom de Kurnous pour 125 or et 70 faveur.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir le grand aigle au nom de Kurnous pour 125 or et 70 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Bénir le grand aigle au nom de Khaine pour 125 or et 70 faveur.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir le grand aigle au nom de Khaine pour 125 or et 70 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Bénir le grand aigle au nom d&apos;Asuryan pour 125 or et 70 faveur.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir le grand aigle au nom d&apos;Asuryan pour 125 or et 70 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">Bénir les faucons au nom de Kurnous pour 100 or et 40 faveur.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir les faucons au nom de Kurnous pour 100 or et 40 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Bénir les faucons au nom de Khaine pour 100 or et 40 faveur.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir les faucons au nom de Khaine pour 100 or et 40 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Bénir les faucons au nom d&apos;Asuryan pour 100 or et 40 faveur.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir les faucons au nom d&apos;Asuryan pour 100 or et 40 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">Bénir les chauves-souris au nom de Kurnous pour 50 or et 20 faveur.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir les chauves-souris au nom de Kurnous pour 50 or et 20 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Bénir les chauves-souris au nom de Khaine pour 50 or et 20 faveur.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir les chauves-souris au nom de Khaine pour 50 or et 20 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Bénir les chauves-souris au nom d&apos;Asuryan pour 50 or et 20 faveur.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir les chauves-souris au nom d&apos;Asuryan pour 50 or et 20 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">Bénir les loups au nom de Kurnous pour 75 or et 30 faveur.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir les loups au nom de Kurnous pour 75 or et 30 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Bénir les loups au nom de Khaine pour 75 or et 30 faveur.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir les loups au nom de Khaine pour 75 or et 30 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Bénir les loups au nom d&apos;Asuryan pour 75 or et 30 faveur.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="fr" state="translated">Bénir les loups au nom d&apos;Asuryan pour 75 or et 30 faveur.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">Augmenter le nombre d&apos;Éclaireurs de la Chapelle de 5 pour 250 or. Les rangs sont conservés.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="fr" state="translated">Augmenter le nombre d&apos;Éclaireurs de la Chapelle de 5 pour 250 or. Les rangs sont conservés.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Augmenter le nombre de la Garde de Kurnous de 15 pour 300 or. Les rangs et le statut de vétéran sont conservés.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="fr" state="translated">Augmenter le nombre de la Garde de Kurnous de 15 pour 300 or. Les rangs et le statut de vétéran sont conservés.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Augmenter le nombre de la Garde de Khaine de 15 pour 300 or. Les rangs et le statut de vétéran sont conservés.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="fr" state="translated">Augmenter le nombre de la Garde de Khaine de 15 pour 300 or. Les rangs et le statut de vétéran sont conservés.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Augmenter le nombre de la Garde d&apos;Asuryan de 15 pour 300 or. Les rangs et le statut de vétéran sont conservés.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="fr" state="translated">Augmenter le nombre de la Garde d&apos;Asuryan de 15 pour 300 or. Les rangs et le statut de vétéran sont conservés.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Potenzia la Guardia Elfica Mista a Guardia di Asuryan per 300 + 50 * Grado Oro e guadagna Grado² Favore</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="it" state="translated">Potenzia la Guardia Elfica Mista a Guardia di Asuryan per 300 + 50 * Grado Oro e guadagna Grado² Favore</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Prova a trasformare questo sacerdote in un vampiro per 1000 Oro e 250 Favore. Questo potrebbe fallire e nel caso peggiore semplicemente ucciderlo.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="it" state="translated">Prova a trasformare questo sacerdote in un vampiro per 1000 Oro e 250 Favore. Questo potrebbe fallire e nel caso peggiore semplicemente ucciderlo.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">Potenzia la Guardia Elfica Mista a Guardia di Khaine per 300 + 50 * Grado Oro e guadagna Grado² Favore.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="it" state="translated">Potenzia la Guardia Elfica Mista a Guardia di Khaine per 300 + 50 * Grado Oro e guadagna Grado² Favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Prova a trasformare questo sacerdote in un vampiro per 1000 Oro e 250 Favore. Questo potrebbe fallire e nel caso peggiore semplicemente ucciderlo.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="it" state="translated">Prova a trasformare questo sacerdote in un vampiro per 1000 Oro e 250 Favore. Questo potrebbe fallire e nel caso peggiore semplicemente ucciderlo.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Potenzia la Guardia Elfica Mista a Guardia di Kurnous per 300 + 50 * Grado Oro e guadagna Grado² Favore</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="it" state="translated">Potenzia la Guardia Elfica Mista a Guardia di Kurnous per 300 + 50 * Grado Oro e guadagna Grado² Favore</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Prova a trasformare questo sacerdote in un vampiro per 1000 Oro e 250 Favore. Questo potrebbe fallire e nel caso peggiore semplicemente ucciderlo.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="it" state="translated">Prova a trasformare questo sacerdote in un vampiro per 1000 Oro e 250 Favore. Questo potrebbe fallire e nel caso peggiore semplicemente ucciderlo.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">Benedici la grande aquila nel nome di Kurnous per 125 oro e 70 favore.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="it" state="translated">Benedici la grande aquila nel nome di Kurnous per 125 oro e 70 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Benedici la grande aquila nel nome di Khaine per 125 oro e 70 favore.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="it" state="translated">Benedici la grande aquila nel nome di Khaine per 125 oro e 70 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Benedici la grande aquila nel nome di Asuryan per 125 oro e 70 favore.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="it" state="translated">Benedici la grande aquila nel nome di Asuryan per 125 oro e 70 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">Benedici i falchi nel nome di Kurnous per 100 oro e 40 favore.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="it" state="translated">Benedici i falchi nel nome di Kurnous per 100 oro e 40 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Benedici i falchi nel nome di Khaine per 100 oro e 40 favore.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="it" state="translated">Benedici i falchi nel nome di Khaine per 100 oro e 40 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Benedici i falchi nel nome di Asuryan per 100 oro e 40 favore.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="it" state="translated">Benedici i falchi nel nome di Asuryan per 100 oro e 40 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">Benedici i pipistrelli nel nome di Kurnous per 50 oro e 20 favore.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="it" state="translated">Benedici i pipistrelli nel nome di Kurnous per 50 oro e 20 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Benedici i pipistrelli nel nome di Khaine per 50 oro e 20 favore.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="it" state="translated">Benedici i pipistrelli nel nome di Khaine per 50 oro e 20 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Benedici i pipistrelli nel nome di Asuryan per 50 oro e 20 favore.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="it" state="translated">Benedici i pipistrelli nel nome di Asuryan per 50 oro e 20 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">Benedici i lupi nel nome di Kurnous per 75 oro e 30 favore.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="it" state="translated">Benedici i lupi nel nome di Kurnous per 75 oro e 30 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Benedici i lupi nel nome di Khaine per 75 oro e 30 favore.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="it" state="translated">Benedici i lupi nel nome di Khaine per 75 oro e 30 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Benedici i lupi nel nome di Asuryan per 75 oro e 30 favore.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="it" state="translated">Benedici i lupi nel nome di Asuryan per 75 oro e 30 favore.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">Aumenta il numero di Avanguardie della Cappella di 5 per 250 oro. I gradi si mantengono.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="it" state="translated">Aumenta il numero di Avanguardie della Cappella di 5 per 250 oro. I gradi si mantengono.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Aumenta il numero della Guardia di Kurnous di 15 per 300 oro. I gradi e lo status di Veterano si mantengono.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="it" state="translated">Aumenta il numero della Guardia di Kurnous di 15 per 300 oro. I gradi e lo status di Veterano si mantengono.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Aumenta il numero della Guardia di Khaine di 15 per 300 oro. I gradi e lo status di Veterano si mantengono.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="it" state="translated">Aumenta il numero della Guardia di Khaine di 15 per 300 oro. I gradi e lo status di Veterano si mantengono.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Aumenta il numero della Guardia di Asuryan di 15 per 300 oro. I gradi e lo status di Veterano si mantengono.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="it" state="translated">Aumenta il numero della Guardia di Asuryan di 15 per 300 oro. I gradi e lo status di Veterano si mantengono.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">혼합 엘프 수호대를 아수리안의 수호대로 300 + 50 * 등급 골드에 업그레이드하고 등급² 은총을 얻습니다</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="ko" state="translated">혼합 엘프 수호대를 아수리안의 수호대로 300 + 50 * 등급 골드에 업그레이드하고 등급² 은총을 얻습니다</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">1000 골드와 250 은총으로 이 사제를 뱀파이어로 만들어 보세요. 실패할 수 있으며 최악의 경우 그냥 죽일 수 있습니다.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="ko" state="translated">1000 골드와 250 은총으로 이 사제를 뱀파이어로 만들어 보세요. 실패할 수 있으며 최악의 경우 그냥 죽일 수 있습니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">혼합 엘프 수호대를 카인의 수호대로 300 + 50 * 등급 골드에 업그레이드하고 등급² 은총을 얻습니다.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="ko" state="translated">혼합 엘프 수호대를 카인의 수호대로 300 + 50 * 등급 골드에 업그레이드하고 등급² 은총을 얻습니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">1000 골드와 250 은총으로 이 사제를 뱀파이어로 만들어 보세요. 실패할 수 있으며 최악의 경우 그냥 죽일 수 있습니다.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="ko" state="translated">1000 골드와 250 은총으로 이 사제를 뱀파이어로 만들어 보세요. 실패할 수 있으며 최악의 경우 그냥 죽일 수 있습니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">혼합 엘프 수호대를 쿠르노스의 수호대로 300 + 50 * 등급 골드에 업그레이드하고 등급² 은총을 얻습니다</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="ko" state="translated">혼합 엘프 수호대를 쿠르노스의 수호대로 300 + 50 * 등급 골드에 업그레이드하고 등급² 은총을 얻습니다</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">1000 골드와 250 은총으로 이 사제를 뱀파이어로 만들어 보세요. 실패할 수 있으며 최악의 경우 그냥 죽일 수 있습니다.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="ko" state="translated">1000 골드와 250 은총으로 이 사제를 뱀파이어로 만들어 보세요. 실패할 수 있으며 최악의 경우 그냥 죽일 수 있습니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">쿠르노스의 이름으로 대독수리를 125 골드와 70 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="ko" state="translated">쿠르노스의 이름으로 대독수리를 125 골드와 70 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">카인의 이름으로 대독수리를 125 골드와 70 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="ko" state="translated">카인의 이름으로 대독수리를 125 골드와 70 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">아수리안의 이름으로 대독수리를 125 골드와 70 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="ko" state="translated">아수리안의 이름으로 대독수리를 125 골드와 70 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">쿠르노스의 이름으로 매를 100 골드와 40 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="ko" state="translated">쿠르노스의 이름으로 매를 100 골드와 40 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">카인의 이름으로 매를 100 골드와 40 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="ko" state="translated">카인의 이름으로 매를 100 골드와 40 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">아수리안의 이름으로 매를 100 골드와 40 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="ko" state="translated">아수리안의 이름으로 매를 100 골드와 40 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">쿠르노스의 이름으로 박쥐를 50 골드와 20 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="ko" state="translated">쿠르노스의 이름으로 박쥐를 50 골드와 20 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">카인의 이름으로 박쥐를 50 골드와 20 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="ko" state="translated">카인의 이름으로 박쥐를 50 골드와 20 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">아수리안의 이름으로 박쥐를 50 골드와 20 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="ko" state="translated">아수리안의 이름으로 박쥐를 50 골드와 20 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">쿠르노스의 이름으로 늑대를 75 골드와 30 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="ko" state="translated">쿠르노스의 이름으로 늑대를 75 골드와 30 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">카인의 이름으로 늑대를 75 골드와 30 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="ko" state="translated">카인의 이름으로 늑대를 75 골드와 30 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">아수리안의 이름으로 늑대를 75 골드와 30 은총에 축복합니다.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="ko" state="translated">아수리안의 이름으로 늑대를 75 골드와 30 은총에 축복합니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">예배당 척후병 수를 250 골드에 5명 증가시킵니다. 등급은 유지됩니다.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="ko" state="translated">예배당 척후병 수를 250 골드에 5명 증가시킵니다. 등급은 유지됩니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">쿠르노스의 수호대 수를 300 골드에 15명 증가시킵니다. 등급과 베테랑 상태가 유지됩니다.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="ko" state="translated">쿠르노스의 수호대 수를 300 골드에 15명 증가시킵니다. 등급과 베테랑 상태가 유지됩니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">카인의 수호대 수를 300 골드에 15명 증가시킵니다. 등급과 베테랑 상태가 유지됩니다.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="ko" state="translated">카인의 수호대 수를 300 골드에 15명 증가시킵니다. 등급과 베테랑 상태가 유지됩니다.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">아수리안의 수호대 수를 300 골드에 15명 증가시킵니다. 등급과 베테랑 상태가 유지됩니다.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="ko" state="translated">아수리안의 수호대 수를 300 골드에 15명 증가시킵니다. 등급과 베테랑 상태가 유지됩니다.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Ulepsz Mieszaną Straż Elficką do Straży Asuryana za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="pl" state="translated">Ulepsz Mieszaną Straż Elficką do Straży Asuryana za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Spróbuj zamienić tego kapłana w wampira za 1000 Złota i 250 Łaski. To może się nie udać, a w najgorszym przypadku po prostu ich zabić.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="pl" state="translated">Spróbuj zamienić tego kapłana w wampira za 1000 Złota i 250 Łaski. To może się nie udać, a w najgorszym przypadku po prostu ich zabić.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">Ulepsz Mieszaną Straż Elficką do Straży Khaine&apos;a za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="pl" state="translated">Ulepsz Mieszaną Straż Elficką do Straży Khaine&apos;a za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Spróbuj zamienić tego kapłana w wampira za 1000 Złota i 250 Łaski. To może się nie udać, a w najgorszym przypadku po prostu ich zabić.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="pl" state="translated">Spróbuj zamienić tego kapłana w wampira za 1000 Złota i 250 Łaski. To może się nie udać, a w najgorszym przypadku po prostu ich zabić.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Ulepsz Mieszaną Straż Elficką do Straży Kurnous za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="pl" state="translated">Ulepsz Mieszaną Straż Elficką do Straży Kurnous za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Spróbuj zamienić tego kapłana w wampira za 1000 Złota i 250 Łaski. To może się nie udać, a w najgorszym przypadku po prostu ich zabić.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="pl" state="translated">Spróbuj zamienić tego kapłana w wampira za 1000 Złota i 250 Łaski. To może się nie udać, a w najgorszym przypadku po prostu ich zabić.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">Pobłogosław wielkiego orła w imieniu Kurnous za 125 złota i 70 łaski.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław wielkiego orła w imieniu Kurnous za 125 złota i 70 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Pobłogosław wielkiego orła w imieniu Khaine&apos;a za 125 złota i 70 łaski.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław wielkiego orła w imieniu Khaine&apos;a za 125 złota i 70 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Pobłogosław wielkiego orła w imieniu Asuryana za 125 złota i 70 łaski.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław wielkiego orła w imieniu Asuryana za 125 złota i 70 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">Pobłogosław jastrzębie w imieniu Kurnous za 100 złota i 40 łaski.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław jastrzębie w imieniu Kurnous za 100 złota i 40 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Pobłogosław jastrzębie w imieniu Khaine&apos;a za 100 złota i 40 łaski.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław jastrzębie w imieniu Khaine&apos;a za 100 złota i 40 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Pobłogosław jastrzębie w imieniu Asuryana za 100 złota i 40 łaski.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław jastrzębie w imieniu Asuryana za 100 złota i 40 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">Pobłogosław nietoperze w imieniu Kurnous za 50 złota i 20 łaski.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław nietoperze w imieniu Kurnous za 50 złota i 20 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Pobłogosław nietoperze w imieniu Khaine&apos;a za 50 złota i 20 łaski.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław nietoperze w imieniu Khaine&apos;a za 50 złota i 20 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Pobłogosław nietoperze w imieniu Asuryana za 50 złota i 20 łaski.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław nietoperze w imieniu Asuryana za 50 złota i 20 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">Pobłogosław wilki w imieniu Kurnous za 75 złota i 30 łaski.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław wilki w imieniu Kurnous za 75 złota i 30 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Pobłogosław wilki w imieniu Khaine&apos;a za 75 złota i 30 łaski.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław wilki w imieniu Khaine&apos;a za 75 złota i 30 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Pobłogosław wilki w imieniu Asuryana za 75 złota i 30 łaski.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="pl" state="translated">Pobłogosław wilki w imieniu Asuryana za 75 złota i 30 łaski.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">Zwiększ liczbę Zwiadowców Kaplicy o 5 za 250 złota. Rangi są zachowane.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="pl" state="translated">Zwiększ liczbę Zwiadowców Kaplicy o 5 za 250 złota. Rangi są zachowane.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Zwiększ liczbę Straży Kurnous o 15 za 300 złota. Rangi i status weterana są zachowane.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="pl" state="translated">Zwiększ liczbę Straży Kurnous o 15 za 300 złota. Rangi i status weterana są zachowane.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Zwiększ liczbę Straży Khaine&apos;a o 15 za 300 złota. Rangi i status weterana są zachowane.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="pl" state="translated">Zwiększ liczbę Straży Khaine&apos;a o 15 za 300 złota. Rangi i status weterana są zachowane.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Zwiększ liczbę Straży Asuryana o 15 za 300 złota. Rangi i status weterana są zachowane.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="pl" state="translated">Zwiększ liczbę Straży Asuryana o 15 za 300 złota. Rangi i status weterana są zachowane.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Улучшить Смешанную Эльфийскую Стражу до Стражи Асуриана за 300 золота.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="ru" state="translated">Улучшить Смешанную Эльфийскую Стражу до Стражи Асуриана за 300 золота.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Попытаться обратить этого жреца в вампира за 1000 золота и 250 Благосклонности. Может не удаться и в худшем случае просто убить его.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="ru" state="translated">Попытаться обратить этого жреца в вампира за 1000 золота и 250 Благосклонности. Может не удаться и в худшем случае просто убить его.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">Улучшить Смешанную Эльфийскую Стражу до Стражи Кхейна за 300 золота.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="ru" state="translated">Улучшить Смешанную Эльфийскую Стражу до Стражи Кхейна за 300 золота.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Попытаться обратить этого жреца в вампира за 1000 золота и 250 Благосклонности. Может не удаться и в худшем случае просто убить его.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="ru" state="translated">Попытаться обратить этого жреца в вампира за 1000 золота и 250 Благосклонности. Может не удаться и в худшем случае просто убить его.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Улучшить Смешанную Эльфийскую Стражу до Стражи Курноуса за 300 золота.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="ru" state="translated">Улучшить Смешанную Эльфийскую Стражу до Стражи Курноуса за 300 золота.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Попытаться обратить этого жреца в вампира за 1000 золота и 250 Благосклонности. Может не удаться и в худшем случае просто убить его.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="ru" state="translated">Попытаться обратить этого жреца в вампира за 1000 золота и 250 Благосклонности. Может не удаться и в худшем случае просто убить его.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">Благословить великого орла именем Курноса за 125 золота и 70 благосклонности.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить великого орла именем Курноса за 125 золота и 70 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Благословить великого орла именем Кхейна за 125 золота и 70 благосклонности.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить великого орла именем Кхейна за 125 золота и 70 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Благословить великого орла именем Асуриана за 125 золота и 70 благосклонности.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить великого орла именем Асуриана за 125 золота и 70 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">Благословить ястребов именем Курноса за 100 золота и 40 благосклонности.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить ястребов именем Курноса за 100 золота и 40 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Благословить ястребов именем Кхейна за 100 золота и 40 благосклонности.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить ястребов именем Кхейна за 100 золота и 40 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Благословить ястребов именем Асуриана за 100 золота и 40 благосклонности.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить ястребов именем Асуриана за 100 золота и 40 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">Благословить летучих мышей именем Курноса за 50 золота и 20 благосклонности.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить летучих мышей именем Курноса за 50 золота и 20 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Благословить летучих мышей именем Кхейна за 50 золота и 20 благосклонности.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить летучих мышей именем Кхейна за 50 золота и 20 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Благословить летучих мышей именем Асуриана за 50 золота и 20 благосклонности.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить летучих мышей именем Асуриана за 50 золота и 20 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">Благословить волков именем Курноса за 75 золота и 30 благосклонности.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить волков именем Курноса за 75 золота и 30 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Благословить волков именем Кхейна за 75 золота и 30 благосклонности.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить волков именем Кхейна за 75 золота и 30 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Благословить волков именем Асуриана за 75 золота и 30 благосклонности.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="ru" state="translated">Благословить волков именем Асуриана за 75 золота и 30 благосклонности.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">Увеличить численность Разведчиков Капеллы на 5 за 250 золота. Ранги сохраняются.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="ru" state="translated">Увеличить численность Разведчиков Капеллы на 5 за 250 золота. Ранги сохраняются.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Увеличить численность Стражи Курноса на 15 за 300 золота. Ранги и статус ветерана сохраняются.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="ru" state="translated">Увеличить численность Стражи Курноса на 15 за 300 золота. Ранги и статус ветерана сохраняются.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Увеличить численность Стражи Кхейна на 15 за 300 золота. Ранги и статус ветерана сохраняются.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="ru" state="translated">Увеличить численность Стражи Кхейна на 15 за 300 золота. Ранги и статус ветерана сохраняются.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Увеличить численность Стражи Асуриана на 15 за 300 золота. Ранги и статус ветерана сохраняются.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="ru" state="translated">Увеличить численность Стражи Асуриана на 15 за 300 золота. Ранги и статус ветерана сохраняются.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Karma Elf Muhafızını Asuryan&apos;ın Muhafızına 300 + 50 * Rütbe Altın karşılığında yükselt ve Rütbe² Lütuf kazan</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="tr" state="translated">Karma Elf Muhafızını Asuryan&apos;ın Muhafızına 300 + 50 * Rütbe Altın karşılığında yükselt ve Rütbe² Lütuf kazan</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Bu rahibi 1000 Altın ve 250 Lütuf karşılığında vampire dönüştürmeyi dene. Bu başarısız olabilir ve en kötü durumda onları öldürebilir.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="tr" state="translated">Bu rahibi 1000 Altın ve 250 Lütuf karşılığında vampire dönüştürmeyi dene. Bu başarısız olabilir ve en kötü durumda onları öldürebilir.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">Karma Elf Muhafızını Khaine&apos;in Muhafızına 300 + 50 * Rütbe Altın karşılığında yükselt ve Rütbe² Lütuf kazan.</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="tr" state="translated">Karma Elf Muhafızını Khaine&apos;in Muhafızına 300 + 50 * Rütbe Altın karşılığında yükselt ve Rütbe² Lütuf kazan.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Bu rahibi 1000 Altın ve 250 Lütuf karşılığında vampire dönüştürmeyi dene. Bu başarısız olabilir ve en kötü durumda onları öldürebilir.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="tr" state="translated">Bu rahibi 1000 Altın ve 250 Lütuf karşılığında vampire dönüştürmeyi dene. Bu başarısız olabilir ve en kötü durumda onları öldürebilir.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">Karma Elf Muhafızını Kurnous Muhafızına 300 + 50 * Rütbe Altın karşılığında yükselt ve Rütbe² Lütuf kazan</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="tr" state="translated">Karma Elf Muhafızını Kurnous Muhafızına 300 + 50 * Rütbe Altın karşılığında yükselt ve Rütbe² Lütuf kazan</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">Bu rahibi 1000 Altın ve 250 Lütuf karşılığında vampire dönüştürmeyi dene. Bu başarısız olabilir ve en kötü durumda onları öldürebilir.</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="tr" state="translated">Bu rahibi 1000 Altın ve 250 Lütuf karşılığında vampire dönüştürmeyi dene. Bu başarısız olabilir ve en kötü durumda onları öldürebilir.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">Büyük kartalı 125 altın ve 70 lütuf karşılığında Kurnous&apos;un adına kutsa.</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="tr" state="translated">Büyük kartalı 125 altın ve 70 lütuf karşılığında Kurnous&apos;un adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Büyük kartalı 125 altın ve 70 lütuf karşılığında Khaine&apos;in adına kutsa.</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="tr" state="translated">Büyük kartalı 125 altın ve 70 lütuf karşılığında Khaine&apos;in adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">Büyük kartalı 125 altın ve 70 lütuf karşılığında Asuryan&apos;ın adına kutsa.</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="tr" state="translated">Büyük kartalı 125 altın ve 70 lütuf karşılığında Asuryan&apos;ın adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">Şahinleri 100 altın ve 40 lütuf karşılığında Kurnous&apos;un adına kutsa.</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="tr" state="translated">Şahinleri 100 altın ve 40 lütuf karşılığında Kurnous&apos;un adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Şahinleri 100 altın ve 40 lütuf karşılığında Khaine&apos;in adına kutsa.</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="tr" state="translated">Şahinleri 100 altın ve 40 lütuf karşılığında Khaine&apos;in adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">Şahinleri 100 altın ve 40 lütuf karşılığında Asuryan&apos;ın adına kutsa.</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="tr" state="translated">Şahinleri 100 altın ve 40 lütuf karşılığında Asuryan&apos;ın adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">Yarasaları 50 altın ve 20 lütuf karşılığında Kurnous&apos;un adına kutsa.</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="tr" state="translated">Yarasaları 50 altın ve 20 lütuf karşılığında Kurnous&apos;un adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Yarasaları 50 altın ve 20 lütuf karşılığında Khaine&apos;in adına kutsa.</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="tr" state="translated">Yarasaları 50 altın ve 20 lütuf karşılığında Khaine&apos;in adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">Yarasaları 50 altın ve 20 lütuf karşılığında Asuryan&apos;ın adına kutsa.</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="tr" state="translated">Yarasaları 50 altın ve 20 lütuf karşılığında Asuryan&apos;ın adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">Kurtları 75 altın ve 30 lütuf karşılığında Kurnous&apos;un adına kutsa.</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="tr" state="translated">Kurtları 75 altın ve 30 lütuf karşılığında Kurnous&apos;un adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Kurtları 75 altın ve 30 lütuf karşılığında Khaine&apos;in adına kutsa.</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="tr" state="translated">Kurtları 75 altın ve 30 lütuf karşılığında Khaine&apos;in adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">Kurtları 75 altın ve 30 lütuf karşılığında Asuryan&apos;ın adına kutsa.</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="tr" state="translated">Kurtları 75 altın ve 30 lütuf karşılığında Asuryan&apos;ın adına kutsa.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">Şapel Öncülerinin sayısını 250 altın karşılığında 5 artır. Rütbeler aktarılır.</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="tr" state="translated">Şapel Öncülerinin sayısını 250 altın karşılığında 5 artır. Rütbeler aktarılır.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Kurnous&apos;un Muhafızının sayısını 300 altın karşılığında 15 artır. Rütbeler ve Kıdemli statüsü aktarılır.</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="tr" state="translated">Kurnous&apos;un Muhafızının sayısını 300 altın karşılığında 15 artır. Rütbeler ve Kıdemli statüsü aktarılır.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Khaine&apos;in Muhafızının sayısını 300 altın karşılığında 15 artır. Rütbeler ve Kıdemli statüsü aktarılır.</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="tr" state="translated">Khaine&apos;in Muhafızının sayısını 300 altın karşılığında 15 artır. Rütbeler ve Kıdemli statüsü aktarılır.</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">Asuryan&apos;ın Muhafızının sayısını 300 altın karşılığında 15 artır. Rütbeler ve Kıdemli statüsü aktarılır.</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="tr" state="translated">Asuryan&apos;ın Muhafızının sayısını 300 altın karşılığında 15 artır. Rütbeler ve Kıdemli statüsü aktarılır.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_upgrade_tooltips__.loc.tsv">
     <body>
       <trans-unit id="upgrade_tooltips_idrinth_unit_asuryan" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">將混合精靈衛隊升級為阿蘇瑞安衛隊，花費 300 + 50 * 等級 金幣，獲得 等級² 眷顧</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Asuryan&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="zh-TW" state="translated">將混合精靈衛隊升級為阿蘇瑞安衛隊，花費 300 + 50 * 等級 金幣，獲得 等級² 眷顧</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_asuryan" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">嘗試將此祭司轉化為吸血鬼，花費 1000 金幣和 250 眷顧。這可能會失敗，最壞的情況是直接殺死他們。</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="zh-TW" state="translated">嘗試將此祭司轉化為吸血鬼，花費 1000 金幣和 250 眷顧。這可能會失敗，最壞的情況是直接殺死他們。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_khaine" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
-        <target state="translated">將混合精靈衛隊升級為凱恩衛隊，花費 300 + 50 * 等級 金幣，獲得 等級² 眷顧。</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Khaine&apos;s Guard for 300 + 50 * Rank Gold and gain Rank² Favour.</source>
+        <target xml:lang="zh-TW" state="translated">將混合精靈衛隊升級為凱恩衛隊，花費 300 + 50 * 等級 金幣，獲得 等級² 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_khaine" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">嘗試將此祭司轉化為吸血鬼，花費 1000 金幣和 250 眷顧。這可能會失敗，最壞的情況是直接殺死他們。</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="zh-TW" state="translated">嘗試將此祭司轉化為吸血鬼，花費 1000 金幣和 250 眷顧。這可能會失敗，最壞的情況是直接殺死他們。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_unit_kurnous" xml:space="preserve">
-        <source>Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
-        <target state="translated">將混合精靈衛隊升級為庫爾諾斯衛隊，花費 300 + 50 * 等級 金幣，獲得 等級² 眷顧</target>
+        <source xml:lang="en">Upgrade Mixed Elven Guard to Kurnous Guard for 300 + 50 * Rank Gold and gain Rank² Favour</source>
+        <target xml:lang="zh-TW" state="translated">將混合精靈衛隊升級為庫爾諾斯衛隊，花費 300 + 50 * 等級 金幣，獲得 等級² 眷顧</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_priest_kurnous" xml:space="preserve">
-        <source>Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
-        <target state="translated">嘗試將此祭司轉化為吸血鬼，花費 1000 金幣和 250 眷顧。這可能會失敗，最壞的情況是直接殺死他們。</target>
+        <source xml:lang="en">Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.</source>
+        <target xml:lang="zh-TW" state="translated">嘗試將此祭司轉化為吸血鬼，花費 1000 金幣和 250 眷顧。這可能會失敗，最壞的情況是直接殺死他們。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
-        <target state="translated">以庫爾諾斯之名祝福巨鷹，花費 125 金幣和 70 眷顧。</target>
+        <source xml:lang="en">Bless the great eagle in Kurnous&apos; name for 125 gold and 70 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以庫爾諾斯之名祝福巨鷹，花費 125 金幣和 70 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">以凱恩之名祝福巨鷹，花費 125 金幣和 70 眷顧。</target>
+        <source xml:lang="en">Bless the great eagle in Khaine&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以凱恩之名祝福巨鷹，花費 125 金幣和 70 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_eagle" xml:space="preserve">
-        <source>Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
-        <target state="translated">以阿蘇瑞安之名祝福巨鷹，花費 125 金幣和 70 眷顧。</target>
+        <source xml:lang="en">Bless the great eagle in Asuryan&apos;s name for 125 gold and 70 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以阿蘇瑞安之名祝福巨鷹，花費 125 金幣和 70 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_hawks" xml:space="preserve">
-        <source>Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
-        <target state="translated">以庫爾諾斯之名祝福獵鷹，花費 100 金幣和 40 眷顧。</target>
+        <source xml:lang="en">Bless the hawks in Kurnous&apos; name for 100 gold and 40 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以庫爾諾斯之名祝福獵鷹，花費 100 金幣和 40 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_hawks" xml:space="preserve">
-        <source>Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">以凱恩之名祝福獵鷹，花費 100 金幣和 40 眷顧。</target>
+        <source xml:lang="en">Bless the hawks in Khaine&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以凱恩之名祝福獵鷹，花費 100 金幣和 40 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_hawks" xml:space="preserve">
-        <source>Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
-        <target state="translated">以阿蘇瑞安之名祝福獵鷹，花費 100 金幣和 40 眷顧。</target>
+        <source xml:lang="en">Bless the hawks in Asuryan&apos;s name for 100 gold and 40 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以阿蘇瑞安之名祝福獵鷹，花費 100 金幣和 40 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_bats" xml:space="preserve">
-        <source>Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
-        <target state="translated">以庫爾諾斯之名祝福蝙蝠，花費 50 金幣和 20 眷顧。</target>
+        <source xml:lang="en">Bless the bats in Kurnous&apos; name for 50 gold and 20 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以庫爾諾斯之名祝福蝙蝠，花費 50 金幣和 20 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_bats" xml:space="preserve">
-        <source>Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">以凱恩之名祝福蝙蝠，花費 50 金幣和 20 眷顧。</target>
+        <source xml:lang="en">Bless the bats in Khaine&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以凱恩之名祝福蝙蝠，花費 50 金幣和 20 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_bats" xml:space="preserve">
-        <source>Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
-        <target state="translated">以阿蘇瑞安之名祝福蝙蝠，花費 50 金幣和 20 眷顧。</target>
+        <source xml:lang="en">Bless the bats in Asuryan&apos;s name for 50 gold and 20 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以阿蘇瑞安之名祝福蝙蝠，花費 50 金幣和 20 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_kurnous_wolves" xml:space="preserve">
-        <source>Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
-        <target state="translated">以庫爾諾斯之名祝福狼群，花費 75 金幣和 30 眷顧。</target>
+        <source xml:lang="en">Bless the wolves in Kurnous&apos; name for 75 gold and 30 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以庫爾諾斯之名祝福狼群，花費 75 金幣和 30 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_khaine_wolves" xml:space="preserve">
-        <source>Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">以凱恩之名祝福狼群，花費 75 金幣和 30 眷顧。</target>
+        <source xml:lang="en">Bless the wolves in Khaine&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以凱恩之名祝福狼群，花費 75 金幣和 30 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_animal_asuryan_wolves" xml:space="preserve">
-        <source>Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
-        <target state="translated">以阿蘇瑞安之名祝福狼群，花費 75 金幣和 30 眷顧。</target>
+        <source xml:lang="en">Bless the wolves in Asuryan&apos;s name for 75 gold and 30 favour.</source>
+        <target xml:lang="zh-TW" state="translated">以阿蘇瑞安之名祝福狼群，花費 75 金幣和 30 眷顧。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_outriders" xml:space="preserve">
-        <source>Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
-        <target state="translated">花費 250 金幣增加 5 名教堂斥候騎兵。等級保留。</target>
+        <source xml:lang="en">Increase the number of Chapel Outriders by 5 for 250 gold. Ranks carry over.</source>
+        <target xml:lang="zh-TW" state="translated">花費 250 金幣增加 5 名教堂斥候騎兵。等級保留。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_kurnous" xml:space="preserve">
-        <source>Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">花費 300 金幣增加 15 名庫爾諾斯衛隊。等級和老兵狀態保留。</target>
+        <source xml:lang="en">Increase the number of Kurnous&apos; Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="zh-TW" state="translated">花費 300 金幣增加 15 名庫爾諾斯衛隊。等級和老兵狀態保留。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_khaine" xml:space="preserve">
-        <source>Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">花費 300 金幣增加 15 名凱恩衛隊。等級和老兵狀態保留。</target>
+        <source xml:lang="en">Increase the number of Khaine&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="zh-TW" state="translated">花費 300 金幣增加 15 名凱恩衛隊。等級和老兵狀態保留。</target>
       </trans-unit>
       <trans-unit id="upgrade_tooltips_idrinth_size_asuryan" xml:space="preserve">
-        <source>Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
-        <target state="translated">花費 300 金幣增加 15 名阿蘇瑞安衛隊。等級和老兵狀態保留。</target>
+        <source xml:lang="en">Increase the number of Asuryan&apos;s Guard by 15 for 300 gold. Ranks and Veteran status carry over.</source>
+        <target xml:lang="zh-TW" state="translated">花費 300 金幣增加 15 名阿蘇瑞安衛隊。等級和老兵狀態保留。</target>
       </trans-unit>
     </body>
   </file>

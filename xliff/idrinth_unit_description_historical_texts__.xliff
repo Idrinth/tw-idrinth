@@ -3,864 +3,864 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">Lâminas empunhadas com elegância élfica e poder vampírico, arcos disparados com precisão élfica e força vampírica. Estas criaturas trazem medo à maioria dos corações.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="pt-BR" state="translated">Lâminas empunhadas com elegância élfica e poder vampírico, arcos disparados com precisão élfica e força vampírica. Estas criaturas trazem medo à maioria dos corações.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Estes exilados desesperados, aventureiros e mercenários protegem um santuário de Asuryan.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="pt-BR" state="translated">Estes exilados desesperados, aventureiros e mercenários protegem um santuário de Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Estes exilados desesperados, aventureiros e mercenários protegem um santuário de Kurnous.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="pt-BR" state="translated">Estes exilados desesperados, aventureiros e mercenários protegem um santuário de Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Estes exilados desesperados, aventureiros e mercenários protegem um santuário de Khaine.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="pt-BR" state="translated">Estes exilados desesperados, aventureiros e mercenários protegem um santuário de Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">Estes exilados desesperados, aventureiros e mercenários protegem uma capela para seus deuses.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="pt-BR" state="translated">Estes exilados desesperados, aventureiros e mercenários protegem uma capela para seus deuses.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Asuryan.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="pt-BR" state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Kurnous.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="pt-BR" state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Khaine.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="pt-BR" state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">Este santuário improvisado e animado para Asuryan, Kurnous e Khaine protege e ajuda os defensores a permanecerem firmes.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="pt-BR" state="translated">Este santuário improvisado e animado para Asuryan, Kurnous e Khaine protege e ajuda os defensores a permanecerem firmes.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">Estas bestas feitas de pedra combinam arte élfica com encantamentos devastadores, tornando-as uma das melhores tropas de choque disponíveis para as Capelas Thaluianas.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="pt-BR" state="translated">Estas bestas feitas de pedra combinam arte élfica com encantamentos devastadores, tornando-as uma das melhores tropas de choque disponíveis para as Capelas Thaluianas.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">Estes homens e mulheres orgulhosos cavalgam para proteger estradas e flancos, usando poções para aumentar sua sobrevivência e chances.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="pt-BR" state="translated">Estes homens e mulheres orgulhosos cavalgam para proteger estradas e flancos, usando poções para aumentar sua sobrevivência e chances.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Asuryan apesar de seu vampirismo.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="pt-BR" state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Asuryan apesar de seu vampirismo.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Kurnous apesar de seu vampirismo.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="pt-BR" state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Kurnous apesar de seu vampirismo.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Khaine apesar de seu vampirismo.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="pt-BR" state="translated">Estes antigos exilados, aventureiros e mercenários protegem um santuário de Khaine apesar de seu vampirismo.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">Estes vampiros fracassados eram anteriormente sacerdotes de Khaine.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="pt-BR" state="translated">Estes vampiros fracassados eram anteriormente sacerdotes de Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">Estes vampiros fracassados eram anteriormente sacerdotes de Kurnous.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="pt-BR" state="translated">Estes vampiros fracassados eram anteriormente sacerdotes de Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">Estes vampiros fracassados eram anteriormente sacerdotes de Asuryan.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="pt-BR" state="translated">Estes vampiros fracassados eram anteriormente sacerdotes de Asuryan.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">以精灵的优雅和吸血鬼的力量挥舞刀剑，以精灵的精准和吸血鬼的力量射箭。这些生物给大多数人的心中带来恐惧。</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="zh-CN" state="translated">以精灵的优雅和吸血鬼的力量挥舞刀剑，以精灵的精准和吸血鬼的力量射箭。这些生物给大多数人的心中带来恐惧。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">这些绝望的流亡者、冒险者和雇佣兵保护着阿苏里安的神龛。</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="zh-CN" state="translated">这些绝望的流亡者、冒险者和雇佣兵保护着阿苏里安的神龛。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">这些绝望的流亡者、冒险者和雇佣兵保护着库尔诺斯的神龛。</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="zh-CN" state="translated">这些绝望的流亡者、冒险者和雇佣兵保护着库尔诺斯的神龛。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">这些绝望的流亡者、冒险者和雇佣兵保护着凯恩的神龛。</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="zh-CN" state="translated">这些绝望的流亡者、冒险者和雇佣兵保护着凯恩的神龛。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">这些绝望的流亡者、冒险者和雇佣兵保护着供奉他们神灵的礼拜堂。</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="zh-CN" state="translated">这些绝望的流亡者、冒险者和雇佣兵保护着供奉他们神灵的礼拜堂。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">这些前流亡者、冒险者和雇佣兵保护着阿苏里安的神龛。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="zh-CN" state="translated">这些前流亡者、冒险者和雇佣兵保护着阿苏里安的神龛。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">这些前流亡者、冒险者和雇佣兵保护着库尔诺斯的神龛。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="zh-CN" state="translated">这些前流亡者、冒险者和雇佣兵保护着库尔诺斯的神龛。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">这些前流亡者、冒险者和雇佣兵保护着凯恩的神龛。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="zh-CN" state="translated">这些前流亡者、冒险者和雇佣兵保护着凯恩的神龛。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">这座供奉阿苏里安、库尔诺斯和凯恩的临时移动神龛保护并帮助防御者坚守阵地。</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="zh-CN" state="translated">这座供奉阿苏里安、库尔诺斯和凯恩的临时移动神龛保护并帮助防御者坚守阵地。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">这些石制野兽结合了精灵工艺与毁灭性附魔，使它们成为塔卢伊礼拜堂可用的最佳突击部队之一。</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="zh-CN" state="translated">这些石制野兽结合了精灵工艺与毁灭性附魔，使它们成为塔卢伊礼拜堂可用的最佳突击部队之一。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">这些骄傲的男男女女骑马出征，使用药剂来增强他们的生存能力和机会，以确保道路和侧翼安全。</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="zh-CN" state="translated">这些骄傲的男男女女骑马出征，使用药剂来增强他们的生存能力和机会，以确保道路和侧翼安全。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">这些前流亡者、冒险者和雇佣兵尽管已成为吸血鬼，仍然保护着阿苏里安的神龛。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="zh-CN" state="translated">这些前流亡者、冒险者和雇佣兵尽管已成为吸血鬼，仍然保护着阿苏里安的神龛。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">这些前流亡者、冒险者和雇佣兵尽管已成为吸血鬼，仍然保护着库尔诺斯的神龛。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="zh-CN" state="translated">这些前流亡者、冒险者和雇佣兵尽管已成为吸血鬼，仍然保护着库尔诺斯的神龛。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">这些前流亡者、冒险者和雇佣兵尽管已成为吸血鬼，仍然保护着凯恩的神龛。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="zh-CN" state="translated">这些前流亡者、冒险者和雇佣兵尽管已成为吸血鬼，仍然保护着凯恩的神龛。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">这些失败的吸血鬼曾经是凯恩的祭司。</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="zh-CN" state="translated">这些失败的吸血鬼曾经是凯恩的祭司。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">这些失败的吸血鬼曾经是库尔诺斯的祭司。</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="zh-CN" state="translated">这些失败的吸血鬼曾经是库尔诺斯的祭司。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">这些失败的吸血鬼曾经是阿苏里安的祭司。</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="zh-CN" state="translated">这些失败的吸血鬼曾经是阿苏里安的祭司。</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">Čepele mávané s elfí elegancí a upíří mocí, luky střílející s elfí přesností a upíří silou. Tato stvoření přinášejí strach do většiny srdcí.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="cs" state="translated">Čepele mávané s elfí elegancí a upíří mocí, luky střílející s elfí přesností a upíří silou. Tato stvoření přinášejí strach do většiny srdcí.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Asuryana.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="cs" state="translated">Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Asuryana.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Kurnouse.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="cs" state="translated">Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Kurnouse.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Khaina.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="cs" state="translated">Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Khaina.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání kapli svých bohů.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="cs" state="translated">Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání kapli svých bohů.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Asuryana.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="cs" state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Asuryana.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Kurnouse.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="cs" state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Kurnouse.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Khaina.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="cs" state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Khaina.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">Tato provizorní oživená svatyně Asuryana, Kurnouse a Khaina chrání a pomáhá obráncům stát pevně.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="cs" state="translated">Tato provizorní oživená svatyně Asuryana, Kurnouse a Khaina chrání a pomáhá obráncům stát pevně.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">Tyto kamenné bestie kombinují elfí umění s ničivými kouzly, činíc je jedněmi z nejlepších úderových jednotek dostupných Thaluiánským kaplím.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="cs" state="translated">Tyto kamenné bestie kombinují elfí umění s ničivými kouzly, činíc je jedněmi z nejlepších úderových jednotek dostupných Thaluiánským kaplím.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">Tito hrdí muži a ženy vyjíždějí zajistit cesty a boky, používajíc lektvary ke zvýšení přežití a šancí.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="cs" state="translated">Tito hrdí muži a ženy vyjíždějí zajistit cesty a boky, používajíc lektvary ke zvýšení přežití a šancí.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Asuryana navzdory jejich upířství.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="cs" state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Asuryana navzdory jejich upířství.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Kurnouse navzdory jejich upířství.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="cs" state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Kurnouse navzdory jejich upířství.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Khaina navzdory jejich upířství.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="cs" state="translated">Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Khaina navzdory jejich upířství.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">Tito zklamaní upíři byli dříve kněžími Khaina.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="cs" state="translated">Tito zklamaní upíři byli dříve kněžími Khaina.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">Tito zklamaní upíři byli dříve kněžími Kurnouse.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="cs" state="translated">Tito zklamaní upíři byli dříve kněžími Kurnouse.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">Tito zklamaní upíři byli dříve kněžími Asuryana.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="cs" state="translated">Tito zklamaní upíři byli dříve kněžími Asuryana.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">Mit elfischer Eleganz und vampirischer Macht geschwungene Klingen, mit elfischer Genauigkeit und vampirischer Kraft geschossene Bögen. Diese Kreaturen jagen den meisten Herzen Furcht ein.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="de" state="translated">Mit elfischer Eleganz und vampirischer Macht geschwungene Klingen, mit elfischer Genauigkeit und vampirischer Kraft geschossene Bögen. Diese Kreaturen jagen den meisten Herzen Furcht ein.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Diese verzweifelten Verbannten, Abenteurer und Söldner beschützen einen Schrein des Asuryan.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="de" state="translated">Diese verzweifelten Verbannten, Abenteurer und Söldner beschützen einen Schrein des Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Diese verzweifelten Verbannten, Abenteurer und Söldner beschützen einen Schrein des Kurnous.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="de" state="translated">Diese verzweifelten Verbannten, Abenteurer und Söldner beschützen einen Schrein des Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Diese verzweifelten Verbannten, Abenteurer und Söldner beschützen einen Schrein des Khaine.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="de" state="translated">Diese verzweifelten Verbannten, Abenteurer und Söldner beschützen einen Schrein des Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">Diese verzweifelten Verbannten, Abenteurer und Söldner beschützen eine Kapelle ihrer Götter.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="de" state="translated">Diese verzweifelten Verbannten, Abenteurer und Söldner beschützen eine Kapelle ihrer Götter.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen einen Schrein des Asuryan.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="de" state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen einen Schrein des Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen einen Schrein des Kurnous.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="de" state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen einen Schrein des Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen einen Schrein des Khaine.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="de" state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen einen Schrein des Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">Dieser behelfsmäßige, belebte Schrein zu Asuryan, Kurnous und Khaine beschützt und hilft den Verteidigern standhaft zu bleiben.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="de" state="translated">Dieser behelfsmäßige, belebte Schrein zu Asuryan, Kurnous und Khaine beschützt und hilft den Verteidigern standhaft zu bleiben.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">Diese aus Stein gefertigten Bestien verbinden elfische Kunstfertigkeit mit verheerenden Verzauberungen und machen sie zu einer der besten Stoßtruppen der Thaluischen Kapellen.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="de" state="translated">Diese aus Stein gefertigten Bestien verbinden elfische Kunstfertigkeit mit verheerenden Verzauberungen und machen sie zu einer der besten Stoßtruppen der Thaluischen Kapellen.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">Diese stolzen Männer und Frauen reiten aus, um Straßen und Flanken zu sichern, und nutzen Tränke, um ihre Überlebenschancen zu verbessern.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="de" state="translated">Diese stolzen Männer und Frauen reiten aus, um Straßen und Flanken zu sichern, und nutzen Tränke, um ihre Überlebenschancen zu verbessern.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen trotz ihres Vampirismus einen Schrein des Asuryan.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="de" state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen trotz ihres Vampirismus einen Schrein des Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen trotz ihres Vampirismus einen Schrein des Kurnous.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="de" state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen trotz ihres Vampirismus einen Schrein des Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen trotz ihres Vampirismus einen Schrein des Khaine.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="de" state="translated">Diese einstigen Verbannten, Abenteurer und Söldner beschützen trotz ihres Vampirismus einen Schrein des Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">Diese gescheiterten Vampire waren einst Priester des Khaine.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="de" state="translated">Diese gescheiterten Vampire waren einst Priester des Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">Diese gescheiterten Vampire waren einst Priester des Kurnous.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="de" state="translated">Diese gescheiterten Vampire waren einst Priester des Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">Diese gescheiterten Vampire waren einst Priester des Asuryan.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="de" state="translated">Diese gescheiterten Vampire waren einst Priester des Asuryan.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">Espadas blandidas con elegancia élfica y poder vampírico, arcos disparados con precisión élfica y fuerza vampírica. Estas criaturas infunden miedo en la mayoría de los corazones.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="es" state="translated">Espadas blandidas con elegancia élfica y poder vampírico, arcos disparados con precisión élfica y fuerza vampírica. Estas criaturas infunden miedo en la mayoría de los corazones.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Asuryan.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="es" state="translated">Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Kurnous.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="es" state="translated">Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Khaine.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="es" state="translated">Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">Estos exiliados, aventureros y mercenarios desesperados protegen una capilla dedicada a sus dioses.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="es" state="translated">Estos exiliados, aventureros y mercenarios desesperados protegen una capilla dedicada a sus dioses.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Asuryan.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="es" state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Kurnous.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="es" state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Khaine.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="es" state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">Este santuario improvisado y animado dedicado a Asuryan, Kurnous y Khaine protege y ayuda a los defensores a mantenerse firmes.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="es" state="translated">Este santuario improvisado y animado dedicado a Asuryan, Kurnous y Khaine protege y ayuda a los defensores a mantenerse firmes.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">Estas bestias hechas de piedra combinan el arte élfico con devastadores encantamientos, convirtiéndolas en una de las mejores tropas de choque disponibles para las Capillas Thaluianas.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="es" state="translated">Estas bestias hechas de piedra combinan el arte élfico con devastadores encantamientos, convirtiéndolas en una de las mejores tropas de choque disponibles para las Capillas Thaluianas.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">Estos orgullosos hombres y mujeres cabalgan para asegurar caminos y flancos, usando pociones para mejorar su supervivencia y oportunidades.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="es" state="translated">Estos orgullosos hombres y mujeres cabalgan para asegurar caminos y flancos, usando pociones para mejorar su supervivencia y oportunidades.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Asuryan a pesar de su vampirismo.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="es" state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Asuryan a pesar de su vampirismo.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Kurnous a pesar de su vampirismo.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="es" state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Kurnous a pesar de su vampirismo.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Khaine a pesar de su vampirismo.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="es" state="translated">Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Khaine a pesar de su vampirismo.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">Estos vampiros fallidos fueron anteriormente un sacerdote de Khaine.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="es" state="translated">Estos vampiros fallidos fueron anteriormente un sacerdote de Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">Estos vampiros fallidos fueron anteriormente un sacerdote de Kurnous.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="es" state="translated">Estos vampiros fallidos fueron anteriormente un sacerdote de Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">Estos vampiros fallidos fueron anteriormente un sacerdote de Asuryan.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="es" state="translated">Estos vampiros fallidos fueron anteriormente un sacerdote de Asuryan.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">Des lames maniées avec l&apos;élégance elfique et la puissance vampirique, des arcs tirés avec la précision elfique et la force vampirique. Ces créatures inspirent la peur dans la plupart des cœurs.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="fr" state="translated">Des lames maniées avec l&apos;élégance elfique et la puissance vampirique, des arcs tirés avec la précision elfique et la force vampirique. Ces créatures inspirent la peur dans la plupart des cœurs.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Ces exilés, aventuriers et mercenaires désespérés protègent un sanctuaire d&apos;Asuryan.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="fr" state="translated">Ces exilés, aventuriers et mercenaires désespérés protègent un sanctuaire d&apos;Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Ces exilés, aventuriers et mercenaires désespérés protègent un sanctuaire de Kurnous.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="fr" state="translated">Ces exilés, aventuriers et mercenaires désespérés protègent un sanctuaire de Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Ces exilés, aventuriers et mercenaires désespérés protègent un sanctuaire de Khaine.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="fr" state="translated">Ces exilés, aventuriers et mercenaires désespérés protègent un sanctuaire de Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">Ces exilés, aventuriers et mercenaires désespérés protègent une chapelle dédiée à leurs dieux.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="fr" state="translated">Ces exilés, aventuriers et mercenaires désespérés protègent une chapelle dédiée à leurs dieux.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire d&apos;Asuryan.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="fr" state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire d&apos;Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire de Kurnous.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="fr" state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire de Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire de Khaine.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="fr" state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire de Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">Ce sanctuaire improvisé et animé dédié à Asuryan, Kurnous et Khaine protège et aide les défenseurs à tenir bon.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="fr" state="translated">Ce sanctuaire improvisé et animé dédié à Asuryan, Kurnous et Khaine protège et aide les défenseurs à tenir bon.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">Ces bêtes de pierre combinent l&apos;art elfique avec des enchantements dévastateurs, en faisant l&apos;une des meilleures troupes de choc disponibles pour les Chapelles Thaluiennes.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="fr" state="translated">Ces bêtes de pierre combinent l&apos;art elfique avec des enchantements dévastateurs, en faisant l&apos;une des meilleures troupes de choc disponibles pour les Chapelles Thaluiennes.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">Ces hommes et femmes fiers chevauchent pour sécuriser les routes et les flancs, utilisant des potions pour améliorer leur survie et leurs chances.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="fr" state="translated">Ces hommes et femmes fiers chevauchent pour sécuriser les routes et les flancs, utilisant des potions pour améliorer leur survie et leurs chances.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire d&apos;Asuryan malgré leur vampirisme.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="fr" state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire d&apos;Asuryan malgré leur vampirisme.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire de Kurnous malgré leur vampirisme.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="fr" state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire de Kurnous malgré leur vampirisme.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire de Khaine malgré leur vampirisme.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="fr" state="translated">Ces anciens exilés, aventuriers et mercenaires protègent un sanctuaire de Khaine malgré leur vampirisme.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">Ces vampires ratés étaient autrefois des prêtres de Khaine.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="fr" state="translated">Ces vampires ratés étaient autrefois des prêtres de Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">Ces vampires ratés étaient autrefois des prêtres de Kurnous.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="fr" state="translated">Ces vampires ratés étaient autrefois des prêtres de Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">Ces vampires ratés étaient autrefois des prêtres d&apos;Asuryan.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="fr" state="translated">Ces vampires ratés étaient autrefois des prêtres d&apos;Asuryan.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">Lame brandite con eleganza elfica e potenza vampirica, archi scoccati con precisione elfica e potere vampirico. Queste creature portano paura nella maggior parte dei cuori.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="it" state="translated">Lame brandite con eleganza elfica e potenza vampirica, archi scoccati con precisione elfica e potere vampirico. Queste creature portano paura nella maggior parte dei cuori.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Questi esuli disperati, avventurieri e mercenari proteggono un santuario di Asuryan.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="it" state="translated">Questi esuli disperati, avventurieri e mercenari proteggono un santuario di Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Questi esuli disperati, avventurieri e mercenari proteggono un santuario di Kurnous.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="it" state="translated">Questi esuli disperati, avventurieri e mercenari proteggono un santuario di Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Questi esuli disperati, avventurieri e mercenari proteggono un santuario di Khaine.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="it" state="translated">Questi esuli disperati, avventurieri e mercenari proteggono un santuario di Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">Questi esuli disperati, avventurieri e mercenari proteggono una cappella dedicata ai loro dei.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="it" state="translated">Questi esuli disperati, avventurieri e mercenari proteggono una cappella dedicata ai loro dei.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Asuryan.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="it" state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Asuryan.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Kurnous.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="it" state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Khaine.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="it" state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">Questo santuario improvvisato e animato ad Asuryan, Kurnous e Khaine protegge e aiuta i difensori a resistere.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="it" state="translated">Questo santuario improvvisato e animato ad Asuryan, Kurnous e Khaine protegge e aiuta i difensori a resistere.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">Queste bestie fatte di pietra combinano l&apos;arte elfica con incantesimi devastanti, rendendole alcune delle migliori truppe d&apos;assalto disponibili per le Cappelle Thaluiane.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="it" state="translated">Queste bestie fatte di pietra combinano l&apos;arte elfica con incantesimi devastanti, rendendole alcune delle migliori truppe d&apos;assalto disponibili per le Cappelle Thaluiane.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">Questi uomini e donne orgogliosi cavalcano avanti per proteggere le strade e i fianchi, usando pozioni per migliorare la loro sopravvivenza e le loro possibilità.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="it" state="translated">Questi uomini e donne orgogliosi cavalcano avanti per proteggere le strade e i fianchi, usando pozioni per migliorare la loro sopravvivenza e le loro possibilità.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Asuryan nonostante il loro vampirismo.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="it" state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Asuryan nonostante il loro vampirismo.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Kurnous nonostante il loro vampirismo.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="it" state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Kurnous nonostante il loro vampirismo.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Khaine nonostante il loro vampirismo.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="it" state="translated">Questi ex esuli, avventurieri e mercenari proteggono un santuario di Khaine nonostante il loro vampirismo.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">Questi vampiri falliti erano un tempo sacerdoti di Khaine.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="it" state="translated">Questi vampiri falliti erano un tempo sacerdoti di Khaine.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">Questi vampiri falliti erano un tempo sacerdoti di Kurnous.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="it" state="translated">Questi vampiri falliti erano un tempo sacerdoti di Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">Questi vampiri falliti erano un tempo sacerdoti di Asuryan.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="it" state="translated">Questi vampiri falliti erano un tempo sacerdoti di Asuryan.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">엘프의 우아함과 뱀파이어의 힘으로 휘두르는 검, 엘프의 정확성과 뱀파이어의 힘으로 쏘는 활. 이 존재들은 대부분의 마음에 두려움을 가져다줍니다.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="ko" state="translated">엘프의 우아함과 뱀파이어의 힘으로 휘두르는 검, 엘프의 정확성과 뱀파이어의 힘으로 쏘는 활. 이 존재들은 대부분의 마음에 두려움을 가져다줍니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">이 절박한 망명자, 모험가, 용병들이 아수리안의 성소를 보호합니다.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="ko" state="translated">이 절박한 망명자, 모험가, 용병들이 아수리안의 성소를 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">이 절박한 망명자, 모험가, 용병들이 쿠르노스의 성소를 보호합니다.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="ko" state="translated">이 절박한 망명자, 모험가, 용병들이 쿠르노스의 성소를 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">이 절박한 망명자, 모험가, 용병들이 카인의 성소를 보호합니다.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="ko" state="translated">이 절박한 망명자, 모험가, 용병들이 카인의 성소를 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">이 절박한 망명자, 모험가, 용병들이 신들에게 바친 예배당을 보호합니다.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="ko" state="translated">이 절박한 망명자, 모험가, 용병들이 신들에게 바친 예배당을 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">이 전 망명자, 모험가, 용병들이 아수리안의 성소를 보호합니다.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="ko" state="translated">이 전 망명자, 모험가, 용병들이 아수리안의 성소를 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">이 전 망명자, 모험가, 용병들이 쿠르노스의 성소를 보호합니다.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="ko" state="translated">이 전 망명자, 모험가, 용병들이 쿠르노스의 성소를 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">이 전 망명자, 모험가, 용병들이 카인의 성소를 보호합니다.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="ko" state="translated">이 전 망명자, 모험가, 용병들이 카인의 성소를 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">아수리안, 쿠르노스, 카인에게 바친 이 임시 변통의 움직이는 성소는 수비수들을 보호하고 굳건히 서도록 돕습니다.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="ko" state="translated">아수리안, 쿠르노스, 카인에게 바친 이 임시 변통의 움직이는 성소는 수비수들을 보호하고 굳건히 서도록 돕습니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">돌로 만든 이 야수들은 엘프의 예술성과 파괴적인 마법을 결합하여 탈루이안 예배당에서 사용 가능한 최고의 충격 부대 중 하나가 됩니다.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="ko" state="translated">돌로 만든 이 야수들은 엘프의 예술성과 파괴적인 마법을 결합하여 탈루이안 예배당에서 사용 가능한 최고의 충격 부대 중 하나가 됩니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">이 자랑스러운 남녀들이 도로와 측면을 확보하기 위해 나서며, 생존 가능성과 기회를 높이기 위해 물약을 사용합니다.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="ko" state="translated">이 자랑스러운 남녀들이 도로와 측면을 확보하기 위해 나서며, 생존 가능성과 기회를 높이기 위해 물약을 사용합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">이 전 망명자, 모험가, 용병들이 뱀파이어화에도 불구하고 아수리안의 성소를 보호합니다.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="ko" state="translated">이 전 망명자, 모험가, 용병들이 뱀파이어화에도 불구하고 아수리안의 성소를 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">이 전 망명자, 모험가, 용병들이 뱀파이어화에도 불구하고 쿠르노스의 성소를 보호합니다.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="ko" state="translated">이 전 망명자, 모험가, 용병들이 뱀파이어화에도 불구하고 쿠르노스의 성소를 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">이 전 망명자, 모험가, 용병들이 뱀파이어화에도 불구하고 카인의 성소를 보호합니다.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="ko" state="translated">이 전 망명자, 모험가, 용병들이 뱀파이어화에도 불구하고 카인의 성소를 보호합니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">이 실패한 뱀파이어들은 이전에 카인의 사제였습니다.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="ko" state="translated">이 실패한 뱀파이어들은 이전에 카인의 사제였습니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">이 실패한 뱀파이어들은 이전에 쿠르노스의 사제였습니다.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="ko" state="translated">이 실패한 뱀파이어들은 이전에 쿠르노스의 사제였습니다.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">이 실패한 뱀파이어들은 이전에 아수리안의 사제였습니다.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="ko" state="translated">이 실패한 뱀파이어들은 이전에 아수리안의 사제였습니다.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">Ostrza wymachiwane z elficką elegancją i wampiryczną mocą, łuki strzelające z elficką precyzją i wampiryczną siłą. Te stworzenia budzą strach w większości serc.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="pl" state="translated">Ostrza wymachiwane z elficką elegancją i wampiryczną mocą, łuki strzelające z elficką precyzją i wampiryczną siłą. Te stworzenia budzą strach w większości serc.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Ci zdesperowani wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Asuryana.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="pl" state="translated">Ci zdesperowani wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Asuryana.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Ci zdesperowani wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Kurnous.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="pl" state="translated">Ci zdesperowani wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Ci zdesperowani wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Khaine&apos;a.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="pl" state="translated">Ci zdesperowani wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Khaine&apos;a.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">Ci zdesperowani wygnańcy, poszukiwacze przygód i najemnicy chronią kaplicę swoich bogów.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="pl" state="translated">Ci zdesperowani wygnańcy, poszukiwacze przygód i najemnicy chronią kaplicę swoich bogów.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Asuryana.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="pl" state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Asuryana.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Kurnous.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="pl" state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Khaine&apos;a.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="pl" state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Khaine&apos;a.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">To prowizoryczne, ożywione sanktuarium Asuryana, Kurnous i Khaine&apos;a chroni i pomaga obrońcom stać mocno.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="pl" state="translated">To prowizoryczne, ożywione sanktuarium Asuryana, Kurnous i Khaine&apos;a chroni i pomaga obrońcom stać mocno.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">Te kamienne bestie łączą elficką artystyczność z niszczycielskimi zaklęciami, czyniąc je jednymi z najlepszych wojsk szturmowych dostępnych dla Thaluiańskich Kaplic.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="pl" state="translated">Te kamienne bestie łączą elficką artystyczność z niszczycielskimi zaklęciami, czyniąc je jednymi z najlepszych wojsk szturmowych dostępnych dla Thaluiańskich Kaplic.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">Ci dumni mężczyźni i kobiety wyruszają na koniach, by zabezpieczyć drogi i flanki, używając mikstur do zwiększenia swojej przeżywalności i szans.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="pl" state="translated">Ci dumni mężczyźni i kobiety wyruszają na koniach, by zabezpieczyć drogi i flanki, używając mikstur do zwiększenia swojej przeżywalności i szans.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Asuryana pomimo swojego wampiryzmu.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="pl" state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Asuryana pomimo swojego wampiryzmu.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Kurnous pomimo swojego wampiryzmu.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="pl" state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Kurnous pomimo swojego wampiryzmu.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Khaine&apos;a pomimo swojego wampiryzmu.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="pl" state="translated">Ci dawni wygnańcy, poszukiwacze przygód i najemnicy chronią sanktuarium Khaine&apos;a pomimo swojego wampiryzmu.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">Ci nieudani wampiry byli niegdyś kapłanami Khaine&apos;a.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="pl" state="translated">Ci nieudani wampiry byli niegdyś kapłanami Khaine&apos;a.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">Ci nieudani wampiry byli niegdyś kapłanami Kurnous.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="pl" state="translated">Ci nieudani wampiry byli niegdyś kapłanami Kurnous.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">Ci nieudani wampiry byli niegdyś kapłanami Asuryana.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="pl" state="translated">Ci nieudani wampiry byli niegdyś kapłanami Asuryana.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">Клинки, взмахиваемые с эльфийской элегантностью и вампирской мощью, луки, стреляющие с эльфийской точностью и вампирской силой. Эти создания вселяют страх в большинство сердец.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="ru" state="translated">Клинки, взмахиваемые с эльфийской элегантностью и вампирской мощью, луки, стреляющие с эльфийской точностью и вампирской силой. Эти создания вселяют страх в большинство сердец.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Эти отчаянные изгнанники, искатели приключений и наёмники защищают святилище Асуриана.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="ru" state="translated">Эти отчаянные изгнанники, искатели приключений и наёмники защищают святилище Асуриана.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Эти отчаянные изгнанники, искатели приключений и наёмники защищают святилище Курноуса.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="ru" state="translated">Эти отчаянные изгнанники, искатели приключений и наёмники защищают святилище Курноуса.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Эти отчаянные изгнанники, искатели приключений и наёмники защищают святилище Кхейна.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="ru" state="translated">Эти отчаянные изгнанники, искатели приключений и наёмники защищают святилище Кхейна.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">Эти отчаянные изгнанники, искатели приключений и наёмники защищают капеллу своих богов.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="ru" state="translated">Эти отчаянные изгнанники, искатели приключений и наёмники защищают капеллу своих богов.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Асуриана.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="ru" state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Асуриана.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Курноуса.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="ru" state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Курноуса.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Кхейна.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="ru" state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Кхейна.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">Это импровизированное, анимированное святилище Асуриану, Курноусу и Кхейну защищает и помогает защитникам стоять твёрдо.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="ru" state="translated">Это импровизированное, анимированное святилище Асуриану, Курноусу и Кхейну защищает и помогает защитникам стоять твёрдо.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">Эти каменные звери сочетают эльфийское мастерство с разрушительными чарами, делая их одними из лучших ударных войск, доступных Талуианским Капеллам.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="ru" state="translated">Эти каменные звери сочетают эльфийское мастерство с разрушительными чарами, делая их одними из лучших ударных войск, доступных Талуианским Капеллам.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">Эти гордые мужчины и женщины выезжают охранять дороги и фланги, используя зелья для повышения своей выживаемости и шансов.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="ru" state="translated">Эти гордые мужчины и женщины выезжают охранять дороги и фланги, используя зелья для повышения своей выживаемости и шансов.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Асуриана, несмотря на свой вампиризм.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="ru" state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Асуриана, несмотря на свой вампиризм.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Курноуса, несмотря на свой вампиризм.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="ru" state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Курноуса, несмотря на свой вампиризм.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Кхейна, несмотря на свой вампиризм.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="ru" state="translated">Эти бывшие изгнанники, искатели приключений и наёмники защищают святилище Кхейна, несмотря на свой вампиризм.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">Эти неудавшиеся вампиры были прежде жрецами Кхейна.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="ru" state="translated">Эти неудавшиеся вампиры были прежде жрецами Кхейна.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">Эти неудавшиеся вампиры были прежде жрецами Курноуса.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="ru" state="translated">Эти неудавшиеся вампиры были прежде жрецами Курноуса.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">Эти неудавшиеся вампиры были прежде жрецами Асуриана.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="ru" state="translated">Эти неудавшиеся вампиры были прежде жрецами Асуриана.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">Elf zarafeti ve vampirik güçle savrulan kılıçlar, elf isabetliliği ve vampirik güçle atılan oklar. Bu yaratıklar çoğu kalbe korku salar.</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="tr" state="translated">Elf zarafeti ve vampirik güçle savrulan kılıçlar, elf isabetliliği ve vampirik güçle atılan oklar. Bu yaratıklar çoğu kalbe korku salar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Bu umutsuz sürgünler, maceracılar ve paralı askerler Asuryan&apos;ın türbesini korurlar.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="tr" state="translated">Bu umutsuz sürgünler, maceracılar ve paralı askerler Asuryan&apos;ın türbesini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Bu umutsuz sürgünler, maceracılar ve paralı askerler Kurnous&apos;un türbesini korurlar.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="tr" state="translated">Bu umutsuz sürgünler, maceracılar ve paralı askerler Kurnous&apos;un türbesini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Bu umutsuz sürgünler, maceracılar ve paralı askerler Khaine&apos;in türbesini korurlar.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="tr" state="translated">Bu umutsuz sürgünler, maceracılar ve paralı askerler Khaine&apos;in türbesini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">Bu umutsuz sürgünler, maceracılar ve paralı askerler tanrılarının şapelini korurlar.</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="tr" state="translated">Bu umutsuz sürgünler, maceracılar ve paralı askerler tanrılarının şapelini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">Bu eski sürgünler, maceracılar ve paralı askerler Asuryan&apos;ın türbesini korurlar.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="tr" state="translated">Bu eski sürgünler, maceracılar ve paralı askerler Asuryan&apos;ın türbesini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">Bu eski sürgünler, maceracılar ve paralı askerler Kurnous&apos;un türbesini korurlar.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="tr" state="translated">Bu eski sürgünler, maceracılar ve paralı askerler Kurnous&apos;un türbesini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">Bu eski sürgünler, maceracılar ve paralı askerler Khaine&apos;in türbesini korurlar.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="tr" state="translated">Bu eski sürgünler, maceracılar ve paralı askerler Khaine&apos;in türbesini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">Asuryan, Kurnous ve Khaine&apos;e adanmış bu derme çatma, canlandırılmış türbe savunucuları korur ve direnişte güçlü durmalarına yardımcı olur.</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="tr" state="translated">Asuryan, Kurnous ve Khaine&apos;e adanmış bu derme çatma, canlandırılmış türbe savunucuları korur ve direnişte güçlü durmalarına yardımcı olur.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">Bu taştan yapılmış canavarlar elf sanatçılığını yıkıcı büyülerle birleştirerek Thalui Şapellerinin en iyi şok birliklerinden biri haline gelir.</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="tr" state="translated">Bu taştan yapılmış canavarlar elf sanatçılığını yıkıcı büyülerle birleştirerek Thalui Şapellerinin en iyi şok birliklerinden biri haline gelir.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">Bu gururlu erkekler ve kadınlar yolları ve kanatları güvence altına almak için ileriye sürer, hayatta kalma şanslarını artırmak için iksirler kullanırlar.</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="tr" state="translated">Bu gururlu erkekler ve kadınlar yolları ve kanatları güvence altına almak için ileriye sürer, hayatta kalma şanslarını artırmak için iksirler kullanırlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">Bu eski sürgünler, maceracılar ve paralı askerler vampirizmine rağmen Asuryan&apos;ın türbesini korurlar.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="tr" state="translated">Bu eski sürgünler, maceracılar ve paralı askerler vampirizmine rağmen Asuryan&apos;ın türbesini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">Bu eski sürgünler, maceracılar ve paralı askerler vampirizmine rağmen Kurnous&apos;un türbesini korurlar.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="tr" state="translated">Bu eski sürgünler, maceracılar ve paralı askerler vampirizmine rağmen Kurnous&apos;un türbesini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">Bu eski sürgünler, maceracılar ve paralı askerler vampirizmine rağmen Khaine&apos;in türbesini korurlar.</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="tr" state="translated">Bu eski sürgünler, maceracılar ve paralı askerler vampirizmine rağmen Khaine&apos;in türbesini korurlar.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">Bu başarısız vampirler eskiden Khaine&apos;in rahipleriydi.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="tr" state="translated">Bu başarısız vampirler eskiden Khaine&apos;in rahipleriydi.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">Bu başarısız vampirler eskiden Kurnous&apos;un rahipleriydi.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="tr" state="translated">Bu başarısız vampirler eskiden Kurnous&apos;un rahipleriydi.</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">Bu başarısız vampirler eskiden Asuryan&apos;ın rahipleriydi.</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="tr" state="translated">Bu başarısız vampirler eskiden Asuryan&apos;ın rahipleriydi.</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_unit_description_historical_texts__.loc.tsv">
     <body>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
-        <source>Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
-        <target state="translated">以精靈的優雅和吸血鬼的力量揮劍，以精靈的精準和吸血鬼的力量射箭。這些生物令大多數人心生恐懼。</target>
+        <source xml:lang="en">Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.</source>
+        <target xml:lang="zh-TW" state="translated">以精靈的優雅和吸血鬼的力量揮劍，以精靈的精準和吸血鬼的力量射箭。這些生物令大多數人心生恐懼。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">這些絕望的流亡者、冒險家和傭兵守護著一座阿蘇瑞安聖壇。</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="zh-TW" state="translated">這些絕望的流亡者、冒險家和傭兵守護著一座阿蘇瑞安聖壇。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">這些絕望的流亡者、冒險家和傭兵守護著一座庫爾諾斯聖壇。</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="zh-TW" state="translated">這些絕望的流亡者、冒險家和傭兵守護著一座庫爾諾斯聖壇。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">這些絕望的流亡者、冒險家和傭兵守護著一座凱恩聖壇。</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="zh-TW" state="translated">這些絕望的流亡者、冒險家和傭兵守護著一座凱恩聖壇。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
-        <source>These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
-        <target state="translated">這些絕望的流亡者、冒險家和傭兵守護著一座獻給他們神祇的教堂。</target>
+        <source xml:lang="en">These desperate exiles, adventurers and mercenaries protect a chapel to their gods.</source>
+        <target xml:lang="zh-TW" state="translated">這些絕望的流亡者、冒險家和傭兵守護著一座獻給他們神祇的教堂。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
-        <target state="translated">這些曾經的流亡者、冒險家和傭兵守護著一座阿蘇瑞安聖壇。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan.</source>
+        <target xml:lang="zh-TW" state="translated">這些曾經的流亡者、冒險家和傭兵守護著一座阿蘇瑞安聖壇。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
-        <target state="translated">這些曾經的流亡者、冒險家和傭兵守護著一座庫爾諾斯聖壇。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous.</source>
+        <target xml:lang="zh-TW" state="translated">這些曾經的流亡者、冒險家和傭兵守護著一座庫爾諾斯聖壇。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
-        <target state="translated">這些曾經的流亡者、冒險家和傭兵守護著一座凱恩聖壇。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine.</source>
+        <target xml:lang="zh-TW" state="translated">這些曾經的流亡者、冒險家和傭兵守護著一座凱恩聖壇。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
-        <source>This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
-        <target state="translated">這座臨時製作的、獻給阿蘇瑞安、庫爾諾斯和凱恩的活動神殿保護並幫助守軍堅守陣地。</target>
+        <source xml:lang="en">This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.</source>
+        <target xml:lang="zh-TW" state="translated">這座臨時製作的、獻給阿蘇瑞安、庫爾諾斯和凱恩的活動神殿保護並幫助守軍堅守陣地。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
-        <source>This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
-        <target state="translated">這些石製野獸結合了精靈工藝和毀滅性附魔，使它們成為塔路易教堂最好的衝擊部隊之一。</target>
+        <source xml:lang="en">This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.</source>
+        <target xml:lang="zh-TW" state="translated">這些石製野獸結合了精靈工藝和毀滅性附魔，使它們成為塔路易教堂最好的衝擊部隊之一。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
-        <source>These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
-        <target state="translated">這些驕傲的男女騎馬出擊，保護道路和側翼，使用藥劑來增強他們的生存能力和機會。</target>
+        <source xml:lang="en">These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.</source>
+        <target xml:lang="zh-TW" state="translated">這些驕傲的男女騎馬出擊，保護道路和側翼，使用藥劑來增強他們的生存能力和機會。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
-        <target state="translated">這些曾經的流亡者、冒險家和傭兵儘管身為吸血鬼，仍守護著一座阿蘇瑞安聖壇。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.</source>
+        <target xml:lang="zh-TW" state="translated">這些曾經的流亡者、冒險家和傭兵儘管身為吸血鬼，仍守護著一座阿蘇瑞安聖壇。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
-        <target state="translated">這些曾經的流亡者、冒險家和傭兵儘管身為吸血鬼，仍守護著一座庫爾諾斯聖壇。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.</source>
+        <target xml:lang="zh-TW" state="translated">這些曾經的流亡者、冒險家和傭兵儘管身為吸血鬼，仍守護著一座庫爾諾斯聖壇。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
-        <source>These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
-        <target state="translated">這些曾經的流亡者、冒險家和傭兵儘管身為吸血鬼，仍守護著一座凱恩聖壇。</target>
+        <source xml:lang="en">These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.</source>
+        <target xml:lang="zh-TW" state="translated">這些曾經的流亡者、冒險家和傭兵儘管身為吸血鬼，仍守護著一座凱恩聖壇。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Khaine.</source>
-        <target state="translated">這些失敗的吸血鬼曾是凱恩的祭司。</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Khaine.</source>
+        <target xml:lang="zh-TW" state="translated">這些失敗的吸血鬼曾是凱恩的祭司。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Kurnous.</source>
-        <target state="translated">這些失敗的吸血鬼曾是庫爾諾斯的祭司。</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Kurnous.</source>
+        <target xml:lang="zh-TW" state="translated">這些失敗的吸血鬼曾是庫爾諾斯的祭司。</target>
       </trans-unit>
       <trans-unit id="unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
-        <source>These failed vampires were formerly a priest of Asuryan.</source>
-        <target state="translated">這些失敗的吸血鬼曾是阿蘇瑞安的祭司。</target>
+        <source xml:lang="en">These failed vampires were formerly a priest of Asuryan.</source>
+        <target xml:lang="zh-TW" state="translated">這些失敗的吸血鬼曾是阿蘇瑞安的祭司。</target>
       </trans-unit>
     </body>
   </file>

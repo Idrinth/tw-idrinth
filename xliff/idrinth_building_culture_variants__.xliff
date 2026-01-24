@@ -3,1728 +3,1728 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">Capela Thaluiana</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="pt-BR" state="translated">Capela Thaluiana</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">Capela Thaluiana de Asuryan</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="pt-BR" state="translated">Capela Thaluiana de Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">Capela Thaluiana de Kurnous</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="pt-BR" state="translated">Capela Thaluiana de Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">Capela Thaluiana de Khaine</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="pt-BR" state="translated">Capela Thaluiana de Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">Grande Capela Thaluiana de Asuryan</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="pt-BR" state="translated">Grande Capela Thaluiana de Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">Grande Capela Thaluiana de Kurnous</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="pt-BR" state="translated">Grande Capela Thaluiana de Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">Grande Capela Thaluiana de Khaine</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="pt-BR" state="translated">Grande Capela Thaluiana de Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">Cabana Veterinária</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="pt-BR" state="translated">Cabana Veterinária</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">Casa Veterinária</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="pt-BR" state="translated">Casa Veterinária</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">Mansão Veterinária</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="pt-BR" state="translated">Mansão Veterinária</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">Pequeno Alcance</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="pt-BR" state="translated">Pequeno Alcance</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">Alcance</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="pt-BR" state="translated">Alcance</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">Artesãos de Altar</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="pt-BR" state="translated">Artesãos de Altar</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">Pequeno Acampamento Thaluiano</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="pt-BR" state="translated">Pequeno Acampamento Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">Carroça de Curandeiro</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="pt-BR" state="translated">Carroça de Curandeiro</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">Intendente</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="pt-BR" state="translated">Intendente</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">Comerciante</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="pt-BR" state="translated">Comerciante</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">Acampamento Thaluiano</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="pt-BR" state="translated">Acampamento Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">Carroça do Mestre Curandeiro</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="pt-BR" state="translated">Carroça do Mestre Curandeiro</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">Conselho do Acampamento</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="pt-BR" state="translated">Conselho do Acampamento</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">Mercador</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="pt-BR" state="translated">Mercador</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">Grande Acampamento Thaluiano</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="pt-BR" state="translated">Grande Acampamento Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">Carroça Escola de Curandeiros</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="pt-BR" state="translated">Carroça Escola de Curandeiros</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">Alto Conselho</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="pt-BR" state="translated">Alto Conselho</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">Assembleia de Mercadores</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="pt-BR" state="translated">Assembleia de Mercadores</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">Pequeno Bairro dos Artesãos</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="pt-BR" state="translated">Pequeno Bairro dos Artesãos</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Bairro dos Artesãos</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="pt-BR" state="translated">Bairro dos Artesãos</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">Pequena Taverna Élfica</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="pt-BR" state="translated">Pequena Taverna Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverna Élfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="pt-BR" state="translated">Taverna Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">Grande Taverna Élfica</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="pt-BR" state="translated">Grande Taverna Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Élfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="pt-BR" state="translated">Biblioteca Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">Vila Móvel Thaluiana</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="pt-BR" state="translated">Vila Móvel Thaluiana</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">Carroças da Academia de Curandeiros</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="pt-BR" state="translated">Carroças da Academia de Curandeiros</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">Governo da Vila</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="pt-BR" state="translated">Governo da Vila</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">Guilda de Mercadores</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="pt-BR" state="translated">Guilda de Mercadores</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">塔卢伊礼拜堂</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="zh-CN" state="translated">塔卢伊礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">塔卢伊阿苏里安礼拜堂</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="zh-CN" state="translated">塔卢伊阿苏里安礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">塔卢伊库尔诺斯礼拜堂</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="zh-CN" state="translated">塔卢伊库尔诺斯礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">塔卢伊凯恩礼拜堂</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="zh-CN" state="translated">塔卢伊凯恩礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">塔卢伊阿苏里安大礼拜堂</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="zh-CN" state="translated">塔卢伊阿苏里安大礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">塔卢伊库尔诺斯大礼拜堂</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="zh-CN" state="translated">塔卢伊库尔诺斯大礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">塔卢伊凯恩大礼拜堂</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="zh-CN" state="translated">塔卢伊凯恩大礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">兽医小屋</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="zh-CN" state="translated">兽医小屋</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">兽医所</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="zh-CN" state="translated">兽医所</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">兽医馆</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="zh-CN" state="translated">兽医馆</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">小型外联处</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="zh-CN" state="translated">小型外联处</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">外联处</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="zh-CN" state="translated">外联处</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">祭坛工坊</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="zh-CN" state="translated">祭坛工坊</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">小型塔卢伊营地</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="zh-CN" state="translated">小型塔卢伊营地</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">治疗马车</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="zh-CN" state="translated">治疗马车</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">军需官</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="zh-CN" state="translated">军需官</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">商人</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="zh-CN" state="translated">商人</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">塔卢伊营地</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="zh-CN" state="translated">塔卢伊营地</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">大师治疗马车</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="zh-CN" state="translated">大师治疗马车</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">营地议会</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="zh-CN" state="translated">营地议会</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">商贾</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="zh-CN" state="translated">商贾</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">大型塔卢伊营地</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="zh-CN" state="translated">大型塔卢伊营地</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">治疗学院马车</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="zh-CN" state="translated">治疗学院马车</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">高级议会</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="zh-CN" state="translated">高级议会</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">商会</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="zh-CN" state="translated">商会</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">小型工匠区</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="zh-CN" state="translated">小型工匠区</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">工匠区</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="zh-CN" state="translated">工匠区</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">小型精灵酒馆</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="zh-CN" state="translated">小型精灵酒馆</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">精灵酒馆</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="zh-CN" state="translated">精灵酒馆</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">大型精灵酒馆</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="zh-CN" state="translated">大型精灵酒馆</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">精灵图书馆</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="zh-CN" state="translated">精灵图书馆</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">移动塔卢伊村落</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="zh-CN" state="translated">移动塔卢伊村落</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">治疗学院马车队</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="zh-CN" state="translated">治疗学院马车队</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">村落政府</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="zh-CN" state="translated">村落政府</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">商人公会</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="zh-CN" state="translated">商人公会</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">Thaluiánská kaple</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="cs" state="translated">Thaluiánská kaple</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">Thaluiánská kaple Asuryana</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="cs" state="translated">Thaluiánská kaple Asuryana</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">Thaluiánská kaple Kurnouse</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="cs" state="translated">Thaluiánská kaple Kurnouse</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">Thaluiánská kaple Khaina</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="cs" state="translated">Thaluiánská kaple Khaina</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">Thaluiánská velká kaple Asuryana</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="cs" state="translated">Thaluiánská velká kaple Asuryana</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">Thaluiánská velká kaple Kurnouse</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="cs" state="translated">Thaluiánská velká kaple Kurnouse</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">Thaluiánská velká kaple Khaina</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="cs" state="translated">Thaluiánská velká kaple Khaina</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">Veterinární chýše</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="cs" state="translated">Veterinární chýše</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">Veterinární dům</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="cs" state="translated">Veterinární dům</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">Veterinární sídlo</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="cs" state="translated">Veterinární sídlo</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">Menší vyslanectví</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="cs" state="translated">Menší vyslanectví</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">Vyslanectví</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="cs" state="translated">Vyslanectví</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">Výrobci oltářů</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="cs" state="translated">Výrobci oltářů</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">Malý Thaluiánský tábor</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="cs" state="translated">Malý Thaluiánský tábor</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">Vůz léčitele</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="cs" state="translated">Vůz léčitele</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">Intendant</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="cs" state="translated">Intendant</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">Obchodník</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="cs" state="translated">Obchodník</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">Thaluiánský tábor</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="cs" state="translated">Thaluiánský tábor</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">Vůz hlavního léčitele</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="cs" state="translated">Vůz hlavního léčitele</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">Rada tábora</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="cs" state="translated">Rada tábora</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">Kupec</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="cs" state="translated">Kupec</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">Velký Thaluiánský tábor</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="cs" state="translated">Velký Thaluiánský tábor</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">Vozy školy léčitelů</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="cs" state="translated">Vozy školy léčitelů</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">Vysoká rada</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="cs" state="translated">Vysoká rada</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">Shromáždění kupců</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="cs" state="translated">Shromáždění kupců</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">Malá řemeslnická čtvrť</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="cs" state="translated">Malá řemeslnická čtvrť</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Řemeslnická čtvrť</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="cs" state="translated">Řemeslnická čtvrť</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">Malá elfí hospoda</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="cs" state="translated">Malá elfí hospoda</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elfí hospoda</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="cs" state="translated">Elfí hospoda</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">Velká elfí hospoda</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="cs" state="translated">Velká elfí hospoda</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elfí knihovna</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="cs" state="translated">Elfí knihovna</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">Mobilní Thaluiánská vesnice</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="cs" state="translated">Mobilní Thaluiánská vesnice</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">Vozy léčitelské akademie</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="cs" state="translated">Vozy léčitelské akademie</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">Vesnická vláda</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="cs" state="translated">Vesnická vláda</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">Cech kupců</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="cs" state="translated">Cech kupců</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">Thaluische Kapelle</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="de" state="translated">Thaluische Kapelle</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">Thaluische Kapelle des Asuryan</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="de" state="translated">Thaluische Kapelle des Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">Thaluische Kapelle des Kurnous</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="de" state="translated">Thaluische Kapelle des Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">Thaluische Kapelle des Khaine</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="de" state="translated">Thaluische Kapelle des Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">Thaluische Großkapelle des Asuryan</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="de" state="translated">Thaluische Großkapelle des Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">Thaluische Großkapelle des Kurnous</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="de" state="translated">Thaluische Großkapelle des Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">Thaluische Großkapelle des Khaine</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="de" state="translated">Thaluische Großkapelle des Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">Tierheilhütte</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="de" state="translated">Tierheilhütte</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">Tierheilhaus</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="de" state="translated">Tierheilhaus</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">Tierheilanwesen</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="de" state="translated">Tierheilanwesen</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">Kleine Gesandtschaft</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="de" state="translated">Kleine Gesandtschaft</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">Gesandtschaft</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="de" state="translated">Gesandtschaft</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">Altarschmiede</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="de" state="translated">Altarschmiede</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">Kleines Thaluisches Lager</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="de" state="translated">Kleines Thaluisches Lager</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">Heilerwagen</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="de" state="translated">Heilerwagen</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">Quartiermeister</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="de" state="translated">Quartiermeister</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">Händler</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="de" state="translated">Händler</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">Thaluisches Lager</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="de" state="translated">Thaluisches Lager</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">Meisterheiler-Wagen</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="de" state="translated">Meisterheiler-Wagen</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">Rat des Lagers</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="de" state="translated">Rat des Lagers</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">Kaufmann</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="de" state="translated">Kaufmann</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">Großes Thaluisches Lager</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="de" state="translated">Großes Thaluisches Lager</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">Heilerschule auf Rädern</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="de" state="translated">Heilerschule auf Rädern</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">Hoher Rat</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="de" state="translated">Hoher Rat</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">Kaufmannsgilde</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="de" state="translated">Kaufmannsgilde</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">Kleines Handwerkerviertel</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="de" state="translated">Kleines Handwerkerviertel</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Handwerkerviertel</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="de" state="translated">Handwerkerviertel</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">Kleine Elfenschenke</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="de" state="translated">Kleine Elfenschenke</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elfenschenke</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="de" state="translated">Elfenschenke</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">Große Elfenschenke</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="de" state="translated">Große Elfenschenke</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elfische Bibliothek</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="de" state="translated">Elfische Bibliothek</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">Mobiles Thaluisches Dorf</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="de" state="translated">Mobiles Thaluisches Dorf</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">Heilerakademie-Wagen</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="de" state="translated">Heilerakademie-Wagen</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">Dorfregierung</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="de" state="translated">Dorfregierung</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">Händlergilde</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="de" state="translated">Händlergilde</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">Capilla Thaluiana</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="es" state="translated">Capilla Thaluiana</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">Capilla Thaluiana de Asuryan</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="es" state="translated">Capilla Thaluiana de Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">Capilla Thaluiana de Kurnous</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="es" state="translated">Capilla Thaluiana de Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">Capilla Thaluiana de Khaine</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="es" state="translated">Capilla Thaluiana de Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">Gran Capilla Thaluiana de Asuryan</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="es" state="translated">Gran Capilla Thaluiana de Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">Gran Capilla Thaluiana de Kurnous</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="es" state="translated">Gran Capilla Thaluiana de Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">Gran Capilla Thaluiana de Khaine</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="es" state="translated">Gran Capilla Thaluiana de Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">Cabaña Veterinaria</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="es" state="translated">Cabaña Veterinaria</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">Casa Veterinaria</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="es" state="translated">Casa Veterinaria</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">Mansión Veterinaria</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="es" state="translated">Mansión Veterinaria</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">Extensión Menor</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="es" state="translated">Extensión Menor</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">Extensión</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="es" state="translated">Extensión</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">Artesanos de Altares</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="es" state="translated">Artesanos de Altares</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">Pequeño Campamento Thaluiano</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="es" state="translated">Pequeño Campamento Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">Carromato de Sanador</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="es" state="translated">Carromato de Sanador</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">Intendente</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="es" state="translated">Intendente</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">Comerciante</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="es" state="translated">Comerciante</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">Campamento Thaluiano</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="es" state="translated">Campamento Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">Carromato de Sanador Maestro</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="es" state="translated">Carromato de Sanador Maestro</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">Consejo del Campamento</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="es" state="translated">Consejo del Campamento</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">Mercader</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="es" state="translated">Mercader</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">Gran Campamento Thaluiano</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="es" state="translated">Gran Campamento Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">Carromato Escuela de Sanadores</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="es" state="translated">Carromato Escuela de Sanadores</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">Alto Consejo</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="es" state="translated">Alto Consejo</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">Gremio de Mercaderes</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="es" state="translated">Gremio de Mercaderes</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">Pequeño Barrio de Artesanos</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="es" state="translated">Pequeño Barrio de Artesanos</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Barrio de Artesanos</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="es" state="translated">Barrio de Artesanos</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">Pequeña Taberna Élfica</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="es" state="translated">Pequeña Taberna Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taberna Élfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="es" state="translated">Taberna Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">Gran Taberna Élfica</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="es" state="translated">Gran Taberna Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Élfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="es" state="translated">Biblioteca Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">Mobile Thaluian Village</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="es" state="translated">Mobile Thaluian Village</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">Healer Academy Wagons</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="es" state="translated">Healer Academy Wagons</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">Village Government</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="es" state="translated">Village Government</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">Merchant Guild</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="es" state="translated">Merchant Guild</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">Chappelle Thaluienne</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="fr" state="translated">Chappelle Thaluienne</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">Chappelle Thaluienne d&apos;Asuryan</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="fr" state="translated">Chappelle Thaluienne d&apos;Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">Chappelle Thaluienne de Kurnous</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="fr" state="translated">Chappelle Thaluienne de Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">Chappelle Thaluienne de Khaine</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="fr" state="translated">Chappelle Thaluienne de Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">Grande Chappelle Thaluienne d&apos;Asuryan</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="fr" state="translated">Grande Chappelle Thaluienne d&apos;Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">Grande Chappelle Thaluienne de Kurnous</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="fr" state="translated">Grande Chappelle Thaluienne de Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">Grande Chapelle Thaluienne de Khaine</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="fr" state="translated">Grande Chapelle Thaluienne de Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">Hutte des Vétérinaires</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="fr" state="translated">Hutte des Vétérinaires</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">Maison des Vétérinaires</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="fr" state="translated">Maison des Vétérinaires</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">Manoir des Vétérinaires</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="fr" state="translated">Manoir des Vétérinaires</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">Petite Ambassade</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="fr" state="translated">Petite Ambassade</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">Ambassade</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="fr" state="translated">Ambassade</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">Artisans d&apos;Autels</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="fr" state="translated">Artisans d&apos;Autels</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">Petit Campement Thaluien</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="fr" state="translated">Petit Campement Thaluien</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">Chariot des Guérisseurs</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="fr" state="translated">Chariot des Guérisseurs</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">Intendant</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="fr" state="translated">Intendant</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">Marchand</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="fr" state="translated">Marchand</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">Campement Thaluien</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="fr" state="translated">Campement Thaluien</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">Chariot du Maître Guérisseur</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="fr" state="translated">Chariot du Maître Guérisseur</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">Conseil du Campement</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="fr" state="translated">Conseil du Campement</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">Négociant</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="fr" state="translated">Négociant</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">Grand Campement Thaluien</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="fr" state="translated">Grand Campement Thaluien</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">École des Guérisseurs</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="fr" state="translated">École des Guérisseurs</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">Haut Conseil</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="fr" state="translated">Haut Conseil</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">Guilde des Marchands</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="fr" state="translated">Guilde des Marchands</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">Petit Quartier des Artisans</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="fr" state="translated">Petit Quartier des Artisans</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Quartier des Artisans</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="fr" state="translated">Quartier des Artisans</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">Petite Taverne Elfique</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="fr" state="translated">Petite Taverne Elfique</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverne Elfique</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="fr" state="translated">Taverne Elfique</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">Grande Taverne Elfique</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="fr" state="translated">Grande Taverne Elfique</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Bibliothèque Elfique</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="fr" state="translated">Bibliothèque Elfique</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">Village Thaluien Mobile</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="fr" state="translated">Village Thaluien Mobile</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">Chariots de l&apos;Académie des Guérisseurs</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="fr" state="translated">Chariots de l&apos;Académie des Guérisseurs</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">Gouvernement du Village</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="fr" state="translated">Gouvernement du Village</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">Guilde des Marchands</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="fr" state="translated">Guilde des Marchands</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">Cappella Thaluiana</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="it" state="translated">Cappella Thaluiana</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">Cappella Thaluiana di Asuryan</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="it" state="translated">Cappella Thaluiana di Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">Cappella Thaluiana di Kurnous</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="it" state="translated">Cappella Thaluiana di Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">Cappella Thaluiana di Khaine</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="it" state="translated">Cappella Thaluiana di Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">Grande Cappella Thaluiana di Asuryan</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="it" state="translated">Grande Cappella Thaluiana di Asuryan</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">Grande Cappella Thaluiana di Kurnous</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="it" state="translated">Grande Cappella Thaluiana di Kurnous</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">Grande Cappella Thaluiana di Khaine</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="it" state="translated">Grande Cappella Thaluiana di Khaine</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">Capanna Veterinaria</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="it" state="translated">Capanna Veterinaria</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">Casa Veterinaria</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="it" state="translated">Casa Veterinaria</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">Villa Veterinaria</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="it" state="translated">Villa Veterinaria</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">Ambasciata Minore</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="it" state="translated">Ambasciata Minore</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">Ambasciata</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="it" state="translated">Ambasciata</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">Artigiani di Altari</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="it" state="translated">Artigiani di Altari</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">Piccolo Campo Thaluiano</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="it" state="translated">Piccolo Campo Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">Carro dei Guaritori</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="it" state="translated">Carro dei Guaritori</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">Quartiermastro</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="it" state="translated">Quartiermastro</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">Commerciante</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="it" state="translated">Commerciante</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">Campo Thaluiano</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="it" state="translated">Campo Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">Carro del Maestro Guaritore</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="it" state="translated">Carro del Maestro Guaritore</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">Consiglio del Campo</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="it" state="translated">Consiglio del Campo</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">Mercante</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="it" state="translated">Mercante</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">Grande Campo Thaluiano</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="it" state="translated">Grande Campo Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">Carro della Scuola di Guarigione</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="it" state="translated">Carro della Scuola di Guarigione</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">Alto Consiglio</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="it" state="translated">Alto Consiglio</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">Assemblea dei Mercanti</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="it" state="translated">Assemblea dei Mercanti</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">Piccolo Quartiere degli Artigiani</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="it" state="translated">Piccolo Quartiere degli Artigiani</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Quartiere degli Artigiani</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="it" state="translated">Quartiere degli Artigiani</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">Piccola Taverna Elfica</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="it" state="translated">Piccola Taverna Elfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverna Elfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="it" state="translated">Taverna Elfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">Grande Taverna Elfica</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="it" state="translated">Grande Taverna Elfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Elfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="it" state="translated">Biblioteca Elfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">Villaggio Mobile Thaluiano</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="it" state="translated">Villaggio Mobile Thaluiano</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">Carri dell&apos;Accademia dei Guaritori</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="it" state="translated">Carri dell&apos;Accademia dei Guaritori</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">Governo del Villaggio</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="it" state="translated">Governo del Villaggio</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">Gilda dei Mercanti</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="it" state="translated">Gilda dei Mercanti</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">탈루이안 예배당</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="ko" state="translated">탈루이안 예배당</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">탈루이안 아수리안 예배당</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="ko" state="translated">탈루이안 아수리안 예배당</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">탈루이안 쿠르노스 예배당</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="ko" state="translated">탈루이안 쿠르노스 예배당</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">탈루이안 카인 예배당</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="ko" state="translated">탈루이안 카인 예배당</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">탈루이안 대 아수리안 예배당</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="ko" state="translated">탈루이안 대 아수리안 예배당</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">탈루이안 대 쿠르노스 예배당</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="ko" state="translated">탈루이안 대 쿠르노스 예배당</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">탈루이안 대 카인 예배당</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="ko" state="translated">탈루이안 대 카인 예배당</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">수의사 오두막</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="ko" state="translated">수의사 오두막</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">수의사 집</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="ko" state="translated">수의사 집</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">수의사 저택</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="ko" state="translated">수의사 저택</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">소규모 외교</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="ko" state="translated">소규모 외교</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">외교</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="ko" state="translated">외교</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">제단 장인</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="ko" state="translated">제단 장인</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">소규모 탈루이안 야영지</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="ko" state="translated">소규모 탈루이안 야영지</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">치료사 마차</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="ko" state="translated">치료사 마차</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">병참장교</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="ko" state="translated">병참장교</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">상인</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="ko" state="translated">상인</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">탈루이안 야영지</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="ko" state="translated">탈루이안 야영지</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">수석 치료사 마차</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="ko" state="translated">수석 치료사 마차</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">야영지 평의회</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="ko" state="translated">야영지 평의회</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">상인</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="ko" state="translated">상인</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">대규모 탈루이안 야영지</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="ko" state="translated">대규모 탈루이안 야영지</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">치료사 학교 마차</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="ko" state="translated">치료사 학교 마차</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">고등 평의회</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="ko" state="translated">고등 평의회</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">상인 조합</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="ko" state="translated">상인 조합</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">소규모 장인 구역</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="ko" state="translated">소규모 장인 구역</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">장인 구역</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="ko" state="translated">장인 구역</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">소규모 엘프 술집</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="ko" state="translated">소규모 엘프 술집</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">엘프 술집</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="ko" state="translated">엘프 술집</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">대규모 엘프 술집</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="ko" state="translated">대규모 엘프 술집</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">엘프 도서관</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="ko" state="translated">엘프 도서관</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">이동식 탈루이안 마을</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="ko" state="translated">이동식 탈루이안 마을</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">치료사 아카데미 마차</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="ko" state="translated">치료사 아카데미 마차</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">마을 정부</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="ko" state="translated">마을 정부</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">상인 길드</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="ko" state="translated">상인 길드</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">Kaplica Thaluii</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="pl" state="translated">Kaplica Thaluii</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">Kaplica Thaluii Asuryana</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="pl" state="translated">Kaplica Thaluii Asuryana</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">Kaplica Thaluii Kurnousa</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="pl" state="translated">Kaplica Thaluii Kurnousa</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">Kaplica Thaluii Khaine&apos;a</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="pl" state="translated">Kaplica Thaluii Khaine&apos;a</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">Wielka Kaplica Thaluii Asuryana</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="pl" state="translated">Wielka Kaplica Thaluii Asuryana</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">Wielka Kaplica Thaluii Kurnousa</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="pl" state="translated">Wielka Kaplica Thaluii Kurnousa</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">Wielka Kaplica Thaluii Khaine&apos;a</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="pl" state="translated">Wielka Kaplica Thaluii Khaine&apos;a</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">Chata Weterynarza</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="pl" state="translated">Chata Weterynarza</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">Dom Weterynarza</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="pl" state="translated">Dom Weterynarza</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">Rezydencja Weterynarza</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="pl" state="translated">Rezydencja Weterynarza</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">Małe Przedstawicielstwo</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="pl" state="translated">Małe Przedstawicielstwo</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">Przedstawicielstwo</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="pl" state="translated">Przedstawicielstwo</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">Wytwórcy Ołtarzy</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="pl" state="translated">Wytwórcy Ołtarzy</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">Mały Obóz Thaluii</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="pl" state="translated">Mały Obóz Thaluii</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">Wóz Uzdrowiciela</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="pl" state="translated">Wóz Uzdrowiciela</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">Kwatermistrz</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="pl" state="translated">Kwatermistrz</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">Handlarz</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="pl" state="translated">Handlarz</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">Obóz Thaluii</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="pl" state="translated">Obóz Thaluii</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">Wóz Mistrza Uzdrowiciela</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="pl" state="translated">Wóz Mistrza Uzdrowiciela</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">Rada Obozu</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="pl" state="translated">Rada Obozu</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">Kupiec</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="pl" state="translated">Kupiec</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">Duży Obóz Thaluii</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="pl" state="translated">Duży Obóz Thaluii</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">Wóz Szkoły Uzdrowicieli</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="pl" state="translated">Wóz Szkoły Uzdrowicieli</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">Wysoka Rada</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="pl" state="translated">Wysoka Rada</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">Zgromadzenie Kupców</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="pl" state="translated">Zgromadzenie Kupców</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">Mała Dzielnica Rzemieślników</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="pl" state="translated">Mała Dzielnica Rzemieślników</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Dzielnica Rzemieślników</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="pl" state="translated">Dzielnica Rzemieślników</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">Mała Elficka Tawerna</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="pl" state="translated">Mała Elficka Tawerna</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elficka Tawerna</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="pl" state="translated">Elficka Tawerna</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">Duża Elficka Tawerna</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="pl" state="translated">Duża Elficka Tawerna</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elficka Biblioteka</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="pl" state="translated">Elficka Biblioteka</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">Mobilna Wioska Thaluii</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="pl" state="translated">Mobilna Wioska Thaluii</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">Wozy Akademii Uzdrowicieli</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="pl" state="translated">Wozy Akademii Uzdrowicieli</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">Rząd Wioski</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="pl" state="translated">Rząd Wioski</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">Gildia Kupców</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="pl" state="translated">Gildia Kupców</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">Талуианская Капелла</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="ru" state="translated">Талуианская Капелла</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">Талуианская Капелла Асуриана</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="ru" state="translated">Талуианская Капелла Асуриана</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">Талуианская Капелла Курноуса</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="ru" state="translated">Талуианская Капелла Курноуса</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">Талуианская Капелла Кхейна</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="ru" state="translated">Талуианская Капелла Кхейна</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">Талуианская Великая Капелла Асуриана</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="ru" state="translated">Талуианская Великая Капелла Асуриана</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">Талуианская Великая Капелла Курноуса</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="ru" state="translated">Талуианская Великая Капелла Курноуса</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">Талуианская Великая Капелла Кхейна</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="ru" state="translated">Талуианская Великая Капелла Кхейна</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">Ветеринарная Хижина</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="ru" state="translated">Ветеринарная Хижина</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">Ветеринарный Дом</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="ru" state="translated">Ветеринарный Дом</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">Ветеринарное Поместье</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="ru" state="translated">Ветеринарное Поместье</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">Малая Миссия</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="ru" state="translated">Малая Миссия</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">Миссия</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="ru" state="translated">Миссия</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">Мастера Алтарей</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="ru" state="translated">Мастера Алтарей</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">Малый Талуианский Лагерь</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="ru" state="translated">Малый Талуианский Лагерь</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">Повозка Целителя</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="ru" state="translated">Повозка Целителя</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">Интендант</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="ru" state="translated">Интендант</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">Торговец</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="ru" state="translated">Торговец</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">Талуианский Лагерь</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="ru" state="translated">Талуианский Лагерь</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">Повозка Мастера-Целителя</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="ru" state="translated">Повозка Мастера-Целителя</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">Совет Лагеря</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="ru" state="translated">Совет Лагеря</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">Купец</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="ru" state="translated">Купец</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">Большой Талуианский Лагерь</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="ru" state="translated">Большой Талуианский Лагерь</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">Повозка Школы Целителей</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="ru" state="translated">Повозка Школы Целителей</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">Высший Совет</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="ru" state="translated">Высший Совет</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">Купеческое Собрание</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="ru" state="translated">Купеческое Собрание</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">Малый Ремесленный Квартал</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="ru" state="translated">Малый Ремесленный Квартал</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Ремесленный Квартал</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="ru" state="translated">Ремесленный Квартал</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">Малая Эльфийская Таверна</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="ru" state="translated">Малая Эльфийская Таверна</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Эльфийская Таверна</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="ru" state="translated">Эльфийская Таверна</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">Большая Эльфийская Таверна</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="ru" state="translated">Большая Эльфийская Таверна</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Эльфийская Библиотека</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="ru" state="translated">Эльфийская Библиотека</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">Передвижная Талуианская Деревня</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="ru" state="translated">Передвижная Талуианская Деревня</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">Повозки Академии Целителей</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="ru" state="translated">Повозки Академии Целителей</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">Деревенское Управление</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="ru" state="translated">Деревенское Управление</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">Купеческая Гильдия</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="ru" state="translated">Купеческая Гильдия</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">Thalui Şapeli</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="tr" state="translated">Thalui Şapeli</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">Asuryan&apos;ın Thalui Şapeli</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="tr" state="translated">Asuryan&apos;ın Thalui Şapeli</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">Kurnous&apos;un Thalui Şapeli</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="tr" state="translated">Kurnous&apos;un Thalui Şapeli</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">Khaine&apos;in Thalui Şapeli</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="tr" state="translated">Khaine&apos;in Thalui Şapeli</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">Asuryan&apos;ın Thalui Büyük Şapeli</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="tr" state="translated">Asuryan&apos;ın Thalui Büyük Şapeli</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">Kurnous&apos;un Thalui Büyük Şapeli</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="tr" state="translated">Kurnous&apos;un Thalui Büyük Şapeli</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">Khaine&apos;in Thalui Büyük Şapeli</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="tr" state="translated">Khaine&apos;in Thalui Büyük Şapeli</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">Veteriner Kulübesi</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="tr" state="translated">Veteriner Kulübesi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">Veteriner Evi</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="tr" state="translated">Veteriner Evi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">Veteriner Malikanesi</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="tr" state="translated">Veteriner Malikanesi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">Küçük Sosyal Yardım</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="tr" state="translated">Küçük Sosyal Yardım</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">Sosyal Yardım</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="tr" state="translated">Sosyal Yardım</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">Sunak Zanaatkarları</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="tr" state="translated">Sunak Zanaatkarları</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">Küçük Thalui Kampı</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="tr" state="translated">Küçük Thalui Kampı</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">Şifacı Arabası</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="tr" state="translated">Şifacı Arabası</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">Levazımcı</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="tr" state="translated">Levazımcı</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">Tüccar</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="tr" state="translated">Tüccar</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">Thalui Kampı</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="tr" state="translated">Thalui Kampı</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">Usta Şifacı Arabası</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="tr" state="translated">Usta Şifacı Arabası</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">Kamp Konseyi</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="tr" state="translated">Kamp Konseyi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">Tüccar</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="tr" state="translated">Tüccar</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">Büyük Thalui Kampı</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="tr" state="translated">Büyük Thalui Kampı</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">Şifacı Okulu Arabası</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="tr" state="translated">Şifacı Okulu Arabası</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">Yüksek Konsey</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="tr" state="translated">Yüksek Konsey</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">Tüccar Meclisi</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="tr" state="translated">Tüccar Meclisi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">Küçük Zanaatkar Mahallesi</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="tr" state="translated">Küçük Zanaatkar Mahallesi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Zanaatkar Mahallesi</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="tr" state="translated">Zanaatkar Mahallesi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">Küçük Elf Tavernası</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="tr" state="translated">Küçük Elf Tavernası</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elf Tavernası</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="tr" state="translated">Elf Tavernası</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">Büyük Elf Tavernası</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="tr" state="translated">Büyük Elf Tavernası</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elf Kütüphanesi</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="tr" state="translated">Elf Kütüphanesi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">Seyyar Thalui Köyü</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="tr" state="translated">Seyyar Thalui Köyü</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">Şifacı Akademisi Arabaları</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="tr" state="translated">Şifacı Akademisi Arabaları</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">Köy Yönetimi</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="tr" state="translated">Köy Yönetimi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">Tüccar Loncası</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="tr" state="translated">Tüccar Loncası</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_building_culture_variants__.loc.tsv">
     <body>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0" xml:space="preserve">
-        <source>Thaluian Chapel</source>
-        <target state="translated">塔路易教堂</target>
+        <source xml:lang="en">Thaluian Chapel</source>
+        <target xml:lang="zh-TW" state="translated">塔路易教堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan" xml:space="preserve">
-        <source>Thaluian Chapel of Asuryan</source>
-        <target state="translated">塔路易阿蘇瑞安教堂</target>
+        <source xml:lang="en">Thaluian Chapel of Asuryan</source>
+        <target xml:lang="zh-TW" state="translated">塔路易阿蘇瑞安教堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous" xml:space="preserve">
-        <source>Thaluian Chapel of Kurnous</source>
-        <target state="translated">塔路易庫爾諾斯教堂</target>
+        <source xml:lang="en">Thaluian Chapel of Kurnous</source>
+        <target xml:lang="zh-TW" state="translated">塔路易庫爾諾斯教堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_khaine" xml:space="preserve">
-        <source>Thaluian Chapel of Khaine</source>
-        <target state="translated">塔路易凱恩教堂</target>
+        <source xml:lang="en">Thaluian Chapel of Khaine</source>
+        <target xml:lang="zh-TW" state="translated">塔路易凱恩教堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_asuryan" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Asuryan</source>
-        <target state="translated">塔路易阿蘇瑞安大教堂</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Asuryan</source>
+        <target xml:lang="zh-TW" state="translated">塔路易阿蘇瑞安大教堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_kurnous" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Kurnous</source>
-        <target state="translated">塔路易庫爾諾斯大教堂</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Kurnous</source>
+        <target xml:lang="zh-TW" state="translated">塔路易庫爾諾斯大教堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_khaine" xml:space="preserve">
-        <source>Thaluian Grand Chapel of Khaine</source>
-        <target state="translated">塔路易凱恩大教堂</target>
+        <source xml:lang="en">Thaluian Grand Chapel of Khaine</source>
+        <target xml:lang="zh-TW" state="translated">塔路易凱恩大教堂</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0_beasts" xml:space="preserve">
-        <source>Veterinary Hut</source>
-        <target state="translated">獸醫小屋</target>
+        <source xml:lang="en">Veterinary Hut</source>
+        <target xml:lang="zh-TW" state="translated">獸醫小屋</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_beasts" xml:space="preserve">
-        <source>Veterinary House</source>
-        <target state="translated">獸醫樓</target>
+        <source xml:lang="en">Veterinary House</source>
+        <target xml:lang="zh-TW" state="translated">獸醫樓</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_beasts" xml:space="preserve">
-        <source>Veterinary Mansion</source>
-        <target state="translated">獸醫大院</target>
+        <source xml:lang="en">Veterinary Mansion</source>
+        <target xml:lang="zh-TW" state="translated">獸醫大院</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_diplomacy" xml:space="preserve">
-        <source>Minor Outreach</source>
-        <target state="translated">小型外交站</target>
+        <source xml:lang="en">Minor Outreach</source>
+        <target xml:lang="zh-TW" state="translated">小型外交站</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_diplomacy" xml:space="preserve">
-        <source>Outreach</source>
-        <target state="translated">外交站</target>
+        <source xml:lang="en">Outreach</source>
+        <target xml:lang="zh-TW" state="translated">外交站</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_2_altar" xml:space="preserve">
-        <source>Altar crafters</source>
-        <target state="translated">祭壇工匠坊</target>
+        <source xml:lang="en">Altar crafters</source>
+        <target xml:lang="zh-TW" state="translated">祭壇工匠坊</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_0" xml:space="preserve">
-        <source>Small Thaluian Camp</source>
-        <target state="translated">小型塔路易營地</target>
+        <source xml:lang="en">Small Thaluian Camp</source>
+        <target xml:lang="zh-TW" state="translated">小型塔路易營地</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_0" xml:space="preserve">
-        <source>Healer Wagon</source>
-        <target state="translated">治療師馬車</target>
+        <source xml:lang="en">Healer Wagon</source>
+        <target xml:lang="zh-TW" state="translated">治療師馬車</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_0" xml:space="preserve">
-        <source>Quartermaster</source>
-        <target state="translated">軍需官</target>
+        <source xml:lang="en">Quartermaster</source>
+        <target xml:lang="zh-TW" state="translated">軍需官</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_0" xml:space="preserve">
-        <source>Trader</source>
-        <target state="translated">商人</target>
+        <source xml:lang="en">Trader</source>
+        <target xml:lang="zh-TW" state="translated">商人</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_1" xml:space="preserve">
-        <source>Thaluian Camp</source>
-        <target state="translated">塔路易營地</target>
+        <source xml:lang="en">Thaluian Camp</source>
+        <target xml:lang="zh-TW" state="translated">塔路易營地</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_1" xml:space="preserve">
-        <source>Master Healer Wagon</source>
-        <target state="translated">大師治療師馬車</target>
+        <source xml:lang="en">Master Healer Wagon</source>
+        <target xml:lang="zh-TW" state="translated">大師治療師馬車</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_1" xml:space="preserve">
-        <source>Council of the Camp</source>
-        <target state="translated">營地議會</target>
+        <source xml:lang="en">Council of the Camp</source>
+        <target xml:lang="zh-TW" state="translated">營地議會</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_1" xml:space="preserve">
-        <source>Merchant</source>
-        <target state="translated">商賈</target>
+        <source xml:lang="en">Merchant</source>
+        <target xml:lang="zh-TW" state="translated">商賈</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_2" xml:space="preserve">
-        <source>Large Thaluian Camp</source>
-        <target state="translated">大型塔路易營地</target>
+        <source xml:lang="en">Large Thaluian Camp</source>
+        <target xml:lang="zh-TW" state="translated">大型塔路易營地</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_2" xml:space="preserve">
-        <source>Healer School Wagon</source>
-        <target state="translated">治療學院馬車</target>
+        <source xml:lang="en">Healer School Wagon</source>
+        <target xml:lang="zh-TW" state="translated">治療學院馬車</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_2" xml:space="preserve">
-        <source>High Council</source>
-        <target state="translated">高級議會</target>
+        <source xml:lang="en">High Council</source>
+        <target xml:lang="zh-TW" state="translated">高級議會</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_2" xml:space="preserve">
-        <source>Merchant Assembly</source>
-        <target state="translated">商會</target>
+        <source xml:lang="en">Merchant Assembly</source>
+        <target xml:lang="zh-TW" state="translated">商會</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_1" xml:space="preserve">
-        <source>Small Artisan Quarters</source>
-        <target state="translated">小型工匠區</target>
+        <source xml:lang="en">Small Artisan Quarters</source>
+        <target xml:lang="zh-TW" state="translated">小型工匠區</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters_2" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">工匠區</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="zh-TW" state="translated">工匠區</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_0" xml:space="preserve">
-        <source>Small Elven Tavern</source>
-        <target state="translated">小型精靈酒館</target>
+        <source xml:lang="en">Small Elven Tavern</source>
+        <target xml:lang="zh-TW" state="translated">小型精靈酒館</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_1" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">精靈酒館</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="zh-TW" state="translated">精靈酒館</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern_2" xml:space="preserve">
-        <source>Large Elven Tavern</source>
-        <target state="translated">大型精靈酒館</target>
+        <source xml:lang="en">Large Elven Tavern</source>
+        <target xml:lang="zh-TW" state="translated">大型精靈酒館</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library_2" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">精靈圖書館</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="zh-TW" state="translated">精靈圖書館</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_4" xml:space="preserve">
-        <source>Mobile Thaluian Village</source>
-        <target state="translated">移動塔路易村莊</target>
+        <source xml:lang="en">Mobile Thaluian Village</source>
+        <target xml:lang="zh-TW" state="translated">移動塔路易村莊</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_healer_wagon_4" xml:space="preserve">
-        <source>Healer Academy Wagons</source>
-        <target state="translated">治療學院車隊</target>
+        <source xml:lang="en">Healer Academy Wagons</source>
+        <target xml:lang="zh-TW" state="translated">治療學院車隊</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_quartermaster_4" xml:space="preserve">
-        <source>Village Government</source>
-        <target state="translated">村莊政府</target>
+        <source xml:lang="en">Village Government</source>
+        <target xml:lang="zh-TW" state="translated">村莊政府</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_horde_trader_4" xml:space="preserve">
-        <source>Merchant Guild</source>
-        <target state="translated">商人公會</target>
+        <source xml:lang="en">Merchant Guild</source>
+        <target xml:lang="zh-TW" state="translated">商人公會</target>
       </trans-unit>
     </body>
   </file>

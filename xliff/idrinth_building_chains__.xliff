@@ -3,672 +3,672 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Capela da Comunidade Élfica</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="pt-BR" state="translated">Capela da Comunidade Élfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">Uma capela para uma pequena comunidade de exilados élficos, aventureiros e vagabundos.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="pt-BR" state="translated">Uma capela para uma pequena comunidade de exilados élficos, aventureiros e vagabundos.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Capela da Comunidade Élfica</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="pt-BR" state="translated">Capela da Comunidade Élfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Veterinária Élfica</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="pt-BR" state="translated">Veterinária Élfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Alcance Élfico</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="pt-BR" state="translated">Alcance Élfico</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artesãos Élficos</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="pt-BR" state="translated">Artesãos Élficos</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Acampamento Élfico</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="pt-BR" state="translated">Acampamento Élfico</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Curandeiros Élficos</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="pt-BR" state="translated">Curandeiros Élficos</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Intendente Élfico</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="pt-BR" state="translated">Intendente Élfico</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Comerciante Élfico</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="pt-BR" state="translated">Comerciante Élfico</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Bairro dos Artesãos</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="pt-BR" state="translated">Bairro dos Artesãos</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverna Élfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="pt-BR" state="translated">Taverna Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Élfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="pt-BR" state="translated">Biblioteca Élfica</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">精灵社区礼拜堂</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="zh-CN" state="translated">精灵社区礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">一座服务于精灵流亡者、冒险者和流浪者小社区的礼拜堂。</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="zh-CN" state="translated">一座服务于精灵流亡者、冒险者和流浪者小社区的礼拜堂。</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">精灵社区礼拜堂</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="zh-CN" state="translated">精灵社区礼拜堂</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">精灵兽医</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="zh-CN" state="translated">精灵兽医</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">精灵外联处</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="zh-CN" state="translated">精灵外联处</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">精灵工匠</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="zh-CN" state="translated">精灵工匠</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">精灵营地</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="zh-CN" state="translated">精灵营地</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">精灵治疗师</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="zh-CN" state="translated">精灵治疗师</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">精灵军需官</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="zh-CN" state="translated">精灵军需官</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">精灵商人</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="zh-CN" state="translated">精灵商人</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">工匠区</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="zh-CN" state="translated">工匠区</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">精灵酒馆</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="zh-CN" state="translated">精灵酒馆</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">精灵图书馆</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="zh-CN" state="translated">精灵图书馆</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elfí komunitní kaple</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="cs" state="translated">Elfí komunitní kaple</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">Kaple pro malou komunitu elfích vyhnanců, dobrodruhů a tuláků.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="cs" state="translated">Kaple pro malou komunitu elfích vyhnanců, dobrodruhů a tuláků.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elfí komunitní kaple</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="cs" state="translated">Elfí komunitní kaple</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elfí veterinární péče</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="cs" state="translated">Elfí veterinární péče</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elfí vyslanectví</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="cs" state="translated">Elfí vyslanectví</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elfí řemeslníci</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="cs" state="translated">Elfí řemeslníci</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elfí tábor</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="cs" state="translated">Elfí tábor</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elfí léčitelé</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="cs" state="translated">Elfí léčitelé</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elfí intendant</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="cs" state="translated">Elfí intendant</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elfí obchodník</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="cs" state="translated">Elfí obchodník</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Řemeslnická čtvrť</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="cs" state="translated">Řemeslnická čtvrť</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elfí hospoda</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="cs" state="translated">Elfí hospoda</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elfí knihovna</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="cs" state="translated">Elfí knihovna</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elfische Gemeinschaftskapelle</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="de" state="translated">Elfische Gemeinschaftskapelle</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">Eine Kapelle für eine kleine Gemeinschaft elfischer Verbannter, Abenteurer und Vagabunden.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="de" state="translated">Eine Kapelle für eine kleine Gemeinschaft elfischer Verbannter, Abenteurer und Vagabunden.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elfische Gemeinschaftskapelle</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="de" state="translated">Elfische Gemeinschaftskapelle</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elfische Tierheilstätte</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="de" state="translated">Elfische Tierheilstätte</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elfische Gesandtschaft</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="de" state="translated">Elfische Gesandtschaft</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elfische Handwerker</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="de" state="translated">Elfische Handwerker</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elfisches Lager</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="de" state="translated">Elfisches Lager</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elfische Heiler</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="de" state="translated">Elfische Heiler</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elfischer Quartiermeister</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="de" state="translated">Elfischer Quartiermeister</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elfischer Händler</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="de" state="translated">Elfischer Händler</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Handwerkerviertel</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="de" state="translated">Handwerkerviertel</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elfische Schenke</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="de" state="translated">Elfische Schenke</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elfische Bibliothek</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="de" state="translated">Elfische Bibliothek</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Capilla de la Comunidad Élfica</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="es" state="translated">Capilla de la Comunidad Élfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">Una Capilla para una pequeña comunidad de exiliados, aventureros y vagabundos elfos.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="es" state="translated">Una Capilla para una pequeña comunidad de exiliados, aventureros y vagabundos elfos.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Capilla de la Comunidad Élfica</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="es" state="translated">Capilla de la Comunidad Élfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Veterinaria Élfica</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="es" state="translated">Veterinaria Élfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Extensión Élfica</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="es" state="translated">Extensión Élfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artesanos Elfos</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="es" state="translated">Artesanos Elfos</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Campamento Élfico</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="es" state="translated">Campamento Élfico</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Sanadores Elfos</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="es" state="translated">Sanadores Elfos</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Intendente Élfico</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="es" state="translated">Intendente Élfico</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Comerciante Élfico</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="es" state="translated">Comerciante Élfico</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Barrio de Artesanos</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="es" state="translated">Barrio de Artesanos</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taberna Élfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="es" state="translated">Taberna Élfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Élfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="es" state="translated">Biblioteca Élfica</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Chappelle Communautaire Elfique</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="fr" state="translated">Chappelle Communautaire Elfique</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">Une Chappelle pour une petite communauté d&apos;elfes exilés, aventuriers et vagabonds.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="fr" state="translated">Une Chappelle pour une petite communauté d&apos;elfes exilés, aventuriers et vagabonds.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Chappelle Communautaire Elfique</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="fr" state="translated">Chappelle Communautaire Elfique</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Vétérinaires Elfiques</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="fr" state="translated">Vétérinaires Elfiques</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Ambassade Elfique</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="fr" state="translated">Ambassade Elfique</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artisans Elfiques</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="fr" state="translated">Artisans Elfiques</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Campement Elfique</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="fr" state="translated">Campement Elfique</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Guérisseurs Elfiques</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="fr" state="translated">Guérisseurs Elfiques</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Intendant Elfique</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="fr" state="translated">Intendant Elfique</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Marchands Elfiques</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="fr" state="translated">Marchands Elfiques</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Quartier des Artisans</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="fr" state="translated">Quartier des Artisans</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverne Elfique</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="fr" state="translated">Taverne Elfique</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Bibliothèque Elfique</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="fr" state="translated">Bibliothèque Elfique</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Cappella della Comunità Elfica</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="it" state="translated">Cappella della Comunità Elfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">Una cappella per una piccola comunità di esuli, avventurieri e vagabondi elfici.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="it" state="translated">Una cappella per una piccola comunità di esuli, avventurieri e vagabondi elfici.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Cappella della Comunità Elfica</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="it" state="translated">Cappella della Comunità Elfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Veterinario Elfico</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="it" state="translated">Veterinario Elfico</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Ambasciata Elfica</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="it" state="translated">Ambasciata Elfica</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Artigiani Elfici</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="it" state="translated">Artigiani Elfici</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Campo Elfico</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="it" state="translated">Campo Elfico</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Guaritori Elfici</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="it" state="translated">Guaritori Elfici</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Quartiermastro Elfico</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="it" state="translated">Quartiermastro Elfico</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Mercante Elfico</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="it" state="translated">Mercante Elfico</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Quartiere degli Artigiani</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="it" state="translated">Quartiere degli Artigiani</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Taverna Elfica</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="it" state="translated">Taverna Elfica</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Biblioteca Elfica</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="it" state="translated">Biblioteca Elfica</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">엘프 공동체 예배당</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="ko" state="translated">엘프 공동체 예배당</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">엘프 망명자, 모험가, 방랑자들의 작은 공동체를 위한 예배당.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="ko" state="translated">엘프 망명자, 모험가, 방랑자들의 작은 공동체를 위한 예배당.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">엘프 공동체 예배당</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="ko" state="translated">엘프 공동체 예배당</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">엘프 수의사</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="ko" state="translated">엘프 수의사</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">엘프 외교</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="ko" state="translated">엘프 외교</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">엘프 장인</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="ko" state="translated">엘프 장인</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">엘프 야영지</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="ko" state="translated">엘프 야영지</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">엘프 치료사</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="ko" state="translated">엘프 치료사</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">엘프 병참장교</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="ko" state="translated">엘프 병참장교</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">엘프 상인</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="ko" state="translated">엘프 상인</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">장인 구역</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="ko" state="translated">장인 구역</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">엘프 술집</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="ko" state="translated">엘프 술집</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">엘프 도서관</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="ko" state="translated">엘프 도서관</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elficka Kaplica Wspólnotowa</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="pl" state="translated">Elficka Kaplica Wspólnotowa</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">Kaplica dla małej społeczności elfickich wygnańców, poszukiwaczy przygód i włóczęgów.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="pl" state="translated">Kaplica dla małej społeczności elfickich wygnańców, poszukiwaczy przygód i włóczęgów.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elficka Kaplica Wspólnotowa</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="pl" state="translated">Elficka Kaplica Wspólnotowa</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elficki Weterynarz</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="pl" state="translated">Elficki Weterynarz</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elfickie Przedstawicielstwo</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="pl" state="translated">Elfickie Przedstawicielstwo</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elficcy Rzemieślnicy</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="pl" state="translated">Elficcy Rzemieślnicy</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elficki Obóz</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="pl" state="translated">Elficki Obóz</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elficcy Uzdrowiciele</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="pl" state="translated">Elficcy Uzdrowiciele</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elficki Kwatermistrz</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="pl" state="translated">Elficki Kwatermistrz</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elficki Handlarz</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="pl" state="translated">Elficki Handlarz</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Dzielnica Rzemieślników</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="pl" state="translated">Dzielnica Rzemieślników</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elficka Tawerna</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="pl" state="translated">Elficka Tawerna</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elficka Biblioteka</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="pl" state="translated">Elficka Biblioteka</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Эльфийская Общинная Капелла</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="ru" state="translated">Эльфийская Общинная Капелла</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">Капелла для небольшой общины эльфийских изгнанников, искателей приключений и бродяг.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="ru" state="translated">Капелла для небольшой общины эльфийских изгнанников, искателей приключений и бродяг.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Эльфийская Общинная Капелла</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="ru" state="translated">Эльфийская Общинная Капелла</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Эльфийская Ветеринарная Лечебница</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="ru" state="translated">Эльфийская Ветеринарная Лечебница</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Эльфийская Миссия</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="ru" state="translated">Эльфийская Миссия</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Эльфийские Мастера</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="ru" state="translated">Эльфийские Мастера</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Эльфийский Лагерь</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="ru" state="translated">Эльфийский Лагерь</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Эльфийские Целители</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="ru" state="translated">Эльфийские Целители</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Эльфийский Интендант</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="ru" state="translated">Эльфийский Интендант</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Эльфийский Торговец</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="ru" state="translated">Эльфийский Торговец</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Ремесленный Квартал</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="ru" state="translated">Ремесленный Квартал</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Эльфийская Таверна</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="ru" state="translated">Эльфийская Таверна</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Эльфийская Библиотека</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="ru" state="translated">Эльфийская Библиотека</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elf Topluluk Şapeli</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="tr" state="translated">Elf Topluluk Şapeli</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">Küçük bir elf sürgünler, maceracılar ve serseriler topluluğu için bir Şapel.</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="tr" state="translated">Küçük bir elf sürgünler, maceracılar ve serseriler topluluğu için bir Şapel.</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">Elf Topluluk Şapeli</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="tr" state="translated">Elf Topluluk Şapeli</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">Elf Veterinerliği</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="tr" state="translated">Elf Veterinerliği</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">Elf Sosyal Yardımı</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="tr" state="translated">Elf Sosyal Yardımı</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">Elf Zanaatkarları</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="tr" state="translated">Elf Zanaatkarları</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">Elf Kampı</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="tr" state="translated">Elf Kampı</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">Elf Şifacıları</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="tr" state="translated">Elf Şifacıları</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">Elf Levazımcısı</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="tr" state="translated">Elf Levazımcısı</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">Elf Tüccarı</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="tr" state="translated">Elf Tüccarı</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">Zanaatkar Mahallesi</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="tr" state="translated">Zanaatkar Mahallesi</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">Elf Tavernası</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="tr" state="translated">Elf Tavernası</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">Elf Kütüphanesi</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="tr" state="translated">Elf Kütüphanesi</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_building_chains__.loc.tsv">
     <body>
       <trans-unit id="building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">精靈社區教堂</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="zh-TW" state="translated">精靈社區教堂</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
-        <target state="translated">一座為精靈流亡者、冒險家和流浪者的小社區而建的教堂。</target>
+        <source xml:lang="en">A Chapel for a small community of elven exiles, adventurers and vagabonds.</source>
+        <target xml:lang="zh-TW" state="translated">一座為精靈流亡者、冒險家和流浪者的小社區而建的教堂。</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel" xml:space="preserve">
-        <source>Elven Community Chapel</source>
-        <target state="translated">精靈社區教堂</target>
+        <source xml:lang="en">Elven Community Chapel</source>
+        <target xml:lang="zh-TW" state="translated">精靈社區教堂</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_beasts" xml:space="preserve">
-        <source>Elven Veterinary</source>
-        <target state="translated">精靈獸醫所</target>
+        <source xml:lang="en">Elven Veterinary</source>
+        <target xml:lang="zh-TW" state="translated">精靈獸醫所</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_diplomacy" xml:space="preserve">
-        <source>Elven Outreach</source>
-        <target state="translated">精靈外交站</target>
+        <source xml:lang="en">Elven Outreach</source>
+        <target xml:lang="zh-TW" state="translated">精靈外交站</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_altar" xml:space="preserve">
-        <source>Elven Crafters</source>
-        <target state="translated">精靈工匠坊</target>
+        <source xml:lang="en">Elven Crafters</source>
+        <target xml:lang="zh-TW" state="translated">精靈工匠坊</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde" xml:space="preserve">
-        <source>Elven Camp</source>
-        <target state="translated">精靈營地</target>
+        <source xml:lang="en">Elven Camp</source>
+        <target xml:lang="zh-TW" state="translated">精靈營地</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_healer_wagon" xml:space="preserve">
-        <source>Elven Healers</source>
-        <target state="translated">精靈治療師</target>
+        <source xml:lang="en">Elven Healers</source>
+        <target xml:lang="zh-TW" state="translated">精靈治療師</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_quartermaster" xml:space="preserve">
-        <source>Elven Quartermaster</source>
-        <target state="translated">精靈軍需官</target>
+        <source xml:lang="en">Elven Quartermaster</source>
+        <target xml:lang="zh-TW" state="translated">精靈軍需官</target>
       </trans-unit>
       <trans-unit id="building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_horde_trader" xml:space="preserve">
-        <source>Elven Trader</source>
-        <target state="translated">精靈商人</target>
+        <source xml:lang="en">Elven Trader</source>
+        <target xml:lang="zh-TW" state="translated">精靈商人</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_artisan_quarters" xml:space="preserve">
-        <source>Artisan Quarters</source>
-        <target state="translated">工匠區</target>
+        <source xml:lang="en">Artisan Quarters</source>
+        <target xml:lang="zh-TW" state="translated">工匠區</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_tavern" xml:space="preserve">
-        <source>Elven Tavern</source>
-        <target state="translated">精靈酒館</target>
+        <source xml:lang="en">Elven Tavern</source>
+        <target xml:lang="zh-TW" state="translated">精靈酒館</target>
       </trans-unit>
       <trans-unit id="building_culture_variants_name_idrinth_hev_high_elf_vampires_library" xml:space="preserve">
-        <source>Elven Library</source>
-        <target state="translated">精靈圖書館</target>
+        <source xml:lang="en">Elven Library</source>
+        <target xml:lang="zh-TW" state="translated">精靈圖書館</target>
       </trans-unit>
     </body>
   </file>

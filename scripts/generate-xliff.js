@@ -118,8 +118,8 @@ function generateXliff(sourceFileName, sourceEntries, translationsByLang) {
       const state = targetText ? 'translated' : 'needs-translation';
 
       xliff += `      <trans-unit id="${escapeXml(key)}" xml:space="preserve">
-        <source>${escapeXml(sourceData.text)}</source>
-        <target state="${state}">${escapeXml(targetText)}</target>
+        <source xml:lang="en">${escapeXml(sourceData.text)}</source>
+        <target xml:lang="${twCode}" state="${state}">${escapeXml(targetText)}</target>
       </trans-unit>
 `;
     }

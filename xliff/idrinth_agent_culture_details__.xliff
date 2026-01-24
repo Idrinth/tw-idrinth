@@ -3,240 +3,240 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Altos Elfos que foram transformados em vampiros.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="pt-BR" state="translated">Altos Elfos que foram transformados em vampiros.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="pt-BR" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Altos Elfos que foram transformados em vampiros.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="pt-BR" state="translated">Altos Elfos que foram transformados em vampiros.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="pt-BR" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">被转化为吸血鬼的高等精灵。</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="zh-CN" state="translated">被转化为吸血鬼的高等精灵。</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="zh-CN" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">被转化为吸血鬼的高等精灵。</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="zh-CN" state="translated">被转化为吸血鬼的高等精灵。</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="zh-CN" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Vysocí elfové, kteří byli proměněni na upíry.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="cs" state="translated">Vysocí elfové, kteří byli proměněni na upíry.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="cs" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Vysocí elfové, kteří byli proměněni na upíry.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="cs" state="translated">Vysocí elfové, kteří byli proměněni na upíry.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="cs" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Hochelfen, die in Vampire verwandelt wurden.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="de" state="translated">Hochelfen, die in Vampire verwandelt wurden.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="de" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Hochelfen, die in Vampire verwandelt wurden.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="de" state="translated">Hochelfen, die in Vampire verwandelt wurden.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="de" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Altos Elfos que fueron convertidos en vampiros.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="es" state="translated">Altos Elfos que fueron convertidos en vampiros.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="es" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Altos Elfos que fueron convertidos en vampiros.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="es" state="translated">Altos Elfos que fueron convertidos en vampiros.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="es" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Hauts Elfes qui ont été transformés en vampires.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="fr" state="translated">Hauts Elfes qui ont été transformés en vampires.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="fr" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Hauts Elfes qui ont été transformés en vampires.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="fr" state="translated">Hauts Elfes qui ont été transformés en vampires.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="fr" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Alti Elfi che sono stati trasformati in vampiri.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="it" state="translated">Alti Elfi che sono stati trasformati in vampiri.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="it" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Alti Elfi che sono stati trasformati in vampiri.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="it" state="translated">Alti Elfi che sono stati trasformati in vampiri.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="it" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">뱀파이어로 변한 하이 엘프들.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="ko" state="translated">뱀파이어로 변한 하이 엘프들.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">이드린스 탈루이</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="ko" state="translated">이드린스 탈루이</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">뱀파이어로 변한 하이 엘프들.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="ko" state="translated">뱀파이어로 변한 하이 엘프들.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">이드린스 탈루이</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="ko" state="translated">이드린스 탈루이</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Wysokie Elfy, które zostały przemienione w wampiry.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="pl" state="translated">Wysokie Elfy, które zostały przemienione w wampiry.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="pl" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Wysokie Elfy, które zostały przemienione w wampiry.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="pl" state="translated">Wysokie Elfy, które zostały przemienione w wampiry.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="pl" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Высшие эльфы, превращённые в вампиров.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="ru" state="translated">Высшие эльфы, превращённые в вампиров.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="ru" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Высшие эльфы, превращённые в вампиров.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="ru" state="translated">Высшие эльфы, превращённые в вампиров.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="ru" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Vampirlere dönüştürülmüş Yüksek Elfler.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="tr" state="translated">Vampirlere dönüştürülmüş Yüksek Elfler.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="tr" state="translated">Idrinth Thalui</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">Vampirlere dönüştürülmüş Yüksek Elfler.</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="tr" state="translated">Vampirlere dönüştürülmüş Yüksek Elfler.</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">Idrinth Thalui</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="tr" state="translated">Idrinth Thalui</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_agent_culture_details__.loc.tsv">
     <body>
       <trans-unit id="agent_culture_details_description_text_99999990" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">被轉化為吸血鬼的高等精靈。</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="zh-TW" state="translated">被轉化為吸血鬼的高等精靈。</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999990" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">伊德林斯·塔路易</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="zh-TW" state="translated">伊德林斯·塔路易</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_description_text_99999991" xml:space="preserve">
-        <source>High Elves who were turned into vampires.</source>
-        <target state="translated">被轉化為吸血鬼的高等精靈。</target>
+        <source xml:lang="en">High Elves who were turned into vampires.</source>
+        <target xml:lang="zh-TW" state="translated">被轉化為吸血鬼的高等精靈。</target>
       </trans-unit>
       <trans-unit id="agent_culture_details_onscreen_name_99999991" xml:space="preserve">
-        <source>Idrinth Thalui</source>
-        <target state="translated">伊德林斯·塔路易</target>
+        <source xml:lang="en">Idrinth Thalui</source>
+        <target xml:lang="zh-TW" state="translated">伊德林斯·塔路易</target>
       </trans-unit>
     </body>
   </file>

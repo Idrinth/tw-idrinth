@@ -3,624 +3,624 @@
   <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">Posição com Khaine</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="pt-BR" state="translated">Posição com Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">Favor de Khaine</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="pt-BR" state="translated">Favor de Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perdido</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="pt-BR" state="translated">Perdido</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Ganho</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="pt-BR" state="translated">Ganho</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">Posição com Kurnous</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="pt-BR" state="translated">Posição com Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">Favor de Kurnous</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="pt-BR" state="translated">Favor de Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perdido</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="pt-BR" state="translated">Perdido</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Ganho</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="pt-BR" state="translated">Ganho</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">Posição com Asuryan</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="pt-BR" state="translated">Posição com Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">Favor de Asuryan</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="pt-BR" state="translated">Favor de Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perdido</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="pt-BR" state="translated">Perdido</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Ganho</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="pt-BR" state="translated">Ganho</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">与凯恩的关系</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="zh-CN" state="translated">与凯恩的关系</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">凯恩恩宠</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="zh-CN" state="translated">凯恩恩宠</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">失去</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="zh-CN" state="translated">失去</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">获得</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="zh-CN" state="translated">获得</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">与库尔诺斯的关系</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="zh-CN" state="translated">与库尔诺斯的关系</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">库尔诺斯恩宠</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="zh-CN" state="translated">库尔诺斯恩宠</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">失去</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="zh-CN" state="translated">失去</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">获得</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="zh-CN" state="translated">获得</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">与阿苏里安的关系</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="zh-CN" state="translated">与阿苏里安的关系</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">阿苏里安恩宠</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="zh-CN" state="translated">阿苏里安恩宠</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">失去</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="zh-CN" state="translated">失去</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">获得</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="zh-CN" state="translated">获得</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">Postavení u Khaina</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="cs" state="translated">Postavení u Khaina</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">Khainova přízeň</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="cs" state="translated">Khainova přízeň</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Ztraceno</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="cs" state="translated">Ztraceno</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Získáno</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="cs" state="translated">Získáno</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">Postavení u Kurnouse</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="cs" state="translated">Postavení u Kurnouse</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">Kurnousova přízeň</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="cs" state="translated">Kurnousova přízeň</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Ztraceno</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="cs" state="translated">Ztraceno</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Získáno</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="cs" state="translated">Získáno</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">Postavení u Asuryana</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="cs" state="translated">Postavení u Asuryana</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">Asuryanova přízeň</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="cs" state="translated">Asuryanova přízeň</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Ztraceno</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="cs" state="translated">Ztraceno</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Získáno</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="cs" state="translated">Získáno</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">Stand bei Khaine</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="de" state="translated">Stand bei Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">Gunst des Khaine</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="de" state="translated">Gunst des Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Verloren</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="de" state="translated">Verloren</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Gewonnen</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="de" state="translated">Gewonnen</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">Stand bei Kurnous</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="de" state="translated">Stand bei Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">Gunst des Kurnous</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="de" state="translated">Gunst des Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Verloren</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="de" state="translated">Verloren</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Gewonnen</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="de" state="translated">Gewonnen</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">Stand bei Asuryan</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="de" state="translated">Stand bei Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">Gunst des Asuryan</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="de" state="translated">Gunst des Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Verloren</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="de" state="translated">Verloren</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Gewonnen</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="de" state="translated">Gewonnen</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">Reputación con Khaine</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="es" state="translated">Reputación con Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">Favor de Khaine</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="es" state="translated">Favor de Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perdido</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="es" state="translated">Perdido</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Ganado</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="es" state="translated">Ganado</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">Reputación con Kurnous</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="es" state="translated">Reputación con Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">Favor de Kurnous</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="es" state="translated">Favor de Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perdido</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="es" state="translated">Perdido</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Ganado</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="es" state="translated">Ganado</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">Reputación con Asuryan</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="es" state="translated">Reputación con Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">Favor de Asuryan</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="es" state="translated">Favor de Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perdido</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="es" state="translated">Perdido</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Ganado</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="es" state="translated">Ganado</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">Réputation auprès de Khaine</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="fr" state="translated">Réputation auprès de Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">Faveur de Khaine</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="fr" state="translated">Faveur de Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perdue</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="fr" state="translated">Perdue</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Gagnée</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="fr" state="translated">Gagnée</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">Réputation auprès de Kurnous</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="fr" state="translated">Réputation auprès de Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">Faveur de Kurnous</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="fr" state="translated">Faveur de Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perdue</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="fr" state="translated">Perdue</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Gagnée</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="fr" state="translated">Gagnée</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">Réputation auprès d&apos;Asuryan</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="fr" state="translated">Réputation auprès d&apos;Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">Faveur d&apos;Asuryan</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="fr" state="translated">Faveur d&apos;Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perdue</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="fr" state="translated">Perdue</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Gagnée</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="fr" state="translated">Gagnée</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">Posizione con Khaine</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="it" state="translated">Posizione con Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">Favore di Khaine</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="it" state="translated">Favore di Khaine</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perso</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="it" state="translated">Perso</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Guadagnato</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="it" state="translated">Guadagnato</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">Posizione con Kurnous</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="it" state="translated">Posizione con Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">Favore di Kurnous</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="it" state="translated">Favore di Kurnous</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perso</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="it" state="translated">Perso</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Guadagnato</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="it" state="translated">Guadagnato</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">Posizione con Asuryan</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="it" state="translated">Posizione con Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">Favore di Asuryan</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="it" state="translated">Favore di Asuryan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Perso</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="it" state="translated">Perso</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Guadagnato</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="it" state="translated">Guadagnato</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">카인과의 관계</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="ko" state="translated">카인과의 관계</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">카인 은총</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="ko" state="translated">카인 은총</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">상실</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="ko" state="translated">상실</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">획득</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="ko" state="translated">획득</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">쿠르노스와의 관계</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="ko" state="translated">쿠르노스와의 관계</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">쿠르노스 은총</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="ko" state="translated">쿠르노스 은총</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">상실</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="ko" state="translated">상실</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">획득</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="ko" state="translated">획득</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">아수리안과의 관계</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="ko" state="translated">아수리안과의 관계</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">아수리안 은총</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="ko" state="translated">아수리안 은총</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">상실</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="ko" state="translated">상실</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">획득</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="ko" state="translated">획득</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">Pozycja wobec Khaine&apos;a</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="pl" state="translated">Pozycja wobec Khaine&apos;a</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">Łaska Khaine&apos;a</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="pl" state="translated">Łaska Khaine&apos;a</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Utracono</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="pl" state="translated">Utracono</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Zdobyto</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="pl" state="translated">Zdobyto</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">Pozycja wobec Kurnous&apos;a</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="pl" state="translated">Pozycja wobec Kurnous&apos;a</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">Łaska Kurnous&apos;a</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="pl" state="translated">Łaska Kurnous&apos;a</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Utracono</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="pl" state="translated">Utracono</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Zdobyto</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="pl" state="translated">Zdobyto</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">Pozycja wobec Asuryan&apos;a</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="pl" state="translated">Pozycja wobec Asuryan&apos;a</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">Łaska Asuryan&apos;a</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="pl" state="translated">Łaska Asuryan&apos;a</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Utracono</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="pl" state="translated">Utracono</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Zdobyto</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="pl" state="translated">Zdobyto</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">Расположение к Кхейну</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="ru" state="translated">Расположение к Кхейну</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">Благосклонность Кхейна</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="ru" state="translated">Благосклонность Кхейна</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Потеряно</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="ru" state="translated">Потеряно</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Получено</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="ru" state="translated">Получено</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">Расположение к Курноусу</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="ru" state="translated">Расположение к Курноусу</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">Благосклонность Курноуса</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="ru" state="translated">Благосклонность Курноуса</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Потеряно</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="ru" state="translated">Потеряно</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Получено</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="ru" state="translated">Получено</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">Расположение к Асуриану</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="ru" state="translated">Расположение к Асуриану</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">Благосклонность Асуриана</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="ru" state="translated">Благосклонность Асуриана</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Потеряно</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="ru" state="translated">Потеряно</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Получено</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="ru" state="translated">Получено</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">Khaine ile İtibar</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="tr" state="translated">Khaine ile İtibar</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">Khaine Lütfu</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="tr" state="translated">Khaine Lütfu</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Kaybedilen</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="tr" state="translated">Kaybedilen</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Kazanılan</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="tr" state="translated">Kazanılan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">Kurnous ile İtibar</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="tr" state="translated">Kurnous ile İtibar</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">Kurnous Lütfu</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="tr" state="translated">Kurnous Lütfu</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Kaybedilen</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="tr" state="translated">Kaybedilen</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Kazanılan</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="tr" state="translated">Kazanılan</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">Asuryan ile İtibar</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="tr" state="translated">Asuryan ile İtibar</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">Asuryan Lütfu</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="tr" state="translated">Asuryan Lütfu</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">Kaybedilen</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="tr" state="translated">Kaybedilen</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">Kazanılan</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="tr" state="translated">Kazanılan</target>
       </trans-unit>
     </body>
   </file>
   <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_pooled_resources__.loc.tsv">
     <body>
       <trans-unit id="pooled_resources_description_idrinth_khaine" xml:space="preserve">
-        <source>Standing with Khaine</source>
-        <target state="translated">與凱恩的關係</target>
+        <source xml:lang="en">Standing with Khaine</source>
+        <target xml:lang="zh-TW" state="translated">與凱恩的關係</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Khaine Favour</source>
-        <target state="translated">凱恩眷顧</target>
+        <source xml:lang="en">Khaine Favour</source>
+        <target xml:lang="zh-TW" state="translated">凱恩眷顧</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">失去</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="zh-TW" state="translated">失去</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_khaine" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">獲得</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="zh-TW" state="translated">獲得</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_kurnous" xml:space="preserve">
-        <source>Standing with Kurnous</source>
-        <target state="translated">與庫爾諾斯的關係</target>
+        <source xml:lang="en">Standing with Kurnous</source>
+        <target xml:lang="zh-TW" state="translated">與庫爾諾斯的關係</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Kurnous Favour</source>
-        <target state="translated">庫爾諾斯眷顧</target>
+        <source xml:lang="en">Kurnous Favour</source>
+        <target xml:lang="zh-TW" state="translated">庫爾諾斯眷顧</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">失去</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="zh-TW" state="translated">失去</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_kurnous" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">獲得</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="zh-TW" state="translated">獲得</target>
       </trans-unit>
       <trans-unit id="pooled_resources_description_idrinth_asuryan" xml:space="preserve">
-        <source>Standing with Asuryan</source>
-        <target state="translated">與阿蘇瑞安的關係</target>
+        <source xml:lang="en">Standing with Asuryan</source>
+        <target xml:lang="zh-TW" state="translated">與阿蘇瑞安的關係</target>
       </trans-unit>
       <trans-unit id="pooled_resources_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Asuryan Favour</source>
-        <target state="translated">阿蘇瑞安眷顧</target>
+        <source xml:lang="en">Asuryan Favour</source>
+        <target xml:lang="zh-TW" state="translated">阿蘇瑞安眷顧</target>
       </trans-unit>
       <trans-unit id="pooled_resources_negative_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Lost</source>
-        <target state="translated">失去</target>
+        <source xml:lang="en">Lost</source>
+        <target xml:lang="zh-TW" state="translated">失去</target>
       </trans-unit>
       <trans-unit id="pooled_resources_positive_factors_display_name_idrinth_asuryan" xml:space="preserve">
-        <source>Gained</source>
-        <target state="translated">獲得</target>
+        <source xml:lang="en">Gained</source>
+        <target xml:lang="zh-TW" state="translated">獲得</target>
       </trans-unit>
     </body>
   </file>
