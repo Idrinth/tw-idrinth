@@ -8,21 +8,23 @@ Once a respected High Elven Loremaster, Idrinth Thalui met his mortal end during
 
 Will you guide him toward redemption or embrace the darkness within? His fate rests in your hands.
 
-## Translations
+## Supported Languages
 
-I fully support translations of this mod. Want to help translate? Join our [Crowdin project](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006) to contribute translations or improve existing ones!
+- English
+- German/Deutsch
+- French/Français
+- Spanish/Español
+- Russian/Русский
+- Polish/Polski
+- Portuguese/Português
+- Italian/Italiano
+- Czech/Čeština
+- Turkish/Türkçe
+- Korean/한국어
+- Simplified Chinese/简体中文
+- Traditional Chinese/繁體中文
 
-Currently known translations are:
-
-- [German/Deutsch](https://steamcommunity.com/sharedfiles/filedetails/?id=3626835116)
-- [French/Français](https://steamcommunity.com/sharedfiles/filedetails/?id=3630581892)
-- [Spanish/Español](https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019)
-- [Russian/Русский](https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732)
-- [Polish/Polski](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214)
-- [Portuguese/Português](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565436)
-- [Italian/Italiano](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565302)
-- [Czech/Čeština](https://steamcommunity.com/sharedfiles/filedetails/?id=3649208503)
-- [Turkish/Türkçe](https://steamcommunity.com/sharedfiles/filedetails/?id=3649209623)
+Want to help translate? Join our [Crowdin project](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006) to contribute translations or improve existing ones!
 
 ## Related Mods
 
