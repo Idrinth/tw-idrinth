@@ -640,3 +640,16 @@ cm:add_first_tick_callback(
         lockAnimalBlessings(cm:get_local_faction(), true);
     end
 );
+Idrinth.Event.addListener(
+    "MilitaryForceCreated",
+    true,
+    function(context)
+        local force = context.military_force();
+        if force:has_general() and force:general_character():character_subtype_key() == Idrinth.Constants.LordSubtype then
+            local resourceManager = force:pooled_resource_manager();
+            if not resourceManager:resource("magic") then
+            
+            end;
+        end;
+    end
+);
