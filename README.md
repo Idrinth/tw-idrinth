@@ -17,22 +17,22 @@ Will you guide him toward redemption or embrace the darkness within? His fate re
 
 ### Translations [![Crowdin](https://badges.crowdin.net/idrinth-thalui/localized.svg)](https://crowdin.com/project/idrinth-thalui)
 
-I fully support translations of this mod, they can be edited on [crowdin](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006) by anyone as well if they aren't perfect or something is missing. Currently known translations are:
+Translations are included in the main mod. Currently supported languages:
 
-| Language | Logo | Steam Workshop | GitHub |
-|----------|-----|----------------|--------|
-| German/Deutsch | ![mod logo](idrinth-de/idrinth-de.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3626835116) | [README](idrinth-de/README.md) |
-| French/Francais | ![mod logo](idrinth-fr/idrinth-fr.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3630581892) | [README](idrinth-fr/README.md) |
-| Spanish/Espanol | ![mod logo](idrinth-es/idrinth-es.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3636871019) | [README](idrinth-es/README.md) |
-| Russian/Russkij | ![mod logo](idrinth-ru/idrinth-ru.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3643165732) | [README](idrinth-ru/README.md) |
-| Polish/Polski | ![mod logo](idrinth-pl/idrinth-pl.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3646225214) | [README](idrinth-pl/README.md) |
-| Portuguese/Português | ![mod logo](idrinth-pt/idrinth-pt.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565436) | [README](idrinth-pt/README.md) |
-| Italian/Italiano | ![mod logo](idrinth-it/idrinth-it.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3648565302) | [README](idrinth-it/README.md) |
-| Czech/Čeština | ![mod logo](idrinth-cs/idrinth-cs.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3649208503) | [README](idrinth-cs/README.md) |
-| Turkish/Türkçe | ![mod logo](idrinth-tr/idrinth-tr.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3649209623) | [README](idrinth-tr/README.md) |
-| Korean/한국어 | ![mod logo](idrinth-ko/idrinth-ko.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3652335450) | [README](idrinth-ko/README.md) |
-| Simplified Chinese/简体中文 | ![mod logo](idrinth-cn/idrinth-cn.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3652335354) | [README](idrinth-cn/README.md) |
-| Traditional Chinese/繁體中文 | ![mod logo](idrinth-zh/idrinth-zh.png) | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3652336330) | [README](idrinth-zh/README.md) |
+- German/Deutsch
+- French/Français
+- Spanish/Español
+- Russian/Русский
+- Polish/Polski
+- Portuguese/Português
+- Italian/Italiano
+- Czech/Čeština
+- Turkish/Türkçe
+- Korean/한국어
+- Simplified Chinese/简体中文
+- Traditional Chinese/繁體中文
+
+**Help us translate!** Contributions are welcome on [Crowdin](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006). You can improve existing translations or add new languages.
 
 ## ALPHA VERSION NOTICE
 
