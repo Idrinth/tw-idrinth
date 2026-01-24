@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">Você está atacando as Capelas Thaluianas!</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">Você está se defendendo contra as Capelas Thaluianas!</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">thaluiano</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">As Capelas Thaluianas</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">Rogue Thaluian Chapels</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">你正在攻击塔卢伊礼拜堂！</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">你正在防御塔卢伊礼拜堂的进攻！</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">塔卢伊</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">塔卢伊礼拜堂</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">叛乱的塔卢伊礼拜堂</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">Útočíš na Thaluiánské kaple!</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">Bráníš se proti Thaluiánským kaplím!</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">thaluiánský</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Thaluiánské kaple</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">Odpadlické Thaluiánské kaple</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">Ihr greifet die Thaluischen Kapellen an!</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">Ihr verteidigt Euch wider die Thaluischen Kapellen!</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">thaluisch</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Die Thaluischen Kapellen</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">Abtrünnige Thaluische Kapellen</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">¡Estás atacando a las Capillas Thaluianas!</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">¡Estás defendiéndote de las Capillas Thaluianas!</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">thaluiano</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Las Capillas Thaluianas</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">Capillas Thaluianas Rebeldes</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">Vous attaquez les Chappelles Thaluiennes !</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">Vous défendez contre les Chappelles Thaluiennes !</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">thaluien</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Les Chapelles Thaluiennes</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">Chappelles Thaluiennes Renégates</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">Stai attaccando le Cappelle Thaluiane!</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">Ti stai difendendo dalle Cappelle Thaluiane!</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">thaluiano</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Le Cappelle Thaluiane</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">Cappelle Thaluiane Ribelli</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">탈루이안 예배당을 공격하고 있습니다!</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">탈루이안 예배당으로부터 방어하고 있습니다!</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">탈루이안</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">탈루이안 예배당</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">반역 탈루이안 예배당</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">Atakujesz Kaplice Thaluii!</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">Bronisz się przed Kaplicami Thaluii!</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">thaluiański</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Kaplice Thaluiańskie</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">Zbuntowane Kaplice Thaluii</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">Вы атакуете Талуианские Капеллы!</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">Вы защищаетесь от Талуианских Капелл!</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">талуианский</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Талуианские Капеллы</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">Отступнические Талуианские Капеллы</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">Thalui Şapellerine saldırıyorsunuz!</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">Thalui Şapellerine karşı savunuyorsunuz!</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">thalui</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Thalui Şapelleri</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">Asi Thalui Şapelleri</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_factions__.loc.tsv">
+    <body>
+      <trans-unit id="factions_attack_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are attacking the Thaluian Chapels!</source>
+        <target state="translated">你正在進攻塔路易教堂！</target>
+      </trans-unit>
+      <trans-unit id="factions_defend_desc_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>You are defending against the Thaluian Chapels!</source>
+        <target state="translated">你正在防禦塔路易教堂的進攻！</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_adjective_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>thaluian</source>
+        <target state="translated">塔路易的</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">塔路易教堂</target>
+      </trans-unit>
+      <trans-unit id="factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>Rogue Thaluian Chapels</source>
+        <target state="translated">叛亂的塔路易教堂</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,2739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Você é um conhecido assassino de elfos para Khaine e outros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Você lutou contra muitos exércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Assassino de Elfos Amaldiçoado por Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Você é um conhecido assassino de elfos para Khaine e outros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Você lutou contra muitos exércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Desprezado Assassino de Elfos Amaldiçoado por Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Você é um conhecido assassino de elfos para Khaine e outros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Você lutou contra muitos exércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Odiado Assassino de Elfos Amaldiçoado por Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Você é um conhecido assassino de elfos para Kurnous e outros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Você lutou contra muitos exércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Assassino de Elfos Amaldiçoado por Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Você é um conhecido assassino de elfos para Kurnous e outros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Você lutou contra muitos exércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Desprezado Assassino de Elfos Amaldiçoado por Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Você é um conhecido assassino de elfos para Kurnous e outros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Você lutou contra muitos exércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Odiado Assassino de Elfos Amaldiçoado por Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Você é um conhecido assassino de elfos para Asuryan e outros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Você lutou contra muitos exércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Assassino de Elfos Amaldiçoado por Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Você é um conhecido assassino de elfos para Asuryan e outros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Você lutou contra muitos exércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Desprezado Assassino de Elfos Amaldiçoado por Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Você é um conhecido assassino de elfos para Asuryan e outros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Você lutou contra muitos exércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Odiado Assassino de Elfos Amaldiçoado por Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">A Vingança é Minha</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">Você derrotou Idrinth Thalui.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">Derrotar este senhor lendário concedeu a você compreensão adicional de combate.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">Devoto de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">Sacerdote de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">Fanático de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">Duvidoso de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">Renegado de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">Devoto de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">Sacerdote de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">Fanático de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">Duvidoso de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">Renegado de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">Devoto de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">Sacerdote de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">Fanático de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">Duvidoso de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">Renegado de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">你是凯恩和其他精灵眼中有名的精灵屠夫。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你曾与许多精灵军队交战。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">受凯恩诅咒的精灵屠夫</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">你是凯恩和其他精灵眼中有名的精灵屠夫。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你曾与许多精灵军队交战。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">被蔑视的受凯恩诅咒精灵屠夫</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">你是凯恩和其他精灵眼中有名的精灵屠夫。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你曾与许多精灵军队交战。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">被憎恨的受凯恩诅咒精灵屠夫</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">你是库尔诺斯和其他精灵眼中有名的精灵屠夫。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你曾与许多精灵军队交战。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">受库尔诺斯诅咒的精灵屠夫</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">你是库尔诺斯和其他精灵眼中有名的精灵屠夫。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你曾与许多精灵军队交战。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">被蔑视的受库尔诺斯诅咒精灵屠夫</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">你是库尔诺斯和其他精灵眼中有名的精灵屠夫。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你曾与许多精灵军队交战。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">被憎恨的受库尔诺斯诅咒精灵屠夫</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">你是阿苏里安和其他精灵眼中有名的精灵屠夫。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你曾与许多精灵军队交战。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">受阿苏里安诅咒的精灵屠夫</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">你是阿苏里安和其他精灵眼中有名的精灵屠夫。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你曾与许多精灵军队交战。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">被蔑视的受阿苏里安诅咒精灵屠夫</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">你是阿苏里安和其他精灵眼中有名的精灵屠夫。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你曾与许多精灵军队交战。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">被憎恨的受阿苏里安诅咒精灵屠夫</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">复仇属于我</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">你击败了 Idrinth Thalui。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">击败这位传奇领主使你对战斗有了更深的理解。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">阿苏里安信徒</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">阿苏里安祭司</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">阿苏里安狂信者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">阿苏里安怀疑者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">阿苏里安叛徒</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">凯恩信徒</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">凯恩祭司</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">凯恩狂信者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">凯恩怀疑者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">凯恩叛徒</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">库尔诺斯信徒</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">库尔诺斯祭司</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">库尔诺斯狂信者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">库尔诺斯怀疑者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">库尔诺斯叛徒</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">塔卢伊</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Jsi známý zabiják elfů pro Khaina a ostatní elfy.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Bojoval jsi proti mnoha armádám elfů.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Khainem prokletý zabiják elfů</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Jsi známý zabiják elfů pro Khaina a ostatní elfy.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Bojoval jsi proti mnoha armádám elfů.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Opovrhovaný Khainem prokletý zabiják elfů</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Jsi známý zabiják elfů pro Khaina a ostatní elfy.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Bojoval jsi proti mnoha armádám elfů.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Nenáviděný Khainem prokletý zabiják elfů</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Jsi známý zabiják elfů pro Kurnouse a ostatní elfy.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Bojoval jsi proti mnoha armádám elfů.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Kurnousem prokletý zabiják elfů</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Jsi známý zabiják elfů pro Kurnouse a ostatní elfy.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Bojoval jsi proti mnoha armádám elfů.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Opovrhovaný Kurnousem prokletý zabiják elfů</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Jsi známý zabiják elfů pro Kurnouse a ostatní elfy.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Bojoval jsi proti mnoha armádám elfů.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Nenáviděný Kurnousem prokletý zabiják elfů</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Jsi známý zabiják elfů pro Asuryana a ostatní elfy.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Bojoval jsi proti mnoha armádám elfů.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Asuryanen prokletý zabiják elfů</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Jsi známý zabiják elfů pro Asuryana a ostatní elfy.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Bojoval jsi proti mnoha armádám elfů.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Opovrhovaný Asuryanen prokletý zabiják elfů</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Jsi známý zabiják elfů pro Asuryana a ostatní elfy.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Bojoval jsi proti mnoha armádám elfů.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Nenáviděný Asuryanen prokletý zabiják elfů</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">Pomsta je má</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">Porazil jsi Idrintha Thaluiho.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">Porážka tohoto legendárního lorda ti poskytla další pochopení boje.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">Asuryanův oddaný</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">Asuryanův kněz</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">Asuryanův fanatik</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">Asuryanův pochybovač</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">Asuryanův odpadlík</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">Khainův oddaný</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">Khainův kněz</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">Khainův fanatik</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">Khainův pochybovač</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">Khainův odpadlík</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">Kurnousův oddaný</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">Kurnousův kněz</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">Kurnousův fanatik</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">Kurnousův pochybovač</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">Kurnousův odpadlík</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Ihr seid als Elfenschlächter bei Khaine und anderen Elfen bekannt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Ihr habt wider viele Elfenheere gefochten.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Khaine-Verfluchter Elfenschlächter</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Ihr seid als Elfenschlächter bei Khaine und anderen Elfen bekannt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Ihr habt wider viele Elfenheere gefochten.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Verachteter Khaine-Verfluchter Elfenschlächter</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Ihr seid als Elfenschlächter bei Khaine und anderen Elfen bekannt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Ihr habt wider viele Elfenheere gefochten.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Gehasster Khaine-Verfluchter Elfenschlächter</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Ihr seid als Elfenschlächter bei Kurnous und anderen Elfen bekannt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Ihr habt wider viele Elfenheere gefochten.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Kurnous-Verfluchter Elfenschlächter</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Ihr seid als Elfenschlächter bei Kurnous und anderen Elfen bekannt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Ihr habt wider viele Elfenheere gefochten.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Verachteter Kurnous-Verfluchter Elfenschlächter</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Ihr seid als Elfenschlächter bei Kurnous und anderen Elfen bekannt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Ihr habt wider viele Elfenheere gefochten.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Gehasster Kurnous-Verfluchter Elfenschlächter</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Ihr seid als Elfenschlächter bei Asuryan und anderen Elfen bekannt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Ihr habt wider viele Elfenheere gefochten.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Asuryan-Verfluchter Elfenschlächter</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Ihr seid als Elfenschlächter bei Asuryan und anderen Elfen bekannt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Ihr habt wider viele Elfenheere gefochten.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Verachteter Asuryan-Verfluchter Elfenschlächter</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Ihr seid als Elfenschlächter bei Asuryan und anderen Elfen bekannt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Ihr habt wider viele Elfenheere gefochten.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Gehasster Asuryan-Verfluchter Elfenschlächter</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">Mein ist die Rache</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">Ihr habt Idrinth Thalui besiegt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">Die Bezwingung dieses legendären Lords hat Euch tieferes Verständnis des Kampfes gewährt.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">Asuryan-Anhänger</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">Asuryan-Priester</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">Asuryan-Fanatiker</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">Asuryan-Zweifler</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">Asuryan-Renegat</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">Khaine-Anhänger</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">Khaine-Priester</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">Khaine-Fanatiker</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">Khaine-Zweifler</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">Khaine-Renegat</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">Kurnous-Anhänger</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">Kurnous-Priester</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">Kurnous-Fanatiker</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">Kurnous-Zweifler</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">Kurnous-Renegat</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Eres un conocido matador de elfos para Khaine y otros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Has luchado contra muchos ejércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Matador de Elfos Maldito por Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Eres un conocido matador de elfos para Khaine y otros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Has luchado contra muchos ejércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Matador de Elfos Maldito por Khaine Despreciado</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Eres un conocido matador de elfos para Khaine y otros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Has luchado contra muchos ejércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Matador de Elfos Maldito por Khaine Odiado</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Eres un conocido matador de elfos para Kurnous y otros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Has luchado contra muchos ejércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Matador de Elfos Maldito por Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Eres un conocido matador de elfos para Kurnous y otros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Has luchado contra muchos ejércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Matador de Elfos Maldito por Kurnous Despreciado</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Eres un conocido matador de elfos para Kurnous y otros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Has luchado contra muchos ejércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Matador de Elfos Maldito por Kurnous Odiado</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Eres un conocido matador de elfos para Asuryan y otros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Has luchado contra muchos ejércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Matador de Elfos Maldito por Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Eres un conocido matador de elfos para Asuryan y otros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Has luchado contra muchos ejércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Matador de Elfos Maldito por Asuryan Despreciado</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Eres un conocido matador de elfos para Asuryan y otros elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Has luchado contra muchos ejércitos de elfos.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Matador de Elfos Maldito por Asuryan Odiado</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">La venganza es mía</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">Derrotaste a Idrinth Thalui.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">Derrotar a este señor legendario te ha otorgado una comprensión adicional del combate.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">Devoto de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">Sacerdote de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">Fanático de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">Dudoso de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">Renegado de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">Devoto de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">Sacerdote de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">Fanático de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">Dudoso de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">Renegado de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">Devoto de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">Sacerdote de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">Fanático de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">Dudoso de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">Renegado de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Vous êtes un tueur d&apos;elfes connu de Khaine et des autres elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Vous avez combattu maintes armées d&apos;elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Tueur d&apos;Elfes Maudit par Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Vous êtes un tueur d&apos;elfes connu de Khaine et des autres elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Vous avez combattu maintes armées d&apos;elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Tueur d&apos;Elfes Honni Maudit par Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Vous êtes un tueur d&apos;elfes connu de Khaine et des autres elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Vous avez combattu maintes armées d&apos;elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Tueur d&apos;Elfes Haï Maudit par Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Vous êtes un tueur d&apos;elfes connu de Kurnous et des autres elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Vous avez combattu maintes armées d&apos;elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Tueur d&apos;Elfes Maudit par Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Vous êtes un tueur d&apos;elfes connu de Kurnous et des autres elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Vous avez combattu maintes armées d&apos;elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Tueur d&apos;Elfes Honni Maudit par Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Vous êtes un tueur d&apos;elfes connu de Kurnous et des autres elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Vous avez combattu maintes armées d&apos;elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Tueur d&apos;Elfes Haï Maudit par Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Vous êtes un tueur d&apos;elfes connu d&apos;Asuryan et des autres elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Vous avez combattu maintes armées d&apos;elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Tueur d&apos;Elfes Maudit par Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Vous êtes un tueur d&apos;elfes connu d&apos;Asuryan et des autres elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Vous avez combattu maintes armées d&apos;elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Tueur d&apos;Elfes Honni Maudit par Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Vous êtes un tueur d&apos;elfes connu d&apos;Asuryan et des autres elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Vous avez combattu maintes armées d&apos;elfes.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Tueur d&apos;Elfes Haï Maudit par Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">La Vengeance est Mienne</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">Vous avez vaincu Idrinth Thalui.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">Avoir vaincu ce seigneur légendaire vous a accordé une compréhension supplémentaire du combat.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">Dévot d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">Prêtre d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">Fanatique d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">Sceptique d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">Renégat d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">Dévot de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">Prêtre de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">Fanatique de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">Sceptique de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">Renégat de Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">Dévot de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">Prêtre de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">Fanatique de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">Sceptique de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">Renégat de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Sei un noto sterminatore di elfi per Khaine e gli altri elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Hai combattuto molti eserciti di elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Sterminatore di Elfi Maledetto da Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Sei un noto sterminatore di elfi per Khaine e gli altri elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Hai combattuto molti eserciti di elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Sterminatore di Elfi Disprezzato Maledetto da Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Sei un noto sterminatore di elfi per Khaine e gli altri elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Hai combattuto molti eserciti di elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Sterminatore di Elfi Odiato Maledetto da Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Sei un noto sterminatore di elfi per Kurnous e gli altri elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Hai combattuto molti eserciti di elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Sterminatore di Elfi Maledetto da Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Sei un noto sterminatore di elfi per Kurnous e gli altri elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Hai combattuto molti eserciti di elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Sterminatore di Elfi Disprezzato Maledetto da Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Sei un noto sterminatore di elfi per Kurnous e gli altri elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Hai combattuto molti eserciti di elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Sterminatore di Elfi Odiato Maledetto da Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Sei un noto sterminatore di elfi per Asuryan e gli altri elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Hai combattuto molti eserciti di elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Sterminatore di Elfi Maledetto da Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Sei un noto sterminatore di elfi per Asuryan e gli altri elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Hai combattuto molti eserciti di elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Sterminatore di Elfi Disprezzato Maledetto da Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Sei un noto sterminatore di elfi per Asuryan e gli altri elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Hai combattuto molti eserciti di elfi.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Sterminatore di Elfi Odiato Maledetto da Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">La Vendetta è Mia</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">Hai sconfitto Idrinth Thalui.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">Sconfiggere questo signore leggendario ti ha concesso una comprensione aggiuntiva del combattimento.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">Devoto di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">Sacerdote di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">Fanatico di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">Dubbioso di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">Rinnegato di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">Devoto di Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">Sacerdote di Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">Fanatico di Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">Dubbioso di Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">Rinnegato di Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">Devoto di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">Sacerdote di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">Fanatico di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">Dubbioso di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">Rinnegato di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">당신은 카인과 다른 엘프들에게 알려진 엘프 학살자입니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">당신은 많은 엘프 군대와 싸웠습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">카인의 저주를 받은 엘프 학살자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">당신은 카인과 다른 엘프들에게 알려진 엘프 학살자입니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">당신은 많은 엘프 군대와 싸웠습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">경멸받는 카인의 저주를 받은 엘프 학살자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">당신은 카인과 다른 엘프들에게 알려진 엘프 학살자입니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">당신은 많은 엘프 군대와 싸웠습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">증오받는 카인의 저주를 받은 엘프 학살자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">당신은 쿠르노스와 다른 엘프들에게 알려진 엘프 학살자입니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">당신은 많은 엘프 군대와 싸웠습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">쿠르노스의 저주를 받은 엘프 학살자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">당신은 쿠르노스와 다른 엘프들에게 알려진 엘프 학살자입니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">당신은 많은 엘프 군대와 싸웠습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">경멸받는 쿠르노스의 저주를 받은 엘프 학살자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">당신은 쿠르노스와 다른 엘프들에게 알려진 엘프 학살자입니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">당신은 많은 엘프 군대와 싸웠습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">증오받는 쿠르노스의 저주를 받은 엘프 학살자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">당신은 아수리안과 다른 엘프들에게 알려진 엘프 학살자입니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">당신은 많은 엘프 군대와 싸웠습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">아수리안의 저주를 받은 엘프 학살자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">당신은 아수리안과 다른 엘프들에게 알려진 엘프 학살자입니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">당신은 많은 엘프 군대와 싸웠습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">경멸받는 아수리안의 저주를 받은 엘프 학살자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">당신은 아수리안과 다른 엘프들에게 알려진 엘프 학살자입니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">당신은 많은 엘프 군대와 싸웠습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">증오받는 아수리안의 저주를 받은 엘프 학살자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">복수는 나의 것</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">당신은 이드린스 탈루이를 물리쳤습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">이 전설적인 군주를 물리친 것은 전투에 대한 추가적인 이해를 부여했습니다.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">아수리안 헌신자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">아수리안 사제</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">아수리안 광신자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">아수리안 의심자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">아수리안 배교자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">카인 헌신자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">카인 사제</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">카인 광신자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">카인 의심자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">카인 배교자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">쿠르노스 헌신자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">쿠르노스 사제</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">쿠르노스 광신자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">쿠르노스 의심자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">쿠르노스 배교자</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">탈루이</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Jesteś znanym zabójcą elfów dla Khaine i innych elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Walczyłeś z wieloma armiami elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Przeklęty przez Khaine Zabójca Elfów</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Jesteś znanym zabójcą elfów dla Khaine i innych elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Walczyłeś z wieloma armiami elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Pogardzany Przeklęty przez Khaine Zabójca Elfów</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Jesteś znanym zabójcą elfów dla Khaine i innych elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Walczyłeś z wieloma armiami elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Znienawidzony Przeklęty przez Khaine Zabójca Elfów</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Jesteś znanym zabójcą elfów dla Kurnous i innych elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Walczyłeś z wieloma armiami elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Przeklęty przez Kurnous Zabójca Elfów</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Jesteś znanym zabójcą elfów dla Kurnous i innych elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Walczyłeś z wieloma armiami elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Pogardzany Przeklęty przez Kurnous Zabójca Elfów</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Jesteś znanym zabójcą elfów dla Kurnous i innych elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Walczyłeś z wieloma armiami elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Znienawidzony Przeklęty przez Kurnous Zabójca Elfów</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Jesteś znanym zabójcą elfów dla Asuryan i innych elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Walczyłeś z wieloma armiami elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Przeklęty przez Asuryan Zabójca Elfów</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Jesteś znanym zabójcą elfów dla Asuryan i innych elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Walczyłeś z wieloma armiami elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Pogardzany Przeklęty przez Asuryan Zabójca Elfów</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Jesteś znanym zabójcą elfów dla Asuryan i innych elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Walczyłeś z wieloma armiami elfów.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Znienawidzony Przeklęty przez Asuryan Zabójca Elfów</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">Zemsta jest moja</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">Pokonałeś Idrinth Thalui.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">Pokonanie tego legendarnego lorda dało ci dodatkową wiedzę o walce.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">Wielbiciel Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">Kapłan Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">Fanatyk Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">Wątpiący w Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">Renegat Asuryan</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">Wielbiciel Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">Kapłan Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">Fanatyk Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">Wątpiący w Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">Renegat Khaine</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">Wielbiciel Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">Kapłan Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">Fanatyk Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">Wątpiący w Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">Renegat Kurnous</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Вы известный убийца эльфов для Кхейна и других эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Вы сражались со многими армиями эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Проклятый Кхейном Истребитель Эльфов</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Вы известный убийца эльфов для Кхейна и других эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Вы сражались со многими армиями эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Презираемый Проклятый Кхейном Истребитель Эльфов</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Вы известный убийца эльфов для Кхейна и других эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Вы сражались со многими армиями эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Ненавидимый Проклятый Кхейном Истребитель Эльфов</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Вы известный убийца эльфов для Курноуса и других эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Вы сражались со многими армиями эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Проклятый Курноусом Истребитель Эльфов</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Вы известный убийца эльфов для Курноуса и других эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Вы сражались со многими армиями эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Презираемый Проклятый Курноусом Истребитель Эльфов</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Вы известный убийца эльфов для Курноуса и других эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Вы сражались со многими армиями эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Ненавидимый Проклятый Курноусом Истребитель Эльфов</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Вы известный убийца эльфов для Асуриана и других эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Вы сражались со многими армиями эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Проклятый Асурианом Истребитель Эльфов</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Вы известный убийца эльфов для Асуриана и других эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Вы сражались со многими армиями эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Презираемый Проклятый Асурианом Истребитель Эльфов</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Вы известный убийца эльфов для Асуриана и других эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Вы сражались со многими армиями эльфов.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Ненавидимый Проклятый Асурианом Истребитель Эльфов</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">Месть моя</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">Вы победили Идринта Талуи.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">Победа над этим легендарным лордом дала вам дополнительное понимание боя.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">Преданный Асуриану</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">Жрец Асуриана</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">Фанатик Асуриана</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">Сомневающийся в Асуриане</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">Отступник Асуриана</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">Преданный Кхейну</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">Жрец Кхейна</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">Фанатик Кхейна</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">Сомневающийся в Кхейне</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">Отступник Кхейна</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">Преданный Курноусу</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">Жрец Курноуса</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">Фанатик Курноуса</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">Сомневающийся в Курноусе</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">Отступник Курноуса</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">Талуи</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Khaine ve diğer elfler tarafından bilinen bir elf katilisin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Birçok elf ordusuna karşı savaştın.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Khaine-Lanetli Elf Katili</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Khaine ve diğer elfler tarafından bilinen bir elf katilisin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Birçok elf ordusuna karşı savaştın.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Hor Görülen Khaine-Lanetli Elf Katili</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">Khaine ve diğer elfler tarafından bilinen bir elf katilisin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Birçok elf ordusuna karşı savaştın.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">Nefret Edilen Khaine-Lanetli Elf Katili</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Kurnous ve diğer elfler tarafından bilinen bir elf katilisin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Birçok elf ordusuna karşı savaştın.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Kurnous-Lanetli Elf Katili</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Kurnous ve diğer elfler tarafından bilinen bir elf katilisin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Birçok elf ordusuna karşı savaştın.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Hor Görülen Kurnous-Lanetli Elf Katili</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">Kurnous ve diğer elfler tarafından bilinen bir elf katilisin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Birçok elf ordusuna karşı savaştın.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">Nefret Edilen Kurnous-Lanetli Elf Katili</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Asuryan ve diğer elfler tarafından bilinen bir elf katilisin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Birçok elf ordusuna karşı savaştın.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Asuryan-Lanetli Elf Katili</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Asuryan ve diğer elfler tarafından bilinen bir elf katilisin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Birçok elf ordusuna karşı savaştın.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Hor Görülen Asuryan-Lanetli Elf Katili</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">Asuryan ve diğer elfler tarafından bilinen bir elf katilisin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">Birçok elf ordusuna karşı savaştın.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">Nefret Edilen Asuryan-Lanetli Elf Katili</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">İntikam Benimdir</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">Idrinth Thalui&apos;yi yendin.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">Bu efsanevi lordu yenmek sana savaş hakkında ek anlayış kazandırdı.</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">Asuryan Adananı</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">Asuryan Rahibi</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">Asuryan Fanatiği</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">Asuryan Şüphecisi</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">Asuryan Renegadı</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">Khaine Adananı</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">Khaine Rahibi</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">Khaine Fanatiği</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">Khaine Şüphecisi</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">Khaine Renegadı</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">Kurnous Adananı</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">Kurnous Rahibi</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">Kurnous Fanatiği</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">Kurnous Şüphecisi</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">Kurnous Renegadı</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_character_trait_levels__.loc.tsv">
+    <body>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">你是凱恩和其他精靈所知的精靈殺手。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你與許多精靈軍隊交戰過。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source>Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">凱恩詛咒的精靈殺手</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">你是凱恩和其他精靈所知的精靈殺手。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你與許多精靈軍隊交戰過。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source>Despised Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">被鄙視的凱恩詛咒精靈殺手</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Khaine and other elves.</source>
+        <target state="translated">你是凱恩和其他精靈所知的精靈殺手。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你與許多精靈軍隊交戰過。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source>Hated Khaine-Cursed Slayer of Elves</source>
+        <target state="translated">被憎恨的凱恩詛咒精靈殺手</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">你是庫爾諾斯和其他精靈所知的精靈殺手。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你與許多精靈軍隊交戰過。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source>Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">庫爾諾斯詛咒的精靈殺手</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">你是庫爾諾斯和其他精靈所知的精靈殺手。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你與許多精靈軍隊交戰過。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source>Despised Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">被鄙視的庫爾諾斯詛咒精靈殺手</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Kurnous and other elves.</source>
+        <target state="translated">你是庫爾諾斯和其他精靈所知的精靈殺手。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你與許多精靈軍隊交戰過。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source>Hated Kurnous-Cursed Slayer of Elves</source>
+        <target state="translated">被憎恨的庫爾諾斯詛咒精靈殺手</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">你是阿蘇瑞安和其他精靈所知的精靈殺手。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你與許多精靈軍隊交戰過。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source>Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">阿蘇瑞安詛咒的精靈殺手</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">你是阿蘇瑞安和其他精靈所知的精靈殺手。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你與許多精靈軍隊交戰過。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source>Despised Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">被鄙視的阿蘇瑞安詛咒精靈殺手</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You are a known slayer of elves to Asuryan and other elves.</source>
+        <target state="translated">你是阿蘇瑞安和其他精靈所知的精靈殺手。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>You have fought many armies of elves.</source>
+        <target state="translated">你與許多精靈軍隊交戰過。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source>Hated Asuryan-Cursed Slayer of Elves</source>
+        <target state="translated">被憎恨的阿蘇瑞安詛咒精靈殺手</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_killer" xml:space="preserve">
+        <source>Vengeance is mine</source>
+        <target state="translated">復仇是我的</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_removal_text_idrinth_killer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_explanation_text_idrinth_killer" xml:space="preserve">
+        <source>You defeated Idrinth Thalui.</source>
+        <target state="translated">你擊敗了伊德林斯·塔路易。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_colour_text_idrinth_killer" xml:space="preserve">
+        <source>Defeating this legendary lord has granted you additional understanding of combat.</source>
+        <target state="translated">擊敗這位傳奇領主讓你對戰鬥有了更深的理解。</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1" xml:space="preserve">
+        <source>Asuryan Devotee</source>
+        <target state="translated">阿蘇瑞安信徒</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2" xml:space="preserve">
+        <source>Asuryan Priest</source>
+        <target state="translated">阿蘇瑞安祭司</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3" xml:space="preserve">
+        <source>Asuryan Fanatic</source>
+        <target state="translated">阿蘇瑞安狂熱者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1" xml:space="preserve">
+        <source>Asuryan Doubter</source>
+        <target state="translated">阿蘇瑞安懷疑者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2" xml:space="preserve">
+        <source>Asuryan Renegade</source>
+        <target state="translated">阿蘇瑞安叛逆者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1" xml:space="preserve">
+        <source>Khaine Devotee</source>
+        <target state="translated">凱恩信徒</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2" xml:space="preserve">
+        <source>Khaine Priest</source>
+        <target state="translated">凱恩祭司</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3" xml:space="preserve">
+        <source>Khaine Fanatic</source>
+        <target state="translated">凱恩狂熱者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1" xml:space="preserve">
+        <source>Khaine Doubter</source>
+        <target state="translated">凱恩懷疑者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2" xml:space="preserve">
+        <source>Khaine Renegade</source>
+        <target state="translated">凱恩叛逆者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1" xml:space="preserve">
+        <source>Kurnous Devotee</source>
+        <target state="translated">庫爾諾斯信徒</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2" xml:space="preserve">
+        <source>Kurnous Priest</source>
+        <target state="translated">庫爾諾斯祭司</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3" xml:space="preserve">
+        <source>Kurnous Fanatic</source>
+        <target state="translated">庫爾諾斯狂熱者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1" xml:space="preserve">
+        <source>Kurnous Doubter</source>
+        <target state="translated">庫爾諾斯懷疑者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2" xml:space="preserve">
+        <source>Kurnous Renegade</source>
+        <target state="translated">庫爾諾斯叛逆者</target>
+      </trans-unit>
+      <trans-unit id="character_trait_levels_onscreen_name_idrinth_thalui_name_active" xml:space="preserve">
+        <source>Thalui</source>
+        <target state="translated">塔路易</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

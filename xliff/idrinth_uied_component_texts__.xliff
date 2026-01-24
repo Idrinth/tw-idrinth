@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">Atualmente Ativo</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">Desativar notificações dos Caminhos de Idrinth para este personagem</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Devoção de Idrinth</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Orações de Idrinth</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">PLACEHOLDER 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">PLACEHOLDER 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">PLACEHOLDER 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">PLACEHOLDER 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">PLACEHOLDER 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">PLACEHOLDER 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">PLACEHOLDER 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">PLACEHOLDER 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">PLACEHOLDER 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">PLACEHOLDER 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">PLACEHOLDER 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">PLACEHOLDER 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">PLACEHOLDER 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">PLACEHOLDER 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">PLACEHOLDER 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">PLACEHOLDER 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">PLACEHOLDER 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">PLACEHOLDER 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">PLACEHOLDER 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">当前激活</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">关闭此角色的 Idrinth 路径通知</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Idrinth 的献身</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Idrinth 的祈祷</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">占位符 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">占位符 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">占位符 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">占位符 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">占位符 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">占位符 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">占位符 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">占位符 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">占位符 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">占位符 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">占位符 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">占位符 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">占位符 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">占位符 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">占位符 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">占位符 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">占位符 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">占位符 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">占位符 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">Momentálně aktivní</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">Vypnout oznámení Idrinthových cest pro tuto postavu</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Idrinthova oddanost</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Idrinthovy modlitby</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">ZÁSTUPNÝ TEXT 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">Derzeit Aktiv</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">Idrinths Pfade-Benachrichtigungen für diesen Charakter ausschalten</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Idrinths Hingabe</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Idrinths Gebete</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">PLATZHALTER 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">PLATZHALTER 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">PLATZHALTER 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">PLATZHALTER 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">PLATZHALTER 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">PLATZHALTER 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">PLATZHALTER 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">PLATZHALTER 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">PLATZHALTER 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">PLATZHALTER 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">PLATZHALTER 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">PLATZHALTER 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">PLATZHALTER 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">PLATZHALTER 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">PLATZHALTER 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">PLATZHALTER 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">PLATZHALTER 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">PLATZHALTER 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">PLATZHALTER 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">Actualmente Activo</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">Desactivar las notificaciones de Caminos de Idrinth para este personaje</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Devoción de Idrinth</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Oraciones de Idrinth</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">MARCADOR 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">MARCADOR 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">MARCADOR 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">MARCADOR 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">MARCADOR 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">MARCADOR 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">MARCADOR 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">MARCADOR 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">MARCADOR 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">MARCADOR 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">MARCADOR 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">MARCADOR 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">MARCADOR 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">MARCADOR 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">MARCADOR 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">MARCADOR 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">MARCADOR 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">MARCADOR 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">MARCADOR 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">Actuellement actif</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">Désactiver les notifications des Voies d&apos;Idrinth pour ce personnage</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Dévotion d&apos;Idrinth</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Prières d&apos;Idrinth</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">ESPACE RÉSERVÉ 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">ESPACE RÉSERVÉ 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">ESPACE RÉSERVÉ 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">ESPACE RÉSERVÉ 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">ESPACE RÉSERVÉ 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">ESPACE RÉSERVÉ 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">ESPACE RÉSERVÉ 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">ESPACE RÉSERVÉ 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">ESPACE RÉSERVÉ 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">ESPACE RÉSERVÉ 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">ESPACE RÉSERVÉ 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">ESPACE RÉSERVÉ 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">ESPACE RÉSERVÉ 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">ESPACE RÉSERVÉ 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">ESPACE RÉSERVÉ 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">ESPACE RÉSERVÉ 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">ESPACE RÉSERVÉ 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">ESPACE RÉSERVÉ 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">ESPACE RÉSERVÉ 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">Attualmente Attivo</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">Disattiva le notifiche dei Sentieri di Idrinth per questo personaggio</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Dedizione di Idrinth</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Preghiere di Idrinth</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">SEGNAPOSTO 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">SEGNAPOSTO 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">SEGNAPOSTO 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">SEGNAPOSTO 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">SEGNAPOSTO 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">SEGNAPOSTO 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">SEGNAPOSTO 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">SEGNAPOSTO 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">SEGNAPOSTO 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">SEGNAPOSTO 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">SEGNAPOSTO 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">SEGNAPOSTO 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">SEGNAPOSTO 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">SEGNAPOSTO 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">SEGNAPOSTO 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">SEGNAPOSTO 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">SEGNAPOSTO 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">SEGNAPOSTO 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">SEGNAPOSTO 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">현재 활성</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">이 캐릭터에 대한 이드린스의 길 알림 끄기</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">이드린스의 헌신</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">이드린스의 기도</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">자리표시자 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">자리표시자 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">자리표시자 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">자리표시자 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">자리표시자 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">자리표시자 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">자리표시자 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">자리표시자 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">자리표시자 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">자리표시자 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">자리표시자 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">자리표시자 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">자리표시자 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">자리표시자 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">자리표시자 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">자리표시자 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">자리표시자 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">자리표시자 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">자리표시자 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">Obecnie Aktywne</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">Wyłącz powiadomienia Ścieżek Idrintha dla tej postaci</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Oddanie Idrintha</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Modlitwy Idrintha</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">PLACEHOLDER 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">PLACEHOLDER 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">PLACEHOLDER 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">PLACEHOLDER 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">PLACEHOLDER 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">PLACEHOLDER 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">PLACEHOLDER 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">PLACEHOLDER 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">PLACEHOLDER 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">PLACEHOLDER 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">PLACEHOLDER 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">PLACEHOLDER 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">PLACEHOLDER 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">PLACEHOLDER 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">PLACEHOLDER 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">PLACEHOLDER 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">PLACEHOLDER 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">PLACEHOLDER 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">PLACEHOLDER 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">Сейчас активно</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">Отключить уведомления о Путях Идринта для этого персонажа</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Преданность Идринта</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Молитвы Идринта</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">ЗАПОЛНИТЕЛЬ 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">Şu Anda Aktif</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">Bu karakter için Idrinth&apos;in Yolları bildirimlerini kapat</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">Idrinth&apos;in Adanmışlığı</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">Idrinth&apos;in Duaları</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">YER TUTUCU 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">YER TUTUCU 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">YER TUTUCU 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">YER TUTUCU 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">YER TUTUCU 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">YER TUTUCU 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">YER TUTUCU 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">YER TUTUCU 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">YER TUTUCU 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">YER TUTUCU 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">YER TUTUCU 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">YER TUTUCU 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">YER TUTUCU 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">YER TUTUCU 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">YER TUTUCU 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">YER TUTUCU 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">YER TUTUCU 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">YER TUTUCU 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">YER TUTUCU 25</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_uied_component_texts__.loc.tsv">
+    <body>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b" xml:space="preserve">
+        <source>Currently Active</source>
+        <target state="translated">當前啟用</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5e2400a" xml:space="preserve">
+        <source>Turn off Idrinth&apos;s Paths notifications for this character</source>
+        <target state="translated">關閉此角色的伊德林斯之道通知</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9" xml:space="preserve">
+        <source>Idrinth&apos;s Devotion</source>
+        <target state="translated">伊德林斯的奉獻</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_6926231c" xml:space="preserve">
+        <source>Idrinth&apos;s Prayers</source>
+        <target state="translated">伊德林斯的祈禱</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_54a33572" xml:space="preserve">
+        <source>PLACEHOLDER 1</source>
+        <target state="translated">佔位符 1</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_520024dc" xml:space="preserve">
+        <source>PLACEHOLDER 4</source>
+        <target state="translated">佔位符 4</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7df03839" xml:space="preserve">
+        <source>PLACEHOLDER 6</source>
+        <target state="translated">佔位符 6</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2ed10066" xml:space="preserve">
+        <source>PLACEHOLDER 7</source>
+        <target state="translated">佔位符 7</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_ad00607" xml:space="preserve">
+        <source>PLACEHOLDER 8</source>
+        <target state="translated">佔位符 8</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_56956138" xml:space="preserve">
+        <source>PLACEHOLDER 9</source>
+        <target state="translated">佔位符 9</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d1802d" xml:space="preserve">
+        <source>PLACEHOLDER 10</source>
+        <target state="translated">佔位符 10</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_97e54363" xml:space="preserve">
+        <source>PLACEHOLDER 11</source>
+        <target state="translated">佔位符 11</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_2d67f411" xml:space="preserve">
+        <source>PLACEHOLDER 12</source>
+        <target state="translated">佔位符 12</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_d12dea81" xml:space="preserve">
+        <source>PLACEHOLDER 16</source>
+        <target state="translated">佔位符 16</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_24667457" xml:space="preserve">
+        <source>PLACEHOLDER 17</source>
+        <target state="translated">佔位符 17</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_7a688d04" xml:space="preserve">
+        <source>PLACEHOLDER 18</source>
+        <target state="translated">佔位符 18</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3a099911" xml:space="preserve">
+        <source>PLACEHOLDER 19</source>
+        <target state="translated">佔位符 19</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_3710e3f2" xml:space="preserve">
+        <source>PLACEHOLDER 20</source>
+        <target state="translated">佔位符 20</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_49a7b394" xml:space="preserve">
+        <source>PLACEHOLDER 21</source>
+        <target state="translated">佔位符 21</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_39b3dcfe" xml:space="preserve">
+        <source>PLACEHOLDER 22</source>
+        <target state="translated">佔位符 22</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b7030818" xml:space="preserve">
+        <source>PLACEHOLDER 23</source>
+        <target state="translated">佔位符 23</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b68b4233" xml:space="preserve">
+        <source>PLACEHOLDER 24</source>
+        <target state="translated">佔位符 24</target>
+      </trans-unit>
+      <trans-unit id="uied_component_texts_localised_string_Idrinth_StateText_b3139611" xml:space="preserve">
+        <source>PLACEHOLDER 25</source>
+        <target state="translated">佔位符 25</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampiro Alto Elfo</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Santuário</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">Guarda da Capela</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">Sacerdote da Capela</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">高等精灵吸血鬼</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">神龛</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">礼拜堂卫士</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">礼拜堂祭司</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vysokoelfí upír</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Svatyně</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">Kaplanská stráž</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">Kaplanský kněz</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Hochelfischer Vampir</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Schrein</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">Kapellengarde</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">Kapellenpriester</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampiro Alto Elfo</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Santuario</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">Guardia de Capilla</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">Sacerdote de Capilla</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampire Haut Elfe</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Sanctuaire</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">Garde de la Chappelle</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">Prêtre de la Chappelle</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampiro Alto Elfo</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Santuario</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">Guardia della Cappella</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">Sacerdote della Cappella</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">하이 엘프 뱀파이어</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">성소</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">예배당 수호대</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">예배당 사제</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Wampir Wysoki Elf</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Sanktuarium</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">Straż Kaplicy</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">Kapłan Kaplicy</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Вампир Высших Эльфов</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Святилище</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">Стража Капеллы</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">Жрец Капеллы</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Yüksek Elf Vampiri</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Türbe</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">Şapel Muhafızı</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">Şapel Rahibi</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_ui_unit_groupings__.loc.tsv">
+    <body>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">高等精靈吸血鬼</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">神殿</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard" xml:space="preserve">
+        <source>Chapel Guard</source>
+        <target state="translated">教堂衛隊</target>
+      </trans-unit>
+      <trans-unit id="ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest" xml:space="preserve">
+        <source>Chapel Priest</source>
+        <target state="translated">教堂祭司</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

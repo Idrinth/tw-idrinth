@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">Capela Perdida</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">Capela Fundada</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">Os Deuses Intervêm</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">礼拜堂失守</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">礼拜堂建立</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">神灵干预</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">Kaple ztracena</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">Kaple založena</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">Bohové zasahují</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">Kapelle Verloren</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">Kapelle Gegründet</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">Die Götter greifen ein</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">Capilla Perdida</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">Capilla Fundada</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">The Gods Intervene</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">Chapelle Perdue</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">Chapelle Fondée</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">Les Dieux Interviennent</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">Cappella Perduta</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">Cappella Fondata</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">Gli Dei Intervengono</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">예배당 상실</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">예배당 설립</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">신들의 개입</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">Kaplica Utracona</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">Kaplica Założona</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">Bogowie Interweniują</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">Капелла Потеряна</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">Капелла Основана</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">Боги Вмешиваются</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">Şapel Kaybedildi</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">Şapel Kuruldu</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">Tanrılar Müdahale Ediyor</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_message_event_strings__.loc.tsv">
+    <body>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_lost" xml:space="preserve">
+        <source>Chapel Lost</source>
+        <target state="translated">教堂失守</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_chapel_founded" xml:space="preserve">
+        <source>Chapel Founded</source>
+        <target state="translated">教堂建立</target>
+      </trans-unit>
+      <trans-unit id="message_event_strings_title_idrinth_godly_intervention" xml:space="preserve">
+        <source>The Gods Intervene</source>
+        <target state="translated">眾神介入</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

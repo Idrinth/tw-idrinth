@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">Bênção de Khaine</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">Bênção de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">Bênção de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">Os itens abençoados de Khaine forjam você em uma fonte de morte e destruição.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">Os itens abençoados de Kurnous transformam você em um dos caçadores mais perigosos vivos.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">Os itens abençoados de Asuryan definem o defensor dos indefesos.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">凯恩的祝福</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">库尔诺斯的祝福</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">阿苏里安的祝福</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">凯恩祝福的物品将你锻造成死亡与毁灭的化身。</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">库尔诺斯祝福的物品使你成为世上最危险的猎人之一。</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">阿苏里安祝福的物品定义了无助者的守护者。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">Khainovo požehnání</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">Kurnousovo požehnání</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">Asuryanova požehnání</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">Khainem požehnané předměty z tebe kují fungující zdroj smrti a zkázy.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">Kurnousem požehnané předměty z tebe činí jednoho z nejnebezpečnějších lovců naživu.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">Asuryanen požehnané předměty definují ochránce bezmocných,</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">Khaines Segen</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">Kurnous&apos; Segen</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">Asuryans Segen</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">Khaines gesegnete Gegenstände schmieden Euch zu einem Werkzeug des Todes und der Zerstörung.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">Kurnous&apos; gesegnete Gegenstände machen Euch zu einem der gefährlichsten Jäger unter den Lebenden.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">Asuryans gesegnete Gegenstände zeichnen den Beschützer der Wehrlosen aus.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">Bendición de Khaine</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">Bendición de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">Bendición de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">Los objetos bendecidos por Khaine te forjan en una fuente activa de muerte y destrucción.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">Los objetos bendecidos por Kurnous te convierten en uno de los cazadores más peligrosos con vida.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">Los objetos bendecidos por Asuryan definen al defensor de los indefensos,</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">Bénédiction de Khaine</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">Bénédiction de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">Bénédiction d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">Les objets bénis de Khaine vous forgent en une source mouvante de mort et de destruction.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">Les objets bénis de Kurnous font de vous l&apos;un des chasseurs les plus redoutables qui soient.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">Les objets bénis d&apos;Asuryan définissent le défenseur des faibles.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">Benedizione di Khaine</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">Benedizione di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">Benedizione di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">Gli oggetti benedetti da Khaine ti forgiano in una fonte operante di morte e distruzione.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">Gli oggetti benedetti da Kurnous ti rendono uno dei cacciatori più pericolosi in vita.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">Gli oggetti benedetti da Asuryan definiscono il difensore degli indifesi.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">카인의 축복</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">쿠르노스의 축복</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">아수리안의 축복</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">카인의 축복받은 아이템들은 당신을 죽음과 파괴의 작동 원천으로 만듭니다.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">쿠르노스의 축복받은 아이템들은 당신을 살아있는 가장 위험한 사냥꾼 중 하나로 만듭니다.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">아수리안의 축복받은 아이템들은 무력한 자들의 수호자를 정의합니다.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">Błogosławieństwo Khaine&apos;a</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">Błogosławieństwo Kurnousa</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">Błogosławieństwo Asuryana</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">Błogosławione przedmioty Khaine&apos;a czynią z ciebie działające źródło śmierci i zniszczenia.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">Błogosławione przedmioty Kurnousa czynią z ciebie jednego z najniebezpieczniejszych żyjących łowców.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">Błogosławione przedmioty Asuryana definiują obrońcę bezbronnych,</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">Благословение Кхейна</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">Благословение Курноуса</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">Благословение Асуриана</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">Благословлённые Кхейном предметы превращают вас в орудие смерти и разрушения.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">Благословлённые Курноусом предметы делают вас одним из опаснейших охотников среди живых.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">Благословлённые Асурианом предметы определяют защитника беспомощных.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">Khaine&apos;in Kutsaması</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">Kurnous&apos;un Kutsaması</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">Asuryan&apos;ın Kutsaması</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">Khaine&apos;in kutsal eşyaları seni çalışan bir ölüm ve yıkım kaynağına dönüştürür.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">Kurnous&apos;un kutsal eşyaları seni yaşayan en tehlikeli avcılardan biri yapar.</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">Asuryan&apos;ın kutsal eşyaları çaresizlerin savunucusunu tanımlar,</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_ancillary_sets__.loc.tsv">
+    <body>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Blessing</source>
+        <target state="translated">凱恩的祝福</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous Blessing</source>
+        <target state="translated">庫爾諾斯的祝福</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_name_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Blessing</source>
+        <target state="translated">阿蘇瑞安的祝福</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_khaine" xml:space="preserve">
+        <source>Khaine&apos;s blessed items forge you into a working source of death and destruction.</source>
+        <target state="translated">凱恩祝福的物品將你鍛造成死亡與毀滅的活泉源。</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; blessed items make you into one of the most dangerous hunters alive.</source>
+        <target state="translated">庫爾諾斯祝福的物品使你成為世上最危險的獵人之一。</target>
+      </trans-unit>
+      <trans-unit id="ancillary_sets_description_anc_set_exclusive_idrinth_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s blessed items define the defender of the helpless,</source>
+        <target state="translated">阿蘇瑞安祝福的物品定義了無助者的守護者。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

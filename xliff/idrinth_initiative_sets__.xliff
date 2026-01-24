@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">Dedicação</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">Bênçãos</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">献身</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">祝福</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">Zasvěcení</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">Požehnání</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">Hingabe</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">Segnungen</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">Dedicación</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">Bendiciones</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">Dévotion</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">Bénédictions</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">Dedizione</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">Benedizioni</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">헌신</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">축복</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">Poświęcenie</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">Błogosławieństwa</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">Посвящение</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">Благословения</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">Adanmışlık</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">Kutsamalar</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_initiative_sets__.loc.tsv">
+    <body>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_favour" xml:space="preserve">
+        <source>Dedication</source>
+        <target state="translated">奉獻</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_name_idrinth_godly_blessings" xml:space="preserve">
+        <source>Blessings</source>
+        <target state="translated">祝福</target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_favour" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="initiative_sets_localised_description_idrinth_godly_blessings" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

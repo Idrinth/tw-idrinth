@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">Escolha a qual deus dedicar Idrinth, para ganhar sua atenção.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">Ore aos deuses para obter bênçãos para seus aliados.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">选择将 Idrinth 献身于哪位神灵，以获得他们的关注。</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">向神灵祈祷，为你的盟友获得恩赐。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">Vyber, kterému bohu zasvětit Idrintha, abys získal jejich pozornost.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">Modli se k bohům pro získání požehnání pro své spojence.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">Wählet, welchem Gott Idrinth geweiht werden soll, auf dass Ihr dessen Aufmerksamkeit erlanget.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">Betet zu den Göttern, um Segnungen für Eure Verbündeten zu erlangen.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">Elige a qué dios dedicar a Idrinth, para ganar su atención.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">Reza a los dioses para obtener bendiciones para tus aliados.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">Choisissez à quel dieu dédier Idrinth, afin de gagner leur attention.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">Priez les dieux pour obtenir leurs faveurs pour vos alliés.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">Scegli a quale dio dedicare Idrinth, così da ottenere la loro attenzione.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">Prega gli dei per ottenere benedizioni per i tuoi alleati.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">이드린스를 헌신할 신을 선택하여 그들의 관심을 얻으세요.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">신들에게 기도하여 동맹에게 은혜를 얻으세요.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">Wybierz, któremu bogu poświęcić Idrinth, aby zyskać jego uwagę.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">Módl się do bogów, aby zdobyć błogosławieństwa dla swoich sojuszników.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">Выберите, какому богу посвятить Идринта, чтобы привлечь его внимание.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">Молитесь богам, чтобы получить благословения для своих союзников.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">Idrinth&apos;i hangi tanrıya adayacağınızı seçin, böylece onların ilgisini kazanın.</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">Müttefikleriniz için lütuflar kazanmak üzere tanrılara dua edin.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_campaign_localised_strings__.loc.tsv">
+    <body>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_blessings_explanation" xml:space="preserve">
+        <source>Choose what god to dedicate Idrinth to, so you gain their attention.</source>
+        <target state="translated">選擇將伊德林斯奉獻給哪位神祇，以獲得他們的關注。</target>
+      </trans-unit>
+      <trans-unit id="campaign_localised_strings_string_idrinth_godly_favour_explanation" xml:space="preserve">
+        <source>Pray to the gods to gain boons for your allies.</source>
+        <target state="translated">向眾神祈禱以獲得盟友的恩惠。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

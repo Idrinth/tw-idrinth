@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">Juramento de Resistência</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">Grande Juramento de Resistência</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">Dedo de Sombra</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">Grande Dedo de Sombra</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">Dança das Sombras</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">Grande Dança das Sombras</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">Servidão Eterna</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">Grande Servidão Eterna</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">Intenção Mortal</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">Grande Intenção Mortal</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">Juramento de Vingança</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">Grande Juramento de Vingança</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Inimigo dos Poderes Ruinosos</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">Treinando especificamente contra os inúmeros inimigos dos poderes ruinosos, estes guerreiros são excepcionais em combatê-los.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">坚忍誓言</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">强效坚忍誓言</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">暗影之指</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">强效暗影之指</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">暗影之舞</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">强效暗影之舞</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">永恒服役</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">强效永恒服役</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">致命意图</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">强效致命意图</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">复仇誓言</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">强效复仇誓言</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">毁灭之力的宿敌</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">专门针对毁灭之力的众多敌人进行训练，这些战士在与他们战斗时表现出色。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">Přísaha odolání</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">Velká přísaha odolání</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">Stínový prst</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">Velký stínový prst</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">Stínový tanec</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">Velký stínový tanec</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">Věčná služba</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">Velká věčná služba</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">Smrtící záměr</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">Velký smrtící záměr</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">Přísaha pomsty</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">Velká přísaha pomsty</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Nepřítel zhoubných sil</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">Výcvik specificky proti bezpočetným nepřátelům zhoubných sil činí tyto válečníky výjimečnými v boji proti nim.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">Eid des Aushaltens</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">Großer Eid des Aushaltens</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">Schattenfinger</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">Großer Schattenfinger</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">Schattentanz</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">Großer Schattentanz</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">Ewige Knechtschaft</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">Große Ewige Knechtschaft</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">Tödliche Absicht</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">Große Tödliche Absicht</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">Eid der Rache</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">Großer Eid der Rache</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Widersacher der Verderblichen Mächte</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">Speziell ausgebildet gegen die mannigfaltigen Feinde der Verderblichen Mächte, sind diese Krieger außergewöhnlich im Kampf gegen sie.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">Juramento de Resistencia</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">Gran Juramento de Resistencia</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">Dedo de Sombra</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">Gran Dedo de Sombra</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">Danza de Sombras</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">Gran Danza de Sombras</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">Servidumbre Eterna</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">Gran Servidumbre Eterna</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">Intención Mortal</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">Gran Intención Mortal</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">Juramento de Venganza</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">Gran Juramento de Venganza</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Enemigo de los Poderes Ruinosos</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">Entrenados específicamente contra los innumerables enemigos de los poderes ruinosos, estos guerreros son excepcionales luchando contra ellos.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">Serment d&apos;Endurance</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">Grand Serment d&apos;Endurance</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">Doigt d&apos;Ombre</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">Grand Doigt d&apos;Ombre</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">Danse des Ombres</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">Grande Danse des Ombres</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">Servitude Éternelle</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">Grande Servitude Éternelle</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">Dessein Mortel</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">Grand Dessein Mortel</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">Serment de Vengeance</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">Grand Serment de Vengeance</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Pourfendeur des Puissances Ruineuses</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">Spécialement formés contre les multiples ennemis des Puissances Ruineuses, ces guerriers sont exceptionnels au combat contre eux.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">Giuramento di Resistenza</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">Grande Giuramento di Resistenza</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">Dito d&apos;Ombra</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">Grande Dito d&apos;Ombra</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">Danza delle Ombre</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">Grande Danza delle Ombre</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">Servitù Eterna</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">Grande Servitù Eterna</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">Intento Mortale</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">Grande Intento Mortale</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">Giuramento di Vendetta</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">Grande Giuramento di Vendetta</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Nemico delle Potenze Rovinose</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">Addestrati specificamente contro i molteplici nemici delle potenze rovinose, questi guerrieri sono eccezionali nel combatterli.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">인내의 맹세</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">대 인내의 맹세</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">그림자 손가락</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">대 그림자 손가락</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">그림자 춤</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">대 그림자 춤</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">영원한 복종</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">대 영원한 복종</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">치명적 의도</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">대 치명적 의도</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">복수의 맹세</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">대 복수의 맹세</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">파멸의 힘의 적</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">파멸의 힘의 무수한 적들에 대해 특별히 훈련받아, 이 전사들은 그들과 싸우는 데 탁월합니다.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">Przysięga Wytrwania</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">Większa Przysięga Wytrwania</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">Cienisty Palec</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">Większy Cienisty Palec</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">Taniec Cienia</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">Większy Taniec Cienia</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">Wieczna Służba</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">Większa Wieczna Służba</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">Śmiertelny Zamiar</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">Większy Śmiertelny Zamiar</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">Przysięga Zemsty</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">Większa Przysięga Zemsty</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Wróg Niszczycielskich Mocy</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">Szkoleni specjalnie przeciwko niezliczonym wrogom niszczycielskich mocy, ci wojownicy są wyjątkowo skuteczni w walce z nimi.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">Клятва Стойкости</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">Великая Клятва Стойкости</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">Теневой Палец</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">Великий Теневой Палец</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">Теневой Танец</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">Великий Теневой Танец</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">Вечное Служение</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">Великое Вечное Служение</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">Смертельное Намерение</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">Великое Смертельное Намерение</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">Клятва Мести</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">Великая Клятва Мести</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Враг Губительных Сил</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">Специально обученные против множества врагов губительных сил, эти воины исключительны в бою с ними.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">Dayanma Yemini</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">Büyük Dayanma Yemini</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">Gölge Parmağı</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">Büyük Gölge Parmağı</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">Gölge Dansı</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">Büyük Gölge Dansı</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">Sonsuz Kulluk</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">Büyük Sonsuz Kulluk</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">Ölümcül Niyet</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">Büyük Ölümcül Niyet</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">İntikam Yemini</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">Büyük İntikam Yemini</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Yıkım Güçlerinin Düşmanı</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">Yıkım güçlerinin sayısız düşmanına karşı özel olarak eğitilmiş bu savaşçılar, onlarla savaşmakta olağanüstüdür.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_unit_abilities__.loc.tsv">
+    <body>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source>Oath of Withstanding</source>
+        <target state="translated">堅守誓言</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source>Greater Oath of Withstanding</source>
+        <target state="translated">強化堅守誓言</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source>Shadow Finger</source>
+        <target state="translated">暗影之指</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source>Greater Shadow Finger</source>
+        <target state="translated">強化暗影之指</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_finger_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source>Shadow Dance</source>
+        <target state="translated">暗影之舞</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source>Greater Shadow Dance</source>
+        <target state="translated">強化暗影之舞</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_shadow_dance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source>Eternal Servitude</source>
+        <target state="translated">永恆服役</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source>Greater Eternal Servitude</source>
+        <target state="translated">強化永恆服役</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_eternal_servitude_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source>Deadly Intend</source>
+        <target state="translated">致命意圖</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source>Greater Deadly Intend</source>
+        <target state="translated">強化致命意圖</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_deadly_intend_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source>Oath of Vengenance</source>
+        <target state="translated">復仇誓言</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source>Greater Oath of Vengenance</source>
+        <target state="translated">強化復仇誓言</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_vengeance_upgraded" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">邪惡力量之敵</target>
+      </trans-unit>
+      <trans-unit id="unit_abilities_tooltip_text_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Training specifically against the myriad enemies of the ruinous powers, these warriors are exceptional at fighting them.</source>
+        <target state="translated">專門訓練對抗邪惡力量的無數敵人，這些戰士在與他們作戰時表現卓越。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

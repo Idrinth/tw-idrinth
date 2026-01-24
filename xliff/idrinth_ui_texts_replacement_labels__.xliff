@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">Capela Thaluiana</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">Mostrar Capela Thaluiana local</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">塔卢伊礼拜堂</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">显示当地塔卢伊礼拜堂</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">Thaluiánská kaple</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">Zobrazit místní Thaluiánskou kapli</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">Thaluische Kapelle</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">Lokale thaluianische Kapelle anzeigen</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">Capilla Thaluiana</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">Mostrar capilla thaluiana local</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">Chappelle Thaluienne</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">Afficher la chapelle thaluienne locale</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">Cappella Thaluiana</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">Mostra Cappella Thaluiana locale</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">탈루이안 예배당</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">지역 탈루이안 예배당 표시</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">Kaplica Thaluii</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">Pokaż lokalną kaplicę thaluiańską</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">Талуианская Капелла</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">Показать местную талуианскую часовню</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">Thalui Şapeli</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">Yerel Thalui Şapelini göster</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_ui_texts_replacement_labels__.loc.tsv">
+    <body>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip" xml:space="preserve">
+        <source>Thaluian Chapel</source>
+        <target state="translated">塔路易教堂</target>
+      </trans-unit>
+      <trans-unit id="ui_text_replacements_localised_text_idrinth_chapel_button_tooltip" xml:space="preserve">
+        <source>Show local Thaluian Chapel</source>
+        <target state="translated">顯示當地塔路易教堂</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

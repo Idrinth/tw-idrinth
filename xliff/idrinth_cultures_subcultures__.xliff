@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">As Capelas Thaluianas</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">塔卢伊礼拜堂是由雇佣兵、冒险者和流亡者组成的混合精灵团体。塔卢伊礼拜堂网络遍布各国，其稀有但强大的礼拜堂建筑保卫着关键定居点，在混沌势力造成更大威胁之前将其阻止。</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">塔卢伊礼拜堂</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">Thaluiánské kaple jsou smíšená elfí skupina žoldnéřů, dobrodruhů a vyhnanců. Síť Thaluiánských kaplí se rozprostírá přes země se vzácnými, ale mocnými kaplemi bránícími kritická osídlení a zastavujícími chaosové síly dříve, než představují větší hrozbu.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Thaluiánské kaple</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">Die Thaluischen Kapellen sind eine gemischte Elfengruppe aus Söldnern, Abenteurern und Verbannten. Das Netzwerk der Thaluischen Kapellen erstreckt sich über viele Länder mit seltenen, doch mächtigen Kapellengebäuden, die wichtige Siedlungen verteidigen und Chaostruppen aufhalten, ehe sie zu einer größeren Bedrohung werden.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Die Thaluischen Kapellen</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Las Capillas Thaluianas</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">Les Chappelles Thaluiennes sont un groupe mixte d&apos;elfes mercenaires, aventuriers et exilés. Le réseau des Chappelles Thaluiennes s&apos;étend à travers les contrées, avec de rares mais puissantes bâtisses de chappelle défendant les établissements critiques et arrêtant les forces du chaos avant qu&apos;elles ne posent plus grande menace.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Les Chapelles Thaluiennes</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">Le Cappelle Thaluiane sono un gruppo misto elfico di mercenari, avventurieri ed esuli. La rete delle Cappelle Thaluiane si estende attraverso paesi con rari ma potenti edifici di cappelle che difendono insediamenti critici e fermano le forze del caos prima che possano costituire una minaccia maggiore.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Le Cappelle Thaluiane</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">탈루이안 예배당은 용병, 모험가, 망명자들로 구성된 혼합 엘프 그룹입니다. 탈루이안 예배당 네트워크는 중요한 정착지를 방어하고 혼돈의 세력이 더 큰 위협이 되기 전에 저지하는 희귀하지만 강력한 예배당 건물들로 여러 나라에 걸쳐 있습니다.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">탈루이안 예배당</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">Kaplice Thaluii to mieszana elficka grupa najemników, poszukiwaczy przygód i wygnańców. Sieć Kaplic Thaluii rozpościera się na wiele krajów, z rzadkimi, lecz potężnymi budowlami kaplicznymi broniącymi kluczowych osad i powstrzymującymi siły chaosu, zanim staną się większym zagrożeniem.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Kaplice Thaluiańskie</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">Талуианские Капеллы — это смешанная эльфийская группа наёмников, искателей приключений и изгнанников. Сеть Талуианских Капелл охватывает страны редкими, но могущественными капеллами, защищающими важные поселения и останавливающими силы хаоса до того, как они станут серьёзной угрозой.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Талуианские Капеллы</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">Thalui Şapelleri, paralı askerler, maceracılar ve sürgünlerden oluşan karma bir elf grubudur. Thalui Şapeli ağı, kritik yerleşimleri savunan ve kaos güçlerini daha büyük bir tehdit oluşturmadan durduran nadir ama güçlü şapel binaları ile ülkelere yayılmaktadır.</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">Thalui Şapelleri</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_cultures_subcultures__.loc.tsv">
+    <body>
+      <trans-unit id="cultures_subcultures_battle_playstyle_description_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels are a mixed elven group of mercenaries, adventurers and exiles. The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.</source>
+        <target state="translated">塔路易教堂是由傭兵、冒險者和流亡者組成的混合精靈團體。塔路易教堂網絡橫跨各國，擁有稀少但強大的教堂建築，守護關鍵定居點並在混沌勢力構成更大威脅之前阻止它們。</target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_screen_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_confederation_summary_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="cultures_subcultures_name_idrinth_hev_high_elf_vampires" xml:space="preserve">
+        <source>The Thaluian Chapels</source>
+        <target state="translated">塔路易教堂</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

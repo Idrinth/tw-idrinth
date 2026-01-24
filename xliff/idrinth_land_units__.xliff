@@ -1,0 +1,2547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampiro Alto Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Guarda de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Guarda de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Guarda de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">Guarda Élfica Mista</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">Sacerdote de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">Sacerdote de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">Sacerdote de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">Santuário de Asuryan, Kurnous e Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">Lobos Abençoados</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">Morcegos Abençoados</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">Falcões Abençoados</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">Grande Águia Abençoada</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Santuário</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">Lobos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">Morcegos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">Falcões</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">Grande Águia</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">Lobos de Pedra</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">Lobos Gigantes</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Batedores da Capela</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Cavaleiros</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">Sacerdote Vampiro de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">Sacerdote Vampiro de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">Sacerdote Vampiro de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">Perdido de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">Perdido de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">Perdido de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampiro Alto Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Guarda de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Guarda de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Guarda de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Batedores da Capela</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Cavaleiros</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">高等精灵吸血鬼</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">阿苏里安卫士</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">库尔诺斯卫士</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">凯恩卫士</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">混编精灵卫士</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">库尔诺斯祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">凯恩祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">阿苏里安祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">阿苏里安、库尔诺斯与凯恩神龛</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">祝福之狼</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">祝福之蝠</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">祝福之鹰</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">祝福巨鹰</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">神龛</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">狼</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">蝙蝠</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">鹰</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">巨鹰</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">石狼</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">巨狼</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">礼拜堂骑哨</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">骑兵</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">库尔诺斯吸血鬼祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">凯恩吸血鬼祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">阿苏里安吸血鬼祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">凯恩的迷失者</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">库尔诺斯的迷失者</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">阿苏里安的迷失者</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">瓦尔古夫</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">瓦尔古夫</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">瓦尔古夫</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">高等精灵吸血鬼</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">阿苏里安卫士</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">库尔诺斯卫士</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">凯恩卫士</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精灵</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">礼拜堂骑哨</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">骑兵</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vysokoelfí upír</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Asuryanova stráž</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Kurnousova stráž</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Khainova stráž</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">Smíšená elfí stráž</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfové</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfové</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfové</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfové</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">Kurnousův kněz</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">Khainův kněz</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">Asuryanův kněz</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">Svatyně Asuryana, Kurnouse a Khaina</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">Požehnaní vlci</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">Požehnaní netopýři</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">Požehnaní jestřábi</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">Požehnaný velký orel</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Svatyně</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">Vlci</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">Netopýři</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">Jestřábi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">Velký orel</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">Kamenní vlci</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">Obří vlci</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Kaplanští předjezdci</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Jezdci</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">Kurnousův upíří kněz</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">Khainův upíří kněz</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">Asuryanův upíří kněz</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">Khainův ztracený</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">Kurnousův ztracený</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">Asuryanův ztracený</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vysokoelfí upír</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Asuryanova stráž</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Kurnousova stráž</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Khainova stráž</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfové</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfové</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfové</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Kaplanští předjezdci</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Jezdci</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Hochelfischer Vampir</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Asuryans Garde</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Kurnous&apos; Garde</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Khaines Garde</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">Gemischte Elfengarde</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfen</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfen</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfen</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfen</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">Kurnous&apos; Priester</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">Khaines Priester</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">Asuryans Priester</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">Schrein zu Asuryan, Kurnous und Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">Gesegnete Wölfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">Gesegnete Fledermäuse</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">Gesegnete Habichte</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">Gesegneter Großer Adler</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Schrein</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">Wölfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">Fledermäuse</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">Habichte</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">Großer Adler</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">Steinwölfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">Riesenwölfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Kapellen-Vorreiter</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Reiter</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">Kurnous&apos; Vampirpriester</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">Khaines Vampirpriester</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">Asuryans Vampirpriester</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">Khaines Verlorener</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">Kurnous&apos; Verlorener</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">Asuryans Verlorener</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Hochelfischer Vampir</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Asuryans Garde</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Kurnous&apos; Garde</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Khaines Garde</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfen</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfen</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfen</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Kapellen-Vorreiter</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Reiter</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampiro Alto Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Guardia de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Guardia de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Guardia de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">Guardia Élfica Mixta</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">Sacerdote de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">Sacerdote de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">Sacerdote de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">Santuario de Asuryan, Kurnous y Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">Lobos Bendecidos</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">Murciélagos Bendecidos</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">Halcones Bendecidos</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">Gran Águila Bendecida</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Santuario</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">Lobos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">Murciélagos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">Halcones</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">Gran Águila</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">Lobos de Piedra</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">Lobos Gigantes</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Exploradores de la Capilla</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Jinetes</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">Sacerdote Vampiro de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">Sacerdote Vampiro de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">Sacerdote Vampiro de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">Perdido de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">Perdido de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">Perdido de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampiro Alto Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Guardia de Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Guardia de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Guardia de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfos</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Exploradores de la Capilla</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Jinetes</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampire Haut Elfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Garde d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Garde de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Garde de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">Garde Elfique Mixte</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfes</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfes</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfes</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfes</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">Prêtre de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">Prêtre de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">Prêtre d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">Sanctuaire d&apos;Asuryan, Kurnous et Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">Loups Bénis</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">Chauve-souris Bénies</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">Faucons Bénis</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">Grand Aigle Béni</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Sanctuaire</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">Loups</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">Chauve-souris</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">Faucons</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">Grand Aigle</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">Loups de Pierre</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">Loups Géants</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Éclaireurs de la Chappelle</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Cavaliers</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">Prêtre Vampire de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">Prêtre Vampire de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">Prêtre Vampire d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">Égaré de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">Égaré de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">Égaré d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampire Haut Elfe</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Garde d&apos;Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Garde de Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Garde de Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfes</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfes</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfes</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Éclaireurs de la Chappelle</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Cavaliers</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampiro Alto Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Guardia di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Guardia di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Guardia di Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">Guardia Elfica Mista</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfi</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">Sacerdote di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">Sacerdote di Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">Sacerdote di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">Santuario ad Asuryan, Kurnous e Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">Lupi Benedetti</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">Pipistrelli Benedetti</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">Falchi Benedetti</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">Grande Aquila Benedetta</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Santuario</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">Lupi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">Pipistrelli</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">Falchi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">Grande Aquila</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">Lupi di Pietra</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">Lupi Giganti</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Avanguardie della Cappella</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Cavalieri</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">Sacerdote Vampiro di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">Sacerdote Vampiro di Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">Sacerdote Vampiro di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">Perduto di Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">Perduto di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">Perduto di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Vampiro Alto Elfo</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Guardia di Asuryan</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Guardia di Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Guardia di Khaine</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfi</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Avanguardie della Cappella</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Cavalieri</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">하이 엘프 뱀파이어</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">이드린스 탈루이</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">아수리안의 수호대</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">쿠르노스의 수호대</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">카인의 수호대</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">혼합 엘프 수호대</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">엘프들</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">엘프들</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">엘프들</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">엘프들</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">쿠르노스의 사제</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">카인의 사제</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">아수리안의 사제</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">엘프</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">엘프</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">엘프</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">아수리안, 쿠르노스, 카인의 성소</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">축복받은 늑대</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">축복받은 박쥐</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">축복받은 매</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">축복받은 대독수리</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">성소</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">늑대</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">박쥐</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">매</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">대독수리</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">돌 늑대</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">거대 늑대</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">예배당 척후병</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">기병</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">쿠르노스의 뱀파이어 사제</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">카인의 뱀파이어 사제</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">아수리안의 뱀파이어 사제</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">엘프</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">엘프</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">엘프</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">카인의 길 잃은 자</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">쿠르노스의 길 잃은 자</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">아수리안의 길 잃은 자</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">바르굴프</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">바르굴프</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">바르굴프</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">하이 엘프 뱀파이어</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">이드린스 탈루이</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">아수리안의 수호대</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">쿠르노스의 수호대</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">카인의 수호대</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">엘프들</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">엘프들</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">엘프들</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">예배당 척후병</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">기병</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Wampir Wysoki Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Straż Asuryana</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Straż Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Straż Khaine&apos;a</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">Mieszana Straż Elficka</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfy</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfy</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfy</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfy</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">Kapłan Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">Kapłan Khaine&apos;a</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">Kapłan Asuryana</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">Sanktuarium Asuryana, Kurnous i Khaine&apos;a</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">Błogosławione Wilki</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">Błogosławione Nietoperze</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">Błogosławione Jastrzębie</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">Błogosławiony Wielki Orzeł</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Sanktuarium</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">Wilki</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">Nietoperze</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">Jastrzębie</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">Wielki Orzeł</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">Kamienne Wilki</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">Olbrzymie Wilki</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Zwiadowcy Kaplicy</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Jeźdźcy</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">Wampirzy Kapłan Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">Wampirzy Kapłan Khaine&apos;a</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">Wampirzy Kapłan Asuryana</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">Zaginiony Khaine&apos;a</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">Zaginiony Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">Zaginiony Asuryana</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Wampir Wysoki Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Straż Asuryana</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Straż Kurnous</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Straż Khaine&apos;a</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfy</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfy</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfy</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Zwiadowcy Kaplicy</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Jeźdźcy</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Вампир Высших Эльфов</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Стража Асуриана</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Стража Курноуса</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Стража Кхейна</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">Смешанная Эльфийская Стража</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Эльфы</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Эльфы</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Эльфы</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Эльфы</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">Жрец Курноуса</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">Жрец Кхейна</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">Жрец Асуриана</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Эльф</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Эльф</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Эльф</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">Святилище Асуриана, Курноуса и Кхейна</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">Благословенные Волки</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">Благословенные Летучие Мыши</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">Благословенные Ястребы</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">Благословенный Великий Орёл</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Святилище</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">Волки</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">Летучие Мыши</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">Ястребы</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">Великий Орёл</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">Каменные Волки</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">Гигантские Волки</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Разведчики Капеллы</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Всадники</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">Жрец-Вампир Курноуса</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">Жрец-Вампир Кхейна</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">Жрец-Вампир Асуриана</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Эльф</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Эльф</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Эльф</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">Утраченный Кхейна</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">Утраченный Курноуса</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">Утраченный Асуриана</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Варгульф</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Варгульф</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Варгульф</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Вампир Высших Эльфов</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Стража Асуриана</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Стража Курноуса</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Стража Кхейна</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Эльфы</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Эльфы</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Эльфы</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Разведчики Капеллы</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Всадники</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Yüksek Elf Vampiri</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Asuryan&apos;ın Muhafızı</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Kurnous&apos;un Muhafızı</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Khaine&apos;in Muhafızı</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">Karma Elf Muhafızı</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfler</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfler</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfler</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfler</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">Kurnous&apos;un Rahibi</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">Khaine&apos;in Rahibi</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">Asuryan&apos;ın Rahibi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">Asuryan, Kurnous ve Khaine Türbesi</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">Kutsanmış Kurtlar</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">Kutsanmış Yarasalar</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">Kutsanmış Şahinler</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">Kutsanmış Büyük Kartal</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">Türbe</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">Kurtlar</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">Yarasalar</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">Şahinler</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">Büyük Kartal</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">Taş Kurtlar</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">Dev Kurtlar</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Şapel Öncüleri</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Atlılar</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">Kurnous&apos;un Vampir Rahibi</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">Khaine&apos;in Vampir Rahibi</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">Asuryan&apos;ın Vampir Rahibi</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">Elf</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">Khaine&apos;in Kayıp Olanı</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">Kurnous&apos;un Kayıp Olanı</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">Asuryan&apos;ın Kayıp Olanı</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">Varghulf</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">Yüksek Elf Vampiri</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">Idrinth Thalui</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">Asuryan&apos;ın Muhafızı</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">Kurnous&apos;un Muhafızı</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">Khaine&apos;in Muhafızı</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfler</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfler</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">Elfler</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">Şapel Öncüleri</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">Atlılar</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_land_units__.loc.tsv">
+    <body>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">高等精靈吸血鬼</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">伊德林斯·塔路易</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">阿蘇瑞安衛隊</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">庫爾諾斯衛隊</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">凱恩衛隊</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Mixed Elven Guard</source>
+        <target state="translated">混合精靈衛隊</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_mixed" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Kurnous&apos; Priest</source>
+        <target state="translated">庫爾諾斯祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Khaine&apos;s Priest</source>
+        <target state="translated">凱恩祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Asuryan&apos;s Priest</source>
+        <target state="translated">阿蘇瑞安祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine to Asuryan, Kurnous and Khaine</source>
+        <target state="translated">阿蘇瑞安、庫爾諾斯和凱恩神殿</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Blessed Wolves</source>
+        <target state="translated">受祝福的狼群</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Blessed Bats</source>
+        <target state="translated">受祝福的蝙蝠</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Blessed Hawks</source>
+        <target state="translated">受祝福的獵鷹</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Blessed Great Eagle</source>
+        <target state="translated">受祝福的巨鷹</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_shrine" xml:space="preserve">
+        <source>Shrine</source>
+        <target state="translated">神殿</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_wolves" xml:space="preserve">
+        <source>Wolves</source>
+        <target state="translated">狼群</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_cave_bats" xml:space="preserve">
+        <source>Bats</source>
+        <target state="translated">蝙蝠</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_hawks" xml:space="preserve">
+        <source>Hawks</source>
+        <target state="translated">獵鷹</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_great_eagle" xml:space="preserve">
+        <source>Great Eagle</source>
+        <target state="translated">巨鷹</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Stone Wolves</source>
+        <target state="translated">石狼</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_stone_wolves" xml:space="preserve">
+        <source>Giant Wolves</source>
+        <target state="translated">巨狼</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">教堂斥候騎兵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">騎兵</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Kurnous&apos; Vampire Priest</source>
+        <target state="translated">庫爾諾斯吸血鬼祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Khaine&apos;s Vampire Priest</source>
+        <target state="translated">凱恩吸血鬼祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Asuryan&apos;s Vampire Priest</source>
+        <target state="translated">阿蘇瑞安吸血鬼祭司</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire" xml:space="preserve">
+        <source>Elf</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Khaine&apos;s Lost One</source>
+        <target state="translated">凱恩的迷失者</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Kurnous&apos; Lost One</source>
+        <target state="translated">庫爾諾斯的迷失者</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Asuryan&apos;s Lost One</source>
+        <target state="translated">阿蘇瑞安的迷失者</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">食屍鬼王</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">食屍鬼王</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf" xml:space="preserve">
+        <source>Varghulf</source>
+        <target state="translated">食屍鬼王</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>High Elf Vampire</source>
+        <target state="translated">高等精靈吸血鬼</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthgeneral" xml:space="preserve">
+        <source>Idrinth Thalui</source>
+        <target state="translated">伊德林斯·塔路易</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Asuryan&apos;s Guard</source>
+        <target state="translated">阿蘇瑞安衛隊</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Kurnous&apos; Guard</source>
+        <target state="translated">庫爾諾斯衛隊</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Khaine&apos;s Guard</source>
+        <target state="translated">凱恩衛隊</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_asuryan_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_kurnous_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_khaine_large" xml:space="preserve">
+        <source>Elves</source>
+        <target state="translated">精靈</target>
+      </trans-unit>
+      <trans-unit id="land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Chapel Outriders</source>
+        <target state="translated">教堂斥候騎兵</target>
+      </trans-unit>
+      <trans-unit id="land_units_concealed_name_idrinth_hev_high_elf_vampires_chapel_outriders_large" xml:space="preserve">
+        <source>Riders</source>
+        <target state="translated">騎兵</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">Dedicar-se a Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">Dedicar-se a Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">Dedicar-se a Asuryan</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">Orar a Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">Orar a Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">Orar a Asuryan</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">献身于凯恩</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">献身于库尔诺斯</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">献身于阿苏里安</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">向凯恩祈祷</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">向库尔诺斯祈祷</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">向阿苏里安祈祷</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">Zasvěť se Khainovi</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">Zasvěť se Kurnousovi</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">Zasvěť se Asuryanovi</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">Modli se ke Khainovi</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">Modli se ke Kurnousovi</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">Modli se k Asuryanovi</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">Weiht Euch dem Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">Weiht Euch dem Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">Weiht Euch dem Asuryan</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">Betet zu Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">Betet zu Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">Betet zu Asuryan</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">Dedicarte a Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">Dedicarte a Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">Dedicarte a Asuryan</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">Rezar a Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">Rezar a Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">Rezar a Asuryan</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">Se consacrer à Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">Se consacrer à Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">Se consacrer à Asuryan</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">Prier Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">Prier Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">Prier Asuryan</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">Dedicati a Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">Dedicati a Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">Dedicati ad Asuryan</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">Prega Khaine</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">Prega Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">Prega Asuryan</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">카인에게 헌신하기</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">쿠르노스에게 헌신하기</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">아수리안에게 헌신하기</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">카인에게 기도하기</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">쿠르노스에게 기도하기</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">아수리안에게 기도하기</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">Poświęć się Khaine&apos;owi</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">Poświęć się Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">Poświęć się Asuryanowi</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">Módl się do Khaine&apos;a</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">Módl się do Kurnous</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">Módl się do Asuryana</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">Посвятить себя Кхейну</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">Посвятить себя Курноусу</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">Посвятить себя Асуриану</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">Молиться Кхейну</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">Молиться Курноусу</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">Молиться Асуриану</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">Kendini Khaine&apos;e ada</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">Kendini Kurnous&apos;a ada</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">Kendini Asuryan&apos;a ada</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">Khaine&apos;e dua et</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">Kurnous&apos;a dua et</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">Asuryan&apos;a dua et</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_initiatives__.loc.tsv">
+    <body>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Khaine</source>
+        <target state="translated">將自己奉獻給凱恩</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Kurnous</source>
+        <target state="translated">將自己奉獻給庫爾諾斯</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_pledge" xml:space="preserve">
+        <source>Dedicate yourself to Asuryan</source>
+        <target state="translated">將自己奉獻給阿蘇瑞安</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_khaine_prayer" xml:space="preserve">
+        <source>Pray to Khaine</source>
+        <target state="translated">向凱恩祈禱</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_kurnous_prayer" xml:space="preserve">
+        <source>Pray to Kurnous</source>
+        <target state="translated">向庫爾諾斯祈禱</target>
+      </trans-unit>
+      <trans-unit id="initiatives_localised_name_idrinth_asuryan_prayer" xml:space="preserve">
+        <source>Pray to Asuryan</source>
+        <target state="translated">向阿蘇瑞安祈禱</target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_pledge" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_khaine_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_kurnous_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <trans-unit id="idrinth_asuryan_prayer" xml:space="preserve">
+        <source></source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

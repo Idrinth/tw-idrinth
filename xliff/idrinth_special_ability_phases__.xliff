@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Inimigo dos Poderes Ruinosos</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">毁灭之力的宿敌</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Nepřítel zhoubných sil</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Widersacher der Verderblichen Mächte</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Enemigo de los Poderes Ruinosos</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Pourfendeur des Puissances Ruineuses</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Nemico delle Potenze Rovinose</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">파멸의 힘의 적</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Wróg Niszczycielskich Mocy</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Враг Губительных Сил</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">Yıkım Güçlerinin Düşmanı</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_special_ability_phases__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_phases_onscreen_name_idrinth_hev_high_elf_vampires_anti_chaos" xml:space="preserve">
+        <source>Foe of the Ruinous Powers</source>
+        <target state="translated">邪惡力量之敵</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

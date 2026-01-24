@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="pt-BR" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Saber dos Thalui</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Saber dos Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-CN" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">塔卢伊学派</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">塔卢伊学派</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="cs" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Nauka Thalui</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Nauka Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="de" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Lehre der Thalui</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Lehre der Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="es" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Saber de los Thalui</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Saber de los Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="fr" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Savoir des Thalui</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Savoir des Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="it" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Sapienza dei Thalui</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Sapienza dei Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ko" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">탈루이의 전승</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">탈루이의 전승</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="pl" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Wiedza Thalui</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Wiedza Thalui</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Знание Талуи</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Знание Талуи</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="tr" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Thalui Bilimi</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">Thalui Bilimi</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="zh-TW" datatype="plaintext" original="idrinth_special_ability_groups__.loc.tsv">
+    <body>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">塔路易學派</target>
+      </trans-unit>
+      <trans-unit id="special_ability_groups_name_idrinth_lore_thalui_upgraded" xml:space="preserve">
+        <source>Lore of the Thalui</source>
+        <target state="translated">塔路易學派</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
