@@ -117,23 +117,23 @@ effect_bundles_localised_title_idrinth_hev_high_elf_vampires_anti_chaos	탈루�
 effect_bundles_localised_description_idrinth_hev_high_elf_vampires_anti_chaos	당신의 신들이 파멸의 힘의 모든 추종자들에 대해 탈루이안 예배당 병력을 강화합니다.	false
 effect_bundles_localised_title_idrinth_chapel_slots_present	탈루이안 예배당 공간	false
 effect_bundles_localised_description_idrinth_chapel_slots_present	이 정착지에는 아수리안, 카인, 쿠르노스에 의해 성화된 지역이 있으며 탈루이안 예배당 단지를 수용할 수 있습니다.	false
-effect_bundles_localised_title_idrinth_veteran_0	미숙한 신병	false
-effect_bundles_localised_description_idrinth_veteran_0	미숙한 신병	false
-effect_bundles_localised_title_idrinth_veteran_1	혼합 수호대 신병 [[img:experience_1]]	false
-effect_bundles_localised_description_idrinth_veteran_1	혼합 수호대 신병 [[img:experience_1]]	false
-effect_bundles_localised_title_idrinth_veteran_2	혼합 수호대 신병 [[img:experience_2]]	false
-effect_bundles_localised_description_idrinth_veteran_2	혼합 수호대 신병 [[img:experience_2]]	false
-effect_bundles_localised_title_idrinth_veteran_3	혼합 수호대 신병 [[img:experience_3]]	false
-effect_bundles_localised_description_idrinth_veteran_3	혼합 수호대 신병 [[img:experience_3]]	false
-effect_bundles_localised_title_idrinth_veteran_4	혼합 수호대 병사 [[img:experience_4]]	false
-effect_bundles_localised_description_idrinth_veteran_4	혼합 수호대 병사 [[img:experience_4]]	false
-effect_bundles_localised_title_idrinth_veteran_5	혼합 수호대 병사 [[img:experience_5]]	false
-effect_bundles_localised_description_idrinth_veteran_5	혼합 수호대 병사 [[img:experience_5]]	false
-effect_bundles_localised_title_idrinth_veteran_6	혼합 수호대 병사 [[img:experience_6]]	false
-effect_bundles_localised_description_idrinth_veteran_6	혼합 수호대 병사 [[img:experience_6]]	false
-effect_bundles_localised_title_idrinth_veteran_7	혼합 수호대 베테랑 [[img:experience_7]]	false
-effect_bundles_localised_description_idrinth_veteran_7	혼합 수호대 베테랑 [[img:experience_7]]	false
-effect_bundles_localised_title_idrinth_veteran_8	혼합 수호대 베테랑 [[img:experience_8]]	false
-effect_bundles_localised_description_idrinth_veteran_8	혼합 수호대 베테랑 [[img:experience_8]]	false
-effect_bundles_localised_title_idrinth_veteran_9	혼합 수호대 베테랑 [[img:experience_9]]	false
-effect_bundles_localised_description_idrinth_veteran_9	혼합 수호대 베테랑 [[img:experience_9]]	false
+effect_bundles_localised_title_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
+effect_bundles_localised_description_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
+effect_bundles_localised_title_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
+effect_bundles_localised_description_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
+effect_bundles_localised_title_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
+effect_bundles_localised_description_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
+effect_bundles_localised_title_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
+effect_bundles_localised_description_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
+effect_bundles_localised_title_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
+effect_bundles_localised_description_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
+effect_bundles_localised_title_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
+effect_bundles_localised_description_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
+effect_bundles_localised_title_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
+effect_bundles_localised_description_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
+effect_bundles_localised_title_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
+effect_bundles_localised_description_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
+effect_bundles_localised_title_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
+effect_bundles_localised_description_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
+effect_bundles_localised_title_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
+effect_bundles_localised_description_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
