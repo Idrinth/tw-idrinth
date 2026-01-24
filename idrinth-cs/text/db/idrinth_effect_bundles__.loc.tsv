@@ -117,23 +117,23 @@ effect_bundles_localised_title_idrinth_hev_high_elf_vampires_anti_chaos	Thaluiá
 effect_bundles_localised_description_idrinth_hev_high_elf_vampires_anti_chaos	Tvoji bohové posilují síly Thaluiánské kaple proti všem následovníkům zhoubných sil.	false
 effect_bundles_localised_title_idrinth_chapel_slots_present	Prostor pro Thaluiánskou kapli	false
 effect_bundles_localised_description_idrinth_chapel_slots_present	Toto osídlení obsahuje oblast, která byla posvěcena Asuryanen, Khainem a Kurnousem a mohla by hostit komplex Thaluiánské kaple.	false
-effect_bundles_localised_title_idrinth_veteran_0	Nezkušení rekruti	false
-effect_bundles_localised_description_idrinth_veteran_0	Nezkušení rekruti	false
-effect_bundles_localised_title_idrinth_veteran_1	Smíšení strážní rekruti [[img:experience_1]]	false
-effect_bundles_localised_description_idrinth_veteran_1	Smíšení strážní rekruti [[img:experience_1]]	false
-effect_bundles_localised_title_idrinth_veteran_2	Smíšení strážní rekruti [[img:experience_2]]	false
-effect_bundles_localised_description_idrinth_veteran_2	Smíšení strážní rekruti [[img:experience_2]]	false
-effect_bundles_localised_title_idrinth_veteran_3	Smíšení strážní rekruti [[img:experience_3]]	false
-effect_bundles_localised_description_idrinth_veteran_3	Smíšení strážní rekruti [[img:experience_3]]	false
-effect_bundles_localised_title_idrinth_veteran_4	Smíšení strážní vojáci [[img:experience_4]]	false
-effect_bundles_localised_description_idrinth_veteran_4	Smíšení strážní vojáci [[img:experience_4]]	false
-effect_bundles_localised_title_idrinth_veteran_5	Smíšení strážní vojáci [[img:experience_5]]	false
-effect_bundles_localised_description_idrinth_veteran_5	Smíšení strážní vojáci [[img:experience_5]]	false
-effect_bundles_localised_title_idrinth_veteran_6	Smíšení strážní vojáci [[img:experience_6]]	false
-effect_bundles_localised_description_idrinth_veteran_6	Smíšení strážní vojáci [[img:experience_6]]	false
-effect_bundles_localised_title_idrinth_veteran_7	Smíšený strážní veterán [[img:experience_7]]	false
-effect_bundles_localised_description_idrinth_veteran_7	Smíšený strážní veterán [[img:experience_7]]	false
-effect_bundles_localised_title_idrinth_veteran_8	Smíšený strážní veterán [[img:experience_8]]	false
-effect_bundles_localised_description_idrinth_veteran_8	Smíšený strážní veterán [[img:experience_8]]	false
-effect_bundles_localised_title_idrinth_veteran_9	Smíšený strážní veterán [[img:experience_9]]	false
-effect_bundles_localised_description_idrinth_veteran_9	Smíšený strážní veterán [[img:experience_9]]	false
+effect_bundles_localised_title_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
+effect_bundles_localised_description_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
+effect_bundles_localised_title_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
+effect_bundles_localised_description_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
+effect_bundles_localised_title_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
+effect_bundles_localised_description_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
+effect_bundles_localised_title_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
+effect_bundles_localised_description_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
+effect_bundles_localised_title_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
+effect_bundles_localised_description_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
+effect_bundles_localised_title_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
+effect_bundles_localised_description_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
+effect_bundles_localised_title_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
+effect_bundles_localised_description_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
+effect_bundles_localised_title_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
+effect_bundles_localised_description_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
+effect_bundles_localised_title_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
+effect_bundles_localised_description_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
+effect_bundles_localised_title_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
+effect_bundles_localised_description_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
