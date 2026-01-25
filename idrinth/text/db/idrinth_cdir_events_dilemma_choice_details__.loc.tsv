@@ -1,5 +1,4 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_cdir_events_dilemma_choice_details__.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Accept help. (Hero)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Accept help. (General)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Chase away the stranger.	false
