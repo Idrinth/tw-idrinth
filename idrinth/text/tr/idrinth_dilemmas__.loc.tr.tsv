@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__tr.loc.tsvdb/idrinth__tr.loc		
+#Loc;1;text/idrinth__tr.loc.tsv/idrinth__tr.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Bir gece cüppeli bir yabancı belirir ve küçük bir ücret karşılığında yardımını sunar. Yardımı kabul ediyor musun?	false
 dilemmas_localised_title_idrinth_unlock_choice	Yabancı	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Bir elf ulağı gelir, bir Idrinth arıyor. Tanıdığın Idrinth şimdiye kadar onu atlatıyor, belki yardım edebilirsin?	false
