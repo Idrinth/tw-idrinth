@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/idrinth_campaign_localised_strings__.fr.loc.tsv/idrinth_campaign_localised_strings__.fr.loc		
+campaign_localised_strings_string_idrinth_godly_blessings_explanation	Choisissez à quel dieu dédier Idrinth, afin de gagner leur attention.	false
+campaign_localised_strings_string_idrinth_godly_favour_explanation	Priez les dieux pour obtenir leurs faveurs pour vos alliés.	false
