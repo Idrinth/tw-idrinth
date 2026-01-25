@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc;1;text/idrinth_message_event_text__.br.loc.tsv/idrinth_message_event_text__.br.loc		
-message_event_text_idrinth_chapel_lost	A Capela foi queimada pelo novo dono do assentamento. Onde nos reuniremos agora?	false
-message_event_text_idrinth_chapel_founded	O lugar para uma nova Capela foi consagrado pelos deuses. Devemos construí-la rapidamente para ganhar suas bênçãos.	false
-message_event_text_idrinth_godly_intervention	Idrinth informa que seus deuses decidiram agir para apoiar sua causa. Seus exércitos serão mais poderosos com uma bênção divina por um tempo.	false
-message_event_text_idrinth_godly_intervention_subtitle	Asuryan, Khaine e Kurnous agem.	false
