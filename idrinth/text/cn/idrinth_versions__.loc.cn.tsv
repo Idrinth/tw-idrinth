@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_versions__.cn.loc.tsv/idrinth_versions__.cn.loc		
+#Loc;1;text/.cn/idrinth_versions__.cn.loc		
 mct_patch_notes_idrinth_129_notes	- 修复升级的金库费用给钱而不是花钱的问题	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- 重写代码以提高稳定性\\n- 模组配置工具中添加更多选项\\n- 许多小修复	false
