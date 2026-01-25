@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__ru.loc.tsvdb/idrinth__ru.loc		
+#Loc;1;text/idrinth__ru.loc.tsv/idrinth__ru.loc		
 pooled_resources_description_idrinth_khaine	Расположение к Кхейну	false
 pooled_resources_display_name_idrinth_khaine	Благосклонность Кхейна	false
 pooled_resources_negative_factors_display_name_idrinth_khaine	Потеряно	false
