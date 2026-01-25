@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_effect_bundles__.cz.loc.tsv/idrinth_effect_bundles__.cz.loc		
+#Loc;1;text/.cz/idrinth_effect_bundles__.cz.loc		
 effect_bundles_localised_description_idrinth_dilemma_empire_FIRST	Učenkyně se velmi zajímala o staré války. Diskuze s Idrinthem ji vedla k objevení taktik, které jsou užitečné i nyní.	false
 effect_bundles_localised_description_idrinth_dilemma_empire_SECOND	Učenkyně a Idrinth diskutovali o magii, nalezli některá drobná vylepšení pro tvé mágy k implementaci.	false
 effect_bundles_localised_description_idrinth_dilemma_empire_THIRD	Zeptal jsi se učenkyně na Idrintha, dozvěděl ses o jeho dlouhé válce proti chaosu.	false
