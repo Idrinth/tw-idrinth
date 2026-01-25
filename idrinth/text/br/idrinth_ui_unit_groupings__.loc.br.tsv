@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ui_unit_groupings__.br.loc.tsv/idrinth_ui_unit_groupings__.br.loc		
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth	Vampiro Alto Elfo	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine	Santuário	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard	Guarda da Capela	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest	Sacerdote da Capela	false
