@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__cz.loc.tsvdb/idrinth__cz.loc		
+#Loc;1;text/idrinth_versions__.cz.loc.tsv/idrinth_versions__.cz.loc		
 mct_patch_notes_idrinth_129_notes	- opraveny naklady pokladny za vylepseni, ktere davaly penize misto jejich odecitani	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- prepsany kod pro lepsi stabilitu\\n- vice moznosti v nastroji pro konfiguraci modu\\n- mnoho malych oprav	false
