@@ -1,4 +1,3 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_cultures__.loc		
-cultures_frontend_description_idrinth_hev_high_elf_vampires	The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat.	false
-cultures_name_idrinth_hev_high_elf_vampires	Thaluian Chapel	false
+"key"	"text"	"tooltip"
+"cultures_frontend_description_idrinth_hev_high_elf_vampires"	"The Thaluian Chapel network spans countries with rare but powerful chapel buildings defending critical settlements and stopping chaos forces before they pose a greater threat."	"false"
+"cultures_name_idrinth_hev_high_elf_vampires"	"Thaluian Chapel"	"false"
