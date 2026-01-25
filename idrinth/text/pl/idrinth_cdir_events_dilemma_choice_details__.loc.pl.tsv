@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__pl.loc.tsv/idrinth__pl.loc		
+#Loc;1;text/idrinth_cdir_events_dilemma_choice_details__.pl.loc.tsv/idrinth_cdir_events_dilemma_choice_details__.pl.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Przyjmij pomoc. (Bohater)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Przyjmij pomoc. (Generał)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Przegonić nieznajomego.	false
