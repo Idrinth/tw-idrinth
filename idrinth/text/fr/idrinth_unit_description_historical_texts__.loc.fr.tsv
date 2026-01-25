@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_unit_description_historical_texts__.fr.loc.tsv/idrinth_unit_description_historical_texts__.fr.loc		
+#Loc;1;text/.fr/idrinth_unit_description_historical_texts__.fr.loc		
 unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth	Des lames maniées avec l'élégance elfique et la puissance vampirique, des arcs tirés avec la précision elfique et la force vampirique. Ces créatures inspirent la peur dans la plupart des cœurs.	false
 unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan	Ces exilés, aventuriers et mercenaires désespérés protègent un sanctuaire d'Asuryan.	false
 unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous	Ces exilés, aventuriers et mercenaires désespérés protègent un sanctuaire de Kurnous.	false
