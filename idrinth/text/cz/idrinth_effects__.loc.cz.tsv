@@ -1,0 +1,81 @@
+key	text	tooltip
+#Loc;1;text/idrinth_effects__.cz.loc.tsv/idrinth_effects__.cz.loc		
+effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] akce: Získávání zkušeností jednotky je zvýšeno o dalších %+n%	false
+effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] akce: Dalších %+n% způsobených ztrát	false
+effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] akce: Dalších %+n% šance na úspěch	false
+effects_description_idrinth_effect_agent_action_enable_passive_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] akce: Upíří korupce je zvýšena o dalších %+n	false
+effects_description_idrinth_pooled_resource_khaine	Generuje %+n přízně Khaina.	false
+effects_description_idrinth_pooled_resource_kurnous	Generuje %+n přízně Kurnouse.	false
+effects_description_idrinth_pooled_resource_asuryan	Generuje %+n přízně Asuryana.	false
+effects_description_idrinth_effect_upkeep_idrinth	Údržba zvýšena o %+n% pro Idrintha.	false
+effects_description_idrinth_initiative_khaine	Následování cesty Khaina, válečníka, ti umožňuje vraždit své nepřátele.	false
+effects_description_idrinth_initiative_kurnous	Následování cesty Kurnouse, lovce, z tebe činí lepšího lovce.	false
+effects_description_idrinth_initiative_asuryan	Následování cesty Asuryana, ochránce, tě chrání.	false
+effects_description_idrinth_chapel_khaine_charge	Khaine posiluje tvé odhodlání a činí Idrintha a kaplanské posádky o %+n% úderovými jednotkami.	false
+effects_description_idrinth_chapel_kurnous_range	Kurnous posiluje tvůj luk a nechává Idrintha a kaplanské posádky střílet o %+n% dále.	false
+effects_description_idrinth_chapel_asuryan_ward_save	Asuryan posiluje tvou mysl, chrání Idrintha a kaplanské posádky před %+n poškozením bariérou.	false
+effects_description_idrinth_loremaster_lore_of_vampires	Snižuje cenu, cooldown a šanci na selhání o %+n% pro kouzla nauky upírů.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Zvyšuje dosah o %+n% pro kouzla nauky upírů.	false
+effects_description_idrinth_loremaster_lore_of_shadows	Snižuje cenu, cooldown a šanci na selhání o %+n% pro kouzla nauky stínů.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Zvyšuje dosah o %+n% pro kouzla nauky stínů.	false
+effects_description_idrinth_loremaster_lore_of_death	Snižuje cenu, cooldown a šanci na selhání o %+n% pro kouzla nauky smrti.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Zvyšuje dosah o %+n% pro kouzla nauky smrti.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Síla zbraně %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Ztráta energie %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Rychlost %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_range	Dosah %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_defence	Obrana v boji zblízka %+n pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_attack_pct	Útok zblízka %+n pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_fire_resistance	Zranitelnost ohněm %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_charge_bonus_pct	Bonus za útok %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_force_all_campaign_replenishment_rate	Doplňování %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_physical_resistance	Fyzická odolnost %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_resistance	Odolnost proti střelám %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_damage	Poškození střelami %+n% pro kněze.	false
+effects_description_idrinth_priests_wh_main_effect_attribute_enable_causes_fear	Kněží způsobují strach.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	Kněží mají upíří hlad.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	Kněží znají Invokaci Neheka.	false
+effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	Kněží jsou nemrtví.	false
+effects_description_idrinth_successful_action_motivation	Šance na úspěch, cena a kritická šance jsou zvýšeny o %+n%.	false
+effects_description_idrinth_ranger_knowledge_primary	Elfové Thaluiánských kaplí mohou střílet o %+n% dále.	false
+effects_description_idrinth_blade_dancing_primary	Elfové Thaluiánských kaplí odtančí od nepřátelských čepelí, zvyšujíc svou obranu v boji zblízka o %+n.	false
+effects_description_idrinth_unusual_training_primary	Elfové Thaluiánských kaplí zvyšují své vedení o %+n.	false
+effects_description_idrinth_running_wild_primary	Elfové Thaluiánských kaplí zvyšují svou rychlost pohybu o %+n%.	false
+effects_description_idrinth_veterans_primary	Veteránští elfové Thaluiánských kaplí zasahují o %+n% silněji v boji zblízka.	false
+effects_description_idrinth_strong_as_stone_primary	Oživené jednotky Thaluiánských kaplí odolávají o %+n% více poškození.	false
+effects_description_idrinth_beasts_of_nature_primary	Zvířata Thaluiánských kaplí jsou divočejší, zvyšujíc svůj útok zblízka o %+n.	false
+effects_description_idrinth_ranger_knowledge_secondary	Elfové Thaluiánských kaplí zvyšují svou rychlost nabíjení o %+n%.	false
+effects_description_idrinth_blade_dancing_secondary	Elfové Thaluiánských kaplí odtančí od nepřátelských čepelí, zvyšujíc svůj útok zblízka o %+n.	false
+effects_description_idrinth_unusual_training_secondary	Elfové Thaluiánských kaplí se naučili nosit svou zbroj efektivněji, zvyšujíc hodnocení zbroje o %+n.	false
+effects_description_idrinth_running_wild_secondary	Elfové Thaluiánských kaplí běží divoce, zvyšujíc svůj útočný bonus o %+n.	false
+effects_description_idrinth_veterans_secondary	Veteránští elfové Thaluiánských kaplí se unavují o %+n% pomaleji.	false
+effects_description_idrinth_strong_as_stone_secondary	Konstrukty Thaluiánských kaplí zvyšují svůj útočný bonus o %+n.	false
+effects_description_idrinth_beasts_of_nature_secondary	Zvířata Thaluiánských kaplí jsou více motivovaná, zvyšujíc svou rychlost pohybu o %+n%.	false
+effects_description_idrinth_veterans_tertiary	Veteránští elfové Thaluiánských kaplí čelili strachu a nebezpečí dříve, zvyšujíc své vedení o %+n.	false
+effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	%+n limit jednotek pro Smíšenou elfí stráž.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_guard	%+n limit jednotek pro Asuryanovu stráž.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_guard	%+n limit jednotek pro Khainovu stráž.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_guard	%+n limit jednotek pro Kurnousovu stráž.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_priest	%+n limit jednotek pro Asuryanovy kněze.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_priest	%+n limit jednotek pro Khainovy kněze.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_priest	%+n limit jednotek pro Kurnousovy kněze.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_vampire_priest	%+n limit jednotek pro Asuryanovy upíří kněze.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_vampire_priest	%+n limit jednotek pro Khainovy upíří kněze.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_vampire_priest	%+n limit jednotek pro Kurnousovy upíří kněze.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_varghulf	%+n limit jednotek pro Asuryanovy varghulfy.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_varghulf	%+n limit jednotek pro Khainovy varghulfy.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_varghulf	%+n limit jednotek pro Kurnousovy varghulfy.	false
+effects_description_idrinth_unit_capacity_chapel_shrine	%+n limit jednotek pro Svatyně Asuryana, Kurnouse a Khaina.	false
+effects_description_idrinth_unit_capacity_chapel_stone_wolves	%+n limit jednotek pro Kamenné vlky.	false
+effects_description_idrinth_unit_capacity_chapel_outriders	%+n limit jednotek pro Předjezdce.	false
+effects_description_idrinth_chapel_units_upkeep	%+n% menší údržba pro všechny elfí jednotky Thaluiánských kaplí.	false
+effects_description_idrinth_chapel_units_recruitment_rank	%+n nábor rank pro všechny elfí jednotky Thaluiánských kaplí.	false
+effects_description_idrinth_initiative_khaine_pray	Tvá modlitba ke Khainovi zlepšila útočný potenciál tvých jednotek.	false
+effects_description_idrinth_initiative_kurnous_pray	Tvá modlitba ke Kurnousovi zlepšila lovecký potenciál tvých jednotek.	false
+effects_description_idrinth_initiative_asuryan_pray	Tvá modlitba k Asuryanovi zlepšila potenciál přežití tvých jednotek.	false
+effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Zvyšuje tvé schopnosti v bitvách proti zhoubným silám.	false
+effects_description_idrinth_chapel_beasts_upkeep	Snižuje údržbu zvířat Thaluiánské kaple o %+n%.	false
+effects_description_idrinth_enable_thalui_name	Tato postava přísahala věčnou pomstu zhoubným silám a kvůli tomu přijala jméno Thalui.	false
+effects_description_idrinth_enable_knight_scholar_name	Tato postava je jak učenec, tak rytíř a je za takového uznávána napříč různými frakcemi.	false
+effects_description_idrinth_chapel_recruitment_speedup	Doba náboru kaplanských jednotek je snížena o %+n kol.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Zabraňuje nepřátelům použít bleskový úder proti této armádě.	false
