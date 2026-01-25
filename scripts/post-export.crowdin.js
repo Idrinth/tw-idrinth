@@ -30,7 +30,10 @@ function fixCrowdinTsv(tsvContent) {
 }
 
 if (fileName.endsWith(".tsv")) {
-  if (! fileName.endsWith(".loc.tsv")) {
+  if (fileName.endsWith(".steam.tsv")) {
+    fileName = fileName.replace(/\.tsv$/, "");
+    content =  fixCrowdinTsv(content).replace(/^steam_description\t/, "").replace(/\\\\n/g, "\n")
+  } else if (! fileName.endsWith(".loc.tsv")) {
     fileName = fileName.replace(/\.loc(\..+)\.tsv$/, "$1.loc.tsv");
     content = fixCrowdinTsv(content)
       .replace(/\n/, "\n#Loc;1;text/"+fileName.replace(/^.+\.loc(\..+)\.tsv$/, "$1")+"/"+fileName.replace(/\.tsv$/, "")+"\t\t\n");
@@ -38,6 +41,4 @@ if (fileName.endsWith(".tsv")) {
     content = fixCrowdinTsv(content)
     .replace(/\n/, "\n#Loc;1;text/db/"+fileName+"\t\t\n");
   }
-} else if (fileName.endsWith(".steam")) {
-  content =  fixCrowdinTsv(content).replace(/^steam_description\t/, "").replace(/\\\\n/g, "\n")
 }
