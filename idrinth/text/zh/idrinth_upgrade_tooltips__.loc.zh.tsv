@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_upgrade_tooltips__.zh.loc.tsv/idrinth_upgrade_tooltips__.zh.loc		
+#Loc;1;text/.zh/idrinth_upgrade_tooltips__.zh.loc		
 upgrade_tooltips_idrinth_unit_asuryan	將混合精靈衛隊升級為阿蘇瑞安衛隊，花費 300 + 50 * 等級 金幣，獲得 等級² 眷顧	false
 upgrade_tooltips_idrinth_priest_asuryan	嘗試將此祭司轉化為吸血鬼，花費 1000 金幣和 250 眷顧。這可能會失敗，最壞的情況是直接殺死他們。	false
 upgrade_tooltips_idrinth_unit_khaine	將混合精靈衛隊升級為凱恩衛隊，花費 300 + 50 * 等級 金幣，獲得 等級² 眷顧。	false
