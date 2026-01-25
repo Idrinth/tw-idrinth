@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/idrinth_message_event_strings__.cn.loc.tsv/idrinth_message_event_strings__.cn.loc		
+message_event_strings_title_idrinth_chapel_lost	礼拜堂失守	false
+message_event_strings_title_idrinth_chapel_founded	礼拜堂建立	false
+message_event_strings_title_idrinth_godly_intervention	神灵干预	false
