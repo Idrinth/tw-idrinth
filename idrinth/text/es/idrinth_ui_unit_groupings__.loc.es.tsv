@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_ui_unit_groupings__.es.loc.tsv/idrinth_ui_unit_groupings__.es.loc		
+#Loc;1;text/.es/idrinth_ui_unit_groupings__.es.loc		
 ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth	Vampiro Alto Elfo	false
 ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine	Santuario	false
 ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard	Guardia de Capilla	false
