@@ -1,5 +1,4 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_message_event_text__.loc		
 message_event_text_idrinth_chapel_lost	The Chapel has been burned down by the settlement's new owner. Where will be gather now?	false
 message_event_text_idrinth_chapel_founded	The place for a new Chapel has been consecrated by the gods. We should quickly build it up to gain their blessings.	false
 message_event_text_idrinth_godly_intervention	Idrinth informs you, that his gods have decided to act to support your cause. Your armies will be more powerful from a divine blessing for a while.	false
