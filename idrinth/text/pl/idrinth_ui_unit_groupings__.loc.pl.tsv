@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/idrinth__pl.loc.tsvdb/idrinth__pl.loc		
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth	Wampir Wysoki Elf	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine	Sanktuarium	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard	Straż Kaplicy	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest	Kapłan Kaplicy	false
