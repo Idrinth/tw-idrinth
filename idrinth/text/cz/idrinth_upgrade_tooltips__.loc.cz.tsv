@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__cz.loc.tsvdb/idrinth__cz.loc		
+#Loc;1;text/idrinth_upgrade_tooltips__.cz.loc.tsv/idrinth_upgrade_tooltips__.cz.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Povyš Smíšenou elfí stráž na Asuryanovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně	false
 upgrade_tooltips_idrinth_priest_asuryan	Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.	false
 upgrade_tooltips_idrinth_unit_khaine	Povyš Smíšenou elfí stráž na Khainovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně.	false
