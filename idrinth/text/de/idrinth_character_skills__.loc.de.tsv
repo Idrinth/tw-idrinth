@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__de.loc.tsv/idrinth__de.loc		
+#Loc;1;text/idrinth_character_skills__.de.loc.tsv/idrinth_character_skills__.de.loc		
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_assist_army_training	Heeresausbildung	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_agent_assassinate	Meucheln	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_army_assault_units	Einheiten angreifen	false
