@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__tr.loc.tsv/idrinth__tr.loc		
+#Loc;1;text/idrinth_pooled_resources__.tr.loc.tsv/idrinth_pooled_resources__.tr.loc		
 pooled_resources_description_idrinth_khaine	Khaine ile İtibar	false
 pooled_resources_display_name_idrinth_khaine	Khaine Lütfu	false
 pooled_resources_negative_factors_display_name_idrinth_khaine	Kaybedilen	false
