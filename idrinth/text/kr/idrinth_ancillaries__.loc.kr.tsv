@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_ancillaries__.kr.loc.tsv/idrinth_ancillaries__.kr.loc		
+#Loc;1;text/.kr/idrinth_ancillaries__.kr.loc		
 ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	피의 신 카인의 축복을 받은 부적. 그의 이름으로 이런 도구를 휘두를 만큼 충분한 은총을 얻은 자는 거의 없습니다. 마른 피는 고대의 힘으로 맥동하며, 소유자에게 폭력의 약속을 속삭입니다.	false
 ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	입증된 전투 경험.	false
 ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	마른 피의 부적	false
