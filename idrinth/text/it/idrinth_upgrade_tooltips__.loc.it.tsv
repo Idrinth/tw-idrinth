@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_upgrade_tooltips__.it.loc.tsv/idrinth_upgrade_tooltips__.it.loc		
+#Loc;1;text/.it/idrinth_upgrade_tooltips__.it.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Potenzia la Guardia Elfica Mista a Guardia di Asuryan per 300 + 50 * Grado Oro e guadagna Grado² Favore	false
 upgrade_tooltips_idrinth_priest_asuryan	Prova a trasformare questo sacerdote in un vampiro per 1000 Oro e 250 Favore. Questo potrebbe fallire e nel caso peggiore semplicemente ucciderlo.	false
 upgrade_tooltips_idrinth_unit_khaine	Potenzia la Guardia Elfica Mista a Guardia di Khaine per 300 + 50 * Grado Oro e guadagna Grado² Favore.	false
