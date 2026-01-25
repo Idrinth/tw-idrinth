@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__ru.loc.tsvdb/idrinth__ru.loc		
+#Loc;1;text/idrinth_upgrade_tooltips__.ru.loc.tsv/idrinth_upgrade_tooltips__.ru.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Улучшить Смешанную Эльфийскую Стражу до Стражи Асуриана за 300 золота.	false
 upgrade_tooltips_idrinth_priest_asuryan	Попытаться обратить этого жреца в вампира за 1000 золота и 250 Благосклонности. Может не удаться и в худшем случае просто убить его.	false
 upgrade_tooltips_idrinth_unit_khaine	Улучшить Смешанную Эльфийскую Стражу до Стражи Кхейна за 300 золота.	false
