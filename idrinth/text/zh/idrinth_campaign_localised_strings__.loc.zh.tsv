@@ -1,4 +1,4 @@
 key	text	tooltip
-#Loc;1;text/idrinth_campaign_localised_strings__.zh.loc.tsv/idrinth_campaign_localised_strings__.zh.loc		
+#Loc;1;text/.zh/idrinth_campaign_localised_strings__.zh.loc		
 campaign_localised_strings_string_idrinth_godly_blessings_explanation	選擇將伊德林斯奉獻給哪位神祇，以獲得他們的關注。	false
 campaign_localised_strings_string_idrinth_godly_favour_explanation	向眾神祈禱以獲得盟友的恩惠。	false
