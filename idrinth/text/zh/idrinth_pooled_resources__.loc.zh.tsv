@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_pooled_resources__.zh.loc.tsv/idrinth_pooled_resources__.zh.loc		
+#Loc;1;text/.zh/idrinth_pooled_resources__.zh.loc		
 pooled_resources_description_idrinth_khaine	與凱恩的關係	false
 pooled_resources_display_name_idrinth_khaine	凱恩眷顧	false
 pooled_resources_negative_factors_display_name_idrinth_khaine	失去	false
