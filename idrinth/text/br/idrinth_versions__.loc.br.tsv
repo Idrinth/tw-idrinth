@@ -1,0 +1,266 @@
+key	text	tooltip
+#Loc;1;text/idrinth__br.loc.tsvdb/idrinth__br.loc		
+mct_patch_notes_idrinth_129_notes	- corrigido custos do tesouro para melhorias que davam dinheiro em vez de custar	false
+mct_patch_notes_idrinth_129_version	v1.6.4	false
+mct_patch_notes_idrinth_128_notes	- codigo reescrito para melhor estabilidade\\n- mais opcoes na ferramenta de configuracao do mod\\n- muitas pequenas correcoes	false
+mct_patch_notes_idrinth_128_version	v1.6.3	false
+mct_patch_notes_idrinth_127_notes	- melhorias de desempenho para chamadas de funcao atrasadas	false
+mct_patch_notes_idrinth_127_version	v1.6.2	false
+mct_patch_notes_idrinth_126_notes	- corrigido nowAndThen disparando com muita frequencia causando travamentos	false
+mct_patch_notes_idrinth_126_version	v1.6.1	false
+mct_patch_notes_idrinth_125_notes	- melhorias de tamanho de unidade\\n- reformulacao de melhoria de bestas	false
+mct_patch_notes_idrinth_125_version	v1.6.0	false
+mct_patch_notes_idrinth_124_notes	- prevenido spam de evento de remocao de caracteristica	false
+mct_patch_notes_idrinth_124_version	v1.5.2	false
+mct_patch_notes_idrinth_123_notes	- correcao para anti ataque relampago	false
+mct_patch_notes_idrinth_123_version	v1.5.1	false
+mct_patch_notes_idrinth_122_notes	- Melhorias de Unidade para unidades elficas adicionadas	false
+mct_patch_notes_idrinth_122_version	v1.5.0	false
+mct_patch_notes_idrinth_121_notes	- limpezas de codigo	false
+mct_patch_notes_idrinth_121_version	v1.4.6	false
+mct_patch_notes_idrinth_120_notes	- corrigido perda de nome ao ser atribuido uma "posicao governamental" da costa pirata	false
+mct_patch_notes_idrinth_120_version	v1.4.5	false
+mct_patch_notes_idrinth_119_notes	- correcoes para recursos de batalha\\n- otimizacoes de codigo	false
+mct_patch_notes_idrinth_119_version	v1.4.4	false
+mct_patch_notes_idrinth_118_notes	- corrigido um caso onde o painel de melhoria de unidade nao aparecia apos clicar no botao	false
+mct_patch_notes_idrinth_118_version	v1.4.3	false
+mct_patch_notes_idrinth_117_notes	- corrigido um caso onde o painel de melhoria de unidade nao aparecia apos clicar no botao	false
+mct_patch_notes_idrinth_117_version	v1.4.2	false
+mct_patch_notes_idrinth_116_notes	- adicionadas dicas para uso de unidades	false
+mct_patch_notes_idrinth_116_version	v1.4.1	false
+mct_patch_notes_idrinth_115_notes	- bencaos de unidade para animais waaagh funcionando\\n- rebalanceamento de edificios da horda	false
+mct_patch_notes_idrinth_115_version	v1.4.0	false
+mct_patch_notes_idrinth_114_notes	- correcoes para conjunto de unidades nao abrangendo tudo o necessario	false
+mct_patch_notes_idrinth_114_version	v1.3.5	false
+mct_patch_notes_idrinth_113_notes	- correcoes para conjunto de unidades nao abrangendo tudo o necessario	false
+mct_patch_notes_idrinth_113_version	v1.3.4	false
+mct_patch_notes_idrinth_112_notes	- correcoes para conjunto de unidades nao abrangendo tudo o necessario	false
+mct_patch_notes_idrinth_112_version	v1.3.3	false
+mct_patch_notes_idrinth_111_notes	- corrigida deteccao de iniciativas de personagem	false
+mct_patch_notes_idrinth_111_version	v1.3.2	false
+mct_patch_notes_idrinth_110_notes	- corrigida uma causa de travamento	false
+mct_patch_notes_idrinth_110_version	v1.3.1	false
+mct_patch_notes_idrinth_109_notes	- grande reescrita para desempenho	false
+mct_patch_notes_idrinth_109_version	v1.3.0	false
+mct_patch_notes_idrinth_108_notes	- corrigido numero da versao	false
+mct_patch_notes_idrinth_108_version	v1.2.2	false
+mct_patch_notes_idrinth_107_notes	- corrigido tratamento de anticaracteristica	false
+mct_patch_notes_idrinth_107_version	v1.2.1	false
+mct_patch_notes_idrinth_106_notes	- icone no assentamento quando capelas estao disponiveis\\n- muitas limpezas de codigo\\n- melhorias do sistema de devocao com ciume divino	false
+mct_patch_notes_idrinth_106_version	v1.2.0	false
+mct_patch_notes_idrinth_105_notes	- correcoes para recursos mal posicionados na interface	false
+mct_patch_notes_idrinth_105_version	v1.1.18	false
+mct_patch_notes_idrinth_104_notes	- mais uma correcao de interface de assentamento	false
+mct_patch_notes_idrinth_104_version	v1.1.17	false
+mct_patch_notes_idrinth_103_notes	- corrigido tratamento de botoes na visualizacao de assentamento	false
+mct_patch_notes_idrinth_103_version	v1.1.16	false
+mct_patch_notes_idrinth_102_notes	- corrigido armazenamento/recuperacao de status de item para prevenir ganho de multiplos conjuntos	false
+mct_patch_notes_idrinth_102_version	v1.1.15	false
+mct_patch_notes_idrinth_101_notes	- corrigido equipamento automatico de itens unicos	false
+mct_patch_notes_idrinth_101_version	v1.1.14	false
+mct_patch_notes_idrinth_100_notes	- titulos de senhor e cargo exibidos corretamente durante recrutamento\\n- prevenindo invocacao dupla (esperamos)	false
+mct_patch_notes_idrinth_100_version	v1.1.13	false
+mct_patch_notes_idrinth_99_notes	- corrigidos dois casos de dilemas disparando para a(s) faccao(oes) errada(s)	false
+mct_patch_notes_idrinth_99_version	v1.1.12	false
+mct_patch_notes_idrinth_98_notes	- corrigida mais uma coisa na entrega de itens	false
+mct_patch_notes_idrinth_98_version	v1.1.11	false
+mct_patch_notes_idrinth_97_notes	- correcoes de script de recrutamento\\n- correcoes de interface\\n- correcoes de script de itens	false
+mct_patch_notes_idrinth_97_version	v1.1.10	false
+mct_patch_notes_idrinth_96_notes	- corrigido codigo de entrega de itens	false
+mct_patch_notes_idrinth_96_version	v1.1.9	false
+mct_patch_notes_idrinth_95_notes	- algumas tarefas de organizacao	false
+mct_patch_notes_idrinth_95_version	v1.1.8	false
+mct_patch_notes_idrinth_94_notes	- corrigido configuracoes no multiplayer aparecendo para o jogador errado	false
+mct_patch_notes_idrinth_94_version	v1.1.7	false
+mct_patch_notes_idrinth_93_notes	- corrigido numero da versao	false
+mct_patch_notes_idrinth_93_version	v1.1.6	false
+mct_patch_notes_idrinth_92_notes	- prevenido faccoes npc de receberem eventos de localizacao e historia	false
+mct_patch_notes_idrinth_92_version	v1.1.5	false
+mct_patch_notes_idrinth_91_notes	- correcoes para ganho de itens	false
+mct_patch_notes_idrinth_91_version	v1.1.4	false
+mct_patch_notes_idrinth_90_notes	- correcoes de interface	false
+mct_patch_notes_idrinth_90_version	v1.1.3	false
+mct_patch_notes_idrinth_89_notes	- incremento do numero da versao	false
+mct_patch_notes_idrinth_89_version	v1.1.2	false
+mct_patch_notes_idrinth_88_notes	- pequenas correcoes de script	false
+mct_patch_notes_idrinth_88_version	v1.1.1	false
+mct_patch_notes_idrinth_87_notes	- refatoracao\\n- devocao desbloqueada\\n- grandes melhorias para o general\\n- adicionada mecanica de waaagh animal ao general	false
+mct_patch_notes_idrinth_87_version	v1.1.0	false
+mct_patch_notes_idrinth_86_notes	- spam de missao de desbloqueio provavelmente corrigido\\n- chega de animais estranhos para montar nos batedores\\n- pequenos ajustes na clareza do texto	false
+mct_patch_notes_idrinth_86_version	v1.0.15	false
+mct_patch_notes_idrinth_85_notes	- corrigidas imunidades de atrito faltantes na versao senhor	false
+mct_patch_notes_idrinth_85_version	v1.0.14	false
+mct_patch_notes_idrinth_84_notes	- corrigido recursos de favor nao atualizando na interface durante o proprio turno	false
+mct_patch_notes_idrinth_84_version	v1.0.13	false
+mct_patch_notes_idrinth_83_notes	- acampar nao custa mais movimento	false
+mct_patch_notes_idrinth_83_version	v1.0.12	false
+mct_patch_notes_idrinth_82_notes	- corrigido alternador de evento de historia disparando multiplas vezes	false
+mct_patch_notes_idrinth_82_version	v1.0.11	false
+mct_patch_notes_idrinth_81_notes	- adicionadas classificacoes de tipo de unidade faltantes	false
+mct_patch_notes_idrinth_81_version	v1.0.10	false
+mct_patch_notes_idrinth_80_notes	- adicionados efeitos positivos esquecidos para caracteristicas de matador de elfos\\n- garantido que modelos usem no maximo 5 variantes por arquivo	false
+mct_patch_notes_idrinth_80_version	v1.0.9	false
+mct_patch_notes_idrinth_79_notes	- corrigido rastreamento de batalha\\n- corrigido dano de arma a distancia de sacerdotes e Idrinth	false
+mct_patch_notes_idrinth_79_version	v1.0.8	false
+mct_patch_notes_idrinth_78_notes	- corrigido bug de geracao de recursos\\n- adicionada habilidade esquecida na linha de habilidades do general	false
+mct_patch_notes_idrinth_78_version	v1.0.7	false
+mct_patch_notes_idrinth_77_notes	- corrigida localizacao para caracteristicas de matador de elfos	false
+mct_patch_notes_idrinth_77_version	v1.0.6	false
+mct_patch_notes_idrinth_76_notes	- correcoes na cadeia de edificios da capela taverna	false
+mct_patch_notes_idrinth_76_version	v1.0.5	false
+mct_patch_notes_idrinth_75_notes	- corrigido recrutamento de unidades para imrik, morathi, sartosa	false
+mct_patch_notes_idrinth_75_version	v1.0.4	false
+mct_patch_notes_idrinth_74_notes	- corrigido recrutamento para drycha	false
+mct_patch_notes_idrinth_74_version	v1.0.3	false
+mct_patch_notes_idrinth_73_notes	- correcao de escopo de crescimento de horda	false
+mct_patch_notes_idrinth_73_version	v1.0.2	false
+mct_patch_notes_idrinth_72_notes	- corrigido limite de recrutamento de 0 devido a escopo errado	false
+mct_patch_notes_idrinth_72_version	v1.0.1	false
+mct_patch_notes_idrinth_71_notes	- opcao de senhor modo horda\\n- mais tres edificios de espaco estrangeiro\\n- grande rebalanceamento\\n- nova unidade (batedores)\\n- correcoes de bugs em escopos de habilidades	false
+mct_patch_notes_idrinth_71_version	v1.0.0	false
+mct_patch_notes_idrinth_70_notes	- corrigido titulos e descricoes de missao faltantes para culturas expandidas	false
+mct_patch_notes_idrinth_70_version	v0.19.3	false
+mct_patch_notes_idrinth_69_notes	- prevenido spam de concessao de itens	false
+mct_patch_notes_idrinth_69_version	v0.19.2	false
+mct_patch_notes_idrinth_68_notes	- corrigida comparacao de nivel para verificacoes de itens	false
+mct_patch_notes_idrinth_68_version	v0.19.1	false
+mct_patch_notes_idrinth_67_notes	- suporte para Ferramenta de Configuracao de Mod\\n- novos eventos baseados em locais\\n- leve rebalanceamento\\n- recrutamento melhor implementado por recrutamento de Cultura expandida	false
+mct_patch_notes_idrinth_67_version	v0.19.0	false
+mct_patch_notes_idrinth_66_notes	- prevenido eventos de dispararem enquanto Idrinth esta ferido	false
+mct_patch_notes_idrinth_66_version	v0.18.3	false
+mct_patch_notes_idrinth_65_notes	- muitas limpezas	false
+mct_patch_notes_idrinth_65_version	v0.18.2	false
+mct_patch_notes_idrinth_64_notes	- reducao de perda de vigor agora reduz em vez de aumentar\\n- tipo de idrinth nao e mais recrutavel (mesmo se sua categoria nunca foi desbloqueada)	false
+mct_patch_notes_idrinth_64_version	v0.18.1	false
+mct_patch_notes_idrinth_63_notes	- expandindo os assentamentos de capela\\n- expandindo o elenco da faccao	false
+mct_patch_notes_idrinth_63_version	v0.18.0	false
+mct_patch_notes_idrinth_62_notes	- corrigida defesa vs grande faltante nos guardas\\n- peso de unidade ligeiramente aumentado	false
+mct_patch_notes_idrinth_62_version	v0.17.1	false
+mct_patch_notes_idrinth_61_notes	- adicionadas habilidades a distancia e tornada a faccao de batalha personalizada mais distinta	false
+mct_patch_notes_idrinth_61_version	v0.17.0	false
+mct_patch_notes_idrinth_60_notes	- adicionado um estandarte e icone para a Capela Thaluiana para batalhas personalizadas	false
+mct_patch_notes_idrinth_60_version	v0.16.0	false
+mct_patch_notes_idrinth_59_notes	- novo nivel de templo (defensores heroi-sacerdote)\\n- opcao de escalonamento de nivel para desbloqueios (nv 5, nv 6, nv 8, nv 11)\\n- algumas correcoes para templos\\n- correcoes de erros de digitacao para dilemas\\n- faccao separada para escaramucas	false
+mct_patch_notes_idrinth_59_version	v0.15.0	false
+mct_patch_notes_idrinth_58_notes	- custo base reduzido de 550 para 400	false
+mct_patch_notes_idrinth_58_version	v0.14.4	false
+mct_patch_notes_idrinth_57_notes	- corrigido custos de recursos de favor nao aplicando corretamente	false
+mct_patch_notes_idrinth_57_version	v0.14.3	false
+mct_patch_notes_idrinth_56_notes	- corrigido modificadores de diplomacia negligenciados para capelas elficas	false
+mct_patch_notes_idrinth_56_version	v0.14.2	false
+mct_patch_notes_idrinth_55_notes	- erros de digitacao e correcoes para a cadeia de capela elfica	false
+mct_patch_notes_idrinth_55_version	v0.14.1	false
+mct_patch_notes_idrinth_54_notes	- adicionadas capelas elficas fundadas por Idrinth, versao basica, mais por vir.	false
+mct_patch_notes_idrinth_54_version	v0.14.0	false
+mct_patch_notes_idrinth_53_notes	- esperamos prevenir disparo duplo de missoes para jogadores mais lentos.	false
+mct_patch_notes_idrinth_53_version	v0.13.4	false
+mct_patch_notes_idrinth_52_notes	- valores de resolucao automatica ajustados.	false
+mct_patch_notes_idrinth_52_version	v0.13.3	false
+mct_patch_notes_idrinth_51_notes	- correcoes para ganhos de recursos assim como bencaos divinas aleatorizadas.	false
+mct_patch_notes_idrinth_51_version	v0.13.2	false
+mct_patch_notes_idrinth_50_notes	- alguns erros de digitacao corrigidos, principalmente maiusculas.	false
+mct_patch_notes_idrinth_50_version	v0.13.1	false
+mct_patch_notes_idrinth_49_notes	- adicionados textos de dilema de desbloqueio especificos de cultura para todas as culturas primarias.	false
+mct_patch_notes_idrinth_49_version	v0.13.0	false
+mct_patch_notes_idrinth_48_notes	- corrigida pergunta de modo aparecendo multiplas vezes por causa de recarregamento.	false
+mct_patch_notes_idrinth_48_version	v0.12.2	false
+mct_patch_notes_idrinth_47_notes	- corrigidos casos de imagens de fallback aparecendo.	false
+mct_patch_notes_idrinth_47_version	v0.12.1	false
+mct_patch_notes_idrinth_46_notes	- restaurada logica para oracoes e devocao.	false
+mct_patch_notes_idrinth_46_version	v0.12.0	false
+mct_patch_notes_idrinth_45_notes	- pequenas limpezas	false
+mct_patch_notes_idrinth_45_version	v0.11.2	false
+mct_patch_notes_idrinth_44_notes	- removido o unico arquivo twui conflitante por enquanto.	false
+mct_patch_notes_idrinth_44_version	v0.11.1	false
+mct_patch_notes_idrinth_43_notes	- removida dependencia de sobrescrita da barra de recursos para favor divino.\\n- suporte teorico para faccao Nagash	false
+mct_patch_notes_idrinth_43_version	v0.11.0	false
+mct_patch_notes_idrinth_42_notes	- corrigidas texturas de malha para serem mais vampiricas e nao mostrar uma pele rosada e bonita.	false
+mct_patch_notes_idrinth_42_version	v0.10.6	false
+mct_patch_notes_idrinth_41_notes	- imagem do cartao de unidade ajustada	false
+mct_patch_notes_idrinth_41_version	v0.10.5	false
+mct_patch_notes_idrinth_40_notes	- prevenido re-disparo de missao de recrutamento apos carregar.	false
+mct_patch_notes_idrinth_40_version	v0.10.4	false
+mct_patch_notes_idrinth_39_notes	- removida dependencia de sobrescrita de scripts principais.	false
+mct_patch_notes_idrinth_39_version	v0.10.3	false
+mct_patch_notes_idrinth_38_notes	- corrigido bonus do conjunto khaine sendo anexados as coisas erradas.	false
+mct_patch_notes_idrinth_38_version	v0.10.2	false
+mct_patch_notes_idrinth_37_notes	- corrigido um erro de digitacao nos nomes das unidades.	false
+mct_patch_notes_idrinth_37_version	v0.10.1	false
+mct_patch_notes_idrinth_36_notes	- adicionadas recompensas de dilema de alto elfo e condes vampiro.	false
+mct_patch_notes_idrinth_36_version	v0.10.0	false
+mct_patch_notes_idrinth_35_notes	- adicionadas recompensas de dilema de elfo da floresta.	false
+mct_patch_notes_idrinth_35_version	v0.9.0	false
+mct_patch_notes_idrinth_34_notes	- adicionadas recompensas de dilema de anao.	false
+mct_patch_notes_idrinth_34_version	v0.8.0	false
+mct_patch_notes_idrinth_33_notes	- adicionadas recompensas de dilema de kislev.	false
+mct_patch_notes_idrinth_33_version	v0.7.0	false
+mct_patch_notes_idrinth_32_notes	- reduzindo crescimento de favor divino em niveis mais altos.	false
+mct_patch_notes_idrinth_32_version	v0.6.5	false
+mct_patch_notes_idrinth_31_notes	- corrigido travamento na atribuicao de acessorio no inicio do turno.	false
+mct_patch_notes_idrinth_31_version	v0.6.4	false
+mct_patch_notes_idrinth_30_notes	- reduzir reducao de corrupcao de dilema.	false
+mct_patch_notes_idrinth_30_version	v0.6.3	false
+mct_patch_notes_idrinth_29_notes	- adicionados mais efeitos para o dilema do imperio	false
+mct_patch_notes_idrinth_29_version	v0.6.2	false
+mct_patch_notes_idrinth_28_notes	- corrigidas atribuicoes de favor divino para dilemas.	false
+mct_patch_notes_idrinth_28_version	v0.6.1	false
+mct_patch_notes_idrinth_27_notes	- adicionados textos de efeito para opcoes de dilema\\n- geracao de favor reduzida de 5 para 1.	false
+mct_patch_notes_idrinth_27_version	v0.6.0	false
+mct_patch_notes_idrinth_26_notes	- corrigidos alguns problemas de script relacionados a carregar valores e equipar acessorios.	false
+mct_patch_notes_idrinth_26_version	v0.5.6	false
+mct_patch_notes_idrinth_25_notes	- atualizado bonus de carga para assalto para realmente ter efeito.	false
+mct_patch_notes_idrinth_25_version	v0.5.5	false
+mct_patch_notes_idrinth_24_notes	- corrigidos multiplos UUIDs nos arquivos twui	false
+mct_patch_notes_idrinth_24_version	v0.5.4	false
+mct_patch_notes_idrinth_23_notes	- corrigidas recompensas Khaine duplicadas para dilemas. Recompensas ainda sujeitas a alteracoes.	false
+mct_patch_notes_idrinth_23_version	v0.5.3	false
+mct_patch_notes_idrinth_22_notes	- outro conjunto de correcoes relacionadas a interface	false
+mct_patch_notes_idrinth_22_version	v0.5.2	false
+mct_patch_notes_idrinth_21_notes	- correcoes de exibicao de recursos	false
+mct_patch_notes_idrinth_21_version	v0.5.1	false
+mct_patch_notes_idrinth_20_notes	- adicionar recursos a barra superior do wh3	false
+mct_patch_notes_idrinth_20_version	v0.5.0	false
+mct_patch_notes_idrinth_19_notes	- corrigido efeitos de dilemas nao sendo mostrados. Efeitos sujeitos a alteracoes.	false
+mct_patch_notes_idrinth_19_version	v0.4.8	false
+mct_patch_notes_idrinth_18_notes	- corrigido travamento apos carregar devido a dados em cache incorretos.	false
+mct_patch_notes_idrinth_18_version	v0.4.7	false
+mct_patch_notes_idrinth_17_notes	- reativar re-habilitacao de eventos para reduzir travamentos.	false
+mct_patch_notes_idrinth_17_version	v0.4.6	false
+mct_patch_notes_idrinth_16_notes	- remover codigo de depuracao (log de script)	false
+mct_patch_notes_idrinth_16_version	v0.4.5	false
+mct_patch_notes_idrinth_15_notes	- Remover auto-spawn do script, isso era apenas para testes.	false
+mct_patch_notes_idrinth_15_version	v0.4.4	false
+mct_patch_notes_idrinth_14_notes	- habilidades de agente tornadas um pouco mais uteis.	false
+mct_patch_notes_idrinth_14_version	v0.4.3	false
+mct_patch_notes_idrinth_13_notes	- outro caso de travamento corrigido.	false
+mct_patch_notes_idrinth_13_version	v0.4.2	false
+mct_patch_notes_idrinth_12_notes	- reduzir travamentos suprimindo eventos de forma mais eficaz.	false
+mct_patch_notes_idrinth_12_version	v0.4.1	false
+mct_patch_notes_idrinth_11_notes	- introduzir caracteristicas de matador de elfos para lidar com massacre em massa de elfos.	false
+mct_patch_notes_idrinth_11_version	v0.4.0	false
+mct_patch_notes_idrinth_10_notes	- correcoes de script e banco de dados, para que itens personalizados sejam equipados corretamente quando disponiveis.	false
+mct_patch_notes_idrinth_10_version	v0.3.4	false
+mct_patch_notes_idrinth_9_notes	- correcoes de script para disparo de dilemas.	false
+mct_patch_notes_idrinth_9_version	v0.3.3	false
+mct_patch_notes_idrinth_8_notes	- corrigidos alguns travamentos relacionados a supressao tardia de eventos.	false
+mct_patch_notes_idrinth_8_version	v0.3.2	false
+mct_patch_notes_idrinth_7_notes	- textos de lore melhorados.	false
+mct_patch_notes_idrinth_7_version	v0.3.1	false
+mct_patch_notes_idrinth_6_notes	- adicionados textos de lore e explicacao para todos os novos itens.	false
+mct_patch_notes_idrinth_6_version	v0.3.0	false
+mct_patch_notes_idrinth_5_notes	- ajustes no arco de tiro, para que ele realmente consiga escaramucar	false
+mct_patch_notes_idrinth_5_version	v0.2.3	false
+mct_patch_notes_idrinth_4_notes	- icones de favor divino posicionados corretamente	false
+mct_patch_notes_idrinth_4_version	v0.2.2	false
+mct_patch_notes_idrinth_3_notes	- corrigidos travamentos ao ganhar Acessorio	false
+mct_patch_notes_idrinth_3_version	v0.2.1	false
+mct_patch_notes_idrinth_2_notes	- exibindo Favor Divino agora.	false
+mct_patch_notes_idrinth_2_version	v0.2.0	false
+mct_patch_notes_idrinth_1_notes	- versao inicial	false
+mct_patch_notes_idrinth_1_version	v0.1.0	false
+mct_patch_notes_idrinth_130_notes	- melhorias MCT, incluindo notas de patch	false
+mct_patch_notes_idrinth_130_version	v1.6.5	false
+mct_patch_notes_idrinth_131_notes	- add missing winds of magic to Idrinth's horde	false
+mct_patch_notes_idrinth_131_version	v1.6.6	false
+mct_patch_notes_idrinth_132_notes	- add better icons for veteran ranks	false
+mct_patch_notes_idrinth_132_version	v1.7.0	false
