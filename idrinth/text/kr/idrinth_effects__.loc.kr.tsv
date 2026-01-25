@@ -1,0 +1,81 @@
+key	text	tooltip
+#Loc;1;text/idrinth_effects__.kr.loc.tsv/idrinth_effects__.kr.loc		
+effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] 행동: 유닛 경험치 획득이 추가로 %+n% 증가합니다	false
+effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] 행동: 추가 %+n% 피해를 입힙니다	false
+effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] 행동: 추가 %+n% 성공 확률	false
+effects_description_idrinth_effect_agent_action_enable_passive_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] 행동: 뱀파이어 타락이 추가로 %+n 증가합니다	false
+effects_description_idrinth_pooled_resource_khaine	카인의 은총 %+n을 생성합니다.	false
+effects_description_idrinth_pooled_resource_kurnous	쿠르노스의 은총 %+n을 생성합니다.	false
+effects_description_idrinth_pooled_resource_asuryan	아수리안의 은총 %+n을 생성합니다.	false
+effects_description_idrinth_effect_upkeep_idrinth	이드린스의 유지비가 %+n% 증가합니다.	false
+effects_description_idrinth_initiative_khaine	전사 카인의 길을 따르면 적을 학살할 수 있습니다.	false
+effects_description_idrinth_initiative_kurnous	사냥꾼 쿠르노스의 길을 따르면 더 나은 사냥꾼이 됩니다.	false
+effects_description_idrinth_initiative_asuryan	수호자 아수리안의 길을 따르면 당신을 보호합니다.	false
+effects_description_idrinth_chapel_khaine_charge	카인이 당신의 결의를 강화하여 이드린스와 예배당 수비대를 %+n% 충격 부대로 만듭니다.	false
+effects_description_idrinth_chapel_kurnous_range	쿠르노스가 당신의 활을 강화하여 이드린스와 예배당 수비대의 사정거리를 %+n% 늘립니다.	false
+effects_description_idrinth_chapel_asuryan_ward_save	아수리안이 당신의 정신을 강화하여 이드린스와 예배당 수비대를 방벽으로 %+n 피해로부터 보호합니다.	false
+effects_description_idrinth_loremaster_lore_of_vampires	뱀파이어 마법의 비용, 쿨다운, 역화 확률이 %+n% 감소합니다.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	뱀파이어 마법의 사정거리가 %+n% 증가합니다.	false
+effects_description_idrinth_loremaster_lore_of_shadows	그림자 마법의 비용, 쿨다운, 역화 확률이 %+n% 감소합니다.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	그림자 마법의 사정거리가 %+n% 증가합니다.	false
+effects_description_idrinth_loremaster_lore_of_death	죽음 마법의 비용, 쿨다운, 역화 확률이 %+n% 감소합니다.	false
+effects_description_idrinth_loremaster_lore_of_death_2	죽음 마법의 사정거리가 %+n% 증가합니다.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	사제의 무기 위력 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	사제의 활력 감소 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_speed	사제의 속도 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_range	사제의 사정거리 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_defence	사제의 근접 방어 %+n	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_attack_pct	사제의 근접 공격 %+n	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_fire_resistance	사제의 화염 취약성 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_charge_bonus_pct	사제의 돌격 보너스 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_force_all_campaign_replenishment_rate	사제의 보충률 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_physical_resistance	사제의 물리 저항 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_resistance	사제의 투사체 저항 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_damage	사제의 투사체 피해 %+n%	false
+effects_description_idrinth_priests_wh_main_effect_attribute_enable_causes_fear	사제가 공포를 유발합니다.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	사제가 뱀파이어의 굶주림을 가집니다.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	사제가 네헥의 기원을 압니다.	false
+effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	사제가 언데드입니다.	false
+effects_description_idrinth_successful_action_motivation	성공 확률, 비용, 치명타 확률이 %+n% 증가합니다.	false
+effects_description_idrinth_ranger_knowledge_primary	탈루이안 예배당의 엘프들이 %+n% 더 멀리 쏠 수 있습니다.	false
+effects_description_idrinth_blade_dancing_primary	탈루이안 예배당의 엘프들이 적의 칼날을 피해 춤추며 근접 방어가 %+n 증가합니다.	false
+effects_description_idrinth_unusual_training_primary	탈루이안 예배당의 엘프들의 지도력이 %+n 증가합니다.	false
+effects_description_idrinth_running_wild_primary	탈루이안 예배당의 엘프들의 이동 속도가 %+n% 증가합니다.	false
+effects_description_idrinth_veterans_primary	탈루이안 예배당의 베테랑 엘프들이 근접전에서 %+n% 더 강하게 공격합니다.	false
+effects_description_idrinth_strong_as_stone_primary	탈루이안 예배당의 소환된 유닛들이 %+n% 더 많은 피해를 저항합니다.	false
+effects_description_idrinth_beasts_of_nature_primary	탈루이안 예배당의 야수들이 더 사나워져 근접 공격이 %+n 증가합니다.	false
+effects_description_idrinth_ranger_knowledge_secondary	탈루이안 예배당의 엘프들의 재장전 속도가 %+n% 증가합니다.	false
+effects_description_idrinth_blade_dancing_secondary	탈루이안 예배당의 엘프들이 적의 칼날을 피해 춤추며 근접 공격이 %+n 증가합니다.	false
+effects_description_idrinth_unusual_training_secondary	탈루이안 예배당의 엘프들이 갑옷을 더 효과적으로 착용하는 법을 배워 갑옷 수치가 %+n 증가합니다.	false
+effects_description_idrinth_running_wild_secondary	탈루이안 예배당의 엘프들이 거칠게 달려 돌격이 %+n 증가합니다.	false
+effects_description_idrinth_veterans_secondary	탈루이안 예배당의 베테랑 엘프들이 %+n% 더 천천히 지칩니다.	false
+effects_description_idrinth_strong_as_stone_secondary	탈루이안 예배당의 구조물들의 돌격이 %+n 증가합니다.	false
+effects_description_idrinth_beasts_of_nature_secondary	탈루이안 예배당의 야수들이 더 의욕적이 되어 이동 속도가 %+n% 증가합니다.	false
+effects_description_idrinth_veterans_tertiary	탈루이안 예배당의 베테랑 엘프들이 공포와 위험에 직면한 경험이 있어 지도력이 %+n 증가합니다.	false
+effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	혼합 엘프 수호대 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_guard	아수리안의 수호대 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_khaine_guard	카인의 수호대 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_guard	쿠르노스의 수호대 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_priest	아수리안의 사제 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_khaine_priest	카인의 사제 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_priest	쿠르노스의 사제 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_vampire_priest	아수리안의 뱀파이어 사제 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_khaine_vampire_priest	카인의 뱀파이어 사제 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_vampire_priest	쿠르노스의 뱀파이어 사제 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_varghulf	아수리안 바르골프 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_khaine_varghulf	카인 바르골프 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_varghulf	쿠르노스 바르골프 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_shrine	아수리안, 쿠르노스, 카인의 성소 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_stone_wolves	돌 늑대 유닛 한계 %+n	false
+effects_description_idrinth_unit_capacity_chapel_outriders	척후병 유닛 한계 %+n	false
+effects_description_idrinth_chapel_units_upkeep	탈루이안 예배당의 모든 엘프 유닛 유지비 %+n% 감소	false
+effects_description_idrinth_chapel_units_recruitment_rank	탈루이안 예배당의 모든 엘프 유닛 모집 등급 %+n	false
+effects_description_idrinth_initiative_khaine_pray	카인에 대한 당신의 기도가 군대의 공격 잠재력을 향상시켰습니다.	false
+effects_description_idrinth_initiative_kurnous_pray	쿠르노스에 대한 당신의 기도가 군대의 사냥 잠재력을 향상시켰습니다.	false
+effects_description_idrinth_initiative_asuryan_pray	아수리안에 대한 당신의 기도가 군대의 생존 잠재력을 향상시켰습니다.	false
+effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	파멸의 힘과의 전투에서 당신의 능력을 향상시킵니다.	false
+effects_description_idrinth_chapel_beasts_upkeep	탈루이안 예배당 야수들의 유지비가 %+n% 감소합니다.	false
+effects_description_idrinth_enable_thalui_name	이 캐릭터는 파멸의 힘에 대한 영원한 복수를 맹세하고 그 때문에 탈루이라는 이름을 채택했습니다.	false
+effects_description_idrinth_enable_knight_scholar_name	이 캐릭터는 학자이자 기사이며 다양한 세력에서 그렇게 인정받습니다.	false
+effects_description_idrinth_chapel_recruitment_speedup	예배당 유닛의 모집 기간이 %+n턴 감소합니다.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	적이 이 병력에 대해 번개 공격을 사용하는 것을 방지합니다.	false
