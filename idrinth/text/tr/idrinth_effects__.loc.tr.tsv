@@ -1,0 +1,81 @@
+key	text	tooltip
+#Loc;1;text/idrinth_effects__.tr.loc.tsv/idrinth_effects__.tr.loc		
+effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] eylemi: Birim deneyim kazanımı ek %+n% artırıldı	false
+effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] eylemi: Ek %+n% kayıp verildi	false
+effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] eylemi: Ek %+n% başarı şansı	false
+effects_description_idrinth_effect_agent_action_enable_passive_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] eylemi: Vampir yozlaşması ek %+n artırıldı	false
+effects_description_idrinth_pooled_resource_khaine	%+n Khaine Lütfu üretir.	false
+effects_description_idrinth_pooled_resource_kurnous	%+n Kurnous Lütfu üretir.	false
+effects_description_idrinth_pooled_resource_asuryan	%+n Asuryan Lütfu üretir.	false
+effects_description_idrinth_effect_upkeep_idrinth	Idrinth için bakım %+n% artırıldı.	false
+effects_description_idrinth_initiative_khaine	Savaşçı Khaine'in yolunu takip etmek düşmanlarınızı katletmenizi sağlar.	false
+effects_description_idrinth_initiative_kurnous	Avcı Kurnous'un yolunu takip etmek sizi daha iyi bir avcı yapar.	false
+effects_description_idrinth_initiative_asuryan	Koruyucu Asuryan'ın yolunu takip etmek sizi korur.	false
+effects_description_idrinth_chapel_khaine_charge	Khaine kararlılığınızı güçlendirir ve Idrinth ile şapel garnizonlarını %+n% şok birliği yapar.	false
+effects_description_idrinth_chapel_kurnous_range	Kurnous yayınızı güçlendirir ve Idrinth ile şapel garnizonlarının %+n% daha uzağa atış yapmasını sağlar.	false
+effects_description_idrinth_chapel_asuryan_ward_save	Asuryan zihninizi güçlendirir, Idrinth ve şapel garnizonlarını bir bariyer ile %+n hasardan korur.	false
+effects_description_idrinth_loremaster_lore_of_vampires	Vampir büyü okulu büyüleri için maliyet, bekleme süresi ve yanlış büyü şansını %+n% azaltır.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Vampir büyü okulu büyüleri için menzili %+n% artırır.	false
+effects_description_idrinth_loremaster_lore_of_shadows	Gölgeler büyü okulu büyüleri için maliyet, bekleme süresi ve yanlış büyü şansını %+n% azaltır.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Gölgeler büyü okulu büyüleri için menzili %+n% artırır.	false
+effects_description_idrinth_loremaster_lore_of_death	Ölüm büyü okulu büyüleri için maliyet, bekleme süresi ve yanlış büyü şansını %+n% azaltır.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Ölüm büyü okulu büyüleri için menzili %+n% artırır.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Rahipler için silah gücü %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Rahipler için yorgunluk kaybı %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Rahipler için hız %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_range	Rahipler için menzil %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_defence	Rahipler için yakın dövüş savunması %+n.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_attack_pct	Rahipler için yakın dövüş saldırısı %+n.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_fire_resistance	Rahipler için ateş hassasiyeti %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_charge_bonus_pct	Rahipler için hücum bonusu %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_force_all_campaign_replenishment_rate	Rahipler için yenilenme %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_physical_resistance	Rahipler için fiziksel direnç %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_resistance	Rahipler için menzilli direnç %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_damage	Rahipler için menzilli hasar %+n%.	false
+effects_description_idrinth_priests_wh_main_effect_attribute_enable_causes_fear	Rahipler korku verir.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	Rahiplerin vampir açlığı var.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	Rahipler Nehek Çağrısını biliyor.	false
+effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	Rahipler ölümsüzdür.	false
+effects_description_idrinth_successful_action_motivation	Başarı şansı, maliyet ve kritik şans %+n% artırıldı.	false
+effects_description_idrinth_ranger_knowledge_primary	Thalui Şapeli elfleri %+n% daha uzağa atış yapabilir.	false
+effects_description_idrinth_blade_dancing_primary	Thalui Şapeli elfleri düşman kılıçlarından dans ederek kaçar, yakın dövüş savunmalarını %+n artırır.	false
+effects_description_idrinth_unusual_training_primary	Thalui Şapeli elfleri liderliklerini %+n artırır.	false
+effects_description_idrinth_running_wild_primary	Thalui Şapeli elfleri hareket hızlarını %+n% artırır.	false
+effects_description_idrinth_veterans_primary	Thalui Şapeli kıdemli elfleri yakın dövüşte %+n% daha sert vurur.	false
+effects_description_idrinth_strong_as_stone_primary	Thalui Şapeli canlandırılmış birimleri %+n% daha fazla hasara direnir.	false
+effects_description_idrinth_beasts_of_nature_primary	Thalui Şapeli canavarları daha vahşidir, yakın dövüş saldırılarını %+n artırır.	false
+effects_description_idrinth_ranger_knowledge_secondary	Thalui Şapeli elfleri yeniden doldurma hızlarını %+n% artırır.	false
+effects_description_idrinth_blade_dancing_secondary	Thalui Şapeli elfleri düşman kılıçlarından dans ederek kaçar, yakın dövüş saldırılarını %+n artırır.	false
+effects_description_idrinth_unusual_training_secondary	Thalui Şapeli elfleri zırhlarını daha etkili giymeyi öğrendi, zırh değerlerini %+n artırır.	false
+effects_description_idrinth_running_wild_secondary	Thalui Şapeli elfleri çılgınca koşar, hücumlarını %+n artırır.	false
+effects_description_idrinth_veterans_secondary	Thalui Şapeli kıdemli elfleri %+n% daha yavaş yorulur.	false
+effects_description_idrinth_strong_as_stone_secondary	Thalui Şapeli yapıları hücumlarını %+n artırır.	false
+effects_description_idrinth_beasts_of_nature_secondary	Thalui Şapeli canavarları daha motivedir, hareket hızlarını %+n% artırır.	false
+effects_description_idrinth_veterans_tertiary	Thalui Şapeli kıdemli elfleri daha önce korku ve tehlikeyle yüzleşti, liderliklerini %+n artırır.	false
+effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	Karma Elf Muhafızları için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_guard	Asuryan Muhafızları için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_guard	Khaine Muhafızları için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_guard	Kurnous Muhafızları için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_priest	Asuryan Rahipleri için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_priest	Khaine Rahipleri için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_priest	Kurnous Rahipleri için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_vampire_priest	Asuryan Vampir Rahipleri için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_vampire_priest	Khaine Vampir Rahipleri için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_vampire_priest	Kurnous Vampir Rahipleri için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_varghulf	Asuryan Varghulf için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_varghulf	Khaine Varghulfları için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_varghulf	Kurnous Varghulfları için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_shrine	Asuryan, Kurnous ve Khaine Tapınakları için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_stone_wolves	Taş Kurtlar için %+n birim limiti.	false
+effects_description_idrinth_unit_capacity_chapel_outriders	Öncü Süvariler için %+n birim limiti.	false
+effects_description_idrinth_chapel_units_upkeep	Tüm Thalui Şapeli elf birimleri için %+n% daha az bakım.	false
+effects_description_idrinth_chapel_units_recruitment_rank	Tüm Thalui Şapeli elf birimleri için %+n askere alma rütbesi.	false
+effects_description_idrinth_initiative_khaine_pray	Khaine'e duanız birliklerinizin saldırı potansiyelini artırdı.	false
+effects_description_idrinth_initiative_kurnous_pray	Kurnous'a duanız birliklerinizin av potansiyelini artırdı.	false
+effects_description_idrinth_initiative_asuryan_pray	Asuryan'a duanız birliklerinizin hayatta kalma potansiyelini artırdı.	false
+effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Yıkım güçlerine karşı savaşlarda yeteneklerinizi artırır.	false
+effects_description_idrinth_chapel_beasts_upkeep	Thalui Şapeli canavarları için bakımı %+n% azaltır.	false
+effects_description_idrinth_enable_thalui_name	Bu karakter yıkım güçlerine sonsuz intikam yemini etmiş ve bu nedenle Thalui adını almıştır.	false
+effects_description_idrinth_enable_knight_scholar_name	Bu karakter hem bir araştırmacı hem de bir şövalye olup farklı hiziplerde bu şekilde tanınır.	false
+effects_description_idrinth_chapel_recruitment_speedup	Şapel birimleri için askere alma süresi %+n tur azaltıldı.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Düşmanların bu kuvvete karşı yıldırım saldırısı kullanmasını engeller.	false
