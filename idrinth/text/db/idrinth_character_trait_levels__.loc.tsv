@@ -1,5 +1,4 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_character_trait_levels__.loc		
 character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	You are a known slayer of elves to Khaine and other elves.	false
 character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	You have fought many armies of elves.	false
 character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	Khaine-Cursed Slayer of Elves	false
