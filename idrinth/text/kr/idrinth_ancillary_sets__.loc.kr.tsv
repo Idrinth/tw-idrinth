@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ancillary_sets__.kr.loc.tsv/idrinth_ancillary_sets__.kr.loc		
+ancillary_sets_name_anc_set_exclusive_idrinth_khaine	카인의 축복	false
+ancillary_sets_name_anc_set_exclusive_idrinth_kurnous	쿠르노스의 축복	false
+ancillary_sets_name_anc_set_exclusive_idrinth_asuryan	아수리안의 축복	false
+ancillary_sets_description_anc_set_exclusive_idrinth_khaine	카인의 축복받은 아이템들은 당신을 죽음과 파괴의 작동 원천으로 만듭니다.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_kurnous	쿠르노스의 축복받은 아이템들은 당신을 살아있는 가장 위험한 사냥꾼 중 하나로 만듭니다.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_asuryan	아수리안의 축복받은 아이템들은 무력한 자들의 수호자를 정의합니다.	false
