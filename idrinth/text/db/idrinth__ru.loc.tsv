@@ -1,86 +1,139 @@
 key	text	tooltip
 #Loc;1;text/db/idrinth__ru.loc	
-dilemmas_localised_description_idrinth_unlock_choice	Однажды ночью появляется незнакомец в капюшоне, предлагающий свою помощь за небольшую плату. Вы примете помощь?	false
-dilemmas_localised_title_idrinth_unlock_choice	Незнакомец	false
-dilemmas_localised_description_idrinth_dilemma_high_elves	Прибывает эльфийский посланник, ищущий некоего Идринта. Идринт, которого вы знаете, до сих пор избегал его. Может, вы могли бы помочь?	false
-dilemmas_localised_description_idrinth_dilemma_wood_elves	Лесной эльф-следопыт прибывает в ваш лагерь, заявляя, что ищет своего окровавленного кузена. Хотя Идринт быстро подтверждает, что речь о нём, он отказывается встречаться.	false
-dilemmas_localised_description_idrinth_dilemma_empire	Старая учёная приближается к вашему лагерю. Неся книги о прошлом, она утверждает, что нашла ценные знания для вас.	false
-dilemmas_localised_description_idrinth_dilemma_kislev	Ночью, когда ледяной ветер терзает ваших стражей, они ловят кислевита, пытающегося проникнуть в лагерь. Он молод и с виду безобиден, но что вы с ним сделаете?	false
-dilemmas_localised_description_idrinth_dilemma_vampire_counts	Однажды ночью вы находите одного из своих слуг, обескровленного прямо у палатки Идринта. Ворвавшись внутрь, вы обнаруживаете его читающим старый свиток, сидящим за столом.	false
-dilemmas_localised_title_idrinth_dilemma_high_elves	Посланник	false
-dilemmas_localised_title_idrinth_dilemma_wood_elves	Кровные Кузены	false
-dilemmas_localised_title_idrinth_dilemma_kislev	Нарушитель!	false
-dilemmas_localised_title_idrinth_dilemma_empire	Учёная	false
-dilemmas_localised_title_idrinth_dilemma_vampire_counts	Конец Слуги	false
-dilemmas_localised_description_idrinth_dilemma_dwarves	Группу гномов заметили поблизости. Ваши разведчики подслушали их рассказы о вампирских войнах. Один упомянутый эльф подозрительно похож на Идринта.	false
-dilemmas_localised_title_idrinth_dilemma_dwarves	Старая Вражда	false
-dilemmas_localised_description_idrinth_dilemma_weapon	После последней охоты Идринт подходит к вам с чем-то похожим на древнее эльфийское оружие. Он просит вашего совета, кому его посвятить.	false
-dilemmas_localised_title_idrinth_dilemma_weapon	Благословенное Оружие	false
-dilemmas_localised_description_idrinth_dilemma_armour	После последней битвы Идринт подходит к вам с чем-то похожим на древние эльфийские доспехи. Он просит вашего совета, кому их посвятить.	false
-dilemmas_localised_title_idrinth_dilemma_armour	Благословенные Доспехи	false
-dilemmas_localised_description_idrinth_dilemma_talisman	После завершения дневного перехода Идринт подходит к вам с чем-то похожим на древний эльфийский талисман. Он просит вашего совета, кому его посвятить.	false
-dilemmas_localised_title_idrinth_dilemma_talisman	Благословенный Талисман	false
-dilemmas_localised_description_idrinth_mode_choice	Активируйте строгое соответствие лору, чтобы ограничить культуры рекрутирования Рыцаря-Учёного Идринта Талуи Высшими Эльфами, Лесными Эльфами, Кислевом, Империей и Графами-Вампирами. Выберите свободный режим, чтобы также добавить Побережье Вампиров, Легионы Нагаша, Тёмных Эльфов, Катай и Бретонию.	false
-dilemmas_localised_title_idrinth_mode_choice	Режим: Строгое или Свободное Соответствие Лору	false
-dilemmas_localised_description_idrinth_dilemma_unlock_high_elves	Приняв вашу монету, незнакомец представляется как собрат-асур по имени Идринт. Сняв дорожные одежды, вы видите закалённые в боях доспехи мастера знаний, подходящий двуручный меч и металлический лук у стоических глаз, намекающих на грядущие жестокости.	false
-dilemmas_localised_title_idrinth_dilemma_unlock_high_elves	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_wood_elves	I look forward to fighting alongside the hunters of the woods, cousin, states the asur in a friendly tone while packing his payment and travel cloak. I may not be as great of a shot as you are, but I won't slow you down. A slightly amused smile plays around his bloodless lips before disappearing. Let us have a hunt that will be told of in centuries still!	false
-dilemmas_localised_title_idrinth_dilemma_unlock_wood_elves	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_kislev	The stranger disrobes himself after having been payed and reveals an elven face and elven weaponry beneath his travel robes. My name is Idrinth, I have been fighting our foes for longer than most of you have lived. I would enjoy practicing with the force and teaching them. A slight smile plays around his bloodless lips before it disappears in an ageless face.	false
-dilemmas_localised_title_idrinth_dilemma_unlock_kislev	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_empire	I have fought and bled with warriors believing in Ulfic or Sigmar. We have the same foes, he states as he removes his travel robes, and I look forward to driving them back with you. Sharing my knowledge for the betterment of the world. His eyes look coldly at praying humans before returning their attention to the general and his guard.	false
-dilemmas_localised_title_idrinth_dilemma_unlock_empire	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_vampire_counts	The stranger lowers his hood, revealing elven features. I am no friend of destruction, but our enemies forced my hand. Pocketing his coins he states, Returning to family after many years when they are in danger is right, no matter who that family is. Don't you agree?	false
-dilemmas_localised_title_idrinth_dilemma_unlock_vampire_counts	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_chapels_choice	Хотите ли вы включить Талуианские Капеллы в свою кампанию? Они предлагают дополнительную защиту и возможности по сравнению с наличием только героя.	false
-dilemmas_localised_description_idrinth_levelMinimum_choice	Чтобы нанять Рыцаря-Учёного Идринта Талуи, вам нужен генерал с минимальным уровнем. Насколько рано вы хотите иметь возможность нанять его?	false
-dilemmas_localised_title_idrinth_story_choice	Сюжетные События	false
-dilemmas_localised_description_idrinth_story_choice	Хотите ли вы включить сюжетные события, когда Идринт достигает определённых важных мест?	false
-dilemmas_localised_title_idrinth_chapels_choice	The Thaluian Chapels	false
-dilemmas_localised_title_idrinth_levelMinimum_choice	Ранг Известности	false
-dilemmas_localised_title_idrinth_story_dilemma_drakenhof	Дракенхоф	false
-dilemmas_localised_title_idrinth_story_dilemma_temple_of_khaine	Храм Кхейна	false
-dilemmas_localised_title_idrinth_story_dilemma_shrine_of_khaine	Святилище Кхейна	false
-dilemmas_localised_title_idrinth_story_dilemma_temple_of_asuryan	Храм Асуриана	false
-dilemmas_localised_title_idrinth_story_dilemma_temple_of_kurnous	Храм Курноуса	false
-dilemmas_localised_title_idrinth_story_dilemma_shrine_of_loec	Святилище Лоэка	false
-dilemmas_localised_title_idrinth_story_dilemma_hel_fenn	Хель-Фенн	false
-dilemmas_localised_title_idrinth_story_dilemma_black_pyramid	Чёрная Пирамида Нагаша	false
-dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_ulthuan	Наковальня Ваула в Ултуане	false
-dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_naggaroth	Наковальня Ваула в Наггароте	false
-dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_loren	Наковальня Ваула в Атель Лорене	false
-dilemmas_localised_title_idrinth_story_dilemma_tower_of_hoeth	Башня Хоэта	false
-dilemmas_localised_title_idrinth_story_dilemma_blood_keep	Кровавая Крепость	false
-dilemmas_localised_title_idrinth_story_dilemma_oak_of_ages	Дуб Веков	false
-dilemmas_localised_title_idrinth_story_dilemma_the_galleons_graveyard	Кладбище Галеонов	false
-dilemmas_localised_title_idrinth_story_dilemma_sartosa	Сартоза	false
-dilemmas_localised_title_idrinth_story_dilemma_lahmia	Ламия	false
-dilemmas_localised_title_idrinth_story_dilemma_ghrond	Гронд	false
-dilemmas_localised_description_idrinth_story_dilemma_drakenhof	Чёрные шпили замка Дракенхоф пронзают вечный мрак Сильвании. Идринт стоит неподвижно перед его вратами, воспоминания о Вампирских Войнах захлёстывают его. Я истекал кровью здесь, — шепчет он, — и восстал снова. Фон Карштайны научили меня тому, чем я стал — хотел я того или нет. Его рука лежит на рукояти меча. Войдёт ли он как кровный родственник или как напоминание о том, во что их амбиции обошлись миру?	false
-dilemmas_localised_description_idrinth_story_dilemma_temple_of_khaine	Храм Кхейна возвышается над пустошами Наггарота, его алтари мокры от свежих жертв. Идринт чувствует взгляд Бога Убийства — не с ненавистью, но с голодным узнаванием. Ты знаешь счёт моего клинка, — бормочет он во кровавую тьму. Каждого порождения хаоса, которого я уничтожил, каждого демона, которого я изгнал. Это радует тебя, Кровавый Бог? Или ты просто ждёшь дня, когда я обращу его против невинных?	false
-dilemmas_localised_description_idrinth_story_dilemma_shrine_of_khaine	Меч Кхейна пульсирует зловещим обещанием, его шёпот пронзает даже неживую неподвижность Идринта. Долгий момент он просто смотрит на Вдоводел. Аэнарион взял тебя, чтобы спасти наш народ, и навеки проклял свой род, — тихо говорит он. Я был уже проклят, когда принёс свою клятву мести. Сделаешь ли ты меня хуже, или просто... эффективнее? Его пальцы дёргаются, но не тянутся.	false
-dilemmas_localised_description_idrinth_story_dilemma_temple_of_asuryan	Священный огонь храма Асуриана горит вечно, и Идринт не подходит ближе внешнего двора. Я ходил по этим залам как живой эльф, — говорит он, голос пустой. Я молился здесь перед маршем на войну против нежити. Теперь я — то, с чем сражался. Он смотрит на танец пламени. Ты всё ещё слышишь меня, Повелитель Феникса? Или моё проклятие превращает мои молитвы в насмешку?	false
-dilemmas_localised_description_idrinth_story_dilemma_temple_of_kurnous	Древние деревья обрамляют охотничье святилище, и запах диких мест наполняет воздух. Идринт глубоко вдыхает — старая привычка с тех времён, когда дыхание означало жизнь. Я всё ещё охочусь, Повелитель Дикой Природы, — обращается он к рогатым камням. Хотя я больше не часть природного цикла. Я не беру добычу для питания тела, только для мести духа. Есть ли в вечной охоте место для такого, как я?	false
-dilemmas_localised_description_idrinth_story_dilemma_shrine_of_loec	Святилище Лоэка смещается в уголке зрения, никогда не оказываясь там, где кажется. Идринт позволяет себе редкую, холодную улыбку. Бог-Трикстер. Я научился твоим искусствам, в некотором роде — магия теней далась мне легче после смерти, чем когда-либо при жизни. Он делает насмешливый полупоклон. Это твоя шутка, Смеющийся? Что я танцую лучше теперь, когда мои ноги холодны?	false
-dilemmas_localised_description_idrinth_story_dilemma_hel_fenn	Болота Хель-Фенна простираются перед ним, и выражение лица Идринта становится нечитаемым. Здесь это закончилось. И началось. Его голос не несёт эмоций. Я помню грязь. Кровь. Орду Маннфреда, рассыпающуюся вокруг нас. Я помню, как думал, что мы победили. Долгая пауза. Я не помню смерти. Только пробуждение, три ночи спустя, голодным до чего-то, чему не мог дать название.	false
-dilemmas_localised_description_idrinth_story_dilemma_black_pyramid	Монумент Нагаша возвышается над пустынным небом, излучая силу, от которой проклятие Идринта корчится внутри него. Отец всего нашего проклятия, — говорит он, не почтительно и не презрительно — просто констатируя факт. Каждый вампир существует, потому что ты потянулся слишком далеко, Великий Некромант. Моё проклятие течёт от твоих амбиций. Он изучает древние камни. Интересно — одобряешь ли ты, как я использую твой дар? Обращая смерть против самого Хаоса?	false
-dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_ulthuan	Святилище-кузница Ваула излучает древнюю силу, и зачарованное оружие Идринта, кажется, гудит в ответ. Я носил оружие, благословлённое в меньших кузнях, в Вампирские Войны, — вспоминает он. Оно раскалывалось о нежить. Теперь я нежить, и я ношу оружие, которое убило бы то, чем я стал. Его пальцы прослеживают лезвие своего меча. В этом есть поэзия, такая, какую оценил бы только Создатель.	false
-dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_naggaroth	Тёмные Эльфы заявляют о собственной связи с Богом-Кузнецом, их кузницы горят с горькой индустрией. Идринт наблюдает, не приближаясь. Кузены, — размышляет он. Они пали одной тьме, я — другой. Но они выбрали свой путь. Иногда я задаюсь вопросом, делает ли это их честнее меня — они приняли то, чем стали, а я всё ещё притворяюсь тем, кем был.	false
-dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_loren	Лесные Эльфы сохраняют учения Ваула по-своему, формируя живое дерево наряду с мёртвым металлом. Идринт наблюдает за мастерством с научным интересом. Жизнь и смерть, соединённые в одном оружии, — замечает он. Асраи понимают кое-что, чего не понимают другие сородичи — что граница более... проницаема, чем нам хотелось бы верить. Призрак его прежнего академического увлечения проявляется. Мне следует изучить их техники.	false
-dilemmas_localised_description_idrinth_story_dilemma_tower_of_hoeth	Белая Башня поднимается невозможно высоко, хранилище всех знаний Высших Эльфов. Идринт останавливается у основания, не в силах — или не желая — войти. Я был Мастером Знаний, — говорит он, голос срывается от древней скорби. Я учился в этих залах. Я знал тайные пути, скрытые библиотеки, запрещённые секции. Его глаза не моргают. Они всё ещё произносят моё имя? Или вычеркнули его из записей, притворяясь, что меня никогда не существовало?	false
-dilemmas_localised_description_idrinth_story_dilemma_blood_keep	Крепость Кровавых Драконов гордо стоит в своей горной цитадели, памятник воинской чести среди проклятых. Идринт смотрит на неё с чем-то похожим на уважение. Наследие Абхораша. Вампиры, стремящиеся преодолеть своё проклятие через совершенство в оружии. Он касается собственного клинка. Я понимаю этот порыв. Быть чем-то большим, чем монстр, даже когда монстр — это то, чем ты являешься.	false
-dilemmas_localised_description_idrinth_story_dilemma_oak_of_ages	Присутствие Мирового Древа подавляет, и Идринт приближается медленно, как приближаются к судящему богу. Сердце всех лесов. Корень мира. Он говорит едва выше шёпота. Я охотился в твоей тени когда-то, в свои живые дни. Лесные эльфы терпели моё присутствие как сородича. Он смотрит на свои бледные руки. Помнят ли меня деревья? Отшатываются ли они от того, что теперь ходит среди их корней?	false
-dilemmas_localised_description_idrinth_story_dilemma_the_galleons_graveyard	Корабли вечно гниют на Кладбище Галеонов, их нежитью команды поддерживают пародию на морские традиции. Идринт оглядывает обломки с отвращением. Ноктилус и его компания. Вампиры, оставившие всякую претензию на прежнюю жизнь, чтобы стать чем-то... меньшим. Он качает головой. Я понимаю искушение. Когда можешь жить вечно, почему бы не стать пиратским королём? Но они забыли, с чем мы должны сражаться.	false
-dilemmas_localised_description_idrinth_story_dilemma_sartosa	Пиратское убежище раскинулось перед ним, беззаконное и опасное — но почти освежающе честное в этом. Город, где мёртвые и живые торгуют бок о бок, объединённые жадностью, — замечает Идринт. Мне странно комфортно здесь. Никто не притворяется, что я не то, что я есть. Никто не требует, чтобы я изображал человечность, которой больше не обладаю. Он делает паузу. Возможно, поэтому мне следует уйти поскорее.	false
-dilemmas_localised_description_idrinth_story_dilemma_lahmia	Руины Ламии шепчут о древней славе и первых вампирах. Идринт идёт по пустым улицам с чем-то похожим на благоговение. Где всё началось. Нефераты и её двор, первые, кто испил из отравленной чаши Нагаша. Он преклоняет колено у поверженной статуи. Я изучал истории. Первые вампиры были учёными, королевами, воинами великой утончённости. Посмотри, чем стало их наследие. Посмотри, чем стал я.	false
-dilemmas_localised_description_idrinth_story_dilemma_ghrond	Северная Башня Колдуний темнеет на фоне северного неба, сила Морати ощутима даже на расстоянии. Челюсть Идринта напрягается. Мать Короля-Колдуна. Та, кто принесла поклонение Хаосу эльфийскому роду. Его голос несёт холодную ненависть. Я убил многих слуг Тёмных Сил. Но эта... эта стоила бы любой цены. Он не приближается. Пока. Терпение. Месть вечна. У меня есть время.	false
-dilemmas_localised_description_idrinth_dilemma_unlock_bretonnia	The stranger removes his traveling cloak with practiced grace, revealing elven armor beneath. "I have served alongside knights before," he says, inclining his head with courtly precision. "Honor and duty transcend the boundaries of race. Your Lady protects these lands, and I would see them defended from the darkness that consumes all." His pale features remain composed, though his bloodless lips betray no warmth. "Let us ride against our common foe."	false
-dilemmas_localised_title_idrinth_dilemma_unlock_bretonnia	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_dark_elves	The stranger pulls back his hood, revealing features unmistakably Asur—yet his eyes hold none of their typical disdain. "Cousin," he says, the word carrying neither mockery nor warmth. "I care nothing for ancient grudges. Chaos devours Druchii and Asur alike, and I have learned that survival demands... flexibility." A mirthless smile crosses his bloodless lips. "You understand pragmatism better than most. Shall we put it to use?"	false
-dilemmas_localised_title_idrinth_dilemma_unlock_dark_elves	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_cathay	The robed figure bows with unexpected formality, then straightens to reveal elven features beneath his traveling garments. "I have walked your lands before, in ages past," he states, his voice measured and calm. "The Great Bastion holds back horrors I know all too well. Balance must be maintained against the Ruinous Powers." His ageless eyes study the Cathayan officials with scholarly interest. "I offer knowledge spanning millennia. Perhaps we can learn from one another."	false
-dilemmas_localised_title_idrinth_dilemma_unlock_cathay	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_nagash	The stranger's hood falls away, revealing an elven face untouched by time. "I know what you serve," he says flatly, meeting the gaze of the undead without flinching. "And I know what I am. We need not pretend otherwise." He adjusts the greatsword at his back with familiar ease. "Nagash's enemies are Chaos' servants. For now, that alignment of purpose is enough." His bloodless lips twist into something resembling dark amusement. "The Great Necromancer collects all things eventually. I simply choose the terms."	false
-dilemmas_localised_title_idrinth_dilemma_unlock_nagash	Idrinth Thalui	false
-dilemmas_localised_description_idrinth_dilemma_unlock_vampire_coast	The stranger sheds his salt-stained cloak, revealing elven features and ancient armor beneath. "I've sailed darker seas than these," he remarks, eyeing the shambling crew without disgust. "Blood is blood, whether taken on land or water." He produces his payment pouch, weighing it thoughtfully. "You hunt, you raid, you survive. I respect that." A knowing smile crosses his pale face. "And I suspect your captains understand—immortality changes one's perspective on... everything."	false
-dilemmas_localised_title_idrinth_dilemma_unlock_vampire_coast	Idrinth Thalui	false
+effect_bundles_localised_description_idrinth_dilemma_empire_FIRST	Учёную очень интересовали старые войны. Обсуждение с Идринтом привело её к открытию тактики, полезной и сейчас.	false
+effect_bundles_localised_description_idrinth_dilemma_empire_SECOND	Учёная и Идринт обсудили магию, найдя небольшие улучшения для ваших магов.	false
+effect_bundles_localised_description_idrinth_dilemma_empire_THIRD	Вы спросили учёную об Идринте, узнав о его долгой войне против хаоса.	false
+effect_bundles_localised_description_idrinth_dilemma_high_elves_FIRST	Вы прогнали посланника, облегчив жизнь Идринту.	false
+effect_bundles_localised_description_idrinth_dilemma_high_elves_SECOND	Вы противостояли Идринту насчёт его прошлого, оставив его в более мрачном настроении.	false
+effect_bundles_localised_description_idrinth_dilemma_high_elves_THIRD	Идринт встретил посланника от своего древнего народа, узнав о нынешних целях своей семьи. Теперь он кажется в более лёгком настроении.	false
+effect_bundles_localised_description_idrinth_dilemma_kislev_FIRST	Вы передали нарушителя Идринту для допроса.	false
+effect_bundles_localised_description_idrinth_dilemma_kislev_SECOND	Вы убили нарушителя, разгневав родину, но предотвратив худшее.	false
+effect_bundles_localised_description_idrinth_dilemma_kislev_THIRD	Нарушитель присоединился к вам, что глубоко беспокоит Идринта.	false
+effect_bundles_localised_description_idrinth_dilemma_vampire_counts_FIRST	Вы обвинили Идринта в убийстве и обескровливании слуги. Он пытается доказать свою невиновность.	false
+effect_bundles_localised_description_idrinth_dilemma_vampire_counts_SECOND	Вы спросили Идринта о свитке, узнав о некоторых древних магических теориях.	false
+effect_bundles_localised_description_idrinth_dilemma_vampire_counts_THIRD	Вы решили искать убийцу в другом месте, и ваши войска теперь более бдительны.	false
+effect_bundles_localised_description_idrinth_dilemma_wood_elves_FIRST	Идринт и следопыт встретились и подрались из-за того, что он сделал с её деревней.	false
+effect_bundles_localised_description_idrinth_dilemma_wood_elves_SECOND	Вы спрятали Идринта от следопыта, пока она не ушла. Хотя он благодарен, это омрачило его настроение.	false
+effect_bundles_localised_description_idrinth_dilemma_wood_elves_THIRD	Вы противостояли Идринту насчёт следопыта, заставив его задуматься о прошлом и настоящем.	false
+effect_bundles_localised_description_idrinth_dilemma_dwarves_FIRST	Вы спросили гномов об эльфе, что усилило ваши подозрения относительно Идринта. Он, в свою очередь, чувствует себя менее комфортно рядом с вами, кто пытался копаться в его прошлом.	false
+effect_bundles_localised_description_idrinth_dilemma_dwarves_SECOND	Вы обменялись информацией о Вампирских Войнах, получив сведения из первых рук.	false
+effect_bundles_localised_description_idrinth_dilemma_dwarves_THIRD	Вы представили Идринта гномам. Это пошло не так, как вы планировали — они попытались атаковать монстра, которым он стал.	false
+effect_bundles_localised_title_idrinth_dilemma_empire_FIRST	Обсудили прошлые войны	false
+effect_bundles_localised_title_idrinth_dilemma_empire_SECOND	Обсудили магию	false
+effect_bundles_localised_title_idrinth_dilemma_empire_THIRD	Спросили её об Идринте	false
+effect_bundles_localised_title_idrinth_dilemma_high_elves_FIRST	Посланник прогнан	false
+effect_bundles_localised_title_idrinth_dilemma_high_elves_SECOND	Идринт противостоял	false
+effect_bundles_localised_title_idrinth_dilemma_high_elves_THIRD	Посланник встречен	false
+effect_bundles_localised_title_idrinth_dilemma_kislev_FIRST	Нарушитель передан Идринту	false
+effect_bundles_localised_title_idrinth_dilemma_kislev_SECOND	Нарушитель убит	false
+effect_bundles_localised_title_idrinth_dilemma_kislev_THIRD	Нарушитель присоединился	false
+effect_bundles_localised_title_idrinth_dilemma_vampire_counts_FIRST	Идринт обвинён	false
+effect_bundles_localised_title_idrinth_dilemma_vampire_counts_SECOND	Спросили о свитке	false
+effect_bundles_localised_title_idrinth_dilemma_vampire_counts_THIRD	Убийцу искали в другом месте	false
+effect_bundles_localised_title_idrinth_dilemma_wood_elves_FIRST	Следопыт встречен	false
+effect_bundles_localised_title_idrinth_dilemma_wood_elves_SECOND	Идринт спрятан	false
+effect_bundles_localised_title_idrinth_dilemma_wood_elves_THIRD	Идринт противостоял	false
+effect_bundles_localised_title_idrinth_dilemma_dwarves_FIRST	Спросили гномов об эльфе	false
+effect_bundles_localised_title_idrinth_dilemma_dwarves_SECOND	Поговорили с Идринтом о Вампирских Войнах	false
+effect_bundles_localised_title_idrinth_dilemma_dwarves_THIRD	Представили Идринта гномам	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_large	Великая Защита Асуриана	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_large	Божественное Руководство Курноуса	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_large	Кровавый Прилив Кхейна	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_medium	Защита Асуриана	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_medium	Руководство Курноуса	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_medium	Кровавое Подношение Кхейна	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_small	Малая Защита Асуриана	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_small	Тонкое Руководство Курноуса	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_small	Капля Крови Кхейна	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_large	Ваши воины не только превосходно уклоняются от ударов и чудом избегают атак, их раны также заживают значительно быстрее обычного.	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_large	Как прирождённые охотники, ваши воины двигаются быстро и незаметно во время охоты за едой и врагом.	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_large	Ваши войска и новые добровольцы испытывают порыв битвы, делая их опаснее для врагов.	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_medium	Ваши воины внезапно превосходно уклоняются от ударов и чудом избегают атак.	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_medium	Ваши воины естественно скрытны во время охоты за едой и врагом.	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_medium	Ваши воины чувствуют голод до боя, делая и ветеранов, и новобранцев опаснее для врагов.	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_small	Ваши воины испытывают некоторую удачу в уклонении от ударов и магии, хотя её недостаточно, чтобы полагаться.	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_small	Небольшое руководство и удача во время охоты идёт на пользу вашим войскам.	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_small	Малая капля крови из кулака Кхейна приводит к большему числу добровольцев в ваши войска.	false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_large_cost		false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_large_cost		false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_large_cost		false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_medium_cost		false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_medium_cost		false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_medium_cost		false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_small_cost		false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_small_cost		false
+effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_small_cost		false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_large_cost	Стоимость: Великая Защита Асуриана	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_large_cost	Стоимость: Божественное Руководство Курноуса	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_large_cost	Стоимость: Кровавый Прилив Кхейна	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_medium_cost	Стоимость: Защита Асуриана	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_medium_cost	Стоимость: Руководство Курноуса	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_medium_cost	Стоимость: Кровавое Подношение Кхейна	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_small_cost	Стоимость: Малая Защита Асуриана	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_small_cost	Стоимость: Тонкое Руководство Курноуса	false
+effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_small_cost	Стоимость: Капля Крови Кхейна	false
+effect_bundles_localised_description_idrinth_vampiric_priests	Идринт обратил своих жрецов в вампиров. Пусть их жертва спасёт нас.	false
+effect_bundles_localised_title_idrinth_vampiric_priests	Вампирские Жрецы	false
+effect_bundles_localised_title_idrinth_successful_action_army	Вдохновлённый Агент	false
+effect_bundles_localised_title_idrinth_successful_action_army_critical	Вдохновлённый Агент	false
+effect_bundles_localised_title_idrinth_successful_action_character	Вдохновлённый Агент	false
+effect_bundles_localised_title_idrinth_successful_action_character_critical	Вдохновлённый Агент	false
+effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_ambush	Позиция: Мастерская Засада	false
+effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_channelling	Позиция: Направление	false
+effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_default	Позиция: Нет	false
+effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_raiding	Позиция: Рейд	false
+effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_forced_march	Позиция: Марш	false
+effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_settlement	Позиция: Лагерь	false
+effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_tunnelling	Позиция: Использовать Мирокорни	false
+effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_navy_blockading	Позиция: Морской Рейд	false
+effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_garrisoned	Ситуация: В Гарнизоне	false
+effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_siege	Ситуация: Осада	false
+effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_patrol	Позиция: Патруль	false
+effect_bundles_localised_title_idrinth_asuryan_god_favour_cave_bats	Благословение Асуриана	false
+effect_bundles_localised_description_idrinth_asuryan_god_favour_cave_bats	Асуриан благословляет пещерных летучих мышей жить дольше.	false
+effect_bundles_localised_title_idrinth_kurnous_god_favour_cave_bats	Благословение Курноуса	false
+effect_bundles_localised_description_idrinth_kurnous_god_favour_cave_bats	Курноус благословляет пещерных летучих мышей охотиться лучше.	false
+effect_bundles_localised_title_idrinth_khaine_god_favour_cave_bats	Благословение Кхейна	false
+effect_bundles_localised_description_idrinth_khaine_god_favour_cave_bats	Кхейн благословляет пещерных летучих мышей истреблять врагов.	false
+effect_bundles_localised_title_idrinth_asuryan_god_favour_wolves	Благословение Асуриана	false
+effect_bundles_localised_description_idrinth_asuryan_god_favour_wolves	Асуриан благословляет волков жить дольше.	false
+effect_bundles_localised_title_idrinth_kurnous_god_favour_wolves	Благословение Курноуса	false
+effect_bundles_localised_description_idrinth_kurnous_god_favour_wolves	Курноус благословляет волков охотиться лучше.	false
+effect_bundles_localised_title_idrinth_khaine_god_favour_wolves	Благословение Кхейна	false
+effect_bundles_localised_description_idrinth_khaine_god_favour_wolves	Кхейн благословляет волков истреблять врагов.	false
+effect_bundles_localised_title_idrinth_asuryan_god_favour_hawks	Благословение Асуриана	false
+effect_bundles_localised_description_idrinth_asuryan_god_favour_hawks	Асуриан благословляет ястребов жить дольше.	false
+effect_bundles_localised_title_idrinth_kurnous_god_favour_hawks	Благословение Курноуса	false
+effect_bundles_localised_description_idrinth_kurnous_god_favour_hawks	Курноус благословляет ястребов охотиться лучше.	false
+effect_bundles_localised_title_idrinth_khaine_god_favour_hawks	Благословение Кхейна	false
+effect_bundles_localised_description_idrinth_khaine_god_favour_hawks	Кхейн благословляет ястребов истреблять врагов.	false
+effect_bundles_localised_title_idrinth_asuryan_god_favour_great_eagles	Благословение Асуриана	false
+effect_bundles_localised_description_idrinth_asuryan_god_favour_great_eagles	Асуриан благословляет великого орла жить дольше.	false
+effect_bundles_localised_title_idrinth_kurnous_god_favour_great_eagles	Благословение Курноуса	false
+effect_bundles_localised_description_idrinth_kurnous_god_favour_great_eagles	Курноус благословляет великого орла охотиться лучше.	false
+effect_bundles_localised_title_idrinth_khaine_god_favour_great_eagles	Благословение Кхейна	false
+effect_bundles_localised_description_idrinth_khaine_god_favour_great_eagles	Кхейн благословляет великого орла истреблять врагов.	false
+effect_bundles_localised_title_idrinth_hev_high_elf_vampires_anti_chaos	Талуианское Благословение	false
+effect_bundles_localised_description_idrinth_hev_high_elf_vampires_anti_chaos	Ваши боги наделяют силы Талуианской Капеллы против всех последователей губительных сил.	false
+effect_bundles_localised_title_idrinth_chapel_slots_present	Место для Талуианской Капеллы	false
+effect_bundles_localised_description_idrinth_chapel_slots_present	Это поселение содержит область, освящённую Асурианом, Кхейном и Курноусом, и может вместить комплекс Талуианской Капеллы.	false
+effect_bundles_localised_title_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
+effect_bundles_localised_description_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
+effect_bundles_localised_title_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
+effect_bundles_localised_description_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
+effect_bundles_localised_title_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
+effect_bundles_localised_description_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
+effect_bundles_localised_title_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
+effect_bundles_localised_description_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
+effect_bundles_localised_title_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
+effect_bundles_localised_description_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
+effect_bundles_localised_title_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
+effect_bundles_localised_description_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
+effect_bundles_localised_title_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
+effect_bundles_localised_description_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
+effect_bundles_localised_title_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
+effect_bundles_localised_description_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
+effect_bundles_localised_title_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
+effect_bundles_localised_description_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
+effect_bundles_localised_title_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
+effect_bundles_localised_description_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
