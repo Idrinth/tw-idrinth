@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__zh.loc.tsvdb/idrinth__zh.loc		
+#Loc;1;text/idrinth__zh.loc.tsv/idrinth__zh.loc		
 message_event_strings_title_idrinth_chapel_lost	教堂失守	false
 message_event_strings_title_idrinth_chapel_founded	教堂建立	false
 message_event_strings_title_idrinth_godly_intervention	眾神介入	false
