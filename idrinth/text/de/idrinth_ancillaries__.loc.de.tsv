@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.de/idrinth_ancillaries__.de.loc		
+#Loc;1;text/idrinth_ancillaries__de.loc.tsv/idrinth_ancillaries__de.loc		
 ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	Ein Talisman, gesegnet von Khaine, dem Bluthändigen Gott. Nur wenige erlangten genug Gunst, um ein solch Werkzeug in seinem Namen zu führen. Das getrocknete Blut pulsiert mit uralter Macht und flüstert seinem Träger Versprechungen von Gewalt zu.	false
 ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Bewiesene Kampferfahrung.	false
 ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Talisman des Getrockneten Blutes	false
