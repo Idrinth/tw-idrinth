@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/idrinth_initiatives__.cn.loc.tsv/idrinth_initiatives__.cn.loc		
+initiatives_localised_name_idrinth_khaine_pledge	献身于凯恩	false
+initiatives_localised_name_idrinth_kurnous_pledge	献身于库尔诺斯	false
+initiatives_localised_name_idrinth_asuryan_pledge	献身于阿苏里安	false
+initiatives_localised_name_idrinth_khaine_prayer	向凯恩祈祷	false
+initiatives_localised_name_idrinth_kurnous_prayer	向库尔诺斯祈祷	false
+initiatives_localised_name_idrinth_asuryan_prayer	向阿苏里安祈祷	false
+idrinth_khaine_pledge		false
+idrinth_kurnous_pledge		false
+idrinth_asuryan_pledge		false
+idrinth_khaine_prayer		false
+idrinth_kurnous_prayer		false
+idrinth_asuryan_prayer		false
