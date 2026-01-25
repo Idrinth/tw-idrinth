@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__de.loc.tsvdb/idrinth__de.loc		
+#Loc;1;text/idrinth__de.loc.tsv/idrinth__de.loc		
 message_event_text_idrinth_chapel_lost	Die Kapelle wurde vom neuen Besitzer der Siedlung niedergebrannt. Wo werden wir uns nun versammeln?	false
 message_event_text_idrinth_chapel_founded	Der Platz für eine neue Kapelle wurde von den Göttern geweiht. Wir sollten sie schnell errichten, um ihre Segnungen zu erlangen.	false
 message_event_text_idrinth_godly_intervention	Idrinth teilt Euch mit, dass seine Götter beschlossen haben, Eure Sache zu unterstützen. Eure Armeen werden durch einen göttlichen Segen für eine Weile mächtiger sein.	false
