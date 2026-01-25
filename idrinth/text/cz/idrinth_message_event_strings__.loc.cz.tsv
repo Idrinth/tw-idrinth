@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/idrinth__cz.loc.tsvdb/idrinth__cz.loc		
+message_event_strings_title_idrinth_chapel_lost	Kaple ztracena	false
+message_event_strings_title_idrinth_chapel_founded	Kaple založena	false
+message_event_strings_title_idrinth_godly_intervention	Bohové zasahují	false
