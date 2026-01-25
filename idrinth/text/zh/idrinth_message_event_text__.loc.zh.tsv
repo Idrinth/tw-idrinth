@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__zh.loc.tsvdb/idrinth__zh.loc		
+#Loc;1;text/idrinth__zh.loc.tsv/idrinth__zh.loc		
 message_event_text_idrinth_chapel_lost	教堂已被定居點的新主人燒毀。我們現在該在哪裡集會？	false
 message_event_text_idrinth_chapel_founded	新教堂的地點已被眾神祝聖。我們應該迅速建造它以獲得他們的祝福。	false
 message_event_text_idrinth_godly_intervention	伊德林斯通知你，他的神祇已決定採取行動支持你的事業。你的軍隊將因神聖祝福而在一段時間內更加強大。	false
