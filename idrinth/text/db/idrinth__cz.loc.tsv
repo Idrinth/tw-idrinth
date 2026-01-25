@@ -1,19 +1,24 @@
 key	text	tooltip
 #Loc;1;text/db/idrinth__cz.loc		
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_idrinth	Čepele mávané s elfí elegancí a upíří mocí, luky střílející s elfí přesností a upíří silou. Tato stvoření přinášejí strach do většiny srdcí.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan	Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Asuryana.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous	Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Kurnouse.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine	Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Khaina.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed	Tito zoufalí vyhnanci, dobrodruzi a žoldnéři chrání kapli svých bohů.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader	Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Asuryana.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader	Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Kurnouse.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader	Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Khaina.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine	Tato provizorní oživená svatyně Asuryana, Kurnouse a Khaina chrání a pomáhá obráncům stát pevně.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves	Tyto kamenné bestie kombinují elfí umění s ničivými kouzly, činíc je jedněmi z nejlepších úderových jednotek dostupných Thaluiánským kaplím.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders	Tito hrdí muži a ženy vyjíždějí zajistit cesty a boky, používajíc lektvary ke zvýšení přežití a šancí.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire	Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Asuryana navzdory jejich upířství.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire	Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Kurnouse navzdory jejich upířství.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire	Tito bývalí vyhnanci, dobrodruzi a žoldnéři chrání svatyni Khaina navzdory jejich upířství.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf	Tito zklamaní upíři byli dříve kněžími Khaina.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf	Tito zklamaní upíři byli dříve kněžími Kurnouse.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf	Tito zklamaní upíři byli dříve kněžími Asuryana.	false
+upgrade_tooltips_idrinth_unit_asuryan	Povyš Smíšenou elfí stráž na Asuryanovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně	false
+upgrade_tooltips_idrinth_priest_asuryan	Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.	false
+upgrade_tooltips_idrinth_unit_khaine	Povyš Smíšenou elfí stráž na Khainovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně.	false
+upgrade_tooltips_idrinth_priest_khaine	Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.	false
+upgrade_tooltips_idrinth_unit_kurnous	Povyš Smíšenou elfí stráž na Kurnousovu stráž za 300 + 50 * Hodnost zlata a získej Hodnost² přízně	false
+upgrade_tooltips_idrinth_priest_kurnous	Pokus se proměnit tohoto kněze na upíra za 1000 zlata a 250 přízně. Může selhat a v nejhorším případě je jen zabít.	false
+upgrade_tooltips_idrinth_animal_kurnous_eagle	Požehnej velkému orlu ve jménu Kurnouse za 125 zlata a 70 přízně.	false
+upgrade_tooltips_idrinth_animal_khaine_eagle	Požehnej velkému orlu ve jménu Khaina za 125 zlata a 70 přízně.	false
+upgrade_tooltips_idrinth_animal_asuryan_eagle	Požehnej velkému orlu ve jménu Asuryana za 125 zlata a 70 přízně.	false
+upgrade_tooltips_idrinth_animal_kurnous_hawks	Požehnej jestřábům ve jménu Kurnouse za 100 zlata a 40 přízně.	false
+upgrade_tooltips_idrinth_animal_khaine_hawks	Požehnej jestřábům ve jménu Khaina za 100 zlata a 40 přízně.	false
+upgrade_tooltips_idrinth_animal_asuryan_hawks	Požehnej jestřábům ve jménu Asuryana za 100 zlata a 40 přízně.	false
+upgrade_tooltips_idrinth_animal_kurnous_bats	Požehnej netopýrům ve jménu Kurnouse za 50 zlata a 20 přízně.	false
+upgrade_tooltips_idrinth_animal_khaine_bats	Požehnej netopýrům ve jménu Khaina za 50 zlata a 20 přízně.	false
+upgrade_tooltips_idrinth_animal_asuryan_bats	Požehnej netopýrům ve jménu Asuryana za 50 zlata a 20 přízně.	false
+upgrade_tooltips_idrinth_animal_kurnous_wolves	Požehnej vlkům ve jménu Kurnouse za 75 zlata a 30 přízně.	false
+upgrade_tooltips_idrinth_animal_khaine_wolves	Požehnej vlkům ve jménu Khaina za 75 zlata a 30 přízně.	false
+upgrade_tooltips_idrinth_animal_asuryan_wolves	Požehnej vlkům ve jménu Asuryana za 75 zlata a 30 přízně.	false
+upgrade_tooltips_idrinth_size_outriders	Zvyš počet kaplanských předjezdců o 5 za 250 zlata. Hodnosti se přenášejí.	false
+upgrade_tooltips_idrinth_size_kurnous	Zvyš počet Kurnousovy stráže o 15 za 300 zlata. Hodnosti a veteránský status se přenášejí.	false
+upgrade_tooltips_idrinth_size_khaine	Zvyš počet Khainovy stráže o 15 za 300 zlata. Hodnosti a veteránský status se přenášejí.	false
+upgrade_tooltips_idrinth_size_asuryan	Zvyš počet Asuryanovy stráže o 15 za 300 zlata. Hodnosti a veteránský status se přenášejí.	false
