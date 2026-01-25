@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__it.loc.tsv/idrinth__it.loc		
+#Loc;1;text/idrinth_pooled_resources__.it.loc.tsv/idrinth_pooled_resources__.it.loc		
 pooled_resources_description_idrinth_khaine	Posizione con Khaine	false
 pooled_resources_display_name_idrinth_khaine	Favore di Khaine	false
 pooled_resources_negative_factors_display_name_idrinth_khaine	Perso	false
