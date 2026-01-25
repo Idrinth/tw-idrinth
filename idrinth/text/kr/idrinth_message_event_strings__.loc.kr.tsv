@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/idrinth_message_event_strings__.kr.loc.tsv/idrinth_message_event_strings__.kr.loc		
+message_event_strings_title_idrinth_chapel_lost	예배당 상실	false
+message_event_strings_title_idrinth_chapel_founded	예배당 설립	false
+message_event_strings_title_idrinth_godly_intervention	신들의 개입	false
