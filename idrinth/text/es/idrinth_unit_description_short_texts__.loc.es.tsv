@@ -1,0 +1,19 @@
+key	text	tooltip
+#Loc;1;text/idrinth_unit_description_short_texts__.es.loc.tsv/idrinth_unit_description_short_texts__.es.loc		
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_idrinth	Espadas blandidas con elegancia élfica y poder vampírico, arcos disparados con precisión élfica y fuerza vampírica. Estas criaturas infunden miedo en la mayoría de los corazones.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan	Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Asuryan.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous	Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Kurnous.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine	Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Khaine.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed	Estos exiliados, aventureros y mercenarios desesperados protegen una capilla dedicada a sus dioses.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Asuryan.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Kurnous.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Khaine.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine	Este santuario improvisado y animado dedicado a Asuryan, Kurnous y Khaine protege y ayuda a los defensores a mantenerse firmes.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves	Estas bestias hechas de piedra combinan el arte élfico con devastadores encantamientos, convirtiéndolas en una de las mejores tropas de choque disponibles para las Capillas Thaluianas.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders	Estos orgullosos hombres y mujeres cabalgan para asegurar caminos y flancos, usando pociones para mejorar su supervivencia y oportunidades.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Asuryan a pesar de su vampirismo.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Kurnous a pesar de su vampirismo.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Khaine a pesar de su vampirismo.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf	Estos vampiros fallidos fueron anteriormente un sacerdote de Khaine.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf	Estos vampiros fallidos fueron anteriormente un sacerdote de Kurnous.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf	Estos vampiros fallidos fueron anteriormente un sacerdote de Asuryan.	false
