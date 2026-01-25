@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_skills__.br.loc.tsv/idrinth_character_skills__.br.loc		
+#Loc;1;text/.br/idrinth_character_skills__.br.loc		
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_assist_army_training	Treinamento do Exército	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_agent_assassinate	Assassinar	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_army_assault_units	Assaltar Unidades	false
