@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_trait_levels__.br.loc.tsv/idrinth_character_trait_levels__.br.loc		
+#Loc;1;text/.br/idrinth_character_trait_levels__.br.loc		
 character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	Você é um conhecido assassino de elfos para Khaine e outros elfos.	false
 character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	Você lutou contra muitos exércitos de elfos.	false
 character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	Assassino de Elfos Amaldiçoado por Khaine	false
