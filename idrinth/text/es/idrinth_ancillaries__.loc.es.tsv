@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__es.loc.tsv/idrinth__es.loc		
+#Loc;1;text/idrinth_ancillaries__.es.loc.tsv/idrinth_ancillaries__.es.loc		
 ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	Un talismán bendecido por Khaine, el Dios de Manos Sangrientas. Pocos han ganado suficiente favor para empuñar una herramienta como esta en su nombre. La sangre seca pulsa con poder antiguo, susurrando promesas de violencia a su portador.	false
 ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Experiencia de combate demostrada.	false
 ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Talismán de Sangre Seca	false
