@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_building_sets__.pl.loc.tsv/idrinth_building_sets__.pl.loc		
+#Loc;1;text/.pl/idrinth_building_sets__.pl.loc		
 building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel	Zgromadzenie łotrów, wygnańców i poszukiwaczy przygód elfickiego pochodzenia, gromadzących się wokół kaplicy poświęconej ich bóstwom.	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel	Elficka Kaplica Wspólnotowa	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast	Elficki Weterynarz	false
