@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_effects__.cn.loc.tsv/idrinth_effects__.cn.loc		
+#Loc;1;text/.cn/idrinth_effects__.cn.loc		
 effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] 行动：单位经验获取额外增加 %+n%	false
 effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] 行动：额外造成 %+n% 伤亡	false
 effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] 行动：额外 %+n% 成功几率	false
