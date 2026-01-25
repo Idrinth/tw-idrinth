@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc;1;text/idrinth_message_event_text__.cn.loc.tsv/idrinth_message_event_text__.cn.loc		
-message_event_text_idrinth_chapel_lost	礼拜堂已被定居点的新主人焚毁。我们现在要在哪里聚集？	false
-message_event_text_idrinth_chapel_founded	新礼拜堂的位置已被神灵祝圣。我们应该尽快建造它以获得他们的祝福。	false
-message_event_text_idrinth_godly_intervention	Idrinth 通知你，他的神灵已决定出手支持你的事业。你的军队将因神圣祝福而暂时变得更加强大。	false
-message_event_text_idrinth_godly_intervention_subtitle	阿苏里安、凯恩和库尔诺斯行动了。	false
