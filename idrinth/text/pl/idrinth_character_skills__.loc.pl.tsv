@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_skills__.pl.loc.tsv/idrinth_character_skills__.pl.loc		
+#Loc;1;text/.pl/idrinth_character_skills__.pl.loc		
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_assist_army_training	Szkolenie Armii	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_agent_assassinate	Zabójstwo	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_army_assault_units	Atak na Jednostki	false
