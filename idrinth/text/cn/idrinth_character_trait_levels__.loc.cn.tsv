@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_trait_levels__.cn.loc.tsv/idrinth_character_trait_levels__.cn.loc		
+#Loc;1;text/.cn/idrinth_character_trait_levels__.cn.loc		
 character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	你是凯恩和其他精灵眼中有名的精灵屠夫。	false
 character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	你曾与许多精灵军队交战。	false
 character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	受凯恩诅咒的精灵屠夫	false
