@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.cn/idrinth_ancillary_sets__.cn.loc		
+#Loc;1;text/idrinth_ancillary_sets__cn.loc.tsv/idrinth_ancillary_sets__cn.loc		
 ancillary_sets_name_anc_set_exclusive_idrinth_khaine	凯恩的祝福	false
 ancillary_sets_name_anc_set_exclusive_idrinth_kurnous	库尔诺斯的祝福	false
 ancillary_sets_name_anc_set_exclusive_idrinth_asuryan	阿苏里安的祝福	false
