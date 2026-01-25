@@ -1,5 +1,4 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_dilemmas__.loc		
 dilemmas_localised_description_idrinth_unlock_choice	A robed stranger appears one night, offering his help for a small fee. Do you accept the help?	false
 dilemmas_localised_title_idrinth_unlock_choice	The Stranger	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	An elven messanger arrives, looking for an Idrinth. The Idrinth you know has avoided him so far, maybe you could help?	false
