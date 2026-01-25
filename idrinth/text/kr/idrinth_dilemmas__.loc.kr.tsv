@@ -1,0 +1,86 @@
+key	text	tooltip
+#Loc;1;text/idrinth_dilemmas__.kr.loc.tsv/idrinth_dilemmas__.kr.loc		
+dilemmas_localised_description_idrinth_unlock_choice	어느 날 밤 로브를 입은 낯선 자가 나타나 적은 대가로 도움을 제안합니다. 도움을 받아들이시겠습니까?	false
+dilemmas_localised_title_idrinth_unlock_choice	낯선 자	false
+dilemmas_localised_description_idrinth_dilemma_high_elves	엘프 사절이 도착하여 이드린스를 찾고 있습니다. 당신이 아는 이드린스는 지금까지 그를 피해왔는데, 아마 도와줄 수 있을까요?	false
+dilemmas_localised_description_idrinth_dilemma_wood_elves	우드 엘프 레인저가 당신의 야영지에 도착합니다. 그녀는 피 묻은 사촌이 필요하다고 말합니다. 이드린스가 자신이 말하는 자가 맞다고 빠르게 확인하지만, 만나기를 거부합니다.	false
+dilemmas_localised_description_idrinth_dilemma_empire	나이 든 학자가 당신의 야영지에 접근합니다. 과거의 책들을 들고 그녀는 당신에게 가치 있는 지식을 발견했다고 주장합니다.	false
+dilemmas_localised_description_idrinth_dilemma_kislev	밤에 얼음 같은 바람이 경비병들을 괴롭히는 동안, 그들은 야영지에 몰래 들어오려는 키슬레프인을 잡습니다. 그는 젊고 겉보기에 무해해 보이지만, 그를 어떻게 할까요?	false
+dilemmas_localised_description_idrinth_dilemma_vampire_counts	어느 날 밤 당신은 이드린스의 텐트 바로 밖에서 피가 빠진 하인 중 하나를 발견합니다. 급히 들어가니, 그가 테이블에 앉아 오래된 두루마리를 읽고 있는 것을 발견합니다.	false
+dilemmas_localised_title_idrinth_dilemma_high_elves	사절	false
+dilemmas_localised_title_idrinth_dilemma_wood_elves	피의 사촌	false
+dilemmas_localised_title_idrinth_dilemma_kislev	침입자!	false
+dilemmas_localised_title_idrinth_dilemma_empire	학자	false
+dilemmas_localised_title_idrinth_dilemma_vampire_counts	하인의 최후	false
+dilemmas_localised_description_idrinth_dilemma_dwarves	근처에서 드워프 무리가 발견되었습니다. 당신의 정찰병들은 그들이 뱀파이어 전쟁에 대한 이야기를 나누는 것을 엿들었습니다. 언급된 한 엘프는 이드린스와 의심스럽게 닮았습니다.	false
+dilemmas_localised_title_idrinth_dilemma_dwarves	오래된 원한	false
+dilemmas_localised_description_idrinth_dilemma_weapon	최근 사냥 후 이드린스가 고대 엘프 무기처럼 보이는 것을 가지고 당신에게 다가옵니다. 그는 누구에게 바칠지 조언을 구합니다.	false
+dilemmas_localised_title_idrinth_dilemma_weapon	축복받은 무기	false
+dilemmas_localised_description_idrinth_dilemma_armour	최근 전투 후 이드린스가 고대 엘프 갑옷처럼 보이는 것을 가지고 당신에게 다가옵니다. 그는 누구에게 바칠지 조언을 구합니다.	false
+dilemmas_localised_title_idrinth_dilemma_armour	축복받은 갑옷	false
+dilemmas_localised_description_idrinth_dilemma_talisman	하루의 여행을 마친 후 이드린스가 고대 엘프 부적처럼 보이는 것을 가지고 당신에게 다가옵니다. 그는 누구에게 바칠지 조언을 구합니다.	false
+dilemmas_localised_title_idrinth_dilemma_talisman	축복받은 부적	false
+dilemmas_localised_description_idrinth_mode_choice	기사-학자 이드린스 탈루이의 모집 문화를 하이 엘프, 우드 엘프, 키슬레프, 제국, 뱀파이어 카운트로 제한하려면 엄격한 로어 친화성을 활성화하세요. 뱀파이어 코스트, 나가쉬의 군단, 다크 엘프, 카세이, 브레토니아도 목록에 추가하려면 완화된 모드를 선택하세요.	false
+dilemmas_localised_title_idrinth_mode_choice	모드: 엄격한 또는 완화된 로어 친화성	false
+dilemmas_localised_description_idrinth_dilemma_unlock_high_elves	당신의 금화를 받은 후 낯선 자는 자신을 이드린스라는 아수르 동포로 소개합니다. 여행 로브를 벗으니 전투로 닳은 로어마스터의 갑옷, 어울리는 대검, 그리고 아직 저지르지 않은 잔혹함을 암시하는 무표정한 눈 근처에 금속 활이 보입니다.	false
+dilemmas_localised_title_idrinth_dilemma_unlock_high_elves	이드린스 탈루이	false
+dilemmas_localised_description_idrinth_dilemma_unlock_wood_elves	숲의 사냥꾼들과 함께 싸우게 되어 기대됩니다, 사촌, 이라고 아수르가 친근한 어조로 말하며 보수와 여행 망토를 챙깁니다. 당신들만큼 훌륭한 사수는 아니지만, 발목을 잡지는 않을 것입니다. 약간 재미있어하는 미소가 그의 피 없는 입술 주위에 잠시 나타났다가 사라집니다. 수 세기 후에도 이야기될 사냥을 합시다!	false
+dilemmas_localised_title_idrinth_dilemma_unlock_wood_elves	이드린스 탈루이	false
+dilemmas_localised_description_idrinth_dilemma_unlock_kislev	낯선 자가 돈을 받은 후 옷을 벗고 여행 로브 아래에서 엘프 얼굴과 엘프 무기를 드러냅니다. 제 이름은 이드린스이며, 당신들 대부분이 살아온 것보다 더 오래 우리의 적들과 싸워왔습니다. 군대와 함께 훈련하고 그들을 가르치고 싶습니다. 약간의 미소가 그의 피 없는 입술 주위에 잠시 나타났다가 늙지 않는 얼굴에서 사라집니다.	false
+dilemmas_localised_title_idrinth_dilemma_unlock_kislev	이드린스 탈루이	false
+dilemmas_localised_description_idrinth_dilemma_unlock_empire	저는 울릭이나 시그마를 믿는 전사들과 함께 싸우고 피를 흘렸습니다. 우리는 같은 적을 가지고 있습니다, 라고 그가 여행 로브를 벗으며 말합니다, 그리고 당신들과 함께 그들을 물리치기를 기대합니다. 세상의 발전을 위해 제 지식을 공유합니다. 그의 눈은 기도하는 인간들을 차갑게 바라보다가 장군과 그의 경호원에게 다시 주의를 돌립니다.	false
+dilemmas_localised_title_idrinth_dilemma_unlock_empire	이드린스 탈루이	false
+dilemmas_localised_description_idrinth_dilemma_unlock_vampire_counts	낯선 자가 후드를 내리며 엘프 특징을 드러냅니다. 저는 파괴의 친구가 아니지만, 적들이 제 손을 강제했습니다. 금화를 주머니에 넣으며 말합니다, 수년 만에 위험에 처했을 때 가족에게 돌아가는 것은 옳은 일입니다, 그 가족이 누구든. 동의하지 않습니까?	false
+dilemmas_localised_title_idrinth_dilemma_unlock_vampire_counts	이드린스 탈루이	false
+dilemmas_localised_description_idrinth_chapels_choice	캠페인에서 탈루이안 예배당을 활성화하시겠습니까? 영웅만 있는 것에 비해 추가 방어와 옵션을 제공합니다.	false
+dilemmas_localised_description_idrinth_levelMinimum_choice	기사-학자 이드린스 탈루이를 모집하려면 최소 레벨의 장군이 필요합니다. 얼마나 일찍 그를 모집할 수 있기를 원하십니까?	false
+dilemmas_localised_title_idrinth_story_choice	스토리 이벤트	false
+dilemmas_localised_description_idrinth_story_choice	이드린스가 특정 중요한 장소에 도착했을 때 스토리 이벤트를 활성화하시겠습니까?	false
+dilemmas_localised_title_idrinth_chapels_choice	탈루이안 예배당	false
+dilemmas_localised_title_idrinth_levelMinimum_choice	명성의 계급	false
+dilemmas_localised_title_idrinth_story_dilemma_drakenhof	드라켄호프	false
+dilemmas_localised_title_idrinth_story_dilemma_temple_of_khaine	카인의 신전	false
+dilemmas_localised_title_idrinth_story_dilemma_shrine_of_khaine	카인의 성소	false
+dilemmas_localised_title_idrinth_story_dilemma_temple_of_asuryan	아수리안의 신전	false
+dilemmas_localised_title_idrinth_story_dilemma_temple_of_kurnous	쿠르노스의 신전	false
+dilemmas_localised_title_idrinth_story_dilemma_shrine_of_loec	로에크의 성소	false
+dilemmas_localised_title_idrinth_story_dilemma_hel_fenn	헬 펜	false
+dilemmas_localised_title_idrinth_story_dilemma_black_pyramid	나가쉬의 검은 피라미드	false
+dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_ulthuan	울투안의 바울의 모루	false
+dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_naggaroth	나가로스의 바울의 모루	false
+dilemmas_localised_title_idrinth_story_dilemma_vauls_anvil_loren	아델 로렌의 바울의 모루	false
+dilemmas_localised_title_idrinth_story_dilemma_tower_of_hoeth	호에스의 탑	false
+dilemmas_localised_title_idrinth_story_dilemma_blood_keep	블러드 킵	false
+dilemmas_localised_title_idrinth_story_dilemma_oak_of_ages	세월의 참나무	false
+dilemmas_localised_title_idrinth_story_dilemma_the_galleons_graveyard	갤리온의 무덤	false
+dilemmas_localised_title_idrinth_story_dilemma_sartosa	사르토사	false
+dilemmas_localised_title_idrinth_story_dilemma_lahmia	라미아	false
+dilemmas_localised_title_idrinth_story_dilemma_ghrond	그론드	false
+dilemmas_localised_description_idrinth_story_dilemma_drakenhof	드라켄호프 성의 검은 첨탑이 실바니아의 영원한 어둠을 뚫고 솟아 있습니다. 이드린스는 성문 앞에 꼼짝없이 서서, 뱀파이어 전쟁의 기억이 억제할 수 없이 밀려옵니다. "여기서 피를 흘렸고," 그가 속삭입니다, "다시 일어났지. 폰 카르슈타인들이 내가 무엇이 되었는지 가르쳐 주었어—원하든 원하지 않든." 그의 손이 검 손잡이에 얹혀 있습니다. 그가 피의 친족으로 들어가는 것일까요, 아니면 그들의 야망이 세상에 끼친 대가를 상기시키러 온 것일까요?	false
+dilemmas_localised_description_idrinth_story_dilemma_temple_of_khaine	카인의 신전이 나가로스의 황무지에서 솟아오르고, 제단에는 신선한 제물이 미끈거립니다. 이드린스는 살인의 신의 시선을 느낍니다—증오가 아닌 굶주린 인식으로. "당신은 내 검의 기록을 알고 있습니다," 그가 피의 어둠에게 중얼거립니다. "내가 끝낸 모든 혼돈의 하수인, 내가 추방한 모든 악마. 그것이 당신을 기쁘게 합니까, 피 묻은 손의 신이시여? 아니면 내가 무고한 자들에게 돌리는 날을 기다리고 있을 뿐입니까?"	false
+dilemmas_localised_description_idrinth_story_dilemma_shrine_of_khaine	카인의 검이 악의적인 약속으로 맥동하고, 그 속삭임은 이드린스의 언데드 정적마저 뚫고 옵니다. 오랜 순간 동안, 그는 단순히 과부제조자를 응시합니다. "아에나리온이 우리 민족을 구하기 위해 당신을 들어 올렸고 자신의 혈통을 영원히 저주했지," 그가 조용히 말합니다. "나는 복수의 맹세를 했을 때 이미 저주받았어. 당신은 나를 더 나쁘게 만들 건가, 아니면 그저... 더 효율적으로?" 그의 손가락이 경련하지만, 닿지는 않습니다.	false
+dilemmas_localised_description_idrinth_story_dilemma_temple_of_asuryan	아수리안 신전의 성스러운 불꽃이 영원히 타오르고, 이드린스는 외부 안뜰보다 더 가까이 다가가지 않습니다. "살아있는 엘프로서 이 홀을 걸었었지," 그가 공허한 목소리로 말합니다. "언데드와의 전쟁에 출정하기 전에 여기서 기도했어. 이제 나는 내가 싸웠던 것이 되었어." 그가 춤추는 불꽃을 지켜봅니다. "아직도 제 기도가 들리십니까, 불사조의 주님? 아니면 제 저주가 제 기도를 조롱으로 만드는 것입니까?"	false
+dilemmas_localised_description_idrinth_story_dilemma_temple_of_kurnous	고대 나무들이 사냥의 성소를 둘러싸고, 야생의 향기가 공기를 가득 채웁니다. 이드린스가 깊이 숨을 들이쉽니다—숨이 생명을 의미하던 때의 오래된 습관입니다. "아직도 사냥합니다, 야생의 주님," 그가 뿔 달린 돌들에게 말합니다. "더 이상 자연의 순환에 속하지 않지만요. 몸의 생존이 아닌 영혼의 복수를 위해서만 사냥합니다. 영원한 사냥에 저 같은 자를 위한 자리가 있습니까?"	false
+dilemmas_localised_description_idrinth_story_dilemma_shrine_of_loec	로에크의 성소가 시선의 구석에서 이동하며, 보이는 곳에 결코 제대로 있지 않습니다. 이드린스가 드물게 차가운 미소를 짓습니다. "장난의 신. 나는 죽은 후에 그림자 마법이 살아 있을 때보다 쉬워졌어—그런 식으로 당신의 기술을 배웠지." 그가 조롱하듯 반쯤 고개를 숙입니다. "그것이 당신의 농담입니까, 웃는 자여? 내 발이 차가워진 후에 더 잘 춤을 춘다는 것이?"	false
+dilemmas_localised_description_idrinth_story_dilemma_hel_fenn	헬 펜의 늪이 그의 앞에 펼쳐지고, 이드린스의 표정은 읽을 수 없게 됩니다. "여기서 끝났고. 시작됐지." 그의 목소리에는 감정이 없습니다. "진흙을 기억해. 피를. 만프레드의 군대가 우리 주위에서 무너지는 것을. 우리가 이겼다고 생각한 것을 기억해." 긴 침묵. "죽는 것은 기억나지 않아. 단지 사흘 후에 깨어났을 때, 이름 붙일 수 없는 무언가에 굶주려 있었던 것만."	false
+dilemmas_localised_description_idrinth_story_dilemma_black_pyramid	나가쉬의 기념비가 사막 하늘을 배경으로 우뚝 솟아, 이드린스의 저주를 그 안에서 몸부림치게 하는 힘을 발산합니다. "우리 모든 저주의 아버지," 그가 말합니다, 경건하지도 경멸적이지도 않게—단지 사실을 진술할 뿐. "모든 뱀파이어는 당신이 너무 멀리 손을 뻗었기 때문에 존재합니다, 위대한 강령술사여. 제 저주는 당신의 야망에서 흐릅니다." 그가 고대의 돌들을 연구합니다. "제가 당신의 선물을 사용하는 방식을 승인하시는지 궁금합니다. 죽음을 혼돈 자체에 돌리는 것을요."	false
+dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_ulthuan	바울의 단조 성소가 고대의 힘을 발산하고, 이드린스의 마법 부여 무기들이 반응하여 웅웅거리는 것 같습니다. "더 작은 단조에서 축복받은 무기를 들고 뱀파이어 전쟁에 갔었지," 그가 회상합니다. "그것들은 언데드에 맞서 부서졌어. 이제 나는 언데드이고, 내가 된 것을 죽였을 무기를 들고 있어." 그의 손가락이 검날 가장자리를 따라갑니다. "거기에 시가 있어, 만드는 자만이 감상할 그런 종류의."	false
+dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_naggaroth	다크 엘프들은 대장장이 신과의 자신만의 연결을 주장하며, 그들의 단조는 쓰라린 근면으로 타오릅니다. 이드린스는 가까이 가지 않고 관찰합니다. "사촌들," 그가 곰곰이 생각합니다. "그들은 한 어둠에 빠졌고, 나는 다른 어둠에. 하지만 그들은 자신의 길을 선택했어. 때때로 그것이 그들을 나보다 더 정직하게 만드는지 궁금해—그들은 자신이 된 것을 받아들였지만, 나는 여전히 내가 예전 것인 척하고 있으니."	false
+dilemmas_localised_description_idrinth_story_dilemma_vauls_anvil_loren	우드 엘프들은 자신만의 방식으로 바울의 가르침을 유지하며, 살아있는 나무와 죽은 금속을 함께 형성합니다. 이드린스는 학자적 관심으로 장인의 작업을 지켜봅니다. "생명과 죽음이 하나의 무기에서 결합되었군," 그가 관찰합니다. "아스라이는 다른 동족들이 이해하지 못하는 것을 이해해—그 경계가 우리가 믿고 싶은 것보다 더... 투과성이 있다는 것을." 그의 오래된 학문적 매력의 유령이 떠오릅니다. "그들의 기술을 연구해야겠어."	false
+dilemmas_localised_description_idrinth_story_dilemma_tower_of_hoeth	백탑이 불가능할 정도로 높이 솟아, 모든 하이 엘프 지식의 저장소입니다. 이드린스는 기슭에 멈추어, 들어갈 수 없거나—들어가려 하지 않습니다. "나는 로어마스터였어," 그가 말합니다, 목소리가 고대의 슬픔으로 갈라집니다. "저 홀에서 공부했어. 비밀 통로, 숨겨진 도서관, 금지된 구역을 알았어." 그의 눈은 깜빡이지 않습니다. "그들이 아직도 내 이름을 말할까? 아니면 기록에서 내 이름을 지우고, 내가 존재하지 않았던 척하고 있을까?"	false
+dilemmas_localised_description_idrinth_story_dilemma_blood_keep	블러드 드래곤의 요새가 산악 요새에 자랑스럽게 서 있으며, 저주받은 자들 사이에서 무술적 명예의 기념비입니다. 이드린스는 존경에 가까운 것으로 그것을 바라봅니다. "아보라쉬의 유산. 무기의 완벽을 통해 저주를 극복하려는 뱀파이어들." 그가 자신의 검을 만집니다. "그 충동을 이해해. 괴물인데도 괴물 이상의 것이 되려는 것을."	false
+dilemmas_localised_description_idrinth_story_dilemma_oak_of_ages	세계수의 존재감은 압도적이고, 이드린스는 심판하는 신에게 다가가듯 천천히 다가갑니다. "모든 숲의 심장. 세계의 뿌리." 그가 거의 속삭이듯 말합니다. "살아있을 때 당신의 그림자 아래서 사냥했어. 우드 엘프들은 나를 친족으로 용인했지." 그가 창백한 손을 내려다봅니다. "나무들이 나를 기억할까? 이제 그들의 뿌리 사이를 걷는 것으로부터 움츠러들까?"	false
+dilemmas_localised_description_idrinth_story_dilemma_the_galleons_graveyard	배들이 갤리온의 무덤에서 영원히 썩어가고, 언데드 선원들이 해양 전통의 조롱을 유지합니다. 이드린스는 혐오감을 가지고 잔해를 살펴봅니다. "녹틸루스와 그 부류들. 이전 삶의 모든 체면을 버리고 뭔가... 더 못한 것이 된 뱀파이어들." 그가 고개를 젓습니다. "그 유혹을 이해해. 영원히 살 수 있다면, 왜 해적왕이 되지 않아? 하지만 그들은 우리가 싸워야 할 것을 잊었어."	false
+dilemmas_localised_description_idrinth_story_dilemma_sartosa	해적 피난처가 그의 앞에 펼쳐져, 무법하고 위험하지만—거의 상쾌할 정도로 그것에 대해 솔직합니다. "죽은 자와 산 자가 나란히 거래하는 도시, 탐욕으로 하나가 되어," 이드린스가 관찰합니다. "이상하게도 여기가 편해. 아무도 내가 무엇인지 가장하지 않아. 아무도 더 이상 가지고 있지 않은 인간성을 연기하라고 요구하지 않아." 그가 잠시 멈춥니다. "아마 그래서 빨리 떠나야 해."	false
+dilemmas_localised_description_idrinth_story_dilemma_lahmia	라미아의 폐허가 고대의 영광과 최초의 뱀파이어들을 속삭입니다. 이드린스는 경건함에 가까운 것으로 빈 거리를 걷습니다. "모든 것이 시작된 곳. 네페라타와 그녀의 궁정, 나가쉬의 독이 든 잔을 마신 최초의 자들." 그가 쓰러진 동상 옆에 무릎을 꿇습니다. "역사를 공부했어. 최초의 뱀파이어들은 학자, 여왕, 위대한 세련됨의 전사들이었어. 그들의 유산이 무엇이 되었는지 봐. 내가 무엇이 되었는지 봐."	false
+dilemmas_localised_description_idrinth_story_dilemma_ghrond	마녀들의 북쪽 탑이 북쪽 하늘을 배경으로 어둡게 우뚝 서고, 모라티의 힘이 멀리서도 감지됩니다. 이드린스의 턱이 긴장됩니다. "마녀왕의 어머니. 혼돈 숭배를 엘프에게 가져온 자." 그의 목소리에 차가운 증오가 담겨 있습니다. "어둠의 힘의 많은 하수인들을 죽였어. 하지만 이 자는... 이 자는 어떤 대가도 치를 가치가 있어." 그는 가까이 가지 않습니다. 아직은. "인내. 복수는 영원해. 나는 시간이 있어."	false
+dilemmas_localised_description_idrinth_dilemma_unlock_bretonnia	낯선 자가 숙련된 우아함으로 여행 망토를 벗으며, 아래에 엘프 갑옷을 드러냅니다. "전에 기사들과 함께 복무했습니다," 그가 궁정의 정밀함으로 고개를 숙이며 말합니다. "명예와 의무는 종족의 경계를 초월합니다. 당신의 여인이 이 땅을 보호하며, 저는 모든 것을 삼키는 어둠으로부터 그것들이 방어되는 것을 보고 싶습니다." 그의 창백한 얼굴은 평온하지만, 피 없는 입술은 따뜻함을 배반하지 않습니다. "함께 공통의 적에 맞서 기병을 이끕시다."	false
+dilemmas_localised_title_idrinth_dilemma_unlock_bretonnia	이드린스 탈루이	false
+dilemmas_localised_description_idrinth_dilemma_unlock_dark_elves	낯선 자가 후드를 뒤로 젖히며, 틀림없이 아수르의 특징을 드러냅니다—하지만 그의 눈에는 그들의 전형적인 경멸이 없습니다. "사촌," 그가 말합니다, 조롱도 온기도 담지 않은 단어. "고대의 원한은 관심 없습니다. 혼돈은 드루치와 아수르를 똑같이 삼키고, 저는 생존이... 유연성을 요구한다는 것을 배웠습니다." 기쁨 없는 미소가 그의 피 없는 입술을 가로지릅니다. "당신은 대부분보다 실용주의를 이해합니다. 그것을 활용할까요?"	false
+dilemmas_localised_title_idrinth_dilemma_unlock_dark_elves	이드린스 탈루이	false
+dilemmas_localised_description_idrinth_dilemma_unlock_cathay	로브를 입은 인물이 예상치 못한 격식으로 절을 한 다음, 여행복 아래에서 엘프 특징을 드러내며 몸을 일으킵니다. "예전에, 오래 전에 당신의 땅을 걸었습니다," 그가 차분하고 침착한 목소리로 말합니다. "대장벽은 제가 너무 잘 아는 공포를 막습니다. 파멸의 힘에 맞서 균형이 유지되어야 합니다." 그의 늙지 않는 눈이 학자적 관심으로 카세이 관리들을 연구합니다. "천년에 걸친 지식을 제공합니다. 아마 서로에게 배울 수 있을 것입니다."	false
+dilemmas_localised_title_idrinth_dilemma_unlock_cathay	이드린스 탈루이	false
+dilemmas_localised_description_idrinth_dilemma_unlock_nagash	낯선 자의 후드가 벗겨지며, 시간에 손대지 않은 엘프 얼굴을 드러냅니다. "당신이 무엇을 섬기는지 압니다," 그가 단호하게 말합니다, 움츠러들지 않고 언데드의 시선을 마주합니다. "그리고 제가 무엇인지도 압니다. 우리는 그렇지 않은 척할 필요가 없습니다." 그가 익숙한 편안함으로 등에 있는 대검을 조정합니다. "나가쉬의 적들은 혼돈의 하수인들입니다. 지금으로서는, 목적의 정렬이 충분합니다." 그의 피 없는 입술이 어두운 재미에 가까운 것으로 비틀어집니다. "위대한 강령술사는 결국 모든 것을 수집합니다. 저는 단지 조건을 선택할 뿐입니다."	false
+dilemmas_localised_title_idrinth_dilemma_unlock_nagash	이드린스 탈루이	false
+dilemmas_localised_description_idrinth_dilemma_unlock_vampire_coast	낯선 자가 소금으로 얼룩진 망토를 벗으며, 아래에 엘프 특징과 고대 갑옷을 드러냅니다. "이보다 더 어두운 바다를 항해했습니다," 그가 혐오 없이 비틀거리는 선원들을 바라보며 말합니다. "피는 피입니다, 육지에서 취하든 바다에서 취하든." 그가 보수 주머니를 꺼내 신중하게 무게를 잽니다. "당신은 사냥하고, 약탈하고, 생존합니다. 그것을 존중합니다." 알 것 같은 미소가 그의 창백한 얼굴을 가로지릅니다. "그리고 당신의 선장들은 이해한다고 생각합니다—불멸은 모든 것에 대한 관점을 바꿉니다."	false
+dilemmas_localised_title_idrinth_dilemma_unlock_vampire_coast	이드린스 탈루이	false
