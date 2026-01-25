@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__es.loc.tsvdb/idrinth__es.loc		
+#Loc;1;text/idrinth__es.loc.tsv/idrinth__es.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Aceptar ayuda. (Héroe)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Aceptar ayuda. (General)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Ahuyentar al extraño.	false
