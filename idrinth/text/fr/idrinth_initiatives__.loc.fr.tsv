@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/idrinth_initiatives__.fr.loc.tsv/idrinth_initiatives__.fr.loc		
+initiatives_localised_name_idrinth_khaine_pledge	Se consacrer à Khaine	false
+initiatives_localised_name_idrinth_kurnous_pledge	Se consacrer à Kurnous	false
+initiatives_localised_name_idrinth_asuryan_pledge	Se consacrer à Asuryan	false
+initiatives_localised_name_idrinth_khaine_prayer	Prier Khaine	false
+initiatives_localised_name_idrinth_kurnous_prayer	Prier Kurnous	false
+initiatives_localised_name_idrinth_asuryan_prayer	Prier Asuryan	false
+idrinth_khaine_pledge		false
+idrinth_kurnous_pledge		false
+idrinth_asuryan_pledge		false
+idrinth_khaine_prayer		false
+idrinth_kurnous_prayer		false
+idrinth_asuryan_prayer		false
