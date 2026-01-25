@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__cz.loc.tsvdb/idrinth__cz.loc		
+#Loc;1;text/idrinth__cz.loc.tsv/idrinth__cz.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Přijmout pomoc. (Hrdina)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Přijmout pomoc. (Generál)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Odehnat cizince.	false
