@@ -1,7 +1,0 @@
-key	text	tooltip
-#Loc;1;text/idrinth_factions__.cz.loc.tsv/idrinth_factions__.cz.loc		
-factions_attack_desc_idrinth_hev_high_elf_vampires	Útočíš na Thaluiánské kaple!	false
-factions_defend_desc_idrinth_hev_high_elf_vampires	Bráníš se proti Thaluiánským kaplím!	false
-factions_screen_adjective_idrinth_hev_high_elf_vampires	thaluiánský	false
-factions_screen_name_idrinth_hev_high_elf_vampires	Thaluiánské kaple	false
-factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires	Odpadlické Thaluiánské kaple	false
