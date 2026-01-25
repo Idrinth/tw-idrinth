@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.br/idrinth_building_culture_variants__.br.loc		
+#Loc;1;text/idrinth_building_culture_variants__br.loc.tsv/idrinth_building_culture_variants__br.loc		
 building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_0	Capela Thaluiana	false
 building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_asuryan	Capela Thaluiana de Asuryan	false
 building_culture_variants_name_idrinth_hev_high_elf_vampires_chapel_1_kurnous	Capela Thaluiana de Kurnous	false
