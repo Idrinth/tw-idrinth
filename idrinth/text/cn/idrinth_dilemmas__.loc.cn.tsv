@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__cn.loc.tsv/idrinth__cn.loc		
+#Loc;1;text/idrinth_dilemmas__.cn.loc.tsv/idrinth_dilemmas__.cn.loc		
 dilemmas_localised_description_idrinth_unlock_choice	一个穿着长袍的陌生人在一天晚上出现，愿意以少许报酬提供帮助。你接受帮助吗？	false
 dilemmas_localised_title_idrinth_unlock_choice	陌生人	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	一位精灵信使到来，寻找一个叫 Idrinth 的人。你认识的 Idrinth 一直在躲避他，也许你可以帮忙？	false
