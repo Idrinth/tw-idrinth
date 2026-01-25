@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_upgrade_tooltips__.cn.loc.tsv/idrinth_upgrade_tooltips__.cn.loc		
+#Loc;1;text/.cn/idrinth_upgrade_tooltips__.cn.loc		
 upgrade_tooltips_idrinth_unit_asuryan	将混编精灵卫士升级为阿苏里安卫士，花费 300 + 50 * 等级 金币并获得 等级² 恩宠	false
 upgrade_tooltips_idrinth_priest_asuryan	尝试将此祭司转化为吸血鬼，花费 1000 金币和 250 恩宠。这可能会失败，最坏情况下会杀死他们。	false
 upgrade_tooltips_idrinth_unit_khaine	将混编精灵卫士升级为凯恩卫士，花费 300 + 50 * 等级 金币并获得 等级² 恩宠。	false
