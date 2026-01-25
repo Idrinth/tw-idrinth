@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_unit_description_short_texts__.kr.loc.tsv/idrinth_unit_description_short_texts__.kr.loc		
+#Loc;1;text/.kr/idrinth_unit_description_short_texts__.kr.loc		
 unit_description_short_texts_text_idrinth_hev_high_elf_vampires_idrinth	엘프의 우아함과 뱀파이어의 힘으로 휘두르는 검, 엘프의 정확성과 뱀파이어의 힘으로 쏘는 활. 이 존재들은 대부분의 마음에 두려움을 가져다줍니다.	false
 unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan	이 절박한 망명자, 모험가, 용병들이 아수리안의 성소를 보호합니다.	false
 unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous	이 절박한 망명자, 모험가, 용병들이 쿠르노스의 성소를 보호합니다.	false
