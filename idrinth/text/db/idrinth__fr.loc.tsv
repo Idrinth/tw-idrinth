@@ -1,6 +1,14 @@
 key	text	tooltip
 #Loc;1;text/db/idrinth__fr.loc	
-initiative_sets_localised_name_idrinth_godly_favour	Dedication	false
-initiative_sets_localised_name_idrinth_godly_blessings	Blessings	false
-initiative_sets_localised_description_idrinth_godly_favour		false
-initiative_sets_localised_description_idrinth_godly_blessings		false
+initiatives_localised_name_idrinth_khaine_pledge	Dedicate yourself to Khaine	false
+initiatives_localised_name_idrinth_kurnous_pledge	Dedicate yourself to Kurnous	false
+initiatives_localised_name_idrinth_asuryan_pledge	Dedicate yourself to Asuryan	false
+initiatives_localised_name_idrinth_khaine_prayer	Pray to Khaine	false
+initiatives_localised_name_idrinth_kurnous_prayer	Pray to Kurnous	false
+initiatives_localised_name_idrinth_asuryan_prayer	Pray to Asuryan	false
+idrinth_khaine_pledge		false
+idrinth_kurnous_pledge		false
+idrinth_asuryan_pledge		false
+idrinth_khaine_prayer		false
+idrinth_kurnous_prayer		false
+idrinth_asuryan_prayer		false
