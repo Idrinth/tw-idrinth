@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_trait_levels__.fr.loc.tsv/idrinth_character_trait_levels__.fr.loc		
+#Loc;1;text/.fr/idrinth_character_trait_levels__.fr.loc		
 character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	Vous êtes un tueur d'elfes connu de Khaine et des autres elfes.	false
 character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	Vous avez combattu maintes armées d'elfes.	false
 character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	Tueur d'Elfes Maudit par Khaine	false
