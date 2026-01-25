@@ -1,5 +1,4 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_versions.loc		
 mct_patch_notes_idrinth_129_notes	- fix treasury costs for upgrades giving money instead of costing it	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- rewritten code for better stability\\n- more options in the mod config tool\\n- many small fixes	false
