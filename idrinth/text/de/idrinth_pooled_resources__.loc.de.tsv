@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__de.loc.tsv/idrinth__de.loc		
+#Loc;1;text/idrinth_pooled_resources__.de.loc.tsv/idrinth_pooled_resources__.de.loc		
 pooled_resources_description_idrinth_khaine	Stand bei Khaine	false
 pooled_resources_display_name_idrinth_khaine	Gunst des Khaine	false
 pooled_resources_negative_factors_display_name_idrinth_khaine	Verloren	false
