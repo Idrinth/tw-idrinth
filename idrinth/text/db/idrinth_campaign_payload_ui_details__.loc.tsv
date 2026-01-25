@@ -1,3 +1,2 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_campaign_payload_ui_details__.loc		
-campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui	Recruit the stranger.	false
+"key"	"text"	"tooltip"
+"campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui"	"Recruit the stranger."	"false"
