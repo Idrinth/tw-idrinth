@@ -1,0 +1,24 @@
+key	text	tooltip
+#Loc;1;text/idrinth_upgrade_tooltips__.fr.loc.tsv/idrinth_upgrade_tooltips__.fr.loc		
+upgrade_tooltips_idrinth_unit_asuryan	Améliorer la Garde Elfique Mixte en Garde d'Asuryan pour 300 Or.	false
+upgrade_tooltips_idrinth_priest_asuryan	Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.	false
+upgrade_tooltips_idrinth_unit_khaine	Améliorer la Garde Elfique Mixte en Garde de Khaine pour 300 Or.	false
+upgrade_tooltips_idrinth_priest_khaine	Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.	false
+upgrade_tooltips_idrinth_unit_kurnous	Améliorer la Garde Elfique Mixte en Garde de Kurnous pour 300 Or.	false
+upgrade_tooltips_idrinth_priest_kurnous	Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.	false
+upgrade_tooltips_idrinth_animal_kurnous_eagle	Bénir le grand aigle au nom de Kurnous pour 125 or et 70 faveur.	false
+upgrade_tooltips_idrinth_animal_khaine_eagle	Bénir le grand aigle au nom de Khaine pour 125 or et 70 faveur.	false
+upgrade_tooltips_idrinth_animal_asuryan_eagle	Bénir le grand aigle au nom d'Asuryan pour 125 or et 70 faveur.	false
+upgrade_tooltips_idrinth_animal_kurnous_hawks	Bénir les faucons au nom de Kurnous pour 100 or et 40 faveur.	false
+upgrade_tooltips_idrinth_animal_khaine_hawks	Bénir les faucons au nom de Khaine pour 100 or et 40 faveur.	false
+upgrade_tooltips_idrinth_animal_asuryan_hawks	Bénir les faucons au nom d'Asuryan pour 100 or et 40 faveur.	false
+upgrade_tooltips_idrinth_animal_kurnous_bats	Bénir les chauves-souris au nom de Kurnous pour 50 or et 20 faveur.	false
+upgrade_tooltips_idrinth_animal_khaine_bats	Bénir les chauves-souris au nom de Khaine pour 50 or et 20 faveur.	false
+upgrade_tooltips_idrinth_animal_asuryan_bats	Bénir les chauves-souris au nom d'Asuryan pour 50 or et 20 faveur.	false
+upgrade_tooltips_idrinth_animal_kurnous_wolves	Bénir les loups au nom de Kurnous pour 75 or et 30 faveur.	false
+upgrade_tooltips_idrinth_animal_khaine_wolves	Bénir les loups au nom de Khaine pour 75 or et 30 faveur.	false
+upgrade_tooltips_idrinth_animal_asuryan_wolves	Bénir les loups au nom d'Asuryan pour 75 or et 30 faveur.	false
+upgrade_tooltips_idrinth_size_outriders	Augmenter le nombre d'Éclaireurs de la Chapelle de 5 pour 250 or. Les rangs sont conservés.	false
+upgrade_tooltips_idrinth_size_kurnous	Augmenter le nombre de la Garde de Kurnous de 15 pour 300 or. Les rangs et le statut de vétéran sont conservés.	false
+upgrade_tooltips_idrinth_size_khaine	Augmenter le nombre de la Garde de Khaine de 15 pour 300 or. Les rangs et le statut de vétéran sont conservés.	false
+upgrade_tooltips_idrinth_size_asuryan	Augmenter le nombre de la Garde d'Asuryan de 15 pour 300 or. Les rangs et le statut de vétéran sont conservés.	false
