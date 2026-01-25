@@ -1,12 +1,13 @@
 [h1]伊德林斯·塔盧伊：騎士-學者[/h1]
+#Loc;1;text/db/readme-zh.steam	
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021][img]https://i.imgur.com/1Vglg7c.png[/img][/url]
 
 [h2]墮落知識大師的故事[/h2]
 
-伊德林斯·塔盧伊曾是一位受人尊敬的高等精靈知識大師，在血腥的吸血鬼戰爭中迎來了他的凡人終結，卻作為他曾經戰鬥過的那些生物之一重新崛起。現在，這位騎士-學者在精靈傳承與吸血鬼詛咒之間走著危險的道路，在被混沌撕裂的世界中尋找目標。
+Once a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.
 
-你會引導他走向救贖，還是擁抱他內心的黑暗？他的命運掌握在你手中。
+你會引導他走向救贖，還是擁抱他內心的黑暗？他的命運掌握在你手中。 His fate rests in your hands.
 
 [h2]支援的語言[/h2]
 
@@ -26,7 +27,7 @@
 [*]繁體中文
 [/list]
 
-想幫助翻譯嗎？[url=https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006]加入我們的Crowdin項目[/url]來貢獻翻譯或改進現有翻譯！
+Want to help translate? 想幫助翻譯嗎？[url=https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006]加入我們的Crowdin項目[/url]來貢獻翻譯或改進現有翻譯！
 
 [h2]相關模組[/h2]
 
@@ -50,7 +51,7 @@
 [*]布列托尼亞
 [*]震旦
 [*]黑暗精靈
-[*]納迦什軍團（模組派系）
+[*]Legions of Nagash(modded Faction)
 [*]吸血鬼海岸
 [/list]
 
@@ -65,18 +66,18 @@
 [/list]
 
 [b]教堂系統[/b]
-基於神聖影響，伊德林斯可以建立教堂，顯著影響駐軍規模、力量和神聖恩惠使用，同時有利於當地經濟和增長。
+Based on the divine influences, Idrinth can found chapels that noticeably affect garrison size, power and god favour use as well as benefiting the local economy and growth.
 
 如果未使用所需模組，外國槽位可能會表現異常 - 除非你玩的派系已經有外國槽位，否則技術上不需要該模組。
 
 [h3]敘事困境[/h3]
-面對塑造伊德林斯性格並決定他與神聖關係的關鍵選擇。你會擁抱精靈根源還是屈服於吸血鬼力量？每個決定都會影響你的神聖恩惠並解鎖永久加成。
+Face critical choices that shape Idrinth's character and determine his relationship with the divine. Will you embrace your elven roots or surrender to vampiric power? Each decision affects your divine favor and unlocks permanent bonuses.
 
 [h3]神聖神器套裝[/h3]
-收集並裝備增強伊德林斯能力的強大神明相關神器。完成一套以獲得補充你所選神聖道路的特殊加成。
+收集並裝備增強伊德林斯能力的強大神明相關神器。完成一套以獲得補充你所選神聖道路的特殊加成。 Complete a set to earn special bonuses that complement your chosen divine path.
 
 [h3]精靈殺手後果[/h3]
-一個動態特質系統，追蹤你與精靈派系的戰鬥。你殺的精靈越多，在他們中間就越出名、被鄙視，最終被憎恨，帶來重大的外交和神聖恩惠後果。
+A dynamic trait system that tracks your battles against elven factions. The more elves you slay, the more you'll be known, despised, and eventually hated among their kind, with significant diplomatic and divine favor consequences.
 
 [h3]奧術多才[/h3]
 掌握多個魔法學派的法術，反映伊德林斯的學者背景和吸血鬼轉化：
@@ -92,11 +93,11 @@
 
 [h3]動物WAAAGH[/h3]
 
-將軍在身邊聚集了一群盟友動物，用受祝福的動物創造出一個哇啊啊。
+The general collects a menagerie of allied animals around him, creating a waaagh out of blessed animals.
 
 [h2]ALPHA版本通知[/h2]
 
-這個模組處於[b]早期ALPHA[/b]開發階段。你可能會遇到：
+This mod is in [b]EARLY ALPHA[/b] development. You may encounter:
 
 [list]
 [*]軍隊中某些按鈕可能無法使用
@@ -105,15 +106,15 @@
 [*]祈禱系統暫時被隨機觸發的神聖干預取代
 [/list]
 
-你的反饋對改進至關重要！請報告你遇到的任何問題。
+Your feedback is essential for improvement! Please report any issues you encounter.
 
 [h2]兼容性說明：[/h2]
 
-納迦什的自定義派系理論上受支持。但支持需要遊戲測試，如果你發現錯誤請在這裡報告，不要打擾其他模組！
+The custom faction of Nagash is theoretically supported. The support needs play-testing though, if you find bugs report them here and don't bother the other mod!
 
 [h2]模組中的AI[/h2]
 
-模組中目前有一些AI生成的圖像。一旦單位身份和外觀最終確定，它們將隨著時間被適當的美術作品取代。
+模組中目前有一些AI生成的圖像。一旦單位身份和外觀最終確定，它們將隨著時間被適當的美術作品取代。 They are being replaced by proper art over time once the unit identity and looks are final.
 
 [h2]社交媒體[/h2]
-如果你想討論模組或需要支持，歡迎加入[url=https://discord.gg/idrinth]Discord[/url]！如果你想幫助修復問題，代碼在[url=https://github.com/Idrinth/tw-idrinth]GitHub[/url]！如果你想改進翻譯，請訪問[url=https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006]Crowdin[/url] - 無需技術知識！
+如果你想討論模組或需要支持，歡迎加入[url=https://discord.gg/idrinth]Discord[/url]！如果你想幫助修復問題，代碼在[url=https://github.com/Idrinth/tw-idrinth]GitHub[/url]！如果你想改進翻譯，請訪問[url=https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006]Crowdin[/url] - 無需技術知識！ If you want to help fix things, the code is on [url=https://github.com/Idrinth/tw-idrinth]GitHub[/url]! If you want to improve translations visit [url=https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006]Crowdin[/url] - no technical knowledge required!
