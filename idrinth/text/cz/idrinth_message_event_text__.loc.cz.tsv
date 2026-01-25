@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__cz.loc.tsvdb/idrinth__cz.loc		
+#Loc;1;text/idrinth__cz.loc.tsv/idrinth__cz.loc		
 message_event_text_idrinth_chapel_lost	Kaple byla spálena novým majitelem osídlení. Kde se nyní budeme shromažďovat?	false
 message_event_text_idrinth_chapel_founded	Místo pro novou kapli bylo vysvěceno bohy. Měli bychom ji rychle vybudovat, abychom získali jejich požehnání.	false
 message_event_text_idrinth_godly_intervention	Idrinth tě informuje, že jeho bohové se rozhodli jednat na podporu tvé věci. Tvé armády budou mocnější díky božskému požehnání po nějakou dobu.	false
