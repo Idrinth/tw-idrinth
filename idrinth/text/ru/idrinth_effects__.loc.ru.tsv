@@ -1,0 +1,81 @@
+key	text	tooltip
+#Loc;1;text/idrinth__ru.loc.tsvdb/idrinth__ru.loc		
+effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] действие: Получение опыта отрядами увеличивается дополнительно на %+n%	false
+effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] действие: Дополнительно %+n% нанесённых потерь	false
+effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] действие: Дополнительно %+n% шанс успеха	false
+effects_description_idrinth_effect_agent_action_enable_passive_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] действие: Вампирская порча увеличивается дополнительно на %+n	false
+effects_description_idrinth_pooled_resource_khaine	Генерирует %+n Благосклонности Кхейна.	false
+effects_description_idrinth_pooled_resource_kurnous	Генерирует %+n Благосклонности Курноуса.	false
+effects_description_idrinth_pooled_resource_asuryan	Генерирует %+n Благосклонности Асуриана.	false
+effects_description_idrinth_effect_upkeep_idrinth	Содержание увеличено на %+n% для Идринта.	false
+effects_description_idrinth_initiative_khaine	Следование пути Кхейна, воина, позволяет вам истреблять врагов.	false
+effects_description_idrinth_initiative_kurnous	Следование пути Курноуса, охотника, делает вас лучшим охотником.	false
+effects_description_idrinth_initiative_asuryan	Следование пути Асуриана, защитника, защищает вас.	false
+effects_description_idrinth_chapel_khaine_charge	Кхейн укрепляет вашу решимость и делает Идринта и гарнизоны капелл на %+n% ударными войсками.	false
+effects_description_idrinth_chapel_kurnous_range	Курноус укрепляет ваш лук и позволяет Идринту и гарнизонам капелл стрелять на %+n% дальше.	false
+effects_description_idrinth_chapel_asuryan_ward_save	Асуриан укрепляет ваш разум, защищая Идринта и гарнизоны капелл от %+n урона барьером.	false
+effects_description_idrinth_loremaster_lore_of_vampires	Снижает стоимость, перезарядку и шанс неудачи на %+n% для заклинаний школы вампиров.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Increases range  by %+n% for lore of vampires spells.	false
+effects_description_idrinth_loremaster_lore_of_shadows	Снижает стоимость, перезарядку и шанс неудачи на %+n% для заклинаний школы теней.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Increases range  by %+n% for lore of shadows spells.	false
+effects_description_idrinth_loremaster_lore_of_death	Снижает стоимость, перезарядку и шанс неудачи на %+n% для заклинаний школы смерти.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Increases range by %+n% for lore of death spells.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Сила оружия %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Потеря бодрости %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Скорость %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_range	Дальность %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_defence	Защита в ближнем бою %+n для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_attack_pct	Атака в ближнем бою %+n для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_fire_resistance	Уязвимость к огню %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_charge_bonus_pct	Бонус атаки %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_force_all_campaign_replenishment_rate	Восполнение %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_physical_resistance	Физическое сопротивление %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_resistance	Сопротивление снарядам %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_damage	Урон снарядами %+n% для жрецов.	false
+effects_description_idrinth_priests_wh_main_effect_attribute_enable_causes_fear	Жрецы вызывают страх.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	Жрецы обладают вампирским голодом.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	Жрецы знают Призыв Нехека.	false
+effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	Жрецы являются нежитью.	false
+effects_description_idrinth_successful_action_motivation	Шанс успеха, стоимость и шанс критического успеха увеличены на %+n%.	false
+effects_description_idrinth_ranger_knowledge_primary	Эльфы Талуианских Капелл могут стрелять на %+n% дальше.	false
+effects_description_idrinth_blade_dancing_primary	Эльфы Талуианских Капелл уклоняются от вражеских клинков, увеличивая защиту в ближнем бою на %+n.	false
+effects_description_idrinth_unusual_training_primary	Эльфы Талуианских Капелл увеличивают лидерство на %+n.	false
+effects_description_idrinth_running_wild_primary	Эльфы Талуианских Капелл увеличивают скорость передвижения на %+n%.	false
+effects_description_idrinth_veterans_primary	Ветераны-эльфы Талуианских Капелл бьют на %+n% сильнее в ближнем бою.	false
+effects_description_idrinth_strong_as_stone_primary	Анимированные отряды Талуианских Капелл сопротивляются %+n% большему урону.	false
+effects_description_idrinth_beasts_of_nature_primary	Звери Талуианских Капелл более свирепы, увеличивая атаку в ближнем бою на %+n.	false
+effects_description_idrinth_ranger_knowledge_secondary	Эльфы Талуианских Капелл увеличивают скорость перезарядки на %+n%.	false
+effects_description_idrinth_blade_dancing_secondary	Эльфы Талуианских Капелл уклоняются от вражеских клинков, увеличивая атаку в ближнем бою на %+n.	false
+effects_description_idrinth_unusual_training_secondary	Эльфы Талуианских Капелл научились носить доспехи эффективнее, увеличивая показатель брони на %+n.	false
+effects_description_idrinth_running_wild_secondary	Эльфы Талуианских Капелл несутся вперёд, увеличивая атаку на %+n.	false
+effects_description_idrinth_veterans_secondary	Ветераны-эльфы Талуианских Капелл устают на %+n% медленнее.	false
+effects_description_idrinth_strong_as_stone_secondary	Конструкты Талуианских Капелл увеличивают атаку на %+n.	false
+effects_description_idrinth_beasts_of_nature_secondary	Звери Талуианских Капелл более мотивированы, увеличивая скорость передвижения на %+n%.	false
+effects_description_idrinth_veterans_tertiary	Ветераны-эльфы Талуианских Капелл уже сталкивались со страхом и опасностью, увеличивая лидерство на %+n.	false
+effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	%+n лимит отрядов для Смешанной Эльфийской Стражи.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_guard	%+n лимит отрядов для Стражи Асуриана.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_guard	%+n лимит отрядов для Стражи Кхейна.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_guard	%+n лимит отрядов для Стражи Курноуса.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_priest	%+n лимит отрядов для Жрецов Асуриана.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_priest	%+n лимит отрядов для Жрецов Кхейна.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_priest	%+n лимит отрядов для Жрецов Курноуса.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_vampire_priest	%+n лимит отрядов для Жрецов-Вампиров Асуриана.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_vampire_priest	%+n лимит отрядов для Жрецов-Вампиров Кхейна.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_vampire_priest	%+n лимит отрядов для Жрецов-Вампиров Курноуса.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_varghulf	%+n лимит отрядов для Варгульфов Асуриана.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_varghulf	%+n лимит отрядов для Варгульфов Кхейна.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_varghulf	%+n лимит отрядов для Варгульфов Курноуса.	false
+effects_description_idrinth_unit_capacity_chapel_shrine	%+n лимит отрядов для Святилищ Асуриана, Курноуса и Кхейна.	false
+effects_description_idrinth_unit_capacity_chapel_stone_wolves	%+n лимит отрядов для Каменных Волков.	false
+effects_description_idrinth_unit_capacity_chapel_outriders	%+n лимит отрядов для Разведчиков.	false
+effects_description_idrinth_chapel_units_upkeep	На %+n% меньше содержания для всех эльфийских отрядов Талуианских Капелл.	false
+effects_description_idrinth_chapel_units_recruitment_rank	%+n ранг вербовки для всех эльфийских отрядов Талуианских Капелл.	false
+effects_description_idrinth_initiative_khaine_pray	Ваша молитва Кхейну улучшила наступательный потенциал ваших войск.	false
+effects_description_idrinth_initiative_kurnous_pray	Ваша молитва Курноусу улучшила охотничий потенциал ваших войск.	false
+effects_description_idrinth_initiative_asuryan_pray	Ваша молитва Асуриану улучшила потенциал выживания ваших войск.	false
+effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Увеличивает ваши способности в битвах против губительных сил.	false
+effects_description_idrinth_chapel_beasts_upkeep	Снижает содержание зверей Талуианской Капеллы на %+n%.	false
+effects_description_idrinth_enable_thalui_name	Этот персонаж поклялся в вечной мести губительным силам и принял имя Талуи из-за этого.	false
+effects_description_idrinth_enable_knight_scholar_name	Этот персонаж является и учёным, и рыцарем, и признан таковым разными фракциями.	false
+effects_description_idrinth_chapel_recruitment_speedup	Время вербовки отрядов капеллы сокращено на %+n ходов.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Не позволяет врагам использовать молниеносный удар против этой армии.	false
