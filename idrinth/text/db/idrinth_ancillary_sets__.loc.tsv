@@ -1,7 +1,7 @@
-"key"	"text"	"tooltip"
-"ancillary_sets_name_anc_set_exclusive_idrinth_khaine"	"Khaine's Blessing"	"false"
-"ancillary_sets_name_anc_set_exclusive_idrinth_kurnous"	"Kurnous Blessing"	"false"
-"ancillary_sets_name_anc_set_exclusive_idrinth_asuryan"	"Asuryan's Blessing"	"false"
-"ancillary_sets_description_anc_set_exclusive_idrinth_khaine"	"Khaine's blessed items forge you into a working source of death and destruction."	"false"
-"ancillary_sets_description_anc_set_exclusive_idrinth_kurnous"	"Kurnous' blessed items make you into one of the most dangerous hunters alive."	"false"
-"ancillary_sets_description_anc_set_exclusive_idrinth_asuryan"	"Asuryan's blessed items define the defender of the helpless,"	"false"
+key	text	tooltip
+ancillary_sets_name_anc_set_exclusive_idrinth_khaine	Khaine's Blessing	false
+ancillary_sets_name_anc_set_exclusive_idrinth_kurnous	Kurnous Blessing	false
+ancillary_sets_name_anc_set_exclusive_idrinth_asuryan	Asuryan's Blessing	false
+ancillary_sets_description_anc_set_exclusive_idrinth_khaine	Khaine's blessed items forge you into a working source of death and destruction.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_kurnous	Kurnous' blessed items make you into one of the most dangerous hunters alive.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_asuryan	Asuryan's blessed items define the defender of the helpless,	false
