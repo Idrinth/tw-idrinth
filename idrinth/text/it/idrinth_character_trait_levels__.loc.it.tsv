@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_trait_levels__.it.loc.tsv/idrinth_character_trait_levels__.it.loc		
+#Loc;1;text/.it/idrinth_character_trait_levels__.it.loc		
 character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	Sei un noto sterminatore di elfi per Khaine e gli altri elfi.	false
 character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	Hai combattuto molti eserciti di elfi.	false
 character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	Sterminatore di Elfi Maledetto da Khaine	false
