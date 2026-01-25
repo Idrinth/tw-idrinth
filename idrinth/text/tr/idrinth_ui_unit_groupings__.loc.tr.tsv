@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ui_unit_groupings__.tr.loc.tsv/idrinth_ui_unit_groupings__.tr.loc		
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth	Yüksek Elf Vampiri	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine	Türbe	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard	Şapel Muhafızı	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest	Şapel Rahibi	false
