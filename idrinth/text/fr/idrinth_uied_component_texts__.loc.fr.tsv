@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__fr.loc.tsv/idrinth__fr.loc		
+#Loc;1;text/idrinth_uied_component_texts__.fr.loc.tsv/idrinth_uied_component_texts__.fr.loc		
 uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b	Actuellement actif	false
 uied_component_texts_localised_string_Idrinth_StateText_5e2400a	Désactiver les notifications des Voies d'Idrinth pour ce personnage	false
 uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9	Dévotion d'Idrinth	false
