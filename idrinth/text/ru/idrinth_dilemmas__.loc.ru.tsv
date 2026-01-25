@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__ru.loc.tsv/idrinth__ru.loc		
+#Loc;1;text/idrinth_dilemmas__.ru.loc.tsv/idrinth_dilemmas__.ru.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Однажды ночью появляется незнакомец в капюшоне, предлагающий свою помощь за небольшую плату. Вы примете помощь?	false
 dilemmas_localised_title_idrinth_unlock_choice	Незнакомец	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Прибывает эльфийский посланник, ищущий некоего Идринта. Идринт, которого вы знаете, до сих пор избегал его. Может, вы могли бы помочь?	false
