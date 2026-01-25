@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__fr.loc.tsv/idrinth__fr.loc		
+#Loc;1;text/idrinth_unit_abilities__.fr.loc.tsv/idrinth_unit_abilities__.fr.loc		
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding	Serment d'Endurance	false
 unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding		false
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded	Grand Serment d'Endurance	false
