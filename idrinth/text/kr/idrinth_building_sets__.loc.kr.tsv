@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_building_sets__.kr.loc.tsv/idrinth_building_sets__.kr.loc		
+#Loc;1;text/.kr/idrinth_building_sets__.kr.loc		
 building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel	신들에게 바치는 예배당 주위에 모인 엘프 종족의 불량배, 망명자, 모험가들의 모임.	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel	엘프 공동체 예배당	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast	엘프 수의사	false
