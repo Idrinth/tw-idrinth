@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/idrinth__it.loc.tsvdb/idrinth__it.loc		
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth	High Elf Vampire	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine	Shrine	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard	Chapel Guard	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest	Chapel Priest	false
