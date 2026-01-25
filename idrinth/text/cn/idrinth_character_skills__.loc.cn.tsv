@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_skills__.cn.loc.tsv/idrinth_character_skills__.cn.loc		
+#Loc;1;text/.cn/idrinth_character_skills__.cn.loc		
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_assist_army_training	军队训练	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_agent_assassinate	暗杀	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_army_assault_units	突袭单位	false
