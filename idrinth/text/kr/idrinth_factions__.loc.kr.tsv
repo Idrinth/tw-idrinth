@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/idrinth_factions__.kr.loc.tsv/idrinth_factions__.kr.loc		
+factions_attack_desc_idrinth_hev_high_elf_vampires	탈루이안 예배당을 공격하고 있습니다!	false
+factions_defend_desc_idrinth_hev_high_elf_vampires	탈루이안 예배당으로부터 방어하고 있습니다!	false
+factions_screen_adjective_idrinth_hev_high_elf_vampires	탈루이안	false
+factions_screen_name_idrinth_hev_high_elf_vampires	탈루이안 예배당	false
+factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires	반역 탈루이안 예배당	false
