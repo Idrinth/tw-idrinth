@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.pl/idrinth_building_chains__.pl.loc		
+#Loc;1;text/idrinth_building_chains__pl.loc.tsv/idrinth_building_chains__pl.loc		
 building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel	Elficka Kaplica Wspólnotowa	false
 building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel	Kaplica dla małej społeczności elfickich wygnańców, poszukiwaczy przygód i włóczęgów.	false
 building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel	Elficka Kaplica Wspólnotowa	false
