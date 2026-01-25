@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__cn.loc.tsv/idrinth__cn.loc		
+#Loc;1;text/idrinth_effects_additional_tooltip_details__.cn.loc.tsv/idrinth_effects_additional_tooltip_details__.cn.loc		
 effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]]（协助军队）\\n增加所在军队单位的经验获取。	false
 effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]]（目标：英雄）\\n杀死目标[[img:icon_hero]][[/img]]英雄。	false
 effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]]（目标：军队）\\n对目标军队中的所有单位造成伤害。	false
