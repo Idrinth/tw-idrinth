@@ -1,0 +1,19 @@
+key	text	tooltip
+#Loc;1;text/idrinth_unit_description_short_texts__.kr.loc.tsv/idrinth_unit_description_short_texts__.kr.loc		
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_idrinth	엘프의 우아함과 뱀파이어의 힘으로 휘두르는 검, 엘프의 정확성과 뱀파이어의 힘으로 쏘는 활. 이 존재들은 대부분의 마음에 두려움을 가져다줍니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan	이 절박한 망명자, 모험가, 용병들이 아수리안의 성소를 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous	이 절박한 망명자, 모험가, 용병들이 쿠르노스의 성소를 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine	이 절박한 망명자, 모험가, 용병들이 카인의 성소를 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed	이 절박한 망명자, 모험가, 용병들이 신들에게 바친 예배당을 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader	이 전 망명자, 모험가, 용병들이 아수리안의 성소를 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader	이 전 망명자, 모험가, 용병들이 쿠르노스의 성소를 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader	이 전 망명자, 모험가, 용병들이 카인의 성소를 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine	아수리안, 쿠르노스, 카인에게 바친 이 임시 변통의 움직이는 성소는 수비수들을 보호하고 굳건히 서도록 돕습니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves	돌로 만든 이 야수들은 엘프의 예술성과 파괴적인 마법을 결합하여 탈루이안 예배당에서 사용 가능한 최고의 충격 부대 중 하나가 됩니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders	이 자랑스러운 남녀들이 도로와 측면을 확보하기 위해 나서며, 생존 가능성과 기회를 높이기 위해 물약을 사용합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire	이 전 망명자, 모험가, 용병들이 뱀파이어화에도 불구하고 아수리안의 성소를 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire	이 전 망명자, 모험가, 용병들이 뱀파이어화에도 불구하고 쿠르노스의 성소를 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire	이 전 망명자, 모험가, 용병들이 뱀파이어화에도 불구하고 카인의 성소를 보호합니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf	이 실패한 뱀파이어들은 이전에 카인의 사제였습니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf	이 실패한 뱀파이어들은 이전에 쿠르노스의 사제였습니다.	false
+unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf	이 실패한 뱀파이어들은 이전에 아수리안의 사제였습니다.	false
