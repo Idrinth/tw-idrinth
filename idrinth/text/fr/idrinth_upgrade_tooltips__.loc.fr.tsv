@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_upgrade_tooltips__.fr.loc.tsv/idrinth_upgrade_tooltips__.fr.loc		
+#Loc;1;text/.fr/idrinth_upgrade_tooltips__.fr.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Améliorer la Garde Elfique Mixte en Garde d'Asuryan pour 300 Or.	false
 upgrade_tooltips_idrinth_priest_asuryan	Essayer de transformer ce prêtre en vampire pour 1000 Or et 250 Faveur. Cela peut échouer et dans le pire des cas simplement le tuer.	false
 upgrade_tooltips_idrinth_unit_khaine	Améliorer la Garde Elfique Mixte en Garde de Khaine pour 300 Or.	false
