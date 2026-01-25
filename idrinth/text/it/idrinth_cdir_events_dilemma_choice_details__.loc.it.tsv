@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_cdir_events_dilemma_choice_details__.it.loc.tsv/idrinth_cdir_events_dilemma_choice_details__.it.loc		
+#Loc;1;text/.it/idrinth_cdir_events_dilemma_choice_details__.it.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Accetta l'aiuto. (Eroe)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Accetta l'aiuto. (Generale)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Scaccia lo straniero.	false
