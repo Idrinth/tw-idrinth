@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__de.loc.tsv/idrinth__de.loc		
+#Loc;1;text/idrinth_dilemmas__.de.loc.tsv/idrinth_dilemmas__.de.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Ein vermummter Fremder erscheint eines Nachts und bietet seine Hilfe für ein kleines Entgelt an. Nehmt Ihr die Hilfe an?	false
 dilemmas_localised_title_idrinth_unlock_choice	Der Fremde	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Ein elfischer Bote trifft ein und suchet nach einem Idrinth. Der Idrinth, den Ihr kennt, hat ihn bislang gemieden, vielleicht könntet Ihr helfen?	false
