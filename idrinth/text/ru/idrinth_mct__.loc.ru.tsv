@@ -1,0 +1,74 @@
+key	text	tooltip
+#Loc;1;text/idrinth_mct__.ru.loc.tsv/idrinth_mct__.ru.loc		
+mct_idrinth_title	Идринт Талуи — Вампир-Мастер Знаний Высших Эльфов	false
+mct_idrinth_author	Бьорн 'Идринт' Бюттнер	false
+mct_idrinth_description	История Падшего Мастера Знаний\\n\\nКогда-то уважаемый Мастер Знаний Высших Эльфов, Идринт Талуи встретил свой смертный конец во время кровавых Вампирских Войн, лишь чтобы восстать как одно из существ, с которыми он сражался. Теперь этот Рыцарь-Учёный идёт по опасному пути между своим эльфийским наследием и вампирским проклятием, ища цель в мире, раздираемом Хаосом.\\n\\nПоведёте ли вы его к искуплению или примете тьму внутри него? Его судьба в ваших руках.	false
+mct_idrinth_expanded_spawn_text	Расширенные Культуры Появления	false
+mct_idrinth_expanded_spawn_tooltip	Позволяет Идринту появляться также для Бретонии, Катая, Легионов Нагаша, Тёмных Эльфов и Побережья Вампиров.	false
+mct_idrinth_level_adjustment_text	Требование Уровня	false
+mct_idrinth_level_adjustment_options_null_text	Ранняя Игра	false
+mct_idrinth_level_adjustment_options_one_text	Поздняя Ранняя Игра	false
+mct_idrinth_level_adjustment_options_three_text	Ранняя Середина Игры	false
+mct_idrinth_level_adjustment_options_six_text	Середина Игры	false
+mct_idrinth_level_adjustment_tooltip	Изменяет требование уровня для получения квеста разблокировки Идринта.	false
+mct_idrinth_god_item_difficulty_text	Сложность Богоблагословенных Предметов	false
+mct_idrinth_god_item_difficulty_options_low_text	Низкие Требования	false
+mct_idrinth_god_item_difficulty_options_normal_text	Обычные Требования	false
+mct_idrinth_god_item_difficulty_options_high_text	Высокие Требования	false
+mct_idrinth_god_item_difficulty_tooltip	Изменяет требования для получения богоблагословенных предметов.	false
+mct_idrinth_chapel_chance_text	Шанс Появления Капеллы	false
+mct_idrinth_chapel_chance_options_low_text	Низкий Шанс	false
+mct_idrinth_chapel_chance_options_normal_text	Обычный Шанс	false
+mct_idrinth_chapel_chance_options_high_text	Высокий Шанс	false
+mct_idrinth_chapel_chance_tooltip	Изменяет шанс появления Талуианских Капелл при присутствии Идринта.	false
+mct_idrinth_story_events_text	Включить Сюжетные События	false
+mct_idrinth_story_events_tooltip	Позволяет Идринту уведомлять игрока при достижении важных для него регионов.	false
+mct_idrinth_chapels_text	Талуианские Капеллы	false
+mct_idrinth_chapels_tooltip	Позволяет Идринту основывать капеллы, укрепляющие оборону городов и влияющие на генерацию божественной благосклонности.	false
+mct_idrinth_dilemma_cooldown_text	Перезарядка Дилемм	false
+mct_idrinth_dilemma_cooldown_options_low_text	Низкая (1 + [1-2])	false
+mct_idrinth_dilemma_cooldown_options_medium_text	Средняя (2 + [1-3])	false
+mct_idrinth_dilemma_cooldown_options_long_text	Долгая (3 + [1-4])	false
+mct_idrinth_dilemma_cooldown_tooltip	Изменяет перезарядку между дилеммами, требующими решений.	false
+mct_idrinth_names_text	Переименование Юнитов	false
+mct_idrinth_names_tooltip	При включении юниты получают пользовательское имя при найме из списка эльфийских имён.	false
+mct_idrinth_logging_text	Включить Собственное Логирование	false
+mct_idrinth_logging_tooltip	При включении этот мод пишет логи в корневую директорию игры в idrinth.*.log.	false
+mct_idrinth_base_logging_text	Включить Использование Базового Логирования Игры	false
+mct_idrinth_base_logging_tooltip	При включении этот мод пишет логи через функцию логирования базовой игры.	false
+mct_idrinth_section_idrinth_story_features_name	Переключатели Сюжетных Функций	false
+mct_idrinth_section_idrinth_game_features_name	Переключатели Игровых Функций	false
+mct_idrinth_section_idrinth_chances_name	Шансы	false
+mct_idrinth_section_idrinth_spawn_name	Опции Появления	false
+mct_idrinth_section_idrinth_other_name	Дополнительные Опции	false
+mct_idrinth_section_idrinth_cooldowns_name	Опции Перезарядки	false
+mct_idrinth_intervention_cooldown_text	Перезарядка Вмешательства	false
+mct_idrinth_intervention_cooldown_options_low_text	Низкая (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Средняя (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	Долгая (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	Изменяет перезарядку между божественными вмешательствами.	false
+mct_idrinth_animal_waaagh_text	Звериный ВАААГХ	false
+mct_idrinth_animal_waaagh_tooltip	При включении за Идринтом следует армия ВАААГХ из животных. Отключение не удаляет армию.	false
+mct_idrinth_vampire_chance_text	Шанс Обращения в Вампира	false
+mct_idrinth_vampire_chance_options_low_text	Низкий (10% базового успеха)	false
+mct_idrinth_vampire_chance_options_normal_text	Обычный (15% базового успеха)	false
+mct_idrinth_vampire_chance_options_high_text	Высокий (20% базового успеха)	false
+mct_idrinth_vampire_chance_tooltip	Изменяет шанс выживания жрецов при обращении в вампиров.	false
+mct_idrinth_story_dilemma_base_chance_text	Базовый Шанс Сюжетных Дилемм	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Низкий	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Обычный	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Высокий	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Изменяет шанс срабатывания дилемм сюжетных решений.	false
+mct_idrinth_god_item_base_chance_text	Базовый Шанс Божественных Предметов	false
+mct_idrinth_god_item_base_chance_options_low_text	Низкий	false
+mct_idrinth_god_item_base_chance_options_normal_text	Обычный	false
+mct_idrinth_god_item_base_chance_options_high_text	Высокий	false
+mct_idrinth_god_item_base_chance_tooltip	Изменяет шанс предложения божественных предметов.	false
+mct_idrinth_elf_slayer_traits_text	Черты Убийцы Эльфов	false
+mct_idrinth_elf_slayer_traits_tooltip	Включает черты за убийство эльфов. Отключение не удаляет существующие уровни черт.	false
+mct_idrinth_devotion_traits_text	Черты Преданности	false
+mct_idrinth_devotion_traits_tooltip	Включает черты за время, посвящённое определённому богу. Отключение не удаляет существующие уровни черт.	false
+mct_idrinth_interventions_text	Включить Божественное Вмешательство	false
+mct_idrinth_interventions_tooltip	Если включено, Асуриан, Курнос и Кхейн будут вмешиваться, когда ваша благосклонность высока, используя часть её для бонусов всей фракции.	false
+mct_idrinth_groovy_logging_text	Включить Использование Логирования Groovy	false
+mct_idrinth_groovy_logging_tooltip	При включении этот мод пишет логи через систему логирования, предоставленную MCT.	false
