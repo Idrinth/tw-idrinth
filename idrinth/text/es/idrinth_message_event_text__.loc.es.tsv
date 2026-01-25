@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__es.loc.tsvdb/idrinth__es.loc		
+#Loc;1;text/idrinth__es.loc.tsv/idrinth__es.loc		
 message_event_text_idrinth_chapel_lost	La Capilla ha sido incendiada por el nuevo dueño del asentamiento. ¿Dónde nos reuniremos ahora?	false
 message_event_text_idrinth_chapel_founded	El lugar para una nueva Capilla ha sido consagrado por los dioses. Deberíamos construirla rápidamente para obtener sus bendiciones.	false
 message_event_text_idrinth_godly_intervention	Idrinth te informa que sus dioses han decidido actuar para apoyar tu causa. Tus ejércitos serán más poderosos gracias a una bendición divina durante un tiempo.	false
