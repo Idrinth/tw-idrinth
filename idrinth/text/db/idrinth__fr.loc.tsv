@@ -1,4 +1,3 @@
 key	text	tooltip
 #Loc;1;text/db/idrinth__fr.loc	
-campaign_localised_strings_string_idrinth_godly_blessings_explanation	Choisissez à quel dieu dédier Idrinth, afin de gagner leur attention.	false
-campaign_localised_strings_string_idrinth_godly_favour_explanation	Priez les dieux pour obtenir leurs faveurs pour vos alliés.	false
+campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui	Recrutez l'estranger.	false
