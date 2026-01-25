@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ancillaries__fr.loc.tsv/idrinth_ancillaries__fr.loc		
+ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	Un talisman béni par Khaine, le Dieu aux Mains Sanglantes. Peu ont gagné assez de faveur pour manier un tel outil en son nom. Le sang séché palpite d'un pouvoir antique, murmurant promesses de violence à son porteur.	false
+ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Expérience de combat éprouvée.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Talisman du Sang Séché	false
+ancillaries_colour_text_idrinth_anc_talisman_talisman_of_souls	Un talisman béni par Asuryan pour garder vive la sapience des générations passées. Dans le silence, l'on peut ouïr les murmures d'antiques sages elfiques offrant sagesse d'au-delà du voile.	false
+ancillaries_explanation_text_idrinth_anc_talisman_talisman_of_souls	Expérience de combat éprouvée.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_talisman_of_souls	Talisman des Âmes	false
+ancillaries_colour_text_idrinth_anc_talisman_forest_berry_wine	Un talisman d'un genre particulier béni par Kurnous, donnant à son possesseur le meilleur vin de baies de tout le monde. Une gorgée relie le buveur à la nature sauvage, aiguisant les sens et vifvant les réflexes comme si la forêt elle-même guidait chaque mouvement.	false
+ancillaries_explanation_text_idrinth_anc_talisman_forest_berry_wine	Expérience de combat éprouvée.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_forest_berry_wine	Vin de Baies Forestières	false
+ancillaries_colour_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Une arme bénie par Kurnous pour faire de son porteur l'un des plus éminents chasseurs que le monde connaisse. Ceux marqués par ses flèches ressentent une peur primordiale, comme traqués par la nature elle-même plutôt que par un simple archer.	false
+ancillaries_explanation_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Expérience de combat éprouvée.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Arc de Chasse Béni	false
+ancillaries_colour_text_idrinth_anc_armour_khaines_visage	Ce heaume révèle un masque qui est mélange de terreur, de soif de sang et de pur désir de violence. Le visage transforme son porteur, éveillant une rage primordiale que les ennemis peuvent sentir de loin.	false
+ancillaries_explanation_text_idrinth_anc_armour_khaines_visage	Expérience de combat éprouvée.	false
+ancillaries_onscreen_name_idrinth_anc_armour_khaines_visage	Visage de Khaine	false
+ancillaries_colour_text_idrinth_anc_weapon_khaines_thirsting_sword	Une épée assoiffée de sang autant que son maître. À chaque coup, elle en réclame davantage, croissant en puissance avec chaque vie qu'elle prend. Le fil de la lame ne s'émousse jamais quand mouiller de sang frais.	false
+ancillaries_explanation_text_idrinth_anc_weapon_khaines_thirsting_sword	Expérience de combat éprouvée.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_khaines_thirsting_sword	Épée Assoiffée de Khaine	false
+ancillaries_colour_text_idrinth_anc_weapon_asuryans_perfection_sword	Une épée aussi parfaite que son porteur s'efforce de l'être. Forgée en la flamme éternelle d'Asuryan lui-même, cette épée de style haut elfique apporte harmonie au combat, permettant à son maître de combattre avec précision et endurance sans pareilles.	false
+ancillaries_explanation_text_idrinth_anc_weapon_asuryans_perfection_sword	Expérience de combat éprouvée.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_asuryans_perfection_sword	Épée de Perfection d'Asuryan	false
+ancillaries_colour_text_idrinth_anc_armour_kurnous_forest_cloak	Une armure de conception de Kurnous, légère et à peine perceptible. Cette cape vert sombre porte l'essence de la forêt profonde, celant son porteur aux yeux ennemis tout en aiguisant la conscience de ce qui l'entoure.	false
+ancillaries_explanation_text_idrinth_anc_armour_kurnous_forest_cloak	Expérience de combat éprouvée.	false
+ancillaries_onscreen_name_idrinth_anc_armour_kurnous_forest_cloak	Cape Forestière de Kurnous	false
+ancillaries_colour_text_idrinth_anc_armour_asuryans_destiny	Cette armure protège son porteur tant qu'il sert la gent elfique, prolongeant sa vie bien au-delà de toute espérance. Les enchantements tissés en chaque plaque rejettent la corruption de la non-mort, permettant au porteur de marcher en les deux mondes.	false
+ancillaries_explanation_text_idrinth_anc_armour_asuryans_destiny	Expérience de combat éprouvée.	false
+ancillaries_onscreen_name_idrinth_anc_armour_asuryans_destiny	Armure du Destin d'Asuryan	false
