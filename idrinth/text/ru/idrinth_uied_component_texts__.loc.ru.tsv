@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__ru.loc.tsv/idrinth__ru.loc		
+#Loc;1;text/idrinth_uied_component_texts__.ru.loc.tsv/idrinth_uied_component_texts__.ru.loc		
 uied_component_texts_localised_string_Idrinth_StateText_fc1bd77b	Сейчас активно	false
 uied_component_texts_localised_string_Idrinth_StateText_5e2400a	Отключить уведомления о Путях Идринта для этого персонажа	false
 uied_component_texts_localised_string_Idrinth_StateText_5fa40ba9	Преданность Идринта	false
