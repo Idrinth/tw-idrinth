@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_unit_abilities__.tr.loc.tsv/idrinth_unit_abilities__.tr.loc		
+#Loc;1;text/.tr/idrinth_unit_abilities__.tr.loc		
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding	Dayanma Yemini	false
 unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding		false
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded	Büyük Dayanma Yemini	false
