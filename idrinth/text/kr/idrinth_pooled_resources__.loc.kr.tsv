@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_pooled_resources__.kr.loc.tsv/idrinth_pooled_resources__.kr.loc		
+#Loc;1;text/.kr/idrinth_pooled_resources__.kr.loc		
 pooled_resources_description_idrinth_khaine	카인과의 관계	false
 pooled_resources_display_name_idrinth_khaine	카인 은총	false
 pooled_resources_negative_factors_display_name_idrinth_khaine	상실	false
