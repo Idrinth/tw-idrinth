@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/idrinth_factions__.cn.loc.tsv/idrinth_factions__.cn.loc		
+factions_attack_desc_idrinth_hev_high_elf_vampires	你正在攻击塔卢伊礼拜堂！	false
+factions_defend_desc_idrinth_hev_high_elf_vampires	你正在防御塔卢伊礼拜堂的进攻！	false
+factions_screen_adjective_idrinth_hev_high_elf_vampires	塔卢伊	false
+factions_screen_name_idrinth_hev_high_elf_vampires	塔卢伊礼拜堂	false
+factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires	叛乱的塔卢伊礼拜堂	false
