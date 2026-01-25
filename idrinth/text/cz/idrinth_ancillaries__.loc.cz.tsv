@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__cz.loc.tsv/idrinth__cz.loc		
+#Loc;1;text/idrinth_ancillaries__.cz.loc.tsv/idrinth_ancillaries__.cz.loc		
 ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	Talisman požehnaný Khainem, Krvavým bohem. Jen málokdo získal dost přízně, aby mohl ovládat takový nástroj v jeho jménu. Zaschlá krev pulzuje prastarou mocí, šeptajíc svému nositeli sliby násilí.	false
 ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Prokázaná bojová zkušenost.	false
 ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Talisman zaschlé krve	false
