@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_effects__.ru.loc.tsv/idrinth_effects__.ru.loc		
+#Loc;1;text/.ru/idrinth_effects__.ru.loc		
 effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] действие: Получение опыта отрядами увеличивается дополнительно на %+n%	false
 effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] действие: Дополнительно %+n% нанесённых потерь	false
 effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] действие: Дополнительно %+n% шанс успеха	false
