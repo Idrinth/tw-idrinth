@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ancillaries__de.loc.tsv/idrinth_ancillaries__de.loc		
+ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	Ein Talisman, gesegnet von Khaine, dem Bluthändigen Gott. Nur wenige erlangten genug Gunst, um ein solch Werkzeug in seinem Namen zu führen. Das getrocknete Blut pulsiert mit uralter Macht und flüstert seinem Träger Versprechungen von Gewalt zu.	false
+ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Bewiesene Kampferfahrung.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Talisman des Getrockneten Blutes	false
+ancillaries_colour_text_idrinth_anc_talisman_talisman_of_souls	Ein Talisman, gesegnet von Asuryan, auf dass das Wissen vergangener Generationen lebendig bleibe. In der Stille vermagst du das Flüstern uralter elfischer Weiser zu vernehmen, so Weisheit aus dem Jenseits darbieten.	false
+ancillaries_explanation_text_idrinth_anc_talisman_talisman_of_souls	Bewiesene Kampferfahrung.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_talisman_of_souls	Talisman der Seelen	false
+ancillaries_colour_text_idrinth_anc_talisman_forest_berry_wine	Ein Talisman sonderlicher Art, gesegnet von Kurnous, der seinem Eigner den köstlichsten Beerenwein der ganzen Welt beschert. Ein Schluck verbindet den Trinkenden mit der Wildnis, schärft die Sinne und beschleunigt die Reflexe, als führe der Wald selbst jede Bewegung.	false
+ancillaries_explanation_text_idrinth_anc_talisman_forest_berry_wine	Bewiesene Kampferfahrung.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_forest_berry_wine	Waldbeerenwein	false
+ancillaries_colour_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Eine Waffe, gesegnet von Kurnous, die ihren Träger zu einem der vortrefflichsten Jäger macht, so die Welt je sah. Jene, die von seinen Pfeilen gezeichnet werden, verspüren urtümliche Furcht, als würden sie von der Natur selbst gejagt, nicht bloß von einem Bogenschützen.	false
+ancillaries_explanation_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Bewiesene Kampferfahrung.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Gesegneter Jagdbogen	false
+ancillaries_colour_text_idrinth_anc_armour_khaines_visage	Dieser Helm offenbart ein Antlitz, so eine Mischung aus Schrecken, Blutdurst und reiner Gier nach Gewalt ist. Das Antlitz verwandelt seinen Träger und erweckt eine urtümliche Wut, die Feinde schon aus der Ferne spüren.	false
+ancillaries_explanation_text_idrinth_anc_armour_khaines_visage	Bewiesene Kampferfahrung.	false
+ancillaries_onscreen_name_idrinth_anc_armour_khaines_visage	Khaines Antlitz	false
+ancillaries_colour_text_idrinth_anc_weapon_khaines_thirsting_sword	Ein Schwert, das ebenso nach Blut dürstet wie sein Meister. Mit jedem Hieb hungert es nach mehr und wird stärker mit jedem Leben, das es fordert. Die Klinge stumpft nimmer, solange sie mit frischem Blut benetzt ist.	false
+ancillaries_explanation_text_idrinth_anc_weapon_khaines_thirsting_sword	Bewiesene Kampferfahrung.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_khaines_thirsting_sword	Khaines Durstendes Schwert	false
+ancillaries_colour_text_idrinth_anc_weapon_asuryans_perfection_sword	Ein Schwert, so vollkommen wie sein Träger zu sein trachtet. Geschmiedet in der ewigen Flamme Asuryans selbst, bringt dieses hochelfische Schwert Harmonie in den Kampf und erlaubt seinem Meister, mit unvergleichlicher Präzision und Ausdauer zu fechten.	false
+ancillaries_explanation_text_idrinth_anc_weapon_asuryans_perfection_sword	Bewiesene Kampferfahrung.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_asuryans_perfection_sword	Asuryans Schwert der Vollkommenheit	false
+ancillaries_colour_text_idrinth_anc_armour_kurnous_forest_cloak	Eine Rüstung nach Kurnous' Entwurf, leicht und kaum wahrnehmbar. Dieser dunkelgrüne Umhang trägt die Essenz des tiefen Waldes in sich, verbirgt seinen Träger vor feindlichen Augen und schärft zugleich das Gewahrsein seiner Umgebung.	false
+ancillaries_explanation_text_idrinth_anc_armour_kurnous_forest_cloak	Bewiesene Kampferfahrung.	false
+ancillaries_onscreen_name_idrinth_anc_armour_kurnous_forest_cloak	Kurnous' Waldumhang	false
+ancillaries_colour_text_idrinth_anc_armour_asuryans_destiny	Diese Rüstung beschützt ihren Träger, solang er dem Elfenvolk dient, und verlängert sein Leben weit über jede Erwartung hinaus. Die in jede Platte eingewobenen Verzauberungen weisen die Verderbnis der Untoten zurück und erlauben dem Träger, in beiden Welten zu wandeln.	false
+ancillaries_explanation_text_idrinth_anc_armour_asuryans_destiny	Bewiesene Kampferfahrung.	false
+ancillaries_onscreen_name_idrinth_anc_armour_asuryans_destiny	Asuryans Schicksalsrüstung	false
