@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__fr.loc.tsvdb/idrinth__fr.loc		
+#Loc;1;text/idrinth__fr.loc.tsv/idrinth__fr.loc		
 effects_description_idrinth_effect_agent_action_assist_army_training	Action [[col:yellow]]{{tr:agent_action_name_training}}[[/col]] : Le gain d'expérience des unités est augmenté de %+n% supplémentaire	false
 effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	Action [[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] : %+n% de pertes supplémentaires infligées	false
 effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	Action [[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] : %+n% de chances de succès supplémentaires	false
