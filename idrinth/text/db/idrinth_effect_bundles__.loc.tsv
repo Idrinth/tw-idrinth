@@ -1,139 +1,138 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_effect_bundles__.loc		
-effect_bundles_localised_description_idrinth_dilemma_empire_FIRST	The scolar was very interested in old wars. The discussion with Idrinth guided her to discover tactics that are also useful now.	false
-effect_bundles_localised_description_idrinth_dilemma_empire_SECOND	The scolar and Idrinth discussed magic, finding some small improvements for your mages to implement.	false
-effect_bundles_localised_description_idrinth_dilemma_empire_THIRD	You asked the scolar about Idrinth, learning about his long war against chaos.	false
-effect_bundles_localised_description_idrinth_dilemma_high_elves_FIRST	You chased the messenger away, making Idrinth's life easier.	false
-effect_bundles_localised_description_idrinth_dilemma_high_elves_SECOND	You confronted Idrinth about his past, leaving him in a darker mood.	false
-effect_bundles_localised_description_idrinth_dilemma_high_elves_THIRD	Idrinth met the messenger from his old people, learning about his families current goals. He seems of lighter mood now.	false
-effect_bundles_localised_description_idrinth_dilemma_kislev_FIRST	You handed the intruder to Idrinth for questioning.	false
-effect_bundles_localised_description_idrinth_dilemma_kislev_SECOND	You killed the intruder, angering the motherland, but preventing worse.	false
-effect_bundles_localised_description_idrinth_dilemma_kislev_THIRD	The intruder joined you, making Idrinth deeply unconftable.	false
-effect_bundles_localised_description_idrinth_dilemma_vampire_counts_FIRST	You accused Idrinth of murdering and draining the servant. He is trying to prove himself to be innocent.	false
-effect_bundles_localised_description_idrinth_dilemma_vampire_counts_SECOND	You asked Idrinth about the scroll, learning about some ancient magic theories.	false
-effect_bundles_localised_description_idrinth_dilemma_vampire_counts_THIRD	You decided on hunting for a murderer elsewhere and your troops are now on higher alert.	false
-effect_bundles_localised_description_idrinth_dilemma_wood_elves_FIRST	Idrinth and the ranger met and came to blows over what he did to her village.	false
-effect_bundles_localised_description_idrinth_dilemma_wood_elves_SECOND	You hid Idrinth from the ranger until she left. While he is grateful, it darkend his mood.	false
-effect_bundles_localised_description_idrinth_dilemma_wood_elves_THIRD	You confronted Idrinth about the ranger, making him think about his past and presence.	false
-effect_bundles_localised_description_idrinth_dilemma_dwarves_FIRST	You asked the dwarves about the elf, leading you to suspect Idrinth more. He in turn is less comftable around you, who tried to dig in his past.	false
-effect_bundles_localised_description_idrinth_dilemma_dwarves_SECOND	You exchanged Information about the Vampire Wars, having first hand information shared to you.	false
-effect_bundles_localised_description_idrinth_dilemma_dwarves_THIRD	You presented Idrinth to the dwarves. It did not go quite the way you intended, with them trying to attack the monster he had become.	false
-effect_bundles_localised_title_idrinth_dilemma_empire_FIRST	Discussed past wars	false
-effect_bundles_localised_title_idrinth_dilemma_empire_SECOND	Discussed Magic	false
-effect_bundles_localised_title_idrinth_dilemma_empire_THIRD	Asked her about Idrinth	false
-effect_bundles_localised_title_idrinth_dilemma_high_elves_FIRST	Messenger chased away	false
-effect_bundles_localised_title_idrinth_dilemma_high_elves_SECOND	Idrinth confronted	false
-effect_bundles_localised_title_idrinth_dilemma_high_elves_THIRD	Messenger met	false
-effect_bundles_localised_title_idrinth_dilemma_kislev_FIRST	Handed the Intruder to Idrinth	false
-effect_bundles_localised_title_idrinth_dilemma_kislev_SECOND	Killed the Intruder	false
-effect_bundles_localised_title_idrinth_dilemma_kislev_THIRD	Let the Intruder join you	false
-effect_bundles_localised_title_idrinth_dilemma_vampire_counts_FIRST	Accused Idrinth	false
-effect_bundles_localised_title_idrinth_dilemma_vampire_counts_SECOND	Asked about the scroll	false
-effect_bundles_localised_title_idrinth_dilemma_vampire_counts_THIRD	Hunted for murderer elsewhere	false
-effect_bundles_localised_title_idrinth_dilemma_wood_elves_FIRST	Ranger met	false
-effect_bundles_localised_title_idrinth_dilemma_wood_elves_SECOND	Idrinth hidden	false
-effect_bundles_localised_title_idrinth_dilemma_wood_elves_THIRD	Idrinth confronted	false
-effect_bundles_localised_title_idrinth_dilemma_dwarves_FIRST	Asked dwarves about the elf	false
-effect_bundles_localised_title_idrinth_dilemma_dwarves_SECOND	Approached Idrinth about the Vampire Wars	false
-effect_bundles_localised_title_idrinth_dilemma_dwarves_THIRD	Presented Idrinth to the Dwarves	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_large	Asuryan's Grand Protection	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_large	Kurnous' Divine Guidance	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_large	Khaine's Blood Tide	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_medium	Asuryan's Protection	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_medium	Kurnous' Guidance	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_medium	Khaine's Blood Offering	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_small	Asuryan's Minor Protection	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_small	Kurnous' Subtle Guidance	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_small	Khaine's Blood Droplet	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_large	Your warriors not only excell at evading blows and barely getting missed by attacks, their wounds also heal significantly faster than usual.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_large	As natural hunters, your warriors move fast and unseen while hunting for food and foe.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_large	Your troops and new volunteers experience the rush of battle, making them more dangerous to their foes.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_medium	Your warriors suddenly excell at evading blows and barely getting missed by attacks.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_medium	Your warriors are naturally stealthy while hunting food and foe.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_medium	Your warriors feel a hunger for combat in them, making both veterans and new recruits more dangerous to their foes.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_small	Your warriors experience some luck evading blows and magic, even if it is not enough to rely on.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_small	A small amount guidance and luck during hunts benefits your troops.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_small	A minor drop of blood from Khaine's fist leads to more volunteers for joining your troops.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_large_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_large_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_large_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_medium_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_medium_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_medium_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_small_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_small_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_small_cost		false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_large_cost	Cost: Asuryan's Grand Protection	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_large_cost	Cost: Kurnous' Divine Guidance	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_large_cost	Cost: Khaine's Blood Tide	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_medium_cost	Cost: Asuryan's Protection	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_medium_cost	Cost: Kurnous' Guidance	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_medium_cost	Cost: Khaine's Blood Offering	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_small_cost	Cost: Asuryan's Minor Protection	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_small_cost	Cost: Kurnous' Subtle Guidance	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_small_cost	Cost: Khaine's Blood Droplet	false
-effect_bundles_localised_description_idrinth_vampiric_priests	Idrinth has turned his priests into vampires. May their sacrifice safe us.	false
-effect_bundles_localised_title_idrinth_vampiric_priests	Vampiric Priests	false
-effect_bundles_localised_title_idrinth_successful_action_army	Motivated Agent	false
-effect_bundles_localised_title_idrinth_successful_action_army_critical	Motivated Agent	false
-effect_bundles_localised_title_idrinth_successful_action_character	Motivated Agent	false
-effect_bundles_localised_title_idrinth_successful_action_character_critical	Motivated Agent	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_ambush	Stance: Masterful Ambush	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_channelling	Stance: Channeling	false
-effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_default	Stance: None	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_raiding	Stance: Raiding	false
-effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_forced_march	Stance: March	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_settlement	Stance: Encamp	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_tunnelling	Stance: Use Worldroots	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_navy_blockading	Stance: Raid the Seas	false
-effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_garrisoned	Situation: Garrisoned	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_siege	Situation: Sieging	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_patrol	Stance: Patrol	false
-effect_bundles_localised_title_idrinth_asuryan_god_favour_cave_bats	Asuryan Blessing	false
-effect_bundles_localised_description_idrinth_asuryan_god_favour_cave_bats	Asuryan blesses the cave bats to survive longer.	false
-effect_bundles_localised_title_idrinth_kurnous_god_favour_cave_bats	Kurnous Blessing	false
-effect_bundles_localised_description_idrinth_kurnous_god_favour_cave_bats	Kurnous blesses the cave bats to hunt better.	false
-effect_bundles_localised_title_idrinth_khaine_god_favour_cave_bats	Khaine Blessing	false
-effect_bundles_localised_description_idrinth_khaine_god_favour_cave_bats	Khaine blesses the cave bats to slaughter their enemies.	false
-effect_bundles_localised_title_idrinth_asuryan_god_favour_wolves	Asuryan Blessing	false
-effect_bundles_localised_description_idrinth_asuryan_god_favour_wolves	Asuryan blesses the wolves to survive longer.	false
-effect_bundles_localised_title_idrinth_kurnous_god_favour_wolves	Kurnous Blessing	false
-effect_bundles_localised_description_idrinth_kurnous_god_favour_wolves	Kurnous blesses the wolves to hunt better.	false
-effect_bundles_localised_title_idrinth_khaine_god_favour_wolves	Khaine Blessing	false
-effect_bundles_localised_description_idrinth_khaine_god_favour_wolves	Khaine blesses the wolves to slaughter their enemies.	false
-effect_bundles_localised_title_idrinth_asuryan_god_favour_hawks	Asuryan Blessing	false
-effect_bundles_localised_description_idrinth_asuryan_god_favour_hawks	Asuryan blesses the hawks to survive longer.	false
-effect_bundles_localised_title_idrinth_kurnous_god_favour_hawks	Kurnous Blessing	false
-effect_bundles_localised_description_idrinth_kurnous_god_favour_hawks	Kurnous blesses the hawks to hunt better.	false
-effect_bundles_localised_title_idrinth_khaine_god_favour_hawks	Khaine Blessing	false
-effect_bundles_localised_description_idrinth_khaine_god_favour_hawks	Khaine blesses the hawks to slaughter their enemies.	false
-effect_bundles_localised_title_idrinth_asuryan_god_favour_great_eagles	Asuryan Blessing	false
-effect_bundles_localised_description_idrinth_asuryan_god_favour_great_eagles	Asuryan blesses the great eagle to survive longer.	false
-effect_bundles_localised_title_idrinth_kurnous_god_favour_great_eagles	Kurnous Blessing	false
-effect_bundles_localised_description_idrinth_kurnous_god_favour_great_eagles	Kurnous blesses the great eagle to hunt better.	false
-effect_bundles_localised_title_idrinth_khaine_god_favour_great_eagles	Khaine Blessing	false
-effect_bundles_localised_description_idrinth_khaine_god_favour_great_eagles	Khaine blesses the great eagle to slaughter their enemies.	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_anti_chaos	Thaluian Blessing	false
-effect_bundles_localised_description_idrinth_hev_high_elf_vampires_anti_chaos	Your gods empower Thaluian Chapel forces against all followers of the ruinous powers.	false
-effect_bundles_localised_title_idrinth_chapel_slots_present	Thaluian Chapel Space	false
-effect_bundles_localised_description_idrinth_chapel_slots_present	This settlement contains an area that has been sanctified by Asuryan, Khaine and Kurnous and could house a Thaluian Chapel Complex.	false
-effect_bundles_localised_title_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
-effect_bundles_localised_description_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
-effect_bundles_localised_title_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
-effect_bundles_localised_description_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
-effect_bundles_localised_title_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
-effect_bundles_localised_description_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
-effect_bundles_localised_title_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
-effect_bundles_localised_description_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
-effect_bundles_localised_title_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
-effect_bundles_localised_description_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
-effect_bundles_localised_title_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
-effect_bundles_localised_description_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
-effect_bundles_localised_title_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
-effect_bundles_localised_description_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
-effect_bundles_localised_title_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
-effect_bundles_localised_description_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
-effect_bundles_localised_title_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
-effect_bundles_localised_description_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
-effect_bundles_localised_title_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
-effect_bundles_localised_description_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
+"key"	"text"	"tooltip"
+"effect_bundles_localised_description_idrinth_dilemma_empire_FIRST"	"The scolar was very interested in old wars. The discussion with Idrinth guided her to discover tactics that are also useful now."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_empire_SECOND"	"The scolar and Idrinth discussed magic, finding some small improvements for your mages to implement."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_empire_THIRD"	"You asked the scolar about Idrinth, learning about his long war against chaos."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_high_elves_FIRST"	"You chased the messenger away, making Idrinth's life easier."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_high_elves_SECOND"	"You confronted Idrinth about his past, leaving him in a darker mood."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_high_elves_THIRD"	"Idrinth met the messenger from his old people, learning about his families current goals. He seems of lighter mood now."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_kislev_FIRST"	"You handed the intruder to Idrinth for questioning."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_kislev_SECOND"	"You killed the intruder, angering the motherland, but preventing worse."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_kislev_THIRD"	"The intruder joined you, making Idrinth deeply unconftable."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_vampire_counts_FIRST"	"You accused Idrinth of murdering and draining the servant. He is trying to prove himself to be innocent."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_vampire_counts_SECOND"	"You asked Idrinth about the scroll, learning about some ancient magic theories."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_vampire_counts_THIRD"	"You decided on hunting for a murderer elsewhere and your troops are now on higher alert."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_wood_elves_FIRST"	"Idrinth and the ranger met and came to blows over what he did to her village."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_wood_elves_SECOND"	"You hid Idrinth from the ranger until she left. While he is grateful, it darkend his mood."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_wood_elves_THIRD"	"You confronted Idrinth about the ranger, making him think about his past and presence."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_dwarves_FIRST"	"You asked the dwarves about the elf, leading you to suspect Idrinth more. He in turn is less comftable around you, who tried to dig in his past."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_dwarves_SECOND"	"You exchanged Information about the Vampire Wars, having first hand information shared to you."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_dwarves_THIRD"	"You presented Idrinth to the dwarves. It did not go quite the way you intended, with them trying to attack the monster he had become."	"false"
+"effect_bundles_localised_title_idrinth_dilemma_empire_FIRST"	"Discussed past wars"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_empire_SECOND"	"Discussed Magic"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_empire_THIRD"	"Asked her about Idrinth"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_high_elves_FIRST"	"Messenger chased away"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_high_elves_SECOND"	"Idrinth confronted"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_high_elves_THIRD"	"Messenger met"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_kislev_FIRST"	"Handed the Intruder to Idrinth"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_kislev_SECOND"	"Killed the Intruder"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_kislev_THIRD"	"Let the Intruder join you"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_vampire_counts_FIRST"	"Accused Idrinth"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_vampire_counts_SECOND"	"Asked about the scroll"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_vampire_counts_THIRD"	"Hunted for murderer elsewhere"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_wood_elves_FIRST"	"Ranger met"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_wood_elves_SECOND"	"Idrinth hidden"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_wood_elves_THIRD"	"Idrinth confronted"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_dwarves_FIRST"	"Asked dwarves about the elf"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_dwarves_SECOND"	"Approached Idrinth about the Vampire Wars"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_dwarves_THIRD"	"Presented Idrinth to the Dwarves"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_large"	"Asuryan's Grand Protection"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_large"	"Kurnous' Divine Guidance"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_large"	"Khaine's Blood Tide"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_medium"	"Asuryan's Protection"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_medium"	"Kurnous' Guidance"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_medium"	"Khaine's Blood Offering"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_small"	"Asuryan's Minor Protection"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_small"	"Kurnous' Subtle Guidance"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_small"	"Khaine's Blood Droplet"	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_large"	"Your warriors not only excell at evading blows and barely getting missed by attacks, their wounds also heal significantly faster than usual."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_large"	"As natural hunters, your warriors move fast and unseen while hunting for food and foe."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_large"	"Your troops and new volunteers experience the rush of battle, making them more dangerous to their foes."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_medium"	"Your warriors suddenly excell at evading blows and barely getting missed by attacks."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_medium"	"Your warriors are naturally stealthy while hunting food and foe."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_medium"	"Your warriors feel a hunger for combat in them, making both veterans and new recruits more dangerous to their foes."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_small"	"Your warriors experience some luck evading blows and magic, even if it is not enough to rely on."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_small"	"A small amount guidance and luck during hunts benefits your troops."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_small"	"A minor drop of blood from Khaine's fist leads to more volunteers for joining your troops."	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_large_cost"	""	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_large_cost"	""	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_large_cost"	""	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_medium_cost"	""	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_medium_cost"	""	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_medium_cost"	""	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_small_cost"	""	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_small_cost"	""	"false"
+"effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_small_cost"	""	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_large_cost"	"Cost: Asuryan's Grand Protection"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_large_cost"	"Cost: Kurnous' Divine Guidance"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_large_cost"	"Cost: Khaine's Blood Tide"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_medium_cost"	"Cost: Asuryan's Protection"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_medium_cost"	"Cost: Kurnous' Guidance"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_medium_cost"	"Cost: Khaine's Blood Offering"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_small_cost"	"Cost: Asuryan's Minor Protection"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_small_cost"	"Cost: Kurnous' Subtle Guidance"	"false"
+"effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_small_cost"	"Cost: Khaine's Blood Droplet"	"false"
+"effect_bundles_localised_description_idrinth_vampiric_priests"	"Idrinth has turned his priests into vampires. May their sacrifice safe us."	"false"
+"effect_bundles_localised_title_idrinth_vampiric_priests"	"Vampiric Priests"	"false"
+"effect_bundles_localised_title_idrinth_successful_action_army"	"Motivated Agent"	"false"
+"effect_bundles_localised_title_idrinth_successful_action_army_critical"	"Motivated Agent"	"false"
+"effect_bundles_localised_title_idrinth_successful_action_character"	"Motivated Agent"	"false"
+"effect_bundles_localised_title_idrinth_successful_action_character_critical"	"Motivated Agent"	"false"
+"effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_ambush"	"Stance: Masterful Ambush"	"false"
+"effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_channelling"	"Stance: Channeling"	"false"
+"effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_default"	"Stance: None"	"false"
+"effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_raiding"	"Stance: Raiding"	"false"
+"effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_forced_march"	"Stance: March"	"false"
+"effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_settlement"	"Stance: Encamp"	"false"
+"effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_tunnelling"	"Stance: Use Worldroots"	"false"
+"effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_navy_blockading"	"Stance: Raid the Seas"	"false"
+"effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_garrisoned"	"Situation: Garrisoned"	"false"
+"effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_siege"	"Situation: Sieging"	"false"
+"effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_patrol"	"Stance: Patrol"	"false"
+"effect_bundles_localised_title_idrinth_asuryan_god_favour_cave_bats"	"Asuryan Blessing"	"false"
+"effect_bundles_localised_description_idrinth_asuryan_god_favour_cave_bats"	"Asuryan blesses the cave bats to survive longer."	"false"
+"effect_bundles_localised_title_idrinth_kurnous_god_favour_cave_bats"	"Kurnous Blessing"	"false"
+"effect_bundles_localised_description_idrinth_kurnous_god_favour_cave_bats"	"Kurnous blesses the cave bats to hunt better."	"false"
+"effect_bundles_localised_title_idrinth_khaine_god_favour_cave_bats"	"Khaine Blessing"	"false"
+"effect_bundles_localised_description_idrinth_khaine_god_favour_cave_bats"	"Khaine blesses the cave bats to slaughter their enemies."	"false"
+"effect_bundles_localised_title_idrinth_asuryan_god_favour_wolves"	"Asuryan Blessing"	"false"
+"effect_bundles_localised_description_idrinth_asuryan_god_favour_wolves"	"Asuryan blesses the wolves to survive longer."	"false"
+"effect_bundles_localised_title_idrinth_kurnous_god_favour_wolves"	"Kurnous Blessing"	"false"
+"effect_bundles_localised_description_idrinth_kurnous_god_favour_wolves"	"Kurnous blesses the wolves to hunt better."	"false"
+"effect_bundles_localised_title_idrinth_khaine_god_favour_wolves"	"Khaine Blessing"	"false"
+"effect_bundles_localised_description_idrinth_khaine_god_favour_wolves"	"Khaine blesses the wolves to slaughter their enemies."	"false"
+"effect_bundles_localised_title_idrinth_asuryan_god_favour_hawks"	"Asuryan Blessing"	"false"
+"effect_bundles_localised_description_idrinth_asuryan_god_favour_hawks"	"Asuryan blesses the hawks to survive longer."	"false"
+"effect_bundles_localised_title_idrinth_kurnous_god_favour_hawks"	"Kurnous Blessing"	"false"
+"effect_bundles_localised_description_idrinth_kurnous_god_favour_hawks"	"Kurnous blesses the hawks to hunt better."	"false"
+"effect_bundles_localised_title_idrinth_khaine_god_favour_hawks"	"Khaine Blessing"	"false"
+"effect_bundles_localised_description_idrinth_khaine_god_favour_hawks"	"Khaine blesses the hawks to slaughter their enemies."	"false"
+"effect_bundles_localised_title_idrinth_asuryan_god_favour_great_eagles"	"Asuryan Blessing"	"false"
+"effect_bundles_localised_description_idrinth_asuryan_god_favour_great_eagles"	"Asuryan blesses the great eagle to survive longer."	"false"
+"effect_bundles_localised_title_idrinth_kurnous_god_favour_great_eagles"	"Kurnous Blessing"	"false"
+"effect_bundles_localised_description_idrinth_kurnous_god_favour_great_eagles"	"Kurnous blesses the great eagle to hunt better."	"false"
+"effect_bundles_localised_title_idrinth_khaine_god_favour_great_eagles"	"Khaine Blessing"	"false"
+"effect_bundles_localised_description_idrinth_khaine_god_favour_great_eagles"	"Khaine blesses the great eagle to slaughter their enemies."	"false"
+"effect_bundles_localised_title_idrinth_hev_high_elf_vampires_anti_chaos"	"Thaluian Blessing"	"false"
+"effect_bundles_localised_description_idrinth_hev_high_elf_vampires_anti_chaos"	"Your gods empower Thaluian Chapel forces against all followers of the ruinous powers."	"false"
+"effect_bundles_localised_title_idrinth_chapel_slots_present"	"Thaluian Chapel Space"	"false"
+"effect_bundles_localised_description_idrinth_chapel_slots_present"	"This settlement contains an area that has been sanctified by Asuryan, Khaine and Kurnous and could house a Thaluian Chapel Complex."	"false"
+"effect_bundles_localised_title_idrinth_veteran_0"	"Inexperienced Recruits [[img:veteran_experience_0]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_0"	"Inexperienced Recruits [[img:veteran_experience_0]]"	"false"
+"effect_bundles_localised_title_idrinth_veteran_1"	"Mixed Guard Recruits [[img:veteran_experience_1]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_1"	"Mixed Guard Recruits [[img:veteran_experience_1]]"	"false"
+"effect_bundles_localised_title_idrinth_veteran_2"	"Mixed Guard Recruits [[img:veteran_experience_2]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_2"	"Mixed Guard Recruits [[img:veteran_experience_2]]"	"false"
+"effect_bundles_localised_title_idrinth_veteran_3"	"Mixed Guard Recruits [[img:veteran_experience_3]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_3"	"Mixed Guard Recruits [[img:veteran_experience_3]]"	"false"
+"effect_bundles_localised_title_idrinth_veteran_4"	"Mixed Guard Soldiers [[img:veteran_experience_4]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_4"	"Mixed Guard Soldiers [[img:veteran_experience_4]]"	"false"
+"effect_bundles_localised_title_idrinth_veteran_5"	"Mixed Guard Soldiers [[img:veteran_experience_5]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_5"	"Mixed Guard Soldiers [[img:veteran_experience_5]]"	"false"
+"effect_bundles_localised_title_idrinth_veteran_6"	"Mixed Guard Soldiers [[img:veteran_experience_6]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_6"	"Mixed Guard Soldiers [[img:veteran_experience_6]]"	"false"
+"effect_bundles_localised_title_idrinth_veteran_7"	"Mixed Guard Veteran [[img:veteran_experience_7]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_7"	"Mixed Guard Veteran [[img:veteran_experience_7]]"	"false"
+"effect_bundles_localised_title_idrinth_veteran_8"	"Mixed Guard Veteran [[img:veteran_experience_8]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_8"	"Mixed Guard Veteran [[img:veteran_experience_8]]"	"false"
+"effect_bundles_localised_title_idrinth_veteran_9"	"Mixed Guard Veteran [[img:veteran_experience_9]]"	"false"
+"effect_bundles_localised_description_idrinth_veteran_9"	"Mixed Guard Veteran [[img:veteran_experience_9]]"	"false"
