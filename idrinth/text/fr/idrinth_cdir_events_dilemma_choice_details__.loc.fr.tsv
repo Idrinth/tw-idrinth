@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__fr.loc.tsvdb/idrinth__fr.loc		
+#Loc;1;text/idrinth__fr.loc.tsv/idrinth__fr.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Accepter l'aide. (Preux)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Accepter l'aide. (Général)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Chasser l'estranger.	false
