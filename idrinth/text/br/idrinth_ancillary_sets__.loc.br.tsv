@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ancillary_sets__.br.loc.tsv/idrinth_ancillary_sets__.br.loc		
+ancillary_sets_name_anc_set_exclusive_idrinth_khaine	Bênção de Khaine	false
+ancillary_sets_name_anc_set_exclusive_idrinth_kurnous	Bênção de Kurnous	false
+ancillary_sets_name_anc_set_exclusive_idrinth_asuryan	Bênção de Asuryan	false
+ancillary_sets_description_anc_set_exclusive_idrinth_khaine	Os itens abençoados de Khaine forjam você em uma fonte de morte e destruição.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_kurnous	Os itens abençoados de Kurnous transformam você em um dos caçadores mais perigosos vivos.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_asuryan	Os itens abençoados de Asuryan definem o defensor dos indefesos.	false
