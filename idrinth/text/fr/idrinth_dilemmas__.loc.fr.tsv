@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__fr.loc.tsv/idrinth__fr.loc		
+#Loc;1;text/idrinth_dilemmas__.fr.loc.tsv/idrinth_dilemmas__.fr.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Un étranger encapuchonné apparaît une nuit, offrant son aide pour une modique somme. Acceptez-vous son aide ?	false
 dilemmas_localised_title_idrinth_unlock_choice	L'Étranger	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Un messager elfique arrive, cherchant un certain Idrinth. L'Idrinth que vous connaissez l'a évité jusqu'ici, peut-être pourriez-vous aider ?	false
