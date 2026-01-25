@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__tr.loc.tsvdb/idrinth__tr.loc		
+#Loc;1;text/idrinth_unit_description_short_texts__.tr.loc.tsv/idrinth_unit_description_short_texts__.tr.loc		
 unit_description_short_texts_text_idrinth_hev_high_elf_vampires_idrinth	Elf zarafeti ve vampirik güçle savrulan kılıçlar, elf isabetliliği ve vampirik güçle atılan oklar. Bu yaratıklar çoğu kalbe korku salar.	false
 unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan	Bu umutsuz sürgünler, maceracılar ve paralı askerler Asuryan'ın türbesini korurlar.	false
 unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous	Bu umutsuz sürgünler, maceracılar ve paralı askerler Kurnous'un türbesini korurlar.	false
