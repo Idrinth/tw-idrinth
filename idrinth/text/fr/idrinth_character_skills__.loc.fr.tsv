@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_skills__.fr.loc.tsv/idrinth_character_skills__.fr.loc		
+#Loc;1;text/.fr/idrinth_character_skills__.fr.loc		
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_assist_army_training	Entraînement de l'Ost	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_agent_assassinate	Assassinat	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_army_assault_units	Assaut des Unités	false
