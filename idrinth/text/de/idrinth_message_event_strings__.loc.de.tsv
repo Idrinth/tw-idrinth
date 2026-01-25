@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__de.loc.tsv/idrinth__de.loc		
+#Loc;1;text/idrinth_message_event_strings__.de.loc.tsv/idrinth_message_event_strings__.de.loc		
 message_event_strings_title_idrinth_chapel_lost	Kapelle Verloren	false
 message_event_strings_title_idrinth_chapel_founded	Kapelle Gegründet	false
 message_event_strings_title_idrinth_godly_intervention	Die Götter greifen ein	false
