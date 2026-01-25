@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__cn.loc.tsv/idrinth__cn.loc		
+#Loc;1;text/idrinth_unit_abilities__.cn.loc.tsv/idrinth_unit_abilities__.cn.loc		
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding	坚忍誓言	false
 unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding		false
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded	强效坚忍誓言	false
