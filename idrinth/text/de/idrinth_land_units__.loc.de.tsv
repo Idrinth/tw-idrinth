@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_land_units__.de.loc.tsv/idrinth_land_units__.de.loc		
+#Loc;1;text/.de/idrinth_land_units__.de.loc		
 land_units_concealed_name_idrinth_hev_high_elf_vampires_idrinthchampion	Hochelfischer Vampir	false
 land_units_onscreen_name_idrinth_hev_high_elf_vampires_idrinthchampion	Idrinth Thalui	false
 land_units_onscreen_name_idrinth_hev_high_elf_vampires_chapel_asuryan	Asuryans Garde	false
