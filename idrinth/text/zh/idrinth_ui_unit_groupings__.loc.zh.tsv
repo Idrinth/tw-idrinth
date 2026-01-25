@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/idrinth__zh.loc.tsvdb/idrinth__zh.loc		
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth	高等精靈吸血鬼	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine	神殿	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard	教堂衛隊	false
+ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_priest	教堂祭司	false
