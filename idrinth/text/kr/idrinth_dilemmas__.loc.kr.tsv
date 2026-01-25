@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__kr.loc.tsv/idrinth__kr.loc		
+#Loc;1;text/idrinth_dilemmas__.kr.loc.tsv/idrinth_dilemmas__.kr.loc		
 dilemmas_localised_description_idrinth_unlock_choice	어느 날 밤 로브를 입은 낯선 자가 나타나 적은 대가로 도움을 제안합니다. 도움을 받아들이시겠습니까?	false
 dilemmas_localised_title_idrinth_unlock_choice	낯선 자	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	엘프 사절이 도착하여 이드린스를 찾고 있습니다. 당신이 아는 이드린스는 지금까지 그를 피해왔는데, 아마 도와줄 수 있을까요?	false
