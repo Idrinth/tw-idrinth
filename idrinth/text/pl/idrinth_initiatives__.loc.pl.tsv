@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/idrinth_initiatives__.pl.loc.tsv/idrinth_initiatives__.pl.loc		
+initiatives_localised_name_idrinth_khaine_pledge	Poświęć się Khaine'owi	false
+initiatives_localised_name_idrinth_kurnous_pledge	Poświęć się Kurnous	false
+initiatives_localised_name_idrinth_asuryan_pledge	Poświęć się Asuryanowi	false
+initiatives_localised_name_idrinth_khaine_prayer	Módl się do Khaine'a	false
+initiatives_localised_name_idrinth_kurnous_prayer	Módl się do Kurnous	false
+initiatives_localised_name_idrinth_asuryan_prayer	Módl się do Asuryana	false
+idrinth_khaine_pledge		false
+idrinth_kurnous_pledge		false
+idrinth_asuryan_pledge		false
+idrinth_khaine_prayer		false
+idrinth_kurnous_prayer		false
+idrinth_asuryan_prayer		false

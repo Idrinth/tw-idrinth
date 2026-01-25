@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ancillaries__.cz.loc.tsv/idrinth_ancillaries__.cz.loc		
+ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	Talisman požehnaný Khainem, Krvavým bohem. Jen málokdo získal dost přízně, aby mohl ovládat takový nástroj v jeho jménu. Zaschlá krev pulzuje prastarou mocí, šeptajíc svému nositeli sliby násilí.	false
+ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Prokázaná bojová zkušenost.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Talisman zaschlé krve	false
+ancillaries_colour_text_idrinth_anc_talisman_talisman_of_souls	Talisman požehnaný Asuryanen, aby udržel znalosti předchozích generací naživu. Když je ticho, můžeš slyšet šepoty prastarých elfích mudrců nabízejících moudrost zpoza závoje.	false
+ancillaries_explanation_text_idrinth_anc_talisman_talisman_of_souls	Prokázaná bojová zkušenost.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_talisman_of_souls	Talisman duší	false
+ancillaries_colour_text_idrinth_anc_talisman_forest_berry_wine	Jakýsi talisman požehnaný Kurnousem, dávající majiteli jedno z nejlepších bobulových vín na celém světě. Jeden doušek spojuje pijáka s divočinou, zaostřuje smysly a zrychluje reflexy, jako by sám les vedl každý pohyb.	false
+ancillaries_explanation_text_idrinth_anc_talisman_forest_berry_wine	Prokázaná bojová zkušenost.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_forest_berry_wine	Lesní bobulové víno	false
+ancillaries_colour_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Zbraň požehnaná Kurnousem, aby učinila svého nositele jedním z předních lovců, které svět zná. Ti zasaženi jejími šípy cítí prvotní strach, jako by je lovila sama příroda, ne jen nějaký lučištník.	false
+ancillaries_explanation_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Prokázaná bojová zkušenost.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Požehnaný lovecký luk	false
+ancillaries_colour_text_idrinth_anc_armour_khaines_visage	Tato přilba odhaluje obličejovou masku, která je směsicí děsu, krvežíznivosti a čisté touhy po násilí. Tvář proměňuje svého nositele, probouzí prvotní vztek, který nepřátelé cítí z dálky.	false
+ancillaries_explanation_text_idrinth_anc_armour_khaines_visage	Prokázaná bojová zkušenost.	false
+ancillaries_onscreen_name_idrinth_anc_armour_khaines_visage	Khainova tvář	false
+ancillaries_colour_text_idrinth_anc_weapon_khaines_thirsting_sword	Meč žíznící po krvi stejně jako jeho pán. S každým úderem hladoví po více, sílí s každým životem, který si nárokuje. Ostří čepele nikdy netupí, když je smočeno čerstvou krví.	false
+ancillaries_explanation_text_idrinth_anc_weapon_khaines_thirsting_sword	Prokázaná bojová zkušenost.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_khaines_thirsting_sword	Khainův žíznivý meč	false
+ancillaries_colour_text_idrinth_anc_weapon_asuryans_perfection_sword	Meč tak dokonalý jako jeho nositel usiluje být. Vykovaný ve věčném plameni samotného Asuryana, tento vysokoelfí meč přináší harmonii do boje, umožňujíc svému pánu bojovat s nepřekonatelnou přesností a vytrvalostí.	false
+ancillaries_explanation_text_idrinth_anc_weapon_asuryans_perfection_sword	Prokázaná bojová zkušenost.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_asuryans_perfection_sword	Asuryanův meč dokonalosti	false
+ancillaries_colour_text_idrinth_anc_armour_kurnous_forest_cloak	Zbroj Kurnousova designu, lehká a sotva znatelná. Tento tmavě zelený plášť nese esenci hlubokého lesa, skrývá svého nositele před nepřátelskýma očima a zároveň zvyšuje uvědomění si okolí.	false
+ancillaries_explanation_text_idrinth_anc_armour_kurnous_forest_cloak	Prokázaná bojová zkušenost.	false
+ancillaries_onscreen_name_idrinth_anc_armour_kurnous_forest_cloak	Kurnousův lesní plášť	false
+ancillaries_colour_text_idrinth_anc_armour_asuryans_destiny	Tato zbroj chrání svého nositele, dokud slouží elfímu druhu, prodlužujíc jeho život na úrovně mimo jakákoli očekávání. Kouzla vetkaná do každé desky odmítají korupci nemrtvých, umožňujíc nositeli kráčet v obou světech.	false
+ancillaries_explanation_text_idrinth_anc_armour_asuryans_destiny	Prokázaná bojová zkušenost.	false
+ancillaries_onscreen_name_idrinth_anc_armour_asuryans_destiny	Asuryanova zbroj osudu	false

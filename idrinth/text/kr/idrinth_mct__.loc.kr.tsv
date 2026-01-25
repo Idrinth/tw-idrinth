@@ -1,0 +1,74 @@
+key	text	tooltip
+#Loc;1;text/idrinth_mct__.kr.loc.tsv/idrinth_mct__.kr.loc		
+mct_idrinth_title	이드린스 탈루이 - 하이 엘프 뱀파이어 로어마스터	false
+mct_idrinth_author	Björn 'Idrinth' Büttner	false
+mct_idrinth_description	타락한 로어마스터의 이야기\\n\\n한때 존경받던 하이 엘프 로어마스터였던 이드린스 탈루이는 피비린내 나는 뱀파이어 전쟁 중 필멸의 죽음을 맞이했으나, 자신이 싸웠던 바로 그 피조물 중 하나로 다시 일어났습니다. 이제 이 기사-학자는 엘프의 유산과 뱀파이어의 저주 사이에서 위태로운 길을 걸으며, 혼돈으로 찢긴 세계에서 목적을 찾습니다.\\n\\n당신은 그를 구원으로 이끌 것입니까, 아니면 내면의 어둠을 포용할 것입니까? 그의 운명은 당신의 손에 달려 있습니다.\\n\\n고유한 모집\\n\\n이드린스는 그의 이중적 본성을 가치 있게 여기는 자들에 의해 군주나 영웅으로 모집될 수 있습니다:\\n- 제국 (비전 지식을 찾음)\\n- 키슬레프 (강력한 동맹이 절실함)\\n- 하이 엘프 (자신의 것을 되찾고자 함)\\n- 우드 엘프 (쿠르노스와의 연결을 가치 있게 여김)\\n- 뱀파이어 백작 (새로 얻은 힘을 포용함)\\n\\n느슨한 설정 모드\\n\\n느슨한 설정 모드에서는 절박한 동맹을 나타내는 가능성이 낮은 세력들이 추가됩니다:\\n- 브레토니아\\n- 캐세이\\n- 다크 엘프\\n- 나가쉬의 군단(모드 세력)\\n- 뱀파이어 코스트\\n\\n주요 특징\\n\\n신의 은총 시스템\\n\\n세 강력한 엘프 신들 사이에서 충성의 균형을 맞추세요. 각각은 이드린스의 분열된 존재를 통합하는 고유한 길을 제공합니다:\\n\\n카인: 향상된 근접 능력과 피해량으로 공격성을 포용\\n\\n아수리안: 향상된 방어력과 마법 저항으로 균형을 추구\\n\\n쿠르노스: 원거리 우위와 기동성으로 사냥꾼의 길을 걸음\\n\\n예배당 시스템\\n\\n신의 영향에 따라 이드린스는 수비대 규모, 힘, 신의 은총 사용에 눈에 띄게 영향을 미치고 지역 경제와 성장에 도움이 되는 예배당을 설립할 수 있습니다.\\n\\n필요한 모드를 사용하지 않으면 외부 슬롯이 이상하게 작동할 수 있습니다 - 이미 외부 슬롯이 있는 세력을 플레이하지 않는 한 모드가 기술적으로 필요하지 않습니다.\\n\\n서사 딜레마\\n\\n이드린스의 성격을 형성하고 신과의 관계를 결정하는 중요한 선택에 직면하세요. 엘프의 뿌리를 포용할 것입니까, 아니면 뱀파이어의 힘에 굴복할 것입니까? 각 결정은 신의 은총에 영향을 미치고 영구적인 보너스를 해제합니다.\\n\\n신성 유물 세트\\n\\n이드린스의 능력을 향상시키는 강력한 신-정렬 유물을 수집하고 장비하세요. 세트를 완성하면 선택한 신의 길을 보완하는 특별 보너스를 얻습니다.\\n\\n엘프 학살자 결과\\n\\n엘프 세력과의 전투를 추적하는 동적 특성 시스템입니다. 더 많은 엘프를 죽일수록 그들 사이에서 더 알려지고, 경멸받고, 결국 미움받게 되어 상당한 외교 및 신의 은총 결과를 초래합니다.\\n\\n비전 다재다능함\\n\\n이드린스의 학술적 배경과 뱀파이어 변신을 반영하여 여러 마법 계열의 주문을 마스터하세요:\\n- 뱀파이어 마법\\n- 죽음 마법\\n- 그림자 마법\\n\\n커스텀 전투 세력\\n\\n예배당 병력을 싱글 플레이어와 멀티플레이어 모두에서 커스텀 전투에서 자체 세력으로 플레이하세요.\\n\\n동물 WAAAGH\\n\\n장군은 주변에 동맹 동물들의 동물원을 모아 축복받은 동물들로 구성된 WAAAGH를 만듭니다.\\n\\n알파 버전 공지\\n\\n이 모드는 초기 알파 개발 중입니다. 다음을 경험할 수 있습니다:\\n\\n- 군대의 일부 버튼이 작동하지 않을 수 있음\\n- 일부 UI 변경 사항이 적용되는 데 잠시 걸림\\n- 밸런스 조정 진행 중\\n- 기도 시스템이 일시적으로 무작위 발동 신의 개입으로 대체됨\\n\\n개선을 위해 피드백이 필수적입니다! 발견한 문제를 보고해 주세요.\\n\\n호환성 참고:\\n\\n나가쉬의 커스텀 세력은 이론적으로 지원됩니다. 지원은 플레이테스트가 필요합니다. 버그를 발견하면 여기에 보고하고 다른 모드를 괴롭히지 마세요!\\n\\n구성\\n\\n모드 구성 도구가 지원되지만 선택 사항입니다.\\n\\n이 모드의 AI\\n\\n현재 모드에 일부 AI 생성 이미지가 있습니다. 유닛 정체성과 외관이 최종적으로 결정되면 시간이 지남에 따라 적절한 아트로 대체됩니다.	false
+mct_idrinth_expanded_spawn_text	확장 생성 문화	false
+mct_idrinth_expanded_spawn_tooltip	이드린스가 브레토니아, 캐세이, 나가쉬의 군단, 다크 엘프, 뱀파이어 코스트에도 생성될 수 있도록 합니다.	false
+mct_idrinth_level_adjustment_text	레벨 요구사항	false
+mct_idrinth_level_adjustment_options_null_text	초반	false
+mct_idrinth_level_adjustment_options_one_text	초반 후반	false
+mct_idrinth_level_adjustment_options_three_text	중반 초기	false
+mct_idrinth_level_adjustment_options_six_text	중반	false
+mct_idrinth_level_adjustment_tooltip	이드린스의 해제 퀘스트를 받기 위한 레벨 요구사항을 수정합니다.	false
+mct_idrinth_god_item_difficulty_text	신-축복 아이템 난이도	false
+mct_idrinth_god_item_difficulty_options_low_text	낮은 요구사항	false
+mct_idrinth_god_item_difficulty_options_normal_text	일반 요구사항	false
+mct_idrinth_god_item_difficulty_options_high_text	높은 요구사항	false
+mct_idrinth_god_item_difficulty_tooltip	신-축복 아이템을 받기 위한 요구사항을 수정합니다.	false
+mct_idrinth_chapel_chance_text	예배당 생성 확률	false
+mct_idrinth_chapel_chance_options_low_text	낮은 확률	false
+mct_idrinth_chapel_chance_options_normal_text	일반 확률	false
+mct_idrinth_chapel_chance_options_high_text	높은 확률	false
+mct_idrinth_chapel_chance_tooltip	이드린스의 존재로 탈루이안 예배당이 생성되는 확률을 수정합니다.	false
+mct_idrinth_story_events_text	스토리 이벤트 활성화	false
+mct_idrinth_story_events_tooltip	이드린스가 그에게 중요한 특정 지역에 도달할 때 플레이어에게 알릴 수 있도록 합니다.	false
+mct_idrinth_chapels_text	탈루이안 예배당	false
+mct_idrinth_chapels_tooltip	이드린스가 도시의 방어를 강화하고 신의 은총 생성에 영향을 미치는 예배당을 설립할 수 있도록 합니다.	false
+mct_idrinth_dilemma_cooldown_text	딜레마 쿨다운	false
+mct_idrinth_dilemma_cooldown_options_low_text	낮음 (1 + [1-2])	false
+mct_idrinth_dilemma_cooldown_options_medium_text	중간 (2 + [1-3])	false
+mct_idrinth_dilemma_cooldown_options_long_text	긴 (3 + [1-4])	false
+mct_idrinth_dilemma_cooldown_tooltip	결정이 필요한 딜레마 사이의 쿨다운을 수정합니다.	false
+mct_idrinth_names_text	유닛 이름 변경	false
+mct_idrinth_names_tooltip	체크하면 유닛이 모집 시 엘프 이름 목록에서 가져온 커스텀 이름을 얻습니다.	false
+mct_idrinth_logging_text	자체 로깅 활성화	false
+mct_idrinth_logging_tooltip	체크하면 이 모드가 게임 루트 디렉토리의 idrinth.*.log에 로그를 남깁니다.	false
+mct_idrinth_base_logging_text	기본 게임 로깅 사용 활성화	false
+mct_idrinth_base_logging_tooltip	체크하면 이 모드가 기본 게임 로깅 기능으로 로그를 남깁니다.	false
+mct_idrinth_section_idrinth_story_features_name	스토리 기능 토글	false
+mct_idrinth_section_idrinth_game_features_name	게임 기능 토글	false
+mct_idrinth_section_idrinth_chances_name	확률	false
+mct_idrinth_section_idrinth_spawn_name	생성 옵션	false
+mct_idrinth_section_idrinth_other_name	추가 옵션	false
+mct_idrinth_section_idrinth_cooldowns_name	쿨다운 옵션	false
+mct_idrinth_intervention_cooldown_text	개입 쿨다운	false
+mct_idrinth_intervention_cooldown_options_low_text	낮음 (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	중간 (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	긴 (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	신의 개입 사이의 쿨다운을 수정합니다.	false
+mct_idrinth_animal_waaagh_text	동물 WAAAGH	false
+mct_idrinth_animal_waaagh_tooltip	체크하면 이드린스가 동물로 구성된 WAAAGH 군대를 이끕니다. 비활성화해도 군대가 해산되지 않습니다.	false
+mct_idrinth_vampire_chance_text	뱀파이어 전환 확률	false
+mct_idrinth_vampire_chance_options_low_text	낮음 (기본 성공률 10%)	false
+mct_idrinth_vampire_chance_options_normal_text	일반 (기본 성공률 15%)	false
+mct_idrinth_vampire_chance_options_high_text	높음 (기본 성공률 20%)	false
+mct_idrinth_vampire_chance_tooltip	사제가 뱀파이어로 전환되어 생존할 확률을 변경합니다.	false
+mct_idrinth_story_dilemma_base_chance_text	스토리 딜레마 기본 확률	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	낮음	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	일반	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	높음	false
+mct_idrinth_story_dilemma_base_chance_tooltip	스토리 결정 딜레마가 발생할 확률을 변경합니다.	false
+mct_idrinth_god_item_base_chance_text	신 아이템 기본 확률	false
+mct_idrinth_god_item_base_chance_options_low_text	낮음	false
+mct_idrinth_god_item_base_chance_options_normal_text	일반	false
+mct_idrinth_god_item_base_chance_options_high_text	높음	false
+mct_idrinth_god_item_base_chance_tooltip	신 아이템이 제공될 확률을 변경합니다.	false
+mct_idrinth_elf_slayer_traits_text	엘프 학살자 특성	false
+mct_idrinth_elf_slayer_traits_tooltip	엘프를 죽이는 것에 대한 특성을 활성화합니다. 비활성화해도 기존 특성 레벨이 제거되지 않습니다.	false
+mct_idrinth_devotion_traits_text	헌신 특성	false
+mct_idrinth_devotion_traits_tooltip	특정 신에게 헌신하는 시간에 대한 특성을 활성화합니다. 비활성화해도 기존 특성 레벨이 제거되지 않습니다.	false
+mct_idrinth_interventions_text	신의 개입 활성화	false
+mct_idrinth_interventions_tooltip	활성화하면 아수리안, 쿠르노스, 카인이 당신의 은총이 높을 때 개입하여 일부를 세력 전체 버프에 사용합니다.	false
+mct_idrinth_groovy_logging_text	EnableGroovy Logging Usage	false
+mct_idrinth_groovy_logging_tooltip	When checked this mod logs with the logging provided by the MCT.	false

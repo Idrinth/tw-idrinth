@@ -1,0 +1,74 @@
+key	text	tooltip
+#Loc;1;text/idrinth_mct__.tr.loc.tsv/idrinth_mct__.tr.loc		
+mct_idrinth_title	Idrinth Thalui - Yüksek Elf Vampir Bilge Ustası	false
+mct_idrinth_author	Björn 'Idrinth' Büttner	false
+mct_idrinth_description	Düşmüş Bir Bilge Ustasının Hikayesi\\n\\nBir zamanlar saygın bir Yüksek Elf Bilge Ustası olan Idrinth Thalui, kanlı Vampir Savaşları sırasında ölümlü sonunu buldu, ancak savaştığı yaratıklardan biri olarak yeniden doğdu. Şimdi bu Şövalye-Bilgin, elf mirası ile vampir laneti arasında tehlikeli bir yolda yürüyor, Kaos tarafından parçalanmış bir dünyada amaç arıyor.\\n\\nOnu kurtuluşa mı yönlendireceksin yoksa içindeki karanlığı mı kucaklayacaksın? Kaderi senin ellerinde.	false
+mct_idrinth_expanded_spawn_text	Genişletilmiş Doğma Kültürleri	false
+mct_idrinth_expanded_spawn_tooltip	Idrinth'in Bretonnia, Cathay, Nagash Lejyonları, Karanlık Elfler ve Vampir Sahili için de doğmasına izin verir.	false
+mct_idrinth_level_adjustment_text	Seviye Gereksinimi	false
+mct_idrinth_level_adjustment_options_null_text	Erken Oyun	false
+mct_idrinth_level_adjustment_options_one_text	Geç Erken Oyun	false
+mct_idrinth_level_adjustment_options_three_text	Erken Orta Oyun	false
+mct_idrinth_level_adjustment_options_six_text	Orta Oyun	false
+mct_idrinth_level_adjustment_tooltip	Idrinth'in kilit açma görevini almak için seviye gereksinimini değiştirir.	false
+mct_idrinth_god_item_difficulty_text	Tanrı Kutsanmış Eşya Zorluğu	false
+mct_idrinth_god_item_difficulty_options_low_text	Düşük Gereksinimler	false
+mct_idrinth_god_item_difficulty_options_normal_text	Normal Gereksinimler	false
+mct_idrinth_god_item_difficulty_options_high_text	Yüksek Gereksinimler	false
+mct_idrinth_god_item_difficulty_tooltip	Tanrı kutsanmış eşyaları almak için gereksinimleri değiştirir.	false
+mct_idrinth_chapel_chance_text	Şapel Doğma Şansı	false
+mct_idrinth_chapel_chance_options_low_text	Düşük Şans	false
+mct_idrinth_chapel_chance_options_normal_text	Normal Şans	false
+mct_idrinth_chapel_chance_options_high_text	Yüksek Şans	false
+mct_idrinth_chapel_chance_tooltip	Idrinth'in varlığı tarafından Thalui Şapellerinin doğma şansını değiştirir.	false
+mct_idrinth_story_events_text	Hikaye Olaylarını Etkinleştir	false
+mct_idrinth_story_events_tooltip	Idrinth'in kendisi için önemli olan belirli bölgelere ulaştığında oyuncuyu bilgilendirmesine izin verir.	false
+mct_idrinth_chapels_text	Thalui Şapelleri	false
+mct_idrinth_chapels_tooltip	Idrinth'in şehirlerin savunmasını güçlendiren ve tanrı iyiliği üretimini etkileyen şapeller kurmasına izin verir.	false
+mct_idrinth_dilemma_cooldown_text	İkilem Bekleme Süresi	false
+mct_idrinth_dilemma_cooldown_options_low_text	Düşük (1 + [1-2])	false
+mct_idrinth_dilemma_cooldown_options_medium_text	Orta (2 + [1-3])	false
+mct_idrinth_dilemma_cooldown_options_long_text	Uzun (3 + [1-4])	false
+mct_idrinth_dilemma_cooldown_tooltip	Karar gerektiren ikilemler arasındaki bekleme süresini değiştirir.	false
+mct_idrinth_names_text	Birim Yeniden Adlandırma	false
+mct_idrinth_names_tooltip	İşaretlendiğinde birimler işe alındığında elf isimleri listesinden çekilen özel bir isim alır.	false
+mct_idrinth_logging_text	Kendi Günlük Kaydını Etkinleştir	false
+mct_idrinth_logging_tooltip	İşaretlendiğinde bu mod oyun kök dizinine idrinth.*.log olarak günlük kaydı yapar.	false
+mct_idrinth_base_logging_text	Temel Oyun Günlük Kaydı Kullanımını Etkinleştir	false
+mct_idrinth_base_logging_tooltip	İşaretlendiğinde bu mod temel oyun günlük kaydı işlevi ile günlük kaydı yapar.	false
+mct_idrinth_section_idrinth_story_features_name	Hikaye Özellik Geçişleri	false
+mct_idrinth_section_idrinth_game_features_name	Oyun Özellik Geçişleri	false
+mct_idrinth_section_idrinth_chances_name	Şanslar	false
+mct_idrinth_section_idrinth_spawn_name	Doğma Seçenekleri	false
+mct_idrinth_section_idrinth_other_name	Ek Seçenekler	false
+mct_idrinth_section_idrinth_cooldowns_name	Bekleme Süresi Seçenekleri	false
+mct_idrinth_intervention_cooldown_text	Müdahale Bekleme Süresi	false
+mct_idrinth_intervention_cooldown_options_low_text	Düşük (%80)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Orta (%100)	false
+mct_idrinth_intervention_cooldown_options_long_text	Uzun (%120)	false
+mct_idrinth_intervention_cooldown_tooltip	İlahi müdahaleler arasındaki bekleme süresini değiştirir.	false
+mct_idrinth_animal_waaagh_text	Hayvan WAAAGH	false
+mct_idrinth_animal_waaagh_tooltip	İşaretlendiğinde Idrinth'i hayvanlardan oluşan bir WAAAGH ordusu takip eder. Devre dışı bırakmak orduyu yok etmez.	false
+mct_idrinth_vampire_chance_text	Vampir Dönüştürme Şansı	false
+mct_idrinth_vampire_chance_options_low_text	Düşük (%10 temel başarı)	false
+mct_idrinth_vampire_chance_options_normal_text	Normal (%15 temel başarı)	false
+mct_idrinth_vampire_chance_options_high_text	Yüksek (%20 temel başarı)	false
+mct_idrinth_vampire_chance_tooltip	Rahiplerin vampire dönüştürülürken hayatta kalma şansını değiştirir.	false
+mct_idrinth_story_dilemma_base_chance_text	Hikaye İkilemi Temel Şansı	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Düşük	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Normal	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Yüksek	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Hikaye karar ikilemlerinin tetiklenme şansını değiştirir.	false
+mct_idrinth_god_item_base_chance_text	Tanrı Eşyası Temel Şansı	false
+mct_idrinth_god_item_base_chance_options_low_text	Düşük	false
+mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
+mct_idrinth_god_item_base_chance_options_high_text	Yüksek	false
+mct_idrinth_god_item_base_chance_tooltip	Tanrı eşyalarının teklif edilme şansını değiştirir.	false
+mct_idrinth_elf_slayer_traits_text	Elf Katili Özellikleri	false
+mct_idrinth_elf_slayer_traits_tooltip	Elf öldürme özelliklerini etkinleştirir. Devre dışı bırakmak mevcut özellik seviyelerini kaldırmaz.	false
+mct_idrinth_devotion_traits_text	Bağlılık Özellikleri	false
+mct_idrinth_devotion_traits_tooltip	Belirli bir tanrıya adanmış zaman için özellikleri etkinleştirir. Devre dışı bırakmak mevcut özellik seviyelerini kaldırmaz.	false
+mct_idrinth_interventions_text	İlahi Müdahaleyi Etkinleştir	false
+mct_idrinth_interventions_tooltip	Etkinleştirilirse, Asuryan, Kurnous ve Khaine, iyiliğin yüksek olduğunda müdahale edecek ve bir kısmını tüm hizip bonusları için kullanacaktır.	false
+mct_idrinth_groovy_logging_text	Groovy Günlük Kaydı Kullanımını Etkinleştir	false
+mct_idrinth_groovy_logging_tooltip	İşaretlendiğinde bu mod MCT tarafından sağlanan günlük kaydı sistemiyle kayıt yapar.	false

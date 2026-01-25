@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/idrinth_effects_additional_tooltip_details__.tr.loc.tsv/idrinth_effects_additional_tooltip_details__.tr.loc		
+effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Orduya Yardım)\\nAna orduda görev yapan birimler için deneyim kazanımını artırır.	false
+effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Hedef: Kahraman)\\nHedef [[img:icon_hero]][[/img]]Kahramanı öldürür.	false
+effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Hedef: Ordu)\\nHedef ordudaki tüm birimlere hasar verir.	false
+effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Sürekli Yerel Etki)\\nYerel eyaletteki [[img:icon_corruption_vmp]][[/img]]Vampirik yozlaşma miktarını artırır.	false
