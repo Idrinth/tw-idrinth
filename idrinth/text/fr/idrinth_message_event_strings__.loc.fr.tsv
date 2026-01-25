@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__fr.loc.tsvdb/idrinth__fr.loc		
+#Loc;1;text/idrinth__fr.loc.tsv/idrinth__fr.loc		
 message_event_strings_title_idrinth_chapel_lost	Chapelle Perdue	false
 message_event_strings_title_idrinth_chapel_founded	Chapelle Fondée	false
 message_event_strings_title_idrinth_godly_intervention	Les Dieux Interviennent	false
