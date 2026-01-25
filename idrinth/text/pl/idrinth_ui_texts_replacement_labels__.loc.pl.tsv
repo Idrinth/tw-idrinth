@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/idrinth__pl.loc.tsvdb/idrinth__pl.loc		
+ui_text_replacements_localised_text_idrinth_chapel_settlement_panel_tooltip	Kaplica Thaluii	false
+ui_text_replacements_localised_text_idrinth_chapel_button_tooltip	Pokaż lokalną kaplicę thaluiańską	false
