@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_dilemmas__.cz.loc.tsv/idrinth_dilemmas__.cz.loc		
+#Loc;1;text/.cz/idrinth_dilemmas__.cz.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Jedné noci se objeví zahalený cizinec a nabízí svou pomoc za malý poplatek. Přijmeš jeho pomoc?	false
 dilemmas_localised_title_idrinth_unlock_choice	Cizinec	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Přichází elfí posel, hledající jakéhosi Idrintha. Idrinth, kterého znáš, se mu zatím vyhýbal, možná bys mohl pomoci?	false
