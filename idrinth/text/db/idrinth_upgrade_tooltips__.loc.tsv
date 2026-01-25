@@ -1,5 +1,4 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth_upgrade_tooltips.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Upgrade Mixed Elven Guard to Asuryan's Guard for 300 + 50 * Rank Gold and gain Rank² Favour	false
 upgrade_tooltips_idrinth_priest_asuryan	Try to turn this priest into a vampire for 1000 Gold and 250 Favor. This may fail and in worst case just kill them.	false
 upgrade_tooltips_idrinth_unit_khaine	Upgrade Mixed Elven Guard to Khaine's Guard for 300 + 50 * Rank Gold and gain Rank² Favour.	false
