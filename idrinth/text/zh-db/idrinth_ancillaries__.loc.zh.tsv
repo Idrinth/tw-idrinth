@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/idrinth__zh.loc.tsvdb/idrinth__zh.loc		
+ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	A talisman blessed by Khaine, the Blood-Handed God. Few have gained enough favor to wield a tool like this in his name. The dried blood pulsates with ancient power, whispering promises of violence to its bearer.	false
+ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Proved combat experience.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Talisman of Dried Blood	false
+ancillaries_colour_text_idrinth_anc_talisman_talisman_of_souls	A talisman blessed by Asuryan to keep the knowledge of previous generations alive. When quiet, you can hear the whispers of ancient elven sages offering wisdom from beyond the veil.	false
+ancillaries_explanation_text_idrinth_anc_talisman_talisman_of_souls	Proved combat experience.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_talisman_of_souls	Talisman of Souls	false
+ancillaries_colour_text_idrinth_anc_talisman_forest_berry_wine	A talisman of sorts blessed by Kurnous, giving the owner some of the best berry wine in the whole world. One sip connects the drinker to the wild, sharpening senses and quickening reflexes as if the forest itself guides each movement.	false
+ancillaries_explanation_text_idrinth_anc_talisman_forest_berry_wine	Proved combat experience.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_forest_berry_wine	Forest Berry Wine	false
+ancillaries_colour_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	A weapon blessed by Kurnous to make its wielder into one of the foremost hunters the world knows. Those marked by its arrows feel a primal fear, as if hunted by nature itself rather than merely an archer.	false
+ancillaries_explanation_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Proved combat experience.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Blessed Hunting Bow	false
+ancillaries_colour_text_idrinth_anc_armour_khaines_visage	This helmet reveals a face mask that is a mixture of terror, bloodlust and pure desire for violence. The visage transforms its wearer, awakening a primal rage that enemies can sense from afar.	false
+ancillaries_explanation_text_idrinth_anc_armour_khaines_visage	Proved combat experience.	false
+ancillaries_onscreen_name_idrinth_anc_armour_khaines_visage	Khaine's Visage	false
+ancillaries_colour_text_idrinth_anc_weapon_khaines_thirsting_sword	A sword thirsting for blood as much as its master. With each strike, it hungers for more, growing stronger with each life it claims. The blade's edge never dulls when wetted with fresh blood.	false
+ancillaries_explanation_text_idrinth_anc_weapon_khaines_thirsting_sword	Proved combat experience.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_khaines_thirsting_sword	Khaine's Thirsting Sword	false
+ancillaries_colour_text_idrinth_anc_weapon_asuryans_perfection_sword	A sword as perfect as its wielder strives to be. Forged in the eternal flame of Asuryan himself, this high elven style sword brings harmony to combat, allowing its master to fight with unmatched precision and endurance.	false
+ancillaries_explanation_text_idrinth_anc_weapon_asuryans_perfection_sword	Proved combat experience.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_asuryans_perfection_sword	Asuryan's Sword of Perfection	false
+ancillaries_colour_text_idrinth_anc_armour_kurnous_forest_cloak	An armour by Kurnous design, light and barely noticeable. This dark green cloak carries the essence of the deep forest, concealing its wearer from enemy eyes while heightening awareness of one's surroundings.	false
+ancillaries_explanation_text_idrinth_anc_armour_kurnous_forest_cloak	Proved combat experience.	false
+ancillaries_onscreen_name_idrinth_anc_armour_kurnous_forest_cloak	Kurnous' Forest Cloak	false
+ancillaries_colour_text_idrinth_anc_armour_asuryans_destiny	This armor protects its wearer while he serves elven kind, prolonging his life to levels outside any expectation. The enchantments woven into each plate reject the corruption of undeath, allowing the wearer to walk both worlds.	false
+ancillaries_explanation_text_idrinth_anc_armour_asuryans_destiny	Proved combat experience.	false
+ancillaries_onscreen_name_idrinth_anc_armour_asuryans_destiny	Asuryan's Armour of Destiny	false
