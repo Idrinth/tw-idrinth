@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__br.loc.tsvdb/idrinth__br.loc		
+#Loc;1;text/idrinth_upgrade_tooltips__.br.loc.tsv/idrinth_upgrade_tooltips__.br.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Promover Guarda Élfica Mista para Guarda de Asuryan por 300 + 50 * Patente de Ouro e ganhar Patente² Favor	false
 upgrade_tooltips_idrinth_priest_asuryan	Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.	false
 upgrade_tooltips_idrinth_unit_khaine	Promover Guarda Élfica Mista para Guarda de Khaine por 300 + 50 * Patente de Ouro e ganhar Patente² Favor.	false
