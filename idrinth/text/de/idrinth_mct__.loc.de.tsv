@@ -1,0 +1,74 @@
+key	text	tooltip
+#Loc;1;text/idrinth__de.loc.tsvdb/idrinth__de.loc		
+mct_idrinth_title	Idrinth Thalui - Der hochelfische Vampir-Gelehrte	false
+mct_idrinth_author	Björn 'Idrinth' Büttner	false
+mct_idrinth_description	Die Geschichte eines gefallenen Gelehrten\\n\\nEinst ein angesehener Hochelfen-Gelehrter, fand Idrinth Thalui sein sterbliches Ende während der blutigen Vampirkriege, nur um als eines jener Wesen wiederaufzuerstehen, gegen die er einst kämpfte. Nun wandelt dieser Ritter-Gelehrte auf einem gefährlichen Pfad zwischen seinem elfischen Erbe und seinem vampirischen Fluch, auf der Suche nach einem Sinn in einer vom Chaos zerrissenen Welt.\\n\\nWerdet Ihr ihn zur Erlösung führen oder die Dunkelheit in ihm entfesseln? Sein Schicksal liegt in Euren Händen.	false
+mct_idrinth_expanded_spawn_text	Erweiterte Spawn-Kulturen	false
+mct_idrinth_expanded_spawn_tooltip	Erlaubt es Idrinth, auch für Bretonia, Cathay, die Legionen von Nagash, Dunkelelfen und Vampirküste zu erscheinen.	false
+mct_idrinth_level_adjustment_text	Stufenanforderung	false
+mct_idrinth_level_adjustment_options_null_text	Frühes Spiel	false
+mct_idrinth_level_adjustment_options_one_text	Spätes frühes Spiel	false
+mct_idrinth_level_adjustment_options_three_text	Frühes mittleres Spiel	false
+mct_idrinth_level_adjustment_options_six_text	Mittleres Spiel	false
+mct_idrinth_level_adjustment_tooltip	Modifiziert die Stufenanforderung, um Idrinths Freischaltquest zu erhalten.	false
+mct_idrinth_god_item_difficulty_text	Schwierigkeit der gottgesegneten Gegenstände	false
+mct_idrinth_god_item_difficulty_options_low_text	Niedrige Anforderungen	false
+mct_idrinth_god_item_difficulty_options_normal_text	Normale Anforderungen	false
+mct_idrinth_god_item_difficulty_options_high_text	Hohe Anforderungen	false
+mct_idrinth_god_item_difficulty_tooltip	Modifiziert die Anforderungen für den Erhalt der gottgesegneten Gegenstände.	false
+mct_idrinth_chapel_chance_text	Kapellen-Spawn-Chance	false
+mct_idrinth_chapel_chance_options_low_text	Niedrige Chance	false
+mct_idrinth_chapel_chance_options_normal_text	Normale Chance	false
+mct_idrinth_chapel_chance_options_high_text	Hohe Chance	false
+mct_idrinth_chapel_chance_tooltip	Modifiziert die Chance, dass Thaluische Kapellen durch Idrinths Anwesenheit erscheinen.	false
+mct_idrinth_story_events_text	Story-Ereignisse aktivieren	false
+mct_idrinth_story_events_tooltip	Erlaubt Idrinth, den Spieler zu benachrichtigen, wenn er bestimmte für ihn wichtige Regionen erreicht.	false
+mct_idrinth_chapels_text	Thaluische Kapellen	false
+mct_idrinth_chapels_tooltip	Erlaubt Idrinth, Kapellen zu gründen, die die Verteidigung von Städten stärken und die Erzeugung göttlicher Gunst beeinflussen.	false
+mct_idrinth_dilemma_cooldown_text	Dilemma-Abklingzeit	false
+mct_idrinth_dilemma_cooldown_options_low_text	Niedrig (1 + [1-2])	false
+mct_idrinth_dilemma_cooldown_options_medium_text	Mittel (2 + [1-3])	false
+mct_idrinth_dilemma_cooldown_options_long_text	Lang (3 + [1-4])	false
+mct_idrinth_dilemma_cooldown_tooltip	Modifiziert die Abklingzeit zwischen Dilemmata, die Entscheidungen erfordern.	false
+mct_idrinth_names_text	Einheiten-Umbenennung	false
+mct_idrinth_names_tooltip	Wenn aktiviert, erhalten Einheiten bei der Rekrutierung einen benutzerdefinierten Namen aus einer Liste elfischer Namen.	false
+mct_idrinth_logging_text	Eigenes Logging aktivieren	false
+mct_idrinth_logging_tooltip	Wenn aktiviert, schreibt diese Mod Logs in das Spielwurzelverzeichnis als idrinth.*.log.	false
+mct_idrinth_base_logging_text	Basis-Spiel-Logging-Nutzung aktivieren	false
+mct_idrinth_base_logging_tooltip	Wenn aktiviert, nutzt diese Mod die Logging-Funktion des Basisspiels.	false
+mct_idrinth_section_idrinth_story_features_name	Story-Funktions-Schalter	false
+mct_idrinth_section_idrinth_game_features_name	Spiel-Funktions-Schalter	false
+mct_idrinth_section_idrinth_chances_name	Chancen	false
+mct_idrinth_section_idrinth_spawn_name	Spawn-Optionen	false
+mct_idrinth_section_idrinth_other_name	Zusätzliche Optionen	false
+mct_idrinth_section_idrinth_cooldowns_name	Abklingzeit-Optionen	false
+mct_idrinth_intervention_cooldown_text	Interventions-Abklingzeit	false
+mct_idrinth_intervention_cooldown_options_low_text	Niedrig (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Mittel (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	Lang (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	Modifiziert die Abklingzeit zwischen göttlichen Interventionen.	false
+mct_idrinth_animal_waaagh_text	Tier-WAAAGH	false
+mct_idrinth_animal_waaagh_tooltip	Wenn aktiviert, wird Idrinth von einer WAAAGH-Armee aus Tieren begleitet. Das Deaktivieren lässt die Armee nicht verschwinden.	false
+mct_idrinth_vampire_chance_text	Vampir-Verwandlungschance	false
+mct_idrinth_vampire_chance_options_low_text	Niedrig (10% Basiserfolg)	false
+mct_idrinth_vampire_chance_options_normal_text	Normal (15% Basiserfolg)	false
+mct_idrinth_vampire_chance_options_high_text	Hoch (20% Basiserfolg)	false
+mct_idrinth_vampire_chance_tooltip	Ändert die Chance, dass Priester die Verwandlung in Vampire überleben.	false
+mct_idrinth_story_dilemma_base_chance_text	Basis-Chance für Story-Dilemmata	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Niedrig	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Normal	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Hoch	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Ändert die Chance, dass Story-Entscheidungs-Dilemmata ausgelöst werden.	false
+mct_idrinth_god_item_base_chance_text	Basis-Chance für Göttergegenstände	false
+mct_idrinth_god_item_base_chance_options_low_text	Niedrig	false
+mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
+mct_idrinth_god_item_base_chance_options_high_text	Hoch	false
+mct_idrinth_god_item_base_chance_tooltip	Ändert die Chance, dass Göttergegenstände angeboten werden.	false
+mct_idrinth_elf_slayer_traits_text	Elfen-Töter-Eigenschaften	false
+mct_idrinth_elf_slayer_traits_tooltip	Aktiviert die Eigenschaften für das Töten von Elfen. Das Deaktivieren entfernt keine bestehenden Eigenschaftsstufen.	false
+mct_idrinth_devotion_traits_text	Hingabe-Eigenschaften	false
+mct_idrinth_devotion_traits_tooltip	Aktiviert die Eigenschaften für Zeit, die einem bestimmten Gott gewidmet wird. Das Deaktivieren entfernt keine bestehenden Eigenschaftsstufen.	false
+mct_idrinth_interventions_text	Göttliche Intervention aktivieren	false
+mct_idrinth_interventions_tooltip	Wenn aktiviert, werden Asuryan, Kurnous und Khaine eingreifen, wenn Eure Gunst hoch ist, und einen Teil davon für fraktionsweite Verstärkungen nutzen.	false
+mct_idrinth_groovy_logging_text	Groovy-Logging-Nutzung aktivieren	false
+mct_idrinth_groovy_logging_tooltip	Wenn aktiviert, nutzt diese Mod das vom MCT bereitgestellte Logging.	false
