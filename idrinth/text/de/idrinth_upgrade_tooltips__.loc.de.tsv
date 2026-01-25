@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_upgrade_tooltips__.de.loc.tsv/idrinth_upgrade_tooltips__.de.loc		
+#Loc;1;text/.de/idrinth_upgrade_tooltips__.de.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Gemischte Elfengarde zu Asuryans Garde für 300 Gold aufwerten.	false
 upgrade_tooltips_idrinth_priest_asuryan	Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.	false
 upgrade_tooltips_idrinth_unit_khaine	Gemischte Elfengarde zu Khaines Garde für 300 Gold aufwerten.	false
