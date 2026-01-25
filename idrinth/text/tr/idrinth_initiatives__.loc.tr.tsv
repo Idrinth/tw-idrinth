@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/idrinth_initiatives__.tr.loc.tsv/idrinth_initiatives__.tr.loc		
+initiatives_localised_name_idrinth_khaine_pledge	Kendini Khaine'e ada	false
+initiatives_localised_name_idrinth_kurnous_pledge	Kendini Kurnous'a ada	false
+initiatives_localised_name_idrinth_asuryan_pledge	Kendini Asuryan'a ada	false
+initiatives_localised_name_idrinth_khaine_prayer	Khaine'e dua et	false
+initiatives_localised_name_idrinth_kurnous_prayer	Kurnous'a dua et	false
+initiatives_localised_name_idrinth_asuryan_prayer	Asuryan'a dua et	false
+idrinth_khaine_pledge		false
+idrinth_kurnous_pledge		false
+idrinth_asuryan_pledge		false
+idrinth_khaine_prayer		false
+idrinth_kurnous_prayer		false
+idrinth_asuryan_prayer		false
