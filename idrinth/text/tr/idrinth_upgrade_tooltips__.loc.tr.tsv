@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__tr.loc.tsvdb/idrinth__tr.loc		
+#Loc;1;text/idrinth_upgrade_tooltips__.tr.loc.tsv/idrinth_upgrade_tooltips__.tr.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Karma Elf Muhafızını Asuryan'ın Muhafızına 300 + 50 * Rütbe Altın karşılığında yükselt ve Rütbe² Lütuf kazan	false
 upgrade_tooltips_idrinth_priest_asuryan	Bu rahibi 1000 Altın ve 250 Lütuf karşılığında vampire dönüştürmeyi dene. Bu başarısız olabilir ve en kötü durumda onları öldürebilir.	false
 upgrade_tooltips_idrinth_unit_khaine	Karma Elf Muhafızını Khaine'in Muhafızına 300 + 50 * Rütbe Altın karşılığında yükselt ve Rütbe² Lütuf kazan.	false
