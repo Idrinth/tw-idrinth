@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_versions__.zh.loc.tsv/idrinth_versions__.zh.loc		
+#Loc;1;text/.zh/idrinth_versions__.zh.loc		
 mct_patch_notes_idrinth_129_notes	- 修復升級的國庫費用變成給錢而非花費的問題	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- 重寫程式碼以提高穩定性\\n- 模組配置工具中增加更多選項\\n- 許多小修復	false
