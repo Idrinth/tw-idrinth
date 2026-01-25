@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__kr.loc.tsvdb/idrinth__kr.loc		
+#Loc;1;text/idrinth__kr.loc.tsv/idrinth__kr.loc		
 character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	당신은 카인과 다른 엘프들에게 알려진 엘프 학살자입니다.	false
 character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	당신은 많은 엘프 군대와 싸웠습니다.	false
 character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	카인의 저주를 받은 엘프 학살자	false
