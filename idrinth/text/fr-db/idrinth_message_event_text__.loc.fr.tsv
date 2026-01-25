@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/idrinth__fr.loc.tsvdb/idrinth__fr.loc		
+message_event_text_idrinth_chapel_lost	La chapelle a été incendiée par le nouveau propriétaire de la colonie. Où allons-nous nous rassembler maintenant ?	false
+message_event_text_idrinth_chapel_founded	L'emplacement d'une nouvelle chapelle a été consacré par les dieux. Nous devrions la construire rapidement pour obtenir leurs bénédictions.	false
+message_event_text_idrinth_godly_intervention	Idrinth vous informe que ses dieux ont décidé d'agir pour soutenir votre cause. Vos armées seront plus puissantes grâce à une bénédiction divine pendant un temps.	false
+message_event_text_idrinth_godly_intervention_subtitle	Asuryan, Khaine et Kurnous agissent.	false
