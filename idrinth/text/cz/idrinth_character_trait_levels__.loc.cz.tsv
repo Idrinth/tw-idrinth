@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_trait_levels__.cz.loc.tsv/idrinth_character_trait_levels__.cz.loc		
+#Loc;1;text/.cz/idrinth_character_trait_levels__.cz.loc		
 character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	Jsi známý zabiják elfů pro Khaina a ostatní elfy.	false
 character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	Bojoval jsi proti mnoha armádám elfů.	false
 character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	Khainem prokletý zabiják elfů	false
