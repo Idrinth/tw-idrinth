@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_dilemmas__.it.loc.tsv/idrinth_dilemmas__.it.loc		
+#Loc;1;text/.it/idrinth_dilemmas__.it.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Uno straniero incappucciato appare una notte, offrendo il suo aiuto per una piccola tariffa. Accetti l'aiuto?	false
 dilemmas_localised_title_idrinth_unlock_choice	Lo Straniero	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Un messaggero elfico arriva, cercando un Idrinth. L'Idrinth che conosci lo ha evitato finora, forse potresti aiutare?	false
