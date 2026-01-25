@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.ru/idrinth_ancillary_sets__.ru.loc		
+#Loc;1;text/idrinth_ancillary_sets__ru.loc.tsv/idrinth_ancillary_sets__ru.loc		
 ancillary_sets_name_anc_set_exclusive_idrinth_khaine	Благословение Кхейна	false
 ancillary_sets_name_anc_set_exclusive_idrinth_kurnous	Благословение Курноуса	false
 ancillary_sets_name_anc_set_exclusive_idrinth_asuryan	Благословение Асуриана	false
