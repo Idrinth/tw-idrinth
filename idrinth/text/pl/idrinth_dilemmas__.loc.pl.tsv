@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_dilemmas__.pl.loc.tsv/idrinth_dilemmas__.pl.loc		
+#Loc;1;text/.pl/idrinth_dilemmas__.pl.loc		
 dilemmas_localised_description_idrinth_unlock_choice	Pewnej nocy pojawia się nieznajomy w płaszczu, oferując swoją pomoc za niewielką opłatą. Czy przyjmujesz pomoc?	false
 dilemmas_localised_title_idrinth_unlock_choice	Nieznajomy	false
 dilemmas_localised_description_idrinth_dilemma_high_elves	Przybywa elficki posłaniec, szukający Idrinth. Idrinth, którego znasz, unikał go dotąd, może mógłbyś pomóc?	false
