@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_skills__.kr.loc.tsv/idrinth_character_skills__.kr.loc		
+#Loc;1;text/.kr/idrinth_character_skills__.kr.loc		
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_assist_army_training	군대 훈련	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_agent_assassinate	암살	false
 character_skills_localised_name_idrinth_wh2_main_skill_all_hero_hinder_army_assault_units	유닛 습격	false
