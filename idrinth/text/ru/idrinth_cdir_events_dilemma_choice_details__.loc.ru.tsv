@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__ru.loc.tsv/idrinth__ru.loc		
+#Loc;1;text/idrinth_cdir_events_dilemma_choice_details__.ru.loc.tsv/idrinth_cdir_events_dilemma_choice_details__.ru.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Принять помощь. (Герой)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Принять помощь. (Генерал)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Прогнать незнакомца.	false
