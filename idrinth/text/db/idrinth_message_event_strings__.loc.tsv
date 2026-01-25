@@ -1,4 +1,4 @@
-"key"	"text"	"tooltip"
-"message_event_strings_title_idrinth_chapel_lost"	"Chapel Lost"	"false"
-"message_event_strings_title_idrinth_chapel_founded"	"Chapel Founded"	"false"
-"message_event_strings_title_idrinth_godly_intervention"	"The Gods Intervene"	"false"
+key	text	tooltip
+message_event_strings_title_idrinth_chapel_lost	Chapel Lost	false
+message_event_strings_title_idrinth_chapel_founded	Chapel Founded	false
+message_event_strings_title_idrinth_godly_intervention	The Gods Intervene	false
