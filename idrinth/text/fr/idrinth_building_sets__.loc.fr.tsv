@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.fr/idrinth_building_sets__.fr.loc		
+#Loc;1;text/idrinth_building_sets__fr.loc.tsv/idrinth_building_sets__fr.loc		
 building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel	Un rassemblement de malandrins, exilés et aventuriers de la gent elfique autour d'une chapelle dédiée à leurs divinités.	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel	Chappelle Communautaire Elfique	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast	Vétérinaires Elfiques	false
