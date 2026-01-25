@@ -1,139 +1,81 @@
 key	text	tooltip
 #Loc;1;text/db/idrinth__it.loc	
-effect_bundles_localised_description_idrinth_dilemma_empire_FIRST	La studiosa era molto interessata alle guerre antiche. La discussione con Idrinth l'ha guidata a scoprire tattiche utili anche ora.	false
-effect_bundles_localised_description_idrinth_dilemma_empire_SECOND	La studiosa e Idrinth hanno discusso di magia, trovando alcuni piccoli miglioramenti da implementare per i tuoi maghi.	false
-effect_bundles_localised_description_idrinth_dilemma_empire_THIRD	Hai chiesto alla studiosa di Idrinth, imparando della sua lunga guerra contro il caos.	false
-effect_bundles_localised_description_idrinth_dilemma_high_elves_FIRST	Hai scacciato il messaggero, rendendo la vita di Idrinth più facile.	false
-effect_bundles_localised_description_idrinth_dilemma_high_elves_SECOND	Hai affrontato Idrinth riguardo al suo passato, lasciandolo di umore più cupo.	false
-effect_bundles_localised_description_idrinth_dilemma_high_elves_THIRD	Idrinth ha incontrato il messaggero del suo antico popolo, imparando degli obiettivi attuali della sua famiglia. Sembra di umore più leggero ora.	false
-effect_bundles_localised_description_idrinth_dilemma_kislev_FIRST	Hai consegnato l'intruso a Idrinth per l'interrogatorio.	false
-effect_bundles_localised_description_idrinth_dilemma_kislev_SECOND	Hai ucciso l'intruso, facendo arrabbiare la madrepatria, ma prevenendo di peggio.	false
-effect_bundles_localised_description_idrinth_dilemma_kislev_THIRD	L'intruso si è unito a te, rendendo Idrinth profondamente a disagio.	false
-effect_bundles_localised_description_idrinth_dilemma_vampire_counts_FIRST	Hai accusato Idrinth di aver assassinato e prosciugato il servitore. Sta cercando di dimostrare la sua innocenza.	false
-effect_bundles_localised_description_idrinth_dilemma_vampire_counts_SECOND	Hai chiesto a Idrinth della pergamena, imparando alcune antiche teorie magiche.	false
-effect_bundles_localised_description_idrinth_dilemma_vampire_counts_THIRD	Hai deciso di cercare un assassino altrove e le tue truppe sono ora in allerta maggiore.	false
-effect_bundles_localised_description_idrinth_dilemma_wood_elves_FIRST	Idrinth e il ranger si sono incontrati e sono venuti alle mani per quello che ha fatto al suo villaggio.	false
-effect_bundles_localised_description_idrinth_dilemma_wood_elves_SECOND	Hai nascosto Idrinth dal ranger finché non se n'è andata. Mentre lui è grato, questo ha oscurato il suo umore.	false
-effect_bundles_localised_description_idrinth_dilemma_wood_elves_THIRD	Hai affrontato Idrinth riguardo al ranger, facendolo riflettere sul suo passato e presente.	false
-effect_bundles_localised_description_idrinth_dilemma_dwarves_FIRST	Hai chiesto ai nani dell'elfo, portandoti a sospettare di più di Idrinth. Lui a sua volta è meno a suo agio intorno a te, che hai cercato di scavare nel suo passato.	false
-effect_bundles_localised_description_idrinth_dilemma_dwarves_SECOND	Hai scambiato informazioni sulle Guerre Vampiriche, avendo informazioni di prima mano condivise con te.	false
-effect_bundles_localised_description_idrinth_dilemma_dwarves_THIRD	Hai presentato Idrinth ai nani. Non è andata proprio come intendevi, con loro che hanno cercato di attaccare il mostro che era diventato.	false
-effect_bundles_localised_title_idrinth_dilemma_empire_FIRST	Discusso guerre passate	false
-effect_bundles_localised_title_idrinth_dilemma_empire_SECOND	Discusso di Magia	false
-effect_bundles_localised_title_idrinth_dilemma_empire_THIRD	Chiesto di Idrinth	false
-effect_bundles_localised_title_idrinth_dilemma_high_elves_FIRST	Messaggero scacciato	false
-effect_bundles_localised_title_idrinth_dilemma_high_elves_SECOND	Idrinth affrontato	false
-effect_bundles_localised_title_idrinth_dilemma_high_elves_THIRD	Messaggero incontrato	false
-effect_bundles_localised_title_idrinth_dilemma_kislev_FIRST	Consegnato l'Intruso a Idrinth	false
-effect_bundles_localised_title_idrinth_dilemma_kislev_SECOND	Ucciso l'Intruso	false
-effect_bundles_localised_title_idrinth_dilemma_kislev_THIRD	Lasciato unire l'Intruso	false
-effect_bundles_localised_title_idrinth_dilemma_vampire_counts_FIRST	Idrinth accusato	false
-effect_bundles_localised_title_idrinth_dilemma_vampire_counts_SECOND	Chiesto della pergamena	false
-effect_bundles_localised_title_idrinth_dilemma_vampire_counts_THIRD	Cercato assassino altrove	false
-effect_bundles_localised_title_idrinth_dilemma_wood_elves_FIRST	Ranger incontrato	false
-effect_bundles_localised_title_idrinth_dilemma_wood_elves_SECOND	Idrinth nascosto	false
-effect_bundles_localised_title_idrinth_dilemma_wood_elves_THIRD	Idrinth affrontato	false
-effect_bundles_localised_title_idrinth_dilemma_dwarves_FIRST	Chiesto ai nani dell'elfo	false
-effect_bundles_localised_title_idrinth_dilemma_dwarves_SECOND	Avvicinato Idrinth sulle Guerre Vampiriche	false
-effect_bundles_localised_title_idrinth_dilemma_dwarves_THIRD	Presentato Idrinth ai Nani	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_large	Grande Protezione di Asuryan	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_large	Guida Divina di Kurnous	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_large	Marea di Sangue di Khaine	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_medium	Protezione di Asuryan	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_medium	Guida di Kurnous	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_medium	Offerta di Sangue di Khaine	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_small	Protezione Minore di Asuryan	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_small	Guida Sottile di Kurnous	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_small	Goccia di Sangue di Khaine	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_large	I tuoi guerrieri non solo eccellono nell'evitare i colpi e sfuggire agli attacchi per un soffio, le loro ferite guariscono anche significativamente più velocemente del solito.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_large	Come cacciatori naturali, i tuoi guerrieri si muovono veloci e invisibili mentre cacciano cibo e nemici.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_large	Le tue truppe e i nuovi volontari sperimentano l'ebbrezza della battaglia, rendendoli più pericolosi per i loro nemici.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_medium	I tuoi guerrieri improvvisamente eccellono nell'evitare i colpi e sfuggire agli attacchi per un soffio.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_medium	I tuoi guerrieri sono naturalmente furtivi mentre cacciano cibo e nemici.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_medium	I tuoi guerrieri sentono una fame di combattimento in loro, rendendo sia i veterani che le nuove reclute più pericolosi per i loro nemici.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_small	I tuoi guerrieri sperimentano un po' di fortuna nell'evitare colpi e magia, anche se non abbastanza da farci affidamento.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_small	Una piccola quantità di guida e fortuna durante le cacce beneficia le tue truppe.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_small	Una goccia minore di sangue dal pugno di Khaine porta più volontari a unirsi alle tue truppe.	false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_large_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_large_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_large_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_medium_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_medium_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_medium_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_asuryan_small_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_kurnous_small_cost		false
-effect_bundles_localised_description_idrinth_dilemma_god_favour_khaine_small_cost		false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_large_cost	Costo: Grande Protezione di Asuryan	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_large_cost	Costo: Guida Divina di Kurnous	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_large_cost	Costo: Marea di Sangue di Khaine	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_medium_cost	Costo: Protezione di Asuryan	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_medium_cost	Costo: Guida di Kurnous	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_medium_cost	Costo: Offerta di Sangue di Khaine	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_asuryan_small_cost	Costo: Protezione Minore di Asuryan	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_kurnous_small_cost	Costo: Guida Sottile di Kurnous	false
-effect_bundles_localised_title_idrinth_dilemma_god_favour_khaine_small_cost	Costo: Goccia di Sangue di Khaine	false
-effect_bundles_localised_description_idrinth_vampiric_priests	Idrinth ha trasformato i suoi sacerdoti in vampiri. Possa il loro sacrificio salvarci.	false
-effect_bundles_localised_title_idrinth_vampiric_priests	Sacerdoti Vampirici	false
-effect_bundles_localised_title_idrinth_successful_action_army	Agente Motivato	false
-effect_bundles_localised_title_idrinth_successful_action_army_critical	Agente Motivato	false
-effect_bundles_localised_title_idrinth_successful_action_character	Agente Motivato	false
-effect_bundles_localised_title_idrinth_successful_action_character_critical	Agente Motivato	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_ambush	Posizione: Imboscata Magistrale	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_channelling	Posizione: Canalizzazione	false
-effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_default	Posizione: Nessuna	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_raiding	Posizione: Razzia	false
-effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_forced_march	Posizione: Marcia	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_settlement	Posizione: Accampamento	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_army_tunnelling	Posizione: Usa le Radici del Mondo	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_navy_blockading	Posizione: Razzia dei Mari	false
-effect_bundles_localised_title_idrinth_hev_vampires_bundle_stance_army_garrisoned	Situazione: In Guarnigione	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_siege	Situazione: Assedio	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_bundle_stance_patrol	Posizione: Pattuglia	false
-effect_bundles_localised_title_idrinth_asuryan_god_favour_cave_bats	Benedizione di Asuryan	false
-effect_bundles_localised_description_idrinth_asuryan_god_favour_cave_bats	Asuryan benedice i pipistrelli delle caverne per sopravvivere più a lungo.	false
-effect_bundles_localised_title_idrinth_kurnous_god_favour_cave_bats	Benedizione di Kurnous	false
-effect_bundles_localised_description_idrinth_kurnous_god_favour_cave_bats	Kurnous benedice i pipistrelli delle caverne per cacciare meglio.	false
-effect_bundles_localised_title_idrinth_khaine_god_favour_cave_bats	Benedizione di Khaine	false
-effect_bundles_localised_description_idrinth_khaine_god_favour_cave_bats	Khaine benedice i pipistrelli delle caverne per massacrare i loro nemici.	false
-effect_bundles_localised_title_idrinth_asuryan_god_favour_wolves	Benedizione di Asuryan	false
-effect_bundles_localised_description_idrinth_asuryan_god_favour_wolves	Asuryan benedice i lupi per sopravvivere più a lungo.	false
-effect_bundles_localised_title_idrinth_kurnous_god_favour_wolves	Benedizione di Kurnous	false
-effect_bundles_localised_description_idrinth_kurnous_god_favour_wolves	Kurnous benedice i lupi per cacciare meglio.	false
-effect_bundles_localised_title_idrinth_khaine_god_favour_wolves	Benedizione di Khaine	false
-effect_bundles_localised_description_idrinth_khaine_god_favour_wolves	Khaine benedice i lupi per massacrare i loro nemici.	false
-effect_bundles_localised_title_idrinth_asuryan_god_favour_hawks	Benedizione di Asuryan	false
-effect_bundles_localised_description_idrinth_asuryan_god_favour_hawks	Asuryan benedice i falchi per sopravvivere più a lungo.	false
-effect_bundles_localised_title_idrinth_kurnous_god_favour_hawks	Benedizione di Kurnous	false
-effect_bundles_localised_description_idrinth_kurnous_god_favour_hawks	Kurnous benedice i falchi per cacciare meglio.	false
-effect_bundles_localised_title_idrinth_khaine_god_favour_hawks	Benedizione di Khaine	false
-effect_bundles_localised_description_idrinth_khaine_god_favour_hawks	Khaine benedice i falchi per massacrare i loro nemici.	false
-effect_bundles_localised_title_idrinth_asuryan_god_favour_great_eagles	Benedizione di Asuryan	false
-effect_bundles_localised_description_idrinth_asuryan_god_favour_great_eagles	Asuryan benedice la grande aquila per sopravvivere più a lungo.	false
-effect_bundles_localised_title_idrinth_kurnous_god_favour_great_eagles	Benedizione di Kurnous	false
-effect_bundles_localised_description_idrinth_kurnous_god_favour_great_eagles	Kurnous benedice la grande aquila per cacciare meglio.	false
-effect_bundles_localised_title_idrinth_khaine_god_favour_great_eagles	Benedizione di Khaine	false
-effect_bundles_localised_description_idrinth_khaine_god_favour_great_eagles	Khaine benedice la grande aquila per massacrare i loro nemici.	false
-effect_bundles_localised_title_idrinth_hev_high_elf_vampires_anti_chaos	Benedizione Thaluiana	false
-effect_bundles_localised_description_idrinth_hev_high_elf_vampires_anti_chaos	I tuoi dei potenziano le forze della Cappella Thaluiana contro tutti i seguaci delle potenze rovinose.	false
-effect_bundles_localised_title_idrinth_chapel_slots_present	Spazio Cappella Thaluiana	false
-effect_bundles_localised_description_idrinth_chapel_slots_present	Questo insediamento contiene un'area che è stata consacrata da Asuryan, Khaine e Kurnous e potrebbe ospitare un Complesso della Cappella Thaluiana.	false
-effect_bundles_localised_title_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
-effect_bundles_localised_description_idrinth_veteran_0	Inexperienced Recruits [[img:veteran_experience_0]]	false
-effect_bundles_localised_title_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
-effect_bundles_localised_description_idrinth_veteran_1	Mixed Guard Recruits [[img:veteran_experience_1]]	false
-effect_bundles_localised_title_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
-effect_bundles_localised_description_idrinth_veteran_2	Mixed Guard Recruits [[img:veteran_experience_2]]	false
-effect_bundles_localised_title_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
-effect_bundles_localised_description_idrinth_veteran_3	Mixed Guard Recruits [[img:veteran_experience_3]]	false
-effect_bundles_localised_title_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
-effect_bundles_localised_description_idrinth_veteran_4	Mixed Guard Soldiers [[img:veteran_experience_4]]	false
-effect_bundles_localised_title_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
-effect_bundles_localised_description_idrinth_veteran_5	Mixed Guard Soldiers [[img:veteran_experience_5]]	false
-effect_bundles_localised_title_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
-effect_bundles_localised_description_idrinth_veteran_6	Mixed Guard Soldiers [[img:veteran_experience_6]]	false
-effect_bundles_localised_title_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
-effect_bundles_localised_description_idrinth_veteran_7	Mixed Guard Veteran [[img:veteran_experience_7]]	false
-effect_bundles_localised_title_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
-effect_bundles_localised_description_idrinth_veteran_8	Mixed Guard Veteran [[img:veteran_experience_8]]	false
-effect_bundles_localised_title_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
-effect_bundles_localised_description_idrinth_veteran_9	Mixed Guard Veteran [[img:veteran_experience_9]]	false
+effects_description_idrinth_effect_agent_action_assist_army_training	Azione [[col:yellow]]{{tr:agent_action_name_training}}[[/col]]: Il guadagno di esperienza delle unità è aumentato di un ulteriore %+n%	false
+effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	Azione [[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]]: %+n% di vittime aggiuntive inflitte	false
+effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	Azione [[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]]: %+n% di probabilità di successo aggiuntiva	false
+effects_description_idrinth_effect_agent_action_enable_passive_spread_corruption_vmp	Azione [[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]]: La corruzione vampirica è aumentata di un ulteriore %+n	false
+effects_description_idrinth_pooled_resource_khaine	Genera %+n Favore di Khaine.	false
+effects_description_idrinth_pooled_resource_kurnous	Genera %+n Favore di Kurnous.	false
+effects_description_idrinth_pooled_resource_asuryan	Genera %+n Favore di Asuryan.	false
+effects_description_idrinth_effect_upkeep_idrinth	Mantenimento aumentato del %+n% per Idrinth.	false
+effects_description_idrinth_initiative_khaine	Seguire il sentiero di Khaine, il guerriero, ti permette di massacrare i tuoi nemici.	false
+effects_description_idrinth_initiative_kurnous	Seguire il sentiero di Kurnous, il cacciatore, ti rende un cacciatore migliore.	false
+effects_description_idrinth_initiative_asuryan	Seguire il sentiero di Asuryan, il protettore, ti protegge.	false
+effects_description_idrinth_chapel_khaine_charge	Khaine rafforza la tua determinazione e rende Idrinth e le guarnigioni della cappella %+n% truppe d'assalto.	false
+effects_description_idrinth_chapel_kurnous_range	Kurnous rafforza il tuo arco e permette a Idrinth e alle guarnigioni della cappella di sparare %+n% più lontano.	false
+effects_description_idrinth_chapel_asuryan_ward_save	Asuryan rafforza la tua mente, proteggendo Idrinth e le guarnigioni della cappella da %+n danni con una barriera.	false
+effects_description_idrinth_loremaster_lore_of_vampires	Riduce costo, tempo di ricarica e probabilità di incantesimo fallito del %+n% per gli incantesimi della sapienza dei vampiri.	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	Aumenta la gittata del %+n% per gli incantesimi della sapienza dei vampiri.	false
+effects_description_idrinth_loremaster_lore_of_shadows	Riduce costo, tempo di ricarica e probabilità di incantesimo fallito del %+n% per gli incantesimi della sapienza delle ombre.	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	Aumenta la gittata del %+n% per gli incantesimi della sapienza delle ombre.	false
+effects_description_idrinth_loremaster_lore_of_death	Riduce costo, tempo di ricarica e probabilità di incantesimo fallito del %+n% per gli incantesimi della sapienza della morte.	false
+effects_description_idrinth_loremaster_lore_of_death_2	Aumenta la gittata del %+n% per gli incantesimi della sapienza della morte.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	Forza arma %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	Perdita vigore %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_speed	Velocità %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_range	Gittata %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_defence	Difesa in mischia %+n per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_attack_pct	Attacco in mischia %+n per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_fire_resistance	Vulnerabilità al fuoco %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_charge_bonus_pct	Bonus carica %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_force_all_campaign_replenishment_rate	Rifornimento %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_physical_resistance	Resistenza fisica %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_resistance	Resistenza ai proiettili %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_damage	Danno a distanza %+n% per i sacerdoti.	false
+effects_description_idrinth_priests_wh_main_effect_attribute_enable_causes_fear	I sacerdoti causano paura.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	I sacerdoti hanno una fame vampirica.	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	I sacerdoti conoscono l'Invocazione di Nehek.	false
+effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	I sacerdoti sono non-morti.	false
+effects_description_idrinth_successful_action_motivation	Probabilità di successo, Costo e Probabilità Critica sono aumentati del %+n%.	false
+effects_description_idrinth_ranger_knowledge_primary	Gli elfi delle Cappelle Thaluiane possono sparare %+n% più lontano.	false
+effects_description_idrinth_blade_dancing_primary	Gli elfi delle Cappelle Thaluiane danzano lontano dalle lame nemiche, aumentando la loro Difesa in Mischia di %+n.	false
+effects_description_idrinth_unusual_training_primary	Gli elfi delle Cappelle Thaluiane aumentano la loro Leadership di %+n.	false
+effects_description_idrinth_running_wild_primary	Gli elfi delle Cappelle Thaluiane aumentano la loro Velocità di Movimento del %+n%.	false
+effects_description_idrinth_veterans_primary	Gli elfi veterani delle Cappelle Thaluiane colpiscono %+n% più forte in mischia.	false
+effects_description_idrinth_strong_as_stone_primary	Le unità animate delle Cappelle Thaluiane resistono %+n% più danni.	false
+effects_description_idrinth_beasts_of_nature_primary	Le bestie delle Cappelle Thaluiane sono più feroci, aumentando il loro Attacco in Mischia di %+n.	false
+effects_description_idrinth_ranger_knowledge_secondary	Gli elfi delle Cappelle Thaluiane aumentano la loro velocità di ricarica del %+n%.	false
+effects_description_idrinth_blade_dancing_secondary	Gli elfi delle Cappelle Thaluiane danzano lontano dalle lame nemiche, aumentando il loro Attacco in Mischia di %+n.	false
+effects_description_idrinth_unusual_training_secondary	Gli elfi delle Cappelle Thaluiane hanno imparato a indossare la loro armatura più efficacemente, aumentando la loro valutazione armatura di %+n.	false
+effects_description_idrinth_running_wild_secondary	Gli elfi delle Cappelle Thaluiane corrono selvaggi, aumentando la loro carica di %+n.	false
+effects_description_idrinth_veterans_secondary	Gli elfi veterani delle Cappelle Thaluiane si stancano %+n% più lentamente.	false
+effects_description_idrinth_strong_as_stone_secondary	I costrutti delle Cappelle Thaluiane aumentano la loro carica di %+n.	false
+effects_description_idrinth_beasts_of_nature_secondary	Le bestie delle Cappelle Thaluiane sono più motivate, aumentando la loro Velocità di Movimento del %+n%.	false
+effects_description_idrinth_veterans_tertiary	Gli elfi veterani delle Cappelle Thaluiane hanno affrontato paura e pericolo prima, aumentando la loro Leadership di %+n.	false
+effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	%+n limite unità per Guardia Elfica Mista.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_guard	%+n limite unità per Guardia di Asuryan.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_guard	%+n limite unità per Guardia di Khaine.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_guard	%+n limite unità per Guardia di Kurnous.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_priest	%+n limite unità per Sacerdoti di Asuryan.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_priest	%+n limite unità per Sacerdoti di Khaine.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_priest	%+n limite unità per Sacerdoti di Kurnous.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_vampire_priest	%+n limite unità per Sacerdoti Vampiri di Asuryan.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_vampire_priest	%+n limite unità per Sacerdoti Vampiri di Khaine.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_vampire_priest	%+n limite unità per Sacerdoti Vampiri di Kurnous.	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_varghulf	%+n limite unità per Varghulf di Asuryan.	false
+effects_description_idrinth_unit_capacity_chapel_khaine_varghulf	%+n limite unità per Varghulf di Khaine.	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_varghulf	%+n limite unità per Varghulf di Kurnous.	false
+effects_description_idrinth_unit_capacity_chapel_shrine	%+n limite unità per Santuari ad Asuryan, Kurnous e Khaine.	false
+effects_description_idrinth_unit_capacity_chapel_stone_wolves	%+n limite unità per Lupi di Pietra.	false
+effects_description_idrinth_unit_capacity_chapel_outriders	%+n limite unità per Avanguardie.	false
+effects_description_idrinth_chapel_units_upkeep	%+n% meno mantenimento per tutte le unità elfiche delle Cappelle Thaluiane.	false
+effects_description_idrinth_chapel_units_recruitment_rank	%+n grado di reclutamento per tutte le unità elfiche delle Cappelle Thaluiane.	false
+effects_description_idrinth_initiative_khaine_pray	La tua preghiera a Khaine ha migliorato il potenziale offensivo delle tue truppe.	false
+effects_description_idrinth_initiative_kurnous_pray	La tua preghiera a Kurnous ha migliorato il potenziale di caccia delle tue truppe.	false
+effects_description_idrinth_initiative_asuryan_pray	La tua preghiera ad Asuryan ha migliorato il potenziale di sopravvivenza delle tue truppe.	false
+effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	Aumenta le tue capacità nelle battaglie contro le potenze rovinose.	false
+effects_description_idrinth_chapel_beasts_upkeep	Diminuisce il mantenimento per le bestie della Cappella Thaluiana del %+n%.	false
+effects_description_idrinth_enable_thalui_name	Questo personaggio ha giurato eterna vendetta sulle potenze rovinose e ha adottato il nome Thalui per questo motivo.	false
+effects_description_idrinth_enable_knight_scholar_name	Questo personaggio è sia uno studioso che un cavaliere e viene riconosciuto come tale dalle diverse fazioni.	false
+effects_description_idrinth_chapel_recruitment_speedup	La durata del reclutamento per le unità della cappella è ridotta di %+n turni.	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	Impedisce ai nemici di usare attacco fulmine contro questa forza.	false
