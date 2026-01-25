@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/idrinth__br.loc.tsvdb/idrinth__br.loc		
+message_event_strings_title_idrinth_chapel_lost	Capilla Perdida	false
+message_event_strings_title_idrinth_chapel_founded	Capilla Fundada	false
+message_event_strings_title_idrinth_godly_intervention	Os Deuses Intervêm	false
