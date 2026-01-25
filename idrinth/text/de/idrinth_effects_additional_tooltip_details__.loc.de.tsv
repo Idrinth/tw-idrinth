@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc;1;text/idrinth_effects_additional_tooltip_details__.de.loc.tsv/idrinth_effects_additional_tooltip_details__.de.loc		
-effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Heer unterstützen)\\nErhöht den Erfahrungsgewinn für Einheiten in der zugehörigen Heerschar.	false
-effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Ziel: Held)\\nTötet den anvisierten [[img:icon_hero]][[/img]]Helden.	false
-effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Ziel: Heerschar)\\nFügt allen Einheiten der anvisierten Heerschar Schaden zu.	false
-effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Ständiger lokaler Effekt)\\nErhöht die [[img:icon_corruption_vmp]][[/img]]Vampirische Verderbnis in der hiesigen Provinz.	false

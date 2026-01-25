@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc;1;text/idrinth_effects_additional_tooltip_details__.es.loc.tsv/idrinth_effects_additional_tooltip_details__.es.loc		
-effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Asistir Ejército)\\nAumenta la ganancia de experiencia para las unidades que sirven en el ejército principal.	false
-effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Objetivo: Héroe)\\nMata al [[img:icon_hero]][[/img]]Héroe objetivo.	false
-effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Objetivo: Ejército)\\nInflige daño a todas las unidades del ejército objetivo.	false
-effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Efecto Local Constante)\\nAumenta la cantidad de [[img:icon_corruption_vmp]][[/img]]Corrupción Vampírica en la provincia local.	false

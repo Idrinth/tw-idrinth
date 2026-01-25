@@ -1,8 +1,0 @@
-key	text	tooltip
-#Loc;1;text/idrinth_ancillary_sets__.it.loc.tsv/idrinth_ancillary_sets__.it.loc		
-ancillary_sets_name_anc_set_exclusive_idrinth_khaine	Benedizione di Khaine	false
-ancillary_sets_name_anc_set_exclusive_idrinth_kurnous	Benedizione di Kurnous	false
-ancillary_sets_name_anc_set_exclusive_idrinth_asuryan	Benedizione di Asuryan	false
-ancillary_sets_description_anc_set_exclusive_idrinth_khaine	Gli oggetti benedetti da Khaine ti forgiano in una fonte operante di morte e distruzione.	false
-ancillary_sets_description_anc_set_exclusive_idrinth_kurnous	Gli oggetti benedetti da Kurnous ti rendono uno dei cacciatori più pericolosi in vita.	false
-ancillary_sets_description_anc_set_exclusive_idrinth_asuryan	Gli oggetti benedetti da Asuryan definiscono il difensore degli indifesi.	false

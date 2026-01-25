@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc;1;text/idrinth_message_event_text__.kr.loc.tsv/idrinth_message_event_text__.kr.loc		
-message_event_text_idrinth_chapel_lost	예배당이 정착지의 새 주인에 의해 불태워졌습니다. 이제 어디서 모일까요?	false
-message_event_text_idrinth_chapel_founded	새 예배당을 위한 장소가 신들에 의해 봉헌되었습니다. 그들의 축복을 얻기 위해 빨리 건설해야 합니다.	false
-message_event_text_idrinth_godly_intervention	이드린스가 그의 신들이 당신의 대의를 지원하기로 결정했다고 알립니다. 당신의 군대는 잠시 동안 신성한 축복으로 더 강력해질 것입니다.	false
-message_event_text_idrinth_godly_intervention_subtitle	아수리안, 카인, 쿠르노스가 행동합니다.	false

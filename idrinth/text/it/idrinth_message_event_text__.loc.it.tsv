@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc;1;text/idrinth_message_event_text__.it.loc.tsv/idrinth_message_event_text__.it.loc		
-message_event_text_idrinth_chapel_lost	La Cappella è stata bruciata dal nuovo proprietario dell'insediamento. Dove ci raduneremo ora?	false
-message_event_text_idrinth_chapel_founded	Il luogo per una nuova Cappella è stato consacrato dagli dei. Dovremmo costruirla rapidamente per ottenere le loro benedizioni.	false
-message_event_text_idrinth_godly_intervention	Idrinth ti informa che i suoi dei hanno deciso di agire per supportare la tua causa. I tuoi eserciti saranno più potenti grazie a una benedizione divina per un po'.	false
-message_event_text_idrinth_godly_intervention_subtitle	Asuryan, Khaine e Kurnous agiscono.	false

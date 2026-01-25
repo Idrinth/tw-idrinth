@@ -1,7 +1,0 @@
-key	text	tooltip
-#Loc;1;text/idrinth_factions__.tr.loc.tsv/idrinth_factions__.tr.loc		
-factions_attack_desc_idrinth_hev_high_elf_vampires	Thalui Şapellerine saldırıyorsunuz!	false
-factions_defend_desc_idrinth_hev_high_elf_vampires	Thalui Şapellerine karşı savunuyorsunuz!	false
-factions_screen_adjective_idrinth_hev_high_elf_vampires	thalui	false
-factions_screen_name_idrinth_hev_high_elf_vampires	Thalui Şapelleri	false
-factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires	Asi Thalui Şapelleri	false
