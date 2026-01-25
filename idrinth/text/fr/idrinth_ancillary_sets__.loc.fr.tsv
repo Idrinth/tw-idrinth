@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ancillary_sets__fr.loc.tsv/idrinth_ancillary_sets__fr.loc		
+ancillary_sets_name_anc_set_exclusive_idrinth_khaine	Bénédiction de Khaine	false
+ancillary_sets_name_anc_set_exclusive_idrinth_kurnous	Bénédiction de Kurnous	false
+ancillary_sets_name_anc_set_exclusive_idrinth_asuryan	Bénédiction d'Asuryan	false
+ancillary_sets_description_anc_set_exclusive_idrinth_khaine	Les objets bénis de Khaine vous forgent en une source mouvante de mort et de destruction.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_kurnous	Les objets bénis de Kurnous font de vous l'un des chasseurs les plus redoutables qui soient.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_asuryan	Les objets bénis d'Asuryan définissent le défenseur des faibles.	false
