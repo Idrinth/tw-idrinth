@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_initiative_sets__.fr.loc.tsv/idrinth_initiative_sets__.fr.loc		
+#Loc;1;text/.fr/idrinth_initiative_sets__.fr.loc		
 initiative_sets_localised_name_idrinth_godly_favour	Dévotion	false
 initiative_sets_localised_name_idrinth_godly_blessings	Bénédictions	false
 initiative_sets_localised_description_idrinth_godly_favour		false
