@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.es/idrinth_ancillary_sets__.es.loc		
+#Loc;1;text/idrinth_ancillary_sets__es.loc.tsv/idrinth_ancillary_sets__es.loc		
 ancillary_sets_name_anc_set_exclusive_idrinth_khaine	Bendición de Khaine	false
 ancillary_sets_name_anc_set_exclusive_idrinth_kurnous	Bendición de Kurnous	false
 ancillary_sets_name_anc_set_exclusive_idrinth_asuryan	Bendición de Asuryan	false
