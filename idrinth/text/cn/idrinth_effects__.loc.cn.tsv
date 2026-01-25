@@ -1,0 +1,81 @@
+key	text	tooltip
+#Loc;1;text/idrinth_effects__.cn.loc.tsv/idrinth_effects__.cn.loc		
+effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] 行动：单位经验获取额外增加 %+n%	false
+effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] 行动：额外造成 %+n% 伤亡	false
+effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] 行动：额外 %+n% 成功几率	false
+effects_description_idrinth_effect_agent_action_enable_passive_spread_corruption_vmp	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] 行动：吸血鬼腐化额外增加 %+n	false
+effects_description_idrinth_pooled_resource_khaine	产生 %+n 凯恩恩宠。	false
+effects_description_idrinth_pooled_resource_kurnous	产生 %+n 库尔诺斯恩宠。	false
+effects_description_idrinth_pooled_resource_asuryan	产生 %+n 阿苏里安恩宠。	false
+effects_description_idrinth_effect_upkeep_idrinth	Idrinth 的维护费增加 %+n%。	false
+effects_description_idrinth_initiative_khaine	追随战士凯恩的道路，让你屠杀敌人。	false
+effects_description_idrinth_initiative_kurnous	追随猎人库尔诺斯的道路，使你成为更好的猎人。	false
+effects_description_idrinth_initiative_asuryan	追随守护者阿苏里安的道路，保护你。	false
+effects_description_idrinth_chapel_khaine_charge	凯恩增强你的决心，使 Idrinth 和礼拜堂守军的冲击部队 %+n%。	false
+effects_description_idrinth_chapel_kurnous_range	库尔诺斯增强你的弓，让 Idrinth 和礼拜堂守军的射程增加 %+n%。	false
+effects_description_idrinth_chapel_asuryan_ward_save	阿苏里安增强你的心智，用屏障保护 Idrinth 和礼拜堂守军免受 %+n 伤害。	false
+effects_description_idrinth_loremaster_lore_of_vampires	吸血鬼学派法术的花费、冷却和误施几率降低 %+n%。	false
+effects_description_idrinth_loremaster_lore_of_vampires_2	吸血鬼学派法术的范围增加 %+n%。	false
+effects_description_idrinth_loremaster_lore_of_shadows	暗影学派法术的花费、冷却和误施几率降低 %+n%。	false
+effects_description_idrinth_loremaster_lore_of_shadows_2	暗影学派法术的范围增加 %+n%。	false
+effects_description_idrinth_loremaster_lore_of_death	死亡学派法术的花费、冷却和误施几率降低 %+n%。	false
+effects_description_idrinth_loremaster_lore_of_death_2	死亡学派法术的范围增加 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_weapon_strength	祭司武器强度 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_vigour_loss_reduction	祭司体力流失 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_speed	祭司速度 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_range	祭司射程 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_defence	祭司近战防御 %+n。	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_melee_attack_pct	祭司近战攻击 %+n。	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_fire_resistance	祭司火焰易伤 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_force_stat_charge_bonus_pct	祭司冲锋加成 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_force_all_campaign_replenishment_rate	祭司补员 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_physical_resistance	祭司物理抗性 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_resistance	祭司投射抗性 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_character_stat_missile_damage	祭司投射伤害 %+n%。	false
+effects_description_idrinth_priests_wh_main_effect_attribute_enable_causes_fear	祭司造成恐惧。	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_the_hunger	祭司拥有吸血鬼饥渴。	false
+effects_description_idrinth_priests_wh_main_effect_ability_enable_invocation_of_nehek	祭司掌握尼赫克祈灵术。	false
+effects_description_idrinth_priests_wh2_dlc16_effect_unit_enable_attribute_undead	祭司是亡灵。	false
+effects_description_idrinth_successful_action_motivation	成功几率、花费和暴击几率增加 %+n%。	false
+effects_description_idrinth_ranger_knowledge_primary	塔卢伊礼拜堂的精灵射程增加 %+n%。	false
+effects_description_idrinth_blade_dancing_primary	塔卢伊礼拜堂的精灵在敌人刀锋间闪避起舞，近战防御增加 %+n。	false
+effects_description_idrinth_unusual_training_primary	塔卢伊礼拜堂的精灵领导力增加 %+n。	false
+effects_description_idrinth_running_wild_primary	塔卢伊礼拜堂的精灵移动速度增加 %+n%。	false
+effects_description_idrinth_veterans_primary	塔卢伊礼拜堂的老兵精灵近战伤害增加 %+n%。	false
+effects_description_idrinth_strong_as_stone_primary	塔卢伊礼拜堂的动画单位抗性增加 %+n%。	false
+effects_description_idrinth_beasts_of_nature_primary	塔卢伊礼拜堂的野兽更加凶猛，近战攻击增加 %+n。	false
+effects_description_idrinth_ranger_knowledge_secondary	塔卢伊礼拜堂的精灵装填速度增加 %+n%。	false
+effects_description_idrinth_blade_dancing_secondary	塔卢伊礼拜堂的精灵在敌人刀锋间闪避起舞，近战攻击增加 %+n。	false
+effects_description_idrinth_unusual_training_secondary	塔卢伊礼拜堂的精灵学会了更有效地穿戴护甲，护甲值增加 %+n。	false
+effects_description_idrinth_running_wild_secondary	塔卢伊礼拜堂的精灵狂野奔跑，冲锋加成增加 %+n。	false
+effects_description_idrinth_veterans_secondary	塔卢伊礼拜堂的老兵精灵疲劳速度降低 %+n%。	false
+effects_description_idrinth_strong_as_stone_secondary	塔卢伊礼拜堂的构造体冲锋加成增加 %+n。	false
+effects_description_idrinth_beasts_of_nature_secondary	塔卢伊礼拜堂的野兽更有动力，移动速度增加 %+n%。	false
+effects_description_idrinth_veterans_tertiary	塔卢伊礼拜堂的老兵精灵曾面对恐惧和危险，领导力增加 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_mixed_elven_guard	混编精灵卫士单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_guard	阿苏里安卫士单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_khaine_guard	凯恩卫士单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_guard	库尔诺斯卫士单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_priest	阿苏里安祭司单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_khaine_priest	凯恩祭司单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_priest	库尔诺斯祭司单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_vampire_priest	阿苏里安吸血鬼祭司单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_khaine_vampire_priest	凯恩吸血鬼祭司单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_vampire_priest	库尔诺斯吸血鬼祭司单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_asuryan_varghulf	阿苏里安瓦尔古夫单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_khaine_varghulf	凯恩瓦尔古夫单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_kurnous_varghulf	库尔诺斯瓦尔古夫单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_shrine	阿苏里安、库尔诺斯和凯恩神龛单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_stone_wolves	石狼单位上限 %+n。	false
+effects_description_idrinth_unit_capacity_chapel_outriders	骑哨单位上限 %+n。	false
+effects_description_idrinth_chapel_units_upkeep	塔卢伊礼拜堂所有精灵单位维护费减少 %+n%。	false
+effects_description_idrinth_chapel_units_recruitment_rank	塔卢伊礼拜堂所有精灵单位招募等级 %+n。	false
+effects_description_idrinth_initiative_khaine_pray	你向凯恩的祈祷提升了部队的攻击潜力。	false
+effects_description_idrinth_initiative_kurnous_pray	你向库尔诺斯的祈祷提升了部队的狩猎潜力。	false
+effects_description_idrinth_initiative_asuryan_pray	你向阿苏里安的祈祷提升了部队的生存潜力。	false
+effects_description_idrinth_hev_high_elf_vampires_anti_chaos_enable	增强你对抗毁灭之力追随者的战斗能力。	false
+effects_description_idrinth_chapel_beasts_upkeep	塔卢伊礼拜堂野兽维护费降低 %+n%。	false
+effects_description_idrinth_enable_thalui_name	此角色已立誓永远复仇毁灭之力，因此采用了塔卢伊这个名字。	false
+effects_description_idrinth_enable_knight_scholar_name	此角色既是学者也是骑士，在不同阵营中均获认可。	false
+effects_description_idrinth_chapel_recruitment_speedup	礼拜堂单位招募时间减少 %+n 回合。	false
+effects_description_idrinth_hev_high_elf_vampires_disable_enemy_lightning_strike	阻止敌人对此军队使用闪电战。	false
