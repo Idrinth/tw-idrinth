@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__es.loc.tsv/idrinth__es.loc		
+#Loc;1;text/idrinth_effect_bundles__.es.loc.tsv/idrinth_effect_bundles__.es.loc		
 effect_bundles_localised_description_idrinth_dilemma_empire_FIRST	La erudita estaba muy interesada en guerras antiguas. La discusión con Idrinth la guió a descubrir tácticas que también son útiles ahora.	false
 effect_bundles_localised_description_idrinth_dilemma_empire_SECOND	La erudita e Idrinth discutieron sobre magia, encontrando algunas pequeñas mejoras para que tus magos implementen.	false
 effect_bundles_localised_description_idrinth_dilemma_empire_THIRD	Preguntaste a la erudita sobre Idrinth, aprendiendo sobre su larga guerra contra el caos.	false
