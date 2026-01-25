@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_upgrade_tooltips__.es.loc.tsv/idrinth_upgrade_tooltips__.es.loc		
+#Loc;1;text/.es/idrinth_upgrade_tooltips__.es.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Mejora la Guardia Élfica Mixta a Guardia de Asuryan por 300 de Oro.	false
 upgrade_tooltips_idrinth_priest_asuryan	Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.	false
 upgrade_tooltips_idrinth_unit_khaine	Mejora la Guardia Élfica Mixta a Guardia de Khaine por 300 de Oro.	false
