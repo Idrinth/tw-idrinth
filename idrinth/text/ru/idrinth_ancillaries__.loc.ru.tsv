@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/idrinth__ru.loc.tsvdb/idrinth__ru.loc		
+ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	Талисман, благословлённый Кхейном, Кровавым Богом. Лишь немногие заслужили достаточно его милости, чтобы владеть подобным орудием от его имени. Засохшая кровь пульсирует древней силой, нашёптывая своему носителю обещания насилия.	false
+ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Доказанный боевой опыт.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Талисман Засохшей Крови	false
+ancillaries_colour_text_idrinth_anc_talisman_talisman_of_souls	Талисман, благословлённый Асурианом для сохранения знаний прошлых поколений. В тишине можно услышать шёпот древних эльфийских мудрецов, предлагающих мудрость из-за грани.	false
+ancillaries_explanation_text_idrinth_anc_talisman_talisman_of_souls	Доказанный боевой опыт.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_talisman_of_souls	Талисман Душ	false
+ancillaries_colour_text_idrinth_anc_talisman_forest_berry_wine	Своего рода талисман, благословлённый Курноусом, дарующий владельцу лучшее ягодное вино во всём мире. Один глоток соединяет пьющего с дикой природой, обостряя чувства и ускоряя рефлексы, словно сам лес направляет каждое движение.	false
+ancillaries_explanation_text_idrinth_anc_talisman_forest_berry_wine	Доказанный боевой опыт.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_forest_berry_wine	Лесное Ягодное Вино	false
+ancillaries_colour_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Оружие, благословлённое Курноусом, чтобы превратить своего владельца в одного из величайших охотников мира. Те, кого поразили его стрелы, чувствуют первобытный страх, словно за ними охотится сама природа, а не просто лучник.	false
+ancillaries_explanation_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Доказанный боевой опыт.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Благословенный Охотничий Лук	false
+ancillaries_colour_text_idrinth_anc_armour_khaines_visage	Этот шлем открывает маску, являющую смесь ужаса, кровожадности и чистой жажды насилия. Личина преображает носителя, пробуждая первобытную ярость, которую враги чуют издалека.	false
+ancillaries_explanation_text_idrinth_anc_armour_khaines_visage	Доказанный боевой опыт.	false
+ancillaries_onscreen_name_idrinth_anc_armour_khaines_visage	Лик Кхейна	false
+ancillaries_colour_text_idrinth_anc_weapon_khaines_thirsting_sword	Меч, жаждущий крови не меньше своего хозяина. С каждым ударом он алкает большего, становясь сильнее с каждой отнятой жизнью. Лезвие никогда не тупится, омытое свежей кровью.	false
+ancillaries_explanation_text_idrinth_anc_weapon_khaines_thirsting_sword	Доказанный боевой опыт.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_khaines_thirsting_sword	Жаждущий Меч Кхейна	false
+ancillaries_colour_text_idrinth_anc_weapon_asuryans_perfection_sword	Меч, столь же совершенный, как и его владелец стремится быть. Выкованный в вечном пламени самого Асуриана, этот меч в стиле высших эльфов приносит гармонию в бой, позволяя хозяину сражаться с непревзойдённой точностью и выносливостью.	false
+ancillaries_explanation_text_idrinth_anc_weapon_asuryans_perfection_sword	Доказанный боевой опыт.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_asuryans_perfection_sword	Меч Совершенства Асуриана	false
+ancillaries_colour_text_idrinth_anc_armour_kurnous_forest_cloak	Доспех по замыслу Курноуса, лёгкий и едва заметный. Этот тёмно-зелёный плащ несёт в себе сущность глубокого леса, скрывая носителя от вражьих глаз и обостряя осознание окружающего.	false
+ancillaries_explanation_text_idrinth_anc_armour_kurnous_forest_cloak	Доказанный боевой опыт.	false
+ancillaries_onscreen_name_idrinth_anc_armour_kurnous_forest_cloak	Лесной Плащ Курноуса	false
+ancillaries_colour_text_idrinth_anc_armour_asuryans_destiny	Эти доспехи защищают носителя, пока он служит эльфийскому народу, продлевая его жизнь за пределы всех ожиданий. Чары, вплетённые в каждую пластину, отвергают порчу нежити, позволяя владельцу ходить меж двух миров.	false
+ancillaries_explanation_text_idrinth_anc_armour_asuryans_destiny	Доказанный боевой опыт.	false
+ancillaries_onscreen_name_idrinth_anc_armour_asuryans_destiny	Доспехи Судьбы Асуриана	false
