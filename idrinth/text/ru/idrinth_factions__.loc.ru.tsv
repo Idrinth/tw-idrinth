@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__ru.loc.tsv/idrinth__ru.loc		
+#Loc;1;text/idrinth_factions__.ru.loc.tsv/idrinth_factions__.ru.loc		
 factions_attack_desc_idrinth_hev_high_elf_vampires	Вы атакуете Талуианские Капеллы!	false
 factions_defend_desc_idrinth_hev_high_elf_vampires	Вы защищаетесь от Талуианских Капелл!	false
 factions_screen_adjective_idrinth_hev_high_elf_vampires	талуианский	false
