@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.ru/idrinth_building_sets__.ru.loc		
+#Loc;1;text/idrinth_building_sets__ru.loc.tsv/idrinth_building_sets__ru.loc		
 building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel	Собрание бродяг, изгнанников и искателей приключений эльфийского рода, объединившихся вокруг капеллы своих божеств.	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel	Эльфийская Общинная Капелла	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast	Эльфийская Ветеринарная Лечебница	false
