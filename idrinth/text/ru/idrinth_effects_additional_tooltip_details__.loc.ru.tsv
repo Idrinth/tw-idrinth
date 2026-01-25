@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_effects_additional_tooltip_details__.ru.loc.tsv/idrinth_effects_additional_tooltip_details__.ru.loc		
+#Loc;1;text/.ru/idrinth_effects_additional_tooltip_details__.ru.loc		
 effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] (Помощь Армии)\\nУвеличивает получение опыта для отрядов родительской армии.	false
 effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] (Цель: Герой)\\nУбивает целевого [[img:icon_hero]][[/img]]Героя.	false
 effects_additional_tooltip_details_localised_description_idrinth_hev_high_elf_vampires_idrinth_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] (Цель: Армия)\\nНаносит урон всем отрядам целевой армии.	false
