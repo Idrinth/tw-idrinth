@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__tr.loc.tsv/idrinth__tr.loc		
+#Loc;1;text/idrinth_message_event_text__.tr.loc.tsv/idrinth_message_event_text__.tr.loc		
 message_event_text_idrinth_chapel_lost	Şapel, yerleşimin yeni sahibi tarafından yakıldı. Şimdi nerede toplanacağız?	false
 message_event_text_idrinth_chapel_founded	Yeni bir Şapel için yer tanrılar tarafından kutsandı. Kutsamalarını kazanmak için hızlıca inşa etmeliyiz.	false
 message_event_text_idrinth_godly_intervention	Idrinth size bildirir ki, tanrıları davanızı desteklemek için harekete geçmeye karar verdi. Ordularınız bir süreliğine ilahi kutsama sayesinde daha güçlü olacak.	false
