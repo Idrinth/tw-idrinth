@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_building_sets__.de.loc.tsv/idrinth_building_sets__.de.loc		
+#Loc;1;text/.de/idrinth_building_sets__.de.loc		
 building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel	Eine Versammlung von Schurken, Verbannten und Abenteurern elfischen Geblüts, die sich um eine Kapelle ihrer Gottheiten scharen.	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel	Elfische Gemeinschaftskapelle	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast	Elfische Tierheilstätte	false
