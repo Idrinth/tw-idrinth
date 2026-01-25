@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__kr.loc.tsvdb/idrinth__kr.loc		
+#Loc;1;text/idrinth__kr.loc.tsv/idrinth__kr.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	도움을 받아들인다. (영웅)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	도움을 받아들인다. (장군)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	낯선 자를 쫓아낸다.	false
