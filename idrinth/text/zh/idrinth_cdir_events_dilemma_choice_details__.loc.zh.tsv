@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__zh.loc.tsvdb/idrinth__zh.loc		
+#Loc;1;text/idrinth__zh.loc.tsv/idrinth__zh.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	接受幫助。（英雄）	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	接受幫助。（將軍）	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	趕走這個陌生人。	false
