@@ -1,4 +1,4 @@
 key	text	tooltip
-#Loc;1;text/.pl/idrinth_agent_subtypes__.pl.loc		
+#Loc;1;text/idrinth_agent_subtypes__pl.loc.tsv/idrinth_agent_subtypes__pl.loc		
 agent_subtypes_description_text_override_idrinth_hev_high_elf_vampires_idrinthchampion	Idrinth Thalui został przemieniony wbrew swojej woli i używa nowo nabytych mocy do polowania na sługi chaosu.	false
 agent_subtypes_description_text_override_idrinth_hev_high_elf_vampires_idrinthgeneral	Idrinth Thalui został przemieniony wbrew swojej woli i używa nowo nabytych mocy do polowania na sługi chaosu.	false
