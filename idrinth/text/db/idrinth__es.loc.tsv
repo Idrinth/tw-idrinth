@@ -1,19 +1,24 @@
 key	text	tooltip
-#Loc;1;text/db/idrinth__es.loc	
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_idrinth	Espadas blandidas con elegancia élfica y poder vampírico, arcos disparados con precisión élfica y fuerza vampírica. Estas criaturas infunden miedo en la mayoría de los corazones.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan	Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Asuryan.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous	Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Kurnous.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine	Estos exiliados, aventureros y mercenarios desesperados protegen un santuario de Khaine.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed	Estos exiliados, aventureros y mercenarios desesperados protegen una capilla dedicada a sus dioses.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Asuryan.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Kurnous.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Khaine.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine	Este santuario improvisado y animado dedicado a Asuryan, Kurnous y Khaine protege y ayuda a los defensores a mantenerse firmes.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves	Estas bestias hechas de piedra combinan el arte élfico con devastadores encantamientos, convirtiéndolas en una de las mejores tropas de choque disponibles para las Capillas Thaluianas.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders	Estos orgullosos hombres y mujeres cabalgan para asegurar caminos y flancos, usando pociones para mejorar su supervivencia y oportunidades.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Asuryan a pesar de su vampirismo.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Kurnous a pesar de su vampirismo.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire	Estos antiguos exiliados, aventureros y mercenarios protegen un santuario de Khaine a pesar de su vampirismo.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf	Estos vampiros fallidos fueron anteriormente un sacerdote de Khaine.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf	Estos vampiros fallidos fueron anteriormente un sacerdote de Kurnous.	false
-unit_description_short_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf	Estos vampiros fallidos fueron anteriormente un sacerdote de Asuryan.	false
+#Loc;1;text/db/idrinth__es.loc		
+upgrade_tooltips_idrinth_unit_asuryan	Mejora la Guardia Élfica Mixta a Guardia de Asuryan por 300 de Oro.	false
+upgrade_tooltips_idrinth_priest_asuryan	Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.	false
+upgrade_tooltips_idrinth_unit_khaine	Mejora la Guardia Élfica Mixta a Guardia de Khaine por 300 de Oro.	false
+upgrade_tooltips_idrinth_priest_khaine	Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.	false
+upgrade_tooltips_idrinth_unit_kurnous	Mejora la Guardia Élfica Mixta a Guardia de Kurnous por 300 de Oro.	false
+upgrade_tooltips_idrinth_priest_kurnous	Intenta convertir a este sacerdote en vampiro por 1000 de Oro y 250 de Favor. Esto puede fallar y en el peor de los casos simplemente matarlo.	false
+upgrade_tooltips_idrinth_animal_kurnous_eagle	Bendice al gran águila en nombre de Kurnous por 125 de oro y 70 de favor.	false
+upgrade_tooltips_idrinth_animal_khaine_eagle	Bendice al gran águila en nombre de Khaine por 125 de oro y 70 de favor.	false
+upgrade_tooltips_idrinth_animal_asuryan_eagle	Bendice al gran águila en nombre de Asuryan por 125 de oro y 70 de favor.	false
+upgrade_tooltips_idrinth_animal_kurnous_hawks	Bendice a los halcones en nombre de Kurnous por 100 de oro y 40 de favor.	false
+upgrade_tooltips_idrinth_animal_khaine_hawks	Bendice a los halcones en nombre de Khaine por 100 de oro y 40 de favor.	false
+upgrade_tooltips_idrinth_animal_asuryan_hawks	Bendice a los halcones en nombre de Asuryan por 100 de oro y 40 de favor.	false
+upgrade_tooltips_idrinth_animal_kurnous_bats	Bendice a los murciélagos en nombre de Kurnous por 50 de oro y 20 de favor.	false
+upgrade_tooltips_idrinth_animal_khaine_bats	Bendice a los murciélagos en nombre de Khaine por 50 de oro y 20 de favor.	false
+upgrade_tooltips_idrinth_animal_asuryan_bats	Bendice a los murciélagos en nombre de Asuryan por 50 de oro y 20 de favor.	false
+upgrade_tooltips_idrinth_animal_kurnous_wolves	Bendice a los lobos en nombre de Kurnous por 75 de oro y 30 de favor.	false
+upgrade_tooltips_idrinth_animal_khaine_wolves	Bendice a los lobos en nombre de Khaine por 75 de oro y 30 de favor.	false
+upgrade_tooltips_idrinth_animal_asuryan_wolves	Bendice a los lobos en nombre de Asuryan por 75 de oro y 30 de favor.	false
+upgrade_tooltips_idrinth_size_outriders	Aumenta el número de Exploradores de la Capilla en 5 por 250 de oro. Los rangos se conservan.	false
+upgrade_tooltips_idrinth_size_kurnous	Aumenta el número de la Guardia de Kurnous en 15 por 300 de oro. Los rangos y el estatus de veterano se conservan.	false
+upgrade_tooltips_idrinth_size_khaine	Aumenta el número de la Guardia de Khaine en 15 por 300 de oro. Los rangos y el estatus de veterano se conservan.	false
+upgrade_tooltips_idrinth_size_asuryan	Aumenta el número de la Guardia de Asuryan en 15 por 300 de oro. Los rangos y el estatus de veterano se conservan.	false
