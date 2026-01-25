@@ -1,6 +1,5 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_agent_culture_details__.loc		
-agent_culture_details_description_text_99999990	High Elves who were turned into vampires.	false
-agent_culture_details_onscreen_name_99999990	Idrinth Thalui	false
-agent_culture_details_description_text_99999991	High Elves who were turned into vampires.	false
-agent_culture_details_onscreen_name_99999991	Idrinth Thalui	false
+"key"	"text"	"tooltip"
+"agent_culture_details_description_text_99999990"	"High Elves who were turned into vampires."	"false"
+"agent_culture_details_onscreen_name_99999990"	"Idrinth Thalui"	"false"
+"agent_culture_details_description_text_99999991"	"High Elves who were turned into vampires."	"false"
+"agent_culture_details_onscreen_name_99999991"	"Idrinth Thalui"	"false"
