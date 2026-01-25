@@ -1,0 +1,24 @@
+key	text	tooltip
+#Loc;1;text/idrinth__br.loc.tsvdb/idrinth__br.loc		
+upgrade_tooltips_idrinth_unit_asuryan	Promover Guarda Élfica Mista para Guarda de Asuryan por 300 + 50 * Patente de Ouro e ganhar Patente² Favor	false
+upgrade_tooltips_idrinth_priest_asuryan	Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.	false
+upgrade_tooltips_idrinth_unit_khaine	Promover Guarda Élfica Mista para Guarda de Khaine por 300 + 50 * Patente de Ouro e ganhar Patente² Favor.	false
+upgrade_tooltips_idrinth_priest_khaine	Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.	false
+upgrade_tooltips_idrinth_unit_kurnous	Promover Guarda Élfica Mista para Guarda de Kurnous por 300 + 50 * Patente de Ouro e ganhar Patente² Favor	false
+upgrade_tooltips_idrinth_priest_kurnous	Tentar transformar este sacerdote em vampiro por 1000 de Ouro e 250 de Favor. Isso pode falhar e, no pior dos casos, apenas matá-lo.	false
+upgrade_tooltips_idrinth_animal_kurnous_eagle	Abençoar a grande águia em nome de Kurnous por 125 de ouro e 70 de favor.	false
+upgrade_tooltips_idrinth_animal_khaine_eagle	Abençoar a grande águia em nome de Khaine por 125 de ouro e 70 de favor.	false
+upgrade_tooltips_idrinth_animal_asuryan_eagle	Abençoar a grande águia em nome de Asuryan por 125 de ouro e 70 de favor.	false
+upgrade_tooltips_idrinth_animal_kurnous_hawks	Abençoar os falcões em nome de Kurnous por 100 de ouro e 40 de favor.	false
+upgrade_tooltips_idrinth_animal_khaine_hawks	Abençoar os falcões em nome de Khaine por 100 de ouro e 40 de favor.	false
+upgrade_tooltips_idrinth_animal_asuryan_hawks	Abençoar os falcões em nome de Asuryan por 100 de ouro e 40 de favor.	false
+upgrade_tooltips_idrinth_animal_kurnous_bats	Abençoar os morcegos em nome de Kurnous por 50 de ouro e 20 de favor.	false
+upgrade_tooltips_idrinth_animal_khaine_bats	Abençoar os morcegos em nome de Khaine por 50 de ouro e 20 de favor.	false
+upgrade_tooltips_idrinth_animal_asuryan_bats	Abençoar os morcegos em nome de Asuryan por 50 de ouro e 20 de favor.	false
+upgrade_tooltips_idrinth_animal_kurnous_wolves	Abençoar os lobos em nome de Kurnous por 75 de ouro e 30 de favor.	false
+upgrade_tooltips_idrinth_animal_khaine_wolves	Abençoar os lobos em nome de Khaine por 75 de ouro e 30 de favor.	false
+upgrade_tooltips_idrinth_animal_asuryan_wolves	Abençoar os lobos em nome de Asuryan por 75 de ouro e 30 de favor.	false
+upgrade_tooltips_idrinth_size_outriders	Aumentar o número de Batedores da Capela em 5 por 250 de ouro. As patentes são mantidas.	false
+upgrade_tooltips_idrinth_size_kurnous	Aumentar o número da Guarda de Kurnous em 15 por 300 de ouro. As patentes e status de veterano são mantidos.	false
+upgrade_tooltips_idrinth_size_khaine	Aumentar o número da Guarda de Khaine em 15 por 300 de ouro. As patentes e status de veterano são mantidos.	false
+upgrade_tooltips_idrinth_size_asuryan	Aumentar o número da Guarda de Asuryan em 15 por 300 de ouro. As patentes e status de veterano são mantidos.	false
