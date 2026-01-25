@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_upgrade_tooltips__.pl.loc.tsv/idrinth_upgrade_tooltips__.pl.loc		
+#Loc;1;text/.pl/idrinth_upgrade_tooltips__.pl.loc		
 upgrade_tooltips_idrinth_unit_asuryan	Ulepsz Mieszaną Straż Elficką do Straży Asuryana za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski	false
 upgrade_tooltips_idrinth_priest_asuryan	Spróbuj zamienić tego kapłana w wampira za 1000 Złota i 250 Łaski. To może się nie udać, a w najgorszym przypadku po prostu ich zabić.	false
 upgrade_tooltips_idrinth_unit_khaine	Ulepsz Mieszaną Straż Elficką do Straży Khaine'a za 300 + 50 * Ranga Złota i zyskaj Ranga² Łaski.	false
