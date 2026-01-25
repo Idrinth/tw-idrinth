@@ -1,0 +1,24 @@
+key	text	tooltip
+#Loc;1;text/idrinth__de.loc.tsvdb/idrinth__de.loc		
+upgrade_tooltips_idrinth_unit_asuryan	Gemischte Elfengarde zu Asuryans Garde für 300 Gold aufwerten.	false
+upgrade_tooltips_idrinth_priest_asuryan	Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.	false
+upgrade_tooltips_idrinth_unit_khaine	Gemischte Elfengarde zu Khaines Garde für 300 Gold aufwerten.	false
+upgrade_tooltips_idrinth_priest_khaine	Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.	false
+upgrade_tooltips_idrinth_unit_kurnous	Gemischte Elfengarde zu Kurnous' Garde für 300 Gold aufwerten.	false
+upgrade_tooltips_idrinth_priest_kurnous	Versuche, diesen Priester für 1000 Gold und 250 Gunst in einen Vampir zu verwandeln. Dies kann fehlschlagen und ihn im schlimmsten Fall einfach töten.	false
+upgrade_tooltips_idrinth_animal_kurnous_eagle	Segne den Großen Adler im Namen von Kurnous für 125 Gold und 70 Gunst.	false
+upgrade_tooltips_idrinth_animal_khaine_eagle	Segne den Großen Adler im Namen von Khaine für 125 Gold und 70 Gunst.	false
+upgrade_tooltips_idrinth_animal_asuryan_eagle	Segne den Großen Adler im Namen von Asuryan für 125 Gold und 70 Gunst.	false
+upgrade_tooltips_idrinth_animal_kurnous_hawks	Segne die Falken im Namen von Kurnous für 100 Gold und 40 Gunst.	false
+upgrade_tooltips_idrinth_animal_khaine_hawks	Segne die Falken im Namen von Khaine für 100 Gold und 40 Gunst.	false
+upgrade_tooltips_idrinth_animal_asuryan_hawks	Segne die Falken im Namen von Asuryan für 100 Gold und 40 Gunst.	false
+upgrade_tooltips_idrinth_animal_kurnous_bats	Segne die Fledermäuse im Namen von Kurnous für 50 Gold und 20 Gunst.	false
+upgrade_tooltips_idrinth_animal_khaine_bats	Segne die Fledermäuse im Namen von Khaine für 50 Gold und 20 Gunst.	false
+upgrade_tooltips_idrinth_animal_asuryan_bats	Segne die Fledermäuse im Namen von Asuryan für 50 Gold und 20 Gunst.	false
+upgrade_tooltips_idrinth_animal_kurnous_wolves	Segne die Wölfe im Namen von Kurnous für 75 Gold und 30 Gunst.	false
+upgrade_tooltips_idrinth_animal_khaine_wolves	Segne die Wölfe im Namen von Khaine für 75 Gold und 30 Gunst.	false
+upgrade_tooltips_idrinth_animal_asuryan_wolves	Segne die Wölfe im Namen von Asuryan für 75 Gold und 30 Gunst.	false
+upgrade_tooltips_idrinth_size_outriders	Erhöhe die Anzahl der Kapellenreiter um 5 für 250 Gold. Ränge werden übernommen.	false
+upgrade_tooltips_idrinth_size_kurnous	Erhöhe die Anzahl von Kurnous' Garde um 15 für 300 Gold. Ränge und Veteranenstatus werden übernommen.	false
+upgrade_tooltips_idrinth_size_khaine	Erhöhe die Anzahl von Khaines Garde um 15 für 300 Gold. Ränge und Veteranenstatus werden übernommen.	false
+upgrade_tooltips_idrinth_size_asuryan	Erhöhe die Anzahl von Asuryans Garde um 15 für 300 Gold. Ränge und Veteranenstatus werden übernommen.	false
