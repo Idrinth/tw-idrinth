@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__pl.loc.tsvdb/idrinth__pl.loc		
+#Loc;1;text/idrinth__pl.loc.tsv/idrinth__pl.loc		
 effects_description_idrinth_effect_agent_action_assist_army_training	[[col:yellow]]{{tr:agent_action_name_training}}[[/col]] akcja: Wzrost doświadczenia jednostki zwiększony o dodatkowe %+n%	false
 effects_description_idrinth_effect_agent_action_enable_hinder_army_assault_units	[[col:yellow]]{{tr:agent_action_name_assault_units}}[[/col]] akcja: Dodatkowe %+n% zadanych strat	false
 effects_description_idrinth_effect_agent_action_enable_hinder_agent_assassinate	[[col:yellow]]{{tr:agent_action_name_assassinate}}[[/col]] akcja: Dodatkowe %+n% szansy powodzenia	false
