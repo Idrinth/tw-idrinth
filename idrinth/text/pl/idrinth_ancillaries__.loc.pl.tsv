@@ -1,0 +1,29 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ancillaries__pl.loc.tsv/idrinth_ancillaries__pl.loc		
+ancillaries_colour_text_idrinth_anc_talisman_stone_of_dried_blood	Talizman błogosławiony przez Khaine'a, Krwaworękiego Boga. Niewielu zdobyło wystarczającą łaskę, by władać takim narzędziem w jego imieniu. Zaschnięta krew pulsuje pradawną mocą, szepcząc obietnice przemocy swemu nosicielowi.	false
+ancillaries_explanation_text_idrinth_anc_talisman_stone_of_dried_blood	Potwierdzone doświadczenie bojowe.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_stone_of_dried_blood	Talizman Zaschniętej Krwi	false
+ancillaries_colour_text_idrinth_anc_talisman_talisman_of_souls	Talizman błogosławiony przez Asuryana, by zachować wiedzę poprzednich pokoleń. W ciszy można usłyszeć szepty starożytnych elfickich mędrców oferujących mądrość zza zasłony.	false
+ancillaries_explanation_text_idrinth_anc_talisman_talisman_of_souls	Potwierdzone doświadczenie bojowe.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_talisman_of_souls	Talizman Dusz	false
+ancillaries_colour_text_idrinth_anc_talisman_forest_berry_wine	Swego rodzaju talizman błogosławiony przez Kurnousa, dający właścicielowi jedno z najlepszych win jagodowych na świecie. Jeden łyk łączy pijącego z dziką naturą, wyostrzając zmysły i przyspieszając refleks, jakby sam las kierował każdym ruchem.	false
+ancillaries_explanation_text_idrinth_anc_talisman_forest_berry_wine	Potwierdzone doświadczenie bojowe.	false
+ancillaries_onscreen_name_idrinth_anc_talisman_forest_berry_wine	Leśne Wino Jagodowe	false
+ancillaries_colour_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Broń błogosławiona przez Kurnousa, czyniąca swego władcę jednym z najznamienitszych łowców, jakich zna świat. Ci, których dosięgły jej strzały, odczuwają pierwotny strach, jakby polowała na nich sama natura, a nie zwykły łucznik.	false
+ancillaries_explanation_text_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Potwierdzone doświadczenie bojowe.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_kurnous_blessed_hunting_bow	Błogosławiony Łuk Myśliwski	false
+ancillaries_colour_text_idrinth_anc_armour_khaines_visage	Ten hełm odsłania maskę będącą mieszanką terroru, krwiożerczości i czystego pragnienia przemocy. Oblicze przemienia swego nosiciela, budząc pierwotną furię, którą wrogowie wyczuwają z daleka.	false
+ancillaries_explanation_text_idrinth_anc_armour_khaines_visage	Potwierdzone doświadczenie bojowe.	false
+ancillaries_onscreen_name_idrinth_anc_armour_khaines_visage	Oblicze Khaine'a	false
+ancillaries_colour_text_idrinth_anc_weapon_khaines_thirsting_sword	Miecz spragniony krwi równie mocno jak jego pan. Z każdym ciosem pragnie więcej, rosnąc w siłę z każdym życiem, które pochłania. Ostrze nigdy nie tępieje, gdy zwilży je świeża krew.	false
+ancillaries_explanation_text_idrinth_anc_weapon_khaines_thirsting_sword	Potwierdzone doświadczenie bojowe.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_khaines_thirsting_sword	Spragniony Miecz Khaine'a	false
+ancillaries_colour_text_idrinth_anc_weapon_asuryans_perfection_sword	Miecz tak doskonały, jak jego władca dąży być. Wykuty w wiecznym płomieniu samego Asuryana, ten wysokoelficki miecz wprowadza harmonię do walki, pozwalając swemu panu walczyć z niezrównaną precyzją i wytrzymałością.	false
+ancillaries_explanation_text_idrinth_anc_weapon_asuryans_perfection_sword	Potwierdzone doświadczenie bojowe.	false
+ancillaries_onscreen_name_idrinth_anc_weapon_asuryans_perfection_sword	Miecz Doskonałości Asuryana	false
+ancillaries_colour_text_idrinth_anc_armour_kurnous_forest_cloak	Zbroja projektu Kurnousa, lekka i ledwo zauważalna. Ten ciemnozielony płaszcz nosi esencję głębokiego lasu, ukrywając swego nosiciela przed oczami wrogów, jednocześnie wyostrzając świadomość otoczenia.	false
+ancillaries_explanation_text_idrinth_anc_armour_kurnous_forest_cloak	Potwierdzone doświadczenie bojowe.	false
+ancillaries_onscreen_name_idrinth_anc_armour_kurnous_forest_cloak	Leśny Płaszcz Kurnousa	false
+ancillaries_colour_text_idrinth_anc_armour_asuryans_destiny	Ta zbroja chroni swego nosiciela, gdy służy elfickiemu ludowi, przedłużając jego życie ponad wszelkie oczekiwania. Zaklęcia wplecione w każdą płytę odpychają skazę nieumarłości, pozwalając nosicielowi kroczyć między oboma światami.	false
+ancillaries_explanation_text_idrinth_anc_armour_asuryans_destiny	Potwierdzone doświadczenie bojowe.	false
+ancillaries_onscreen_name_idrinth_anc_armour_asuryans_destiny	Zbroja Przeznaczenia Asuryana	false
