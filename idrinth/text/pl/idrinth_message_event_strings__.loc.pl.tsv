@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__pl.loc.tsv/idrinth__pl.loc		
+#Loc;1;text/idrinth_message_event_strings__.pl.loc.tsv/idrinth_message_event_strings__.pl.loc		
 message_event_strings_title_idrinth_chapel_lost	Kaplica Utracona	false
 message_event_strings_title_idrinth_chapel_founded	Kaplica Założona	false
 message_event_strings_title_idrinth_godly_intervention	Bogowie Interweniują	false
