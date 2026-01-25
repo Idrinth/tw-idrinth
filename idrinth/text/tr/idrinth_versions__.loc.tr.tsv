@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__tr.loc.tsvdb/idrinth__tr.loc		
+#Loc;1;text/idrinth_versions__.tr.loc.tsv/idrinth_versions__.tr.loc		
 mct_patch_notes_idrinth_129_notes	- yukseltmeler icin hazine maliyetlerinin para almak yerine para vermesi duzeltildi	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- daha iyi kararlilik icin kod yeniden yazildi\\n- mod yapilandirma aracinda daha fazla secenek\\n- bircok kucuk duzeltme	false
