@@ -1,19 +1,18 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_unit_description_historical_texts__.loc		
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth	Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan	These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous	These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine	These desperate exiles, adventurers and mercenaries protect a shrine of Khaine.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed	These desperate exiles, adventurers and mercenaries protect a chapel to their gods.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader	These former exiles, adventurers and mercenaries protect a shrine of Asuryan.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader	These former exiles, adventurers and mercenaries protect a shrine of Kurnous.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader	These former exiles, adventurers and mercenaries protect a shrine of Khaine.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine	This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves	This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders	These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire	These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire	These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire	These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf	These failed vampires were formerly a priest of Khaine.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf	These failed vampires were formerly a priest of Kurnous.	false
-unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf	These failed vampires were formerly a priest of Asuryan.	false
+"key"	"text"	"tooltip"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_idrinth"	"Blades swung with elven elegance and vampiric might, bows shot with elven accuracy and vampiric power. These creatures bring fear into most hearts."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan"	"These desperate exiles, adventurers and mercenaries protect a shrine of Asuryan."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous"	"These desperate exiles, adventurers and mercenaries protect a shrine of Kurnous."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine"	"These desperate exiles, adventurers and mercenaries protect a shrine of Khaine."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_mixed"	"These desperate exiles, adventurers and mercenaries protect a chapel to their gods."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader"	"These former exiles, adventurers and mercenaries protect a shrine of Asuryan."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader"	"These former exiles, adventurers and mercenaries protect a shrine of Kurnous."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader"	"These former exiles, adventurers and mercenaries protect a shrine of Khaine."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_shrine"	"This makeshift, animated shrine to Asuryan, Kurnours and Khaine protects and helps defenders stand strong."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_stone_wolves"	"This stone-made beasts combine elven artistry with devastating enchantments, making them one of the best shock troops available to the Thaluian Chapels."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_outriders"	"These proud men and women ride forth to secure roads and flanks, using potions to enhance their survivability and chances."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_leader_vampire"	"These former exiles, adventurers and mercenaries protect a shrine of Asuryan despite their vampirism."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_leader_vampire"	"These former exiles, adventurers and mercenaries protect a shrine of Kurnous despite their vampirism."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_leader_vampire"	"These former exiles, adventurers and mercenaries protect a shrine of Khaine despite their vampirism."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_khaine_varghulf"	"These failed vampires were formerly a priest of Khaine."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_kurnous_varghulf"	"These failed vampires were formerly a priest of Kurnous."	"false"
+"unit_description_historical_texts_text_idrinth_hev_high_elf_vampires_chapel_asuryan_varghulf"	"These failed vampires were formerly a priest of Asuryan."	"false"
