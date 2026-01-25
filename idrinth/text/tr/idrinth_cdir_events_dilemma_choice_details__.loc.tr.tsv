@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__tr.loc.tsvdb/idrinth__tr.loc		
+#Loc;1;text/idrinth__tr.loc.tsv/idrinth__tr.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Yardımı kabul et. (Kahraman)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Yardımı kabul et. (General)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Yabancıyı kov.	false
