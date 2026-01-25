@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/idrinth__cz.loc.tsvdb/idrinth__cz.loc		
+initiatives_localised_name_idrinth_khaine_pledge	Zasvěť se Khainovi	false
+initiatives_localised_name_idrinth_kurnous_pledge	Zasvěť se Kurnousovi	false
+initiatives_localised_name_idrinth_asuryan_pledge	Zasvěť se Asuryanovi	false
+initiatives_localised_name_idrinth_khaine_prayer	Modli se ke Khainovi	false
+initiatives_localised_name_idrinth_kurnous_prayer	Modli se ke Kurnousovi	false
+initiatives_localised_name_idrinth_asuryan_prayer	Modli se k Asuryanovi	false
+idrinth_khaine_pledge		false
+idrinth_kurnous_pledge		false
+idrinth_asuryan_pledge		false
+idrinth_khaine_prayer		false
+idrinth_kurnous_prayer		false
+idrinth_asuryan_prayer		false
