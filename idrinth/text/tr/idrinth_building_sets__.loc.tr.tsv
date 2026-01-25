@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.tr/idrinth_building_sets__.tr.loc		
+#Loc;1;text/idrinth_building_sets__tr.loc.tsv/idrinth_building_sets__tr.loc		
 building_sets_onscreen_description_idrinth_hev_high_elf_vampires_chapel	Tanrılarına adanmış bir şapel etrafında toplanan haydutlar, sürgünler ve maceracılardan oluşan bir elf topluluğu.	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel	Elf Topluluk Şapeli	false
 building_sets_onscreen_name_idrinth_hev_high_elf_vampires_chapel_beast	Elf Veterinerliği	false
