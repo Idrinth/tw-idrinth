@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_ui_unit_groupings__.kr.loc.tsv/idrinth_ui_unit_groupings__.kr.loc		
+#Loc;1;text/.kr/idrinth_ui_unit_groupings__.kr.loc		
 ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_idrinth	하이 엘프 뱀파이어	false
 ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_shrine	성소	false
 ui_unit_groupings_onscreen_idrinth_hev_high_elf_vampires_chapel_guard	예배당 수호대	false
