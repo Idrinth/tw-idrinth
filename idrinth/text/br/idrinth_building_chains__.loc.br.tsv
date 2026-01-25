@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.br/idrinth_building_chains__.br.loc		
+#Loc;1;text/idrinth_building_chains__br.loc.tsv/idrinth_building_chains__br.loc		
 building_chains_chain_tooltip_idrinth_hev_high_elf_vampires_chapel	Capela da Comunidade Élfica	false
 building_chains_encyclopedia_description_idrinth_hev_high_elf_vampires_chapel	Uma capela para uma pequena comunidade de exilados élficos, aventureiros e vagabundos.	false
 building_chains_encyclopedia_name_idrinth_hev_high_elf_vampires_chapel	Capela da Comunidade Élfica	false
