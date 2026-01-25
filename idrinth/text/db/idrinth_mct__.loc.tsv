@@ -1,74 +1,73 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_mct__.loc		
-mct_idrinth_title	Idrinth Thalui - The High Elven Vampire Loremaster	false
-mct_idrinth_author	Björn 'Idrinth' Büttner	false
-mct_idrinth_description	The Tale of a Fallen Loremaster\\n\\nOnce a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.\\n\\nWill you guide him toward redemption or embrace the darkness within? His fate rests in your hands.	false
-mct_idrinth_expanded_spawn_text	Expanded Spawn Cultures	false
-mct_idrinth_expanded_spawn_tooltip	Allows Idrinth to spawn for Bretonnia, Cathay, the Legions of Nagash, Dark Elves and Vampire Coast as well.	false
-mct_idrinth_level_adjustment_text	Level Requirement	false
-mct_idrinth_level_adjustment_options_null_text	Early Game	false
-mct_idrinth_level_adjustment_options_one_text	Late Early Game	false
-mct_idrinth_level_adjustment_options_three_text	Early Mid Game	false
-mct_idrinth_level_adjustment_options_six_text	Mid Game	false
-mct_idrinth_level_adjustment_tooltip	Modifies the level requirement to get Idrinth's unlock quest.	false
-mct_idrinth_god_item_difficulty_text	God-Blessed Item Difficulty	false
-mct_idrinth_god_item_difficulty_options_low_text	Low Requirements	false
-mct_idrinth_god_item_difficulty_options_normal_text	Normal Requirements	false
-mct_idrinth_god_item_difficulty_options_high_text	High Requirements	false
-mct_idrinth_god_item_difficulty_tooltip	Modifies the requirements for receiving the god blessed items.	false
-mct_idrinth_chapel_chance_text	Chapel Spawn Chance	false
-mct_idrinth_chapel_chance_options_low_text	Low Chance	false
-mct_idrinth_chapel_chance_options_normal_text	Normal Chance	false
-mct_idrinth_chapel_chance_options_high_text	High Chance	false
-mct_idrinth_chapel_chance_tooltip	Modifies the chance of Thaluian Chapels being spawned by Idrinth's presence.	false
-mct_idrinth_story_events_text	Enable Story Events	false
-mct_idrinth_story_events_tooltip	Allows Idrinth to notify the player when reaching specific regions important to him.	false
-mct_idrinth_chapels_text	Thaluian Chapels	false
-mct_idrinth_chapels_tooltip	Allows Idrinth to found chapels that strengthen the defences of cities and affect god favor generation.	false
-mct_idrinth_dilemma_cooldown_text	Dilemma Cooldown	false
-mct_idrinth_dilemma_cooldown_options_low_text	Low (1 + [1-2])	false
-mct_idrinth_dilemma_cooldown_options_medium_text	Medium (2 + [1-3])	false
-mct_idrinth_dilemma_cooldown_options_long_text	Long (3 + [1-4])	false
-mct_idrinth_dilemma_cooldown_tooltip	Modifies the cooldown between dilemmas that require decisions.	false
-mct_idrinth_names_text	Unit Renaming	false
-mct_idrinth_names_tooltip	When checked units gain a custom name on recruitment pulled from a list of elven names.	false
-mct_idrinth_logging_text	Enable Own Logging	false
-mct_idrinth_logging_tooltip	When checked this mod logs to the game root directory into idrinth.*.log.	false
-mct_idrinth_base_logging_text	Enable Base Game Logging Usage	false
-mct_idrinth_base_logging_tooltip	When checked this mod logs with the base game logging function.	false
-mct_idrinth_section_idrinth_story_features_name	Story Feature Toggles	false
-mct_idrinth_section_idrinth_game_features_name	Game Feature Toggles	false
-mct_idrinth_section_idrinth_chances_name	Chances	false
-mct_idrinth_section_idrinth_spawn_name	Spawn Options	false
-mct_idrinth_section_idrinth_other_name	Additional Options	false
-mct_idrinth_section_idrinth_cooldowns_name	Cooldown Options	false
-mct_idrinth_intervention_cooldown_text	Intervention Cooldown	false
-mct_idrinth_intervention_cooldown_options_low_text	Low (80%)	false
-mct_idrinth_intervention_cooldown_options_medium_text	Medium (100%)	false
-mct_idrinth_intervention_cooldown_options_long_text	Long (120%)	false
-mct_idrinth_intervention_cooldown_tooltip	Modifies the cooldown between divine interventions.	false
-mct_idrinth_animal_waaagh_text	Animal WAAAGH	false
-mct_idrinth_animal_waaagh_tooltip	When checked Idrinth is followed by a WAAAGH-army made up of animals. Disabling does not despawn the army.	false
-mct_idrinth_vampire_chance_text	Vampire Turning Chance	false
-mct_idrinth_vampire_chance_options_low_text	Low (10% base success)	false
-mct_idrinth_vampire_chance_options_normal_text	Normal (15% base success)	false
-mct_idrinth_vampire_chance_options_high_text	High (20% base success)	false
-mct_idrinth_vampire_chance_tooltip	Changes the chance of priests surviving being turned into vampires.	false
-mct_idrinth_story_dilemma_base_chance_text	Story Dilemma Base Chance	false
-mct_idrinth_story_dilemma_base_chance_options_low_text	Low	false
-mct_idrinth_story_dilemma_base_chance_options_normal_text	Normal	false
-mct_idrinth_story_dilemma_base_chance_options_high_text	High	false
-mct_idrinth_story_dilemma_base_chance_tooltip	Changes the chance of story decision dilemmas triggering.	false
-mct_idrinth_god_item_base_chance_text	God Item Base Chance	false
-mct_idrinth_god_item_base_chance_options_low_text	Low	false
-mct_idrinth_god_item_base_chance_options_normal_text	Normal	false
-mct_idrinth_god_item_base_chance_options_high_text	High	false
-mct_idrinth_god_item_base_chance_tooltip	Changes the chance of god items being offered.	false
-mct_idrinth_elf_slayer_traits_text	Elf Slayer Traits	false
-mct_idrinth_elf_slayer_traits_tooltip	Enables the traits for slaying elves. Disabling does not remove existing trait levels.	false
-mct_idrinth_devotion_traits_text	Devotion Traits	false
-mct_idrinth_devotion_traits_tooltip	Enables the traits for spending time devoted to a specific god. Disabling does not remove existing trait levels.	false
-mct_idrinth_interventions_text	Enable Divine Intervention	false
-mct_idrinth_interventions_tooltip	If enabled Asuryan, Kurnous and Khaine will intervene when your favour is high, using some of it for faction wide buffs.	false
-mct_idrinth_groovy_logging_text	EnableGroovy Logging Usage	false
-mct_idrinth_groovy_logging_tooltip	When checked this mod logs with the logging provided by the MCT.	false
+"key"	"text"	"tooltip"
+"mct_idrinth_title"	"Idrinth Thalui - The High Elven Vampire Loremaster"	"false"
+"mct_idrinth_author"	"Björn 'Idrinth' Büttner"	"false"
+"mct_idrinth_description"	"The Tale of a Fallen Loremaster\\n\\nOnce a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.\\n\\nWill you guide him toward redemption or embrace the darkness within? His fate rests in your hands."	"false"
+"mct_idrinth_expanded_spawn_text"	"Expanded Spawn Cultures"	"false"
+"mct_idrinth_expanded_spawn_tooltip"	"Allows Idrinth to spawn for Bretonnia, Cathay, the Legions of Nagash, Dark Elves and Vampire Coast as well."	"false"
+"mct_idrinth_level_adjustment_text"	"Level Requirement"	"false"
+"mct_idrinth_level_adjustment_options_null_text"	"Early Game"	"false"
+"mct_idrinth_level_adjustment_options_one_text"	"Late Early Game"	"false"
+"mct_idrinth_level_adjustment_options_three_text"	"Early Mid Game"	"false"
+"mct_idrinth_level_adjustment_options_six_text"	"Mid Game"	"false"
+"mct_idrinth_level_adjustment_tooltip"	"Modifies the level requirement to get Idrinth's unlock quest."	"false"
+"mct_idrinth_god_item_difficulty_text"	"God-Blessed Item Difficulty"	"false"
+"mct_idrinth_god_item_difficulty_options_low_text"	"Low Requirements"	"false"
+"mct_idrinth_god_item_difficulty_options_normal_text"	"Normal Requirements"	"false"
+"mct_idrinth_god_item_difficulty_options_high_text"	"High Requirements"	"false"
+"mct_idrinth_god_item_difficulty_tooltip"	"Modifies the requirements for receiving the god blessed items."	"false"
+"mct_idrinth_chapel_chance_text"	"Chapel Spawn Chance"	"false"
+"mct_idrinth_chapel_chance_options_low_text"	"Low Chance"	"false"
+"mct_idrinth_chapel_chance_options_normal_text"	"Normal Chance"	"false"
+"mct_idrinth_chapel_chance_options_high_text"	"High Chance"	"false"
+"mct_idrinth_chapel_chance_tooltip"	"Modifies the chance of Thaluian Chapels being spawned by Idrinth's presence."	"false"
+"mct_idrinth_story_events_text"	"Enable Story Events"	"false"
+"mct_idrinth_story_events_tooltip"	"Allows Idrinth to notify the player when reaching specific regions important to him."	"false"
+"mct_idrinth_chapels_text"	"Thaluian Chapels"	"false"
+"mct_idrinth_chapels_tooltip"	"Allows Idrinth to found chapels that strengthen the defences of cities and affect god favor generation."	"false"
+"mct_idrinth_dilemma_cooldown_text"	"Dilemma Cooldown"	"false"
+"mct_idrinth_dilemma_cooldown_options_low_text"	"Low (1 + [1-2])"	"false"
+"mct_idrinth_dilemma_cooldown_options_medium_text"	"Medium (2 + [1-3])"	"false"
+"mct_idrinth_dilemma_cooldown_options_long_text"	"Long (3 + [1-4])"	"false"
+"mct_idrinth_dilemma_cooldown_tooltip"	"Modifies the cooldown between dilemmas that require decisions."	"false"
+"mct_idrinth_names_text"	"Unit Renaming"	"false"
+"mct_idrinth_names_tooltip"	"When checked units gain a custom name on recruitment pulled from a list of elven names."	"false"
+"mct_idrinth_logging_text"	"Enable Own Logging"	"false"
+"mct_idrinth_logging_tooltip"	"When checked this mod logs to the game root directory into idrinth.*.log."	"false"
+"mct_idrinth_base_logging_text"	"Enable Base Game Logging Usage"	"false"
+"mct_idrinth_base_logging_tooltip"	"When checked this mod logs with the base game logging function."	"false"
+"mct_idrinth_section_idrinth_story_features_name"	"Story Feature Toggles"	"false"
+"mct_idrinth_section_idrinth_game_features_name"	"Game Feature Toggles"	"false"
+"mct_idrinth_section_idrinth_chances_name"	"Chances"	"false"
+"mct_idrinth_section_idrinth_spawn_name"	"Spawn Options"	"false"
+"mct_idrinth_section_idrinth_other_name"	"Additional Options"	"false"
+"mct_idrinth_section_idrinth_cooldowns_name"	"Cooldown Options"	"false"
+"mct_idrinth_intervention_cooldown_text"	"Intervention Cooldown"	"false"
+"mct_idrinth_intervention_cooldown_options_low_text"	"Low (80%)"	"false"
+"mct_idrinth_intervention_cooldown_options_medium_text"	"Medium (100%)"	"false"
+"mct_idrinth_intervention_cooldown_options_long_text"	"Long (120%)"	"false"
+"mct_idrinth_intervention_cooldown_tooltip"	"Modifies the cooldown between divine interventions."	"false"
+"mct_idrinth_animal_waaagh_text"	"Animal WAAAGH"	"false"
+"mct_idrinth_animal_waaagh_tooltip"	"When checked Idrinth is followed by a WAAAGH-army made up of animals. Disabling does not despawn the army."	"false"
+"mct_idrinth_vampire_chance_text"	"Vampire Turning Chance"	"false"
+"mct_idrinth_vampire_chance_options_low_text"	"Low (10% base success)"	"false"
+"mct_idrinth_vampire_chance_options_normal_text"	"Normal (15% base success)"	"false"
+"mct_idrinth_vampire_chance_options_high_text"	"High (20% base success)"	"false"
+"mct_idrinth_vampire_chance_tooltip"	"Changes the chance of priests surviving being turned into vampires."	"false"
+"mct_idrinth_story_dilemma_base_chance_text"	"Story Dilemma Base Chance"	"false"
+"mct_idrinth_story_dilemma_base_chance_options_low_text"	"Low"	"false"
+"mct_idrinth_story_dilemma_base_chance_options_normal_text"	"Normal"	"false"
+"mct_idrinth_story_dilemma_base_chance_options_high_text"	"High"	"false"
+"mct_idrinth_story_dilemma_base_chance_tooltip"	"Changes the chance of story decision dilemmas triggering."	"false"
+"mct_idrinth_god_item_base_chance_text"	"God Item Base Chance"	"false"
+"mct_idrinth_god_item_base_chance_options_low_text"	"Low"	"false"
+"mct_idrinth_god_item_base_chance_options_normal_text"	"Normal"	"false"
+"mct_idrinth_god_item_base_chance_options_high_text"	"High"	"false"
+"mct_idrinth_god_item_base_chance_tooltip"	"Changes the chance of god items being offered."	"false"
+"mct_idrinth_elf_slayer_traits_text"	"Elf Slayer Traits"	"false"
+"mct_idrinth_elf_slayer_traits_tooltip"	"Enables the traits for slaying elves. Disabling does not remove existing trait levels."	"false"
+"mct_idrinth_devotion_traits_text"	"Devotion Traits"	"false"
+"mct_idrinth_devotion_traits_tooltip"	"Enables the traits for spending time devoted to a specific god. Disabling does not remove existing trait levels."	"false"
+"mct_idrinth_interventions_text"	"Enable Divine Intervention"	"false"
+"mct_idrinth_interventions_tooltip"	"If enabled Asuryan, Kurnous and Khaine will intervene when your favour is high, using some of it for faction wide buffs."	"false"
+"mct_idrinth_groovy_logging_text"	"EnableGroovy Logging Usage"	"false"
+"mct_idrinth_groovy_logging_tooltip"	"When checked this mod logs with the logging provided by the MCT."	"false"
