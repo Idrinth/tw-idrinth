@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__ru.loc.tsv/idrinth__ru.loc		
+#Loc;1;text/idrinth_message_event_text__.ru.loc.tsv/idrinth_message_event_text__.ru.loc		
 message_event_text_idrinth_chapel_lost	Капелла была сожжена новым владельцем поселения. Где нам теперь собираться?	false
 message_event_text_idrinth_chapel_founded	Место для новой Капеллы освящено богами. Нам следует быстро возвести её, чтобы получить их благословения.	false
 message_event_text_idrinth_godly_intervention	Идринт сообщает вам, что его боги решили действовать в поддержку вашего дела. Ваши армии на некоторое время получат божественное благословение.	false
