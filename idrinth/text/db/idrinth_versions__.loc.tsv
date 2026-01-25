@@ -1,266 +1,265 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_versions.loc		
-mct_patch_notes_idrinth_129_notes	- fix treasury costs for upgrades giving money instead of costing it	false
-mct_patch_notes_idrinth_129_version	v1.6.4	false
-mct_patch_notes_idrinth_128_notes	- rewritten code for better stability\\n- more options in the mod config tool\\n- many small fixes	false
-mct_patch_notes_idrinth_128_version	v1.6.3	false
-mct_patch_notes_idrinth_127_notes	- performance improvements for delayed function calling	false
-mct_patch_notes_idrinth_127_version	v1.6.2	false
-mct_patch_notes_idrinth_126_notes	- fix nowAndThen firing too often leading to crashes	false
-mct_patch_notes_idrinth_126_version	v1.6.1	false
-mct_patch_notes_idrinth_125_notes	- unit size upgrades\\n- beast upgrade rework	false
-mct_patch_notes_idrinth_125_version	v1.6.0	false
-mct_patch_notes_idrinth_124_notes	- prevent trait removal event spam	false
-mct_patch_notes_idrinth_124_version	v1.5.2	false
-mct_patch_notes_idrinth_123_notes	- fix to anti lighting strike	false
-mct_patch_notes_idrinth_123_version	v1.5.1	false
-mct_patch_notes_idrinth_122_notes	- Unit Upgrades for elven units are in	false
-mct_patch_notes_idrinth_122_version	v1.5.0	false
-mct_patch_notes_idrinth_121_notes	- code cleanups	false
-mct_patch_notes_idrinth_121_version	v1.4.6	false
-mct_patch_notes_idrinth_120_notes	- fixes name loss when assigned a pirate coast "government position"	false
-mct_patch_notes_idrinth_120_version	v1.4.5	false
-mct_patch_notes_idrinth_119_notes	- fixes to battle resources\\n- code optimizations	false
-mct_patch_notes_idrinth_119_version	v1.4.4	false
-mct_patch_notes_idrinth_118_notes	- fixed a case where the unit upgrade panel would not show after clicking the button	false
-mct_patch_notes_idrinth_118_version	v1.4.3	false
-mct_patch_notes_idrinth_117_notes	- fixed a case where the unit upgrade panel would not show after clicking the button	false
-mct_patch_notes_idrinth_117_version	v1.4.2	false
-mct_patch_notes_idrinth_116_notes	- added hints for unit usage	false
-mct_patch_notes_idrinth_116_version	v1.4.1	false
-mct_patch_notes_idrinth_115_notes	- make unit blessings for waaagh animals work\\n- rebalancing buildings of horde	false
-mct_patch_notes_idrinth_115_version	v1.4.0	false
-mct_patch_notes_idrinth_114_notes	- fixes for unit set not encompassing everything required	false
-mct_patch_notes_idrinth_114_version	v1.3.5	false
-mct_patch_notes_idrinth_113_notes	- fixes for unit set not encompassing everything required	false
-mct_patch_notes_idrinth_113_version	v1.3.4	false
-mct_patch_notes_idrinth_112_notes	- fixes for unit set not encompassing everything required	false
-mct_patch_notes_idrinth_112_version	v1.3.3	false
-mct_patch_notes_idrinth_111_notes	- fixed detection of character initiatives	false
-mct_patch_notes_idrinth_111_version	v1.3.2	false
-mct_patch_notes_idrinth_110_notes	- fix a crash reason	false
-mct_patch_notes_idrinth_110_version	v1.3.1	false
-mct_patch_notes_idrinth_109_notes	- major rewrite for performance	false
-mct_patch_notes_idrinth_109_version	v1.3.0	false
-mct_patch_notes_idrinth_108_notes	- fix version number	false
-mct_patch_notes_idrinth_108_version	v1.2.2	false
-mct_patch_notes_idrinth_107_notes	- fixing antitrait handling	false
-mct_patch_notes_idrinth_107_version	v1.2.1	false
-mct_patch_notes_idrinth_106_notes	- icon on settlement when chapels are available\\n- a lot of code cleanups\\n- devotion system improvements with god jealousy	false
-mct_patch_notes_idrinth_106_version	v1.2.0	false
-mct_patch_notes_idrinth_105_notes	- fixes to the resources being misplaced in the UI	false
-mct_patch_notes_idrinth_105_version	v1.1.18	false
-mct_patch_notes_idrinth_104_notes	- yet another settlement ui fix	false
-mct_patch_notes_idrinth_104_version	v1.1.17	false
-mct_patch_notes_idrinth_103_notes	- fixing button handling in settlement view	false
-mct_patch_notes_idrinth_103_version	v1.1.16	false
-mct_patch_notes_idrinth_102_notes	- fix item status storing/retrieving to prevent multiple sets from being gained	false
-mct_patch_notes_idrinth_102_version	v1.1.15	false
-mct_patch_notes_idrinth_101_notes	- fix auto-equipping unique items	false
-mct_patch_notes_idrinth_101_version	v1.1.14	false
-mct_patch_notes_idrinth_100_notes	- proper lord and office titles displayed during recruitment\\n- preventing dual spawning(hopefully)	false
-mct_patch_notes_idrinth_100_version	v1.1.13	false
-mct_patch_notes_idrinth_99_notes	- fixing two cases of dilemmas triggering for the wrong faction(s)	false
-mct_patch_notes_idrinth_99_version	v1.1.12	false
-mct_patch_notes_idrinth_98_notes	- fixing one more thing in item giving	false
-mct_patch_notes_idrinth_98_version	v1.1.11	false
-mct_patch_notes_idrinth_97_notes	- recruiting script fixes\\n- ui fixes\\n- item script fixes	false
-mct_patch_notes_idrinth_97_version	v1.1.10	false
-mct_patch_notes_idrinth_96_notes	- fixing item giving code	false
-mct_patch_notes_idrinth_96_version	v1.1.9	false
-mct_patch_notes_idrinth_95_notes	- some tidy up tasks	false
-mct_patch_notes_idrinth_95_version	v1.1.8	false
-mct_patch_notes_idrinth_94_notes	- fix settings in multiplayer popping up for the wrong player	false
-mct_patch_notes_idrinth_94_version	v1.1.7	false
-mct_patch_notes_idrinth_93_notes	- fix version number	false
-mct_patch_notes_idrinth_93_version	v1.1.6	false
-mct_patch_notes_idrinth_92_notes	- prevent npc factions from getting location and story events	false
-mct_patch_notes_idrinth_92_version	v1.1.5	false
-mct_patch_notes_idrinth_91_notes	- fixes to item gaining	false
-mct_patch_notes_idrinth_91_version	v1.1.4	false
-mct_patch_notes_idrinth_90_notes	- ui fixes	false
-mct_patch_notes_idrinth_90_version	v1.1.3	false
-mct_patch_notes_idrinth_89_notes	- version number increment	false
-mct_patch_notes_idrinth_89_version	v1.1.2	false
-mct_patch_notes_idrinth_88_notes	- small script fixes	false
-mct_patch_notes_idrinth_88_version	v1.1.1	false
-mct_patch_notes_idrinth_87_notes	- refactoring\\n- devotion unlocked\\n- major improvements to general\\n- adding animal waaagh mechanic to general	false
-mct_patch_notes_idrinth_87_version	v1.1.0	false
-mct_patch_notes_idrinth_86_notes	- unlock quest spam likely fixed\\n- no more weird animals to ride on for outriders\\n- small adjustments to text clarity	false
-mct_patch_notes_idrinth_86_version	v1.0.15	false
-mct_patch_notes_idrinth_85_notes	- fix missing attrition immunities to the lord version	false
-mct_patch_notes_idrinth_85_version	v1.0.14	false
-mct_patch_notes_idrinth_84_notes	- fix favour resources not updating in the UI during the turn itself	false
-mct_patch_notes_idrinth_84_version	v1.0.13	false
-mct_patch_notes_idrinth_83_notes	- encamp no longer costs movement	false
-mct_patch_notes_idrinth_83_version	v1.0.12	false
-mct_patch_notes_idrinth_82_notes	- fixed story event toggle triggering multiple times	false
-mct_patch_notes_idrinth_82_version	v1.0.11	false
-mct_patch_notes_idrinth_81_notes	- add missing unit type classifications	false
-mct_patch_notes_idrinth_81_version	v1.0.10	false
-mct_patch_notes_idrinth_80_notes	- add forgotten positive effects to elf killer traits\\n- make sure models use at maximum 5 variants per file	false
-mct_patch_notes_idrinth_80_version	v1.0.9	false
-mct_patch_notes_idrinth_79_notes	- fix battle tracking\\n- fix ranged weapon damage of priests and Idrinth	false
-mct_patch_notes_idrinth_79_version	v1.0.8	false
-mct_patch_notes_idrinth_78_notes	- fixed resource generation bug\\n- added forgotten skill to general skill line	false
-mct_patch_notes_idrinth_78_version	v1.0.7	false
-mct_patch_notes_idrinth_77_notes	- fixed localization for elven slayer traits	false
-mct_patch_notes_idrinth_77_version	v1.0.6	false
-mct_patch_notes_idrinth_76_notes	- fixes to tavern chapel building chain	false
-mct_patch_notes_idrinth_76_version	v1.0.5	false
-mct_patch_notes_idrinth_75_notes	- fix unit recruiting for  imrik, morathi, sartosa	false
-mct_patch_notes_idrinth_75_version	v1.0.4	false
-mct_patch_notes_idrinth_74_notes	- fixing recruiting for drycha	false
-mct_patch_notes_idrinth_74_version	v1.0.3	false
-mct_patch_notes_idrinth_73_notes	- horde growth scope fix	false
-mct_patch_notes_idrinth_73_version	v1.0.2	false
-mct_patch_notes_idrinth_72_notes	- fixed recruiting limit of 0 due to wrong scope	false
-mct_patch_notes_idrinth_72_version	v1.0.1	false
-mct_patch_notes_idrinth_71_notes	- horde mode lord option\\n- three more foreign slot buildings\\n- major rebalancing\\n- new unit(outriders)\\n- bugfixes to skill scopes	false
-mct_patch_notes_idrinth_71_version	v1.0.0	false
-mct_patch_notes_idrinth_70_notes	- fix quest titles and descriptions missing for expanded cultures	false
-mct_patch_notes_idrinth_70_version	v0.19.3	false
-mct_patch_notes_idrinth_69_notes	- prevent item granting spam	false
-mct_patch_notes_idrinth_69_version	v0.19.2	false
-mct_patch_notes_idrinth_68_notes	- fix level comparison for item checks	false
-mct_patch_notes_idrinth_68_version	v0.19.1	false
-mct_patch_notes_idrinth_67_notes	- support for Mod Configuration Tool\\n- new place based events\\n- slight rebalancing\\n- better implemented recruiting by expanded Culture recruiting	false
-mct_patch_notes_idrinth_67_version	v0.19.0	false
-mct_patch_notes_idrinth_66_notes	- prevent events from triggering while Idrinth is wounded	false
-mct_patch_notes_idrinth_66_version	v0.18.3	false
-mct_patch_notes_idrinth_65_notes	- a lot of cleanups	false
-mct_patch_notes_idrinth_65_version	v0.18.2	false
-mct_patch_notes_idrinth_64_notes	- vigor loss reduction now reduces instead of increases\\n- idrinth's type is no longer recruitable(even if his category was never unlocked)	false
-mct_patch_notes_idrinth_64_version	v0.18.1	false
-mct_patch_notes_idrinth_63_notes	- expanding the chapel settlements\\n- expanding the faction roster	false
-mct_patch_notes_idrinth_63_version	v0.18.0	false
-mct_patch_notes_idrinth_62_notes	- fix missing defense vs large on guards\\n- slightly increase unit weight	false
-mct_patch_notes_idrinth_62_version	v0.17.1	false
-mct_patch_notes_idrinth_61_notes	- added ranged skills and made the custom battle faction more distrinct	false
-mct_patch_notes_idrinth_61_version	v0.17.0	false
-mct_patch_notes_idrinth_60_notes	- added a banner and icon for the Thaluian Chapel for custom battles	false
-mct_patch_notes_idrinth_60_version	v0.16.0	false
-mct_patch_notes_idrinth_59_notes	- new temple level (priest-hero defenders)\\n- level scaling option for unlocks(lv 5, lv 6, lv 8, lv 11)\\n- some fixes to temples\\n- typo fixes for dilemmas\\n- seperate faction for skirmishes	false
-mct_patch_notes_idrinth_59_version	v0.15.0	false
-mct_patch_notes_idrinth_58_notes	- lower base cost from 550 to 400	false
-mct_patch_notes_idrinth_58_version	v0.14.4	false
-mct_patch_notes_idrinth_57_notes	- fixed resource costs of favour not applying properly	false
-mct_patch_notes_idrinth_57_version	v0.14.3	false
-mct_patch_notes_idrinth_56_notes	- fix overlooked diplomacy modifiers for elven chapels	false
-mct_patch_notes_idrinth_56_version	v0.14.2	false
-mct_patch_notes_idrinth_55_notes	- typos and fixes for the elven chapel chain	false
-mct_patch_notes_idrinth_55_version	v0.14.1	false
-mct_patch_notes_idrinth_54_notes	- add elven chapels founded by Idrinth, basic version, more to come.	false
-mct_patch_notes_idrinth_54_version	v0.14.0	false
-mct_patch_notes_idrinth_53_notes	- hopefully prevent double triggering of quests for slower players.	false
-mct_patch_notes_idrinth_53_version	v0.13.4	false
-mct_patch_notes_idrinth_52_notes	- adjusted auto resolve values.	false
-mct_patch_notes_idrinth_52_version	v0.13.3	false
-mct_patch_notes_idrinth_51_notes	- fixes to resource gains as well as randomised god blessings.	false
-mct_patch_notes_idrinth_51_version	v0.13.2	false
-mct_patch_notes_idrinth_50_notes	- a few typos fixed, mostly casing.	false
-mct_patch_notes_idrinth_50_version	v0.13.1	false
-mct_patch_notes_idrinth_49_notes	- added culture specific unlock dilemma texts for all primary cultures.	false
-mct_patch_notes_idrinth_49_version	v0.13.0	false
-mct_patch_notes_idrinth_48_notes	- fixed mode question appearing multiple times because of reloading.	false
-mct_patch_notes_idrinth_48_version	v0.12.2	false
-mct_patch_notes_idrinth_47_notes	- fixed cases of fallback images appearing.	false
-mct_patch_notes_idrinth_47_version	v0.12.1	false
-mct_patch_notes_idrinth_46_notes	- restored logic for prayers and devotion.	false
-mct_patch_notes_idrinth_46_version	v0.12.0	false
-mct_patch_notes_idrinth_45_notes	- slight cleanups	false
-mct_patch_notes_idrinth_45_version	v0.11.2	false
-mct_patch_notes_idrinth_44_notes	- removed the one conflicting twui file for now.	false
-mct_patch_notes_idrinth_44_version	v0.11.1	false
-mct_patch_notes_idrinth_43_notes	- removed dependency on resource bar overwriting for god favour.\\n- theoretical support for Nagash faction	false
-mct_patch_notes_idrinth_43_version	v0.11.0	false
-mct_patch_notes_idrinth_42_notes	- fixed mesh textures to be more vampiric and not show a nice, pink skin.	false
-mct_patch_notes_idrinth_42_version	v0.10.6	false
-mct_patch_notes_idrinth_41_notes	- adjusted unit card image	false
-mct_patch_notes_idrinth_41_version	v0.10.5	false
-mct_patch_notes_idrinth_40_notes	- prevent re-triggering of recruiting mission after loading.	false
-mct_patch_notes_idrinth_40_version	v0.10.4	false
-mct_patch_notes_idrinth_39_notes	- removed dependency on overwriting core scripts.	false
-mct_patch_notes_idrinth_39_version	v0.10.3	false
-mct_patch_notes_idrinth_38_notes	- fixed khaine set boni being attached to the wrong things.	false
-mct_patch_notes_idrinth_38_version	v0.10.2	false
-mct_patch_notes_idrinth_37_notes	- fixed a typo in the unit names.	false
-mct_patch_notes_idrinth_37_version	v0.10.1	false
-mct_patch_notes_idrinth_36_notes	- added high elf and vampire counts dilemma rewards.	false
-mct_patch_notes_idrinth_36_version	v0.10.0	false
-mct_patch_notes_idrinth_35_notes	- added wood elf dilemma rewards.	false
-mct_patch_notes_idrinth_35_version	v0.9.0	false
-mct_patch_notes_idrinth_34_notes	- added dwarf dilemma rewards.	false
-mct_patch_notes_idrinth_34_version	v0.8.0	false
-mct_patch_notes_idrinth_33_notes	- added kislev dilemma rewards.	false
-mct_patch_notes_idrinth_33_version	v0.7.0	false
-mct_patch_notes_idrinth_32_notes	- reducing growth of god favour at higher levels.	false
-mct_patch_notes_idrinth_32_version	v0.6.5	false
-mct_patch_notes_idrinth_31_notes	- fixed crash on ancillary assignement on round start.	false
-mct_patch_notes_idrinth_31_version	v0.6.4	false
-mct_patch_notes_idrinth_30_notes	- reduce corruption reduction from dilemma.	false
-mct_patch_notes_idrinth_30_version	v0.6.3	false
-mct_patch_notes_idrinth_29_notes	- added further effects for the empire dilemma	false
-mct_patch_notes_idrinth_29_version	v0.6.2	false
-mct_patch_notes_idrinth_28_notes	- fixed god favour assignments for dilemmas.	false
-mct_patch_notes_idrinth_28_version	v0.6.1	false
-mct_patch_notes_idrinth_27_notes	- added effect texts to dilemma options \\n- reduced favour generation from 5 to 1.	false
-mct_patch_notes_idrinth_27_version	v0.6.0	false
-mct_patch_notes_idrinth_26_notes	- fixed a few script issues related to loading values and equipping ancillaries.	false
-mct_patch_notes_idrinth_26_version	v0.5.6	false
-mct_patch_notes_idrinth_25_notes	- updated charge bonus for assault to actually have an effect.	false
-mct_patch_notes_idrinth_25_version	v0.5.5	false
-mct_patch_notes_idrinth_24_notes	- fixed multiple UUIDs in the twui-files	false
-mct_patch_notes_idrinth_24_version	v0.5.4	false
-mct_patch_notes_idrinth_23_notes	- fixed duplicate Khaine rewards for dilemmas. Rewards are still subject to change.	false
-mct_patch_notes_idrinth_23_version	v0.5.3	false
-mct_patch_notes_idrinth_22_notes	- another set of UI related fixes	false
-mct_patch_notes_idrinth_22_version	v0.5.2	false
-mct_patch_notes_idrinth_21_notes	- resource display fixes	false
-mct_patch_notes_idrinth_21_version	v0.5.1	false
-mct_patch_notes_idrinth_20_notes	- add resources to wh3 top bar	false
-mct_patch_notes_idrinth_20_version	v0.5.0	false
-mct_patch_notes_idrinth_19_notes	- fixed effects from dilemmas not being shown. Effects are subject to change.	false
-mct_patch_notes_idrinth_19_version	v0.4.8	false
-mct_patch_notes_idrinth_18_notes	- fixed a crash after loading due to wrongly cached data.	false
-mct_patch_notes_idrinth_18_version	v0.4.7	false
-mct_patch_notes_idrinth_17_notes	- reactivate event re-enablement to reduce crashes.	false
-mct_patch_notes_idrinth_17_version	v0.4.6	false
-mct_patch_notes_idrinth_16_notes	- remove debug code(script log)	false
-mct_patch_notes_idrinth_16_version	v0.4.5	false
-mct_patch_notes_idrinth_15_notes	- Remove auto-spawn from script, that was just intended for testing.	false
-mct_patch_notes_idrinth_15_version	v0.4.4	false
-mct_patch_notes_idrinth_14_notes	- made agent abilities a bit more useful.	false
-mct_patch_notes_idrinth_14_version	v0.4.3	false
-mct_patch_notes_idrinth_13_notes	- another crash case fixed.	false
-mct_patch_notes_idrinth_13_version	v0.4.2	false
-mct_patch_notes_idrinth_12_notes	- reduce crashes by suppressing events more effectively.	false
-mct_patch_notes_idrinth_12_version	v0.4.1	false
-mct_patch_notes_idrinth_11_notes	- introduce elf-slayer traits to handle elf mass slaughter.	false
-mct_patch_notes_idrinth_11_version	v0.4.0	false
-mct_patch_notes_idrinth_10_notes	- script and db fixes, so custom items are properly equipped when available.	false
-mct_patch_notes_idrinth_10_version	v0.3.4	false
-mct_patch_notes_idrinth_9_notes	- script fixes for dilemma triggering.	false
-mct_patch_notes_idrinth_9_version	v0.3.3	false
-mct_patch_notes_idrinth_8_notes	- fixed some of the crashes related to to late event suppression.	false
-mct_patch_notes_idrinth_8_version	v0.3.2	false
-mct_patch_notes_idrinth_7_notes	- improved lore texts.	false
-mct_patch_notes_idrinth_7_version	v0.3.1	false
-mct_patch_notes_idrinth_6_notes	- added lore and explanation texts to all new items.	false
-mct_patch_notes_idrinth_6_version	v0.3.0	false
-mct_patch_notes_idrinth_5_notes	- adjustments to shooting arc, to make him actually able to skirmish	false
-mct_patch_notes_idrinth_5_version	v0.2.3	false
-mct_patch_notes_idrinth_4_notes	- properly placed icons for god favour	false
-mct_patch_notes_idrinth_4_version	v0.2.2	false
-mct_patch_notes_idrinth_3_notes	- fixed crashes on gaining Ancillary	false
-mct_patch_notes_idrinth_3_version	v0.2.1	false
-mct_patch_notes_idrinth_2_notes	- displaying God Favour now.	false
-mct_patch_notes_idrinth_2_version	v0.2.0	false
-mct_patch_notes_idrinth_1_notes	- initial version	false
-mct_patch_notes_idrinth_1_version	v0.1.0	false
-mct_patch_notes_idrinth_130_notes	- MCT improvements, including patch notes\\n- Movement while settled restored\\n- fixes to upgrades being purchased despite money missing	false
-mct_patch_notes_idrinth_130_version	v1.6.5	false
-mct_patch_notes_idrinth_131_notes	- add missing winds of magic to Idrinth's horde	false
-mct_patch_notes_idrinth_131_version	v1.6.6	false
-mct_patch_notes_idrinth_132_notes	- add better icons for veteran ranks	false
-mct_patch_notes_idrinth_132_version	v1.7.0	false
+"key"	"text"	"tooltip"
+"mct_patch_notes_idrinth_129_notes"	"- fix treasury costs for upgrades giving money instead of costing it"	"false"
+"mct_patch_notes_idrinth_129_version"	"v1.6.4"	"false"
+"mct_patch_notes_idrinth_128_notes"	"- rewritten code for better stability\\n- more options in the mod config tool\\n- many small fixes"	"false"
+"mct_patch_notes_idrinth_128_version"	"v1.6.3"	"false"
+"mct_patch_notes_idrinth_127_notes"	"- performance improvements for delayed function calling"	"false"
+"mct_patch_notes_idrinth_127_version"	"v1.6.2"	"false"
+"mct_patch_notes_idrinth_126_notes"	"- fix nowAndThen firing too often leading to crashes"	"false"
+"mct_patch_notes_idrinth_126_version"	"v1.6.1"	"false"
+"mct_patch_notes_idrinth_125_notes"	"- unit size upgrades\\n- beast upgrade rework"	"false"
+"mct_patch_notes_idrinth_125_version"	"v1.6.0"	"false"
+"mct_patch_notes_idrinth_124_notes"	"- prevent trait removal event spam"	"false"
+"mct_patch_notes_idrinth_124_version"	"v1.5.2"	"false"
+"mct_patch_notes_idrinth_123_notes"	"- fix to anti lighting strike"	"false"
+"mct_patch_notes_idrinth_123_version"	"v1.5.1"	"false"
+"mct_patch_notes_idrinth_122_notes"	"- Unit Upgrades for elven units are in"	"false"
+"mct_patch_notes_idrinth_122_version"	"v1.5.0"	"false"
+"mct_patch_notes_idrinth_121_notes"	"- code cleanups"	"false"
+"mct_patch_notes_idrinth_121_version"	"v1.4.6"	"false"
+"mct_patch_notes_idrinth_120_notes"	"- fixes name loss when assigned a pirate coast ""government position"""	"false"
+"mct_patch_notes_idrinth_120_version"	"v1.4.5"	"false"
+"mct_patch_notes_idrinth_119_notes"	"- fixes to battle resources\\n- code optimizations"	"false"
+"mct_patch_notes_idrinth_119_version"	"v1.4.4"	"false"
+"mct_patch_notes_idrinth_118_notes"	"- fixed a case where the unit upgrade panel would not show after clicking the button"	"false"
+"mct_patch_notes_idrinth_118_version"	"v1.4.3"	"false"
+"mct_patch_notes_idrinth_117_notes"	"- fixed a case where the unit upgrade panel would not show after clicking the button"	"false"
+"mct_patch_notes_idrinth_117_version"	"v1.4.2"	"false"
+"mct_patch_notes_idrinth_116_notes"	"- added hints for unit usage"	"false"
+"mct_patch_notes_idrinth_116_version"	"v1.4.1"	"false"
+"mct_patch_notes_idrinth_115_notes"	"- make unit blessings for waaagh animals work\\n- rebalancing buildings of horde"	"false"
+"mct_patch_notes_idrinth_115_version"	"v1.4.0"	"false"
+"mct_patch_notes_idrinth_114_notes"	"- fixes for unit set not encompassing everything required"	"false"
+"mct_patch_notes_idrinth_114_version"	"v1.3.5"	"false"
+"mct_patch_notes_idrinth_113_notes"	"- fixes for unit set not encompassing everything required"	"false"
+"mct_patch_notes_idrinth_113_version"	"v1.3.4"	"false"
+"mct_patch_notes_idrinth_112_notes"	"- fixes for unit set not encompassing everything required"	"false"
+"mct_patch_notes_idrinth_112_version"	"v1.3.3"	"false"
+"mct_patch_notes_idrinth_111_notes"	"- fixed detection of character initiatives"	"false"
+"mct_patch_notes_idrinth_111_version"	"v1.3.2"	"false"
+"mct_patch_notes_idrinth_110_notes"	"- fix a crash reason"	"false"
+"mct_patch_notes_idrinth_110_version"	"v1.3.1"	"false"
+"mct_patch_notes_idrinth_109_notes"	"- major rewrite for performance"	"false"
+"mct_patch_notes_idrinth_109_version"	"v1.3.0"	"false"
+"mct_patch_notes_idrinth_108_notes"	"- fix version number"	"false"
+"mct_patch_notes_idrinth_108_version"	"v1.2.2"	"false"
+"mct_patch_notes_idrinth_107_notes"	"- fixing antitrait handling"	"false"
+"mct_patch_notes_idrinth_107_version"	"v1.2.1"	"false"
+"mct_patch_notes_idrinth_106_notes"	"- icon on settlement when chapels are available\\n- a lot of code cleanups\\n- devotion system improvements with god jealousy"	"false"
+"mct_patch_notes_idrinth_106_version"	"v1.2.0"	"false"
+"mct_patch_notes_idrinth_105_notes"	"- fixes to the resources being misplaced in the UI"	"false"
+"mct_patch_notes_idrinth_105_version"	"v1.1.18"	"false"
+"mct_patch_notes_idrinth_104_notes"	"- yet another settlement ui fix"	"false"
+"mct_patch_notes_idrinth_104_version"	"v1.1.17"	"false"
+"mct_patch_notes_idrinth_103_notes"	"- fixing button handling in settlement view"	"false"
+"mct_patch_notes_idrinth_103_version"	"v1.1.16"	"false"
+"mct_patch_notes_idrinth_102_notes"	"- fix item status storing/retrieving to prevent multiple sets from being gained"	"false"
+"mct_patch_notes_idrinth_102_version"	"v1.1.15"	"false"
+"mct_patch_notes_idrinth_101_notes"	"- fix auto-equipping unique items"	"false"
+"mct_patch_notes_idrinth_101_version"	"v1.1.14"	"false"
+"mct_patch_notes_idrinth_100_notes"	"- proper lord and office titles displayed during recruitment\\n- preventing dual spawning(hopefully)"	"false"
+"mct_patch_notes_idrinth_100_version"	"v1.1.13"	"false"
+"mct_patch_notes_idrinth_99_notes"	"- fixing two cases of dilemmas triggering for the wrong faction(s)"	"false"
+"mct_patch_notes_idrinth_99_version"	"v1.1.12"	"false"
+"mct_patch_notes_idrinth_98_notes"	"- fixing one more thing in item giving"	"false"
+"mct_patch_notes_idrinth_98_version"	"v1.1.11"	"false"
+"mct_patch_notes_idrinth_97_notes"	"- recruiting script fixes\\n- ui fixes\\n- item script fixes"	"false"
+"mct_patch_notes_idrinth_97_version"	"v1.1.10"	"false"
+"mct_patch_notes_idrinth_96_notes"	"- fixing item giving code"	"false"
+"mct_patch_notes_idrinth_96_version"	"v1.1.9"	"false"
+"mct_patch_notes_idrinth_95_notes"	"- some tidy up tasks"	"false"
+"mct_patch_notes_idrinth_95_version"	"v1.1.8"	"false"
+"mct_patch_notes_idrinth_94_notes"	"- fix settings in multiplayer popping up for the wrong player"	"false"
+"mct_patch_notes_idrinth_94_version"	"v1.1.7"	"false"
+"mct_patch_notes_idrinth_93_notes"	"- fix version number"	"false"
+"mct_patch_notes_idrinth_93_version"	"v1.1.6"	"false"
+"mct_patch_notes_idrinth_92_notes"	"- prevent npc factions from getting location and story events"	"false"
+"mct_patch_notes_idrinth_92_version"	"v1.1.5"	"false"
+"mct_patch_notes_idrinth_91_notes"	"- fixes to item gaining"	"false"
+"mct_patch_notes_idrinth_91_version"	"v1.1.4"	"false"
+"mct_patch_notes_idrinth_90_notes"	"- ui fixes"	"false"
+"mct_patch_notes_idrinth_90_version"	"v1.1.3"	"false"
+"mct_patch_notes_idrinth_89_notes"	"- version number increment"	"false"
+"mct_patch_notes_idrinth_89_version"	"v1.1.2"	"false"
+"mct_patch_notes_idrinth_88_notes"	"- small script fixes"	"false"
+"mct_patch_notes_idrinth_88_version"	"v1.1.1"	"false"
+"mct_patch_notes_idrinth_87_notes"	"- refactoring\\n- devotion unlocked\\n- major improvements to general\\n- adding animal waaagh mechanic to general"	"false"
+"mct_patch_notes_idrinth_87_version"	"v1.1.0"	"false"
+"mct_patch_notes_idrinth_86_notes"	"- unlock quest spam likely fixed\\n- no more weird animals to ride on for outriders\\n- small adjustments to text clarity"	"false"
+"mct_patch_notes_idrinth_86_version"	"v1.0.15"	"false"
+"mct_patch_notes_idrinth_85_notes"	"- fix missing attrition immunities to the lord version"	"false"
+"mct_patch_notes_idrinth_85_version"	"v1.0.14"	"false"
+"mct_patch_notes_idrinth_84_notes"	"- fix favour resources not updating in the UI during the turn itself"	"false"
+"mct_patch_notes_idrinth_84_version"	"v1.0.13"	"false"
+"mct_patch_notes_idrinth_83_notes"	"- encamp no longer costs movement"	"false"
+"mct_patch_notes_idrinth_83_version"	"v1.0.12"	"false"
+"mct_patch_notes_idrinth_82_notes"	"- fixed story event toggle triggering multiple times"	"false"
+"mct_patch_notes_idrinth_82_version"	"v1.0.11"	"false"
+"mct_patch_notes_idrinth_81_notes"	"- add missing unit type classifications"	"false"
+"mct_patch_notes_idrinth_81_version"	"v1.0.10"	"false"
+"mct_patch_notes_idrinth_80_notes"	"- add forgotten positive effects to elf killer traits\\n- make sure models use at maximum 5 variants per file"	"false"
+"mct_patch_notes_idrinth_80_version"	"v1.0.9"	"false"
+"mct_patch_notes_idrinth_79_notes"	"- fix battle tracking\\n- fix ranged weapon damage of priests and Idrinth"	"false"
+"mct_patch_notes_idrinth_79_version"	"v1.0.8"	"false"
+"mct_patch_notes_idrinth_78_notes"	"- fixed resource generation bug\\n- added forgotten skill to general skill line"	"false"
+"mct_patch_notes_idrinth_78_version"	"v1.0.7"	"false"
+"mct_patch_notes_idrinth_77_notes"	"- fixed localization for elven slayer traits"	"false"
+"mct_patch_notes_idrinth_77_version"	"v1.0.6"	"false"
+"mct_patch_notes_idrinth_76_notes"	"- fixes to tavern chapel building chain"	"false"
+"mct_patch_notes_idrinth_76_version"	"v1.0.5"	"false"
+"mct_patch_notes_idrinth_75_notes"	"- fix unit recruiting for  imrik, morathi, sartosa"	"false"
+"mct_patch_notes_idrinth_75_version"	"v1.0.4"	"false"
+"mct_patch_notes_idrinth_74_notes"	"- fixing recruiting for drycha"	"false"
+"mct_patch_notes_idrinth_74_version"	"v1.0.3"	"false"
+"mct_patch_notes_idrinth_73_notes"	"- horde growth scope fix"	"false"
+"mct_patch_notes_idrinth_73_version"	"v1.0.2"	"false"
+"mct_patch_notes_idrinth_72_notes"	"- fixed recruiting limit of 0 due to wrong scope"	"false"
+"mct_patch_notes_idrinth_72_version"	"v1.0.1"	"false"
+"mct_patch_notes_idrinth_71_notes"	"- horde mode lord option\\n- three more foreign slot buildings\\n- major rebalancing\\n- new unit(outriders)\\n- bugfixes to skill scopes"	"false"
+"mct_patch_notes_idrinth_71_version"	"v1.0.0"	"false"
+"mct_patch_notes_idrinth_70_notes"	"- fix quest titles and descriptions missing for expanded cultures"	"false"
+"mct_patch_notes_idrinth_70_version"	"v0.19.3"	"false"
+"mct_patch_notes_idrinth_69_notes"	"- prevent item granting spam"	"false"
+"mct_patch_notes_idrinth_69_version"	"v0.19.2"	"false"
+"mct_patch_notes_idrinth_68_notes"	"- fix level comparison for item checks"	"false"
+"mct_patch_notes_idrinth_68_version"	"v0.19.1"	"false"
+"mct_patch_notes_idrinth_67_notes"	"- support for Mod Configuration Tool\\n- new place based events\\n- slight rebalancing\\n- better implemented recruiting by expanded Culture recruiting"	"false"
+"mct_patch_notes_idrinth_67_version"	"v0.19.0"	"false"
+"mct_patch_notes_idrinth_66_notes"	"- prevent events from triggering while Idrinth is wounded"	"false"
+"mct_patch_notes_idrinth_66_version"	"v0.18.3"	"false"
+"mct_patch_notes_idrinth_65_notes"	"- a lot of cleanups"	"false"
+"mct_patch_notes_idrinth_65_version"	"v0.18.2"	"false"
+"mct_patch_notes_idrinth_64_notes"	"- vigor loss reduction now reduces instead of increases\\n- idrinth's type is no longer recruitable(even if his category was never unlocked)"	"false"
+"mct_patch_notes_idrinth_64_version"	"v0.18.1"	"false"
+"mct_patch_notes_idrinth_63_notes"	"- expanding the chapel settlements\\n- expanding the faction roster"	"false"
+"mct_patch_notes_idrinth_63_version"	"v0.18.0"	"false"
+"mct_patch_notes_idrinth_62_notes"	"- fix missing defense vs large on guards\\n- slightly increase unit weight"	"false"
+"mct_patch_notes_idrinth_62_version"	"v0.17.1"	"false"
+"mct_patch_notes_idrinth_61_notes"	"- added ranged skills and made the custom battle faction more distrinct"	"false"
+"mct_patch_notes_idrinth_61_version"	"v0.17.0"	"false"
+"mct_patch_notes_idrinth_60_notes"	"- added a banner and icon for the Thaluian Chapel for custom battles"	"false"
+"mct_patch_notes_idrinth_60_version"	"v0.16.0"	"false"
+"mct_patch_notes_idrinth_59_notes"	"- new temple level (priest-hero defenders)\\n- level scaling option for unlocks(lv 5, lv 6, lv 8, lv 11)\\n- some fixes to temples\\n- typo fixes for dilemmas\\n- seperate faction for skirmishes"	"false"
+"mct_patch_notes_idrinth_59_version"	"v0.15.0"	"false"
+"mct_patch_notes_idrinth_58_notes"	"- lower base cost from 550 to 400"	"false"
+"mct_patch_notes_idrinth_58_version"	"v0.14.4"	"false"
+"mct_patch_notes_idrinth_57_notes"	"- fixed resource costs of favour not applying properly"	"false"
+"mct_patch_notes_idrinth_57_version"	"v0.14.3"	"false"
+"mct_patch_notes_idrinth_56_notes"	"- fix overlooked diplomacy modifiers for elven chapels"	"false"
+"mct_patch_notes_idrinth_56_version"	"v0.14.2"	"false"
+"mct_patch_notes_idrinth_55_notes"	"- typos and fixes for the elven chapel chain"	"false"
+"mct_patch_notes_idrinth_55_version"	"v0.14.1"	"false"
+"mct_patch_notes_idrinth_54_notes"	"- add elven chapels founded by Idrinth, basic version, more to come."	"false"
+"mct_patch_notes_idrinth_54_version"	"v0.14.0"	"false"
+"mct_patch_notes_idrinth_53_notes"	"- hopefully prevent double triggering of quests for slower players."	"false"
+"mct_patch_notes_idrinth_53_version"	"v0.13.4"	"false"
+"mct_patch_notes_idrinth_52_notes"	"- adjusted auto resolve values."	"false"
+"mct_patch_notes_idrinth_52_version"	"v0.13.3"	"false"
+"mct_patch_notes_idrinth_51_notes"	"- fixes to resource gains as well as randomised god blessings."	"false"
+"mct_patch_notes_idrinth_51_version"	"v0.13.2"	"false"
+"mct_patch_notes_idrinth_50_notes"	"- a few typos fixed, mostly casing."	"false"
+"mct_patch_notes_idrinth_50_version"	"v0.13.1"	"false"
+"mct_patch_notes_idrinth_49_notes"	"- added culture specific unlock dilemma texts for all primary cultures."	"false"
+"mct_patch_notes_idrinth_49_version"	"v0.13.0"	"false"
+"mct_patch_notes_idrinth_48_notes"	"- fixed mode question appearing multiple times because of reloading."	"false"
+"mct_patch_notes_idrinth_48_version"	"v0.12.2"	"false"
+"mct_patch_notes_idrinth_47_notes"	"- fixed cases of fallback images appearing."	"false"
+"mct_patch_notes_idrinth_47_version"	"v0.12.1"	"false"
+"mct_patch_notes_idrinth_46_notes"	"- restored logic for prayers and devotion."	"false"
+"mct_patch_notes_idrinth_46_version"	"v0.12.0"	"false"
+"mct_patch_notes_idrinth_45_notes"	"- slight cleanups"	"false"
+"mct_patch_notes_idrinth_45_version"	"v0.11.2"	"false"
+"mct_patch_notes_idrinth_44_notes"	"- removed the one conflicting twui file for now."	"false"
+"mct_patch_notes_idrinth_44_version"	"v0.11.1"	"false"
+"mct_patch_notes_idrinth_43_notes"	"- removed dependency on resource bar overwriting for god favour.\\n- theoretical support for Nagash faction"	"false"
+"mct_patch_notes_idrinth_43_version"	"v0.11.0"	"false"
+"mct_patch_notes_idrinth_42_notes"	"- fixed mesh textures to be more vampiric and not show a nice, pink skin."	"false"
+"mct_patch_notes_idrinth_42_version"	"v0.10.6"	"false"
+"mct_patch_notes_idrinth_41_notes"	"- adjusted unit card image"	"false"
+"mct_patch_notes_idrinth_41_version"	"v0.10.5"	"false"
+"mct_patch_notes_idrinth_40_notes"	"- prevent re-triggering of recruiting mission after loading."	"false"
+"mct_patch_notes_idrinth_40_version"	"v0.10.4"	"false"
+"mct_patch_notes_idrinth_39_notes"	"- removed dependency on overwriting core scripts."	"false"
+"mct_patch_notes_idrinth_39_version"	"v0.10.3"	"false"
+"mct_patch_notes_idrinth_38_notes"	"- fixed khaine set boni being attached to the wrong things."	"false"
+"mct_patch_notes_idrinth_38_version"	"v0.10.2"	"false"
+"mct_patch_notes_idrinth_37_notes"	"- fixed a typo in the unit names."	"false"
+"mct_patch_notes_idrinth_37_version"	"v0.10.1"	"false"
+"mct_patch_notes_idrinth_36_notes"	"- added high elf and vampire counts dilemma rewards."	"false"
+"mct_patch_notes_idrinth_36_version"	"v0.10.0"	"false"
+"mct_patch_notes_idrinth_35_notes"	"- added wood elf dilemma rewards."	"false"
+"mct_patch_notes_idrinth_35_version"	"v0.9.0"	"false"
+"mct_patch_notes_idrinth_34_notes"	"- added dwarf dilemma rewards."	"false"
+"mct_patch_notes_idrinth_34_version"	"v0.8.0"	"false"
+"mct_patch_notes_idrinth_33_notes"	"- added kislev dilemma rewards."	"false"
+"mct_patch_notes_idrinth_33_version"	"v0.7.0"	"false"
+"mct_patch_notes_idrinth_32_notes"	"- reducing growth of god favour at higher levels."	"false"
+"mct_patch_notes_idrinth_32_version"	"v0.6.5"	"false"
+"mct_patch_notes_idrinth_31_notes"	"- fixed crash on ancillary assignement on round start."	"false"
+"mct_patch_notes_idrinth_31_version"	"v0.6.4"	"false"
+"mct_patch_notes_idrinth_30_notes"	"- reduce corruption reduction from dilemma."	"false"
+"mct_patch_notes_idrinth_30_version"	"v0.6.3"	"false"
+"mct_patch_notes_idrinth_29_notes"	"- added further effects for the empire dilemma"	"false"
+"mct_patch_notes_idrinth_29_version"	"v0.6.2"	"false"
+"mct_patch_notes_idrinth_28_notes"	"- fixed god favour assignments for dilemmas."	"false"
+"mct_patch_notes_idrinth_28_version"	"v0.6.1"	"false"
+"mct_patch_notes_idrinth_27_notes"	"- added effect texts to dilemma options \\n- reduced favour generation from 5 to 1."	"false"
+"mct_patch_notes_idrinth_27_version"	"v0.6.0"	"false"
+"mct_patch_notes_idrinth_26_notes"	"- fixed a few script issues related to loading values and equipping ancillaries."	"false"
+"mct_patch_notes_idrinth_26_version"	"v0.5.6"	"false"
+"mct_patch_notes_idrinth_25_notes"	"- updated charge bonus for assault to actually have an effect."	"false"
+"mct_patch_notes_idrinth_25_version"	"v0.5.5"	"false"
+"mct_patch_notes_idrinth_24_notes"	"- fixed multiple UUIDs in the twui-files"	"false"
+"mct_patch_notes_idrinth_24_version"	"v0.5.4"	"false"
+"mct_patch_notes_idrinth_23_notes"	"- fixed duplicate Khaine rewards for dilemmas. Rewards are still subject to change."	"false"
+"mct_patch_notes_idrinth_23_version"	"v0.5.3"	"false"
+"mct_patch_notes_idrinth_22_notes"	"- another set of UI related fixes"	"false"
+"mct_patch_notes_idrinth_22_version"	"v0.5.2"	"false"
+"mct_patch_notes_idrinth_21_notes"	"- resource display fixes"	"false"
+"mct_patch_notes_idrinth_21_version"	"v0.5.1"	"false"
+"mct_patch_notes_idrinth_20_notes"	"- add resources to wh3 top bar"	"false"
+"mct_patch_notes_idrinth_20_version"	"v0.5.0"	"false"
+"mct_patch_notes_idrinth_19_notes"	"- fixed effects from dilemmas not being shown. Effects are subject to change."	"false"
+"mct_patch_notes_idrinth_19_version"	"v0.4.8"	"false"
+"mct_patch_notes_idrinth_18_notes"	"- fixed a crash after loading due to wrongly cached data."	"false"
+"mct_patch_notes_idrinth_18_version"	"v0.4.7"	"false"
+"mct_patch_notes_idrinth_17_notes"	"- reactivate event re-enablement to reduce crashes."	"false"
+"mct_patch_notes_idrinth_17_version"	"v0.4.6"	"false"
+"mct_patch_notes_idrinth_16_notes"	"- remove debug code(script log)"	"false"
+"mct_patch_notes_idrinth_16_version"	"v0.4.5"	"false"
+"mct_patch_notes_idrinth_15_notes"	"- Remove auto-spawn from script, that was just intended for testing."	"false"
+"mct_patch_notes_idrinth_15_version"	"v0.4.4"	"false"
+"mct_patch_notes_idrinth_14_notes"	"- made agent abilities a bit more useful."	"false"
+"mct_patch_notes_idrinth_14_version"	"v0.4.3"	"false"
+"mct_patch_notes_idrinth_13_notes"	"- another crash case fixed."	"false"
+"mct_patch_notes_idrinth_13_version"	"v0.4.2"	"false"
+"mct_patch_notes_idrinth_12_notes"	"- reduce crashes by suppressing events more effectively."	"false"
+"mct_patch_notes_idrinth_12_version"	"v0.4.1"	"false"
+"mct_patch_notes_idrinth_11_notes"	"- introduce elf-slayer traits to handle elf mass slaughter."	"false"
+"mct_patch_notes_idrinth_11_version"	"v0.4.0"	"false"
+"mct_patch_notes_idrinth_10_notes"	"- script and db fixes, so custom items are properly equipped when available."	"false"
+"mct_patch_notes_idrinth_10_version"	"v0.3.4"	"false"
+"mct_patch_notes_idrinth_9_notes"	"- script fixes for dilemma triggering."	"false"
+"mct_patch_notes_idrinth_9_version"	"v0.3.3"	"false"
+"mct_patch_notes_idrinth_8_notes"	"- fixed some of the crashes related to to late event suppression."	"false"
+"mct_patch_notes_idrinth_8_version"	"v0.3.2"	"false"
+"mct_patch_notes_idrinth_7_notes"	"- improved lore texts."	"false"
+"mct_patch_notes_idrinth_7_version"	"v0.3.1"	"false"
+"mct_patch_notes_idrinth_6_notes"	"- added lore and explanation texts to all new items."	"false"
+"mct_patch_notes_idrinth_6_version"	"v0.3.0"	"false"
+"mct_patch_notes_idrinth_5_notes"	"- adjustments to shooting arc, to make him actually able to skirmish"	"false"
+"mct_patch_notes_idrinth_5_version"	"v0.2.3"	"false"
+"mct_patch_notes_idrinth_4_notes"	"- properly placed icons for god favour"	"false"
+"mct_patch_notes_idrinth_4_version"	"v0.2.2"	"false"
+"mct_patch_notes_idrinth_3_notes"	"- fixed crashes on gaining Ancillary"	"false"
+"mct_patch_notes_idrinth_3_version"	"v0.2.1"	"false"
+"mct_patch_notes_idrinth_2_notes"	"- displaying God Favour now."	"false"
+"mct_patch_notes_idrinth_2_version"	"v0.2.0"	"false"
+"mct_patch_notes_idrinth_1_notes"	"- initial version"	"false"
+"mct_patch_notes_idrinth_1_version"	"v0.1.0"	"false"
+"mct_patch_notes_idrinth_130_notes"	"- MCT improvements, including patch notes\\n- Movement while settled restored\\n- fixes to upgrades being purchased despite money missing"	"false"
+"mct_patch_notes_idrinth_130_version"	"v1.6.5"	"false"
+"mct_patch_notes_idrinth_131_notes"	"- add missing winds of magic to Idrinth's horde"	"false"
+"mct_patch_notes_idrinth_131_version"	"v1.6.6"	"false"
+"mct_patch_notes_idrinth_132_notes"	"- add better icons for veteran ranks"	"false"
+"mct_patch_notes_idrinth_132_version"	"v1.7.0"	"false"
