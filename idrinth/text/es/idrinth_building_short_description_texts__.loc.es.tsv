@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/.es/idrinth_building_short_description_texts__.es.loc		
+#Loc;1;text/idrinth_building_short_description_texts__es.loc.tsv/idrinth_building_short_description_texts__es.loc		
 building_short_description_texts_short_description_idrinth_hev_high_elf_vampires_chapel_0	Una capilla para una comunidad de pícaros, exiliados y aventureros de raza élfica. Estos elfos siguen los pasos de Idrinth como ejemplo de cómo vivir sus vidas.	false
 building_short_description_texts_short_description_idrinth_hev_high_elf_vampires_chapel_1_asuryan	Una capilla para una comunidad de pícaros, exiliados y aventureros de raza élfica. Estos elfos siguen los pasos de Idrinth como ejemplo de cómo vivir sus vidas en nombre de Asuryan.	false
 building_short_description_texts_short_description_idrinth_hev_high_elf_vampires_chapel_1_kurnous	Una capilla para una comunidad de pícaros, exiliados y aventureros de raza élfica. Estos elfos siguen los pasos de Idrinth como ejemplo de cómo vivir sus vidas en nombre de Kurnous.	false
