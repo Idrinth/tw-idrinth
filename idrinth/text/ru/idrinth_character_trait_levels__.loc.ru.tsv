@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_trait_levels__.ru.loc.tsv/idrinth_character_trait_levels__.ru.loc		
+#Loc;1;text/.ru/idrinth_character_trait_levels__.ru.loc		
 character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	Вы известный убийца эльфов для Кхейна и других эльфов.	false
 character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	Вы сражались со многими армиями эльфов.	false
 character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	Проклятый Кхейном Истребитель Эльфов	false
