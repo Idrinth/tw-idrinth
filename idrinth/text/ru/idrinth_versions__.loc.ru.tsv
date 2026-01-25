@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__ru.loc.tsvdb/idrinth__ru.loc		
+#Loc;1;text/idrinth_versions__.ru.loc.tsv/idrinth_versions__.ru.loc		
 mct_patch_notes_idrinth_129_notes	- исправлена стоимость улучшений в казне, которая давала деньги вместо траты	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- переписан код для лучшей стабильности\\n- больше опций в инструменте настройки мода\\n- множество мелких исправлений	false
