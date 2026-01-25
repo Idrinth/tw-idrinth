@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_cdir_events_dilemma_choice_details__.br.loc.tsv/idrinth_cdir_events_dilemma_choice_details__.br.loc		
+#Loc;1;text/.br/idrinth_cdir_events_dilemma_choice_details__.br.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	Aceitar ajuda. (Herói)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	Aceitar ajuda. (General)	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	Expulsar o estranho.	false
