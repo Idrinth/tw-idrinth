@@ -1,0 +1,74 @@
+key	text	tooltip
+#Loc;1;text/idrinth_mct__.pl.loc.tsv/idrinth_mct__.pl.loc		
+mct_idrinth_title	Idrinth Thalui - Wampirzy Mistrz Wiedzy Wysokich Elfów	false
+mct_idrinth_author	Björn 'Idrinth' Büttner	false
+mct_idrinth_description	Historia Upadłego Mistrza Wiedzy\\n\\nNiegdyś szanowany Mistrz Wiedzy Wysokich Elfów, Idrinth Thalui spotkał swój śmiertelny koniec podczas krwawych Wojen Wampirów, tylko po to, by powstać jako jedna z istot, z którymi walczył. Teraz ten Rycerz-Uczony kroczy po niebezpiecznej ścieżce między swoim elfickim dziedzictwem a wampiryczną klątwą, szukając celu w świecie rozdartym przez Chaos.\\n\\nCzy poprowadzisz go ku odkupieniu, czy przyjmiesz ciemność w nim? Jego los spoczywa w twoich rękach.	false
+mct_idrinth_expanded_spawn_text	Rozszerzone Kultury Pojawienia	false
+mct_idrinth_expanded_spawn_tooltip	Pozwala Idrinthowi pojawić się również dla Bretonnii, Cathay, Legionów Nagasha, Mrocznych Elfów i Wybrzeża Wampirów.	false
+mct_idrinth_level_adjustment_text	Wymaganie Poziomu	false
+mct_idrinth_level_adjustment_options_null_text	Wczesna Gra	false
+mct_idrinth_level_adjustment_options_one_text	Późna Wczesna Gra	false
+mct_idrinth_level_adjustment_options_three_text	Wczesna Średnia Gra	false
+mct_idrinth_level_adjustment_options_six_text	Średnia Gra	false
+mct_idrinth_level_adjustment_tooltip	Modyfikuje wymaganie poziomu, aby otrzymać zadanie odblokowania Idrintha.	false
+mct_idrinth_god_item_difficulty_text	Trudność Przedmiotów Błogosławionych Przez Bogów	false
+mct_idrinth_god_item_difficulty_options_low_text	Niskie Wymagania	false
+mct_idrinth_god_item_difficulty_options_normal_text	Normalne Wymagania	false
+mct_idrinth_god_item_difficulty_options_high_text	Wysokie Wymagania	false
+mct_idrinth_god_item_difficulty_tooltip	Modyfikuje wymagania do otrzymania przedmiotów błogosławionych przez bogów.	false
+mct_idrinth_chapel_chance_text	Szansa Pojawienia Kaplicy	false
+mct_idrinth_chapel_chance_options_low_text	Niska Szansa	false
+mct_idrinth_chapel_chance_options_normal_text	Normalna Szansa	false
+mct_idrinth_chapel_chance_options_high_text	Wysoka Szansa	false
+mct_idrinth_chapel_chance_tooltip	Modyfikuje szansę pojawienia się Kaplic Thaluiańskich przez obecność Idrintha.	false
+mct_idrinth_story_events_text	Włącz Wydarzenia Fabularne	false
+mct_idrinth_story_events_tooltip	Pozwala Idrinthowi powiadomić gracza po osiągnięciu określonych regionów ważnych dla niego.	false
+mct_idrinth_chapels_text	Kaplice Thaluiańskie	false
+mct_idrinth_chapels_tooltip	Pozwala Idrinthowi zakładać kaplice, które wzmacniają obronę miast i wpływają na generowanie przychylności bogów.	false
+mct_idrinth_dilemma_cooldown_text	Czas Odnowienia Dylematów	false
+mct_idrinth_dilemma_cooldown_options_low_text	Niski (1 + [1-2])	false
+mct_idrinth_dilemma_cooldown_options_medium_text	Średni (2 + [1-3])	false
+mct_idrinth_dilemma_cooldown_options_long_text	Długi (3 + [1-4])	false
+mct_idrinth_dilemma_cooldown_tooltip	Modyfikuje czas odnowienia między dylematami wymagającymi decyzji.	false
+mct_idrinth_names_text	Zmiana Nazw Jednostek	false
+mct_idrinth_names_tooltip	Gdy zaznaczone, jednostki otrzymują niestandardową nazwę przy rekrutacji wybraną z listy elfickich imion.	false
+mct_idrinth_logging_text	Włącz Własne Logowanie	false
+mct_idrinth_logging_tooltip	Gdy zaznaczone, ten mod loguje do głównego katalogu gry do idrinth.*.log.	false
+mct_idrinth_base_logging_text	Włącz Użycie Logowania Podstawowej Gry	false
+mct_idrinth_base_logging_tooltip	Gdy zaznaczone, ten mod loguje za pomocą podstawowej funkcji logowania gry.	false
+mct_idrinth_section_idrinth_story_features_name	Przełączniki Funkcji Fabularnych	false
+mct_idrinth_section_idrinth_game_features_name	Przełączniki Funkcji Gry	false
+mct_idrinth_section_idrinth_chances_name	Szanse	false
+mct_idrinth_section_idrinth_spawn_name	Opcje Pojawienia	false
+mct_idrinth_section_idrinth_other_name	Dodatkowe Opcje	false
+mct_idrinth_section_idrinth_cooldowns_name	Opcje Czasu Odnowienia	false
+mct_idrinth_intervention_cooldown_text	Czas Odnowienia Interwencji	false
+mct_idrinth_intervention_cooldown_options_low_text	Niski (80%)	false
+mct_idrinth_intervention_cooldown_options_medium_text	Średni (100%)	false
+mct_idrinth_intervention_cooldown_options_long_text	Długi (120%)	false
+mct_idrinth_intervention_cooldown_tooltip	Modyfikuje czas odnowienia między boskimi interwencjami.	false
+mct_idrinth_animal_waaagh_text	Zwierzęcy WAAAGH	false
+mct_idrinth_animal_waaagh_tooltip	Gdy zaznaczone, za Idrinthem podąża armia WAAAGH złożona ze zwierząt. Wyłączenie nie powoduje zniknięcia armii.	false
+mct_idrinth_vampire_chance_text	Szansa na Przemianę w Wampira	false
+mct_idrinth_vampire_chance_options_low_text	Niska (10% bazowego sukcesu)	false
+mct_idrinth_vampire_chance_options_normal_text	Normalna (15% bazowego sukcesu)	false
+mct_idrinth_vampire_chance_options_high_text	Wysoka (20% bazowego sukcesu)	false
+mct_idrinth_vampire_chance_tooltip	Zmienia szansę przeżycia kapłanów podczas przemiany w wampiry.	false
+mct_idrinth_story_dilemma_base_chance_text	Bazowa Szansa Dylematów Fabularnych	false
+mct_idrinth_story_dilemma_base_chance_options_low_text	Niska	false
+mct_idrinth_story_dilemma_base_chance_options_normal_text	Normalna	false
+mct_idrinth_story_dilemma_base_chance_options_high_text	Wysoka	false
+mct_idrinth_story_dilemma_base_chance_tooltip	Zmienia szansę na wywołanie dylematów decyzji fabularnych.	false
+mct_idrinth_god_item_base_chance_text	Bazowa Szansa Boskich Przedmiotów	false
+mct_idrinth_god_item_base_chance_options_low_text	Niska	false
+mct_idrinth_god_item_base_chance_options_normal_text	Normalna	false
+mct_idrinth_god_item_base_chance_options_high_text	Wysoka	false
+mct_idrinth_god_item_base_chance_tooltip	Zmienia szansę na zaoferowanie boskich przedmiotów.	false
+mct_idrinth_elf_slayer_traits_text	Cechy Zabójcy Elfów	false
+mct_idrinth_elf_slayer_traits_tooltip	Włącza cechy za zabijanie elfów. Wyłączenie nie usuwa istniejących poziomów cech.	false
+mct_idrinth_devotion_traits_text	Cechy Oddania	false
+mct_idrinth_devotion_traits_tooltip	Włącza cechy za czas poświęcony określonemu bogu. Wyłączenie nie usuwa istniejących poziomów cech.	false
+mct_idrinth_interventions_text	Włącz Boską Interwencję	false
+mct_idrinth_interventions_tooltip	Jeśli włączone, Asuryan, Kurnous i Khaine będą interweniować gdy twoja przychylność jest wysoka, używając jej części na bonusy dla całej frakcji.	false
+mct_idrinth_groovy_logging_text	Włącz Użycie Logowania Groovy	false
+mct_idrinth_groovy_logging_tooltip	Gdy zaznaczone, ten mod loguje za pomocą systemu logowania dostarczonego przez MCT.	false
