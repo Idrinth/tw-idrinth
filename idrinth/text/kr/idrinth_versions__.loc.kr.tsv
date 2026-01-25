@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_versions__.kr.loc.tsv/idrinth_versions__.kr.loc		
+#Loc;1;text/.kr/idrinth_versions__.kr.loc		
 mct_patch_notes_idrinth_129_notes	- 업그레이드 비용이 돈을 소모하는 대신 지급하던 재정 비용 수정	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- 더 나은 안정성을 위한 코드 재작성\\n- 모드 설정 도구에 더 많은 옵션 추가\\n- 많은 작은 수정사항	false
