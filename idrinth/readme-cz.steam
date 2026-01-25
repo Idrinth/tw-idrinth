@@ -1,119 +1,120 @@
-[h1]Idrinth Thalui: Rytíř-Učenec[/h1]
+[h1]Idrinth Thalui: The Knight-Scholar[/h1]
+#Loc;1;text/db/readme-cz.steam	
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2927955021][img]https://i.imgur.com/1Vglg7c.png[/img][/url]
 
-[h2]Příběh Padlého Mistra Vědomostí[/h2]
+[h2]The Tale of a Fallen Loremaster[/h2]
 
-Kdysi uznávaný Mistr Vědomostí Vysokých Elfů, Idrinth Thalui našel svůj smrtelný konec během krvavých Válek s Upíry, jen aby povstal jako jedno z těch samých stvoření, proti kterým bojoval. Nyní tento Rytíř-Učenec kráčí po nebezpečné cestě mezi svým elfím dědictvím a upírskou kletbou, hledajíc smysl ve světě roztrhaném Chaosem.
+Once a respected High Elven Loremaster, Idrinth Thalui met his mortal end during the bloody Vampire Wars, only to rise again as one of the very creatures he fought against. Now this Knight-Scholar walks a precarious path between his elven heritage and vampiric curse, seeking purpose in a world torn by Chaos.
 
-Povedete ho k vykoupení, nebo přijmete temnotu v jeho nitru? Jeho osud spočívá ve vašich rukou.
+Will you guide him toward redemption or embrace the darkness within? His fate rests in your hands.
 
-[h2]Podporované Jazyky[/h2]
+[h2]Supported Languages[/h2]
 
 [list]
-[*]Angličtina/English
-[*]Němčina/Deutsch
-[*]Francouzština/Français
-[*]Španělština/Español
-[*]Ruština/Русский
-[*]Polština/Polski
-[*]Portugalština/Português
-[*]Italština/Italiano
-[*]Čeština
-[*]Turečtina/Türkçe
-[*]Korejština/한국어
-[*]Zjednodušená Čínština/简体中文
-[*]Tradiční Čínština/繁體中文
+[*]English
+[*]German/Deutsch
+[*]French/Français
+[*]Spanish/Español
+[*]Russian/Русский
+[*]Polish/Polski
+[*]Portuguese/Português
+[*]Italian/Italiano
+[*]Czech/Čeština
+[*]Turkish/Türkçe
+[*]Korean/한국어
+[*]Simplified Chinese/简体中文
+[*]Traditional Chinese/繁體中文
 [/list]
 
-Chcete pomoci s překladem? [url=https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006]Připojte se k našemu projektu na Crowdin[/url], abyste přispěli k překladům nebo vylepšili stávající!
+Want to help translate? [url=https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006]Join our Crowdin project[/url] to contribute translations or improve existing ones!
 
-[h2]Související Mody[/h2]
+[h2]Related Mods[/h2]
 
 [list]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3622407938]Bez Údržby[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3622407938]No Upkeep[/url]
 [/list]
 
-[h2]Unikátní Najímání[/h2]
+[h2]Unique Recruitment[/h2]
 
-Idrinth může být najat jako Lord nebo Hrdina těmi, kteří by mohli ocenit jeho dvojí povahu:
+Idrinth can be recruited as Lord or Hero by those who might value his dual nature:
 [list]
-[*]Říše (hledající tajné vědění)
-[*]Kislev (zoufale hledající mocné spojence)
-[*]Vysocí Elfové (přející si získat zpět jednoho ze svých)
-[*]Lesní Elfové (oceňující jeho spojení s Kurnousem)
-[*]Upírská Hrabata (přijímající jeho nově nabytou moc)
+[*]The Empire (seeking arcane knowledge)
+[*]Kislev (desperate for powerful allies)
+[*]High Elves (wishing to reclaim one of their own)
+[*]Wood Elves (valuing his connection to Kurnous)
+[*]Vampire Counts (embracing his newfound power)
 [/list]
-[h3]Volnější Režim Lore[/h3]
-Ve volnějším režimu lore jsou přidány některé méně pravděpodobné frakce, reprezentující zoufalé aliance:
+[h3]Looser Lore Mode[/h3]
+In the looser lore mode some less likely factions are added, that represent desperate alliances:
 [list]
-[*]Bretonnie
+[*]Bretonnia
 [*]Cathay
-[*]Temní Elfové
-[*]Legie Nagashe (modifikovaná frakce)
-[*]Pobřeží Upírů
+[*]Dark Elves
+[*]Legions of Nagash(modded Faction)
+[*]Vampire Coast
 [/list]
 
-[h2]Klíčové Vlastnosti[/h2]
+[h2]Key Features[/h2]
 
-[h3]Systém Božské Přízně[/h3]
-Vyvažujte svou věrnost mezi třemi mocnými elfími božstvy, z nichž každé nabízí unikátní cesty k sjednocení Idrinthovy roztříštěné existence:
+[h3]Divine Favor System[/h3]
+Balance your allegiance between three powerful Elven deities, each offering unique paths to unify Idrinth's fractured existence:
 [list]
-[*][b]Khaine[/b]: Přijměte agresi se zlepšenými schopnostmi v boji zblízka a výstupem poškození
-[*][b]Asuryan[/b]: Hledejte rovnováhu skrze vylepšenou obranu a magickou odolnost
-[*][b]Kurnous[/b]: Následujte cestu lovce s převahou na dálku a mobilitou
+[*][b]Khaine[/b]: Embrace aggression with enhanced melee prowess and damage output
+[*][b]Asuryan[/b]: Seek balance through improved defenses and magical resistance
+[*][b]Kurnous[/b]: Channel the hunter's path with ranged superiority and mobility
 [/list]
 
-[b]Systém Kaplí[/b]
-Na základě božských vlivů může Idrinth zakládat kaple, které výrazně ovlivňují velikost posádky, sílu a využití božské přízně, stejně jako prospívají místní ekonomice a růstu.
+[b]Chapel System[/b]
+Based on the divine influences, Idrinth can found chapels that noticeably affect garrison size, power and god favour use as well as benefiting the local economy and growth.
 
-Pokud není použit požadovaný mod, cizí sloty se mohou chovat podivně - mod není technicky vyžadován, pokud nehrajete frakci, která již má cizí sloty.
+If the required mod is not used the foreign slots might behave weirdly - the mod is not technically required unless you play a faction that already has foreign slots.
 
-[h3]Narativní Dilemata[/h3]
-Čelte kritickým rozhodnutím, která formují Idrinthův charakter a určují jeho vztah s božským. Přijmete své elfí kořeny, nebo se vzdáte upírské moci? Každé rozhodnutí ovlivňuje vaši božskou přízeň a odemyká trvalé bonusy.
+[h3]Narrative Dilemmas[/h3]
+Face critical choices that shape Idrinth's character and determine his relationship with the divine. Will you embrace your elven roots or surrender to vampiric power? Each decision affects your divine favor and unlocks permanent bonuses.
 
-[h3]Sady Božských Artefaktů[/h3]
-Sbírejte a vybavujte mocné artefakty spojené s bohy, které posilují Idrinthovy schopnosti. Dokončete sadu a získejte speciální bonusy, které doplňují vámi zvolenou božskou cestu.
+[h3]Divine Artifact Sets[/h3]
+Collect and equip powerful god-aligned artifacts that enhance Idrinth's abilities. Complete a set to earn special bonuses that complement your chosen divine path.
 
-[h3]Následky Zabijáka Elfů[/h3]
-Dynamický systém vlastností, který sleduje vaše bitvy proti elfím frakcím. Čím více elfů zabijete, tím více budete známí, opovrhovaní a nakonec nenáviděni mezi jejich lidem, s významnými diplomatickými a božskými důsledky.
+[h3]Elven Slayer Consequences[/h3]
+A dynamic trait system that tracks your battles against elven factions. The more elves you slay, the more you'll be known, despised, and eventually hated among their kind, with significant diplomatic and divine favor consequences.
 
-[h3]Magická Všestrannost[/h3]
-Ovládněte kouzla z více magických tradic, odrážející Idrinthovo učenecké pozadí a jeho upírskou proměnu:
+[h3]Arcane Versatility[/h3]
+Master spells from multiple magical lores, reflecting Idrinth's scholarly background and vampiric transformation:
 [list]
-[*]Tradice Upírů
-[*]Tradice Smrti
-[*]Tradice Stínů
+[*]Lore of Vampires
+[*]Lore of Death
+[*]Lore of Shadows
 [/list]
 
-[h3]Vlastní Bitevní Frakce[/h3]
+[h3]Custom Battle Faction[/h3]
 
-Hrajte síly kaplí jako vlastní frakci ve vlastních bitvách, jak v režimu pro jednoho hráče, tak v multiplayeru.
+Play the chapel forces as their own faction in custom battles, both single-player and multiplayer.
 
-[h3]Zvířecí WAAAGH[/h3]
+[h3]Animal WAAAGH[/h3]
 
-Generál kolem sebe shromažďuje zvěřinec spojeneckých zvířat a vytváří waaagh z požehnaných zvířat.
+The general collects a menagerie of allied animals around him, creating a waaagh out of blessed animals.
 
-[h2]UPOZORNĚNÍ NA ALFA VERZI[/h2]
+[h2]ALPHA VERSION NOTICE[/h2]
 
-Tento mod je v [b]RANÉ ALFA[/b] fázi vývoje. Můžete narazit na:
+This mod is in [b]EARLY ALPHA[/b] development. You may encounter:
 
 [list]
-[*]Některá tlačítka v armádě nemusí fungovat
-[*]Některé změny UI potřebují chvíli na aplikaci
-[*]Probíhající úpravy vyvážení
-[*]Systém modliteb dočasně nahrazen náhodně spouštěnými božskými zásahy
+[*]Some buttons in the army might be non functional
+[*]Some UI-Changes take a second to apply
+[*]Balance adjustments ongoing
+[*]Prayer system temporarily replaced by random triggering godly interventions
 [/list]
 
-Vaše zpětná vazba je nezbytná pro zlepšování! Prosím hlaste jakékoli problémy, na které narazíte.
+Your feedback is essential for improvement! Please report any issues you encounter.
 
-[h2]Poznámka ke Kompatibilitě:[/h2]
+[h2]Compatibility Note:[/h2]
 
-Vlastní frakce Nagashe je teoreticky podporována. Podpora však potřebuje testování ve hře, pokud najdete chyby, hlaste je zde a neobtěžujte druhý mod!
+The custom faction of Nagash is theoretically supported. The support needs play-testing though, if you find bugs report them here and don't bother the other mod!
 
-[h2]AI v tomto modu[/h2]
+[h2]AI in this mod[/h2]
 
-V modu jsou aktuálně některé obrázky generované AI. Postupně jsou nahrazovány odpovídajícím uměním, jakmile bude identita a vzhled jednotek finální.
+There are currently some AI-generated images in the mod. They are being replaced by proper art over time once the unit identity and looks are final.
 
-[h2]Sociální Sítě[/h2]
-Pokud chcete diskutovat o modu nebo potřebujete podporu, neváhejte se zastavit na [url=https://discord.gg/idrinth]Discordu[/url]! Pokud chcete pomoci opravovat věci, kód je na [url=https://github.com/Idrinth/tw-idrinth]GitHubu[/url]! Pokud chcete vylepšit překlady, navštivte [url=https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006]Crowdin[/url] - technické znalosti nejsou vyžadovány!
+[h2]Socials[/h2]
+If you want to discuss the mod or need support, feel free to drop by on [url=https://discord.gg/idrinth]Discord[/url]! If you want to help fix things, the code is on [url=https://github.com/Idrinth/tw-idrinth]GitHub[/url]! If you want to improve translations visit [url=https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006]Crowdin[/url] - no technical knowledge required!
