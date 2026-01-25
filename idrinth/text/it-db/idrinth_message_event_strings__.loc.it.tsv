@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/idrinth__it.loc.tsvdb/idrinth__it.loc		
+message_event_strings_title_idrinth_chapel_lost	Chapel Lost	false
+message_event_strings_title_idrinth_chapel_founded	Chapel Founded	false
+message_event_strings_title_idrinth_godly_intervention	The Gods Intervene	false
