@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__pl.loc.tsvdb/idrinth__pl.loc		
+#Loc;1;text/idrinth_versions__.pl.loc.tsv/idrinth_versions__.pl.loc		
 mct_patch_notes_idrinth_129_notes	- poprawka kosztow skarbca dla ulepszen, ktore dawaly pieniadze zamiast je kosztowac	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- przepisany kod dla lepszej stabilnosci\\n- wiecej opcji w narzedziu konfiguracji moda\\n- wiele drobnych poprawek	false
