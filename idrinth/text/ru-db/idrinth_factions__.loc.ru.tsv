@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/idrinth__ru.loc.tsvdb/idrinth__ru.loc		
+factions_attack_desc_idrinth_hev_high_elf_vampires	You are attacking the Thaluian Chapels!	false
+factions_defend_desc_idrinth_hev_high_elf_vampires	You are defending against the Thaluian Chapels!	false
+factions_screen_adjective_idrinth_hev_high_elf_vampires	thaluian	false
+factions_screen_name_idrinth_hev_high_elf_vampires	Талуианские Капеллы	false
+factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires	Rogue Thaluian Chapels	false
