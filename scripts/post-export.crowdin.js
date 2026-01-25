@@ -34,9 +34,6 @@ if (fileName.endsWith(".tsv")) {
   if (fileName.endsWith(".steam.tsv")) {
     fileName = fileName.replace(/\.tsv$/, "");
     content =  content.replace(/^steam_description\t/, "").replace(/\\\\n/g, "\n")
-  } else if (! fileName.endsWith(".loc.tsv")) {
-    fileName = fileName.replace(/\.loc\.(.+)\.tsv$/, "$1.loc.tsv");
-    content = content.replace(/\n/, "\n#Loc;1;text/db/"+fileName.replace(/\.tsv$/, "")+"\t\t\n");
   } else {
     content = content.replace(/\n/, "\n#Loc;1;text/db/"+fileName+"\t\t\n");
   }
