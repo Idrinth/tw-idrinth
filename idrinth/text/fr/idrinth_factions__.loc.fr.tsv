@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_factions__.fr.loc.tsv/idrinth_factions__.fr.loc		
+#Loc;1;text/.fr/idrinth_factions__.fr.loc		
 factions_attack_desc_idrinth_hev_high_elf_vampires	Vous attaquez les Chappelles Thaluiennes !	false
 factions_defend_desc_idrinth_hev_high_elf_vampires	Vous défendez contre les Chappelles Thaluiennes !	false
 factions_screen_adjective_idrinth_hev_high_elf_vampires	thaluien	false
