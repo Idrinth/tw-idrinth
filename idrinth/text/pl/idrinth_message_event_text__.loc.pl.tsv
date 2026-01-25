@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/idrinth_message_event_text__.pl.loc.tsv/idrinth_message_event_text__.pl.loc		
+message_event_text_idrinth_chapel_lost	Kaplica została spalona przez nowego właściciela osady. Gdzie teraz będziemy się gromadzić?	false
+message_event_text_idrinth_chapel_founded	Miejsce dla nowej Kaplicy zostało poświęcone przez bogów. Powinniśmy szybko ją zbudować, aby zyskać ich błogosławieństwa.	false
+message_event_text_idrinth_godly_intervention	Idrinth informuje cię, że jego bogowie postanowili działać, aby wspierać twoją sprawę. Twoje armie będą potężniejsze dzięki boskim błogosławieństwom przez pewien czas.	false
+message_event_text_idrinth_godly_intervention_subtitle	Asuryan, Khaine i Kurnous działają.	false
