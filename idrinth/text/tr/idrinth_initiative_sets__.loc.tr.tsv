@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_initiative_sets__.tr.loc.tsv/idrinth_initiative_sets__.tr.loc		
+#Loc;1;text/.tr/idrinth_initiative_sets__.tr.loc		
 initiative_sets_localised_name_idrinth_godly_favour	Adanmışlık	false
 initiative_sets_localised_name_idrinth_godly_blessings	Kutsamalar	false
 initiative_sets_localised_description_idrinth_godly_favour		false
