@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_unit_abilities__.kr.loc.tsv/idrinth_unit_abilities__.kr.loc		
+#Loc;1;text/.kr/idrinth_unit_abilities__.kr.loc		
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding	인내의 맹세	false
 unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding		false
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded	대 인내의 맹세	false
