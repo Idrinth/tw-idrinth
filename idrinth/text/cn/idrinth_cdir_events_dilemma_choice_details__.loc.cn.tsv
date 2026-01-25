@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_cdir_events_dilemma_choice_details__.cn.loc.tsv/idrinth_cdir_events_dilemma_choice_details__.cn.loc		
+#Loc;1;text/.cn/idrinth_cdir_events_dilemma_choice_details__.cn.loc		
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceFIRST	接受帮助。（英雄）	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceTHIRD	接受帮助。（将军）	false
 cdir_events_dilemma_choice_details_localised_choice_label_idrinth_unlock_choiceSECOND	赶走陌生人。	false
