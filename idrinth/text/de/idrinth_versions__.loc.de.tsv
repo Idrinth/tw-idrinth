@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__de.loc.tsvdb/idrinth__de.loc		
+#Loc;1;text/idrinth_versions__.de.loc.tsv/idrinth_versions__.de.loc		
 mct_patch_notes_idrinth_129_notes	- Behebung der Schatzkosten für Upgrades, die Geld gaben statt kosteten	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- Code für bessere Stabilität umgeschrieben\\n- Mehr Optionen im Mod-Konfigurationstool\\n- Viele kleine Korrekturen	false
