@@ -1,4 +1,3 @@
 key	text	tooltip
 #Loc;1;text/db/idrinth__cz.loc	
-campaign_localised_strings_string_idrinth_godly_blessings_explanation	Vyber, kterému bohu zasvětit Idrintha, abys získal jejich pozornost.	false
-campaign_localised_strings_string_idrinth_godly_favour_explanation	Modli se k bohům pro získání požehnání pro své spojence.	false
+campaign_payload_ui_details_description_dummy_spawn_idrinth_thalui	Naverbuj cizince.	false
