@@ -1,0 +1,14 @@
+key	text	tooltip
+#Loc;1;text/idrinth_initiatives__.zh.loc.tsv/idrinth_initiatives__.zh.loc		
+initiatives_localised_name_idrinth_khaine_pledge	將自己奉獻給凱恩	false
+initiatives_localised_name_idrinth_kurnous_pledge	將自己奉獻給庫爾諾斯	false
+initiatives_localised_name_idrinth_asuryan_pledge	將自己奉獻給阿蘇瑞安	false
+initiatives_localised_name_idrinth_khaine_prayer	向凱恩祈禱	false
+initiatives_localised_name_idrinth_kurnous_prayer	向庫爾諾斯祈禱	false
+initiatives_localised_name_idrinth_asuryan_prayer	向阿蘇瑞安祈禱	false
+idrinth_khaine_pledge		false
+idrinth_kurnous_pledge		false
+idrinth_asuryan_pledge		false
+idrinth_khaine_prayer		false
+idrinth_kurnous_prayer		false
+idrinth_asuryan_prayer		false
