@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__fr.loc.tsvdb/idrinth__fr.loc		
+#Loc;1;text/idrinth_versions__.fr.loc.tsv/idrinth_versions__.fr.loc		
 mct_patch_notes_idrinth_129_notes	- correction des couts de tresorerie pour les ameliorations qui donnaient de l'argent au lieu d'en couter	false
 mct_patch_notes_idrinth_129_version	v1.6.4	false
 mct_patch_notes_idrinth_128_notes	- code reecrit pour une meilleure stabilite\\n- plus d'options dans l'outil de configuration du mod\\n- nombreuses petites corrections	false
