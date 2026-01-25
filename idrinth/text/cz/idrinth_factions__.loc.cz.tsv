@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_factions__.cz.loc.tsv/idrinth_factions__.cz.loc		
+#Loc;1;text/.cz/idrinth_factions__.cz.loc		
 factions_attack_desc_idrinth_hev_high_elf_vampires	Útočíš na Thaluiánské kaple!	false
 factions_defend_desc_idrinth_hev_high_elf_vampires	Bráníš se proti Thaluiánským kaplím!	false
 factions_screen_adjective_idrinth_hev_high_elf_vampires	thaluiánský	false
