@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_message_event_strings__.tr.loc.tsv/idrinth_message_event_strings__.tr.loc		
+#Loc;1;text/.tr/idrinth_message_event_strings__.tr.loc		
 message_event_strings_title_idrinth_chapel_lost	Şapel Kaybedildi	false
 message_event_strings_title_idrinth_chapel_founded	Şapel Kuruldu	false
 message_event_strings_title_idrinth_godly_intervention	Tanrılar Müdahale Ediyor	false
