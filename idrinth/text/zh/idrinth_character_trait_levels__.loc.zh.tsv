@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_character_trait_levels__.zh.loc.tsv/idrinth_character_trait_levels__.zh.loc		
+#Loc;1;text/.zh/idrinth_character_trait_levels__.zh.loc		
 character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	你是凱恩和其他精靈所知的精靈殺手。	false
 character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	你與許多精靈軍隊交戰過。	false
 character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	凱恩詛咒的精靈殺手	false
