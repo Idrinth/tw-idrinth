@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth__it.loc.tsv/idrinth__it.loc		
+#Loc;1;text/idrinth_unit_abilities__.it.loc.tsv/idrinth_unit_abilities__.it.loc		
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding	Giuramento di Resistenza	false
 unit_abilities_tooltip_text_idrinth_lore_thalui_oath_of_withstanding		false
 unit_abilities_onscreen_name_idrinth_lore_thalui_oath_of_withstanding_upgraded	Grande Giuramento di Resistenza	false
