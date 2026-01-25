@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc;1;text/idrinth_factions__.br.loc.tsv/idrinth_factions__.br.loc		
+#Loc;1;text/.br/idrinth_factions__.br.loc		
 factions_attack_desc_idrinth_hev_high_elf_vampires	Você está atacando as Capelas Thaluianas!	false
 factions_defend_desc_idrinth_hev_high_elf_vampires	Você está se defendendo contra as Capelas Thaluianas!	false
 factions_screen_adjective_idrinth_hev_high_elf_vampires	thaluiano	false
