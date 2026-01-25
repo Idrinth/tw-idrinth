@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/idrinth_ancillary_sets__pl.loc.tsv/idrinth_ancillary_sets__pl.loc		
+ancillary_sets_name_anc_set_exclusive_idrinth_khaine	Błogosławieństwo Khaine'a	false
+ancillary_sets_name_anc_set_exclusive_idrinth_kurnous	Błogosławieństwo Kurnousa	false
+ancillary_sets_name_anc_set_exclusive_idrinth_asuryan	Błogosławieństwo Asuryana	false
+ancillary_sets_description_anc_set_exclusive_idrinth_khaine	Błogosławione przedmioty Khaine'a czynią z ciebie działające źródło śmierci i zniszczenia.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_kurnous	Błogosławione przedmioty Kurnousa czynią z ciebie jednego z najniebezpieczniejszych żyjących łowców.	false
+ancillary_sets_description_anc_set_exclusive_idrinth_asuryan	Błogosławione przedmioty Asuryana definiują obrońcę bezbronnych,	false
