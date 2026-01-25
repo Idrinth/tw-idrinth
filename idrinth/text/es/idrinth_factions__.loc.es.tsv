@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/idrinth_factions__.es.loc.tsv/idrinth_factions__.es.loc		
+factions_attack_desc_idrinth_hev_high_elf_vampires	¡Estás atacando a las Capillas Thaluianas!	false
+factions_defend_desc_idrinth_hev_high_elf_vampires	¡Estás defendiéndote de las Capillas Thaluianas!	false
+factions_screen_adjective_idrinth_hev_high_elf_vampires	thaluiano	false
+factions_screen_name_idrinth_hev_high_elf_vampires	Las Capillas Thaluianas	false
+factions_screen_name_when_rebels_idrinth_hev_high_elf_vampires	Capillas Thaluianas Rebeldes	false
