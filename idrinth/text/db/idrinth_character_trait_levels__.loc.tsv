@@ -1,58 +1,57 @@
-key	text	tooltip
-#Loc;1;text/db/idrinth_character_trait_levels__.loc		
-character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known	You are a known slayer of elves to Khaine and other elves.	false
-character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known	You have fought many armies of elves.	false
-character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known	Khaine-Cursed Slayer of Elves	false
-character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known		false
-character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised	You are a known slayer of elves to Khaine and other elves.	false
-character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised	You have fought many armies of elves.	false
-character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised	Despised Khaine-Cursed Slayer of Elves	false
-character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised		false
-character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated	You are a known slayer of elves to Khaine and other elves.	false
-character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated	You have fought many armies of elves.	false
-character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated	Hated Khaine-Cursed Slayer of Elves	false
-character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated		false
-character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known	You are a known slayer of elves to Kurnous and other elves.	false
-character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known	You have fought many armies of elves.	false
-character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known	Kurnous-Cursed Slayer of Elves	false
-character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known		false
-character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised	You are a known slayer of elves to Kurnous and other elves.	false
-character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised	You have fought many armies of elves.	false
-character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised	Despised Kurnous-Cursed Slayer of Elves	false
-character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised		false
-character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated	You are a known slayer of elves to Kurnous and other elves.	false
-character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated	You have fought many armies of elves.	false
-character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated	Hated Kurnous-Cursed Slayer of Elves	false
-character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated		false
-character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known	You are a known slayer of elves to Asuryan and other elves.	false
-character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known	You have fought many armies of elves.	false
-character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known	Asuryan-Cursed Slayer of Elves	false
-character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known		false
-character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised	You are a known slayer of elves to Asuryan and other elves.	false
-character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised	You have fought many armies of elves.	false
-character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised	Despised Asuryan-Cursed Slayer of Elves	false
-character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised		false
-character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated	You are a known slayer of elves to Asuryan and other elves.	false
-character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated	You have fought many armies of elves.	false
-character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated	Hated Asuryan-Cursed Slayer of Elves	false
-character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated		false
-character_trait_levels_onscreen_name_idrinth_killer	Vengeance is mine	false
-character_trait_levels_removal_text_idrinth_killer		false
-character_trait_levels_explanation_text_idrinth_killer	You defeated Idrinth Thalui.	false
-character_trait_levels_colour_text_idrinth_killer	Defeating this legendary lord has granted you additional understanding of combat.	false
-character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1	Asuryan Devotee	false
-character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2	Asuryan Priest	false
-character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3	Asuryan Fanatic	false
-character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1	Asuryan Doubter	false
-character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2	Asuryan Renegade	false
-character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1	Khaine Devotee	false
-character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2	Khaine Priest	false
-character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3	Khaine Fanatic	false
-character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1	Khaine Doubter	false
-character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2	Khaine Renegade	false
-character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1	Kurnous Devotee	false
-character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2	Kurnous Priest	false
-character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3	Kurnous Fanatic	false
-character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1	Kurnous Doubter	false
-character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2	Kurnous Renegade	false
-character_trait_levels_onscreen_name_idrinth_thalui_name_active	Thalui	false
+"key"	"text"	"tooltip"
+"character_trait_levels_colour_text_idrinth_elf_slayer_khaine_known"	"You are a known slayer of elves to Khaine and other elves."	"false"
+"character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_known"	"You have fought many armies of elves."	"false"
+"character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_known"	"Khaine-Cursed Slayer of Elves"	"false"
+"character_trait_levels_removal_text_idrinth_elf_slayer_khaine_known"	""	"false"
+"character_trait_levels_colour_text_idrinth_elf_slayer_khaine_despised"	"You are a known slayer of elves to Khaine and other elves."	"false"
+"character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_despised"	"You have fought many armies of elves."	"false"
+"character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_despised"	"Despised Khaine-Cursed Slayer of Elves"	"false"
+"character_trait_levels_removal_text_idrinth_elf_slayer_khaine_despised"	""	"false"
+"character_trait_levels_colour_text_idrinth_elf_slayer_khaine_hated"	"You are a known slayer of elves to Khaine and other elves."	"false"
+"character_trait_levels_explanation_text_idrinth_elf_slayer_khaine_hated"	"You have fought many armies of elves."	"false"
+"character_trait_levels_onscreen_name_idrinth_elf_slayer_khaine_hated"	"Hated Khaine-Cursed Slayer of Elves"	"false"
+"character_trait_levels_removal_text_idrinth_elf_slayer_khaine_hated"	""	"false"
+"character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_known"	"You are a known slayer of elves to Kurnous and other elves."	"false"
+"character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_known"	"You have fought many armies of elves."	"false"
+"character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_known"	"Kurnous-Cursed Slayer of Elves"	"false"
+"character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_known"	""	"false"
+"character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_despised"	"You are a known slayer of elves to Kurnous and other elves."	"false"
+"character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_despised"	"You have fought many armies of elves."	"false"
+"character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_despised"	"Despised Kurnous-Cursed Slayer of Elves"	"false"
+"character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_despised"	""	"false"
+"character_trait_levels_colour_text_idrinth_elf_slayer_kurnous_hated"	"You are a known slayer of elves to Kurnous and other elves."	"false"
+"character_trait_levels_explanation_text_idrinth_elf_slayer_kurnous_hated"	"You have fought many armies of elves."	"false"
+"character_trait_levels_onscreen_name_idrinth_elf_slayer_kurnous_hated"	"Hated Kurnous-Cursed Slayer of Elves"	"false"
+"character_trait_levels_removal_text_idrinth_elf_slayer_kurnous_hated"	""	"false"
+"character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_known"	"You are a known slayer of elves to Asuryan and other elves."	"false"
+"character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_known"	"You have fought many armies of elves."	"false"
+"character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_known"	"Asuryan-Cursed Slayer of Elves"	"false"
+"character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_known"	""	"false"
+"character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_despised"	"You are a known slayer of elves to Asuryan and other elves."	"false"
+"character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_despised"	"You have fought many armies of elves."	"false"
+"character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_despised"	"Despised Asuryan-Cursed Slayer of Elves"	"false"
+"character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_despised"	""	"false"
+"character_trait_levels_colour_text_idrinth_elf_slayer_asuryan_hated"	"You are a known slayer of elves to Asuryan and other elves."	"false"
+"character_trait_levels_explanation_text_idrinth_elf_slayer_asuryan_hated"	"You have fought many armies of elves."	"false"
+"character_trait_levels_onscreen_name_idrinth_elf_slayer_asuryan_hated"	"Hated Asuryan-Cursed Slayer of Elves"	"false"
+"character_trait_levels_removal_text_idrinth_elf_slayer_asuryan_hated"	""	"false"
+"character_trait_levels_onscreen_name_idrinth_killer"	"Vengeance is mine"	"false"
+"character_trait_levels_removal_text_idrinth_killer"	""	"false"
+"character_trait_levels_explanation_text_idrinth_killer"	"You defeated Idrinth Thalui."	"false"
+"character_trait_levels_colour_text_idrinth_killer"	"Defeating this legendary lord has granted you additional understanding of combat."	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_1"	"Asuryan Devotee"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_2"	"Asuryan Priest"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_asuryan_positive_3"	"Asuryan Fanatic"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_1"	"Asuryan Doubter"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_asuryan_negative_2"	"Asuryan Renegade"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_1"	"Khaine Devotee"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_2"	"Khaine Priest"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_khaine_positive_3"	"Khaine Fanatic"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_1"	"Khaine Doubter"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_khaine_negative_2"	"Khaine Renegade"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_1"	"Kurnous Devotee"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_2"	"Kurnous Priest"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_kurnous_positive_3"	"Kurnous Fanatic"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_1"	"Kurnous Doubter"	"false"
+"character_trait_levels_onscreen_name_idrinth_devotion_kurnous_negative_2"	"Kurnous Renegade"	"false"
+"character_trait_levels_onscreen_name_idrinth_thalui_name_active"	"Thalui"	"false"
