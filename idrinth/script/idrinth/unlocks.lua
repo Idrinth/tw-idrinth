@@ -338,6 +338,7 @@ cm:add_saving_game_callback(
                 cm:save_named_value("idrinth.unlocks."..faction, 1, context);
             end;
         end;
+        cm:save_named_value("idrinth.unlockLevelAdjustment", unlockLevelAdjustment, context);
     end
 );
 cm:add_loading_game_callback(
@@ -346,6 +347,7 @@ cm:add_loading_game_callback(
             for _, faction in pairs(Idrinth.factions) do
                 unlockMissionStarted[faction] = (cm:load_named_value("idrinth.unlocks."..faction, 0, context) == 1);
             end;
+            unlockLevelAdjustment = cm:load_named_value("idrinth.unlockLevelAdjustment", 0, context);
         end;
     end
 );

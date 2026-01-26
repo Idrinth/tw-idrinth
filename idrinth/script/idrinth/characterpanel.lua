@@ -91,13 +91,13 @@ end;
 --- Sets up the initiatives tab visibility based on the selected character.
 local setupInitiatives = function()
     local cqi = getChosenCharacterCQI();
-    if cqi and containsInitiatives(cqi) then
-        return;
-    end;
     local initiativesTab = Idrinth.Ui.findElementWithin(
         PANEL_NAME, CONTEXT_PARENT, TAB_GROUP, "character_initiatives"
     );
     setVisibility(initiativesTab, false);
+    if containsInitiatives(cqi) then
+        setVisibility(initiativesTab, true);
+    end;
 end;
 --- Hides Idrinth-specific panels when viewing a non-Idrinth character.
 local hideIdrinthPanels = function()
