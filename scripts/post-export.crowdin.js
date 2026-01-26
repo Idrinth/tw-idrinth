@@ -35,6 +35,6 @@ if (fileName.endsWith(".tsv")) {
     fileName = fileName.replace(/\.tsv$/, "");
     content =  content.replace(/^steam_description\t/, "").replace(/\\\\n/g, "\n")
   } else {
-    content = content.replace(/\n/, "\n#Loc;1;text/db/"+fileName+"\t\t\n");
+    content = content.replace(/\n/, "\n#Loc;1;text/db/!"+fileName.replace(/\.tsv$/, "")+"\t\t\n");
   }
 }
