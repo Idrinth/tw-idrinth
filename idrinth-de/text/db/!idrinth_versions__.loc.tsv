@@ -18,7 +18,7 @@ mct_patch_notes_idrinth_122_notes	- Einheiten-Upgrades für Elfeneinheiten sind 
 mct_patch_notes_idrinth_122_version	v1.5.0	false
 mct_patch_notes_idrinth_121_notes	- Code-Bereinigungen	false
 mct_patch_notes_idrinth_121_version	v1.4.6	false
-mct_patch_notes_idrinth_120_notes	- Behebung des Namensverlusts bei Zuweisung einer Piratenküsten-"Regierungsposition"	false
+mct_patch_notes_idrinth_120_notes	- Behebung des Namensverlusts bei Zuweisung einer Piratenküsten-"Regierungsposition	false
 mct_patch_notes_idrinth_120_version	v1.4.5	false
 mct_patch_notes_idrinth_119_notes	- Korrekturen bei Kampfressourcen\\n- Code-Optimierungen	false
 mct_patch_notes_idrinth_119_version	v1.4.4	false
@@ -262,5 +262,7 @@ mct_patch_notes_idrinth_130_notes	- MCT-Verbesserungen, einschließlich Patch-No
 mct_patch_notes_idrinth_130_version	v1.6.5	false
 mct_patch_notes_idrinth_131_notes	- add missing winds of magic to Idrinth's horde	false
 mct_patch_notes_idrinth_131_version	v1.6.6	false
-mct_patch_notes_idrinth_132_notes	- add better icons for veteran ranks	false
-mct_patch_notes_idrinth_132_version	v1.7.0	false
+mct_patch_notes_idrinth_133_notes	- add better icons for veteran ranks	false
+mct_patch_notes_idrinth_133_version	v1.7.0	false
+mct_patch_notes_idrinth_132_notes	- fix the army.lua file that prevented part of the mod from working	false
+mct_patch_notes_idrinth_132_version	v1.6.7	false
