@@ -61,3 +61,6 @@ id	choice_key	dilemma_key	payload_key	value	target_key
 10000000058	FIRST	idrinth_dilemma_dwarves	EFFECT_BUNDLE	KEY[idrinth_dilemma_dwarves_FIRST];DURATION[15]	default
 10000000059	SECOND	idrinth_dilemma_dwarves	EFFECT_BUNDLE	KEY[idrinth_dilemma_dwarves_SECOND];DURATION[15]	default
 10000000060	THIRD	idrinth_dilemma_dwarves	EFFECT_BUNDLE	KEY[idrinth_dilemma_dwarves_THIRD];DURATION[15]	default
+10000000061	FIRST	idrinth_dilemma_lizardmen	EFFECT_BUNDLE	KEY[idrinth_dilemma_lizardmen_FIRST];DURATION[15]	default
+10000000062	SECOND	idrinth_dilemma_lizardmen	EFFECT_BUNDLE	KEY[idrinth_dilemma_lizardmen_SECOND];DURATION[15]	default
+10000000063	THIRD	idrinth_dilemma_lizardmen	EFFECT_BUNDLE	KEY[idrinth_dilemma_lizardmen_THIRD];DURATION[15]	default

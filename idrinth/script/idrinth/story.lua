@@ -26,7 +26,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.15,
             wh3_main_ksl_kislev = 0.1,
             wh_main_vmp_vampire_counts = 0.05,
-        }
+        },
     },
     wood_elves = {
         min_rounds = 15,
@@ -42,7 +42,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.15,
             wh3_main_ksl_kislev = 0.1,
             wh_main_vmp_vampire_counts = 0.05,
-        };
+        },
     },
     kislev = {
         min_rounds = 15,
@@ -58,7 +58,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.3,
             wh3_main_ksl_kislev = 0.5,
             wh_main_vmp_vampire_counts = 0.15,
-        };
+        },
     },
     empire = {
         min_rounds = 15,
@@ -74,7 +74,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.5,
             wh3_main_ksl_kislev = 0.3,
             wh_main_vmp_vampire_counts = 0.15,
-        };
+        },
     },
     vampire_counts = {
         min_rounds = 15,
@@ -90,7 +90,7 @@ local dilemmas = {
             wh_main_emp_empire = 0.3,
             wh3_main_ksl_kislev = 0.15,
             wh_main_vmp_vampire_counts = 0.5,
-        };
+        },
     },
     dwarves = {
         min_rounds = 20,
@@ -106,8 +106,18 @@ local dilemmas = {
             wh_main_emp_empire = 0.25,
             wh3_main_ksl_kislev = 0.2,
             wh_main_vmp_vampire_counts = 0.1,
-        };
-    };
+        },
+    },
+    lizardmen = {
+        min_rounds = 10,
+        min_battles_fought = 5,
+        min_assassinations = 5,
+        min_level = 0,
+        key = "idrinth_dilemma_lizardmen",
+        triggered = false,
+        chance = 0.01,
+        chances = {},
+    },
 };
 Idrinth.Events.addListener(
     "FactionTurnStart",
