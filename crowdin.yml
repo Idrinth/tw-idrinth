@@ -4,4 +4,4 @@ files:
   - source: /idrinth/readme.steam
     translation: /idrinth-%two_letters_code%/readme.steam
   - source: /idrinth/mod-logo-text.txt
-    translation: idrinth-%two_letters_code%/mod-logo-text.txt
+    translation: /idrinth-%two_letters_code%/mod-logo-text.txt
