@@ -14,10 +14,14 @@ function fixCrowdinTsv(tsvContent) {
         return line;
       }
       return line.split('\t').map(field => {
-        field = field.replace(/""+/g, '"');
+        // First remove wrapper quotes added by Crowdin
         if (field.startsWith('"') && field.endsWith('"')) {
           field = field.slice(1, -1);
-        }        
+        }
+        // Then unescape doubled quotes (loop for multi-escaped like """" → "" → ")
+        while (field.includes('""')) {
+          field = field.replace(/""/g, '"');
+        }
         return field;
       }).join('\t');
     })
