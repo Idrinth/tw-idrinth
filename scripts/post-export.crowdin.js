@@ -10,19 +10,14 @@ function fixCrowdinTsv(tsvContent) {
     .replace(/\r\n|\n\r/g, "\n")
     .split('\n')
     .map(line => {
-      if (!line.trim()) return line;
-      
-      // Split by tab, process each field
+      if (!line.trim()) {
+        return line;
+      }
       return line.split('\t').map(field => {
-        // Remove wrapping quotes if present
+        field = field.replace(/""+/g, '"');
         if (field.startsWith('"') && field.endsWith('"')) {
           field = field.slice(1, -1);
-        }
-        
-        // Collapse any sequence of 2+ quotes down to a single quote
-        // This handles ""  """"  """"""""""  etc. all becoming "
-        field = field.replace(/""+/g, '"');
-        
+        }        
         return field;
       }).join('\t');
     })
