@@ -104,6 +104,16 @@ local countActiveButtons = function(buttons)
     end);
 end;
 
+--- Counts the number of active (selected) buttons in a button list.
+--- @param buttons userdata The button list UI component.
+--- @return number The count of selected buttons.
+local countVisibleButtons = function(buttons)
+    return Idrinth.Ui.countChildrenWhere(buttons, function(button)
+        return button:VisibleFromRoot();
+    end);
+end;
+
+
 --- Handles the case when no buttons are active by showing the default view.
 --- @param settlement userdata The settlement view UI component.
 local handleNoActiveButtons = function(settlement, buttons, clickedButton)
@@ -158,7 +168,9 @@ local updateSettlementViewState = function(clickedButton)
         local settlement = Idrinth.Ui.findElementWithin(parentItem, SETTLEMENT_VIEW);
         local activeButtons = countActiveButtons(buttons);
         if activeButtons == 0 then
-            handleNoActiveButtons(settlement, buttons, clickedButton);
+            if countVisibleButtons(buttons) > 1 then
+                handleNoActiveButtons(settlement, buttons, clickedButton);
+            end;
         elseif activeButtons == 1 then
             handleSingleActiveButton(settlement, clickedButton);
         else

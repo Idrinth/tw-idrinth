@@ -121,3 +121,6 @@ idrinth_veteran_6			none	1	veteran_experience_6.png	true	false	true
 idrinth_veteran_7			none	1	veteran_experience_7.png	true	false	true
 idrinth_veteran_8			none	1	veteran_experience_8.png	true	false	true
 idrinth_veteran_9			none	1	veteran_experience_9.png	true	false	true
+idrinth_dilemma_lizardmen_FIRST			faction	1	character.png	true	false	false
+idrinth_dilemma_lizardmen_SECOND			faction	1	character.png	true	false	false
+idrinth_dilemma_lizardmen_THIRD			faction	1	character.png	true	false	false
