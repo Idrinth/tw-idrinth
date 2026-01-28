@@ -23,6 +23,7 @@ Will you guide him toward redemption or embrace the darkness within? His fate re
 - Korean/한국어
 - Simplified Chinese/简体中文
 - Traditional Chinese/繁體中文
+- Japanese/日本語
 
 Want to help translate? Join our [Crowdin project](https://crowdin.com/project/idrinth-thalui/invite?h=e154f2cc138e3ad109516051cdd96edf2662006) to contribute translations or improve existing ones!
 
