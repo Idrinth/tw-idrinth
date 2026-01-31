@@ -10,6 +10,7 @@ Thank you for your interest in contributing to Idrinth! This guide explains the 
 - [Getting Started](#getting-started)
 - [Making Changes](#making-changes)
 - [Code Conventions](#code-conventions)
+- [Formatting Standards](#formatting-standards)
 - [Localization](#localization)
 - [Submitting Changes](#submitting-changes)
 - [CI Checks](#ci-checks)
@@ -270,6 +271,71 @@ cm:callback(function()
     -- Delayed logic
 end, 0.5); -- Delay in seconds
 ```
+
+## Formatting Standards
+
+This project enforces consistent formatting through `.editorconfig` and `.gitattributes`. Most editors support EditorConfig natively or via a plugin — install one if prompted.
+
+### Line Endings
+
+All text files use **LF** (`\n`) line endings. The `.gitattributes` file enforces this at the Git level, and `.editorconfig` configures editors to use LF. Do not commit files with CRLF (`\r\n`) line endings.
+
+### Indentation
+
+| File Type | Style | Size |
+|-----------|-------|------|
+| Lua (`.lua`) | Spaces | 4 |
+| TSV (`.tsv`) | Tabs | — |
+| XML (`.xml`) | Spaces | 2 |
+| Markdown (`.md`) | Spaces | 2 |
+| YAML (`.yml`) | Spaces | 2 |
+| JSON (`.json`) | Spaces | 2 |
+| Python (`.py`) | Spaces | 4 |
+| Shell (`.sh`) | Spaces | 2 |
+
+### Character Encoding
+
+All text files must use **UTF-8** encoding without BOM.
+
+### Trailing Whitespace
+
+Trailing whitespace is trimmed on save for most file types. Exceptions:
+
+- **TSV files** (`.tsv`) — trailing whitespace is preserved (field data may include it)
+- **Markdown files** (`.md`) — trailing whitespace is preserved (two trailing spaces create a line break)
+- **Steam descriptions** (`.steam`) — trailing whitespace is preserved
+
+### Final Newline
+
+All files must end with a single newline character.
+
+### Lua Formatting Rules
+
+Beyond indentation, Lua files follow these formatting conventions:
+
+- **Semicolons**: All statements end with a semicolon (`;`)
+- **Strings**: Use double quotes (`"text"`) for string literals
+- **Naming**: `snake_case` for local variables and functions; `PascalCase` for module names under the `Idrinth` namespace
+- **Scope**: Declare functions and variables as `local`; expose public API by returning a table
+- **Comments**: Use `---` (three hyphens) for documentation comments with `@module`, `@param`, `@return` tags; use `--` (two hyphens) for inline comments
+- **Blank lines**: Separate logical sections (function definitions, blocks) with a single blank line
+- **Line length**: Keep lines to a reasonable length (no strict limit, but aim for readability)
+
+### TSV Formatting Rules
+
+- Use literal **TAB** characters as column separators (not spaces)
+- Maintain column headers exactly as they appear in existing files
+- Metadata rows are prefixed with `#`
+- Do not add trailing tabs or extra columns
+
+### Editor Setup
+
+If your editor supports EditorConfig, it will automatically apply the correct settings. Common editors with built-in support:
+
+- **VS Code** — install the [EditorConfig extension](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- **IntelliJ / Rider** — built-in support
+- **Sublime Text** — install the EditorConfig package
+- **Vim / Neovim** — install the `editorconfig-vim` plugin
 
 ## Localization
 
