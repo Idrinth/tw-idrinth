@@ -1,0 +1,30 @@
+# Normalize line endings to LF on checkout
+* text=auto eol=lf
+
+# Lua scripts
+*.lua text eol=lf
+
+# Database and localization tables
+*.tsv text eol=lf
+
+# XML/TWUI files
+*.xml text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.steam text eol=lf
+
+# Configuration files
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+
+# Binary files - do not normalize
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.dds binary
