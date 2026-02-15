@@ -171,7 +171,7 @@ local spawnIdrinth = function(agentType, faction)
                 faction:command_queue_index(), Idrinth.Constants.HeroSubtype, leaderCqi, true
             );
         else
-            cm:spawn_unique_agent_at_region(faction:cqi(), Idrinth.Constants.HeroSubtype, region:cqi(), true);
+            cm:spawn_unique_agent_at_region(faction:command_queue_index(), Idrinth.Constants.HeroSubtype, region:cqi(), true);
         end;
     end;
     local idrinth = Idrinth.Access.get();
@@ -202,7 +202,7 @@ Idrinth.Events.addListener(
     "DilemmaChoiceMadeEvent",
     Idrinth.Events.Conditions.dilemmaIs("idrinth_levelMinimum_choice"),
     function(context)
-        unlockLevelAdjustment = dilemmaChoiceToLevel[context:choice()];
+        unlockLevelAdjustment = dilemmaChoiceToLevel[context:choice() + 1];
     end
 );
 Idrinth.Events.addListener(
