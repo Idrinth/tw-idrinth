@@ -3,7 +3,7 @@
 --- @return table Version table with main, feature, bug, and iteration numbers.
 return {
     main = 1,
-    feature = 7,
-    bug = 0,
-    iteration = 134,
+    feature = 6,
+    bug = 10,
+    iteration = 135,
 };
