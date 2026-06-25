@@ -14,7 +14,7 @@ jobs:
   luacheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Install lua
         run: sudo apt install lua5.1 liblua5.1-dev
       - name: Install luarocks
@@ -26,7 +26,7 @@ jobs:
   selene:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Install selene
         run: |
           curl -L https://github.com/Kampfkarren/selene/releases/download/0.29.0/selene-0.29.0-linux.zip -o selene.zip
